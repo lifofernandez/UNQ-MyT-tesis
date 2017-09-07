@@ -1,13 +1,13 @@
 # Universidad Nacional de Quilmes
-### Departamento de Ciencia y Tecnología
-LICENCIATURA EN MUSICA Y TECNOLOGÍA
+### Escuela de Artes
+LICENCIATURA EN MUSICA Y TECNOLOGIA
 
 ### Director de la Carrera   
 Esteban Calcagno
 
 ## Tesis de Grado
 Definición de estructura para hoja de analis o plan de obra musical, 
-basada en texto serializado simple y desarrolo de un sistema de herramientas 
+basada en texto serializado simple y desarrollo de un sistema de herramientas CLI 
 para generar sequencias MIDI a partir de las mismas. 
 
 ### Presentada por
@@ -21,11 +21,11 @@ Buenos Aires, Septimebre 2017
 /newpage
 
 ## 1. Resumen
-El presente plan propone la definición de una estructura 
-para hojas de analis o planes de obra musical, basada en texto serializado simple 
-en sintaxis de texto plano YAML acompañada por el desarrollo de 
-un sistema de herramientas para iterfaz de línea de comandos (CLI), 
-que genere a partir de dichas hojas secuencias musciales en el estandar MIDI. 
+El presente plan propone la definición de una estructurapara hojas de analis o 
+planes de obra musical, basada en texto plano serializado simple (legible) 
+en sintaxis YAML, acompañada por el desarrollo de un sistema de herramients
+para iterfaz de línea de comandos(CLI), que genere a partir de dichas
+hojas, secuencias musciales en el estandar MIDI. 
 
 Asi mismo se documentará este desarrollo para su correcta publicación 
 enmarcada bajo premisas del software libre y abierto. 
