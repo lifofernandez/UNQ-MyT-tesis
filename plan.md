@@ -18,13 +18,13 @@ NOSABEMOS TODAVIA
 
 Buenos Aires, Septimebre 2017
 
-/newpage
+\newpage
 
 ## 1. Resumen
 El presente plan propone la definición de una estructurapara hojas de analis o 
 planes de obra musical, basada en texto plano serializado simple (legible) 
 en sintaxis YAML, acompañada por el desarrollo de un sistema de herramients
-para iterfaz de línea de comandos(CLI), que genere a partir de dichas
+para iterfaz de línea de comandos (CLI), que genere a partir de dichas
 hojas, secuencias musciales en el estandar MIDI. 
 
 Asi mismo se documentará este desarrollo para su correcta publicación 
