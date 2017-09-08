@@ -6,7 +6,7 @@ LICENCIATURA EN MUSICA Y TECNOLOGIA
 Esteban Calcagno
 
 ## Tesis de Grado
-Definición de estructura para hoja de analis o plan de obra musical, 
+Definición de estructura para hoja de análisis o plan de obra musical, 
 basada en texto serializado simple y desarrollo de un sistema de herramientas CLI 
 para generar sequencias MIDI a partir de las mismas. 
 
@@ -21,11 +21,11 @@ Buenos Aires, Septimebre 2017
 \newpage
 
 ## 1. Resumen
-El presente plan propone la definición de una estructurapara hojas de analis o 
+El presente plan propone la definición de una gramática de hojas de análisis o 
 planes de obra musical, basada en texto plano serializado simple (legible) 
-en sintaxis YAML, acompañada por el desarrollo de un sistema de herramients
-para iterfaz de línea de comandos (CLI), que genere a partir de dichas
-hojas, secuencias musciales en el estandar MIDI. 
+en sintaxis YAML, acompañada por el desarrollo de un sistema de herramients 
+para iterfaz de línea de comandos (Command Line Interface), que genere a partir de dichas
+hojas secuencias musciales en el estandar MIDI. 
 
 Asi mismo se documentará este desarrollo para su correcta publicación 
 enmarcada bajo premisas del software libre y abierto. 
@@ -35,6 +35,12 @@ enmarcada bajo premisas del software libre y abierto.
 ## 3. Objetivos
 
 ## 4. Antecedentes y marco referencial
+https://music-cog.ohio-state.edu/Humdrum/
+
+http://www.musicxml.com/
+
+http://www.musedata.org/
+
 
 ## 5. Metodologia
 
