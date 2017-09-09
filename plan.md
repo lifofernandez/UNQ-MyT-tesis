@@ -35,11 +35,11 @@ enmarcada bajo premisas del software libre y abierto.
 ## 3. Objetivos
 
 ## 4. Antecedentes y marco referencial
-https://music-cog.ohio-state.edu/Humdrum/
+[music-cog.ohio-state.edu/Humdrum] (https://music-cog.ohio-state.edu/Humdrum/)
 
-http://www.musicxml.com/
+[www.musicxml.com] (http://www.musicxml.com/)
 
-http://www.musedata.org/
+[www.musedata.org] (http://www.musedata.org/)
 
 
 ## 5. Metodologia
