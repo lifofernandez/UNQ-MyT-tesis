@@ -136,10 +136,10 @@ A *\*kern representation may be thought of as a rotation, 90-clockwise, of
 the musical score. Thus the leftmost spine corresponds to the lowest voice, and
 time runs down the page instead of left to right. Additional spines, possibly
 running concurrently with *\*kern, could contain either fairly straightforward
-things, such as vocal text (*\*text representation) or a Roman-numeral harmonic
-analysis (*\*harm representation), or relatively abstruse information such as
-cochlear coordinates (*\*cocho), sensory dissonance (*\*diss) or acoustic
-spectral data (*\*spect). Some of these other representations can be generated
+things, such as vocal text ( *\*text representation ) or a Roman-numeral harmonic
+analysis ( *\*harm representation ), or relatively abstruse information such as
+cochlear coordinates ( *\*cocho ), sensory dissonance ( *\*diss ) or acoustic
+spectral data ( *\*spect ). Some of these other representations can be generated
 as output by commands operating on a *\*kern spine or set of spines. For
 example, the pcset command would automatically append to the chorale in example
 1 a *\*pcset spine that labeled each simultaneity by its Fortean set-class name,
