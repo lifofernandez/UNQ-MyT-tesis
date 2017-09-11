@@ -1,4 +1,4 @@
-## Volume 2, Number 7, November 1996
+## Music Theory Online, Volume 2, Number 7, November 1996
 *Copyright © 1996 Society for Music Theory*
 
 # A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron
