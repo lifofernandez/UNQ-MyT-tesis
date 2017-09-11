@@ -12,23 +12,15 @@ Toolkit and the music representation schemes that support it.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-1. Introduction
-
-2. Humdrum
-
-3. Humdrum Representations
-
-4. Humdrum Commands
-
-5. Sample Problem
-
-6. The Toolkit
-
-7. Reference Manual
-
-8. Humdrum Now and in the Future
-
-9. Conclusion
+* 1. Introduction
+* 2. Humdrum
+* 3. Humdrum Representations
+* 4. Humdrum Commands
+* 5. Sample Problem
+* 6. The Toolkit
+* 7. Reference Manual
+* 8. Humdrum Now and in the Future
+* 9. Conclusion
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
