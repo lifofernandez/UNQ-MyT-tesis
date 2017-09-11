@@ -124,28 +124,28 @@ A Humdrum file is comprised of a series of records, each taking up one
 line. The four columns that follow the reference records are termed spines;
 they are separated by tab characters. Events in the same data record occur
 simultaneously, while events in the same spine but in distinct data records
-occur sequentially. The heading *\ *\kern, which is the exclusive interpretation
+occur sequentially. The heading *\*kern, which is the exclusive interpretation
 of each spine here, signifies that the information within concerns pitch and
 duration. A file may contain any number of spines with various exclusive
 representations; in this example each spine represents one voice of a four-part
 chorale. The fifth data record of Example 1 contains a tandem interpretation
 for each spine which denotes the key of the excerpt; other tandem
-interpretations within *\*\kern contain information about meter signature, tempo,
+interpretations within *\*kern contain information about meter signature, tempo,
 instrument etc
 
 ### [3.3]
-A *\*\kern representation may be thought of as a rotation, 90-clockwise, of
+A *\*kern representation may be thought of as a rotation, 90-clockwise, of
 the musical score. Thus the leftmost spine corresponds to the lowest voice, and
 time runs down the page instead of left to right. Additional spines, possibly
-running concurrently with *\*\kern, could contain either fairly straightforward
-things, such as vocal text (*\*\text representation) or a Roman-numeral harmonic
-analysis (*\*\harm representation), or relatively abstruse information such as
-cochlear coordinates (*\*\cocho), sensory dissonance (*\*\diss) or acoustic
-spectral data (*\*\spect). Some of these other representations can be generated
-as output by commands operating on a *\*\kern spine or set of spines. For
+running concurrently with *\*kern, could contain either fairly straightforward
+things, such as vocal text (*\*text representation) or a Roman-numeral harmonic
+analysis (*\*harm representation), or relatively abstruse information such as
+cochlear coordinates (*\*cocho), sensory dissonance (*\*diss) or acoustic
+spectral data (*\*spect). Some of these other representations can be generated
+as output by commands operating on a *\*kern spine or set of spines. For
 example, the pcset command would automatically append to the chorale in example
-1 a *\*\pcset spine that labeled each simultaneity by its Fortean set-class name,
-prime-form or interval vector. The data for a *\*\harm spine, on the other hand,
+1 a *\*pcset spine that labeled each simultaneity by its Fortean set-class name,
+prime-form or interval vector. The data for a *\*harm spine, on the other hand,
 must be entered manually (until a dependable machine algorithm for harmonic
 analysis is developed).
 
@@ -180,7 +180,7 @@ letter “r”; the frequent period characters are merely place markers, “null
 tokens” in a data record with activity in another spine. Barlines appear as
 records with a leading equals sign; an elaborate system of visual
 correspondences distinguishes between various forms of double barlines and/or
-repeat signs. Dynamics are conspicuously absent in *\*\kern, and indeed do not
+repeat signs. Dynamics are conspicuously absent in *\*kern, and indeed do not
 appear in any of the pre-defined representation schemes documented in the
 manual^(3)—should they be required for a specific task the researcher may
 invent his or her own scheme. Guidelines for this are given in a chapter of the
@@ -192,7 +192,7 @@ laborious process. Unless electronic editions of the works under investigation
 happen to be available, either commercially or in the public domain, this is
 likely to be the biggest impediment to a researcher’s making use of Humdrum.
 While there are functions designed for capturing data from a MIDI controller
-(encode and record), it may often be simpler to enter *\*\kern data manually once
+(encode and record), it may often be simpler to enter *\*kern data manually once
 one is familiar with the encoding format—especially when reduced information
 suffices for the task at hand. With the advent of a reliable Optical Music
 Recognition system, under development at McGill University and elsewhere, a
@@ -209,15 +209,15 @@ possible and indeed implemented in the tool kit).^(4)
 ### [3.7]
 While here is not the place for a detailed examination of all the various
 pre-defined Humdrum formats, a couple more will serve as additional examples to
-*\*\kern. The tablature representation for fretted instruments, *\*\fret, is
+*\*kern. The tablature representation for fretted instruments, *\*fret, is
 particularly well developed, and can accommodate non-standard and non-Western
 instruments. The tuning of each string and the exact position of each fret are
 specified in tandem interpretations, and detailed information is encoded in
 each data record about which strings are plucked, how they are plucked, and at
-which fret. The *\*\IPA scheme phonetically represents vocal texts via an ASCII
+which fret. The *\*IPA scheme phonetically represents vocal texts via an ASCII
 alphabet, and includes stress and intonation information. The “formant” command
 can be used to generate a spine with the two strongest formant frequencies of
-each vowel encoded in the *\*\IPA representation.
+each vowel encoded in the *\*IPA representation.
 
 ## 4. Humdrum Commands
 
@@ -270,11 +270,11 @@ temporary file we are creating for the extracted spine.
 ### [5.2]
 The original file represents notes by their pitch. We need scale-degree
 information instead, in order to locate leading-tones. The command “deg” will
-convert a file of *\*\kern data records into a file of *\*\deg records, where each
+convert a file of *\*kern data records into a file of *\*deg records, where each
 note appears as a number from 1 to 7, representing its scale degree. The
 calculation is relative to the current key, as specified in key tandem
 interpretation records in the file. We also require contour information;
-happily the *\*\deg representation includes a direction indicator: the lower-case
+happily the *\*deg representation includes a direction indicator: the lower-case
 letter v signifies “lower than previous note” and the caret ^ signifies “higher
 than previous note.” The next step in our sample problem is thus:
 ```
@@ -393,13 +393,13 @@ commands.
 The manual divides the Toolkit into the categories of specialized and
 basic tools. Specialized tools work only on a particular subset of exclusive
 representations. Two that crop up frequently in standard analytical
-applications derive harmonic and melodic intervals from *\*\kern-type spines;
+applications derive harmonic and melodic intervals from *\*kern-type spines;
 these are respectively invoked by “hint” and “mint.” Alternative
-representations of pitch are generated from a *\*\kern spine by the commands
+representations of pitch are generated from a *\*kern spine by the commands
 “cents” (distance in hundredths of a semitone from a reference point), “freq”
 (frequency in Hz), “semits” (semitones away from a reference point), and
 several others, which could all be useful depending on the nature of one’s
-research. (I personally can’t imagine an application for the *\*\solfg
+research. (I personally can’t imagine an application for the *\*solfg
 representation, which encodes pitch as French solfege syllables, but should
 anyone dream one up Humdrum is prepared.) There are several advanced commands
 that calculate numerical results from spines already present, such as “spect,”
@@ -410,7 +410,7 @@ perform the calculations are well documented, where applicable.
 
 ### [6.2]
 The “perform” command plays back the contents of a Humdrum MIDI file,
-converted from a *\*\kern file by the midi command (and further convertible to a
+converted from a *\*kern file by the midi command (and further convertible to a
 standard MIDI file by the smf command, for exporting to a sequencer or other
 external application program).^(11) Play-back is via an external MIDI
 synthesizer and control card (not included!), and allows the user to
@@ -448,10 +448,10 @@ exhaustively to locate patterns in the encoded selection that match the
 template. Patterns can be horizontal (simultaneous), vertical (sequential
 within one spine), or even diagonal (useful for identifying Klangfarbenmelodie
 or other “threaded” patterns), and can be defined as explicitly or as “fuzzily”
-as is needed. The researcher can use other representations than *\*\kern in
+as is needed. The researcher can use other representations than *\*kern in
 conjunction with these tools—for example to discover idiomatic fingering
-patterns from a *\*\fretrepresentation, or particular harmonic progressions from
-a *\*\harm representation. There is a considerable art involved in correctly
+patterns from a *\*fretrepresentation, or particular harmonic progressions from
+a *\*harm representation. There is a considerable art involved in correctly
 defining the target template; readers familiar with UNIX regular expression
 syntax, crucial here in the creation of a template, will appreciate the
 niceties involved in fine-tuning an expression that is to be sought. The manual
@@ -509,7 +509,7 @@ edit-distance (page 420); several commands (specc, spect, formant and diss) are
 mentioned in passing but not given proper documentation (though the
 representations they produce are); it is suggested that a dominant seventh
 chord on the supertonic degree be labelled V7/ii (page 86); and the two
-accounts of the signifier for doubly-lowered notes in the *\*\deg representation
+accounts of the signifier for doubly-lowered notes in the *\*deg representation
 are inconsistent (pages 59, 264).
 
 8. Humdrum Now and in the Future
@@ -535,9 +535,9 @@ www.lib.virginia.edu/dmmc/Music/Humdrum
 
 ### [8.2]
 Scores that accompany the current release of Humdrum include a selection
-of sixteen Bach chorales, in both *\*\kern and *\*\harm representations; all 48
+of sixteen Bach chorales, in both *\*kern and *\*harm representations; all 48
 fugues from the Well-Tempered Clavier; vocal melodies from Schubert Lieder and
-a collection of Scottish and English folk tunes. A *\*\kern thematic database of
+a collection of Scottish and English folk tunes. A *\*kern thematic database of
 some ten thousand well-known classical themes (melody only) is expected to be
 accessible via the World Wide Web early in the new year, and is being
 considered for release as part of the Humdrum Toolkit in the near future. Such
@@ -656,7 +656,7 @@ unfortunate but hopefully not too confusing that asterisks are also used to
 draw attention to a word or phrase of ASCII text, in the manner of italics.
 Return to text
 
-3. A scheme called *\*\dynam appears in the demonstration files that come with
+3. A scheme called *\*dynam appears in the demonstration files that come with
 the software.
 Return to text
 
@@ -752,7 +752,7 @@ Representation schemes include two leading asterisks in their name. Tandem
 interpretations, discussed below, include one leading asterisk. It is
 unfortunate but hopefully not too confusing that asterisks are also used to
 draw attention to a word or phrase of ASCII text, in the manner of italics.
-A scheme called *\*\dynam appears in the demonstration files that come with the
+A scheme called *\*dynam appears in the demonstration files that come with the
 software.
 Andreas Kornstaedt’s “SCORE-to-Humdrum: A Graphical Environment for
 Musicological Analysis,” Computing in Musicology, Vol. 10 (1996): 105–122
