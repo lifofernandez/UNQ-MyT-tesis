@@ -10,7 +10,7 @@
 computer-assisted musical research. This review describes and evaluates the
 Toolkit and the music representation schemes that support it.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+===
 
 * 1. Introduction
 * 2. Humdrum
@@ -22,7 +22,7 @@ Toolkit and the music representation schemes that support it.
 * 8. Humdrum Now and in the Future
 * 9. Conclusion
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+===
 
 ## 1. Introduction
 
@@ -623,7 +623,7 @@ their invaluable musical intuition with equally invaluable empirically verified
 results, based on maximum amounts of relevant data, will be a most important
 factor in the evolution of our discipline.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+===
 
 Jonathan Wild
 McGill University
@@ -632,7 +632,7 @@ Faculty of Music, Dept. of Theory
 Montreal, Quebec, H3A 1A3
 jon@music.mcgill.ca
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+===
 
 ## Footnotes
 
@@ -801,7 +801,7 @@ Musicological Analysis,” Computing in Musicology, Vol. 10 (1996): 105–122.
 Personal communication.
 
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+===
 
 Copyright Statement
 
