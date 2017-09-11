@@ -1,6 +1,8 @@
 ## Music Theory Online, Volume 2, Number 7, November 1996
 *Copyright © 1996 Society for Music Theory*
 
+*\*hola
+
 # A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron
 ## Jonathan Wild
                                                                                                                     
@@ -90,7 +92,7 @@ Before discussing the ways in which the Toolkit can be used it will be
 helpful to inspect the conventions of one particular Humdrum representation, by
 means of a musical fragment. Example 1 (below) contains the first two phrases
 of the Bach chorale “Nun danket alle Gott” in Humdrum’s core pitch/duration
-representation scheme, *\*\kern.^(2) In this example, the first three lines, each
+representation scheme, *\*kern.^(2) In this example, the first three lines, each
 tagged by a triple exclamation mark, are reference records, each of whose
 meaning should be readily apparent. Humdrum specifies over 80 types of
 reference records for electronic scores, providing for information as diverse
@@ -122,7 +124,7 @@ A Humdrum file is comprised of a series of records, each taking up one
 line. The four columns that follow the reference records are termed spines;
 they are separated by tab characters. Events in the same data record occur
 simultaneously, while events in the same spine but in distinct data records
-occur sequentially. The heading *\*\kern, which is the exclusive interpretation
+occur sequentially. The heading *\ *\kern, which is the exclusive interpretation
 of each spine here, signifies that the information within concerns pitch and
 duration. A file may contain any number of spines with various exclusive
 representations; in this example each spine represents one voice of a four-part
