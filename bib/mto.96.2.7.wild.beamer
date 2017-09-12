@@ -1,14 +1,16 @@
-## Music Theory Online, Volume 2, Number 7, November 1996
-*Copyright © 1996 Society for Music Theory*
 
-# A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron
-## Jonathan Wild
+% A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron
+% Jonathan Wild
+% Music Theory Online, Volume 2, Number 7, November 1996
+% *Copyright © 1996 Society for Music Theory*
                                                                                                                     
 **KEYWORDS:** computer applications, database, software tools, humdrum, David Huron
 
 **ABSTRACT:**  David Huron’s Humdrum Toolkit is a set of software tools created for
 computer-assisted musical research. This review describes and evaluates the
 Toolkit and the music representation schemes that support it.
+
+# Index
 
 * 1. Introduction
 * 2. Humdrum
@@ -20,7 +22,7 @@ Toolkit and the music representation schemes that support it.
 * 8. Humdrum Now and in the Future
 * 9. Conclusion
 
-## 1. Introduction
+# 1. Introduction
 
 ### [1.1]
 Music-theoretical endeavors vary greatly in their breadth. At one end of
@@ -53,7 +55,7 @@ MuseData. The structure of the database and the aims of the various schemes
 have been described elsewhere; most promising among the schemes is the Humdrum
 representation, designed by David Huron.
 
-## 2. Humdrum
+# 2. Humdrum
 
 ### [2.1]
 
@@ -71,7 +73,7 @@ Humdrum possesses no higher-level analytical faculties per se. Rather, its
 power derives from the flexibility of its kit of elemental commands, which the
 user must learn to use in combination to exploit fully the system’s potential.
 
-## 3. Humdrum Representations
+# 3. Humdrum Representations
 
 ### [3.1]
 Before discussing the ways in which the Toolkit can be used it will be
@@ -205,7 +207,7 @@ alphabet, and includes stress and intonation information. The “formant” comm
 can be used to generate a spine with the two strongest formant frequencies of
 each vowel encoded in the *\*IPA representation.
 
-## 4. Humdrum Commands
+# 4. Humdrum Commands
 
 ### [4.1]
 The “active” component of Humdrum, as compared to the “passive” syntax
@@ -231,7 +233,7 @@ is quite abstract. To give an idea of their scope in combination, as well as of
 the working environment of Humdrum, here follows a modest sample problem we
 might wish to answer.^(6)
 
-## 5. Sample Problem
+# 5. Sample Problem
 
 ### [5.1]
 **In what proportion are leading-tones in Bach chorale melodies approached
@@ -374,7 +376,7 @@ leading tones approached by leap instead of step, we would not have to return
 to the scores from scratch, but simply add a couple of steps to our pipeline of
 commands.
 
-## 6. The Toolkit
+# 6. The Toolkit
 ### [6.1]
 The manual divides the Toolkit into the categories of specialized and
 basic tools. Specialized tools work only on a particular subset of exclusive
@@ -498,7 +500,7 @@ chord on the supertonic degree be labelled V7/ii (page 86); and the two
 accounts of the signifier for doubly-lowered notes in the *\*deg representation
 are inconsistent (pages 59, 264).
 
-## 8. Humdrum Now and in the Future
+# 8. Humdrum Now and in the Future
 
 ### [8.1]
 The Toolkit can currently be downloaded from the server at the University
@@ -579,7 +581,7 @@ be a simple matter to place the relevant Humdrum scripts and encoded scores on
 an internet site, referenced by the article, and available to interested
 parties for retrieval.
 
-## 9. Conclusions
+# 9. Conclusions
 
 ### [9.1]
 Appreciation of the full potential of Humdrum is definitely a hands-on
@@ -619,8 +621,7 @@ their invaluable musical intuition with equally invaluable empirically verified
 results, based on maximum amounts of relevant data, will be a most important
 factor in the evolution of our discipline.
 
-===
-
+---
 Jonathan Wild
 McGill University
 Faculty of Music, Dept. of Theory
@@ -628,9 +629,9 @@ Faculty of Music, Dept. of Theory
 Montreal, Quebec, H3A 1A3
 jon@music.mcgill.ca
 
-===
+---
 
-## Footnotes
+# Footnotes
 
 1. Stephen Travis Pope (Editor), “Music Representation and Scoring (parts 1 and
 2),” Computer Music Journal, 17.3, 17.4 (1993).
@@ -790,6 +791,7 @@ See below regarding a forthcoming comprehensive Users’ Guide that will remedy
 this lack of help.
 Personal communication.
 See the website at http://ccrma-www.stanford.edu/CCRMA/Courses/SummerWorkshops/
+
 96
 Personal communication from David Huron.
 Andreas Kornstaedt, “SCORE-to-Humdrum: A Graphical Environment for
@@ -797,37 +799,3 @@ Musicological Analysis,” Computing in Musicology, Vol. 10 (1996): 105–122.
 Personal communication.
 
 
-===
-
-Copyright Statement
-
-Copyright © 1996 by the Society for Music Theory. All rights reserved.
-
-[1] Copyrights for individual items published in Music Theory Online (MTO) are
-held by their authors. Items appearing in MTO may be saved and stored in
-electronic or paper form, and may be shared among individuals for purposes of
-scholarly research or discussion, but may not be republished in any form,
-electronic or print, without prior, written permission from the author(s), and
-advance notification of the editors of MTO.
-
-[2] Any redistributed form of items published in MTO must include the following
-information in a form appropriate to the medium in which the items are to
-appear:
-
-    This item appeared in Music Theory Online in [VOLUME #, ISSUE #] on [DAY/
-    MONTH/YEAR]. It was authored by [FULL NAME, EMAIL ADDRESS], with whose
-    written permission it is reprinted here.
-
-[3] Libraries may archive issues of MTO in electronic or paper form for public
-access so long as each issue is stored in its entirety, and no access fee is
-charged. Exceptions to these requirements must be approved in writing by the
-editors of MTO, who will act in accordance with the decisions of the Society
-for Music Theory.
-
-This document and all portions thereof are protected by U.S. and international
-copyright laws. Material contained herein may be copied and/or distributed for
-research purposes only.
-
-
-Prepared by Nicholas S. Blanchard and Tahirih      SMT
-Motazedian, Editorial Assistants
