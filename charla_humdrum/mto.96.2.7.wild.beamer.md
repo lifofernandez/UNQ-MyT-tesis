@@ -42,60 +42,66 @@ Music Theory Online, Volume 2, Number 7, November 1996
 Humdurm Toolkit de David Huron es un conjunto de herramientas de software
 creadas para la investigación musical asistida por computadoras. Esta reseña
 describe y evalua el Toolkit y el esquema representacion musical 
-que lo acompaña.
+que lo apoya.
 
 # 1. Introducción
 
 ## 1.1 Justificacion
-Music-theoretical endeavors vary greatly in their breadth. At one end of
-the spectrum are accounts of a particular composer’s technique within a
-particular piece; at the other, attempts to answer the most general questions
-about how music works. As an investigator’s aims tend toward the latter end of
-the continuum, he or she must explore a larger and larger repertoire.
-Compounded with the level of intimacy with musical details that a systematic
-inquiry can require, a large body of music can quickly exceed the capacity of
-one scholarly lifetime. An indispensable step in pursuing this broader type of
-research is thus the accumulation and maintenance of a large, searchable
-computer database of music. Even the study of repertoires of manageable size is
-more flexibly undertaken when digital representation and automated manipulation
-of the music is available.
+* Music-theoretical endeavors vary greatly in their breadth.
+	* At one end of the spectrum are accounts of a particular composer’s 
+technique within a particular piecei. 
+	* At the other, attempts to answer the most general questions about
+how music works
+
+* As an investigator’s aims tend toward the latter end of the continuum, 
+he or she must explore a larger and larger repertoire.
+
+* Compounded with the level of intimacy with musical details that 
+a systematic inquiry can require, a large body of music can quickly exceed 
+the capacity of one scholarly lifetime.
+
+* An indispensable step in pursuing this broader type of research is thus 
+the accumulation and maintenance of a large, searchable computer database of music.
+
+* Even the study of repertoires of manageable size is more flexibly undertaken 
+when digital representation and automated manipulation of the music is available.
 
 ## 1.2 Contexto
-The Center for Computer Assisted Research in the Gumanities (CCARH) at
-Stanford has an ongoing musical database project; among other items virtually
-all of J. S. Bach’s oeuvre has been electronically encoded. Of vital importance
-to such a task’s usefulness is the format of musical representation within the
-database. As the success of computer-assisted musicology becomes more widely
-apparent, musical representation schemes are likely to proliferate, jockeying
-for position until such time as some sort of standard is agreed upon. The
-evaluation of representation schemes has been a hot topic in the not-so-distant
-past;^(1) however, most of the schemes discussed were designed to aid composers
-of computer music, whose requirements do not necessarily intersect with those
-of investigative scholars. In CCARH’s database, several formats for encoding
-music are employed concurrently, all subsets of CCARH’s master representation
-MuseData. The structure of the database and the aims of the various schemes
-have been described elsewhere; most promising among the schemes is the Humdrum
-representation, designed by David Huron.
+* The Center for Computer Assisted Research in the Humanities (CCARH) at
+Stanford has an ongoing musical database project.
 
-# 2. Humdrum
+	* Of vital importance to such a task’s usefulness is the format of
+musical representation within the database.
 
-## 2.1 La Sistaxis y El Conjunto Comandos
-Humdrum comprises two distinct aspects, corresponding to the representation
-and manipulation of musical data.
-First, there is the syntax defined for
-representing discrete information as a series of records in a computer file.
-Its definition allows for many kinds of information to be encoded; the scheme
-used in the CCARH database for essential musical pitch and duration information
-is just one of an open-ended set—some other members of which I mention
-below—that may be augmented by user-defined schemes for specific research
-tasks. 
-Second, there is the set of commands, the Humdrum Toolkit, devised to
+* As the result of computer-assisted musicology sucesses, musical representation schemes  proliferatinge, jockeying for position until such time as some sort of standard is agreed upon.
+
+	* Most of the schemes were designed to aid composers of computer music.
+Whose requirements do not necessarily intersect with those of investigative scholars.
+
+* In CCARH’s database, several formats for encoding music are employed concurrently,
+all subsets of CCARH’s master representation MuseData.
+	* Most promising among the schemes is the Humdrum representation, 
+designed by David Huron.
+
+# 2. Humdrum \newline Dos aspectos, Representación y Manipulación
+
+
+## 2.1 La Sistaxis 
+* First, there is the syntax defined for representing discrete information 
+as a series of records in a computer file.
+	* Its definition allows for many kinds of information to be encoded. 
+	* The scheme used in the CCARH dataibase for essential musical pitch and duration information is just one of an open-ended set.
+		* Some other members may be augmented by user-defined schemes for specific research tasks. 
+
+## 2.2 El Conjunto Comandos
+* Second, there is the set of commands, the Humdrum Toolkit, devised to
 manipulate files that conform to the Humdrum syntax in the name of
 machine-aided research in music.
-The emphasis here should be on “aided”:
-Humdrum possesses no higher-level analytical faculties per se. Rather, its
-power derives from the flexibility of its kit of elemental commands, which the
-user must learn to use in combination to exploit fully the system’s potential.
+	* The emphasis here should be on “aided”:
+		* Humdrum possesses no higher-level analytical faculties per se. 
+		* Rather, its power derives from the flexibility of its kit of 
+elemental commands, which the user must learn to use in combination to exploit fully 
+the system’s potential.
 
 # 3. Representaciones Humdrum (Sintaxis)
 
@@ -390,20 +396,21 @@ indicating that, within the sample of sixteen chorales, Bach approached the
 leading tone from above roughly 50% more often than from below.
 
 ## 5.7 Combinando comandos, soluciones reproducibles y modificables
-As we can gather from the above, the difficulty in implementing the
+* As we can gather from the above, the difficulty in implementing the
 machine-aided solution does not lie in understanding the functioning of the
 individual commands, but in devising an appropriate way to combine them. The
 advantages of a machine-aided solution to this problem are threefold. 
-First,
-extremely large amounts of music could be processed with no extra work on the
-part of the researcher, and the task would remain tractable within a reasonable
-length of time.^(10) 
-Secondly, we obtain a concrete and objective result,
-reproducible by other workers with access to the same data. 
-And thirdly, if we
-decide afterwards that we wish to vary the question by, say, discounting
-leading tones approached by leap instead of step, we would not have to return
-to the scores from scratch, but simply add a couple of steps to our pipeline of
+
+	* First, extremely large amounts of music could be processed with no 
+extra work on the part of the researcher, and the task would remain tractable 
+within a reasonable length of time.^(10) 
+
+	* Secondly, we obtain a concrete and objective result, reproducible 
+by other workers with access to the same data. 
+
+	* And thirdly, if we decide afterwards that we wish to vary the question by, 
+say, discounting leading tones approached by leap instead of step, we would not have 
+to return to the scores from scratch, but simply add a couple of steps to our pipeline of
 commands.
 
 # 6. The Toolkit
@@ -534,7 +541,7 @@ chord on the supertonic degree be labelled V7/ii (page 86); and the two
 accounts of the signifier for doubly-lowered notes in the \*\*deg representation
 are inconsistent (pages 59, 264).
 
-# 8. Humdrum Now and in the Future ¿en el pasado y en el presente?
+# 8. Humdrum Now and in the Future ó ¿en el pasado y en el presente?
 
 ## 8.1 Obtener e instalar el software
 The Toolkit can currently be downloaded from the server at the University
@@ -555,7 +562,7 @@ recommends that potential users read this document carefully before deciding to
 download the Toolkit. It can be viewed on a World Wide Web site at: http://
 www.lib.virginia.edu/dmmc/Music/Humdrum
 
-## 8.2 Partituras que se incluyen
+## 8.2 Partituras que incluidaidas
 Scores that accompany the current release of Humdrum include a selection
 of sixteen Bach chorales, in both \*\*kern and \*\*harm representations; all 48
 fugues from the Well-Tempered Clavier; vocal melodies from Schubert Lieder and
@@ -590,7 +597,7 @@ alternative way of learning Humdrum is through a seminar: Professor Huron
 taught a two-week summer course on the use of the Toolkit at Stanford this
 year,^(15) and at McGill the previous summer.
 
-## 8.4 Proselitizmo en vano y GUI
+## 8.4 Proselitizmo en vano 
 All this proselytizing may still fail to convince, given the reluctance
 and inertia many of us are likely to experience when faced with as new and as
 vast a resource as Humdrum. So, software developers have turned their attention
@@ -603,7 +610,7 @@ though Andreas Kornstaedt’s is apparently described in a recent publication.^
 notation-based program, so that Humdrum files can be viewed as scores or
 printed in traditional notation.
 
-## 8.5 Respuestas a buenas preguntas
+## 8.5 Respuestas conretas a preguntas bien formuladas
 Humdrum provides concrete answers to well-posed questions. Surprising or
 counterintuitive answers could be genuine, or they could be the result of a
 malformed question or incorrect implementation of Humdrum commands. It thus
