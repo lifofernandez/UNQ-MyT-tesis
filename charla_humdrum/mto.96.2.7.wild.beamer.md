@@ -73,7 +73,9 @@ Stanford has an ongoing musical database project.
 	* Of vital importance to such a task’s usefulness is the format of
 musical representation within the database.
 
-* As the result of computer-assisted musicology sucesses, musical representation schemes  proliferatinge, jockeying for position until such time as some sort of standard is agreed upon.
+* As the result of computer-assisted musicology sucesses, musical representation 
+schemes  proliferatinge, jockeying for position until such time as some sort of 
+standard is agreed upon.
 
 	* Most of the schemes were designed to aid composers of computer music.
 Whose requirements do not necessarily intersect with those of investigative scholars.
@@ -90,7 +92,8 @@ designed by David Huron.
 * First, there is the syntax defined for representing discrete information 
 as a series of records in a computer file.
 	* Its definition allows for many kinds of information to be encoded. 
-	* The scheme used in the CCARH dataibase for essential musical pitch and duration information is just one of an open-ended set.
+	* The scheme used in the CCARH dataibase for essential musical pitch and duration
+          information is just one of an open-ended set.
 		* Some other members may be augmented by user-defined schemes for specific research tasks. 
 
 ## 2.2 El Conjunto Comandos
@@ -106,18 +109,16 @@ the system’s potential.
 # 3. Representaciones Humdrum 
 
 ## 3.1 \*\*kern: Representación esencial de altura/duracion
-Before discussing the ways in which the Toolkit can be used it will be
-helpful to inspect the conventions of one particular Humdrum representation, by
+Inspect the conventions of one particular Humdrum representation, by
 means of a musical fragment. 
 
-Example 1 (below) contains the first two phrases
-of the Bach chorale “Nun danket alle Gott” in Humdrum’s core pitch/duration
-representation scheme, \*\*kern.
+Example 1 (below) contains the first two phrases of the Bach chorale
+“Nun danket alle Gott” in Humdrum’s core pitch/duration representation scheme, 
+\*\*kern.
 
-* the first three lines, each tagged by a triple exclamation mark, are reference 
+* The first three lines, each tagged by a triple exclamation mark, are reference 
 records, each of whose meaning should be readily apparent. 
-
-* Humdrum specifies over 80 types of reference records for electronic scores, 
+	* Humdrum specifies over 80 types of reference records for electronic scores, 
 providing for information as diverse as the catalogue number, name of the dedicatee,
 manuscript location or translated title in over forty languages.
 
@@ -127,120 +128,158 @@ manuscript location or translated title in over forty languages.
 !!!COM: Bach, Johann Sebastian
 !!!OTL: Nun danket alle Gott
 !!!ENC: Wild, Jon
-**kern **kern **kern **kern
-*A: *A: *A: *A:
-4AA 4c# 4a 4ee
-=1 =1 =1 =1
-8A 4c# 4a 4ee
-8B . . .
-8c# 4c# 4a 4ee
-8A . . .
-8D 4d 4a 4ff#
-8E . . .
-8F# 4d 4a 4ff#
-8D . . .
+**kern 	**kern 	**kern 	**kern
+*A: 	*A: 	*A: 	*A:
+4AA 	4c# 	4a 	4ee
+=1	=1 	=1 	=1
+8A 	4c# 	4a 	4ee
+8B 	. 	.	.
+8c# 	4c# 	4a 	4ee
+8A 	. 	. 	.
+8D	4d 	4a 	4ff#
+8E 	. 	. 	.
+8F# 	4d 	4a 	4ff#
+8D 	. 	. 	.
 ```
 
 ## 3.2 Registros/Archivos Humdrum
-A Humdrum file is comprised of a series of records, each taking up one
-line. The four columns that follow the reference records are termed spines;
-they are separated by tab characters. Events in the same data record occur
-simultaneously, while events in the same spine but in distinct data records
-occur sequentially. The heading \*\*kern, which is the exclusive interpretation
-of each spine here, signifies that the information within concerns pitch and
-duration. A file may contain any number of spines with various exclusive
-representations; in this example each spine represents one voice of a four-part
-chorale. The fifth data record of Example 1 contains a tandem interpretation
-for each spine which denotes the key of the excerpt; other tandem
-interpretations within \*\*kern contain information about meter signature, tempo,
-instrument etc
+
+* A Humdrum file is comprised of a series of records, each taking up one
+line. 
+
+* The four columns that follow the reference records are termed spines; they are
+separated by tab characters.
+
+* Events in the same data record occur simultaneously. 
+
+* While events in the same spine but in distinct data records occur sequentially. 
+
+* The heading \*\*kern, which is the exclusive interpretation of each spine here,
+signifies that the information within concerns pitch and duration. 
+
+* A file may contain any number of spines with various exclusive representations.
+
+* In this example each spine represents one voice of a four-part chorale.
+
+* The fifth data record contains a tandem interpretation for each spine which 
+denotes the key of the excerpt.
+
+* Other tandem interpretations within \*\*kern contain information about meter 
+signature, tempo, instrument etc
 
 ## 3.3 Púas (spines)
-A \*\*kern representation may be thought of as a rotation, 90-clockwise, of
-the musical score. Thus the leftmost spine corresponds to the lowest voice, and
-time runs down the page instead of left to right. Additional spines, possibly
-running concurrently with \*\*kern, could contain either fairly straightforward
-things, such as vocal text ( \*\*text representation ) or a Roman-numeral harmonic
-analysis ( \*\*harm representation ), or relatively abstruse information such as
-cochlear coordinates ( \*\*cocho ), sensory dissonance ( \*\*diss ) or acoustic
-spectral data ( \*\*spect ). Some of these other representations can be generated
-as output by commands operating on a \*\*kern spine or set of spines. For
-example, the pcset command would automatically append to the chorale in example
-1 a \*\*pcset spine that labeled each simultaneity by its Fortean set-class name,
-prime-form or interval vector. The data for a \*\*harm spine, on the other hand,
-must be entered manually (until a dependable machine algorithm for harmonic
-analysis is developed).
+* A \*\*kern representation may be thought of as a rotation, 90-clockwise, of
+the musical score. 
+	* Thus the leftmost spine corresponds to the lowest voice.
+ 	* Time runs down the page instead of left to right. 
+
+* Additional spines could contain either fairly straightforward things, such as 
+	* Vocal text ( \*\*text representation ) 
+	* Roman-numeral harmonic analysis ( \*\*harm representation )
+	* Relatively abstruse information such as cochlear coordinates ( \*\*cocho )
+	* Sensory dissonance ( \*\*diss ) 
+	* Acoustic spectral data ( \*\*spect ).
+
+* Some of these other representations can be generated as output by commands 
+operating on a \*\*kern spine or set of spines. 
+	* For example, the pcset command would automatically append to the chorale 
+in example 1 a \*\*pcset spine that labeled each simultaneity by its 
+Fortean set-class name, prime-form or interval vector.
+
+* The data for a \*\*harm spine, on the other hand, must be entered manually
+(until a dependable machine algorithm for harmonic analysis is developed).
 
 ## 3.4 Duración 
-Each encoded note in example 1 has at least two parts, corresponding
-respectively to the note’s duration and pitch: an integer, and one or more
-upper- or lower-case letters. 
-The integer represents duration via the
-reciprocal of the North-American note-value; for example, a quarter-note by “4”
-and a sixteenth-note by “16.” A breve (length of two whole-notes) takes the
-special value 0. Eighth-note triplets would each be allotted the integer
-12—since they each span a third of a quarter-note, logically they are
-twelfth-notes. A note participating in a septuplet in the time of a dotted
-quarter-note would receive the value 28 (one seventh of a quarter-note, or a
-28th-note) augmented by a dot; a further subdivision of this note into three
-parts would yield a dotted 84th-note (!). This convention may at first appear
-opaque, but manages succinctly and consistently to express almost all
-durations. Exceptions that spring to mind include the admittedly obscure odd
+* Each encoded note in example 1 has at least two parts, corresponding
+respectively to the note’s duration and pitch: 
+	* an integer, and one or more upper- or lower-case letters. 
+
+* The integer represents duration via the reciprocal of the North-American note-value; 
+	* For example, a quarter-note by “4” and a sixteenth-note by “16.” 
+	* A breve (length of two whole-notes) takes the special value 0.
+	* Eighth-note triplets would each be allotted the integer 12—since they each 
+span a third of a quarter-note, logically they are twelfth-notes. 
+	* A note participating in a septuplet in the time of a dotted quarter-note would 
+receive the value 28 (one seventh of a quarter-note, or a 28th-note) augmented 
+by a dot; a further subdivision of this note into three parts would yield a 
+dotted 84th-note (!).
+
+* This convention may at first appear opaque, but manages succinctly and 
+consistently to express almost all durations.
+
+* Exceptions that spring to mind include the admittedly obscure odd
 subdivisions of a breve, such as whole-note triplets (three to a breve), and
 such Ferneyhoughian atrocities as “four in the time of three notes of a
 quintuplet,” which require the use of superfluous ties and/or dots.
 
-## 3.5 Alturas, articulaciones, barras, pero no dinamicas. 
-The lower- or upper-case letters denote the pitch-class and octave of a
-note; chromatic alterations are of course also provided for, as are a large
-number of articulation markings (such as the tie in the alto part of Example 1,
-shown by the square brackets), ornaments, editorialisms, and stem and beam
-indicators. It is important to note that each of the components of a note’s
-representation is optional: a file containing durations only could be compiled
+* It is important to note that each of the components of a note’s representation 
+is optional: a file containing durations only could be compiled
 were one’s object to investigate solely the rhythmic character of a set of
-melodies. Rests are indicated by combining a reciprocal duration with the
-letter “r”; the frequent period characters are merely place markers, “null
-tokens” in a data record with activity in another spine. Barlines appear as
-records with a leading equals sign; an elaborate system of visual
-correspondences distinguishes between various forms of double barlines and/or
-repeat signs. Dynamics are conspicuously absent in \*\*kern, and indeed do not
+melodies. 
+
+## 3.5 Alturas, articulaciones, barras, pero no dinamicas. 
+* The lower- or upper-case letters denote the pitch-class and octave of a note. 
+* Chromatic alterations are of course also provided. 
+* As are a large number of articulation markings.
+* Ornaments 
+* Editorialisms
+* Stem and beam indicators. 
+
+
+* Rests are indicated by combining a reciprocal duration with the
+letter “r”; 
+* the frequent period characters are merely place markers, “null
+tokens” in a data record with activity in another spine.
+* Barlines appear as records with a leading equals sign; 
+	* an elaborate system of visual correspondences distinguishes between various
+ forms of double barlines and/or repeat signs. 
+
+* Dynamics are conspicuously absent in \*\*kern, and indeed do not
 appear in any of the pre-defined representation schemes documented in the
-manual^(3)—should they be required for a specific task the researcher may
-invent his or her own scheme. Guidelines for this are given in a chapter of the
-reference manual.
+manual; 
+	* Should they be required for a specific task the researcher may
+invent his or her own scheme.
 
 ## 3.6 Codificación de piezas
 As may be surmised, thoroughly encoding a piece of music can be a fairly
 laborious process. Unless electronic editions of the works under investigation
 happen to be available, either commercially or in the public domain, this is
 likely to be the biggest impediment to a researcher’s making use of Humdrum.
+
 While there are functions designed for capturing data from a MIDI controller
 (encode and record), it may often be simpler to enter \*\*kern data manually once
 one is familiar with the encoding format—especially when reduced information
-suffices for the task at hand. With the advent of a reliable Optical Music
-Recognition system, under development at McGill University and elsewhere, a
-program could certainly be written to scan a monophonic score directly into a
-Humdrum file. But with more complex input such as found in, say, a late
-Romantic piano work, it will be some time before a computer can correctly parse
+suffices for the task at hand. 
+
+But with more complex input such as found in, say, a late Romantic piano work, 
+it will be some time before a computer can correctly parse
 the music into meaningful strands suitable for Humdrum spines—an inner part
 crossing between staves is apt to cause confusion even in music students, let
-alone in a segmentation program. Automated translation of a standard MIDI file
-into a Humdrum format offers the same problems (although the opposite
-conversion, from any one of several Humdrum formats to a standard MIDI file, is
-possible and indeed implemented in the tool kit).^(4)
+alone in a segmentation program. 
+
+* Automated translation of a standard MIDI file into a Humdrum format offers the 
+same problems 
+	* although the opposite conversion, from any one of several Humdrum formats 
+to a standard MIDI file, is possible and indeed implemented in the tool kit.
 
 ## 3.7 Otras representaciones pre-definidas
 While here is not the place for a detailed examination of all the various
 pre-defined Humdrum formats, a couple more will serve as additional examples to
-\*\*kern. The tablature representation for fretted instruments, \*\*fret, is
-particularly well developed, and can accommodate non-standard and non-Western
-instruments. The tuning of each string and the exact position of each fret are
-specified in tandem interpretations, and detailed information is encoded in
-each data record about which strings are plucked, how they are plucked, and at
-which fret. The \*\*IPA scheme phonetically represents vocal texts via an ASCII
-alphabet, and includes stress and intonation information. The “formant” command
-can be used to generate a spine with the two strongest formant frequencies of
-each vowel encoded in the \*\*IPA representation.
+\*\*kern. 
+* The tablature representation for fretted instruments, \*\*fret, is
+particularly well developed, 
+	* Can accommodate non-standard and non-Western instruments.
+	* The tuning of each string and the exact position of each fret are
+specified in tandem interpretations 
+	* Detailed information is encoded in each data record about 
+		* Wich strings are plucked, 
+		* How they are plucked, 
+		* And at which fret. 
+
+* The \*\*IPA scheme phonetically represents vocal texts via an ASCII
+alphabet, and includes stress and intonation information. 
+	* The “formant” command can be used to generate a spine with the two 
+strongest formant frequencies of each vowel encoded in the \*\*IPA representation.
 
 # 4. Humdrum Commands (Herramientas)
 
