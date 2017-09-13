@@ -46,10 +46,10 @@ que lo apoya.
 
 # 1. Introducción
 
-## 1.1 Justificacion
+## 1.1 Justificación
 * Music-theoretical endeavors vary greatly in their breadth.
 	* At one end of the spectrum are accounts of a particular composer’s 
-technique within a particular piecei. 
+technique within a particular piece. 
 	* At the other, attempts to answer the most general questions about
 how music works
 
@@ -103,20 +103,23 @@ machine-aided research in music.
 elemental commands, which the user must learn to use in combination to exploit fully 
 the system’s potential.
 
-# 3. Representaciones Humdrum (Sintaxis)
+# 3. Representaciones Humdrum 
 
 ## 3.1 \*\*kern: Representación esencial de altura/duracion
 Before discussing the ways in which the Toolkit can be used it will be
 helpful to inspect the conventions of one particular Humdrum representation, by
-means of a musical fragment. Example 1 (below) contains the first two phrases
+means of a musical fragment. 
+
+Example 1 (below) contains the first two phrases
 of the Bach chorale “Nun danket alle Gott” in Humdrum’s core pitch/duration
-representation scheme, \*\*kern.^(2)
-In this example, the first three lines, each
-tagged by a triple exclamation mark, are reference records, each of whose
-meaning should be readily apparent. Humdrum specifies over 80 types of
-reference records for electronic scores, providing for information as diverse
-as the catalogue number, name of the dedicatee, manuscript location or
-translated title in over forty languages.
+representation scheme, \*\*kern.
+
+* the first three lines, each tagged by a triple exclamation mark, are reference 
+records, each of whose meaning should be readily apparent. 
+
+* Humdrum specifies over 80 types of reference records for electronic scores, 
+providing for information as diverse as the catalogue number, name of the dedicatee,
+manuscript location or translated title in over forty languages.
 
 ## Ejemplo 1
 
@@ -138,7 +141,7 @@ translated title in over forty languages.
 8D . . .
 ```
 
-## 3.2 Registros/Archivos Hundrum
+## 3.2 Registros/Archivos Humdrum
 A Humdrum file is comprised of a series of records, each taking up one
 line. The four columns that follow the reference records are termed spines;
 they are separated by tab characters. Events in the same data record occur
