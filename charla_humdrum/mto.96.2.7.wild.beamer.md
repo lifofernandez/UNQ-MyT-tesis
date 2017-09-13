@@ -1,7 +1,7 @@
 
 # Universidad Nacional de Quilmes \newline Taller de Tesis 
 
-## Presentación de artículo referente
+## Presentación de artículo referente \newline Representaciones de Información Musical
 
 Docente: **Esteban Calcagno** 
 
@@ -16,21 +16,37 @@ Septiembre, 2017
 **A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron**
 
 **Jonathan Wild**
+\note{
+    McGill University
+    Faculty of Music, Dept. of Theory
+    555 Sherbrooke West
+    Montreal, Quebec, H3A 1A3
+    jon@music.mcgill.ca
+}
 
+\bigskip
 Music Theory Online, Volume 2, Number 7, November 1996
 
 *Copyright © 1996 Society for Music Theory*                                                                                                                  
 \bigskip
 
-**Abstract:**
-David Huron’s Humdrum Toolkit is a set of software tools created for
-computer-assisted musical research. This review describes and evaluates the
-Toolkit and the music representation schemes that support it.
 
+\note{
+    **Abstract:**
+    David Huron’s Humdrum Toolkit is a set of software tools created for
+    computer-assisted musical research. This review describes and evaluates the
+    Toolkit and the music representation schemes that support it.
+}
+
+**Resumen:**
+Humdurm Toolkit de David Huron es un conjunto de herramientas de software
+creadas para la investigación musical asistida por computadoras. Esta reseña
+describe y evalua el Toolkit y el esquema representacion musical 
+que lo acompaña.
 
 # 1. Introducción
 
-## [1.1] Justificacion
+## 1.1 Justificacion
 Music-theoretical endeavors vary greatly in their breadth. At one end of
 the spectrum are accounts of a particular composer’s technique within a
 particular piece; at the other, attempts to answer the most general questions
@@ -44,8 +60,8 @@ computer database of music. Even the study of repertoires of manageable size is
 more flexibly undertaken when digital representation and automated manipulation
 of the music is available.
 
-## [1.2] Contexto
-The Center for Computer Assisted Research in the HGumanities (CCARH) at
+## 1.2 Contexto
+The Center for Computer Assisted Research in the Gumanities (CCARH) at
 Stanford has an ongoing musical database project; among other items virtually
 all of J. S. Bach’s oeuvre has been electronically encoded. Of vital importance
 to such a task’s usefulness is the format of musical representation within the
@@ -63,37 +79,40 @@ representation, designed by David Huron.
 
 # 2. Humdrum
 
-## [2.1]
-
+## 2.1 La Sistaxis y El Conjunto Comandos
 Humdrum comprises two distinct aspects, corresponding to the representation
-and manipulation of musical data. First, there is the syntax defined for
+and manipulation of musical data.
+First, there is the syntax defined for
 representing discrete information as a series of records in a computer file.
 Its definition allows for many kinds of information to be encoded; the scheme
 used in the CCARH database for essential musical pitch and duration information
 is just one of an open-ended set—some other members of which I mention
 below—that may be augmented by user-defined schemes for specific research
-tasks. Second, there is the set of commands, the Humdrum Toolkit, devised to
+tasks. 
+Second, there is the set of commands, the Humdrum Toolkit, devised to
 manipulate files that conform to the Humdrum syntax in the name of
-machine-aided research in music. The emphasis here should be on “aided”:
+machine-aided research in music.
+The emphasis here should be on “aided”:
 Humdrum possesses no higher-level analytical faculties per se. Rather, its
 power derives from the flexibility of its kit of elemental commands, which the
 user must learn to use in combination to exploit fully the system’s potential.
 
-# 3. Humdrum Representations
+# 3. Representaciones Humdrum (Sintaxis)
 
-## [3.1]
+## 3.1 \*\*kern: Representación esencial de altura/duracion
 Before discussing the ways in which the Toolkit can be used it will be
 helpful to inspect the conventions of one particular Humdrum representation, by
 means of a musical fragment. Example 1 (below) contains the first two phrases
 of the Bach chorale “Nun danket alle Gott” in Humdrum’s core pitch/duration
-representation scheme, \*\*kern.^(2) In this example, the first three lines, each
+representation scheme, \*\*kern.^(2)
+In this example, the first three lines, each
 tagged by a triple exclamation mark, are reference records, each of whose
 meaning should be readily apparent. Humdrum specifies over 80 types of
 reference records for electronic scores, providing for information as diverse
 as the catalogue number, name of the dedicatee, manuscript location or
 translated title in over forty languages.
 
-# EXAMPLE 1
+## Ejemplo 1
 
 ```
 !!!COM: Bach, Johann Sebastian
@@ -113,7 +132,7 @@ translated title in over forty languages.
 8D . . .
 ```
 
-## [3.2]
+## 3.2 Registros/Archivos Hundrum
 A Humdrum file is comprised of a series of records, each taking up one
 line. The four columns that follow the reference records are termed spines;
 they are separated by tab characters. Events in the same data record occur
@@ -127,7 +146,7 @@ for each spine which denotes the key of the excerpt; other tandem
 interpretations within \*\*kern contain information about meter signature, tempo,
 instrument etc
 
-## [3.3]
+## 3.3 Púas (spines)
 A \*\*kern representation may be thought of as a rotation, 90-clockwise, of
 the musical score. Thus the leftmost spine corresponds to the lowest voice, and
 time runs down the page instead of left to right. Additional spines, possibly
@@ -143,10 +162,11 @@ prime-form or interval vector. The data for a \*\*harm spine, on the other hand,
 must be entered manually (until a dependable machine algorithm for harmonic
 analysis is developed).
 
-## [3.4]
+## 3.4 Duración 
 Each encoded note in example 1 has at least two parts, corresponding
 respectively to the note’s duration and pitch: an integer, and one or more
-upper- or lower-case letters. The integer represents duration via the
+upper- or lower-case letters. 
+The integer represents duration via the
 reciprocal of the North-American note-value; for example, a quarter-note by “4”
 and a sixteenth-note by “16.” A breve (length of two whole-notes) takes the
 special value 0. Eighth-note triplets would each be allotted the integer
@@ -161,7 +181,7 @@ subdivisions of a breve, such as whole-note triplets (three to a breve), and
 such Ferneyhoughian atrocities as “four in the time of three notes of a
 quintuplet,” which require the use of superfluous ties and/or dots.
 
-## [3.5]
+## 3.5 Alturas, articulaciones, barras, pero no dinamicas. 
 The lower- or upper-case letters denote the pitch-class and octave of a
 note; chromatic alterations are of course also provided for, as are a large
 number of articulation markings (such as the tie in the alto part of Example 1,
@@ -180,7 +200,7 @@ manual^(3)—should they be required for a specific task the researcher may
 invent his or her own scheme. Guidelines for this are given in a chapter of the
 reference manual.
 
-## [3.6]
+## 3.6 Codificación de piezas
 As may be surmised, thoroughly encoding a piece of music can be a fairly
 laborious process. Unless electronic editions of the works under investigation
 happen to be available, either commercially or in the public domain, this is
@@ -200,7 +220,7 @@ into a Humdrum format offers the same problems (although the opposite
 conversion, from any one of several Humdrum formats to a standard MIDI file, is
 possible and indeed implemented in the tool kit).^(4)
 
-## [3.7]
+## 3.7 Otras representaciones pre-definidas
 While here is not the place for a detailed examination of all the various
 pre-defined Humdrum formats, a couple more will serve as additional examples to
 \*\*kern. The tablature representation for fretted instruments, \*\*fret, is
@@ -213,9 +233,9 @@ alphabet, and includes stress and intonation information. The “formant” comm
 can be used to generate a spine with the two strongest formant frequencies of
 each vowel encoded in the \*\*IPA representation.
 
-# 4. Humdrum Commands
+# 4. Humdrum Commands (Herramientas)
 
-## [4.1]
+## 4.1 Componentes Activos y Pasivos
 The “active” component of Humdrum, as compared to the “passive” syntax
 and representation schemes, is the kit of tools for manipulating data files
 that conform to the Humdrum syntax. Once the Toolkit is installed, commands are
@@ -228,7 +248,7 @@ basic UNIX commands that a user should be able to negotiate, but no
 introduction to this basic knowledge within the current Humdrum documentation.^
 (5)
 
-## [4.2]
+## 4.2 Nombres y proposito de algunos comandos basicos
 A glance at the names of most Humdrum commands reveals very little about
 their purpose: only a small minority of them, such as “tran” (transpose),
 “reihe” (give variant row form), “iv” (determine interval vectors) and “freq”
@@ -241,9 +261,10 @@ might wish to answer.^(6)
 
 # 5. Sample Problem
 
-## [5.1]
+## 5.1 Abordaje de la Sensible tonal en los Corales de Bach
 **In what proportion are leading-tones in Bach chorale melodies approached
-from beneath, and in what proportion from above?** If we are unaided by a
+from beneath, and in what proportion from above?** 
+If we are unaided by a
 computer, the question will pose no special problem as long as we restrict the
 number of chorales we wish to consider: for some purposes a few will suffice
 and the appropriate notes can easily be counted by hand. But should we wish to
@@ -261,7 +282,7 @@ extract -p 4 chorales > temp1
 where the “-p 4” indicates the fourth spine, and “temp1” is the name of the
 temporary file we are creating for the extracted spine.
 
-## [5.2]
+## 5.2 deg y \*\*deg, grados de la escala
 The original file represents notes by their pitch. We need scale-degree
 information instead, in order to locate leading-tones. The command “deg” will
 convert a file of \*\*kern data records into a file of \*\*deg records, where each
@@ -296,9 +317,9 @@ something like this:
 
 ^2
 
-..[etc.]
+..etc.
 ```
-## [5.3]
+## 5.3 rid y grep 
 This is quite a messy file, for it includes comments (records with
 leading exclamation marks), null tokens (records containing only the period
 punctuation sign) and bar-lines (records with leading equals signs). We could
@@ -313,7 +334,7 @@ regular expressions; leaving that aside for now, the following command (working
 on the file previously generated):
 
 ```
-grep ^[v^]7 temp2 > temp3
+grep ^v^7 temp2 > temp3
 ```
 
 will yield the following file, called temp3:
@@ -324,9 +345,9 @@ v7
 ^7
 v7-
 
-..[etc.]
+..etc.
 ```
-## [5.4]
+## 5.4 Septima menor y grep '-v' opcion
 Notice that a few records with a minus sign appear in this file. These
 represent lowered seventh scale-degrees such as may occur in a tonicization of
 IV, or in the mediant area of a minor-key chorale.^(8) To ignore these records
@@ -334,20 +355,21 @@ we can make use of grep’s -v option, which removes any lines containing the
 target string and returns only those lines without it:
 
 ```
-grep -v [-] temp3 > temp4
+grep -v - temp3 > temp4
 ```
-## [5.5]
+## 5.5 sort y uniq
 The original file has been whittled down to a series of records that
 contain exclusively unlowered leading-tones along with directional information.
 The final step will be to compare the frequency of occurrence of ^7 to that of
 v7. This requires the standard UNIX compound command sort | uniq -c | sort,
 which removes all duplicate lines from a file, recording the number of
 occurrences of each, and returns the contents in increasing order of frequency.
-^(9) The last step in our problem, then, is:
+The last step in our problem, then, is:
 ```
 sort temp4 | uniq -c | sort
 ```
-## [5.6]
+
+## 5.6 Todo el proceso en una sola linea
 The sequence of commands given above generated a chain of intermediate,
 “junk” files—Humdrum and UNIX commands generally create new files, leaving
 those they worked on intact. Instead the whole process, once designed and
@@ -355,8 +377,7 @@ tested on a shorter file, could be amalgamated in a “pipeline” of commands,
 each passing its result to the next through the UNIX “pipe” (typed as |):
 
 ```
-extract -p 4 chorales | deg -x | grep ^[v^]7 | grep -v [-] |
-sort | uniq -c | sort
+extract -p 4 chorales | deg -x | grep ^v^7 | grep -v - | sort | uniq -c | sort
 ```
 
 The final output will look something like this:
@@ -368,24 +389,29 @@ The final output will look something like this:
 indicating that, within the sample of sixteen chorales, Bach approached the
 leading tone from above roughly 50% more often than from below.
 
-## [5.7]
+## 5.7 Combinando comandos, soluciones reproducibles y modificables
 As we can gather from the above, the difficulty in implementing the
 machine-aided solution does not lie in understanding the functioning of the
 individual commands, but in devising an appropriate way to combine them. The
-advantages of a machine-aided solution to this problem are threefold. First,
+advantages of a machine-aided solution to this problem are threefold. 
+First,
 extremely large amounts of music could be processed with no extra work on the
 part of the researcher, and the task would remain tractable within a reasonable
-length of time.^(10) Secondly, we obtain a concrete and objective result,
-reproducible by other workers with access to the same data. And thirdly, if we
+length of time.^(10) 
+Secondly, we obtain a concrete and objective result,
+reproducible by other workers with access to the same data. 
+And thirdly, if we
 decide afterwards that we wish to vary the question by, say, discounting
 leading tones approached by leap instead of step, we would not have to return
 to the scores from scratch, but simply add a couple of steps to our pipeline of
 commands.
 
 # 6. The Toolkit
-## [6.1]
+
+## 6.1 Herramientas especializadas 
 The manual divides the Toolkit into the categories of specialized and
-basic tools. Specialized tools work only on a particular subset of exclusive
+basic tools. 
+Specialized tools work only on a particular subset of exclusive
 representations. Two that crop up frequently in standard analytical
 applications derive harmonic and melodic intervals from \*\*kern-type spines;
 these are respectively invoked by “hint” and “mint.” Alternative
@@ -402,14 +428,15 @@ which gives a measure of metric syncopation for each note, and “diss,” which
 implements the Kameoka/Kuriyagawa measure of dissonance. The algorithms that
 perform the calculations are well documented, where applicable.
 
-## [6.2]
+## 6.2 Reproduccion de archivos Humdrum
 The “perform” command plays back the contents of a Humdrum MIDI file,
 converted from a \*\*kern file by the midi command (and further convertible to a
 standard MIDI file by the smf command, for exporting to a sequencer or other
 external application program).^(11) Play-back is via an external MIDI
 synthesizer and control card (not included!), and allows the user to
 proof-listen interactively, changing the tempo, repeating sections and skipping
-forwards or backwards to the desired bar number. An extremely promising feature
+forwards or backwards to the desired bar number.
+An extremely promising feature
 from a pedagogical point of view is that “perform” relays comments encoded
 alongside the music onto the screen. Thus the encoding of a sonata could
 include labels for the various formal sections or particular harmonic devices,
@@ -419,7 +446,7 @@ in a twelve-tone piece and tag them with a comment, letting “perform” skip
 straight to each occurrence of the row and provide on-screen commentary about
 the row-form.^(12)
 
-## [6.3]
+## 6.3 Herramientas básicas 
 Basic tools, contrary to specialized tools, do their work on any
 representation scheme. Many of them combine or dissociate spines, files or
 parts of files as intermediate steps in a problem’s solution; these include
@@ -433,7 +460,7 @@ spines based on typographical “edit distance,” “infot,” which describes 
 flow of information, and “scramble” which randomizes data records for control
 purposes.
 
-## [6.4]
+## 6.4 patt y pattern
 Two very powerful basic tools deserve special mention: “patt” and
 “pattern,” which differ only slightly in their functioning. Each allows the
 user to define a pattern in a template that should match one or a sequence of
@@ -455,7 +482,7 @@ have appeared especially cryptic. Humdrum also provides for interactive
 checking of a regular expression against a user-definable test file, via the
 command “regexp.”
 
-## [6.5]
+## 6.5 La "demo" incluida en el Kit
 The demonstration program bundled with the Toolkit solves ten problems on
 screen, explaining each step as it is implemented. To work through the problems
 myself I found I had to refer to the shell scripts containing the commands that
@@ -475,7 +502,7 @@ sample problems do not belong, strictly speaking, in a reference work, novice
 users may feel they need more hints than they can glean from individual command
 specifications as to how these questions might be answered.^(13)
 
-## [6.6]
+## 6.6 Representaciones especificas para una tarea "echas en casa" 
 The Toolkit and representation schemes are not intended to meet the
 requirements of a researcher’s every contingency, nor could they be. Creating
 “home-made” task-specific representations is a simple job, given some
@@ -485,7 +512,8 @@ language. A skeleton program to aid in software development is provided,
 written in the AWK programming language and incorporating several useful
 functions.
 
-# 7. Reference Manual
+# 7. Documentacion
+# 7.1 Reference Manual
 Humdrum’s compendious reference manual is a model of clarity, completeness
 and logical design, running to 550 pages including a substantial index of some
 2700 terms. The “General Introduction” is especially well written, and
@@ -506,9 +534,9 @@ chord on the supertonic degree be labelled V7/ii (page 86); and the two
 accounts of the signifier for doubly-lowered notes in the \*\*deg representation
 are inconsistent (pages 59, 264).
 
-# 8. Humdrum Now and in the Future
+# 8. Humdrum Now and in the Future ¿en el pasado y en el presente?
 
-## [8.1]
+## 8.1 Obtener e instalar el software
 The Toolkit can currently be downloaded from the server at the University
 of Waterloo. The FTP site is , and Humdrum resides in the directory called /
 uw-data. Although the software is free, users must license their copy after ten
@@ -527,7 +555,7 @@ recommends that potential users read this document carefully before deciding to
 download the Toolkit. It can be viewed on a World Wide Web site at: http://
 www.lib.virginia.edu/dmmc/Music/Humdrum
 
-## [8.2]
+## 8.2 Partituras que se incluyen
 Scores that accompany the current release of Humdrum include a selection
 of sixteen Bach chorales, in both \*\*kern and \*\*harm representations; all 48
 fugues from the Well-Tempered Clavier; vocal melodies from Schubert Lieder and
@@ -551,7 +579,7 @@ the tune on a MIDI controller; Humdrum would find the closest matches in the
 database and give the numerical measure of correlation to what was played for
 each match.
 
-## [8.3]
+## 8.3 Guía de Usuario
 Huron is nearing completion of a Users’ Guide to Humdrum that “takes
 novice users by the hand, and teaches both Humdrum and the pertinent Unix
 utilities.”^(14) Many sample problems will be given annotated solutions,
@@ -562,7 +590,7 @@ alternative way of learning Humdrum is through a seminar: Professor Huron
 taught a two-week summer course on the use of the Toolkit at Stanford this
 year,^(15) and at McGill the previous summer.
 
-## [8.4]
+## 8.4 Proselitizmo en vano y GUI
 All this proselytizing may still fail to convince, given the reluctance
 and inertia many of us are likely to experience when faced with as new and as
 vast a resource as Humdrum. So, software developers have turned their attention
@@ -575,7 +603,7 @@ though Andreas Kornstaedt’s is apparently described in a recent publication.^
 notation-based program, so that Humdrum files can be viewed as scores or
 printed in traditional notation.
 
-## [8.5]
+## 8.5 Respuestas a buenas preguntas
 Humdrum provides concrete answers to well-posed questions. Surprising or
 counterintuitive answers could be genuine, or they could be the result of a
 malformed question or incorrect implementation of Humdrum commands. It thus
@@ -587,13 +615,13 @@ be a simple matter to place the relevant Humdrum scripts and encoded scores on
 an internet site, referenced by the article, and available to interested
 parties for retrieval.
 
-# 9. Conclusions
+# 9. Concluciones
 
-## [9.1]
+## 9.1 De la experiencia a la apreciación 
 Appreciation of the full potential of Humdrum is definitely a hands-on
 experience. In the words of David Huron, from the reference manual:
 
-> [a]ny set of tools requires the development of a concomitant expertise, and
+> any set of tools requires the development of a concomitant expertise, and
 > the Humdrum Toolkit is no exception. It is my hope that the investment of
 > time required to learn how to use Humdrum will be more than offset by the
 > subsequent scholarly gains.
@@ -611,7 +639,7 @@ works, testing of Narmour’s model of melodic structure, a study of musical
 texture, of Haydn string quartets, of phrasing and dynamics in piano works, and
 in perceptual experiments, etc.
 
-## [9.2]
+## 9.2 CLI vs GUI
 Humdrum or other systems like it offer the wherewithal for a brand new
 paradigm for music research. The tedium of collating hard evidence for one’s
 theories can be greatly alleviated by automation, and the more music examined
@@ -628,180 +656,108 @@ results, based on maximum amounts of relevant data, will be a most important
 factor in the evolution of our discipline.
 
 
-Jonathan Wild
-McGill University
-Faculty of Music, Dept. of Theory
-555 Sherbrooke West
-Montreal, Quebec, H3A 1A3
-jon@music.mcgill.ca
 
 
 
-# Footnotes
-
-1. Stephen Travis Pope (Editor), “Music Representation and Scoring (parts 1 and
-2),” Computer Music Journal, 17.3, 17.4 (1993).
-Return to text
-
-2. Representation schemes include two leading asterisks in their name. Tandem
-interpretations, discussed below, include one leading asterisk. It is
-unfortunate but hopefully not too confusing that asterisks are also used to
-draw attention to a word or phrase of ASCII text, in the manner of italics.
-Return to text
-
-3. A scheme called \*\*dynam appears in the demonstration files that come with
-the software.
-Return to text
-
-4. Andreas Kornstaedt’s “SCORE-to-Humdrum: A Graphical Environment for
-Musicological Analysis,” Computing in Musicology, Vol. 10 (1996): 105–122
-describes a translator program from the widely used notation program SCORE to a
-Humdrum format. Should the translation prove reliable a large quantity of
-commercially published scores encoded in SCORE will theoretically become
-available for use with Humdrum.
-Return to text
-
-5. See below regarding a forthcoming Users’ Guide for novice users.
-Return to text
-
-6. I shall make the same disclaimer that David Huron makes for his own Humdrum
-demonstration problems: my intent is to illustrate the use of the Toolkit, not
-provide an air-tight solution to the problem.
-Return to text
-
-7. Sixteen chorales (among other scores) are included with the Humdrum
-software. They should be concatenated into one file, called chorales, for this
-application.
-Return to text
-
-8. deg’s default assumption is that the “raised” leading-tone in minor is the
-norm; the “natural” minor seventh is tagged as a chromatically altered note.
-Return to text
-
-9. To illustrate, operating on this file:
-```
-ears
-fingers
-fingers
-fingers
-nose
-eyes
-fingers
-eyes
-ears
-fingers
-```
-the command sort | uniq -c | sort would return the following:
-```
-1 nose
-2 ears
-2 eyes
-5 fingers
-```
-
-Return to text
-
-10. On my system, the above pipeline took less than 30 seconds to compute an
-answer for sixteen chorales; all of Bach’s 371 chorales would take a few
-minutes—still negligible compared to the several days it would take to compile
-the same results by hand.
-Return to text
-
-11. There are at present no Humdrum MIDI input and output utilities for UNIX
-systems; the perform, record and encode features are available only for DOS or
-OS/2 machines.
-Return to text
-
-12. Kyle Dawkins has written an external player for Humdrum (and standard MIDI
-files) that provides full graphical control of playback features and a field
-for echoing comments embedded in the file; as of now it runs under Windows95
-only. Kyle welcomes inquiries about his player; he can be contacted at .
-Return to text
-
-13. See below regarding a forthcoming comprehensive Users’ Guide that will
-remedy this lack of help.
-Return to text
-
-14. Personal communication.
-Return to text
-
-15. See the website at http://ccrma-www.stanford.edu/CCRMA/Courses/
-SummerWorkshops/96
-Return to text
-
-16. Personal communication from David Huron.
-Return to text
-
-17. Andreas Kornstaedt, “SCORE-to-Humdrum: A Graphical Environment for
-Musicological Analysis,” Computing in Musicology, Vol. 10 (1996): 105–122.
-Return to text
-
-18. Personal communication.
-Return to text
-
-Stephen Travis Pope (Editor), “Music Representation and Scoring (parts 1 and
-2),” Computer Music Journal, 17.3, 17.4 (1993).
-Representation schemes include two leading asterisks in their name. Tandem
-interpretations, discussed below, include one leading asterisk. It is
-unfortunate but hopefully not too confusing that asterisks are also used to
-draw attention to a word or phrase of ASCII text, in the manner of italics.
-A scheme called \*\*dynam appears in the demonstration files that come with the
-software.
-Andreas Kornstaedt’s “SCORE-to-Humdrum: A Graphical Environment for
-Musicological Analysis,” Computing in Musicology, Vol. 10 (1996): 105–122
-describes a translator program from the widely used notation program SCORE to a
-Humdrum format. Should the translation prove reliable a large quantity of
-commercially published scores encoded in SCORE will theoretically become
-available for use with Humdrum.
-See below regarding a forthcoming Users’ Guide for novice users.
-I shall make the same disclaimer that David Huron makes for his own Humdrum
-demonstration problems: my intent is to illustrate the use of the Toolkit, not
-provide an air-tight solution to the problem.
-Sixteen chorales (among other scores) are included with the Humdrum software.
-They should be concatenated into one file, called chorales, for this
-application.
-deg’s default assumption is that the “raised” leading-tone in minor is the
-norm; the “natural” minor seventh is tagged as a chromatically altered note.
-To illustrate, operating on this file:
-```
-ears
-fingers
-fingers
-fingers
-nose
-eyes
-fingers
-eyes
-ears
-fingers
-```
-the command sort | uniq -c | sort would return the following:
-```
-1 nose
-2 ears
-2 eyes
-5 fingers
-```
-On my system, the above pipeline took less than 30 seconds to compute an answer
-for sixteen chorales; all of Bach’s 371 chorales would take a few minutes—still
-negligible compared to the several days it would take to compile the same
-results by hand.
-There are at present no Humdrum MIDI input and output utilities for UNIX
-systems; the perform, record and encode features are available only for DOS or
-OS/2 machines.
-Kyle Dawkins has written an external player for Humdrum (and standard MIDI
-files) that provides full graphical control of playback features and a field
-for echoing comments embedded in the file; as of now it runs under Windows95
-only. Kyle welcomes inquiries about his player; he can be contacted at .
-See below regarding a forthcoming comprehensive Users’ Guide that will remedy
-this lack of help.
-Personal communication.
-See the website at http://ccrma-www.stanford.edu/CCRMA/Courses/SummerWorkshops/
-
-96
-Personal communication from David Huron.
-Andreas Kornstaedt, “SCORE-to-Humdrum: A Graphical Environment for
-Musicological Analysis,” Computing in Musicology, Vol. 10 (1996): 105–122.
-Personal communication.
-
-
+\note{
+    
+    1. Stephen Travis Pope (Editor), “Music Representation and Scoring (parts 1 and
+    2),” Computer Music Journal, 17.3, 17.4 (1993).
+    Return to text
+    
+    2. Representation schemes include two leading asterisks in their name. Tandem
+    interpretations, discussed below, include one leading asterisk. It is
+    unfortunate but hopefully not too confusing that asterisks are also used to
+    draw attention to a word or phrase of ASCII text, in the manner of italics.
+    Return to text
+    
+    3. A scheme called \*\*dynam appears in the demonstration files that come with
+    the software.
+    Return to text
+    
+    4. Andreas Kornstaedt’s “SCORE-to-Humdrum: A Graphical Environment for
+    Musicological Analysis,” Computing in Musicology, Vol. 10 (1996): 105–122
+    describes a translator program from the widely used notation program SCORE to a
+    Humdrum format. Should the translation prove reliable a large quantity of
+    commercially published scores encoded in SCORE will theoretically become
+    available for use with Humdrum.
+    Return to text
+    
+    5. See below regarding a forthcoming Users’ Guide for novice users.
+    Return to text
+    
+    6. I shall make the same disclaimer that David Huron makes for his own Humdrum
+    demonstration problems: my intent is to illustrate the use of the Toolkit, not
+    provide an air-tight solution to the problem.
+    Return to text
+    
+    7. Sixteen chorales (among other scores) are included with the Humdrum
+    software. They should be concatenated into one file, called chorales, for this
+    application.
+    Return to text
+    
+    8. deg’s default assumption is that the “raised” leading-tone in minor is the
+    norm; the “natural” minor seventh is tagged as a chromatically altered note.
+    Return to text
+    
+    9. To illustrate, operating on this file:
+    ```
+    ears
+    fingers
+    fingers
+    fingers
+    nose
+    eyes
+    fingers
+    eyes
+    ears
+    fingers
+    ```
+    the command sort | uniq -c | sort would return the following:
+    ```
+    1 nose
+    2 ears
+    2 eyes
+    5 fingers
+    ```
+    
+    Return to text
+    
+    10. On my system, the above pipeline took less than 30 seconds to compute an
+    answer for sixteen chorales; all of Bach’s 371 chorales would take a few
+    minutes—still negligible compared to the several days it would take to compile
+    the same results by hand.
+    Return to text
+    
+    11. There are at present no Humdrum MIDI input and output utilities for UNIX
+    systems; the perform, record and encode features are available only for DOS or
+    OS/2 machines.
+    Return to text
+    
+    12. Kyle Dawkins has written an external player for Humdrum (and standard MIDI
+    files) that provides full graphical control of playback features and a field
+    for echoing comments embedded in the file; as of now it runs under Windows95
+    only. Kyle welcomes inquiries about his player; he can be contacted at .
+    Return to text
+    
+    13. See below regarding a forthcoming comprehensive Users’ Guide that will
+    remedy this lack of help.
+    Return to text
+    
+    14. Personal communication.
+    Return to text
+    
+    15. See the website at http://ccrma-www.stanford.edu/CCRMA/Courses/
+    SummerWorkshops/96
+    Return to text
+    
+    16. Personal communication from David Huron.
+    Return to text
+    
+    17. Andreas Kornstaedt, “SCORE-to-Humdrum: A Graphical Environment for
+    Musicological Analysis,” Computing in Musicology, Vol. 10 (1996): 105–122.
+    Return to text
+    
+    18. Personal communication.
+    Return to text
+}
