@@ -476,7 +476,7 @@ advantages of a machine-aided solution to this problem are threefold.
 
 	* First, extremely large amounts of music could be processed with no 
 extra work on the part of the researcher, and the task would remain tractable 
-within a reasonable length of time.^(10) 
+within a reasonable length of time.
 
 	* Secondly, we obtain a concrete and objective result, reproducible 
 by other workers with access to the same data. 
