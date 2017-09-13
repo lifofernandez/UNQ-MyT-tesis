@@ -454,7 +454,8 @@ tested on a shorter file, could be amalgamated in a “pipeline” of commands,
 each passing its result to the next through the UNIX “pipe” (typed as |):
 
 ```
-extract -p 4 chorales | deg -x | grep ^v^7 | grep -v - | sort | uniq -c | sort
+extract -p 4 chorales | deg -x | grep ^v^7 | \
+grep -v - | sort | uniq -c | sort
 ```
 
 The final output will look something like this:
