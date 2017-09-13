@@ -109,7 +109,7 @@ the system’s potential.
 # 3. Representaciones Humdrum 
 
 ## 3.1 \*\*kern: Representación esencial de altura/duracion
-Inspect the conventions of one particular Humdrum representation, by
+Lets inspect the conventions of one particular Humdrum representation, by
 means of a musical fragment. 
 
 Example 1 (below) contains the first two phrases of the Bach chorale
@@ -129,30 +129,27 @@ manuscript location or translated title in over forty languages.
 !!!OTL: Nun danket alle Gott
 !!!ENC: Wild, Jon
 **kern 	**kern 	**kern 	**kern
-*A: 	*A: 	*A: 	*A:
-4AA 	4c# 	4a 	4ee
-=1	=1 	=1 	=1
-8A 	4c# 	4a 	4ee
-8B 	. 	.	.
-8c# 	4c# 	4a 	4ee
-8A 	. 	. 	.
-8D	4d 	4a 	4ff#
-8E 	. 	. 	.
-8F# 	4d 	4a 	4ff#
-8D 	. 	. 	.
+*A:     *A:     *A:     *A:
+4AA     4c#     4a      4ee
+=1      =1      =1      =1
+8A      4c#     4a      4ee
+8B      .       .       .
+8c#     4c#     4a      4ee
+8A      .       .       .
+8D      4d      4a      4ff#
+8E      .       .       .
+8F#     4d      4a      4ff#
+8D      .       .       .
 ```
 
 ## 3.2 Registros/Archivos Humdrum
 
-* A Humdrum file is comprised of a series of records, each taking up one
-line. 
+A Humdrum file is comprised of a series of records, each taking up one line. 
 
 * The four columns that follow the reference records are termed spines; they are
 separated by tab characters.
 
-* Events in the same data record occur simultaneously. 
-
-* While events in the same spine but in distinct data records occur sequentially. 
+* Events in the same line occur simultaneously while events in the same spine occur sequentially. 
 
 * The heading \*\*kern, which is the exclusive interpretation of each spine here,
 signifies that the information within concerns pitch and duration. 
@@ -165,185 +162,207 @@ signifies that the information within concerns pitch and duration.
 denotes the key of the excerpt.
 
 * Other tandem interpretations within \*\*kern contain information about meter 
-signature, tempo, instrument etc
+signature, tempo, instrument, etc.
 
 ## 3.3 Púas (spines)
-* A \*\*kern representation may be thought of as a rotation, 90-clockwise, of
+A \*\*kern representation may be thought of as a rotation, 90-clockwise, of
 the musical score. 
-	* Thus the leftmost spine corresponds to the lowest voice.
- 	* Time runs down the page instead of left to right. 
 
-* Additional spines could contain either fairly straightforward things, such as 
-	* Vocal text ( \*\*text representation ) 
-	* Roman-numeral harmonic analysis ( \*\*harm representation )
-	* Relatively abstruse information such as cochlear coordinates ( \*\*cocho )
-	* Sensory dissonance ( \*\*diss ) 
-	* Acoustic spectral data ( \*\*spect ).
+* Thus the leftmost spine corresponds to the lowest voice.
+
+* Time runs down the page instead of left to right. 
+
+Additional spines could contain either fairly straightforward things, such as Vocal text ( \*\*text representation ), Roman-numeral harmonic analysis ( \*\*harm representation ), relatively abstruse information such as cochlear coordinates ( \*\*cocho ), Sensory dissonance ( \*\*diss ), Acoustic spectral data ( \*\*spect ).
 
 * Some of these other representations can be generated as output by commands 
 operating on a \*\*kern spine or set of spines. 
-	* For example, the pcset command would automatically append to the chorale 
+
+	* For example, the **pcset** command would automatically append to the chorale 
 in example 1 a \*\*pcset spine that labeled each simultaneity by its 
 Fortean set-class name, prime-form or interval vector.
 
-* The data for a \*\*harm spine, on the other hand, must be entered manually
-(until a dependable machine algorithm for harmonic analysis is developed).
+	* The data for a \*\*harm spine, on the other hand, must be entered manually
+(until an algorithm for this task is developed).
 
 ## 3.4 Duración 
-* Each encoded note in example 1 has at least two parts, corresponding
+Each encoded note in example 1 has at least two parts, corresponding
 respectively to the note’s duration and pitch: 
-	* an integer, and one or more upper- or lower-case letters. 
 
-* The integer represents duration via the reciprocal of the North-American note-value; 
-	* For example, a quarter-note by “4” and a sixteenth-note by “16.” 
-	* A breve (length of two whole-notes) takes the special value 0.
-	* Eighth-note triplets would each be allotted the integer 12—since they each 
+* An integer, and one or more upper- or lower-case letters. 
+
+The integer represents duration via the reciprocal of the North-American note-value; 
+
+* For example, a quarter-note by “4” and a sixteenth-note by “16.” 
+
+* A breve (length of two whole-notes) takes the special value 0.
+
+* Eighth-note triplets would each be allotted the integer 12—since they each 
 span a third of a quarter-note, logically they are twelfth-notes. 
-	* A note participating in a septuplet in the time of a dotted quarter-note would 
+
+* A note participating in a septuplet in the time of a dotted quarter-note would 
 receive the value 28 (one seventh of a quarter-note, or a 28th-note) augmented 
 by a dot; a further subdivision of this note into three parts would yield a 
 dotted 84th-note (!).
 
-* This convention may at first appear opaque, but manages succinctly and 
-consistently to express almost all durations.
+This convention may at first appear opaque, but manages succinctly and 
+consistently to express almost(\*) all durations.
+
+
+## 3.4.1 Duraciones complejas 
 
 * Exceptions that spring to mind include the admittedly obscure odd
 subdivisions of a breve, such as whole-note triplets (three to a breve), and
 such Ferneyhoughian atrocities as “four in the time of three notes of a
 quintuplet,” which require the use of superfluous ties and/or dots.
 
-* It is important to note that each of the components of a note’s representation 
-is optional: a file containing durations only could be compiled
-were one’s object to investigate solely the rhythmic character of a set of
-melodies. 
-
 ## 3.5 Alturas, articulaciones, barras, pero no dinamicas. 
+
 * The lower- or upper-case letters denote the pitch-class and octave of a note. 
 * Chromatic alterations are of course also provided. 
-* As are a large number of articulation markings.
-* Ornaments 
-* Editorialisms
-* Stem and beam indicators. 
+* As are a large number of Articulation markings, Ornaments, Editorialisms, 
+Stem and Beam indicators. 
 
+* Eech of the components of a note’s representation is optional: a file 
+containing durations only, could be compiled
 
 * Rests are indicated by combining a reciprocal duration with the
-letter “r”; 
+letter “r”. 
+
 * the frequent period characters are merely place markers, “null
 tokens” in a data record with activity in another spine.
+
 * Barlines appear as records with a leading equals sign; 
-	* an elaborate system of visual correspondences distinguishes between various
+	* An elaborate system of visual correspondences distinguishes between various
  forms of double barlines and/or repeat signs. 
 
 * Dynamics are conspicuously absent in \*\*kern, and indeed do not
 appear in any of the pre-defined representation schemes documented in the
-manual; 
+manual. 
 	* Should they be required for a specific task the researcher may
 invent his or her own scheme.
 
 ## 3.6 Codificación de piezas
-As may be surmised, thoroughly encoding a piece of music can be a fairly
-laborious process. Unless electronic editions of the works under investigation
-happen to be available, either commercially or in the public domain, this is
-likely to be the biggest impediment to a researcher’s making use of Humdrum.
+Thoroughly encoding a piece of music can be a fairly laborious process. 
 
-While there are functions designed for capturing data from a MIDI controller
-(encode and record), it may often be simpler to enter \*\*kern data manually once
-one is familiar with the encoding format—especially when reduced information
-suffices for the task at hand. 
+While there are functions designed for capturing data from a MIDI controller, 
+it may often be simpler to enter \*\*kern data manually once one is familiar with 
+the encoding format.
 
 But with more complex input such as found in, say, a late Romantic piano work, 
-it will be some time before a computer can correctly parse
-the music into meaningful strands suitable for Humdrum spines—an inner part
-crossing between staves is apt to cause confusion even in music students, let
-alone in a segmentation program. 
+it will be some time before a computer can correctly parse the music into 
+meaningful strands suitable for Humdrum spines
 
-* Automated translation of a standard MIDI file into a Humdrum format offers the 
-same problems 
-	* although the opposite conversion, from any one of several Humdrum formats 
+Automated translation of a standard MIDI file into a Humdrum format offers the 
+same problems although the opposite conversion, from any one of several Humdrum formats 
 to a standard MIDI file, is possible and indeed implemented in the tool kit.
 
 ## 3.7 Otras representaciones pre-definidas
 While here is not the place for a detailed examination of all the various
 pre-defined Humdrum formats, a couple more will serve as additional examples to
 \*\*kern. 
+
 * The tablature representation for fretted instruments, \*\*fret, is
 particularly well developed, 
+
 	* Can accommodate non-standard and non-Western instruments.
+
 	* The tuning of each string and the exact position of each fret are
 specified in tandem interpretations 
-	* Detailed information is encoded in each data record about 
-		* Wich strings are plucked, 
-		* How they are plucked, 
-		* And at which fret. 
+
+	* Detailed information is encoded in each data record about, 
+wich strings are plucked, how they are plucked, and at which fret. 
 
 * The \*\*IPA scheme phonetically represents vocal texts via an ASCII
 alphabet, and includes stress and intonation information. 
+
 	* The “formant” command can be used to generate a spine with the two 
 strongest formant frequencies of each vowel encoded in the \*\*IPA representation.
 
-# 4. Humdrum Commands (Herramientas)
+# 4. Humdrum Commands 
 
-## 4.1 Componentes Activos y Pasivos
-The “active” component of Humdrum, as compared to the “passive” syntax
-and representation schemes, is the kit of tools for manipulating data files
-that conform to the Humdrum syntax. Once the Toolkit is installed, commands are
-invoked via a standard UNIX terminal, and the bulk of a researcher’s work will
-probably rely on ordinary UNIX commands such as “grep” or “sort.” A modicum of
-familiarity with this operating system is required for the aspiring Humdrummer
+## 4.1 Componentes Activos 
+The “active” component of Humdrum is the kit of tools for manipulating data files
+that conform to the Humdrum syntax.
+
+Once the Toolkit is installed, commands are invoked via a standard UNIX terminal,
+and the bulk of a researcher’s work will probably rely on ordinary UNIX commands 
+such as “grep” or “sort.”
+
+A modicum of familiarity with this operating system is required for the aspiring Humdrummer
 to embark on a research project, and the more at ease he or she is in a UNIX
-environment the sooner Humdrum will be mastered. There are roughly a dozen
-basic UNIX commands that a user should be able to negotiate, but no
-introduction to this basic knowledge within the current Humdrum documentation.^
-(5)
+environment the sooner Humdrum will be mastered.
+
+There are roughly a dozen basic UNIX commands that a user should be able to negotiate, but no
+introduction to this basic knowledge within the current Humdrum documentation.
 
 ## 4.2 Nombres y proposito de algunos comandos basicos
 A glance at the names of most Humdrum commands reveals very little about
 their purpose: only a small minority of them, such as “tran” (transpose),
 “reihe” (give variant row form), “iv” (determine interval vectors) and “freq”
-(return frequency in Hz), have any obvious musical significance. And, as noted
-in the reference manual, these tend to be the least useful commands, since they
-are so specialized. The nature of many of the basic commands taken individually
-is quite abstract. To give an idea of their scope in combination, as well as of
-the working environment of Humdrum, here follows a modest sample problem we
-might wish to answer.^(6)
+(return frequency in Hz), have any obvious musical significance.
+
+And, as noted in the reference manual, these tend to be the least useful commands, since they
+are so specialized. 
+
+The nature of many of the basic commands taken individually is quite abstract. 
+
 
 # 5. Sample Problem
 
 ## 5.1 Abordaje de la Sensible tonal en los Corales de Bach
 **In what proportion are leading-tones in Bach chorale melodies approached
 from beneath, and in what proportion from above?** 
-If we are unaided by a
-computer, the question will pose no special problem as long as we restrict the
-number of chorales we wish to consider: for some purposes a few will suffice
-and the appropriate notes can easily be counted by hand. But should we wish to
-consider a large number of chorales, our task will be considerably easier—and
-will provide more reliable answers—if we let the computer do the counting. Let
-us work through the steps involved, assuming the existence of a file containing
-encoded versions of several Bach chorales.^(7) First, we are interested only in
-the melody, which is in the soprano part, or the fourth spine of the file. For
-this we may use the Humdrum command “extract,” which selects certain data from
-a file. The full command would be
+
+If we are unaided by a computer, the question will pose no special problem as 
+long as we restrict the number of chorales we wish to consider: for some purposes
+a few will suffice and the appropriate notes can easily be counted by hand. 
+But should we wish to consider a large number of chorales, our task will be 
+considerably easier—and will provide more reliable answers—if we let the computer
+do the counting. 
+
+Let us work through the steps involved, assuming the existence of a file containing
+encoded versions of several Bach chorales. 
+
+
+## 5.2 extract 
+First, we are interested only in the melody, which is in the soprano part, 
+or the fourth spine of the file. 
+
+For this we may use the Humdrum command “extract,” which selects certain data from
+a file. 
+
+The full command would be
 
 ```
 extract -p 4 chorales > temp1
 ```
-where the “-p 4” indicates the fourth spine, and “temp1” is the name of the
+
+Where the “-p 4” indicates the fourth spine, and “temp1” is the name of the
 temporary file we are creating for the extracted spine.
 
-## 5.2 deg y \*\*deg, grados de la escala
+## 5.3 deg y \*\*deg, grados de la escala
 The original file represents notes by their pitch. We need scale-degree
-information instead, in order to locate leading-tones. The command “deg” will
+information instead, in order to locate leading-tones. 
+
+The command “deg” will
 convert a file of \*\*kern data records into a file of \*\*deg records, where each
 note appears as a number from 1 to 7, representing its scale degree. The
 calculation is relative to the current key, as specified in key tandem
-interpretation records in the file. We also require contour information;
+interpretation records in the file.
+
+We also require contour information;
 happily the \*\*deg representation includes a direction indicator: the lower-case
 letter v signifies “lower than previous note” and the caret ^ signifies “higher
 than previous note.” The next step in our sample problem is thus:
+
 ```
 deg -x temp1 > temp2
 ```
-where the “-x” removes certain extraneous data. The new file, temp2, will begin
+
+
+## 5.3b deg Output
+
+Where the “-x” removes certain extraneous data. The new file, temp2, will begin
 something like this:
 
 ```
@@ -367,7 +386,8 @@ something like this:
 
 ..etc.
 ```
-## 5.3 rid y grep 
+
+## 5.4 rid y grep 
 This is quite a messy file, for it includes comments (records with
 leading exclamation marks), null tokens (records containing only the period
 punctuation sign) and bar-lines (records with leading equals signs). We could
@@ -385,7 +405,10 @@ on the file previously generated):
 grep ^v^7 temp2 > temp3
 ```
 
-will yield the following file, called temp3:
+## 5.4b rid y grep Output
+
+This will yield the following file, called temp3:
+
 ```
 ^7
 v7
@@ -395,7 +418,8 @@ v7-
 
 ..etc.
 ```
-## 5.4 Septima menor y grep '-v' opcion
+
+## 5.5 Septima menor y grep '-v' opcion
 Notice that a few records with a minus sign appear in this file. These
 represent lowered seventh scale-degrees such as may occur in a tonicization of
 IV, or in the mediant area of a minor-key chorale.^(8) To ignore these records
@@ -405,22 +429,27 @@ target string and returns only those lines without it:
 ```
 grep -v - temp3 > temp4
 ```
-## 5.5 sort y uniq
+
+## 5.6 sort y uniq
 The original file has been whittled down to a series of records that
 contain exclusively unlowered leading-tones along with directional information.
+
 The final step will be to compare the frequency of occurrence of ^7 to that of
 v7. This requires the standard UNIX compound command sort | uniq -c | sort,
 which removes all duplicate lines from a file, recording the number of
 occurrences of each, and returns the contents in increasing order of frequency.
+
 The last step in our problem, then, is:
 ```
 sort temp4 | uniq -c | sort
 ```
 
-## 5.6 Todo el proceso en una sola linea
+## 5.7 Todo la cadena de procesos en una sola linea
 The sequence of commands given above generated a chain of intermediate,
 “junk” files—Humdrum and UNIX commands generally create new files, leaving
-those they worked on intact. Instead the whole process, once designed and
+those they worked on intact.
+
+Instead the whole process, once designed and
 tested on a shorter file, could be amalgamated in a “pipeline” of commands,
 each passing its result to the next through the UNIX “pipe” (typed as |):
 
@@ -434,10 +463,11 @@ The final output will look something like this:
 15 ^7
 22 v7
 ```
-indicating that, within the sample of sixteen chorales, Bach approached the
+
+Indicating that, within the sample of sixteen chorales, Bach approached the
 leading tone from above roughly 50% more often than from below.
 
-## 5.7 Combinando comandos, soluciones reproducibles y modificables
+## 5.8 Combinando comandos, soluciones reproducibles y modificables
 * As we can gather from the above, the difficulty in implementing the
 machine-aided solution does not lie in understanding the functioning of the
 individual commands, but in devising an appropriate way to combine them. The
