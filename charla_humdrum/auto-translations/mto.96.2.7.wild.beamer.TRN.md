@@ -243,7 +243,7 @@ considerablemente más fácil y proporcionará respuestas más confiables si dej
 hacer el recuento.
 Trabajemos a través de los pasos involucrados, asumiendo la existencia de un archivo que contenga
 
-5.2 Extracto
+## 5.2 Extracto
 En primer lugar, sólo nos interesa la melodía, que está en la parte soprano,
 o la cuarta columna del archivo.
 Para esto podemos usar el comando Humdrum"extract", que selecciona ciertos datos de
@@ -291,13 +291,14 @@ SCT: BWV 454
 ^2
 ..etc.
 ```
-5.4.1 librar
+## 5.4.1 librar
 Este es un archivo bastante desordenado, ya que incluye:
 * Comentarios (registros con signos de exclamación).
 * Fichas nulas (registros que sólo contienen el signo de puntuación del período).
 * Líneas de barras (registros con signos de igualdad principales).
 Podríamos invocar el comando"rid"de Humdrum para obtener"deshacerse"de los elementos superfluos
 a nuestra investigación, pero no es estrictamente necesario.
+
 ## 5.4.2 agarre
 Para nuestros propósitos los únicos expedientes que importan son los que contienen el dígito 7,
 para el tono principal, y comience con un signo hacia arriba o hacia abajo (^ o v).

@@ -399,39 +399,20 @@ sort temp4 | uniq -c | sort
 
 ## 5.7 Cadena de procesos completa 
 
-La secuencia de comandos dada anteriormente generó una cadena intermediia de  "archivos basura.
-
-Los comandos Humdrum y UNIX generalmente crean nuevos archivos, dejando
-aquellos en los que trabajaron intactos.
-
-En su lugar todo el proceso, una vez diseñado y probado en un archivo más corto, podría ser amalgamado en un "conducto" (pipeline) de órdenes, cada uno pasando su resultado a el siguiente a través de "pipa" UNIX (representado por el simbolo pleca "|"):
-
 
 ```
 extract -p 4 chorales | deg -x | grep ^v^7 | \
 grep -v - | sort | uniq -c | sort
 ```
 
-El resultado final se verá así:
 
 ```
 15 ^7
 22 v7
 ```
 
-Indicando que, dentro de la muestra de 16 corales, la sensible se aproxima el tono desde arriba aproximadamente el 50% más a menudo que desde abajo.
-
 ## 5.8 Combinando comandos, soluciones reproducibles y modificables
 
-Como se puede deducir de lo anterior, la dificultad de solución asistida por la máquina no radica en comprender el funcionamiento individuales, sino en idear una manera apropiada de combinarlas. 
-
-Las ventajas de una solución asistida por máquina a este problema son triples.
-
-* Las cantidades extremadamente grandes de música podrían ser procesadas sin trabajo extra por parte del investigador, y la tarea se mantendría dentro de un plazo razonable.
-
-* Obtenemos un resultado concreto y objetivo, reproducible por otros trabajadores con acceso a los mismos datos.
-
-* Si decidimos después que queremos variar la pregunta, por decir, contando los tonos principales abordados por salto en lugar de grado conujuto, simplemente agregamos un par de pasos a nuestro conducto de comandos.
 
 # 6. The Toolkit
 
