@@ -591,11 +591,15 @@ experience. In the words of David Huron, from the reference manual:
 > subsequent scholarly gains.
 
 Huron has certainly proved the last portion of this excerpt through his own
-research, much of which has relied on Humdrum. His work in music perception
+research, much of which has relied on Humdrum. 
+
+His work in music perception
 accounts for the inclusion in the Toolkit of some specialized tools relevant to
 that area—in fact Humdrum users have so far tended to work in music perception
 or ethnomusicology, while theorists and historical musicologists have been slow
-to recognize the system’s potential. Huron offers the following sampling of
+to recognize the system’s potential.
+
+ Huron offers the following sampling of
 projects he is aware of that relied on Humdrum:^(18) a study of canonic
 compositional rules by Zarlino, a study of Korean court music, a study of text/
 melody relationships in Gregorian chant, a study of idiomaticism in trumpet
@@ -605,16 +609,24 @@ in perceptual experiments, etc.
 
 ### [9.2]
 Humdrum or other systems like it offer the wherewithal for a brand new
-paradigm for music research. The tedium of collating hard evidence for one’s
+paradigm for music research. 
+
+The tedium of collating hard evidence for one’s
 theories can be greatly alleviated by automation, and the more music examined
-the greater the rigor of proof for one’s hypotheses. However the unfortunate
+the greater the rigor of proof for one’s hypotheses. 
+
+However the unfortunate
 possibility is that many of today’s musicologists and theorists who could
 benefit from a little machine-aided insight are likely to be put off by
-Humdrum’s completely text-based interface. Although in the final analysis
+Humdrum’s completely text-based interface. 
+
+Although in the final analysis
 UNIX-style commands are surely more flexible and efficient than a
 “user-friendly,” graphic interface, they can appear daunting to
 non-programmers, many of whom stand to be deterred from making use of an
-otherwise valuable tool. Whether or not music theorists will choose to augment
+otherwise valuable tool. 
+
+Whether or not music theorists will choose to augment
 their invaluable musical intuition with equally invaluable empirically verified
 results, based on maximum amounts of relevant data, will be a most important
 factor in the evolution of our discipline.

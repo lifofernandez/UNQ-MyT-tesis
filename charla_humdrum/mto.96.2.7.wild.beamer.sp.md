@@ -69,8 +69,8 @@ Incluso el estudio de repertorios acotados es mas flexibe cuando la representaci
 ## 1.2 Contexto
 El [Centro de Investigación Asistida por Computador en Humananidades](http://www.ccarh.org/) (CCARH) de Standford tiene un proyecto en curso de una base de datos musicales.
 
-De importancia vital para la utilidad de tal tarea es el formato de
-representación musical dentro de la base de datos.
+De importancia vital para la utilidad de tal tarea es **el formato de
+representación musical** dentro de la base de datos.
 
 Como resultado de los éxitos de la musicología asistida por ordenador, la representación musical prolifera, compitiendo hasta el momento que una cierta clase se convierta en estándar.
 
@@ -88,20 +88,20 @@ En primer lugar, está la sintaxis definida para representar información discre
 
 * Su definición permite que se codifiquen muchos tipos de información.
 
-* El esquema esencial utilizado en la base de datos CCARH para la altura y la duración musical es sólo uno de un conjunto abierto.  
+* El esquema esencial utilizado en la base de datos CCARH para la altura y la duración musical es sólo **uno de un conjunto abierto**.  
 
-	* Algunos otros miembros pueden ser aumentados por esquemas definidos por el usuario para tareas de investigación.  
+	* Algunos otros miembros **pueden ser aumentados por esquemas definidos por el usuario** para tareas de investigación.  
 
 ## 2.2 El Conjunto Comandos
 
-Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para manipular archivos que se ajusten a la sintaxis Humdrum en el nombre de la investigación asistida por ordenador en la música.
+Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para manipular archivos que se ajusten a la sintaxis Humdrum, en el nombre de la investigación asistida por ordenador en la música.
 
 El énfasis aquí debe ser en "asistido":
 
 * Humdrum no posee facultades analíticas de nivel superior per se.
 
-* Más bien, su poder deriva de la flexibilidad de su kit de
-elementales, que el usuario debe aprender a utilizar en combinación
+* Más bien, su poder deriva de la flexibilidad de su kit de **aplicaciones
+elementales**, que el usuario debe aprender a utilizar **en combinación**
 para explotar plenamente el potencial del sistema.
 
 # 3. Representaciones Humdrum 
@@ -142,7 +142,7 @@ Un archivo de Humdrum se compone de una serie de registros, cada uno ocupando un
 
 * Las columnas despúes de los registros de referencia se denominan espinas; son separados por caracteres de tabulación.
 
-* Los acontecimientos en la misma línea ocurren simultáneamente, mientras que los acontecimientos en la misma dorsal ocurren secuencialmente.
+* Los eventos en la misma línea ocurren simultáneamente, mientras que los acontecimientos en la misma espina ocurren secuencialmente.
 
 * El encabezamiento \*\*kern, que es la interpretación exclusiva de cada espina aquí, significa que la información dentro de las columnas es de tono y duración.
 
@@ -171,7 +171,7 @@ Espinas adicionales podrían contener
 
 Algunas de estas otras representaciones pueden ser generadas como salida por comandos operando en una espina o conjunto de espinas.
 
-* Por Ej, el comando **pcset** añadirá automáticamente una columna etiquetada \*\*pcset con el nombre Fortean del class-set, forma prima o vector interválico en simultaneo a cada tandem de notas.
+* Por Ej, el comando **pcset** añadirá automáticamente una columna etiquetada \*\*pcset con el nombre Fortean del pitch class set, forma prima o vector interválico en simultaneo a cada conjunto de notas.
 
 ## 3.4 Duración 
 
@@ -181,7 +181,7 @@ Cada nota codificada en el ejemplo 1 tiene al menos dos partes, correspondiendo 
 
 El entero representa la duración a través del valor de nota norteamericano recíproco;
 
-* Por ejemplo, una negra esta representada por un "4" y una corchea porun "16"
+* Por ejemplo, una negra esta representada por un "4" y una corchea por un "16"
 
 * Una breve (longitud de dos notas enteras) toma el valor especial 0.
 
@@ -192,7 +192,7 @@ El entero representa la duración a través del valor de nota norteamericano rec
 
 Esta convención puede parecer inicialmente opaca, pero maneja sucintamente y consistentemente para expresar casi todas las duraciones.
 
-* Las excepciones que vienen a la mente incluyen como obstáculo subdivisiones de una breve, como tripletes de redonda (tres a una breve), y tales atrocidades ferneyhoughianas como "cuatro en el tiempo de tres notas de un quintllo", que requieren el uso de lazos superfluos y / o puntos.
+* Las excepciones que vienen a la mente incluyen como obstáculo subdivisiones de una breve, como tripletes de redonda (tres a una breve), y tales atrocidades ferneyhoughianas como "cuatro en el tiempo de tres notas de un quintllo", que requieren el uso de lazos superfluos y/o puntos.
 
 ## 3.5 Alturas, articulaciones, barras... 
 
@@ -202,24 +202,22 @@ Esta convención puede parecer inicialmente opaca, pero maneja sucintamente y co
 
 * Al igual que un gran número de marcas de articulación, ornamentos, editorialismos, plecas y conectores.
 
-* Los silencios se indican combinando una duración recíproca con la
-letra "r".
+* Los silencios se indican combinando una duración recíproca con la letra "r".
 
 * Los caracteres de punto frecuente son meramente marcadores de posición, "tokens nulos" en un registro de datos con actividad en otra espina.
 
 * Barras aparecen como registros con un signo de igual (=);
 
-	* Un elaborado sistema de correspondencias visuales distingue entre varios formas de líneas de doble barra y / o repetición.
+	* Un elaborado sistema de correspondencias visuales distingue entre varios formas de líneas de doble barra y/o repetición.
 
-Cada uno de los componentes de la representación de una nota es opcional: un archivo que sólo contienen duraciones, podrían compilarse
+Cada uno de los componentes de la representación de una nota **es opcional: un archivo que sólo contienen duraciones, podrían compilarse.**
 
 ## 3.5.1 ...pero, no dinamicas 
 
 La dinámica está notablemente ausente en \*\*kern, y de hecho no
 aparecen en ninguno de los esquemas de representación predefinidos documentados en el manual.
 
-* Si se requieren para una tarea específica, el investigador puede
-inventar su propio esquema.
+* Si se requieren para una tarea específica, el investigador puede inventar su propio esquema.
 
 ## 3.6 Codificación de piezas
 
@@ -235,9 +233,9 @@ La traducción automatizada de un archivo MIDI estándar en un formato Humdrum c
 
 Si bien aquí no es el lugar para un examen detallado de todos los predefinidos de Humdrum, un par más servirán como ejemplos adicionales para \*\*kern.  
 
-* La representación de la tablatura \*\* fret, está particularmente bien desarrollado
+* La representación de la tablatura \*\* fret,está particularmente bien desarrollado
 
-	* Puede acomodar instrumentos no estándar y no-occidental.
+	* Puede soportar instrumentos no convencionales y no occidental.
 
 	* La afinación de cada cuerda y la posición exacta de cada traste son especificadas en interpretaciones en tándem
 
@@ -250,15 +248,15 @@ Si bien aquí no es el lugar para un examen detallado de todos los predefinidos 
 
 El componente "activo" de Humdrum es el kit de herramientas para manipular archivos de datos que se ajustan a la sintaxis Humdrum.
 
-Una vez instalado el Toolkit, los comandos se invocan a través de un terminal UNIX estándar, y la mayor parte del trabajo de un investigador probablemente dependerá de comandos ordinarios de UNIX tales como "grep" o "sort".
+Una vez instalado el Toolkit, los comandos se invocan a través de un terminal UNIX estándar, y la mayor parte del trabajo de un investigador probablemente dependerá de **comandos ordinarios de UNIX tales como "grep" o "sort"**.
 
 Un mínimo de familiaridad con este sistema operativo es necesario para el aspirante Humdrummer para embarcarse en un proyecto de investigación, y cuanto más a gusto él o ella está en el ambiente UNIX más pronto Humdrum será dominado.
 
-Hay aproximadamente una docena de comandos UNIX básicos que un usuario debe poder negociar, pero no exixte introducción a este conocimiento básico dentro de la documentación actual de Humdrum.
+Hay aproximadamente una docena de comandos UNIX básicos que un usuario debe poder negociar, pero no exixte introducción a este conocimiento elemental dentro de la documentación actual de Humdrum.
 
 ## 4.2 Nombres y proposito de algunos comandos basicos
 
-Una mirada a los nombres de la mayoría de los comandos de Humdrum revela muy poco sobre su finalidad: sólo una pequeña minoría de ellos, como "tran"  transponer), "reihe" (dar forma alternativa de fila), "iv" (determinar vectores de intervalo) y"freq" (frecuencia en Hz), tienen una significación musical obvia.
+Una mirada a los nombres de la mayoría de los comandos de Humdrum revela muy poco sobre su finalidad: sólo una pequeña minoría de ellos, como "tran"  transponer), "reihe" (dar forma alternativa de fila), "iv" (determinar vectores de intervalo) y "freq" (frecuencia en Hz), tienen una significación musical obvia.
 
 Y, como se señala en el manual de referencia, éstos tienden a ser los comandos menos útiles, ya que son especializados.
 
@@ -267,9 +265,9 @@ La naturaleza de muchos de los comandos básicos tomados individualmente es bast
 # 5. Sample Problem
 ## 5.1 Abordaje de la Sensible Tonal en los Corales de Bach
 
-**¿En qué proporción son los tonos principales en las melodías corales de Bach acercadas desde abajo, y en qué proporción desde arriba?**
+**¿En qué proporción son las sensibles tonales en las melodías corales de Bach abordadas desde abajo, y en qué proporción desde arriba?**
 
-Si no nos ayudan las computadoras, la pregunta no planteará ningún problema mientras restringimos el número de corales que queremos considerar: para algunos propósitos bastarán unos cuantos y las notas apropiadas se pueden contar fácilmente a mano.
+Sin la ayuda de las computadoras, la pregunta no planteará ningún problema mientras restringimos el número de corales que queremos considerar: para algunos propósitos bastarán unos cuantos y las notas apropiadas se pueden contar fácilmente a mano.
 
 Pero si queremos considerar un gran número de corales, nuestra tarea será considerablemente más fácil y proporcionará respuestas más confiables si dejamos que la computadora haga el recuento.
 
@@ -299,7 +297,7 @@ El comando "deg" convertirá un archivo de \*\*kern en un archivo \*\*deg, donde
 
 También requerimos información de contorno; felizmente la representación \*\*deg incluye un indicador de dirección:
 
-* La letra minúscula v significa "inferior a la nota anterior"
+* La letra minúscula v significa "inferior a la nota anterior".
 
 * Y el caret ^ significa "más alto que la nota anterior."
 
@@ -308,11 +306,10 @@ El siguiente paso en nuestro problema de la muestra es así:
 ```
 deg -x temp1 > temp2
 ```
-
+Donde "-x" elimina ciertos datos extraños.  
 
 ## 5.3b deg Output
 
-Donde "-x" elimina ciertos datos extraños.  
 
 El nuevo archivo, temp2, comenzará
 
@@ -351,7 +348,7 @@ Podríamos invocar el comando "rid" de Humdrum para "deshacernos" de los element
 
 Para nuestros propósitos los únicos registros que importan son los que contienen el dígito 7, para sensible tonal, y comience con un signo hacia arriba o hacia abajo (^ o v).
 
-Podemos usar el comando UNIXi "grep" (Get Regular ExPression) para filtrar el archivo con el control de una cadena de destino, y emitir sólo aquellas líneas que contengan al menos una ocurrencia de la cadena.
+Podemos usar el comando UNIX "grep" (Get Regular ExPression) para filtrar el archivo con el control de una cadena de destino, y emitir sólo aquellas líneas que contengan al menos una ocurrencia de la cadena.
 
 La sintaxis de la cadena de destino sin duda será oscura para aquellos que no están familiarizados con las expresiones regulares en UNIX;  dejando esto a un lado por ahora, el siguiente comando (trabajo en el archivo generado anteriormente) sería:
 
@@ -645,43 +642,54 @@ parties for retrieval.
 # 9. Conclusión
 
 ## 9.1 De la experiencia a la apreciación 
-Appreciation of the full potential of Humdrum is definitely a hands-on
-experience. In the words of David Huron, from the reference manual:
 
-> any set of tools requires the development of a concomitant expertise, and
-> the Humdrum Toolkit is no exception. It is my hope that the investment of
-> time required to learn how to use Humdrum will be more than offset by the
-> subsequent scholarly gains.
+Apreciación de todo el potencial de Humdrum es definitivamente una práctica
+experiencia.  En palabras de David Huron, del manual de referencia:
 
-Huron has certainly proved the last portion of this excerpt through his own
-research, much of which has relied on Humdrum. His work in music perception
-accounts for the inclusion in the Toolkit of some specialized tools relevant to
-that area—in fact Humdrum users have so far tended to work in music perception
-or ethnomusicology, while theorists and historical musicologists have been slow
-to recognize the system’s potential. Huron offers the following sampling of
-projects he is aware of that relied on Humdrum:^(18) a study of canonic
-compositional rules by Zarlino, a study of Korean court music, a study of text/
-melody relationships in Gregorian chant, a study of idiomaticism in trumpet
-works, testing of Narmour’s model of melodic structure, a study of musical
-texture, of Haydn string quartets, of phrasing and dynamics in piano works, and
-in perceptual experiments, etc.
+> Cualquier conjunto de herramientas requiere el desarrollo de una experiencia 
+> concomitante, y Humdrum Toolkit no es una excepción.  Espero que la inversión de
+> el tiempo requerido para aprender a usar Humdrum será más que compensado por 
+> ganancias académicas posteriores.
+
+Huron ciertamente ha demostrado la última parte de este fragmento a través de su propio
+investigación, gran parte de la cual ha dependido de Humdrum. 
+
+Su trabajo en la percepción musical aportó algunas herramientas especializadas 
+del Toolkit para este area, que de echo
+los usuarios de Humdrum hasta ahora han tendido a trabajar en la percepción 
+de la música o etnomusicología, 
+mientras que los teóricos y los musicólogos histioriadores han sido lentos
+para reconocer el potencial del sistema. 
+
+Huron ofrece el siguiente muestreo de
+proyectos que conoce que se apoyaron en Humdrum: un estudio de canónica
+las reglas de composición de Zarlino, un estudio de la música cortesana coreana, un estudio del texto /
+relaciones melódicas en canto gregoriano, un estudio de idiomaticismo en trompeta
+trabajos, prueba del modelo de estructura melódica de Narmour, estudio de
+textura, de cuartetos de cuerdas Haydn, de fraseo y dinámica en obras de piano, y
+en experimentos perceptivos, etc.
 
 ## 9.2 CLI vs GUI
-Humdrum or other systems like it offer the wherewithal for a brand new
-paradigm for music research. The tedium of collating hard evidence for one’s
-theories can be greatly alleviated by automation, and the more music examined
-the greater the rigor of proof for one’s hypotheses. However the unfortunate
-possibility is that many of today’s musicologists and theorists who could
-benefit from a little machine-aided insight are likely to be put off by
-Humdrum’s completely text-based interface. Although in the final analysis
-UNIX-style commands are surely more flexible and efficient than a
-“user-friendly,” graphic interface, they can appear daunting to
-non-programmers, many of whom stand to be deterred from making use of an
-otherwise valuable tool. Whether or not music theorists will choose to augment
-their invaluable musical intuition with equally invaluable empirically verified
-results, based on maximum amounts of relevant data, will be a most important
-factor in the evolution of our discipline.
 
+Humdrum u otros sistemas como él ofrecen los recursos para una marcar un nuevo
+paradigma para la investigación musical.  
+
+El tedio de recopilar pruebas sólidas que apoyen las propias
+teorías pueden ser aliviadas por la automatización, y cuanto 
+mayor sea la cantidad de música examinada 
+mayor será el rigor de la prueba de las hipótesis.  
+
+Sin embargo, la desafortunada posibilidad es que muchos de los musicólogos 
+y teóricos actuales que se benefician de una pequeña intuición asistida por la máquina.
+es probalbe que sean repelidos por la interfaz totalmente basada en texto de Humdrum.  
+
+Aunque en el análisis final los comandos estilo UNIX son seguramente más flexibles y eficientes que 
+una interfaz grafica "amigable", pueden parecer intimidantes para no programadores, muchos de los cuales pueden ser disuadidos de hacer uso de un herramienta de otra manera valiosa.
+
+Independientemente de que los teóricos de la música decidan o no aumentar
+su invaluable intuición musical con valiosas pruebas empíricas
+resultados, basados en las cantidades máximas de datos pertinentes, será un
+factor en la evolución de nuestra disciplina.
 
 
 
