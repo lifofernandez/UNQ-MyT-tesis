@@ -69,69 +69,56 @@ Incluso el estudio de repertorios acotados es mas flexibilidad
 cuando la representación digital y la manipulación automatizada está disponible.
 
 ## 1.2 Contexto
-El [Centro de Investigación Asistida por Computador en Humananidades](http://www.ccarh.org/)
-(CCARH)
-de Standford tiene un proyecto activo de una base de datos musicales.
+El [Centro de Investigación Asistida por Computador en Humananidades](http://www.ccarh.org/) (CCARH) de Standford tiene un proyecto en curso de una base de datos musicales.
 
-Of vital importance to such a task’s usefulness is the format of
-musical representation within the database.
+De importancia vital para la utilidad de tal tarea es el formato de
+representación musical dentro de la base de datos.
 
-As the result of computer-assisted musicology sucesses, musical representation 
-schemes  proliferatinge, jockeying for position until such time as some sort of 
-standard is agreed upon.
+Como resultado de los éxitos de la musicología asistida por ordenador, la representación musical prolifera, compitiendo hasta el momento que una cierta clase se convierta en estándar.
 
-* Most of the schemes were designed to aid composers of computer music.
-Whose requirements do not necessarily intersect with those of investigative scholars.
+* La mayoría de los esquemas fueron diseñados para ayudar a los compositores de música por computadora. Cuyos requisitos no necesariamente se cruzan con los de los investigadores.
 
-In CCARH’s database, several formats for encoding music are employed concurrently,
-all subsets of CCARH’s master representation MuseData.
+En la base de datos del CCARH, se utilizan simultáneamente varios formatos para codificar música, subconjuntos de la representación maestra de CCARH MuseData.
 
-* Most promising among the schemes is the Humdrum representation, 
-designed by David Huron.
+* El más prometedor entre los esquemas es la representación Humdrum,
+diseñado por David Huron.
 
 # 2. Humdrum \newline Dos aspectos, Representación y Manipulación
 
-
 ## 2.1 La Sistaxis 
-First, there is the syntax defined for representing discrete information 
-as a series of records in a computer file.
 
-* Its definition allows for many kinds of information to be encoded. 
+En primer lugar, está la sintaxis definida para representar información discreta como una serie de registros en un archivo de computadora.
 
-* The scheme used in the CCARH dataibase for essential musical pitch and duration
-information is just one of an open-ended set.
+* Su definición permite que se codifiquen muchos tipos de información.
 
-	* Some other members may be augmented by user-defined schemes for specific 
-	research tasks. 
+* El esquema esencial utilizado en la base de datos CCARH para la altura y la duración musical es sólo uno de un conjunto abierto.  
+
+	* Algunos otros miembros pueden ser aumentados por esquemas definidos por el usuario para tareas de investigación.  
 
 ## 2.2 El Conjunto Comandos
-Second, there is the set of commands, the Humdrum Toolkit, devised to
-manipulate files that conform to the Humdrum syntax in the name of
-machine-aided research in music.
 
-* The emphasis here should be on “aided”:
+Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para manipular archivos que se ajusten a la sintaxis Humdrum en el nombre de la investigación asistida por ordenador en la música.
 
-	* Humdrum possesses no higher-level analytical faculties per se. 
+El énfasis aquí debe ser en "asistido":
 
-	* Rather, its power derives from the flexibility of its kit of 
-	elemental commands, which the user must learn to use in combination 
-	to exploit fully the system’s potential.
+* Humdrum no posee facultades analíticas de nivel superior per se.
+
+* Más bien, su poder deriva de la flexibilidad de su kit de
+elementales, que el usuario debe aprender a utilizar en combinación
+para explotar plenamente el potencial del sistema.
 
 # 3. Representaciones Humdrum 
 
 ## 3.1 \*\*kern: Representación esencial de altura/duracion
-Lets inspect the conventions of one particular Humdrum representation, by
-means of a musical fragment. 
 
-Example 1 (below) contains the first two phrases of the Bach chorale
-“Nun danket alle Gott” in Humdrum’s core pitch/duration representation scheme, 
-\*\*kern.
+Inspeccionemos las convenciones de una representación particular de Humdrum, por medios de un fragmento musical.
 
-* The first three lines, each tagged by a triple exclamation mark, are reference 
-records, each of whose meaning should be readily apparent. 
-	* Humdrum specifies over 80 types of reference records for electronic scores, 
-providing for information as diverse as the catalogue number, name of the dedicatee,
-manuscript location or translated title in over forty languages.
+El ejemplo 1 contiene las dos primeras fases del coral de Bach "Nun danket alle Gott" en el esquema de representación de altura / duration de Humdrum, \*\*kern.
+
+* Las tres primeras líneas, cada una marcada por un triple signo de exclamación, son referencia registros, cada uno de cuyos significados deberían ser fácilmente evidentes.
+
+	* Humdrum especifica más de 80 tipos de registros de referencia para las puntuaciones electrónicas, proporcionando información tan diversa como el número de catálogo, el nombre del dedicado, manuscrito o título traducido en más de cuarenta idiomas.
+
 
 ## Ejemplo 1
 
@@ -155,52 +142,40 @@ manuscript location or translated title in over forty languages.
 
 ## 3.2 Registros/Archivos Humdrum
 
-A Humdrum file is comprised of a series of records, each taking up one line. 
+Un archivo de Humdrum se compone de una serie de registros, cada uno ocupando una línea.
 
-* The four columns that follow the reference records are termed spines; they are
-separated by tab characters.
+* Las cuatro columnas que siguen los registros de referencia se denominan espinas; son separados por caracteres de tabulación.
 
-* Events in the same line occur simultaneously while events in the same spine 
-occur sequentially. 
+* Los acontecimientos en la misma línea ocurren simultáneamente mientras que los acontecimientos en la misma espina dorsal ocurren secuencialmente.
 
-* The heading \*\*kern, which is the exclusive interpretation of each spine here,
-signifies that the information within concerns pitch and duration. 
+* El encabezamiento \*\*kern, que es la interpretación exclusiva de cada espina aquí, significa que la información dentro de las preocupaciones de tono y duración.
 
-* A file may contain any number of spines with various exclusive representations.
+* Un archivo puede contener cualquier número de espinas con varias representaciones exclusivas.
 
-* In this example each spine represents one voice of a four-part chorale.
+* En este ejemplo cada espina representa una voz de un coral de cuatro partes.
 
-* The fifth data record contains a tandem interpretation for each spine which 
-denotes the key of the excerpt.
+* El quinto registro de datos contiene una interpretación en tándem para cada espina que denota la clave del fragmento.
 
-* Other tandem interpretations within \*\*kern contain information about meter 
-signature, tempo, instrument, etc.
+* Otras interpretaciones en tándem dentro de \*\*kern contienen información sobre el metro, tempo, instrumento, etc.
 
-## 3.3 Púas (spines)
-A \*\*kern representation may be thought of as a rotation, 90-clockwise, of
-the musical score. 
+## 3.3 Espinas
 
-* Thus the leftmost spine corresponds to the lowest voice.
 
-* Time runs down the page instead of left to right. 
+Una representación de kern puede ser pensada como una rotación, 90-horario, de la partitura musical.
 
-Additional spines could contain either 
+* Así, la columna vertebral más a la izquierda corresponde a la voz más baja.
 
-* Fairly straightforward things, such as Vocal text ( \*\*text representation ), Roman-numeral harmonic analysis ( \*\*harm representation ).
+* El tiempo corre hacia abajo en la página en lugar de izquierda a derecha.
 
-* Or relatively abstruse information such as cochlear coordinates ( \*\*cocho ), Sensory dissonance ( \*\*diss ), Acoustic spectral data ( \*\*spect ).
+Espinas adicionales podrían contener
 
-Some of these other representations can be generated as output by commands 
-operating on a \*\*kern spine or set of spines. 
+* Cosas bastante directas, como texto vocal ( \*\*text ), análisis armónico romano-numeral ( \*\*harm).
 
-* The **pcset** command would automatically append a \*\*pcset spine 
-that labeled each simultaneity by its Fortean set-class name, prime-form or 
-interval vector.
+* O información relativamente abstrusa como coordenadas cocleares ( \*\*cocho ), disonancia sensorial ( \*\*diss ), datos espectrales acústicos (\*\*spect ).
 
-\note{
-* The data for a \*\*harm spine, on the other hand, must be entered manually
-(until an algorithm for this task is developed).
-}
+Algunas de estas otras representaciones pueden ser generadas como salida por comandos operando en una espina o conjunto de espinas.
+
+* El comando **pcset** añadirá automáticamente una columna etiquetada \*\*pcset con el nombre Fortean del class-set, forma prima o vector interválico en simultaneo a cada tandem de notas.
 
 ## 3.4 Duración 
 Each encoded note in example 1 has at least two parts, corresponding
