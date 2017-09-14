@@ -64,8 +64,7 @@ de música puede exceder rápidamente la capacidad de una vida académica.
 A servicio de esto, es indispensable la acumulación y el mantenimiento de una 
 gran base de datos informática de música.
 
-Incluso el estudio de repertorios acotados es mas flexibilidad
-cuando la representación digital y la manipulación automatizada está disponible.
+Incluso el estudio de repertorios acotados es mas flexibe cuando la representación digital y la manipulación automatizada está disponible.
 
 ## 1.2 Contexto
 El [Centro de Investigación Asistida por Computador en Humananidades](http://www.ccarh.org/) (CCARH) de Standford tiene un proyecto en curso de una base de datos musicales.
@@ -75,9 +74,9 @@ representación musical dentro de la base de datos.
 
 Como resultado de los éxitos de la musicología asistida por ordenador, la representación musical prolifera, compitiendo hasta el momento que una cierta clase se convierta en estándar.
 
-* La mayoría de los esquemas fueron diseñados para ayudar a los compositores de música por computadora. Cuyos requisitos no necesariamente se cruzan con los de los investigadores.
+* Hasta el momento, la mayoría de los esquemas fueron diseñados para ayudar a los compositores de música por computadora. Cuyos requisitos no necesariamente se cruzan con los de los investigadores.
 
-En la base de datos del CCARH, se utilizan simultáneamente varios formatos para codificar música, subconjuntos de la representación maestra de CCARH MuseData.
+En la base de datos del CCARH, se utilizan simultáneamente varios formatos para codificar música.
 
 * El más prometedor entre los esquemas es la representación Humdrum,
 diseñado por David Huron.
@@ -141,11 +140,11 @@ El ejemplo 1 contiene las dos primeras fases del coral de Bach "Nun danket alle 
 
 Un archivo de Humdrum se compone de una serie de registros, cada uno ocupando una línea.
 
-* Las cuatro columnas que siguen los registros de referencia se denominan espinas; son separados por caracteres de tabulación.
+* Las columnas despúes de los registros de referencia se denominan espinas; son separados por caracteres de tabulación.
 
-* Los acontecimientos en la misma línea ocurren simultáneamente mientras que los acontecimientos en la misma espina dorsal ocurren secuencialmente.
+* Los acontecimientos en la misma línea ocurren simultáneamente, mientras que los acontecimientos en la misma dorsal ocurren secuencialmente.
 
-* El encabezamiento \*\*kern, que es la interpretación exclusiva de cada espina aquí, significa que la información dentro de las preocupaciones de tono y duración.
+* El encabezamiento \*\*kern, que es la interpretación exclusiva de cada espina aquí, significa que la información dentro de las columnas es de tono y duración.
 
 * Un archivo puede contener cualquier número de espinas con varias representaciones exclusivas.
 
@@ -158,11 +157,11 @@ Un archivo de Humdrum se compone de una serie de registros, cada uno ocupando un
 ## 3.3 Espinas
 
 
-Una representación de kern puede ser pensada como una rotación, 90-horario, de la partitura musical.
+Una representación de kern puede ser pensada como una rotación, 90° horario, de la partitura musical. 
 
-* Así, la columna vertebral más a la izquierda corresponde a la voz más baja.
+* Así, la columna más a la izquierda corresponde a la voz más baja.
 
-* El tiempo corre hacia abajo en la página en lugar de izquierda a derecha.
+* El tiempo corre hacia abajo en lugar de izquierda a derecha.
 
 Espinas adicionales podrían contener
 
@@ -172,17 +171,17 @@ Espinas adicionales podrían contener
 
 Algunas de estas otras representaciones pueden ser generadas como salida por comandos operando en una espina o conjunto de espinas.
 
-* El comando **pcset** añadirá automáticamente una columna etiquetada \*\*pcset con el nombre Fortean del class-set, forma prima o vector interválico en simultaneo a cada tandem de notas.
+* Por Ej, el comando **pcset** añadirá automáticamente una columna etiquetada \*\*pcset con el nombre Fortean del class-set, forma prima o vector interválico en simultaneo a cada tandem de notas.
 
 ## 3.4 Duración 
 
 Cada nota codificada en el ejemplo 1 tiene al menos dos partes, correspondiendo respectivamente a la duración de la nota y el tono:
 
-* Un número entero y una o más letras mayúsculas o minúsculas.
+* Un número entero y, una o más letras mayúsculas o minúsculas.
 
 El entero representa la duración a través del valor de nota norteamericano recíproco;
 
-* Por ejemplo, una negra  por "4" y una corchea  por "16"
+* Por ejemplo, una negra esta representada por un "4" y una corchea porun "16"
 
 * Una breve (longitud de dos notas enteras) toma el valor especial 0.
 
@@ -217,7 +216,7 @@ Cada uno de los componentes de la representación de una nota es opcional: un ar
 ## 3.5.1 ...pero, no dinamicas 
 
 La dinámica está notablemente ausente en \*\*kern, y de hecho no
-aparecen en ningunode los esquemas de representación predefinidos documentados en el manual.
+aparecen en ninguno de los esquemas de representación predefinidos documentados en el manual.
 
 * Si se requieren para una tarea específica, el investigador puede
 inventar su propio esquema.
@@ -242,16 +241,28 @@ Si bien aquí no es el lugar para un examen detallado de todos los predefinidos 
 
 	* La afinación de cada cuerda y la posición exacta de cada traste son especificadas en interpretaciones en tándem
 
-	* La información detallada se codifica en cada registro de datos sobre, cuáles cuerdas son pulsadas, cómo son pulsadas y en qué traste.
+	* Información detallada se codifica en cada registro de datos sobre, cuáles cuerdas son pulsadas, cómo son pulsadas y en qué traste.
 
-* El esquema \*\*IPA representa fonéticamente los textos vocales a través de un ASCII alfabeto, e incluye información de la tensión y de la entonación.
+* El esquema \*\*IPA representa fonéticamente los textos vocales a través de un alfabeto ASCII, e incluye información de la tensión y de la entonación.
 
 # 4. Humdrum Commands 
 ## 4.1 Componentes Activos 
 
+El componente "activo" de Humdrum es el kit de herramientas para manipular archivos de datos que se ajustan a la sintaxis Humdrum.
+
+Una vez instalado el Toolkit, los comandos se invocan a través de un terminal UNIX estándar, y la mayor parte del trabajo de un investigador probablemente dependerá de comandos ordinarios de UNIX tales como "grep" o "sort".
+
+Un mínimo de familiaridad con este sistema operativo es necesario para el aspirante Humdrummer para embarcarse en un proyecto de investigación, y cuanto más a gusto él o ella está en el ambiente UNIX más pronto Humdrum será dominado.
+
+Hay aproximadamente una docena de comandos UNIX básicos que un usuario debe poder negociar, pero no exixte introducción a este conocimiento básico dentro de la documentación actual de Humdrum.
 
 ## 4.2 Nombres y proposito de algunos comandos basicos
 
+Una mirada a los nombres de la mayoría de los comandos de Humdrum revela muy poco sobre su finalidad: sólo una pequeña minoría de ellos, como "tran"  transponer), "reihe" (dar forma alternativa de fila), "iv" (determinar vectores de intervalo) y"freq" (frecuencia en Hz), tienen una significación musical obvia.
+
+Y, como se señala en el manual de referencia, éstos tienden a ser los comandos menos útiles, ya que son especializados.
+
+La naturaleza de muchos de los comandos básicos tomados individualmente es bastante abstracta.
 
 # 5. Sample Problem
 ## 5.1 Abordaje de la Sensible Tonal en los Corales de Bach
