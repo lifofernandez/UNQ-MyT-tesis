@@ -1,0 +1,3 @@
+pandoc --slide-level 2 -t beamer mto.96.2.7.wild.beamer.md  -V theme:CambridgeUS -o mto.96.2.7.wild.presentacion.pdf
+pandoc --slide-level 2 -t beamer mto.96.2.7.wild.beamer.md  -V theme:Hannover -V color-theme:beaver -o mto.96.2.7.wild.presentacion.pdf
+pandoc --slide-level 2 -t beamer mto.96.2.7.wild.beamer.md  -V theme:Hannover -V color-theme:beaver -o mto.96.2.7.wild.presentacion.pdf
