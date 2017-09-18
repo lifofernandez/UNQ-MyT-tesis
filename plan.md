@@ -44,31 +44,35 @@ bajo premisas del software libre y abierto.
 ### 2.1 ¿Por que Texto Plano?
 
 * **Es soportado en multiples plataformas.** 
+  
+  Cada sistema operativo tiene al menos un editor de texto y son todos
+  compatibles hasta la codificación del texto. 
 
-Cada sistema operativo tiene al menos un editor de texto y son todos
-compatibles hasta la codificación del texto. 
 
 * **Es fácil de manipular.** 
 
-Manipular cadenas de caracteres es uno de los procesos mas elementales que
-se pueden realizar en un sistema informático.
+  Manipular cadenas de caracteres es uno de los procesos mas elementales que
+  se pueden realizar en un sistema informático.
+
 
 * **Es fácil de mantener.** 
 
-Comparado con opciones mas completas, el texto plano es lo mas sencillo ante
-la necesidad de actualizar informacion o de realizar cualquier tipo de cambio o
-ajuste.
+  Comparado con opciones mas completas, el texto plano es lo mas sencillo ante
+  la necesidad de actualizar informacion o de realizar cualquier tipo de cambio o
+  ajuste.
+
 
 * **Es liviano.**
 
-Este es un aspecto clave cuando contamos con recursos limitados a nivel de
-sistema, como por ejemeplo poca capacidad de procesamiento/almacenamiento,
-conexiones lentas o sin acceso a una interfaz gráfica.
+  Este es un aspecto clave cuando contamos con recursos limitados a nivel de
+  sistema, como por ejemeplo poca capacidad de procesamiento/almacenamiento,
+  conexiones lentas o sin acceso a una interfaz gráfica.
+
 
 * **Es compatible con el avance.**
 
-Independientemente de la próxima plataforma, si tenemos nuestros documentos
-almacenados en texto plano, serán fáciles de interpretar.
+  Independientemente de la próxima plataforma, si tenemos nuestros documentos
+  almacenados en texto plano, serán fáciles de interpretar.
 
 
 ## 3. Objetivos
