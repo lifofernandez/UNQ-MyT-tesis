@@ -323,11 +323,10 @@ Laboratorio de Software Libre del ATAM/UNA
 
 ## 7. Cronograma de Trabajo
 
-|                                                 | Tiempo mínimo estipulado |  Tiempo máximo estipulado  |
-|-------------------------------------------------|--------------------------|----------------------------|
-| Entrevistas con musicos compositores y teoricos |         15 días          |            1 mes           |
-|                         Definicion de gramática |           1 mes          |           45 días          |
-|                      Dasarrollo de aplicaciones |          45 días         |           2 meses          |
-|                          Pruebas y optimización |         15 días          |            1 mes           |
-|                                   Documentación |           1 mes          |           45 días          |
- 
+|                                               | Tiempo mínimo estipulado |  Tiempo máximo estipulado  |
+|-----------------------------------------------|--------------------------|----------------------------|
+| Entrevistas a musicos compositores y teoricos | 15 días                  | 1 mes                      |
+| Definicion de gramática                       | 1 mes                    | 45 días                    |
+| Dasarrollo de aplicaciones                    | 45 días                  | 2 meses                    |
+| Pruebas y optimización                        | 15 días                  | 1 mes                      |
+| Documentación                                 | 1 mes                    | 45 días                    |
