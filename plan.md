@@ -44,33 +44,28 @@ bajo premisas del software libre y abierto.
 ### 2.1 ¿Por que Texto Plano?
 
 * **Es soportado en multiples plataformas.** 
-  
   Cada sistema operativo tiene al menos un editor de texto y son todos
   compatibles hasta la codificación del texto. 
 
 
 * **Es fácil de manipular.** 
-
   Manipular cadenas de caracteres es uno de los procesos mas elementales que
   se pueden realizar en un sistema informático.
 
 
 * **Es fácil de mantener.** 
-
   Comparado con opciones mas completas, el texto plano es lo mas sencillo ante
   la necesidad de actualizar informacion o de realizar cualquier tipo de cambio o
   ajuste.
 
 
 * **Es liviano.**
-
   Este es un aspecto clave cuando contamos con recursos limitados a nivel de
   sistema, como por ejemeplo poca capacidad de procesamiento/almacenamiento,
   conexiones lentas o sin acceso a una interfaz gráfica.
 
 
 * **Es compatible con el avance.**
-
   Independientemente de la próxima plataforma, si tenemos nuestros documentos
   almacenados en texto plano, serán fáciles de interpretar.
 
@@ -79,7 +74,7 @@ bajo premisas del software libre y abierto.
 
 ## 4. Marco referencial 
 
-## 4.1 MuseData
+### 4.1 MuseData
 
 La base de datos MuseData es un proyecto y a la vez el sistema de codificación
 principal Centro de Investigación Asistida por Computador en Humanidades
@@ -92,7 +87,7 @@ codificaciones. El archivo MuseData está diseñado para soportar aplicaciones d
 sonido, gráficos y análisis. Los formatos derivados de las codificaciones
 musicales de MuseData que se distribución son: MIDI1, MIDI+ y Humdrum.
 
-### 4.1.1 Organización de archivos MuseData 
+#### 4.1.1 Organización de archivos MuseData 
 
 Los archivos MuseData están basados en ASCII y se pueden ver en cualquier
 editor de texto. Dentro del formato MuseData El número de archivos por
@@ -141,7 +136,7 @@ decisiones discrecionales se anotan en los archivos que permiten las marcas
 editoriales.
 
 
-### 4.2.2 La representación MuseData de la información musical
+#### 4.2.2 La representación MuseData de la información musical
 
 El propósito del código de MuseData es representar el contenido lógico del
 musical resultados en una manera neutral de software. El código se utiliza
@@ -185,7 +180,7 @@ usa estas sugerencias de impresión y sonido en el proceso de generación de
 documentos de partitura y archivos MIDI.
 
 
-## 4.2 Humdrum
+### 4.2 Humdrum
 
 David Huron creó Humdrum en los años 80, y se ha utilizado constantemente por
 décadas. Humdrum es un conjunto de herramientas de línea de comandos que
@@ -196,7 +191,7 @@ herramientas de Humdrum en secuencias de comandos más grandes que utilizan
 PERL, Ruby, Python, Bash, LISP y C++.
 
 
-### 4.2.1 Representación 
+#### 4.2.1 Representación 
 
 En primer lugar, Humdrum definide la sintaxis para representar información
 discreta como una serie de registros en un archivo de computadora.
@@ -209,7 +204,7 @@ discreta como una serie de registros en un archivo de computadora.
 * Algunos otros esquemas pueden ser aumentados por gramaticas definidas por el
  usuario para tareas de investigación.
 
-### 4.2.2 Manipulación
+#### 4.2.2 Manipulación
 
 Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para
 manipular archivos que se ajusten a la sintaxis Humdrum en el campo de la
@@ -223,7 +218,7 @@ El énfasis está en **asistido**:
  usuario debe aprender a utilizar en combinación para explotar plenamente el
 potencial del sistema.
 
-## 4.3 MusicXML
+### 4.3 MusicXML
 
 MusicXML fue diseñado desde cero para compartir archivos de música entre
 aplicaciones y para archivar registros de música para uso en el futuro. Se
@@ -236,7 +231,7 @@ dado q facilita crear música en un programa y exportar sus resultados a otros
 programas. Al momento más de 220 aplicaciones incluyen compatibilidad con
 MusicXML.
 
-## 4.4 Music Markup Language 
+#### 4.4 Music Markup Language 
 
 El Lenguaje de Marcado de Música (MML) es un intento de marcar objetos y
 eventos de música con un lenguaje basado en XML. La marcación de estos objetos
@@ -254,7 +249,7 @@ menos los siguientes formatos:
 * Texto - presentación de notas como, por ejemplo, piano-roll (como las que se
  encuentran en el software del secuenciador de computadora)
 
-* CWN: Common Western Notation (en pantalla o en papel) 
+* CWN (Common Western Notation): Notacion musical occidental en pantalla o en papel
 
 * MIDI-device: MML hace posible "secuenciar" una pieza de música sin tener que
  usar software especial. Así que cualquier persona con un editor de texto debe
@@ -264,7 +259,7 @@ ser capaz de secuenciar la música de esta manera.
 ## 5. Metodología
 
 
-## 6. Bibliografia y Documentacion
+## 6. Bibliografía
 
 * [musedata.org](http://www.musedata.org/)
 
