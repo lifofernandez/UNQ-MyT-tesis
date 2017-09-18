@@ -215,7 +215,7 @@ Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para
 manipular archivos que se ajusten a la sintaxis Humdrum en el campo de la
 investigación asistida por ordenador en la música.
 
-El énfasis aquí debe ser en **asistido**:
+El énfasis está en **asistido**:
 
 * Humdrum no posee facultades analíticas de nivel superior per se.
 
@@ -261,7 +261,7 @@ menos los siguientes formatos:
 ser capaz de secuenciar la música de esta manera.
 
 
-## 5. Metodologia
+## 5. Metodología
 
 
 ## 6. Bibliografia y Documentacion
