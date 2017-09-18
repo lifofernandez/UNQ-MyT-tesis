@@ -33,6 +33,8 @@ enmarcada bajo premisas del software libre y abierto.
 
 
 ## 2. Justificacion
+agnostico, neutral, unopinionated
+
 
 
 ## 3. Objetivos
@@ -57,6 +59,8 @@ enmarcada bajo premisas del software libre y abierto.
 
 
 ## 6. Bibliografia y Documentacion
+
+https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text
 
 https://en.wikipedia.org/wiki/Lightweight_markup_language
 

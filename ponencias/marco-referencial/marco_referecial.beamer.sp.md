@@ -1,7 +1,7 @@
 
 # Universidad Nacional de Quilmes \newline Taller de Tesis 
 
-## Marco Referencial \newline Representacion digital de Información Musical
+## Marco Referencial \newline Representacion digital y manipulación asistida por ordenador de información musical
 
 Docente: **Esteban Calcagno** 
 
@@ -20,71 +20,66 @@ Septiembre, 2017
 
 ## 2.1 MuseData
 
-La base de datos MuseData es un proyecto y el sistema de codificación principal
+La base de datos MuseData es un proyecto y a la vez el sistema de codificación principal
 Centro de Investigación Asistida por Computador en Humanidades (CCARH). La base
-de datos fue creado por Walter Hewlett. La entrada de datos ha sido hecha
-principalmente por Frances Bennion, Edmund Correia, Walter Hewlett y Steve
-Rasmussen.
+de datos fue creado por Walter Hewlett. 
 
 Los archivos MuseData tienen el potencial de existir en múltiples formatos
-común de información. La mayoría de las codificaciones derivadas acomodan sólo
+comunes de información. La mayoría de las codificaciones derivadas acomodan sólo
 algunas de las las características incluidas en el master MuseData
-codificaciones. El archivo MuseData está diseñado para soportar aplicaciones en
+de codificaciones. El archivo MuseData está diseñado para soportar aplicaciones de
 sonido, gráficos y análisis. Los formatos derivados de las codificaciones
-musicales de MuseData que se distribución son: MIDI1, MIDI + y Humdrum.
+musicales de MuseData que se distribución son: MIDI1, MIDI+ y Humdrum.
 
 ### 2.1.1 Organización de archivos MuseData 
 
 Los archivos MuseData están basados en ASCII y se pueden ver en cualquier
-editor de texto. Usuarios debe ser consciente de que el número de archivos por
-movimiento y por trabajo puede variar de un formato a otro. Dentro del formato
-MuseData este número puede variar de una edición a otra.
+editor de texto. Dentro del formato MuseData El número de archivos por
+movimiento y por trabajo puede variar de un formato a otro así como también de
+una edición a otra.
 
-Los archivos MuseData están orientados a las partes. Un movimiento de una
-composición es típicamente encontrado dividido en varios archivos recogidos en
-un directorio para ese movimiento.
+Los archivos MuseData están organizados en base a las partes. Un movimiento de
+una composición es típicamente encontrado dividido en varios archivos agrupados
+en un directorio para ese movimiento.
 
 Las partes de los archivos MuseData siempre tienen la etiqueta 01 para la
-primera parte de la puntuación, 02 para la segunda parte de la partitura, etc.
-contienen varias líneas de música, como dos flautas en un orchestral score, o
-dos duelas para música de piano. MuseData archivos para diferentes los
-movimientos de una composición se encuentran en directorios separados que
+primera parte, 02 para la segunda parte de la partitura, etc.
+Conteniendo varias líneas de música, como dos flautas en una partitura de
+orquesta, o dos duelas para música de piano. Archivos para diferentes
+los movimientos de una composición se encuentran en directorios separados que
 usualmente indican el número de movimiento, p. 01, 02, etc.
 
 La exhaustividad de la información dentro de los archivos varía entre dos
-niveles que en archivos MuseData llamamos Etapa 1 y Etapa 2. Sólo los archivos
-Stage 2 son recomendado para aplicaciones serias.
+niveles que en archivos MuseData llamamos Stage 1 y Stage 2. Sólo los archivos
+Stage 2 son recomendados para aplicaciones serias.
 
-El primer paso en la entrada de datos (Etapa 1) captura información básica como
-duración y tono de notas. Por ejemplo, normalmente habría cuatro archivos
+El primer paso en la entrada de datos (Stage 1) captura información básica como
+duración y altura de las notas. Por ejemplo, normalmente habría cuatro archivos
 (Violín 1, Violín 2, Viola, Violonchelo) para cada movimiento de un cuarteto de
-cuerdas. Si el movimiento del cuarteto comienza en metro duple, cambia a metro
-triple, y luego vuelve a duple meter cada sección métrica tendrá su propio
+cuerdas. Si el movimiento del cuarteto comienza en metro binario, cambia a metro
+triple, y luego vuelve a binario, cada sección métrica tendrá su propio
 conjunto de partes. Así habría doce archivos para el movimiento. El segundo
-paso en la entrada de datos (Etapa 2) suministra toda la información que no
+paso en la entrada de datos (Stage 2) suministra toda la información que no
 puede ser capturado de forma fiable desde un teclado electrónico. Esto incluye
 indicaciones para ritmo, dinámica y articulación; texto subyacente; vástago,
 viga y insulto información, y muchos otros detalles que son esenciales para la
 salida de notación de calidad profesional.
 
-El juicio humano se aplica en el estadio 2. Así, cuando el movimiento del
-cuarteto de cuerdas citado anteriormente se convierte a la Etapa 2, las tres
+El juicio humano se aplica en el Stage 2. Así, cuando el movimiento del
+cuarteto de cuerdas citado anteriormente se convierte a la Stage 2, las tres
 secciones métricas para cada instrumento capturado desde la entrada del teclado
 se encadenará en un movimiento cada uno. El movimiento tendrá ahora cuatro
 archivos de datos (uno para Violín 1, otro para Violín 2, Viola, Violonchelo).
 
 El juicio humano también proporciona correcciones y anotaciones a los datos.
-Algunos tipos de errores (por ejemplo, medidas incompletas) deben corregirse
-para datos para tener sentido para el software del usuario. Los asuntos que son
-más discrecionales (tales como alteraciones opcionales de los ornamentos o
-accidentes en los repertorios anteriores) son por lo general no se modifica.
-Las decisiones discrecionales se anotan en los archivos que permiten las marcas
-editoriales.
+Algunos tipos de errores (por ejemplo, medidas incompletas) deben corregirse y
+así consigan tener sentido para el usuario. Los asuntos que son más discrecionales
+(tales como alteraciones opcionales de los ornamentos o accidentes en los
+repertorios anteriores) por lo general no se modifica. Las decisiones
+discrecionales se anotan en los archivos que permiten las marcas editoriales.
 
 
 ### 2.2.2 La representación MuseData de la información musical
-
-MIDI: El Manual de Códigos Musicales.
 
 El propósito del código de MuseData es representar el contenido lógico del
 musical resultados en una manera neutral de software. El código se utiliza
@@ -95,48 +90,48 @@ completo se utilicen para la impresión de música, música análisis y producci
 de archivos de sonido electrónicos.
 
 Aunque el código MuseData está destinado a ser genérico, hemos desarrollado
-software de diversos tipos con el fin de probar su eficacia. MuseData programas
-imprimir resultados y partes que han sido utilizados por grupos profesionales
-de editores de música. Compilan archivos MIDI estándar que se pueden utilizar
-con software del secuenciador estándar. Facilitan las búsquedas rápidas de los
-datos para patrones rítmicos, melódicos y armónicos específicos.
+software de diversos tipos con el fin de probar su eficacia. Las aplicaciones
+MuseData pueden imprimir resultados y partes que han sido utilizados por grupos
+de editores profesionales de música. Compilan archivos MIDI (que se
+pueden utilizar con secuenciadores estándar). Facilitan las búsquedas
+rápidas de los datos de patrones rítmicos, melódicos y armónicos específicos.
 
-El código MuseData está diseñado para representar tanto información de notación
-como de sonido, pero en ambos casos no se pretende que la representación esté
-completa. Eso se prevé que los archivos MuseData servirían como archivos de
-origen para generar archivos de gráficos específicos de página y archivos de
-rendimiento MIDI, que podrían editado como el usuario lo crea conveniente. Las
-razones de esta posición son: doble: null
+La sintaxis MuseData está diseñada para representar tanto información de
+notación como de sonido, pero en ambos casos no se pretende que la
+representación esté completa. Eso prevé que los registros MuseData servirían
+como archivos de origen para generar tanto documentos gráficos (específicamente
+de página) y archivos de performance MIDI, que podrían editarse como el usuario
+lo crea conveniente. Las razones de esta posición son dos:
 
-* (1) Cuando codificamos una obra musical, lo que estamos codificando no es la
- partitura sino el contenido lógico de la partitura. Codificar la puntuación
-significaría codificando la posición exacta de cada nota en la página; pero
-nuestra opinión es que tal codificación realmente contendría más información
-que el compositor destinado a transmitir.
+* Cuando se codifica una obra musical, no es la partitura sino el contenido
+lógico de la partiturai lo que codifica. Codificar la puntuación significaría
+codificar la posición exacta de cada nota en la página; pero nuestra opinión es
+que tal codificación realmente contendría más información que la que el
+compositor pretende transmitir.
 
-* (2) No podemos anticipar todos los usos a los cuales podrían darse estos
- datos, pero podemos estar bastante seguros de que cada usuario tendrá sus
+* No se puede anticipar todos los usos a los cuales podrían darse estos 
+datos, pero se pude estar bastante seguro de que cada usuario tendrá sus
 propias necesidades especiales y preferencias. Por lo tanto, no tiene sentido
 tratar de codificar información acerca de cómo debe verse una realización
-gráfica de los datos o cómo sonido de los datos debe sonar.
+gráfica de los datos o cómo sonido que estos datos representan debe sonar.
 
 Por otro lado, a veces puede ser útil hacer sugerencias sobre cómo los gráficos
 y el sonido deben ser realizados. Lo importante es identificar las sugerencias
 como un tipo de datos independiente, que puede ser fácilmente ignorado por
-software de aplicación o despojado enteramente de los datos. Nuestro propio
-software uso de estas sugerencias de impresión y sonido en el proceso de
-generación de SCORE archivos de parámetros y archivos de rendimiento MIDI.
+software de aplicación o despojado enteramente de los datos. MuseData
+software usa estas sugerencias de impresión y sonido en el proceso de
+generación de documentos de partitura y archivos MIDI.
 
 
 ## 2.2 Humdrum
 
-David Huron creó Humdrum en los años 80, y se ha utilizado constantemente para
+David Huron creó Humdrum en los años 80, y se ha utilizado constantemente por
 décadas. Humdrum es un conjunto de herramientas de línea de comandos que
-facilita análisis, así como una sintaxis generalizada para representar
-secuencias secuenciales de datos. Debido a que es un conjunto de herramientas
-de línea de comandos, es el lenguaje de programa agnóstico. Muchos han empleado
+facilita el análisis, así como una sintaxis generalizada para representar
+secuencias de datos. Debido a que es un conjunto de herramientas de línea de
+comandos, es el lenguaje de programa agnóstico. Muchos han empleado
 herramientas de Humdrum en secuencias de comandos más grandes que utilizan
-PERL, Ruby, Python, Bash, LISP y C ++.
+PERL, Ruby, Python, Bash, LISP y C++.
 
 
 ### 2.2.1 Representación 
