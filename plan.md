@@ -1,15 +1,26 @@
-# Universidad Nacional de Quilmes ### Escuela de Artes LICENCIATURA EN MUSICA Y
-TECNOLOGIA
+# Universidad Nacional de Quilmes
 
-### Director de la Carrera Esteban Calcagno
+## Escuela de Artes 
 
-## Tesis de Grado Definición de estructura para hoja de análisis o plan de obra
-musical, basada en texto serializado simple y desarrollo de un sistema de
+### LICENCIATURA EN MUSICA Y TECNOLOGIA
+
+### Director de la Carrera
+
+Esteban Calcagno
+
+## Tesis de Grado
+
+Definición de estructura y gramática para plan de obra
+musical, basada en texto serializado legible y desarrollo de un sistema de
 herramientas CLI para generar sequencias MIDI a partir de las mismas. 
 
-### Presentada por LISANDRO FERNANDEZ
+### Presentada por
 
-### Director de Tesis NO SABEMOS TODAVIA
+LISANDRO FERNANDEZ
+
+### Director de Tesis
+
+NO SABEMOS TODAVIA
 
 Buenos Aires, Septimebre 2017
 
