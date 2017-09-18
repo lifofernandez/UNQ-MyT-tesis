@@ -2,7 +2,7 @@
 
 ## Escuela de Artes 
 
-### LICENCIATURA EN MUSICA Y TECNOLOGIA
+### LICENCIATURA EN MÚSICA Y TECNOLOGÍA
 
 ### Director de la Carrera
 
@@ -47,30 +47,52 @@ bajo premisas del software libre y abierto.
   Cada sistema operativo tiene al menos un editor de texto y son todos
   compatibles hasta la codificación del texto. 
 
-
 * **Es fácil de manipular.** 
   Manipular cadenas de caracteres es uno de los procesos mas elementales que
   se pueden realizar en un sistema informático.
-
 
 * **Es fácil de mantener.** 
   Comparado con opciones mas completas, el texto plano es lo mas sencillo ante
   la necesidad de actualizar informacion o de realizar cualquier tipo de cambio o
   ajuste.
 
-
 * **Es liviano.**
   Este es un aspecto clave cuando contamos con recursos limitados a nivel de
   sistema, como por ejemeplo poca capacidad de procesamiento/almacenamiento,
   conexiones lentas o sin acceso a una interfaz gráfica.
-
-
+  
 * **Es compatible con el avance.**
   Independientemente de la próxima plataforma, si tenemos nuestros documentos
   almacenados en texto plano, serán fáciles de interpretar.
 
+### 2.2 ¿Por que la Interfaz de Linea de Comandos?
+
+* Esta en todos los sistemas
+
+* Agilidad
+
+* Una interfaz, muchas aplicaciones
+
+* Tradicion
+
+* Consume menos recursos 
+
+* Acceso Remoto
+
+
 
 ## 3. Objetivos
+
+Las motivaciones principales del desarrollo que este plan propone son:
+
+* Elaborar una herramienta de composición musical que pueda prescidir de una interfaz gráfica.
+
+* Unificar el proceso de planificacion de obra musical con el de secunciación MIDI.
+
+* Exponer las ventajas de la utilizacion de la Interfaz de Linea de Comandos.
+
+* Acercar a musicos a la composicion musical asistida por ordenadores.
+
 
 ## 4. Marco referencial 
 
@@ -257,6 +279,12 @@ ser capaz de secuenciar la música de esta manera.
 
 
 ## 5. Metodología
+
+* Sintaxis basada en YAML
+
+* Gramatica basa en terminologia de analisis musical
+
+* hermientas desarrolladas en Perl
 
 
 ## 6. Bibliografía
