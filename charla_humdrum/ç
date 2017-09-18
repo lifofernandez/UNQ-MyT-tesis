@@ -161,17 +161,17 @@ Un archivo de Humdrum se compone de una serie de registros, cada uno ocupando un
 
 Una representación de kern puede ser pensada como una rotación, 90° horario, de la partitura musical. 
 
-* Así, la columna izq. corresponde a la voz más baja.
+* Así, la columna más a la izquierda corresponde a la voz más baja.
 
 * El tiempo corre hacia abajo en lugar de izquierda a derecha.
 
 Espinas adicionales podrían contener
 
-* Cosas bastante directas, como texto vocal (\*\*text), análisis armónico romano-numeral (\*\*harm).
+* Cosas bastante directas, como texto vocal ( \*\*text ), análisis armónico romano-numeral ( \*\*harm).
 
-* O información relativamente abstrusa como coordenadas cocleares (\*\*cocho), disonancia sensorial (\*\*diss), datos espectrales acústicos (\*\*spect).
+* O información relativamente abstrusa como coordenadas cocleares ( \*\*cocho ), disonancia sensorial ( \*\*diss ), datos espectrales acústicos (\*\*spect ).
 
-Otras representaciones pueden ser generadas por comandos.
+Algunas de estas otras representaciones pueden ser generadas por comandos.
 
 * Por Ej, el comando **pcset** añadirá automáticamente una columna \*\*pcset con el nombre Fortean del PCS, forma prima o vector interválico.
 
@@ -204,15 +204,15 @@ Esta convención puede parecer inicialmente opaca, pero maneja sucintamente y co
 
 * Al igual que un gran número de marcas de articulación, ornamentos, editorialismos, plecas y conectores.
 
-* Los silencios se indican con la letra "r".
+* Los silencios se indican combinando una duración recíproca con la letra "r".
 
 * Los caracteres de punto frecuente son meramente marcadores de posición, "tokens nulos" en un registro de datos con actividad en otra espina.
 
 * Barras aparecen como registros con un signo de igual (=);
 
-	* Un sistema de correspondencias visuales distingue entre formas de líneas de doble barra y/o repetición.
+	* Un elaborado sistema de correspondencias visuales distingue entre varios formas de líneas de doble barra y/o repetición.
 
-Los componentes de la representación de nota **son opcionales: un archivo que sólo contienen duraciones, podrían compilarse.**
+Cada uno de los componentes de la representación de una nota **es opcional: un archivo que sólo contienen duraciones, podrían compilarse.**
 
 ## 3.5.1 ...pero, no dinamicas 
 
@@ -424,13 +424,13 @@ Indicando que, dentro de la muestra de 16 corales, la sensible se aproxima el to
 
 Como se puede deducir de lo anterior, la dificultad de solución asistida por la máquina no radica en comprender el funcionamiento individuales, sino en idear una manera apropiada de combinarlas. 
 
-Las ventajas de una solución asistida por máquina son:
+Las ventajas de una solución asistida por máquina a este problema son triples.
 
 * Las cantidades extremadamente grandes de música podrían ser procesadas sin trabajo extra por parte del investigador, y la tarea se mantendría dentro de un plazo razonable.
 
 * Obtenemos un resultado concreto y objetivo, reproducible por otros trabajadores con acceso a los mismos datos.
 
-* Si decidimos variar la pregunta, por decir, contar las semsibles abordadas por salto, simplemente agregamos un par de pasos a nuestra cadena de comandos.
+* Si decidimos después que queremos variar la pregunta, por decir, contando los tonos principales abordados por salto en lugar de grado conujuto, simplemente agregamos un par de pasos a nuestro conducto de comandos.
 
 # 6. The Toolkit
 
@@ -645,18 +645,31 @@ parties for retrieval.
 
 ## 9.1 De la experiencia a la apreciación 
 
-Apreciación de todo el potencial de Humdrum es definitivamente a partir de la 
-experiencia. En palabras de David Huron:
+Apreciación de todo el potencial de Humdrum es definitivamente una práctica
+experiencia.  En palabras de David Huron, del manual de referencia:
 
 > Cualquier conjunto de herramientas requiere el desarrollo de una experiencia 
 > concomitante, y Humdrum Toolkit no es una excepción.  Espero que la inversión de
 > el tiempo requerido para aprender a usar Humdrum será más que compensado por 
 > ganancias académicas posteriores.
 
-Los usuarios de Humdrum hasta ahora han tendido a trabajar en la percepción 
-de la música o etnomusicología, mientras que los teóricos y los musicólogos histioriadores han sido lentos
+Huron ciertamente ha demostrado la última parte de este fragmento a través de su propio
+investigación, gran parte de la cual ha dependido de Humdrum. 
+
+Su trabajo en la percepción musical aportó algunas herramientas especializadas 
+del Toolkit para este area, que de echo
+los usuarios de Humdrum hasta ahora han tendido a trabajar en la percepción 
+de la música o etnomusicología, 
+mientras que los teóricos y los musicólogos histioriadores han sido lentos
 para reconocer el potencial del sistema. 
 
+Huron ofrece el siguiente muestreo de
+proyectos que conoce que se apoyaron en Humdrum: un estudio de canónica
+las reglas de composición de Zarlino, un estudio de la música cortesana coreana, un estudio del texto /
+relaciones melódicas en canto gregoriano, un estudio de idiomaticismo en trompeta
+trabajos, prueba del modelo de estructura melódica de Narmour, estudio de
+textura, de cuartetos de cuerdas Haydn, de fraseo y dinámica en obras de piano, y
+en experimentos perceptivos, etc.
 
 ## 9.2 CLI vs GUI
 
@@ -669,7 +682,7 @@ mayor sea la cantidad de música examinada
 mayor será el rigor de la prueba de las hipótesis.  
 
 Sin embargo, la desafortunada posibilidad es que muchos de los musicólogos 
-y teóricos actuales que se benefician de una pequeña intuición asistida por la máquina
+y teóricos actuales que se benefician de una pequeña intuición asistida por la máquina.
 es probalbe que sean repelidos por la interfaz totalmente basada en texto de Humdrum.  
 
 Aunque en el análisis final los comandos estilo UNIX son seguramente más flexibles y eficientes que 
