@@ -136,7 +136,7 @@ PERL, Ruby, Python, Bash, LISP y C++.
 
 ### 2.2.1 Representación 
 
-En primer lugar, está la sintaxis definida para representar información
+En primer lugar, Humdrum definide la sintaxis para representar información
 discreta como una serie de registros en un archivo de computadora.
 
 * Su definición permite que se codifiquen muchos tipos de información.
@@ -144,13 +144,13 @@ discreta como una serie de registros en un archivo de computadora.
 * El esquema esencial utilizado en la base de datos CCARH para la altura y la
  duración musical es sólo uno de un conjunto abierto.
 
-* Algunos otros miembros pueden ser aumentados por esquemas definidos por el
+* Algunos otros esquemas pueden ser aumentados por gramaticas definidas por el
  usuario para tareas de investigación.
 
 ### 2.2.2 Manipulación
 
 Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para
-manipular archivos que se ajusten a la sintaxis Humdrum en el nombre de la
+manipular archivos que se ajusten a la sintaxis Humdrum en el campo de la
 investigación asistida por ordenador en la música.
 
 El énfasis aquí debe ser en **asistido**:
@@ -164,41 +164,15 @@ potencial del sistema.
 ## 2.3 MusicXML
 
 MusicXML fue diseñado desde cero para compartir archivos de música entre
-aplicaciones y para archivar archivos de música para uso en el futuro. Tú puede
+aplicaciones y para archivar registros de música para uso en el futuro. Se puede
 contar con archivos de MusicXML que son legibles y utilizables por una amplia
-gama de música notación, ahora y en el futuro. MusicXML complementa al nativo
-los formatos de archivo utilizados por Finale y otros programas, que están
-diseñados para rápida, uso interactivo.
+gama de notaciones músicales, ahora y en el futuro. MusicXML complementa al 
+los formatos de archivo utilizados por Finale y otros programas.
 
-Así como los archivos MP3 se han convertido en sinónimos de compartir música
-grabada, MusicXML los archivos se han convertido en el estándar para compartir
-partituras interactivas. Con MusicXML puede crear música en un programa y
-compartir sus resultados. adelante - con las personas que utilizan otros
-programas. Hoy más de 220 aplicaciones incluyen compatibilidad con MusicXML.
-
-Guarde su música como un archivo de MusicXML y observe cómo crece su audiencia.
-Versión 3.1 del formato MusicXML se está desarrollando en la W3C Music Notation
-Community Grupo y se encuentra actualmente en prueba beta. La última versión
-está disponible en la Repositorio de GitHub.
-
-La versión 3.0 del formato MusicXML ™ se publicó en agosto de 2011. Versión 3.0
-incluye una definición de tipo de documento (DTD) y una definición de esquema
-XML W3C (XSD).
-
-MusicXML 3.0 tiene tres áreas principales de mejora en comparación con MusicXML
-2.0: Una taxonomía estándar de 886 sonidos de instrumento para permitir una
-mejor transferencia de reproducción de instrumentos virtuales entre
-aplicaciones. Cobertura de más partituras repertorios, incluyendo la notación
-numerada china jianpu, la música maqam turca, Persa y música iraní, y un mejor
-apoyo para la música educativa. Apoyo para las características más nuevas y más
-detalladas de la notación de música occidental común. Esta incluye 20
-características descritas en la nueva referencia de Elaine Gould libro, detrás
-de barras.
-
-MusicXML 3.0 agrega 76 nuevas características en comparación con MusicXML 2.0,
-mientras que permanece compatible con versiones anteriores. Todos los archivos
-válidos de MusicXML 1.0, 1.1 y 2.0 son también archivos MusicXML 3.0 válidos.
-El historial de la versión de MusicXML resume cambios desde la versión 1.0.
+MusicXML se pretende un el estándar para compartir partituras interactivas, dado
+q facilita crear música en un programa y exportar sus resultados a otros
+programas. Al momento más de 220 aplicaciones incluyen compatibilidad con
+MusicXML.
 
 ## 2.4 Music Markup Language 
 
@@ -207,8 +181,7 @@ eventos de música con un lenguaje basado en XML. La marcación de estos objetos
 debería permitir gestionar la música documentos para diversos fines, desde la
 teoría musical y la notación hasta rendimiento práctico. Este proyecto no está
 completo y está en progreso. El primer borrador de una posible DTD está
-disponible y se ofrecen algunos ejemplos de piezas de música marcadas con MML
-que resultan en bien formada, así como válida documentos.
+disponible y se ofrecen algunos ejemplos de piezas de música marcadas con MML.
 
 El enfoque es modular. Muchos módulos aún están incompletos y necesitan más
 investigación y atención.
@@ -219,20 +192,19 @@ Cuando un documento web está marcado correctamente con HTML (especialmente
 cuando es Compatible con XHTML) puede ser entregado en muchos tipos diferentes
 de dispositivos tales como una pantalla de PC, en TV-Web, en un teléfono
 celular web, leído por un sintetizador de sistema estéreo del coche, y muchos
-más. El documento puede incluso entregarse horno de microondas o horno de
-microondas! Dicho documento web puede usarse con diferentes hojas de estilo que
-se entregan de muchas maneras diferentes. MML debe funcionar de manera similar.
-Si un pedazo de música está marcado usando MML deben ser entregables en al
-menos los siguientes formatos: Texto - presentación de notas como, por ejemplo,
-1C: 4 (es decir, nota de cuarto C en la primera octava) Barras de bloque o
-piano-roll (como las que se encuentran en el software del secuenciador de
-computadora)
+más. MML pretende funcionar de manera similar.
 
-CWN: Common Western Notation (en la pantalla o en el papel) MIDI-device - ie
-jugado en un sintetizador, o controlando los procesadores de la música Con MML
-debe ser posible "secuenciar" una pieza de música sin tener que usar software.
-Así que cualquier persona con un editor de texto (como el Bloc de notas de
-Windows) debe ser capaz de secuenciar la música de esta manera.
+Si una pìeza músicall está serializada usando MML deben ser entregables en al
+menos los siguientes formatos: 
+
+* Texto - presentación de notas como, por ejemplo, piano-roll (como las que se
+  encuentran en el software del secuenciador de computadora)
+
+* CWN: Common Western Notation (en pantalla o en papel) 
+
+* MIDI-device: MML hace posible "secuenciar" una pieza de música sin tener que
+ usar software especial. Así que cualquier persona con un editor de texto debe
+ser capaz de secuenciar la música de esta manera.
 
 # 3. Bibliografia
 
