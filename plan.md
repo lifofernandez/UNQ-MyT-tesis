@@ -1,7 +1,7 @@
 # Universidad Nacional de Quilmes ### Escuela de Artes LICENCIATURA EN MUSICA Y
 TECNOLOGIA
 
-### Director de la Carrera   Esteban Calcagno
+### Director de la Carrera Esteban Calcagno
 
 ## Tesis de Grado Definición de estructura para hoja de análisis o plan de obra
 musical, basada en texto serializado simple y desarrollo de un sistema de
@@ -20,15 +20,45 @@ Buenos Aires, Septimebre 2017
 
 El presente plan propone la definición de una gramática agnóstica y neutral de
 hojas de análisis o planes de obra musical, basada en texto plano serializado
-legible, acompañada por el desarrollo de un sistema de herramientas para
+legible y acompañada por el desarrollo de un sistema de herramientas para
 iterfaz de línea de comandos (Command Line Interface) que genere, a partir de
-dichas hojas, secuencias musciales en el estandar MIDI. 
+estos ficheros, secuencias musciales en el estandar MIDI. 
 
 Asi mismo se documentará este desarrollo para su correcta publicación enmarcada
 bajo premisas del software libre y abierto. 
 
 
 ## 2. Justificacion 
+
+### 2.1 ¿Por que Texto Plano?
+
+* **Es soportado en multiples plataformas.** 
+
+Cada sistema operativo tiene al menos un editor de texto y son todos
+compatibles hasta la codificación del texto. 
+
+* **Es fácil de manipular.** 
+
+Manipular cadenas de caracteres es uno de los procesos mas elementales que
+se pueden realizar en un sistema informático.
+
+* **Es fácil de mantener.** 
+
+Comparado con opciones mas completas, el texto plano es lo mas sencillo ante
+la necesidad de actualizar informacion o de realizar cualquier tipo de cambio o
+ajuste.
+
+* **Es liviano.**
+
+Este es un aspecto clave cuando contamos con recursos limitados a nivel de
+sistema, como por ejemeplo poca capacidad de procesamiento/almacenamiento,
+conexiones lentas o sin acceso a una interfaz gráfica.
+
+* **Es compatible con el avance.**
+
+Independientemente de la próxima plataforma, si tenemos nuestros documentos
+almacenados en texto plano, serán fáciles de interpretar.
+
 
 ## 3. Objetivos
 
@@ -59,7 +89,7 @@ una composición es típicamente encontrado dividido en varios archivos agrupado
 en un directorio para ese movimiento.
 
 Las partes de los archivos MuseData siempre tienen la etiqueta 01 para la
-primera parte, 02 para la segunda parte de la partitura, etc.  Conteniendo
+primera parte, 02 para la segunda parte de la partitura, etc. Conteniendo
 varias líneas de música, como dos flautas en una partitura de orquesta, o dos
 duelas para música de piano. Archivos para diferentes los movimientos de una
 composición se encuentran en directorios separados que usualmente indican el
@@ -121,13 +151,13 @@ de página) y archivos de performance MIDI, que podrían editarse como el usuari
 lo crea conveniente. Las razones de esta posición son dos:
 
 * Cuando se codifica una obra musical, no es la partitura sino el contenido
-  lógico de la partiturai lo que codifica. Codificar la puntuación significaría
+ lógico de la partiturai lo que codifica. Codificar la puntuación significaría
 codificar la posición exacta de cada nota en la página; pero nuestra opinión es
 que tal codificación realmente contendría más información que la que el
 compositor pretende transmitir.
 
 * No se puede anticipar todos los usos a los cuales podrían darse estos datos,
-  pero se pude estar bastante seguro de que cada usuario tendrá sus propias
+ pero se pude estar bastante seguro de que cada usuario tendrá sus propias
 necesidades especiales y preferencias. Por lo tanto, no tiene sentido tratar de
 codificar información acerca de cómo debe verse una realización gráfica de los
 datos o cómo sonido que estos datos representan debe sonar.
@@ -159,10 +189,10 @@ discreta como una serie de registros en un archivo de computadora.
 * Su definición permite que se codifiquen muchos tipos de información.
 
 * El esquema esencial utilizado en la base de datos CCARH para la altura y la
-  duración musical es sólo uno de un conjunto abierto.
+ duración musical es sólo uno de un conjunto abierto.
 
 * Algunos otros esquemas pueden ser aumentados por gramaticas definidas por el
-  usuario para tareas de investigación.
+ usuario para tareas de investigación.
 
 ### 4.2.2 Manipulación
 
@@ -175,7 +205,7 @@ El énfasis aquí debe ser en **asistido**:
 * Humdrum no posee facultades analíticas de nivel superior per se.
 
 * Más bien, su poder deriva de la flexibilidad de su kit de elementales, que el
-  usuario debe aprender a utilizar en combinación para explotar plenamente el
+ usuario debe aprender a utilizar en combinación para explotar plenamente el
 potencial del sistema.
 
 ## 4.3 MusicXML
@@ -207,12 +237,12 @@ Si una pìeza músical está serializada usando MML deben ser entregable en al
 menos los siguientes formatos: 
 
 * Texto - presentación de notas como, por ejemplo, piano-roll (como las que se
-  encuentran en el software del secuenciador de computadora)
+ encuentran en el software del secuenciador de computadora)
 
 * CWN: Common Western Notation (en pantalla o en papel) 
 
 * MIDI-device: MML hace posible "secuenciar" una pieza de música sin tener que
-  usar software especial. Así que cualquier persona con un editor de texto debe
+ usar software especial. Así que cualquier persona con un editor de texto debe
 ser capaz de secuenciar la música de esta manera.
 
 
@@ -223,21 +253,23 @@ ser capaz de secuenciar la música de esta manera.
 
 * [musedata.org](http://www.musedata.org/)
 
-* A Eleanor Selfridge-Field (1997)   Beyond MIDI: The Jandbok of Musical Codes
-  [Capitulo 27: The MuseData Representation of Musical Information](
-http://www.ccarh.org/publications/books/beyondmidi/online/musedata/)   
+* A Eleanor Selfridge-Field (1997) Beyond MIDI: The Jandbok of Musical Codes
+ [Capitulo 27: The MuseData Representation of Musical Information](
+http://www.ccarh.org/publications/books/beyondmidi/online/musedata/) 
 
 * [music-cog.ohio-state.edu/humdrum](https://music-cog.ohio-state.edu/Humdrum/)
 
-* Jonathan Wild (1996)   A Review of the Humdrum Toolkit: UNIX Tools for
-  Musical Research, created by David Huron   Music Theory Online, Volume 2,
-Number 7, November 1996   
+* Jonathan Wild (1996) A Review of the Humdrum Toolkit: UNIX Tools for
+ Musical Research, created by David Huron Music Theory Online, Volume 2,
+Number 7, November 1996 
 
 * [musicxml.com](http://www.musicxml.com/)
 
 * [steyn.pro/mml](https://steyn.pro/mml/)
 
-https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text
+* Jeff Leek (2017) [The future of education is plain
+ text](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text)
+[SimplyStats](https://simplystatistics.org)
 
 https://en.wikipedia.org/wiki/Lightweight_markup_language
 
@@ -245,4 +277,4 @@ https://github.com/LABSL-ATAM/txts-lab/blob/master/MANIFIESTO/MANIFIESTO.md
 
 
 ## 7. Cronograma de Trabajo
-  
+ 
