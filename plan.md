@@ -319,7 +319,7 @@ Music Theory Online, Volume 2, Number 7, November 1996
 
 * Gustavo Yzaguirre (2015)   
 [Manifiesto del Laboratorio de Software Libre](https://labsl.multimediales.com.ar/Manifiesto_del_Laboratorio_de_Software_Libre_.html)   
-Laboratorio de Software Libre del ATAM/UNA
+Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte
 
 ## 7. Cronograma de Trabajo
 
