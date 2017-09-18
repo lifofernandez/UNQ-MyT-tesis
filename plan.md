@@ -268,28 +268,33 @@ ser capaz de secuenciar la música de esta manera.
 
 * [musedata.org](http://www.musedata.org/)
 
-* A Eleanor Selfridge-Field (1997) Beyond MIDI: The Jandbok of Musical Codes
- [Capitulo 27: The MuseData Representation of Musical Information](
-http://www.ccarh.org/publications/books/beyondmidi/online/musedata/) 
+* A Eleanor Selfridge-Field
+
+    (1997) Beyond MIDI: The Jandbok of Musical Codes
+    [Capitulo 27: The MuseData Representation of Musical Information](http://www.ccarh.org/publications/books/beyondmidi/online/musedata/) 
 
 * [music-cog.ohio-state.edu/humdrum](https://music-cog.ohio-state.edu/Humdrum/)
 
-* Jonathan Wild (1996) A Review of the Humdrum Toolkit: UNIX Tools for
- Musical Research, created by David Huron Music Theory Online, Volume 2,
-Number 7, November 1996 
+* Jonathan Wild (1996)
+    
+    A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron
+    Music Theory Online, Volume 2, Number 7, November 1996 
 
 * [musicxml.com](http://www.musicxml.com/)
 
 * [steyn.pro/mml](https://steyn.pro/mml/)
 
-* Jeff Leek (2017) [The future of education is plain
- text](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text)
-[SimplyStats](https://simplystatistics.org)
+* Jeff Leek (2017)
+    
+    [The future of education is plain text](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text)
+    [SimplyStats](https://simplystatistics.org)
 
-https://en.wikipedia.org/wiki/Lightweight_markup_language
+* https://en.wikipedia.org/wiki/Lightweight_markup_language
 
-https://github.com/LABSL-ATAM/txts-lab/blob/master/MANIFIESTO/MANIFIESTO.md
-
+* Gustavo Yzaguirre (2015)
+  
+  [Manifiesto del Laboratorio de Software Libre] (https://labsl.multimediales.com.ar/Manifiesto_del_Laboratorio_de_Software_Libre_.html)
+  Laboratorio de Software Libre del ATAM/UNA
 
 ## 7. Cronograma de Trabajo
  
