@@ -69,15 +69,21 @@ bajo premisas del software libre y abierto.
 
 * Esta en todos los sistemas
 
+* Antes que el GUI, es el primer estado de un sistema utilizable
+
 * Agilidad
 
-* Una interfaz, muchas aplicaciones
+* Misma interfaz para multiples aplicaciones
 
-* Tradicion
+* Resultados reproducibles
 
-* Consume menos recursos 
+* Pipeline
 
-* Acceso Remoto
+* Tradicion 
+
+* Menos recursos 
+
+* Acceso remoto
 
 
 
@@ -85,11 +91,11 @@ bajo premisas del software libre y abierto.
 
 Las motivaciones principales del desarrollo que este plan propone son:
 
-* Elaborar una herramienta de composición musical que pueda prescidir de una interfaz gráfica.
+* Elaborar una herramienta de composición musical que prescida de interfaz gráfica.
 
 * Unificar el proceso de planificacion de obra musical con el de secunciación MIDI.
 
-* Exponer las ventajas de la utilizacion de la Interfaz de Linea de Comandos.
+* Exponer ventajas de la operación de sistemas a traves de la Interfaz de Linea de Comandos.
 
 * Acercar a musicos a la composicion musical asistida por ordenadores.
 
@@ -284,7 +290,7 @@ ser capaz de secuenciar la música de esta manera.
 
 * Gramatica basa en terminologia de analisis musical
 
-* hermientas desarrolladas en Perl
+* Hermientas desarrolladas en Perl
 
 
 ## 6. Bibliografía
@@ -316,4 +322,12 @@ Music Theory Online, Volume 2, Number 7, November 1996
 Laboratorio de Software Libre del ATAM/UNA
 
 ## 7. Cronograma de Trabajo
+
+|                                                 | Tiempo mínimo estipulado |  Tiempo máximo estipulado  |
+|-------------------------------------------------|--------------------------|----------------------------|
+| Entrevistas con musicos compositores y teoricos |         15 días          |            1 mes           |
+|                         Definicion de gramática |           1 mes          |           45 días          |
+|                      Dasarrollo de aplicaciones |          45 días         |           2 meses          |
+|                          Pruebas y optimización |         15 días          |            1 mes           |
+|                                   Documentación |           1 mes          |           45 días          |
  
