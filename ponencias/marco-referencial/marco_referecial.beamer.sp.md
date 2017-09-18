@@ -241,23 +241,19 @@ Windows) debe ser capaz de secuenciar la música de esta manera.
 
 # 3. Bibliografia
 
-* [musedata.org] (http://www.musedata.org/)
+* [musedata.org](http://www.musedata.org/)
 
-* A Eleanor Selfridge-Field (1997)
+* A Eleanor Selfridge-Field (1997)   
+Beyond MIDI: The Jandbok of Musical Codes   
+[Capitulo 27: The MuseData Representation of Musical Information]( http://www.ccarh.org/publications/books/beyondmidi/online/musedata/)   
 
-Beyond MIDI: The Jandbok of Musical Codes
+* [music-cog.ohio-state.edu/humdrum](https://music-cog.ohio-state.edu/Humdrum/)
 
-[Capitulo 27: The MuseData Representation of Musical Information] ( http://www.ccarh.org/publications/books/beyondmidi/online/musedata/) 
+* Jonathan Wild (1996)   
+A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron   
+Music Theory Online, Volume 2, Number 7, November 1996   
 
-* [music-cog.ohio-state.edu/humdrum] (https://music-cog.ohio-state.edu/Humdrum/)
+* [musicxml.com](http://www.musicxml.com/)
 
-* Jonathan Wild (1996) 
-
-A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron  
-
-Music Theory Online, Volume 2, Number 7, November 1996  
-
-* [musicxml.com] (http://www.musicxml.com/)
-
-* [steyn.pro/mml] (https://steyn.pro/mml/)
+* [steyn.pro/mml](https://steyn.pro/mml/)
 
