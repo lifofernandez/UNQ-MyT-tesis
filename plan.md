@@ -1,30 +1,3 @@
-# Universidad Nacional de Quilmes
-
-## Escuela de Artes 
-
-### LICENCIATURA EN MÚSICA Y TECNOLOGÍA
-
-### Director de la Carrera
-
-Esteban Calcagno
-
-## Tesis de Grado
-
-Definición de estructura y gramática para plan de obra
-musical, basada en texto serializado legible y desarrollo de un sistema de
-herramientas CLI para generar sequencias MIDI a partir de las mismas. 
-
-### Presentada por
-
-LISANDRO FERNANDEZ
-
-### Director de Tesis
-
-NO SABEMOS TODAVIA
-
-Buenos Aires, Septimebre 2017
-
-\newpage
 
 
 ## 1. Resumen 
@@ -52,13 +25,13 @@ bajo premisas del software libre y abierto.
   se pueden realizar en un sistema informático.
 
 * **Es fácil de mantener.** 
-  Comparado con opciones mas completas, el texto plano es lo mas sencillo ante
+  Comparado con alternativas mas complejas, el texto plano es lo mas sencillo ante
   la necesidad de actualizar informacion o de realizar cualquier tipo de cambio o
   ajuste.
 
 * **Es liviano.**
-  Este es un aspecto clave cuando contamos con recursos limitados a nivel de
-  sistema, como por ejemeplo poca capacidad de procesamiento/almacenamiento,
+  Aspecto clave cuando los recursos a nivel de sistema son
+  limitados, como por ejemeplo poca capacidad de procesamiento/almacenamiento,
   conexiones lentas o sin acceso a una interfaz gráfica.
   
 * **Es compatible con el avance.**
@@ -69,7 +42,7 @@ bajo premisas del software libre y abierto.
 
 * Esta en todos los sistemas
 
-* Antes que el GUI, es el primer estado de un sistema utilizable
+* Primer estado utilizable del sistema 
 
 * Agilidad
 
@@ -286,19 +259,27 @@ ser capaz de secuenciar la música de esta manera.
 
 ## 5. Metodología
 
+* Protipado
+
+* Elaboracion de encuestas para entrevistar musicos compositores y teóricos
+
 * Sintaxis basada en YAML
 
-* Gramatica basa en terminologia de analisis musical
+* Gramatica en terminologia de planificacion/analisis musical
 
-* Hermientas desarrolladas en Perl
+* Desarrollo de hermientas en Perl
+
+* Documentacion: paginas Man 
+
+* Release en repositorios publicos
 
 
 ## 6. Bibliografía
 
 * [musedata.org](http://www.musedata.org/)
 
-* A Eleanor Selfridge-Field   
-(1997) Beyond MIDI: The Jandbok of Musical Codes   
+* A Eleanor Selfridge-Field (1997)   
+Beyond MIDI: The Jandbok of Musical Codes   
 [Capitulo 27: The MuseData Representation of Musical Information](http://www.ccarh.org/publications/books/beyondmidi/online/musedata/) 
 
 * [music-cog.ohio-state.edu/humdrum](https://music-cog.ohio-state.edu/Humdrum/)
@@ -325,8 +306,9 @@ Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediale
 
 |                                               | Tiempo mínimo estipulado |  Tiempo máximo estipulado  |
 |-----------------------------------------------|--------------------------|----------------------------|
-| Entrevistas a musicos compositores y teoricos | 15 días                  | 1 mes                      |
-| Definicion de gramática                       | 1 mes                    | 45 días                    |
+| Prototipado de sintaxis y aplicación          | 15 días                  | 1 mes                      |
+| Entrevistas a musicos compositores y teoricos | 10 días                  | 15 dias                    |
+| Definición de gramática                       | 1 mes                    | 45 días                    |
 | Dasarrollo de aplicaciones                    | 45 días                  | 2 meses                    |
 | Pruebas y optimización                        | 15 días                  | 1 mes                      |
 | Documentación                                 | 1 mes                    | 45 días                    |
