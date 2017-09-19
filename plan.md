@@ -6,7 +6,7 @@ El presente plan propone la definición de una gramática agnóstica y neutral d
 hojas de análisis o planes de obra musical, basada en texto plano serializado
 legible y acompañada por el desarrollo de un sistema de herramientas para
 interfaz de línea de comandos (Command Line Interface) que genere, a partir de
-estos ficheros, secuencias musicales en el estandar MIDI. 
+estos ficheros, secuencias musicales en el estándar MIDI. 
 
 Así mismo se documentará este desarrollo para su correcta publicación enmarcada
 bajo premisas del software libre y abierto. 
@@ -116,13 +116,11 @@ El primer paso en la entrada de datos (Stage 1) captura información básica com
 duración y altura de las notas. Por ejemplo, normalmente habría cuatro archivos
 (Violín 1, Violín 2, Viola, Violonchelo) para cada movimiento de un cuarteto de
 cuerdas. Si el movimiento del cuarteto comienza en metro binario, cambia a
-metro triple, y luego vuelve a binario, cada sección métrica tendrá su propio
+metro ternario, y luego vuelve a binario, cada sección métrica tendrá su propio
 conjunto de partes. Así habría doce archivos para el movimiento. El segundo
 paso en la entrada de datos (Stage 2) suministra toda la información que no
 puede ser capturado de forma fiable desde un teclado electrónico. Esto incluye
-indicaciones para ritmo, dinámica y articulación; texto subyacente; vástago,
-viga y insulto información, y muchos otros detalles que son esenciales para la
-salida de notación de calidad profesional.
+indicaciones para ritmo, dinámica y articulación.
 
 El juicio humano se aplica en el Stage 2. Así, cuando el movimiento del
 cuarteto de cuerdas citado anteriormente se convierte a la Stage 2, las tres
@@ -132,36 +130,35 @@ archivos de datos (uno para Violín 1, otro para Violín 2, Viola, Violonchelo).
 
 El juicio humano también proporciona correcciones y anotaciones a los datos.
 Algunos tipos de errores (por ejemplo, medidas incompletas) deben corregirse y
-así consigan tener sentido para el usuario. Los asuntos que son más
+así consiguen tener sentido para el usuario. Los asuntos que son más
 discrecionales (tales como alteraciones opcionales de los ornamentos o
-accidentes en los repertorios anteriores) por lo general no se modifica. Las
-decisiones discrecionales se anotan en los archivos que permiten las marcas
-editoriales.
+accidentes) por lo general no se modifica. Las decisiones discrecionales se
+anotan en archivos que permiten marcas editoriales.
 
 
 #### 4.1.2 La representación MuseData de información musical
 
-El propósito del código de MuseData es representar el contenido lógico de una
-pieza musical de una manera neutral de software. El código se
-utiliza actualmente en la construcción de bases de datos de texto completo de
-música para varios compositores, J.S. Bach, Beethoven, Corelli, Handel, Haydn,
-Mozart, Telemann y Vivaldi. Se pretende que estas bases de datos de texto
-completo se utilicen para la impresión de música, música análisis y producción
-de archivos de sonido electrónicos.
+El propósito de la sintaxis MuseData es representar el contenido lógico de una
+pieza musical de una modo neutral. El código se utiliza actualmente en la
+construcción de bases de datos de texto completo de música de varios
+compositores, J.S. Bach, Beethoven, Corelli, Handel, Haydn, Mozart, Telemann y
+Vivaldi. Se pretende que estas bases de datos de texto completo se utilicen
+para la impresión de música, análisis musical y producción de archivos de sonido 
+digitales.
 
-Aunque el código MuseData está destinado a ser genérico, hemos desarrollado
-software de diversos tipos con el fin de probar su eficacia. Las aplicaciones
-MuseData pueden imprimir resultados y partes que han sido utilizados por grupos
-de editores profesionales de música. Compilan archivos MIDI (que se pueden
-utilizar con secuenciadores estándar). Facilitan las búsquedas rápidas de los
-datos de patrones rítmicos, melódicos y armónicos específicos.
+Aunque el código MuseData está destinado a ser genérico, se han desarrollado
+piezas de software de diversos tipos con el fin de probar su eficacia. Las
+aplicaciones MuseData pueden imprimir resultados y partes para ser utilizadas
+por editores profesionales de música, así como también compilar archivos MIDI
+(que se pueden utilizar con secuenciadores estándar) y facilitar las búsquedas
+rápidas de los datos de patrones rítmicos, melódicos y armónicos específicos.
 
 La sintaxis MuseData está diseñada para representar tanto información de
 notación como de sonido, pero en ambos casos no se pretende que la
 representación esté completa. Eso prevé que los registros MuseData servirían
 como archivos de origen para generar tanto documentos gráficos (específicamente
 de página) y archivos de performance MIDI, que podrían editarse como el usuario
-lo crea conveniente. Las razones de esta posición son dos:
+lo crea conveniente. Las razones de esta postura son dos:
 
 * Cuando se codifica una obra musical, no es la partitura sino el contenido
  lógico de la partitura lo que codifica. Codificar la puntuación significaría
@@ -226,7 +223,7 @@ potencial del sistema.
 MusicXML fue diseñado desde cero para compartir archivos de música entre
 aplicaciones y para archivar registros de música para uso en el futuro. Se
 puede contar con archivos de MusicXML que son legibles y utilizables por una
-amplia gama de notaciones músicales, ahora y en el futuro. MusicXML complementa
+amplia gama de notaciones musicales, ahora y en el futuro. MusicXML complementa
 al los formatos de archivo utilizados por Finale y otros programas.
 
 MusicXML se pretende un el estándar para compartir partituras interactivas,
@@ -246,13 +243,13 @@ disponible y se ofrecen algunos ejemplos de piezas de música marcadas con MML.
 El enfoque es modular. Muchos módulos aún están incompletos y necesitan más
 investigación y atención.
 
-Si una pieza musical está serializada usando MML deben ser entregable en al
+Si una pieza musical está serializada usando MML puede ser entregada en al
 menos los siguientes formatos: 
 
-* Texto: representación de notas como, por ejemplo, piano-roll (como las que se
- encuentran en el software del secuenciador de computadora)
+* Texto: representación de notas como, por ejemplo, piano-roll (como el que se
+ encuentra en el software del secuenciador de computadora)
 
-* CWN (Common Western Notation): Notacion musical occidental en pantalla o en papel
+* Common Western Notation: Notación musical occidental en pantalla o en papel
 
 * MIDI-device: MML hace posible "secuenciar" una pieza de música sin tener que
  usar software especial. Así que cualquier persona con un editor de texto debe
@@ -273,7 +270,7 @@ ser capaz de secuenciar la música de esta manera.
 
 	* Sintaxis basada en YAML
 
-	* Terminología de análisis musical
+	* Terminología de análisis/planificación musical
 
 * Desarrollo 
 
