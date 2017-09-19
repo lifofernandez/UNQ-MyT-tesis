@@ -5,40 +5,40 @@
 El presente plan propone la definición de una gramática agnóstica y neutral de
 hojas de análisis o planes de obra musical, basada en texto plano serializado
 legible y acompañada por el desarrollo de un sistema de herramientas para
-iterfaz de línea de comandos (Command Line Interface) que genere, a partir de
-estos ficheros, secuencias musciales en el estandar MIDI. 
+interfaz de línea de comandos (Command Line Interface) que genere, a partir de
+estos ficheros, secuencias musicales en el estandar MIDI. 
 
-Asi mismo se documentará este desarrollo para su correcta publicación enmarcada
+Así mismo se documentará este desarrollo para su correcta publicación enmarcada
 bajo premisas del software libre y abierto. 
 
 
 ## 2. Justificacion 
 
-### 2.1 ¿Por que Texto Plano?
+### 2.1 ¿Por qué Texto Plano?
 
-* **Es soportado en multiples plataformas.** 
+* **Soportado en multiples plataformas.** 
   Cada sistema operativo tiene al menos un editor de texto y son todos
   compatibles hasta la codificación del texto. 
 
-* **Es fácil de manipular.** 
+* **Fácil de manipular.** 
   Procesar cadenas de caracteres es uno de los procesos mas elementales que
   se pueden realizar en un sistema informático.
 
-* **Es fácil de mantener.** 
+* **Fácil de mantener.** 
   Comparado con alternativas mas complejas, el texto plano es lo mas sencillo ante
-  la necesidad de actualizar informacion o de realizar cualquier tipo de cambio o
+  la necesidad de actualizar información o de realizar cualquier tipo de cambio o
   ajuste.
 
-* **Es liviano.**
+* **Liviano.**
   Aspecto clave cuando los recursos a nivel de sistema son
-  limitados, como por ejemeplo poca capacidad de procesamiento/almacenamiento,
+  limitados, como por ejemplo poca capacidad de procesamiento/almacenamiento,
   conexiones lentas o sin acceso a una interfaz gráfica.
   
-* **Es compatible con el avance.**
+* **Compatible con el avance.**
   Independientemente de la próxima plataforma, si tenemos nuestros documentos
   almacenados en texto plano, serán fáciles de interpretar.
 
-### 2.2 ¿Por que la Interfaz de Linea de Comandos?
+### 2.2 ¿Por qué la Interfaz de Linea de Comandos?
 
 * Esta en todos los sistemas
 
@@ -46,13 +46,13 @@ bajo premisas del software libre y abierto.
 
 * Agilidad
 
-* Misma interfaz para multiples aplicaciones
+* Misma interfaz para múltiples aplicaciones
 
 * Resultados reproducibles
 
 * Pipeline
 
-* Tradicion 
+* Tradición 
 
 * Menos recursos 
 
@@ -66,13 +66,13 @@ bajo premisas del software libre y abierto.
 
 Las motivaciones principales del desarrollo que este plan propone son:
 
-* Elaborar una herramienta de composición musical que prescida de interfaz gráfica.
+* Elaborar una herramienta de composición musical que prescinda de interfaz gráfica.
 
-* Unificar el proceso de planificacion de obra musical con el de secunciación MIDI.
+* Unificar el proceso de planificación de obra musical con el de secuenciación MIDI.
 
-* Exponer ventajas de la operación de sistemas a traves de la Interfaz de Linea de Comandos.
+* Exponer ventajas de la operación de sistemas a través de la Interfaz de Linea de Comandos.
 
-* Acercar a musicos a la composicion musical asistida por ordenadores.
+* Acercar a músicos a la composición musical asistida por ordenadores.
 
 
 ## 4. Marco referencial 
@@ -104,7 +104,7 @@ en un directorio para ese movimiento.
 Las partes de los archivos MuseData siempre tienen la etiqueta 01 para la
 primera parte, 02 para la segunda parte de la partitura, etc. Conteniendo
 varias líneas de música, como dos flautas en una partitura de orquesta, o dos
-duelas para música de piano. Archivos para diferentes los movimientos de una
+sistemas para música de piano. Archivos para diferentes los movimientos de una
 composición se encuentran en directorios separados que usualmente indican el
 número de movimiento, p. 01, 02, etc.
 
@@ -139,12 +139,12 @@ decisiones discrecionales se anotan en los archivos que permiten las marcas
 editoriales.
 
 
-#### 4.2.2 La representación MuseData de la información musical
+#### 4.1.2 La representación MuseData de información musical
 
-El propósito del código de MuseData es representar el contenido lógico del
-musical resultados en una manera neutral de software. El código se utiliza
-actualmente en la construcción de bases de datos de texto completo de música
-para varios compositores, J. S. Bach, Beethoven, Corelli, Handel, Haydn,
+El propósito del código de MuseData es representar el contenido lógico de una
+pieza musical de una manera neutral de software. El código se
+utiliza actualmente en la construcción de bases de datos de texto completo de
+música para varios compositores, J.S. Bach, Beethoven, Corelli, Handel, Haydn,
 Mozart, Telemann y Vivaldi. Se pretende que estas bases de datos de texto
 completo se utilicen para la impresión de música, música análisis y producción
 de archivos de sonido electrónicos.
@@ -164,7 +164,7 @@ de página) y archivos de performance MIDI, que podrían editarse como el usuari
 lo crea conveniente. Las razones de esta posición son dos:
 
 * Cuando se codifica una obra musical, no es la partitura sino el contenido
- lógico de la partiturai lo que codifica. Codificar la puntuación significaría
+ lógico de la partitura lo que codifica. Codificar la puntuación significaría
 codificar la posición exacta de cada nota en la página; pero nuestra opinión es
 que tal codificación realmente contendría más información que la que el
 compositor pretende transmitir.
@@ -196,7 +196,7 @@ PERL, Ruby, Python, Bash, LISP y C++.
 
 #### 4.2.1 Representación 
 
-En primer lugar, Humdrum definide la sintaxis para representar información
+En primer lugar, Humdrum define una sintaxis para representar información
 discreta como una serie de registros en un archivo de computadora.
 
 * Su definición permite que se codifiquen muchos tipos de información.
@@ -204,7 +204,7 @@ discreta como una serie de registros en un archivo de computadora.
 * El esquema esencial utilizado en la base de datos CCARH para la altura y la
  duración musical es sólo uno de un conjunto abierto.
 
-* Algunos otros esquemas pueden ser aumentados por gramaticas definidas por el
+* Algunos otros esquemas pueden ser aumentados por gramáticas definidas por el
  usuario para tareas de investigación.
 
 #### 4.2.2 Manipulación
@@ -217,7 +217,7 @@ El énfasis está en **asistido**:
 
 * Humdrum no posee facultades analíticas de nivel superior per se.
 
-* Más bien, su poder deriva de la flexibilidad de su kit de elementales, que el
+* Más bien, su poder deriva de la flexibilidad de su kit de elementos, que el
  usuario debe aprender a utilizar en combinación para explotar plenamente el
 potencial del sistema.
 
@@ -230,7 +230,7 @@ amplia gama de notaciones músicales, ahora y en el futuro. MusicXML complementa
 al los formatos de archivo utilizados por Finale y otros programas.
 
 MusicXML se pretende un el estándar para compartir partituras interactivas,
-dado q facilita crear música en un programa y exportar sus resultados a otros
+dado que facilita crear música en un programa y exportar sus resultados a otros
 programas. Al momento más de 220 aplicaciones incluyen compatibilidad con
 MusicXML.
 
@@ -246,10 +246,10 @@ disponible y se ofrecen algunos ejemplos de piezas de música marcadas con MML.
 El enfoque es modular. Muchos módulos aún están incompletos y necesitan más
 investigación y atención.
 
-Si una pìeza músical está serializada usando MML deben ser entregable en al
+Si una pieza musical está serializada usando MML deben ser entregable en al
 menos los siguientes formatos: 
 
-* Texto - presentación de notas como, por ejemplo, piano-roll (como las que se
+* Texto: representación de notas como, por ejemplo, piano-roll (como las que se
  encuentran en el software del secuenciador de computadora)
 
 * CWN (Common Western Notation): Notacion musical occidental en pantalla o en papel
@@ -261,52 +261,56 @@ ser capaz de secuenciar la música de esta manera.
 
 ## 5. Metodología
 
-* Analisis del caso
+* Análisis de caso
 
 	* Boceto de sintaxis 
 
-	* Prototipado de aplicación   
+	* Prototipo de aplicación   
 
-	* Encuestas y consultas a musicos compositores y teóricos
+	* Encuestas y consultas a músicos compositores y teóricos
 
-* Diseño de Gramatica
+* Diseño de Gramática
 
 	* Sintaxis basada en YAML
 
-	* Terminología de analisis musical
+	* Terminología de análisis musical
 
 * Desarrollo 
 
 	* Perl
 
-	* Git
+	* GIT
 
 * Documentación
 
 	* Modulo POD 
 
-	* Paginas Man 
+	* Paginas MAN, PDF, HTML, etc.  
 
-* Release en repositorios publicos
+* Release en repositorios públicos
 
 
 ## 6. Bibliografía
 
-* [musedata.org](http://www.musedata.org/)
+* Pagina WEB de MuseData   
+[musedata.org](http://www.musedata.org/)
 
 * A Eleanor Selfridge-Field (1997)   
 Beyond MIDI: The Jandbok of Musical Codes   
 [Capitulo 27: The MuseData Representation of Musical Information](http://www.ccarh.org/publications/books/beyondmidi/online/musedata/) 
 
-* [music-cog.ohio-state.edu/humdrum](https://music-cog.ohio-state.edu/Humdrum/)
+* Pagina WEB de Humdrum   
+[music-cog.ohio-state.edu/humdrum](https://music-cog.ohio-state.edu/Humdrum/)
 
 * Jonathan Wild (1996)   
 A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron   
 Music Theory Online, Volume 2, Number 7, November 1996 
 
-* [musicxml.com](http://www.musicxml.com/)
+* Pagina WEB de MusicXML   
+[musicxml.com](http://www.musicxml.com/)
 
-* [steyn.pro/mml](https://steyn.pro/mml/)
+* Pagina WEB de MML   
+[steyn.pro/mml](https://steyn.pro/mml/)
 
 * Jeff Leek (2017)   
 [The future of education is plain text](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text)   
@@ -317,6 +321,11 @@ Music Theory Online, Volume 2, Number 7, November 1996
 * Gustavo Yzaguirre (2015)   
 [Manifiesto del Laboratorio de Software Libre](https://labsl.multimediales.com.ar/Manifiesto_del_Laboratorio_de_Software_Libre_.html)   
 Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte
+
+
+* http://repmus.ircam.fr/openmusic/documents
+
+* http://msp.ucsd.edu/publications.html
 
 ## 7. Cronograma de Trabajo
 
