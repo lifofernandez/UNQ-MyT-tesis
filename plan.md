@@ -21,7 +21,7 @@ bajo premisas del software libre y abierto.
   compatibles hasta la codificación del texto. 
 
 * **Es fácil de manipular.** 
-  Manipular cadenas de caracteres es uno de los procesos mas elementales que
+  Procesar cadenas de caracteres es uno de los procesos mas elementales que
   se pueden realizar en un sistema informático.
 
 * **Es fácil de mantener.** 
@@ -57,6 +57,8 @@ bajo premisas del software libre y abierto.
 * Menos recursos 
 
 * Acceso remoto
+
+* VIM
 
 
 
@@ -259,17 +261,31 @@ ser capaz de secuenciar la música de esta manera.
 
 ## 5. Metodología
 
-* Protipado
+* Analisis del caso
 
-* Elaboracion de encuestas para entrevistar musicos compositores y teóricos
+	* Boceto de sintaxis 
 
-* Sintaxis basada en YAML
+	* Prototipado de aplicación   
 
-* Gramatica en terminologia de planificacion/analisis musical
+	* Encuestas y consultas a musicos compositores y teóricos
 
-* Desarrollo de hermientas en Perl
+* Diseño de Gramatica
 
-* Documentacion: paginas Man 
+	* Sintaxis basada en YAML
+
+	* Terminología de analisis musical
+
+* Desarrollo 
+
+	* Perl
+
+	* Git
+
+* Documentación
+
+	* Modulo POD 
+
+	* Paginas Man 
 
 * Release en repositorios publicos
 
@@ -306,8 +322,7 @@ Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediale
 
 |                                               | Tiempo mínimo estipulado |  Tiempo máximo estipulado  |
 |-----------------------------------------------|--------------------------|----------------------------|
-| Prototipado de sintaxis y aplicación          | 15 días                  | 1 mes                      |
-| Entrevistas a musicos compositores y teoricos | 10 días                  | 15 dias                    |
+| Boceto de sintaxis y prototipado aplicación   | 15 días                  | 1 mes                      |
 | Definición de gramática                       | 1 mes                    | 45 días                    |
 | Dasarrollo de aplicaciones                    | 45 días                  | 2 meses                    |
 | Pruebas y optimización                        | 15 días                  | 1 mes                      |

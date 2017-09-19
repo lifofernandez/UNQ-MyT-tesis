@@ -263,7 +263,7 @@ $endif$
 
 $if(director)$
 \begin{center}
-Director Carrera:
+Director de Carrera:
 $director$
 \end{center}
 $endif$
