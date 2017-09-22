@@ -289,19 +289,46 @@ ser capaz de secuenciar la música de esta manera.
 
 ## 6. Bibliografía
 
+* Wild, Jonathan.
+A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron.
+Music Theory Online, Volume 2, Number 7, November. 
+Estados Unidos.
+1996.
+
+* Selfridge-Field, Eleanor.
+Beyond MIDI: The Jandbok of Musical Codes.
+[Capitulo 27: The MuseData Representation of Musical Information](http://www.ccarh.org/publications/books/beyondmidi/online/musedata/).
+Estados Unidos.
+1997.   
+
+* Hunt, Andrew and Thomas, David.
+The Pragmatic Programmer: From Journeyman to Master.
+The Pragmatic Bookshelf.
+Estados Unidos.
+1999.
+
+* Good, Michael.
+MusicXML: An Internet-Friendly Format for Sheet.
+Estados Unidos.
+2001.  
+
+* Yzaguirre, Gustavo 
+[Manifiesto del Laboratorio de Software Libre](https://labsl.multimediales.com.ar/Manifiesto_del_Laboratorio_de_Software_Libre_.html)   
+Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte
+CABA.
+2015   
+
+* Jeff Leek 
+[The future of education is plain text](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text)   
+[SimplyStats](https://simplystatistics.org)
+Estados Unidos.
+2017   
+
 * Pagina WEB de MuseData   
 [musedata.org](http://www.musedata.org/)
 
-* A Eleanor Selfridge-Field (1997)   
-Beyond MIDI: The Jandbok of Musical Codes   
-[Capitulo 27: The MuseData Representation of Musical Information](http://www.ccarh.org/publications/books/beyondmidi/online/musedata/) 
-
 * Pagina WEB de Humdrum   
 [music-cog.ohio-state.edu/humdrum](https://music-cog.ohio-state.edu/Humdrum/)
-
-* Jonathan Wild (1996)   
-A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron   
-Music Theory Online, Volume 2, Number 7, November 1996 
 
 * Pagina WEB de MusicXML   
 [musicxml.com](http://www.musicxml.com/)
@@ -309,26 +336,18 @@ Music Theory Online, Volume 2, Number 7, November 1996
 * Pagina WEB de MML   
 [steyn.pro/mml](https://steyn.pro/mml/)
 
-* Jeff Leek (2017)   
-[The future of education is plain text](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text)   
-[SimplyStats](https://simplystatistics.org)
-
 * https://en.wikipedia.org/wiki/Lightweight_markup_language
-
-* Gustavo Yzaguirre (2015)   
-[Manifiesto del Laboratorio de Software Libre](https://labsl.multimediales.com.ar/Manifiesto_del_Laboratorio_de_Software_Libre_.html)   
-Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte
-
 
 * http://repmus.ircam.fr/openmusic/documents
 
 * http://msp.ucsd.edu/publications.html
 
+
 ## 7. Cronograma de Trabajo
 
 |                                               | Tiempo mínimo estipulado |  Tiempo máximo estipulado  |
 |-----------------------------------------------|--------------------------|----------------------------|
-| Boceto de sintaxis y prototipado aplicación   | 15 días                  | 1 mes                      |
+| Boceto de sintaxis y prototio aplicación      | 15 días                  | 1 mes                      |
 | Definición de gramática                       | 1 mes                    | 45 días                    |
 | Dasarrollo de aplicaciones                    | 45 días                  | 2 meses                    |
 | Pruebas y optimización                        | 15 días                  | 1 mes                      |
