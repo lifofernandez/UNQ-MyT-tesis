@@ -5,15 +5,17 @@
 El presente plan propone la definición de una gramática neutral de hojas de
 análisis o planes de obra musical, basada en texto plano serializado y
 legible[^ver_combs], acompañada por el desarrollo de un sistema de herramientas
-para interfaz de línea de comandos (Command Line Interface)[^ver_hunt] que
+para interfaz de línea de comandos (Command Line Interface)[^ver_leek][^ver_hunt] que
 genere, a partir de estos ficheros, secuencias musicales en el estándar MIDI. 
 
 Se documentará este desarrollo para su correcta publicación enmarcada
-bajo premisas del software libre y abierto. 
-
+bajo premisas del software libre y abierto[^ver_gnu][^ver_yzaguirre].
 
 [^ver_combs]: @coombs 
 [^ver_hunt]: @hunt
+[^ver_leek]: @leek
+[^ver_gnu]: @gnu
+[^ver_yzaguirre]: @yzaguirre
 
 ## 2. Justificacion 
 
@@ -96,7 +98,7 @@ Las motivaciones principales del desarrollo que este plan propone son:
 
 ### 4.1 MuseData
 
-La base de datos MuseData es un proyecto y a la vez el sistema de codificación
+La base de datos MuseData [^ver_selfridge] es un proyecto y a la vez el sistema de codificación
 principal Centro de Investigación Asistida por Computador en Humanidades
 (CCARH). La base de datos fue creado por Walter Hewlett. 
 
@@ -106,6 +108,8 @@ sólo algunas de las las características incluidas en el master MuseData de
 codificaciones. El archivo MuseData está diseñado para soportar aplicaciones de
 sonido, gráficos y análisis. Los formatos derivados de las codificaciones
 musicales de MuseData que se distribución son: MIDI1, MIDI+ y Humdrum.
+
+[^ver_selfridge]: @selfridge
 
 #### 4.1.1 Organización de archivos MuseData 
 
@@ -199,7 +203,7 @@ documentos de partitura y archivos MIDI.
 
 ### 4.2 Humdrum
 
-David Huron creó Humdrum en los años 80, y se ha utilizado constantemente por
+David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado constantemente por
 décadas. Humdrum es un conjunto de herramientas de línea de comandos que
 facilita el análisis, así como una sintaxis generalizada para representar
 secuencias de datos. Debido a que es un conjunto de herramientas de línea de
@@ -207,6 +211,7 @@ comandos, es el lenguaje de programa agnóstico. Muchos han empleado
 herramientas de Humdrum en secuencias de comandos más grandes que utilizan
 PERL, Ruby, Python, Bash, LISP y C++.
 
+[^ver_wild]: @wild
 
 #### 4.2.1 Representación 
 
@@ -237,7 +242,7 @@ potencial del sistema.
 
 ### 4.3 MusicXML
 
-MusicXML fue diseñado desde cero para compartir archivos de música entre
+MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música entre
 aplicaciones y para archivar registros de música para uso en el futuro. Se
 puede contar con archivos de MusicXML que son legibles y utilizables por una
 amplia gama de notaciones musicales, ahora y en el futuro. MusicXML complementa
@@ -247,6 +252,8 @@ MusicXML se pretende un el estándar para compartir partituras interactivas,
 dado que facilita crear música en un programa y exportar sus resultados a otros
 programas. Al momento más de 220 aplicaciones incluyen compatibilidad con
 MusicXML.
+
+[^ver_good]: @good
 
 #### 4.4 Music Markup Language 
 
@@ -306,75 +313,16 @@ ser capaz de secuenciar la música de esta manera.
 
 ## 6. Cronograma de Trabajo
 
-|                                               | Tiempo mínimo estipulado |  Tiempo máximo estipulado  |
-|-----------------------------------------------|--------------------------|----------------------------|
-| Boceto de sintaxis y prototio aplicación      | 15 días                  | 1 mes                      |
-| Definición de gramática                       | 1 mes                    | 45 días                    |
-| Dasarrollo de aplicaciones                    | 45 días                  | 2 meses                    |
-| Pruebas y optimización                        | 15 días                  | 1 mes                      |
-| Documentación                                 | 1 mes                    | 45 días                    |
+|                                           | Tiempo Estipulado |  Fechas Tentativas      |
+|-------------------------------------------|-------------------|-------------------------|
+| Boceto de sintaxis y prototipo aplicación | 4 semanas         | Del XX al XX de XXXXXX  |
+| Definición de gramática                   | 5 semanas         | Del XX al XX de XXXXXX  |
+| Dasarrollo de aplicaciones                | 7 semanas         | Del XX al XX de XXXXXX  |
+| Pruebas y optimización                    | 3 semanss         | Del XX al XX de XXXXXX  |
+| Documentación                             | 5 semanas         | Del XX al XX de XXXXXX  |
 
 ## 7. Bibliografía
 
-* Coombs, James H., Renear, Allen H. y DeRose, Steven J.  
-Markup Systems and the Future of Scholarly Text Processing 
-Communications of the ACM (Association for Computing Machinery) 30 (November 1987); 933-47
-Estados Unidos.
-1987.
 
-* Wild, Jonathan.
-A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron.
-Music Theory Online, Volume 2, Number 7, November. 
-Estados Unidos.
-1996.
-
-* Selfridge-Field, Eleanor.
-Beyond MIDI: The Jandbok of Musical Codes.
-[Capitulo 27: The MuseData Representation of Musical Information](http://www.ccarh.org/publications/books/beyondmidi/online/musedata/).
-Estados Unidos.
-1997.   
-
-* Hunt, Andrew and Thomas, David.
-The Pragmatic Programmer: From Journeyman to Master.
-The Pragmatic Bookshelf.
-Estados Unidos.
-1999.
-
-* Good, Michael.
-MusicXML: An Internet-Friendly Format for Sheet.
-Estados Unidos.
-2001.  
-
-* Yzaguirre, Gustavo 
-[Manifiesto del Laboratorio de Software Libre](https://labsl.multimediales.com.ar/Manifiesto_del_Laboratorio_de_Software_Libre_.html)   
-Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte
-CABA.
-2015   
-
-
-
-* Jeff Leek 
-[The future of education is plain text](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text)   
-[SimplyStats](https://simplystatistics.org)
-Estados Unidos.
-2017   
-
-* Pagina WEB de MuseData   
-[musedata.org](http://www.musedata.org/)
-
-* Pagina WEB de Humdrum   
-[music-cog.ohio-state.edu/humdrum](https://music-cog.ohio-state.edu/Humdrum/)
-
-* Pagina WEB de MusicXML   
-[musicxml.com](http://www.musicxml.com/)
-
-* Pagina WEB de MML   
-[steyn.pro/mml](https://steyn.pro/mml/)
-
-* https://en.wikipedia.org/wiki/Lightweight_markup_language
-
-* http://repmus.ircam.fr/openmusic/documents
-
-* http://msp.ucsd.edu/publications.html
 
 
