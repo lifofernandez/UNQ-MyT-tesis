@@ -20,7 +20,7 @@ bajo premisas del software libre y abierto.
 > knowledge. [...]. And we believe that the best format for storing knowledge
 > persistently is plain text.  With plain text, we give ourselves the ability to
 > manipulate knowledge, both manually and programmatically, using virtually every
-> tool at our disposal."
+> tool at our disposal." @z1 says fooo
 
 * Leverage
 
@@ -299,7 +299,17 @@ ser capaz de secuenciar la música de esta manera.
 * Release en repositorios públicos
 
 
-## 6. Bibliografía
+## 6. Cronograma de Trabajo
+
+|                                               | Tiempo mínimo estipulado |  Tiempo máximo estipulado  |
+|-----------------------------------------------|--------------------------|----------------------------|
+| Boceto de sintaxis y prototio aplicación      | 15 días                  | 1 mes                      |
+| Definición de gramática                       | 1 mes                    | 45 días                    |
+| Dasarrollo de aplicaciones                    | 45 días                  | 2 meses                    |
+| Pruebas y optimización                        | 15 días                  | 1 mes                      |
+| Documentación                                 | 1 mes                    | 45 días                    |
+
+## 7. Bibliografía
 
 * Coombs, James H., Renear, Allen H. y DeRose, Steven J.  
 Markup Systems and the Future of Scholarly Text Processing 
@@ -362,14 +372,4 @@ Estados Unidos.
 
 * http://msp.ucsd.edu/publications.html
 
-
-## 7. Cronograma de Trabajo
-
-|                                               | Tiempo mínimo estipulado |  Tiempo máximo estipulado  |
-|-----------------------------------------------|--------------------------|----------------------------|
-| Boceto de sintaxis y prototio aplicación      | 15 días                  | 1 mes                      |
-| Definición de gramática                       | 1 mes                    | 45 días                    |
-| Dasarrollo de aplicaciones                    | 45 días                  | 2 meses                    |
-| Pruebas y optimización                        | 15 días                  | 1 mes                      |
-| Documentación                                 | 1 mes                    | 45 días                    |
 
