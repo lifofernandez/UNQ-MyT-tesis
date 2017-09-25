@@ -2,15 +2,18 @@
 
 ## 1. Resumen 
 
-El presente plan propone la definición de una gramática neutral de
-hojas de análisis o planes de obra musical, basada en texto plano serializado
-y legible, acompañada por el desarrollo de un sistema de herramientas para
-interfaz de línea de comandos (Command Line Interface) que genere, a partir de
-estos ficheros, secuencias musicales en el estándar MIDI. 
+El presente plan propone la definición de una gramática neutral de hojas de
+análisis o planes de obra musical, basada en texto plano serializado y
+legible[^ver_combs], acompañada por el desarrollo de un sistema de herramientas
+para interfaz de línea de comandos (Command Line Interface)[^ver_hunt] que
+genere, a partir de estos ficheros, secuencias musicales en el estándar MIDI. 
 
 Se documentará este desarrollo para su correcta publicación enmarcada
 bajo premisas del software libre y abierto. 
 
+
+[^ver_combs]: @coombs 
+[^ver_hunt]: @hunt
 
 ## 2. Justificacion 
 
@@ -20,7 +23,7 @@ bajo premisas del software libre y abierto.
 > knowledge. [...]. And we believe that the best format for storing knowledge
 > persistently is plain text.  With plain text, we give ourselves the ability to
 > manipulate knowledge, both manually and programmatically, using virtually every
-> tool at our disposal." @z1 says fooo
+> tool at our disposal." [@hunt] 
 
 * Leverage
 
@@ -48,6 +51,8 @@ bajo premisas del software libre y abierto.
 * Insurance against obsolescence
   Independientemente de la próxima plataforma, si tenemos nuestros documentos
   almacenados en texto plano, serán fáciles de interpretar.
+
+
 
 
 ### 2.2 ¿Por qué la Interfaz de Linea de Comandos?

@@ -14,8 +14,118 @@ place: 'Buenos Aires, Argentina'
 
 tags: [representación, codificación, texto plano, CLI, MIDI]
 
-abstract: 'Definición de estructura y gramática para plan de obra musical,
+abstract: 'Definición de estructura y gramática de plan de obra musical,
 basada en texto serializado legible y desarrollo de un sistema de herramientas
 CLI para generar sequencias MIDI a partir de las mismas.'
 
----
+references:
+- type: article-journal
+  id: coombs
+  author:
+  - family: Coombs
+    given: 'James H.'
+  - family: Renear
+    given: 'Allen H.'
+  - family: DeRose
+    given: 'Steven J.'
+  issued:
+    date-parts:
+    - - 1987
+      - 11
+      - 01
+  title: 'Markup Systems and the Future of Scholarly Text Processing'
+  title-short: 'Markup and Scholarly Text Processing'
+  container-title: 'Communications of the ACM '
+  publisher: 'Association for Computing Machinery'
+  volume: 30
+  issue: 11
+  page: 933-47
+  DOI: 10.1145/32206.32209
+  # URL : http://www.fdi.ucm.es/profesor/jlsierra/e-learning/primera-sesion/MarkupSystems.pdf
+  URL : http://xml.coverpages.org/coombs.html
+  language: en-GB
+
+  ########################### 
+
+- type: book
+  id: hunt
+  author:
+  - family: Hunt 
+    given: Andrew  
+  - family: Thomas
+    given: David 
+  issued:
+    date-parts:
+    - - 1999
+      - 10
+      - 13
+  title: 'The Pragmatic Programmer: From Journeyman to Master'
+  title-short: 'The Pragmatic Programmer'
+  publisher: 'The Pragmatic Bookshelf'
+  editor: 'Addison Wesley'
+  page: 72-99
+  ISBN:  978-0-2016-1622-4
+  language: en-GB
+ 
+# - type:
+#   id:
+#   author:
+#   - family: 
+#     given: 
+#   issued:
+#     date-parts:
+#     - - 1987
+#       - 11
+#       - 01
+#   title: 
+#   title-short:
+#   container-title:
+#   volume: 
+#   issue: 
+#   page: 
+#   # DOI:
+#   URL : 
+#   language: en-GB
+
+
+
+# Wild, Jonathan.
+# A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron.
+# Music Theory Online, Volume 2, Number 7, November. 
+# Estados Unidos.
+# 1996.
+# 
+# Selfridge-Field, Eleanor.
+# Beyond MIDI: The Jandbok of Musical Codes.
+# [Capitulo 27: The MuseData Representation of Musical Information](http://www.ccarh.org/publications/books/beyondmidi/online/musedata/).
+# Estados Unidos.
+# 1997.   
+# 
+# 
+# Good, Michael.
+# MusicXML: An Internet-Friendly Format for Sheet.
+# Estados Unidos.
+# 2001.  
+# 
+# Yzaguirre, Gustavo 
+# [Manifiesto del Laboratorio de Software Libre](https://labsl.multimediales.com.ar/Manifiesto_del_Laboratorio_de_Software_Libre_.html)   
+# Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte
+# CABA.
+# 2015   
+# 
+# 
+# 
+# Jeff Leek 
+# [The future of education is plain text](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text)   
+# [SimplyStats](https://simplystatistics.org)
+# Estados Unidos.
+# 2017   
+# 
+# Pagina WEB de MuseData   
+# [musedata.org](http://www.musedata.org/)
+# 
+# Pagina WEB de Humdrum   
+# [music-cog.ohio-state.edu/humdrum](https://music-cog.ohio-state.edu/Humdrum/)
+# 
+# Pagina WEB de MusicXML   
+...
