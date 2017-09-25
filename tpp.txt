@@ -1,0 +1,423 @@
+Chapter 3. The Basic Tools Every craftsman starts his or her journey with a
+basic set of good-quality tools. A woodworker might need rules, gauges, a
+couple of saws, some good planes, fine chisels, drills and braces, mallets, and
+clamps. These tools will be lovingly chosen, will be built to last, will
+perform specific jobs with little overlap with other tools, and, perhaps most
+importantly, will feel right in the budding woodworker's hands.  Then begins a
+process of learning and adaptation. Each tool will have its own personality and
+quirks, and will need its own special handling. Each must be sharpened in a
+unique way, or held just so. Over time, each will wear according to use, until
+the grip looks like a mold of the woodworker's hands and the cutting surface
+aligns perfectly with the angle at which the tool is held. At this point, the
+tools become conduits from the craftsman's brain to the finished product—they
+have become extensions of his or her hands. Over time, the woodworker will add
+new tools, such as biscuit cutters, laser-guided miter saws, dovetail jigs—all
+wonderful pieces of technology. But you can bet that he or she will be happiest
+with one of those original tools in hand, feeling the plane sing as it slides
+through the wood.  Tools amplify your talent. The better your tools, and the
+better you know how to use them, the more productive you can be. Start with a
+basic set of generally applicable tools. As you gain experience, and as you
+come across special requirements, you'll add to this basic set. Like the
+craftsman, expect to add to your toolbox regularly. Always be on the lookout
+for better ways of doing things. If you come across a situation where you feel
+your current tools can't cut it, make a note to look for something different or
+more powerful that would have helped. Let need drive your acquisitions.  Many
+new programmers make the mistake of adopting a single power tool, such as a
+particular integrated development environment (IDE), and never leave its cozy
+interface. This really is a mistake. We need to be comfortable beyond the
+limits imposed by an IDE. The only way to do this is to keep the basic tool set
+sharp and ready to use.  In this chapter we'll talk about investing in your own
+basic toolbox. As with any good discussion on tools, we'll start (in The Power
+of Plain Text) by looking at your raw materials, the stuff you'll be shaping.
+From there we'll move to the workbench, or in our case the computer. How can
+you use your computer to get the most out of the tools you use? We'll discuss
+this in Shell Games. Now that we have material and a bench to work on, we'll
+turn to the tool you'll probably use more than any other, your editor. In Power
+Editing, we'll suggest ways of making you more efficient.  To ensure that we
+never lose any of our precious work, we should always use a Source Code Control
+system—even for things such as our personal address book! And, since Mr. Murphy
+was really an optimist after all, you can't be a great programmer until you
+become highly skilled at Debugging.  You'll need some glue to bind much of the
+magic together. We discuss some possibilities, such as awk, Perl, and Python,
+in Text Manipulation.  Just as woodworkers sometimes build jigs to guide the
+construction of complex pieces, programmers can write code that itself writes
+code. We discuss this in Code Generators.  Spend time learning to use these
+tools, and at some point you'll be surprised to discover your fingers moving
+over the keyboard, manipulating text without conscious thought. The tools will
+have become extensions of your hands.
+
+The Power of Plain Text As Pragmatic Programmers, our base material isn't wood
+or iron, it's knowledge. We gather requirements as knowledge, and then express
+that knowledge in our designs, implementations, tests, and documents. And we
+believe that the best format for storing knowledge persistently is plain text.
+With plain text, we give ourselves the ability to manipulate knowledge, both
+manually and programmatically, using virtually every tool at our disposal.
+
+What Is Plain Text?  Plain text is made up of printable characters in a form
+that can be read and understood directly by people. For example, although the
+following snippet is made up of printable characters, it is meaningless.
+
+Fieldl9=467abe
+
+The reader has no idea what the significance of 467abe may be. A better choice
+would be to make it understandable to humans.
+
+DrawingType=UMLActivityDrawing
+
+Plain text doesn't mean that the text is unstructured; XML, SGML, and
+HTML are great examples of plain text that has a well-defined structure.  You
+can do everything with plain text that you could do with some binary format,
+including versioning.  Plain text tends to be at a higher level than a straight
+binary encoding, which is usually derived directly from the implementation.
+Suppose you wanted to store a property called uses_menus that can be either
+TRUE or FALSE. Using text, you might write this as
+
+myprop.uses_menus=FALSE
+
+Contrast this with 0010010101110101.  The problem with most binary formats is
+that the context necessary to understand the data is separate from the data
+itself. You are artificially divorcing the data from its meaning. The data may
+as well be encrypted; it is absolutely meaningless without the application
+logic to parse it. With plain text, however, you can achieve a self-describing
+data stream that is independent of the application that created it.  Tip 20
+Keep Knowledge in Plain Text
+
+Drawbacks There are two major drawbacks to using plain text: (1) It may take
+more space to store than a compressed binary format, and (2) it may be
+computationally more expensive to interpret and process a plain text file.
+Depending on your application, either or both of these situations may be
+unacceptable—for example, when storing satellite telemetry data, or as the
+internal format of a relational database.  But even in these situations, it may
+be acceptable to store metadata about the raw data in plain text (see
+Metaprogramming).  Some developers may worry that by putting metadata in plain
+text, they're exposing it to the system's users. This fear is misplaced. Binary
+data may be more obscure than plain text, but it is no more secure. If you
+worry about users seeing passwords, encrypt them. If you don't want them
+changing
+
+Configuration parameters, include a secure hash[1] of all the parameter
+values in the file as a checksum.  [1]
+
+MD5 is often used for this purpose. For an excellent introduction to the
+wonderful world of cryptography, see [Sch95].
+
+The Power of Text Since larger and slower aren't the most frequently requested
+features from users, why bother with plain text? What are the benefits?  •
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Insurance against obsolescence Leverage Easier testing
+
+Insurance Against Obsolescence Human-readable forms of data, and
+self-describing data, will outlive all other forms of data and the applications
+that created them. Period.  As long as the data survives, you will have a
+chance to be able to use it—potentially long after the original application
+that wrote it is defunct.  You can parse such a file with only partial
+knowledge of its format; with most binary files, you must know all the details
+of the entire format in order to parse it successfully.  Consider a data file
+from some legacy system[2] that you are given. You know little about the
+original application; all that's important to you is that it maintained a list
+of clients' Social Security numbers, which you need to find and extract. Among
+the data, you see [2]
+
+All software becomes legacy as soon as it's written.
+
+<FIELD10>123-45-6789</FIELD10> ...  <FIELD10>567-89-0123</FIELD10> ...
+<FIELD10>901-23-4567</FIELD10>
+
+Recognizing the format of a Social Security number, you can quickly write a
+small program to extract that data—even if you have no information on anything
+else in the file.
+
+But imagine if the file had been formatted this way instead:
+
+AC27123456789B11P ...  XY43567890123QTYL ...  6T2190123456788AM
+
+You may not have recognized the significance of the numbers quite as easily.
+This is the difference between human readable and human
+
+understandable.  While we're at it, FIELD10 doesn't help much either. Something
+like
+
+<SSNO>123-45-6789</SSNO>
+
+makes the exercise a no-brainer—and ensures that the data will outlive any
+project that created it.
+
+Leverage Virtually every tool in the computing universe, from source code
+management systems to compiler environments to editors and stand-alone filters,
+can operate on plain text.
+
+The Unix Philosophy Unix is famous for being designed around the philosophy of
+small, sharp tools, each intended to do one thing well. This philosphy is
+enabled by using a common underlying format—the line-oriented, plain text file.
+Databases used for system administration (users and passwords, networking
+configuration, and so on) are all kept as plain text files. (some systems, such
+as Solaris, also maintain a binary forms of certain databases as a performance
+optimization.  The plain text version is kept as an interface to the binary
+version.) When a system crashes, you may be faced with only a minimal
+environment to restore it (You may not be able to access graphics drivers, for
+instance), Situations such as this can really make you appreciate the
+simplicity of plain text.
+
+For instance, suppose you have a production deployment of a large
+application with a complex site-specific configuration file (sendmail comes to
+mind). If this file is in plain text, you could place it under a source code
+control system (see Source Code Control), so that you automatically keep a
+history of all changes. File comparison tools such as diff and fc allow you to
+see at a glance what changes have been made, while sum allows you to generate a
+checksum to monitor the file for accidental (or malicious) modification.
+
+Easier Testing If you use plain text to create synthetic data to drive system
+tests, then it is a simple matter to add, update, or modify the test data
+without having to create any special tools to do so. Similarly, plain text
+output from regression tests can be trivially analyzed (with diff, for
+instance) or subjected to more thorough scrutiny with Perl, Python, or some
+other scripting tool.
+
+Lowest Common Denominator Even in the future of XML-based intelligent agents
+that travel the wild and dangerous Internet autonomously, negotiating data
+interchange among themselves, the ubiquitous text file will still be there. In
+fact, in heterogeneous environments the advantages of plain text can outweigh
+all of the drawbacks. You need to ensure that all parties can communicate using
+a common standard. Plain text is that standard.
+
+Related sections include: •
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Source Code Control Code Generators Metaprogramming Blackboards Ubiquitous
+Automation It's All Writing
+
+Challenges •
+
+Design a small address book database (name, phone number, and so on) using a
+straightforward binary representation in your language of choice. Do this
+before reading the rest of this challenge.
+
+•
+
+1. 1.
+2. 2.
+
+Translate that format into a plain text format using XML.  For each version,
+add a new, variable-length field called directions in which you might enter
+directions to each person's house.
+
+What issues come up regarding versioning and extensibility? Which form was
+easier to modify? What about converting existing data?
+
+Shell Games Every woodworker needs a good, solid, reliable workbench, somewhere
+to hold work pieces at a convenient height while he or she works them. The
+workbench becomes the center of the wood shop, the craftsman returning to it
+time and time again as a piece takes shape.  For a programmer manipulating
+files of text, that workbench is the command shell. From the shell prompt, you
+can invoke your full repertoire of tools, using pipes to combine them in ways
+never dreamt of by their original developers. From the shell, you can launch
+applications, debuggers, browsers, editors, and utilities. You can search for
+files, query the status of the system, and filter output. And by programming
+the shell, you can build complex macro commands for activities you perform
+often.  For programmers raised on GUI interfaces and integrated development
+environments (IDEs), this might seem an extreme position. After all, can't you
+do everything equally well by pointing and clicking?  The simple answer is
+"no." GUI interfaces are wonderful, and they can be faster and more convenient
+for some simple operations. Moving files, reading MIME-encoded e-mail, and
+typing letters are all things that you might want to do in a graphical
+environment. But if you do all your work using GUIs, you are missing out on the
+full capabilities of your environment. You won't be able to automate common
+tasks, or use the full power of the tools available to you. And you won't be
+able to combine your tools to create customized macro tools. A benefit of GUIs
+is WYSIWYG—what you see is what you get. The disadvantage is WYSIAYG—what you
+see is all you get.  GUI environments are normally limited to the capabilities
+that their designers intended. If you need to go beyond the model the designer
+provided, you are usually out of luck—and more often than not, you do need to
+go beyond the model. Pragmatic Programmers don't just cut code, or develop
+object models, or write documentation, or automate the build process—we do all
+of these things. The scope of any one tool is usually limited to the tasks that
+the tool is expected to perform. For instance, suppose you need to integrate a
+code preprocessor (to implement design-by-contract, or multi-processing
+pragmas, or some such) into your IDE.  Unless the designer of the IDE
+explicitly provided hooks for this capability, you can't do it.  You may
+already be comfortable working from the command prompt, in which case you can
+safely skip this section. Otherwise, you may need to be convinced that the
+shell is your friend.  As a Pragmatic Programmer, you will constantly want to
+perform ad hoc operations—things that the GUI may not support. The command line
+is better suited when you want to quickly combine a couple of commands to
+perform a query or some other task. Here are a few examples.
+
+Find all .c files modified more recently than your Makefile.  Shell… find .
+-name ' *.c' -newer Makefile -print GUI….. Open the Explorer, navigate to the
+correct directory, click on the Makefile, and note the modification time. Then
+bring up Tools/Find, and enter *.c for the file specification.  Select the date
+tab, and enter the date you noted for the Makefile in the first date field.
+Then hit OK.
+
+Construct a zip/tar archive of my source.  Shell… zip archive.zip *.h *.c tar
+cvf archive.tar *.h *.c
+
+
+GUI….. Bring up a ZIP utility (such as the shareware WinZip [URL 41], select
+"Create New Archive," enter its name, select the source directory in the add
+dialog, set the filter to "* .c", click "Add," set the filter to "* .h", click
+"Add," then close the archive.¨
+
+Which Java files have not been changed in the last week?  Shell… find . -name
+'*.java' -mtime +7 -print GUI….. Click and navigate to "Find files," click the
+"Named" field and type in "*.java", select the "Date Modified" tab. Then select
+"Between." Click on the starting date and type in the starting date of the
+beginning of the project. Click on the ending date and type in the date of a
+week ago today (be sure to have a calendar handy). Click on "Find Now."
+
+Of those files, which use the awt libraries?  Shell… find . -name '*.java'
+-mtime +7 -print | xargs grep 'java.awt' GUI….. Load each file in the list from
+the previous example into an editor and search for the string "java.awt". Write
+down the name of each file containing a match.
+
+Clearly the list could go on. The shell commands may be obscure or terse, but
+they are powerful and concise. And, because shell commands can be combined into
+script files (or command files under Windows systems), you can build sequences
+of commands to automate things you do often.  Tip 21 Use the Power of Command
+Shells
+
+Gain familiarity with the shell, and you'll find your productivity soaring.
+Need to create a list of all the unique package names explicitly imported by
+your Java code? The following stores it in a file called "list."
+
+grep '^import ' *.java | sed -e's/.*import
+
+*//' -e's/;.*$//' |
+
+sort -u >list
+
+If you haven't spent much time exploring the capabilities of the command shell
+on the systems you use, this might appear daunting. However, invest some energy
+in becoming familiar with your shell and things will soon start falling into
+place. Play around with your command shell, and you'll be surprised at how much
+more productive it makes you.
+
+Shell Utilities and Windows Systems Although the command shells provided with
+Windows systems are improving gradually, Windows command-line utilities are
+still inferior to their Unix counterparts. However, all is not lost.  Cygnus
+Solutions has a package called Cygwin [URL 31]. As well as providing a Unix
+compatibility layer for Windows, Cygwin comes with a collection of more than
+120 Unix utilities, including such favorites as 1s, grep, and find. The
+utilities and libraries may be downloaded and used for free, but be sure to
+read their license.[3] The Cygwin distribution comes with the Bash shell.  [3]
+
+The GNU General Public License [URL 57] is a kind of legal virus that Open
+Source developers use to protect their
+
+(and your) rights. You should spend some time reading it. In essence, it says
+that you can use and modify GPL'd software, but if you distribute any
+modifications they must be licensed according to the GPL (and marked as such),
+and you must
+
+make source available. That's the virus part—whenever you derive a work from a GPL'd work, your derived work must
+also be GPL'd. However, it does not limit you in any way when simply using the
+tools—the ownership and licensing of software developed using the tools are up
+to you.
+
+Using Unix Tools Under Windows We love the availability of high-quality Unix
+tools under Windows, and use them daily. However, be aware that there are
+integration issues. Unlike their Ms-dos counterparts, these utilities are
+sensitive to the case of filenames, so ls a*.bat won't find AUTOEXEC.BAT. You
+may also come across problems with filenames containing spaces, and with
+differences in path separators. Finally, there are interesting problems when
+running Ms-dos programs that expect Ms-DOS-style arguments under the Unix
+shells, For examples, the Java utilities from JavaSoft use a colon as their
+CLASSPATH separators under Unix, but use a semicolon under MS-DOS. As a result,
+a Bash or ksh script that runs on a Unix box will run identically under
+Windows, but the command line it passes to Java will be interpreted
+incorrectly.  Alternatively, David Korn (of Korn shell fame) has put together a
+package called uwin. This has the same aims as the Cygwin distribution—it is a
+Unix development environment under Windows. UWIN comes with a version of the
+Korn shell. Commercial versions are available from Global Technologies, Ltd.
+[URL 30]. In addition, AT&T allows free downloading of the package for
+evaluation and academic use. Again, read their license before using.  Finally,
+Tom Christiansen is (at the time of writing) putting together Perl Power Tools,
+an attempt to implement all the familiar Unix utilities portably, in Perl [URL
+32],
+
+Related sections include: •
+
+•
+
+Ubiquitous Automation
+
+Challenges •
+
+Are there things that you're currently doing manually in a GUI?  Do you ever
+pass instructions to colleagues that involve a number of individual "click this
+button," "select this item" steps? Could these be automated?
+
+•
+
+•
+
+•
+
+Whenever you move to a new environment, make a point of finding out what shells
+are available. See if you can bring your current shell with you.  • Investigate
+alternatives to your current shell. If you come across a problem your shell
+can't address, see if an alternative shell would cope better.  •
+
+Power Editing We've talked before about tools being an extension of your hand.
+Well, this applies to editors more than to any other software tool. You need to
+be able to manipulate text as effortlessly as possible, because text is the
+basic raw material of programming. Let's look at some common features and
+functions that help you get the most from your editing environment.
+
+One Editor We think it is better to know one editor very well, and use it for
+all editing tasks: code, documentation, memos, system administration, and so
+on.  Without a single editor, you face a potential modern day Babel of
+confusion.  You may have to use the built-in editor in each language's IDE for
+coding, and an all-in-one office product for documentation, and maybe a
+different built-in editor for sending e-mail. Even the keystrokes you use to
+edit command lines in the shell may be different.[4] It is difficult to be
+proficient in any of these environments if you have a different set of editing
+conventions and commands in each.  [4]
+
+Ideally, the shell you use should have keybindings that match the ones used by
+your editor. Bash, for instance,
+
+supports both vi and emacs keybindings.
+
+You need to be proficient. Simply typing linearly and using a mouse to cut and
+paste is not enough. You just can't be as effective that way as you can or with
+a powerful editor under your fingers. Typing ten times to move the cursor left
+to the beginning of a line isn't as efficient as typing a single key such as
+Tip 22 Use a Single Editor Well
+
+or
+
+.
+
+

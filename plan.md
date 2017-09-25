@@ -16,6 +16,8 @@ bajo premisas del software libre y abierto.
 
 ### 2.1 ¿Por qué Texto Plano?
 
+* Leverage
+
 * **Soportado en multiples plataformas.** 
   Cada sistema operativo tiene al menos un editor de texto y son todos
   compatibles hasta la codificación del texto. 
@@ -29,14 +31,18 @@ bajo premisas del software libre y abierto.
   la necesidad de actualizar información o de realizar cualquier tipo de cambio o
   ajuste.
 
+* Easier testing 
+
 * **Liviano.**
   Aspecto clave cuando los recursos a nivel de sistema son
   limitados, como por ejemplo poca capacidad de procesamiento/almacenamiento,
   conexiones lentas o sin acceso a una interfaz gráfica.
   
 * **Compatible con el avance.**
+* Insurance against obsolescence
   Independientemente de la próxima plataforma, si tenemos nuestros documentos
   almacenados en texto plano, serán fáciles de interpretar.
+
 
 ### 2.2 ¿Por qué la Interfaz de Linea de Comandos?
 
@@ -289,6 +295,12 @@ ser capaz de secuenciar la música de esta manera.
 
 ## 6. Bibliografía
 
+* Coombs, James H., Renear, Allen H. y DeRose, Steven J.  
+Markup Systems and the Future of Scholarly Text Processing 
+Communications of the ACM (Association for Computing Machinery) 30 (November 1987); 933-47
+Estados Unidos.
+1987.
+
 * Wild, Jonathan.
 A Review of the Humdrum Toolkit: UNIX Tools for Musical Research, created by David Huron.
 Music Theory Online, Volume 2, Number 7, November. 
@@ -317,6 +329,8 @@ Estados Unidos.
 Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte
 CABA.
 2015   
+
+
 
 * Jeff Leek 
 [The future of education is plain text](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text)   
@@ -352,3 +366,4 @@ Estados Unidos.
 | Dasarrollo de aplicaciones                    | 45 días                  | 2 meses                    |
 | Pruebas y optimización                        | 15 días                  | 1 mes                      |
 | Documentación                                 | 1 mes                    | 45 días                    |
+

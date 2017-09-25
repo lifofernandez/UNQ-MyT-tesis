@@ -1,0 +1,1215 @@
+Sistemas de marcado y el futuro del procesamiento de texto académico 1
+James H. Coombs
+Universidad de Brown
+Allen H. Renear
+Universidad de Brown
+Steven J. DeRose
+Tecnologías de Libros Electrónicos
+En los últimos años, el procesamiento de textos académicos ha entrado en un proceso reaccionario
+escenario.  Anteriormente, los desarrolladores estaban trabajando hacia sistemas que
+académicos en su papel como investigadores y autores.  Basándose en las ideas de
+Vannevar Bush, gente como Theodor H. Nelson y Andries van Dam (Drucker,
+van Dam, Yankelovitch) prototipados sistemas diseñados para paralelizar la asociación
+pensamiento de los investigadores.  Del mismo modo, Douglas C. Engelbart
+intentar aumentar el intelecto humano proporcionando ayudas para la manipulación de conceptos (
+Engelbart e inglés, Engelbart et al.).  Brian K. Reid desarrolló Scribe,
+liberar a los autores de las preocupaciones de formato y proporcionarles
+herramientas de bibliografía y gestión de citas.  Aunque sólo un pequeño
+porcentaje de estudiantes estuvieron expuestos a estas ideas, el movimiento fue hacia
+desarrollar nuevas estrategias de investigación y composición.
+Desde la introducción de ordenadores personales baratos y potentes, hemos
+un cambio en el enfoque, lejos de desarrollar nuevas estrategias para encontrar
+maneras de hacer las cosas viejas más rápido.  Esta transición se manifiesta en parte
+a través de un cambio en los modelos.  Anteriormente, los desarrolladores trabajaban con el modelo de
+erudito como investigador y autor de composición.  Recientemente, sin embargo, la
+modelo interpreta al autor como mecanógrafo o, peor aún, como tipógrafo.  En lugar de
+permitiendo a los eruditos realizar tareas que antes no eran posibles,
+emulan las máquinas de escribir.  Por supuesto, estas máquinas de escribir electrónicas
+funciones de búsqueda y corte / pegado, pero para el usuario
+sistemas sólo ofrecen mejoras menores y pueden ser menos
+algunos de los sistemas disponibles hace diez y quince años.
+Hay una serie de razones para esta tendencia.  Probablemente lo más importante, el
+la transición de la computación centralizada a la computación distribuida
+negocio e industria, que sigue siendo el mercado más atractivo para los desarrolladores.
+Tradicionalmente, estas instalaciones contratan a secretarios para escribir documentos que
+ya sustancialmente completa.  Las únicas herramientas necesarias en un entorno de este tipo
+son la máquina de escribir, las tijeras, y la goma - o ahora, su equivalente electrónico.
+Incluso en la academia hay un impulso reducido para sistemas más inteligentes.
+Las universidades tienen sus propios negocios y oficinas administrativas que
+uso de sistemas orientados al negocio.  Además, los estudiosos suelen preferir estos sistemas
+sobre las alternativas.  Aquellos que tienen acceso a sistemas más potentes raramente
+tienen tiempo de aprender a explotarlos plenamente, y muchos los encuentran también
+complicado de usar en absoluto.  Esto es bastante comprensible, ya que la mayoría de los textos
+formadores en minicomputadoras y mainframes fueron desarrollados bajo un modelo que
+incluso más inapropiado que autor-como-mecanógrafa.  Escrito por y para los programadores,
+estos sistemas a menudo requieren habilidades de casi-programación, tratando a los autores como
+programadores-mecanógrafos.  La mayoría de los académicos experimentados en computación son muy felices
+para escapar de estos sistemas ásperos y mal adaptados para un pequeño y práctico
+programas que les ayudan a obtener texto en papel rápidamente.  Falta de los conceptos
+reconocer las principales mejoras recientes y desconocer las
+posibilidades de nuevas estrategias de investigación y composición,
+movimiento hacia atrás como un avance importante en la informática académica.  Porque esto
+la respuesta viene incluso de los eruditos más experimentados, lleva peso con
+potenciales desarrolladores de sistemas, así como con aquellos que están
+utilizar ordenadores.  Cada vez más académicos recurren a instalaciones informáticas que
+mejorar su capacidad de escribir;  ejercen presión para sacar a la industria
+desde un desarrollo significativo.  La consecuencia es una industria que se aferra
+Al pasado;  los estudiosos buscan hacer lo que siempre han hecho, sólo un poco
+Más rápido.  3
+Este cambio en los modelos dominantes plantea tres problemas principales:
+incentivo para la investigación y desarrollo significativo en sistemas de
+desapareciendo, y una gran parte de los recursos ha sido desviada hacia el
+mejora de una parte menor del proceso de desarrollo de documentos.  Sin la
+tiempo para entrenarse en otras disciplinas, muchos de los estudiosos que
+establecer tendencias en el procesamiento de texto no entienden ni valoran el
+posibilidades.  Además, los recursos necesarios para el desarrollo
+sistemas sofisticados han sido severamente subestimados a lo largo
+industria y la gente se ha impacientado con la falta de
+productos.  Por lo tanto, vemos mucho más atención a los teclados, impresoras, fuentes,
+pantallas, gráficos, colores y características similares a la recuperación y
+estructuración de la información o incluso a la verificación de la ortografía y la gramática.
+4
+El desarrollo de herramientas que proporcionan nuevas capacidades ha sido reemplazado por
+obvias mejoras de los procedimientos cómodos.  En segundo lugar, los desarrolladores y autores
+han perdido de vista el hecho de que hay dos productos en la
+desarrollo de un documento: la impresión y el archivo"fuente".  Actualmente
+todo está dirigido a producir la impresión;  la fuente es un mero
+desperdiciando valioso espacio en disco, útil para poco más que producir
+otra copia impresa del mismo documento.  Los formatos propietarios y la falta de
+codificación semántica y pragmática hacen que estos archivos sean inútiles para
+colegas o procesamiento por sistemas inteligentes.  Finalmente, el tiempo y la
+energía se desvían de la investigación y la composición al formato para la
+presentación.  Los autores de este artículo prestan considerable atención a la
+calidad de las presentaciones y han escrito varios libros, pero los sistemas
+para enfocar la atención de los autores en la apariencia todo el tiempo, no
+documento está listo para su presentación.
+Aunque no existe una solución simple para todos estos problemas,
+en cada uno de ellos puede hacerse convirtiendo a un marcado descriptivo, que ya está
+ampliamente disponible.  En resumen, el valor del marcado descriptivo ha desaparecido
+no reconocidos porque los autores y los teóricos creen que el nuevo documento-desarrollo
+sistemas-los supertypewriters-no requieren ningún marcado.  Goldfarb, uno de los
+desarrolladores principales del lenguaje de marcado generalizado (GML),
+ventajas descriptivas sobre el margen de procedimiento habitual, sino porque
+nadie ha analizado completamente los sistemas de marcado, los usuarios creen que no hay
+mejor que el marcado descriptivo.  Como nuestro análisis de los sistemas de marcado deja claro,
+sin embargo, no hay tal cosa como"no markup".  Toda escritura implica un marcado.
+"No markup"consiste realmente en una combinación de
+marcado puntual.  Por otra parte, de los tipos competitivos de marcado, descriptivo
+es realmente más fácil de aprender, más fácil de usar y mejor adaptado
+proceso de composición.  Por último, el marcado descriptivo codifica la información
+necesarios para desarrollar plenamente los dos productos en el documento-desarrollo
+proceso: archivos de origen, así como impresiones.  Dado que los archivos de origen contienen
+codificación semántica y pragmática en lugar de codificar el formato, pueden fácilmente
+ser compartidos con colegas, presentados directamente a los editores y procesados ​​por
+inteligentes a medida que estén disponibles.5
+En la primera parte de este artículo, resumimos la teoría de los sistemas de marcado
+y aclarar los conceptos necesarios para evaluar adecuadamente las alternativas.  Nosotros
+presentará ahora los principales argumentos para la superioridad del marcado descriptivo
+sobre otras formas de marcado.
+Teoría del marcado
+Cada vez que un autor escribe algo, él o ella"lo marca".  6 Por ejemplo,
+los espacios entre las palabras indican los límites de la palabra, las comas indican la frase
+los límites y los períodos indican los límites de las oraciones.  Este hecho es ampliamente
+ignorado  de hecho, el marcado se suele tratar como un desafortunado requisito de
+utilizando sistemas electrónicos de procesamiento de texto, es decir, como algo que hay que evitar.
+Un análisis cuidadoso, sin embargo, revela que los autores utilizan regularmente dos tipos de
+marcado en sus manuscritos: puntual, por ejemplo, colocando períodos en
+finales de oraciones;  y presentación, por ejemplo, numeración de páginas.  Así,
+el marcado no puede escaparse porque nuestros sistemas de escritura lo requieren.
+Estos tipos tradicionales de scribal aclaran las expresiones escritas.  los
+El marcado no es parte del texto o del contenido de la expresión pero nos dice
+algo al respecto.  Cuando"traducimos"la escritura en el habla (es decir, cuando
+leer en voz alta), normalmente no leemos el marcado directamente;  en cambio, interpretamos
+el marcado y el uso de varios gestos paralinguísticos para transmitir los
+información.  Un signo de interrogación, por ejemplo, podría convertirse en un aumento de la voz
+o las cejas.
+Con el advenimiento de los sistemas de procesamiento de texto surgieron nuevos tipos de marcado y nuevos
+tipos de procesamiento.  Cuando está preparado para la lectura, ya sea en la pantalla o en papel,
+los documentos se marcan de manera espontánea.  Pero cuando se almacena en archivos electrónicos,
+los documentos pueden ser marcados de manera espontánea o con tipos electrónicos especiales de marcado
+diseñado para ser procesado por aplicaciones informáticas.  Uno usa el marcado procedural para
+indican los procedimientos que debe seguir una aplicación en particular (por
+ejemplo,.  s k para omitir una línea), marcado descriptivo para identificar el tipo de entidad
+del token actual (por ejemplo, u003cpu003e para los párrafos), el marcado referencial a
+se refieren a entidades externas al documento (por ejemplo, & mdash; para un em
+trazo), y meta-marca para definir o controlar el procesamiento de otras formas de
+(por ejemplo, u003c! ENTITY acm"Association for Computing Machinery"u003e
+definir el marcado referencial & acm;).  7
+Tipos de marcado
+Puntualidad.
+El marcado puntual consiste en el uso de un conjunto cerrado de marcas para proporcionar
+principalmente información sintáctica sobre las expresiones escritas.  La puntuación ha sido
+bajo estudio durante cientos de años y se considera parte de nuestro sistema de escritura.
+Debido a que la puntuación es relativamente estable, generalmente familiar a los autores, y
+muy frecuente en los documentos, la expectativa habitual es que los autores
+puntuar sus archivos de documento como si estuvieran escribiendo.
+Desafortunadamente, el marcado puntual tiene varias deficiencias:
+sistema es relativamente complicado y está sujeto a considerables
+variación.  Los autores de este artículo, por ejemplo, no están de acuerdo sobre el uso
+de comas después de frase-adverbial inicial frases;  de hecho, la composición
+los instructores regularmente no están de acuerdo con estos detalles.  Además de las variaciones
+uso, los signos de puntuación varían en apariencia.  Por ejemplo, algunas personas insisten
+los guiones deben estar separados de las palabras circundantes por espacios;  otros afirman que
+No obstante, cuando los autores están de acuerdo con la apariencia,
+variación entre los dispositivos de impresión.  Algunos dispositivos ofrecen la posibilidad de
+distinguir entre comillas abiertas y cerradas, y algunos dispositivos distinguen
+guiones, guiones y guiones.  Por último, el sistema de marcado puntual es
+altamente ambiguo.  Por ejemplo, el período se utiliza para indicar las abreviaturas como
+fronteras de las oraciones.  Esta ambigüedad crea problemas para el texto
+formateadores, que a menudo tratan incorrectamente las abreviaturas como límites de oraciones
+y añadir espacios adicionales.  Ayudas autorales como correctores de ortografía y gramática
+debe realizar un procesamiento adicional considerable para desambiguar los signos de puntuación
+ya menudo tienen que conformarse con la alternativa más probable.
+Reconociendo los problemas con el marcado puntual, los autores usan regularmente
+referencial en su lugar.  Por ejemplo, los archivos de origen para este artículo
+contener & mdash;  en lugar de"@"o"-"por lo que los autores estarán libres para centrarse en
+el contenido y posponer las negociaciones estilísticas hasta el final.  Similar,
+se puede usar un marcado descriptivo para reemplazar la puntuación cuando el marcado
+identifica un elemento lógico.  Citas cortas, por ejemplo, están delimitadas por
+u003cqu003e y u003c/ qu003e en lugar de comillas, permitiendo que los formateadores de texto salgan
+marcas abiertas y cerradas o marcas neutrales, dependiendo de las capacidades
+dispositivos de visualización e impresión.  Además, las aplicaciones pueden localizar
+citas, para cualquier propósito que el autor desee.
+Así, la puntuación no es simplemente parte de nuestro sistema de escritura;  es un tipo de
+documento que puede variar y ser reemplazado por otros tipos de marcado.  Porque
+el sistema está sujeto a variación estilística, dependiendo de la impresión disponible
+dispositivos, y muy ambiguo, esperamos ver más y más puntuación
+sustituido por el marcado referencial y descriptivo.  Por otro lado, vemos
+poca motivación para la completa sustitución del marcado puntual.  No
+por ejemplo, reemplazando la puntuación estándar
+comas con marcas de referencia.  Los editores, o incluso los formateadores de texto, podrían utilizar
+
+coma o un punto y coma, pero muy pocos autores tienen suficiente formación en sintaxis
+para marcar frases y cláusulas descriptivamente.  En consecuencia, puntual
+seguirá siendo apropiado y no será necesario
+Este artículo.
+Presentación.
+Además de marcar los elementos de menor nivel con puntuación, los autores señalan
+las entidades de nivel superior en una variedad de maneras de hacer la presentación
+más claro  Tal marcado-marcado de presentación-incluye horizontal y vertical
+espaciado, folios, saltos de página, enumeración de listas y notas, y una gran cantidad de anuncios
+hoc símbolos y dispositivos.  Por ejemplo, un autor marca el comienzo de un
+párrafo, dejando un espacio vertical y quizás también un espacio horizontal.
+Ocasionalmente, los autores incluso numeran sus párrafos.  Del mismo modo, los capítulos
+comienzan en nuevas páginas, pueden ser enumerados en una variedad de estilos, e incluso pueden ser
+explícitamente etiquetado como"Capítulo".
+Aunque los autores han llevado a cabo marcado de presentación en sus manuscritos
+y los textos a máquina, la mayoría prefiere que los formateadores de texto generen la
+repetitivo y propenso a errores.  La paginación, por ejemplo, suele
+incluso en los sistemas más orientados a la máquina de escribir.  Presentación local
+Sin embargo, el marcado, como las líneas de centrado, es todavía comúnmente
+autor, a menudo con la ayuda de los comandos de edición.  En WordStar, para
+Por ejemplo, se pulsa la secuencia de teclas Ctrl-OC para centrar la línea actual.
+Procesal.
+En muchos sistemas de procesamiento de texto, el marcado de presentación se sustituye por
+procedimiento, que consiste en comandos que indican cómo debe ser el texto
+formateado  Por ejemplo, uno puede marcar una larga cita como en la Figura 1. El
+markup inicial dirige el formateador de texto para hacer lo siguiente (aproximadamente):
+1. Salte tres líneas-el equivalente de doble espacio dos veces.
+2. Indente diez columnas de la izquierda y diez columnas de la derecha.
+3. Cambie a espacio simple.
+4. Inicie una nueva página si hay menos de dos líneas en la página actual.
+Obviamente, este marcado es específico para un formateador de texto y un estilo en particular
+hoja.  Además, depende del dispositivo;  el salto, por ejemplo, podría ser
+cambiado a un valor tal como dieciocho puntos para una impresora de alta resolución.
+El marcado de procedimiento está asociado de forma característica con los formateadores de texto por lotes,
+tales como nroff / troff y TEX.  Los procesadores de textos como WordStar, sin embargo,
+complementar sus comandos de edición presentacional con"comandos de punto".  por
+ejemplo, usan comandos de edición para líneas centrales (Ctrl-cc), pero incluyen
+marcado en los archivos de salto de página especificado por el usuario (.pa).
+Descriptivo. null
+Bajo el sistema descriptivo de marcado, los autores identifican los tipos de
+tokens de texto.  En la Figura 1, la etiqueta u003clqu003e identifica el siguiente texto como un largo
+cita, y la etiqueta u003c/ ​​lqu003e identifica el final de la cita.  Autores que
+están acostumbrados al marcado procedural a menudo piensan en el marcado descriptivo como si
+eran procedimentales y pueden incluso utilizar etiquetas procedurally.  La principal diferencia es
+que el marcado procedural indica lo que debe hacer un formateador de texto particular;
+el marcado descriptivo indica qué es un elemento de texto o, en términos diferentes,
+declara que una porción de un flujo de texto es un miembro de una clase particular.
+Cuando un formateador de texto genera una copia de presentación de una
+documento marcado, primero se lee en un conjunto de reglas, escritas en un
+sistema de marcado, que establecen lo que debe hacer para cada ocurrencia de cada
+tipo de elemento.  Al ajustar este conjunto de reglas, el autor (o persona de apoyo)
+establece un diseño de marcado de presentación que se ejecutará automáticamente
+y consistentemente.  Además, si hubiera motivos para modificar el diseño,
+las reglas requerirán la edición;  los archivos de documento permanecen intactos.  No sólo
+el autor sea relevado de horas dolorosas y monótonas de edición mecánica,
+el texto no será expuesto a la corrupción.
+La mayoría de los sistemas basados ​​en procedimientos proporcionan instalaciones macro,
+explotado para el marcado descriptivo (por ejemplo, la facilidad -ms para troff), y
+incluso algunas de las primitivas de tales sistemas pueden ser descriptivas (por ejemplo,
+.pp"palabra de control"para los párrafos en Waterloo SCRIPT).  Marcado generalizado
+El lenguaje (GML) proporcionó una expresión sólida de la base conceptual
+uso sistemático de marcado descriptivo (Goldfarb).  A diferencia de los paquetes de macros ad hoc,
+GML es un lenguaje descriptivo generalmente implementado encima de un
+distinto y accesible al usuario.  Además, GML contribuyó
+"atributos"a los lenguajes de marcado descriptivos, proporcionando soporte de
+funciones esenciales como referencias cruzadas (que se resuelven automáticamente
+aplicaciones).  Otro sistema influyente, Scribe, impone el uso de
+marcado descriptivo eliminando el marcado procedural de la normalidad del autor
+acceso al sistema.  En lugar de ajustar el marcado procedural para controlar el
+procesamiento de marcado descriptivo, los autores seleccionan"definiciones de formato de documento"
+para varios tipos de documentos.
+El enfoque Scribe ha sido ampliamente emulado recientemente, pero con
+éxito en el mejor de los casos.  LATEX, por ejemplo, proporciona una interfaz de alto nivel con TEX,
+que está diseñado para proporcionar un control de composición de bajo nivel.  Desafortunadamente,
+incluso el usuario LATEX de inicio debe pensar en términos de marcado de bajo nivel.  por
+ejemplo, las comillas contiguas deben separarse por"/", que es una
+"comando de composición que hace que TEX inserte una pequeña cantidad de espacio"(
+Lamport 13 - 14).  Del mismo modo, una serie de procesadores de texto (Microsoft Word,
+XyWrite, Nota Bene) han adoptado recientemente las definiciones de Scribe de formato de documento
+bajo la metáfora de las"hojas de estilo"electrónicas.  Nota Bene, por ejemplo,
+incluye comandos de edición como utilizar el bloque de estilos para citas largas y tiene
+la capacidad de reformatear todos los bloques cuando se cambia la hoja de estilo.
+Desafortunadamente, la metáfora de la hoja de estilo orienta a los autores hacia la presentación
+en lugar de hacia el papel de entidades en el documento.  Así, el estilo de bloque
+puede parecer apropiado para cualquiera de una serie de tipos de entidad, y nada
+motiva al autor a hacer distinciones que pueden ser importantes más adelante.
+Además, las hojas de estilo tienden a ser una característica opcional en lugar de un estándar
+interfaz. null
+Referencial. null
+El marcado referencial hace referencia a entidades externas al documento y se sustituye
+durante el procesamiento.  Ya hemos señalado el uso de
+referencial para la puntuación dependiente del dispositivo (por ejemplo, & mdash; para
+un guión de em).  Otro uso característico es para abreviaturas, tales como & acm;  para
+"Asociación para Maquinaria de Computación." El marcado referencial también puede referirse a
+entidades almacenadas en un archivo separado o incluso en un sistema informático diferente.
+La mayoría de los formateadores de texto que soportan el marcado de procedimiento ofrecen referencias
+funcionalidad a través de"variables"definidas por el usuario y archivo imbed o incluir
+comandos.  En su mayor parte, sin embargo, el marcado referencial se asocia con
+sistemas de marcado descriptivo, principalmente el lenguaje de marcado generalizado estándar (
+ANSI).
+Metamarkup
+Por último, metamarkup proporciona a los autores y al personal de apoyo una
+control de la interpretación del marcado y para ampliar el vocabulario de
+descriptivo.  Los sistemas de procedimiento y descriptivos proporcionan
+para definir los caracteres del delimitador de marcado.  Además, los sistemas procesales incluyen
+instrucciones como macro de definición, que normalmente se utilizan para crear
+marcado descriptivo que representa una serie de instrucciones de procesamiento.  los
+procedimiento en la Figura 1, por ejemplo, se incluiría típicamente en
+macros con nombres como el quo y el quo end.  Las aplicaciones que procesan GML,
+como Waterloo SCRIPT, también proporcionan marcado para definir etiquetas, para especificar
+atributos predeterminados, e indicar qué instrucciones deben ejecutarse cuando
+la etiqueta se encuentra.  Finalmente, en SGML, la meta-marca aparece en forma de
+"declaraciones de marcado", de las cuales hay trece tipos.
+Todos los sistemas no triviales apoyan la meta-marca, pero la mayoría no proporcionan un
+interfaz para los no programadores.  Una excepción notable es el grupo orientado al menú
+descendiendo de Xerox Bravo y Star;  InterLeaf, por ejemplo, permite a los autores
+crear nuevas etiquetas simplemente escribiendo identificadores hasta ahora desconocidos en un diálogo
+caja.  Otros han intentado eliminar la necesidad de meta-
+vocabularios descriptivos y referenciales completos, pero tales esfuerzos
+contrario al espíritu de la creatividad humana.
+Manejo de marcado
+En pocas palabras, el marcado se selecciona, se realiza, se almacena y se procesa.  Familiaridad con
+sistemas particulares a menudo complica la tarea de distinguir los distintos
+tipos de marcado.  Los autores realizan marcado en una variedad de maneras.  Pueden escribir el
+marcado casi como si fuera texto.  Pueden golpear teclas de función o seleccionar elementos
+desde los menús.  De hecho, los métodos de rendimiento de los márgenes están limitados
+ingenio de los desarrolladores de aplicaciones en el uso de dispositivos de entrada y visualización.
+Aunque en cualquier momento puede haber una tendencia a asociar un tipo particular de
+rendimiento con un tipo particular de marcado, la relación es meramente
+histórico y no proporciona ninguna base para caracterizar o evaluar los tipos de
+margen. null
+El marcado debe almacenarse en algún lugar, pero no hay límites relevantes sobre cómo es
+almacenado.  Además, nada impide que un sistema obtenga un tipo de marcado
+y almacenar otro.  XyWrite, por ejemplo, elabora un marcado de presentación, pero
+almacena el marcado procedural.  Cuando el autor, que tiene acceso a los comandos del editor
+pero no el lenguaje de marcado, especifica que el texto debe centrarse,
+XyWrite registra la marca de procedimiento apropiada alrededor del texto en el archivo
+y centra la línea en la pantalla de edición.  En una situación similar, WordStar
+simplemente centra la línea;  los espacios en blanco no se diferencian de los
+texto en la pantalla o en el archivo.  Por lo tanto, al evaluar su marcado
+sistemas, los autores deben examinar lo que se almacena, así como lo que ven.
+Actualmente hay tres categorías principales de procesamiento de marcado:
+1. Lectura (por los seres humanos)
+2. Formateo
+3. Abierto (incluyendo el formato).
+El marcado de presentación está diseñado para la lectura.  El marcado de procedimiento está diseñado
+para el formato, pero generalmente sólo por un solo programa.  El marcado descriptivo es
+moderadamente bien adaptado para la lectura, pero está diseñado principalmente para
+clase de aplicaciones (por ejemplo, recuperación de información).
+Marcado expuesto, disfrazado, ocultado y visualizado
+En los sistemas de procesamiento de texto"tradicionales", los autores escriben marcadores electrónicos,
+y los documentos son formateados por aplicaciones separadas.  Recientemente, los formateadores han
+se han integrado con los editores, y necesitamos otro conjunto de distinciones para
+para caracterizar completamente el marcado en las interfaces de edición.
+El marcado está expuesto cuando el sistema muestra el marcado como ocurre en la fuente
+, es decir, sin realizar ningún formato especial.  El marcado expuesto es
+típico en sistemas que consisten de editores y formateadores independientes.  Mucho de
+los llamados programas WYSIWYG (Lo que usted ve es lo que obtiene) no tienen tanto formato
+para editar como exponer el marcado scribal que elicitan y almacenan.  Tales sistemas
+por lo general exponen cualquier marcado electrónico que suscitan también.  WordStar, un
+sofisticado ejemplo de esta categoría, expone el comando"nueva página"p a, pero
+también muestra una línea de guiones para representar el salto de página.
+Los sistemas más sofisticados a menudo procesan el marcado electrónico y luego lo disimulan
+detrás de un carácter especial.  XyWrite y Nota Bene, por ejemplo, muestran una
+"delta"para que los autores puedan localizar y editar el marcado.  Tales sistemas suelen tener
+la capacidad de exponer el marcado también.  Otros sistemas, como Xerox Bravo
+y Star, MacWrite, oculta el marcado electrónico enteramente.  Un sistema, Janus,
+expone el marcado descriptivo en un monitor y lo oculta en el otro (
+Chamberlin).
+Finalmente, los sistemas han comenzado recientemente a mostrar marcado electrónico;  es decir, un
+especialmente la representación formateada del marcado en el archivo de origen es
+junto con el texto.  Etude e Interleaf, por ejemplo, formatear texto
+para editar, pero mostrar marcado descriptivo en un margen a la izquierda de la
+ventana de edición.
+Debido a que el marcado scribal no está bien diferenciado del texto, actualmente los sistemas
+simplemente exponerlo.  De hecho, ningún otro enfoque tiene sentido.  Puede ser rentable
+para ver el marcado electrónico en cualquiera de los cuatro modos, sin embargo.  Datalogics
+WriterStation, por ejemplo, admite los cuatro modos y permite a los autores
+controlar el formato del marcado visualizado.
+Para resumir, hay seis tipos de marcado de documento, pero sólo tres están en
+plena competencia: presentacional, procesal y descriptiva.  Presentación
+marcado aclara la presentación de un documento y lo hace adecuado para
+leyendo.  El marcado de procedimiento indica a un formateador de texto que"haga X", por ejemplo,
+omita tres líneas, con el fin de crear marcas de presentación.  Finalmente,
+marcado descriptivo le dice a los formateadores de texto,"esto es una X", por ejemplo, un largo
+cotización.  Normalmente, los formateadores de texto tratan el marcado de presentación en la fuente
+archivos como si fuera texto;  es decir, no se realiza ningún procesamiento especial.
+Sin embargo, el marcado procesal se procesa de acuerdo con las reglas especificadas en
+la documentación para el sistema, y ​​el marcado descriptivo se suele asignar a
+procedimiento.  Además, el marcado descriptivo es adecuado para
+procesamiento por un conjunto abierto de aplicaciones.
+Los sistemas de desarrollo deberían proporcionar la máxima flexibilidad y
+modos de visualización de marcado.  Los sistemas de escritor-tipógrafo que hemos visto
+recientemente adoptadas tendían a obtener el marcado presentacional y almacenar
+y marcado procesal;  por lo tanto, vinculan documentos a dispositivos particulares
+y aplicaciones.  Algunos editores / formateadores integrados, sin embargo,
+margen descriptivo, que, como argumentaremos, apoya mejor el proceso de
+desarrollo y publicación de documentos.
+Mantenibilidad
+Como señalamos en nuestra caracterización inicial, el marcado descriptivo elimina
+mantenimiento.  El desarrollo de un artículo académico puede tomar varias
+meses;  un libro puede tomar varios años.  En este tiempo, un autor que no esté usando
+marcado descriptivo puede tener que modificar el marcado de archivos de documento para cualquiera de
+
+1. El autor aprende nuevas técnicas o encuentra que las técnicas actuales causan
+problemas.
+2. El entorno informático cambia.
+3. Las especificaciones del estilo cambian.
+En el desarrollo de una amistad pre-rafaelita (Coombs et al.), Por ejemplo,
+los editores usaron inicialmente barras invertidas (\) para controlar el resaltado.  Su texto
+editor, sin embargo, tenía el hábito desafortunado de lanzar lejos las barras inversas, y
+sus impresiones tempranas sufrieron de subrayar al azar.  Aprendieron a evitar
+este problema utilizando el carácter de subrayado () para controlar el subrayado, pero
+también tenían que editar todo el texto que ya había sido ingresado.  Cuando el libro
+fue creado, se descubrió que el carácter de subrayado también se us
+guión por su sistema (pero sólo cuando se componen).  En consecuencia, cuando se
+el alcance de un comando de subrayado y los guiones se tomaron como controles de subrayado;
+en lugar de 1982-1986, el formateador de texto produjo 198286. Así, los editores
+de nuevo tuvo que editar todos sus archivos y cambiar los caracteres de subrayado a libra
+(#) y esperan que no se produzcan más conflictos y que
+no introducir errores en el texto durante el proceso de realizar los cambios.
+Si hubieran usado marcado descriptivo para frases destacadas, estos
+problemas no habrían ocurrido.
+Problemas similares surgen cuando el autor o la instalación cambia el
+entorno informático.  Cuando los usuarios de FRESS (File Retrieval and
+Brown aprendió que el FRESS ya no sería apoyado, los autores
+pasó horas convirtiendo sus archivos al nuevo formato (Waterloo SCRIPT) o
+aceptó la posibilidad de"perder"sus datos.9 Incluso las actualizaciones en el actual
+el formateador de texto a menudo requiere modificaciones en los archivos.  Cambio a una nueva impresora
+puede requerir modificaciones.  De hecho, casi cualquier cambio en la informática
+ambiente representa una amenaza para sus archivos si contienen
+marcado presentacional.
+Finalmente, las especificaciones de formato pueden cambiar durante el proceso del documento
+desarrollo.  Por ejemplo, la Asociación de Lenguas Modernas (MLA) recientemente
+publicó una nueva hoja de estilo.  Para dar una idea de las consecuencias, necesitamos
+considere sólo un cambio.  El anterior MLA Handbook for Writers of Research
+En los trabajos se especificaba que las citas de bloques
+espacio triple, sangría de diez espacios del margen izquierdo, y se escribe con
+de doble espacio (espacio simple para disertaciones) pero sin comillas"
+(23).  Por consiguiente, muchos manuscritos incluyen el marcado procedimental
+Figura 1. La edición de 1984 del MLA Handbook especifica que las citas de bloque
+ser"partió de su texto comenzando una nueva línea, sangrando diez espacios de
+el margen izquierdo, y escribiéndolo a doble espacio, sin agregar comillas"
+(49).  Esta modificación hace que gran parte del marcado sea obsoleto, y
+ahora los autores deben localizar todas las citas largas y eliminar.sk 3 a.  Porque el
+markup codifica procedimientos de formato en lugar de categorías de elementos, sin embargo,
+la ocurrencia de.sk 3a no puede tomarse como una indicación inequívoca de que un
+elemento es de hecho una cita larga.  Así, los autores no pueden aprovechar
+instalaciones de cambio global, pero debe inspeccionar cada ocurrencia de.sk 3 a y
+determinar si el elemento actual es una cita larga.  La conversión
+proceso será tedioso en el mejor de los casos, y siempre existe el riesgo de
+texto.  Además, no hay garantía de que MLA no cambie su hoja de estilo
+una vez más, requiriendo mantenimiento adicional de marcado.
+Tales problemas de mantenimiento no se reducirían utilizando el marcado de presentación.
+De hecho, la actualización podría ser aún más difícil, con el procedimiento de marcado, uno tiene
+cadenas de caracteres específicas, como.sk 3 a, que pueden estar ubicadas con normal
+instalaciones de edición.  El marcado de la presentación, sin embargo, no puede ser directamente
+localizable  Algunos editores requieren una serie de comandos relativamente avanzados o la
+uso de gramáticas de expresión regular para localizar líneas en blanco, por ejemplo.
+Además, las instalaciones de edición sencillas no pueden distinguir, por ejemplo, una serie
+de cinco espacios en blanco (para un guión de párrafo) de una serie de cinco espacios en blanco
+espacios contenidos en una serie de diez espacios en blanco (para cada línea de
+cotización).  Por lo tanto, la localización de marcado de presentación con precisión requiere a menudo la
+servicios de un macro lenguaje potente, así como la capacidad de programar.
+Con el marcado descriptivo, los archivos de fuente correctamente etiquetados nunca requieren
+modificación, y no hay tal cosa como mantenimiento de marcado.  Un largo
+cita, por ejemplo, sigue siendo una cita larga, a pesar de
+estilo de presentación o incluso cambios en los sistemas de procesamiento.  Para modificar la acción
+tomado para las citas largas por un formateador del texto, uno necesita corregir solamente el programa
+base de"regla".  Esta localización del mantenimiento puede servir a numerosas horas de
+proteger los archivos de la corrupción, y hace práctico tener un
+un solo experto local realiza la actualización necesaria de una copia compartida de la regla
+base. 10
+Portabilidad de documentos
+La capacidad de"portar"o enviar sus documentos a otros académicos y
+editores ha sido siempre una gran preocupación de los estudiosos.  Cuando las máquinas de escribir
+la industria, llevamos nuestros documentos en forma de
+fotocopias  Dado que no había alternativas, la gente estaba generalmente satisfecha
+con este procedimiento.
+En los últimos cinco años, sin embargo, más y más autores han
+máquinas de escribir y se convierte en el desarrollo de documentos electrónicos.  Ahora podemos enviar
+documentos de nuestros hogares en todo el continente y en todo el mundo,
+recibiendo el acuse de recibo en pocas horas.  Nuestros colegas, con
+nuestros archivos de origen en sus propias máquinas, puede utilizar programas para buscar palabras clave
+y puede integrar nuestras contribuciones en documentos colaborativos, libres de
+recorte normal o corte y pegado.  Además, los editores pueden usar nuestros archivos
+como fuente para la tipografía, eliminando la necesidad de volver a teclear documentos;  y
+una vez que se elimina el proceso de re-clave, también existe el peligro de corrupción textual
+así como la necesidad de leer las pruebas".
+Desafortunadamente, las prácticas actuales de marcado de texto hacen que este intercambio sea una rareza.
+Aunque tenemos la tecnología para la transferencia electrónica, nos falta el marcado
+necesario para garantizar que cada destinatario pueda procesar los documentos
+preparado por cualquier autor.  De hecho, el problema de la compatibilidad es tan
+los editores suelen optar por volver a escribir los documentos que
+electrónico, ya veces lo hacen sin notificar a los autores, quienes son
+izquierda con una falsa sensación de seguridad sobre la integridad de sus textos.  Como
+varios editores nos han señalado, la introducción de documentos es un simple,
+bien entendida que requiere los servicios de las personas que reciben un pago mínimo
+salario.  La manipulación de archivos, sin embargo, requiere los servicios de personal con
+habilidades de programación, pagadas adecuadamente y no parece ofrecer suficientes
+para compensar los riesgos de convertirse a un nuevo proceso.
+El marcado descriptivo proporciona una solución inmediata para documentar la incompatibilidad.
+Cualquier documento con un marcado descriptivo preciso y riguroso puede ser
+de un sistema a otro.  Esto es cierto porque el marcado descriptivo garantiza una
+mapeo uno a uno entre elementos lógicos y marcado.  Así, el elemento
+los identificadores se pueden cambiar simplemente realizando cambios globales en un editor.
+Por ejemplo, uno podría convertir el marcado para una cita en prosa de -quo a
+u003clqu003e y.quoend a u003c/ lqu003e.  En el peor de los casos, las diferencias de sintaxis pueden ser
+resueltos por programas triviales.
+Reconociendo este hecho, los representantes de los editores y de las organizaciones
+grandes costos de publicación se han unido en un esfuerzo para establecer una industria
+estándar basado en el marcado descriptivo.  En su Proyecto de Manuscrito Electrónico, el
+Asociación Americana de Editores (AAP) encontró que el marcado descriptivo"es el
+medios más eficaces para establecer un método coherente para preparar
+manuscritos electrónicos que pueden alimentar el proceso de publicación"(7).
+aprobó el SGML de ANSI-ISO y desarrolló su primera aplicación.  Estándar
+Generalized Markup Language (SGML), que es en realidad un metalenguaje para
+generar lenguajes descriptivos de marcado, permite una flexibilidad considerable
+y personalización.  Los autores que han estado utilizando marcadores descriptivos podrán
+para convertir sus documentos en documentos SGML con poca o ninguna modificación.
+Los documentos que se han preparado con marcado de presentación o de procedimiento,
+sin embargo, requerirá una amplia edición para ajustarse al nuevo estándar.
+Ventajas
+Dado que la gente suele renunciar a renunciar a una tecnología que han aprendido,
+es crucial que todos sean conscientes de lo que la industria tiene que ganar
+conversión a marcado descriptivo y, en última instancia, a SGML.  Considera esto
+lista parcial de beneficios:
+1. Los autores podrán compartir documentos y colaborar con colegas
+sin las preocupaciones actuales sobre la incompatibilidad entre los formateadores de texto
+y dispositivos de impresión.
+2. Los editores ya no tendrán que volver a escribir documentos, eliminando
+y la tarea propensa a errores.
+3. En muchos casos, el proceso de prueba puede ser eliminado de la producción
+ahorrar costes administrativos considerables para los editores y reducir
+el tiempo necesario para que un documento se imprima.  Además, los editores
+ya no tienen que negociar con los autores que desean hacer cambios después del
+galeras se han establecido.  Por su parte, los autores serán relevados del
+carga de corregir los documentos que eran correctos en el
+sumisión. null
+4. Las ediciones subsiguientes, las revisiones o las colecciones pueden
+archivos fuente para un documento;  rekeying ya no será necesario.
+5. La información bibliográfica puede generarse directamente de los archivos fuente.
+Este proceso reducirá los errores y hará que las citas estén disponibles casi
+inmediatamente a los usuarios de bases de datos bibliográficas on-line.  El tiempo de
+se someterá un texto a la entrada en la literatura de un campo
+dramáticamente.
+6. Los documentos podrán incluirse directamente en bases de datos en línea para
+publicación y recuperación de texto completo, que es otra forma de introducir
+casi instantáneamente.
+Los editores y los autores ya han comenzado a exigir estas mejoras en la
+proceso de publicación.  Con los gastos de la publicación erudita
+continuamente, la contención de costos será cada vez más importante, y los autores
+encontrarán manuscritos electrónicos debidamente marcados más comercializables que otros
+manuscritos electrónicos y textos a máquina.
+Alternativas a la portabilidad
+Se han propuesto cuatro alternativas a la portabilidad de los documentos, pero
+soluciones parciales en el mejor de los casos.  Las alternativas incluyen:
+1. Los autores componen su propio trabajo y proporcionan una copia lista para la cámara
+2. Los autores que envíen archivos de descripción de páginas independientes del dispositivo, en
+PostScript, por ejemplo
+3. Autores que envían impresiones y editores que utilizan lectores de caracteres ópticos
+(OCR) para convertirlos a formato electrónico
+4. Autores que envían archivos de origen sin marcado descriptivo y editores
+convirtiendo el marcado con una utilidad especial.
+La primera alternativa involucra a los autores excesivamente en el proceso de presentación
+y los distrae de su papel como autores.  Este procedimiento sufre
+número de problemas graves: en primer lugar, debe quedar claro que la tipografía es
+requiere una formación especial en conceptos tales como tipografías, estilos,
+y tamaños-por no hablar de liderazgo, ponderación, kerning, viudas, rectos, versos,
+separación entre letras, líneas sueltas y todos los aparatos de los diseñadores profesionales.
+Además, la mayoría de los programas de tipografía requieren conocimientos de programación o
+intervención extensiva.  Los problemas no técnicos pueden ser aún más significativos.
+Las especificaciones de composición del editor suelen sufrir
+inadecuaciones que habitualmente se resuelven a través de relaciones de largo
+profesionales locales.  Así, los autores pueden esperar dedicar un tiempo considerable y
+especificaciones de clarificación de energía y tipo de reajuste.  Además, como
+los tipógrafos profesionales, los autores-tipógrafos pueden ser sostenidos financieramente
+responsable de todo lo que no está establecido de acuerdo con la
+especificaciones, así como cualquier costo sobre la estimación del editor.  Finalmente,
+autor-tipógrafos se someten a los plazos estrictos de los ciclos de producción,
+que pueden interferir con sus planes de enseñanza, becas y
+administración. null
+La segunda alternativa a la portabilidad de documentos
+archivos-todavía somete a los autores a la mayoría de los problemas de composición.  En orden
+para preparar archivos de descripción de páginas, los autores deben tener la composición completa
+especificaciones y garantizar que sus archivos de acuerdo con esas especificaciones.
+La siguiente alternativa: enviar impresiones para ser leídas por los OCRs-alivia
+autores de los problemas de tipografía, pero no mejora
+proceso de producción.  Aunque los OCRs son cada vez más rápidos y precisos,
+son todavía caras y propensas a errores.  Debido a la necesidad de
+intervención, hay pocas posibilidades de que la corrección de pruebas pueda
+el ciclo de producción.  Además, los OCR tienen capacidad limitada para generar
+archivos marcados de las impresiones.  Los sistemas actuales pueden generar
+pero ninguno puede distinguir un teorema de un axioma, por ejemplo, o incluso
+
+intervención de personal capacitado para reconocer y codificar elementos textuales.  (Nota
+también que incluso los operadores no serán entrenados para hacer
+distinciones, por ejemplo, para distinguir un axioma de un teorema).
+problemas de reconocimiento de caracteres, podemos esperar que los fabricantes de OCR
+concentrarse en el reconocimiento de elementos.  Sin codificación explícita, sin embargo,
+el reconocimiento de elementos siempre será una tarea fortuita, y nada podría ser más
+que desarrollar sistemas para recuperar el conocimiento que fue arrojado cuando
+fácilmente podría haber sido grabado en los archivos de origen.
+Por último, existe una creencia popular de que los editores pueden convertir la fuente de los autores
+archivos a sus propios formatos utilizando equipos especiales.  Por ejemplo, según
+al informe Seybold sobre sistemas de publicación,"The Shaffstall communications /
+sistema de conversión se ha convertido gradualmente en una sofisticada herramienta
+manejando casi cualquier cosa que apareciera en el campo de interconexión"("Interfaces
+"37-38.) En su prueba del Shaffstall 5000 XT, sin embargo, los reporteros intentaron
+archivos de MacWrite 2, MacWrite 2, PageMaker, readySetGo y Microsoft Word.
+Ellos encontraron que el sistema procesó el archivo MacWrite 4.2"muy bien"pero falló con
+los otros porque"esos programas manejan los datos de manera diferente".  Obviamente, el
+la utilidad de tal sistema se ve comprometida por cada nueva versión de cada programa.
+Además, tales sistemas no proporcionan el reconocimiento de elementos necesario;  ellos
+simplemente genere archivos de origen con marcado de procedimiento rudimentario.  Entrenado
+el personal sigue siendo obligado a identificar cada tipo de elemento y marcarlo
+adecuadamente.  Por último, los archivos son una vez más sometidos a la corrupción.  12
+SGML ha sido criticado recientemente incluso por partidarios del marcado descriptivo.13
+Por encima de todo, los críticos consideran SGML demasiado complicado tanto para los autores como para
+implementadores.  Con su WriterStation, sin embargo, Datalogics ya ha
+demostró que se pueden desarrollar sofisticadas herramientas SGML y
+la creación puede ser un proceso intuitivo.  Del mismo modo, SoftQuad ha producido un AAP
+procesador de texto para Macintosh.  Sobemap tiene un parser SGML ejecutándose bajo ambos
+Microsoft Windows y UNIX Versión V.
+Esta lista de productos es representativa, no exhaustiva, y el desarrollo es
+en realidad sólo para empezar.  El Departamento de Defensa está invirtiendo
+aproximadamente 200 millones de dólares por año en su
+Acquisition and Logistics Support (CALS).  Varios otros grandes
+agencias gubernamentales, como el Servicio de Rentas Internas, están invirtiendo en
+SGML y organizaciones privadas, como McGraw-Hill, están planeando convertir
+sus sistemas en un futuro próximo.  Algunos desarrolladores resienten esta presión,
+especialmente del gobierno ("Integración"25).  Los primeros éxitos
+mencionada anteriormente, sin embargo, encabezará el camino, y podemos esperar resistencia a
+transformarse en serios esfuerzos de desarrollo.
+Por último, SGML ha sido criticado por su falta de apoyo a las matemáticas,
+gráficos y material tabular.  SGML tiene propiedades metalingüísticas, sin embargo,
+y AAP ya ha demostrado que las aplicaciones SGML pueden apoyar las matemáticas
+y material tabular.  No tenemos razones para creer que el estándar no puede soportar
+gráficos a través de marcado descriptivo, así como a través de la marca de referencia.
+Portabilidad no depende de una norma
+No abogamos por esperar que SGML se convierta en dominante.  Como hemos ilustrado,
+marcado descriptivo es muy superior tanto a la presentación y de procedimiento
+margen.  La superioridad del marcado descriptivo no depende de su
+un estandar;  en su lugar, el marcado descriptivo es la base de la norma debido a
+su superioridad inherente sobre otras formas de marcado.  14
+Aquellos de nosotros que se han convertido a marcado descriptivo ya están disfrutando de algunos
+de estos beneficios.  Hemos enviado los archivos fuente de los artículos
+publicado en boletines de la Universidad de Brown a la Universidad de Barcelona,
+que los procesó sin modificaciones.  Las revistas producidas en Brown, como
+NOVELA: Un Foro sobre Ficción y Filosofía e Investigación Fenomenológica, use
+etiquetado descriptivo en el proceso de tipografía y se están preparando para aceptar
+presentaciones electrónicas.  Podemos esperar cada vez más revistas y editores
+se conviertan a este proceso cuando se dan cuenta de los enormes ahorros
+administración y preparación.  En última instancia, el estándar
+acelerar esta conversión a marcado descriptivo.15
+La portabilidad de documentos promete reducciones significativas en costos y mano de obra.  los
+alternativas a la portabilidad de documentos no abordan la necesidad de
+documentos con sus colegas y no abordan adecuadamente los problemas de la
+proceso de producción.  Como ha reconocido la AAP, el marcado descriptivo
+solución completa y eficaz al problema del establecimiento de documentos
+portabilidad.  Muchas de las ventajas pueden ser disfrutadas inmediatamente, y
+los documentos que han sido descriptivamente codificados se pueden actualizar fácilmente si es necesario
+como SGML se convierte en el estándar del sector.
+Minimización de las demandas cognitivas
+Teoría Básica
+El marcado de todos los documentos tiene lugar en tres pasos:
+1. Reconocimiento de elementos.  Uno reconoce que el elemento actual es un símbolo de un
+párrafo de tipo particular, cita en prosa, nota de pie de página y similares.
+2. Selección de marcado.  Se determina el marcado que se aplica al elemento
+tipo reconocido en (1).
+3. Rendimiento de marcado.  Uno marca el elemento.16
+Las mejores técnicas de marcado requieren el menos procesamiento cognitivo (ceteris
+paribus).  Creemos que los pasos (1) y (3) pueden ser ignorados.  El primer paso,
+reconocimiento de elementos, es el mismo para todas las formas de marcado: no tenemos
+motivación preteórica para postular que un autor reconoce que una entidad es
+nota de pie de página, por ejemplo, de una manera cuando se utiliza el marcado descriptivo y en otro
+cuando se utilizan otras formas de marcado.  El tercer paso, el rendimiento de las
+recibió la mayor atención, dando lugar a varias formas de"pulsaciones de teclas
+minimización 'e interfaces alternativas (como menús desplegables).  De nuevo,
+sin embargo, no tenemos ninguna motivación pre-teórica para creer que una forma de
+el marcado es más susceptible de optimización de rendimiento que otro.  17 Un breve
+la selección de marcado demuestra que el marcado descriptivo requiere menos
+cognición que el marcado de presentación o de procedimiento.  Las diferencias
+han sido representados visualmente en la Figura 2.
+Marcado de presentación
+En los esquemas de marcado de presentación, la selección de marcado requiere que un autor
+identificar el conjunto de convenciones tipográficas para el tipo de elemento actual y
+luego seleccionar la alternativa adecuada.18 Este proceso se complica por el hecho
+que la relación entre la convención tipográfica y el elemento de texto es
+arbitrario e inestable.  Ya hemos discutido los problemas de mantenimiento que
+ocurren debido a la inestabilidad de las convenciones de marcado de presentación.  Cuando MLA
+cambia sus especificaciones para las citas largas, por ejemplo, los autores no sólo
+deben actualizar sus archivos, también deben volver a aprender el marcado y están obligados a ir
+a través de un corto período de confusión.
+Aún más importante, la arbitrariedad del marcado de presentación no proporciona
+apoyo para recordar y crea situaciones en las que hay un número indefinido
+de alternativas.  Los elementos de alta frecuencia como los párrafos pueden no presentar
+problemas de recuerdo importantes, pero elementos infrecuentes tales como citas requieren viajes
+a los manuales de estilo.  Del mismo modo, los elementos con pocas alternativas como los párrafos
+a menudo no requieren una reflexión considerable (aunque se puede vacilar
+si un documento es una carta personal o una carta comercial y, en consecuencia,
+si los párrafos deben marcarse saltando líneas o por sangrado).  los
+número de alternativas para elementos de nivel superior como capítulos, sin embargo,
+aumenta rápidamente con la flexibilidad de los formateadores de texto y los dispositivos de impresión.
+Los editores, que están en el extremo de la flexibilidad, contratan a diseñadores profesionales
+para seleccionar el marcado de presentación.  Los autores, sin embargo, deben decidir por sí mismos
+cómo marcar estos elementos y puede pasar muchas horas ajustando y
+reajustando fuentes y saltos.
+Naturalmente, se esperaría una considerable simplificación del proceso después de la
+la selección inicial del marcado para un elemento de texto.  Sin embargo, los autores
+su memoria falla y con frecuencia tienen que mirar atrás en un documento para ver cómo
+han estado formateando un tipo de elemento.  Además, pueden cambiar su
+mente sobre el marcado en el centro del desarrollo de un documento y
+interrumpir el proceso de composición para reformatar los elementos previamente introducidos.
+Procedural Markup
+La selección de marcado es considerablemente más complicada para el procedimiento de marcado
+esquemas  En primer lugar, el autor tiene que realizar la misma selección de marcado que es
+necesario para el marcado de presentación.  Entonces el autor tiene que determinar la
+marcado procedural requerido por el formateador de texto de destino para crear el
+marcado presentacional.  Autores que utilizan el programa de mantenimiento de marcado de procedimiento
+documentación en sus lugares de trabajo junto con manuales de estilo.
+Marcación descriptiva
+El marcado descriptivo redujo el proceso de selección de marcado a un solo paso
+cayendo naturalmente fuera del reconocimiento del elemento.  Una vez que el autor identificó
+tipo de elemento, el marcado correcto puede determinarse simplemente seleccionando
+identificador que abrevia el nombre de lenguaje natural para el elemento actual
+tipo.  De hecho, el nombre en lenguaje natural puede usarse para el identificador y
+a menudo es para elementos infrecuentes como"dirección".  Tales abreviaturas como pq
+para la"cita de la poesía"proporciona simplemente para la minimización de la pulsación de tecla.
+Además, la selección de marcado para la terminación de un tipo de elemento (donde
+necesario) es cortocircuitado por la convención de utilizar un
+el marcado que se acaba de seleccionar para iniciar el elemento.  Por ejemplo, una vez
+autor ha seleccionado u003cpqu003e como el marcado apropiado para iniciar una poesía
+cotización, el marcado para el final de la cotización es automáticamente u003c/ pqu003e, que
+puede ser alcanzado mediante la aplicación de una regla estándar e inmutable de
+fijación  Por lo tanto, el marcado descriptivo es muy adecuado para la optimización de la selección.
+19
+El marcado descriptivo minimiza las demandas cognitivas requiriendo poco más que
+el procesamiento lingüístico normal ya necesario para realizar el elemento
+reconocimiento.  Aunque la relación entre un elemento de texto y su
+nombre de lenguaje natural puede ser arbitrario, la relación entre el nombre y
+el marcado descriptivo no es arbitrario.  La etiqueta de un párrafo puede ser p o
+para, por ejemplo, pero no sería sk o dirección.  Además, el
+la relación entre el nombre del elemento y el marcado descriptivo es estable.  El MLA
+podría modificar su hoja de estilos todos los días, pero el marcado descriptivo durante mucho tiempo
+las citas se mantendrían u003clqu003e.  No sólo los autores no tienen que revisar sus
+pero no tienen que aprender un nuevo marcado para cada variación de estilo.
+
+y los autores no tienen que mirar atrás en sus archivos para ver cómo han sido
+formatear un tipo de elemento en particular.  De hecho, se liberan del formato
+preocupaciones en conjunto.
+Aunque los autores generalmente creen que los editores-formateadores integrados simplifican
+el desarrollo de documentos eliminando la necesidad de marcado, nuestro análisis revela
+no sólo que tales aplicaciones requieren marcado, sino también que el marcado
+actualmente requerido por la mayoría de los sistemas populares es considerablemente más exigente que
+marcado descriptivo.  Si nuestro análisis del procesamiento requerido es o no
+precisa en detalle, debe quedar claro que (1) la selección de marcas de procedimiento
+requiere selección previa de marcado presentacional y (2) debido a la estabilidad
+y la relación no arbitraria entre la etiqueta y el nombre del elemento, el marcado descriptivo
+la selección requiere menos conocimiento que otras formas de marcado.  Finalmente, el
+el procesamiento cognitivo adicional requerido por el marcado de presentación desecha la energía
+que puede aplicarse al contenido del documento e incluso puede causar un
+suspensión prolongada del proceso de composición.
+Orientación de contenido
+Una de las ventajas más sutiles del marcado descriptivo es que apoya a los autores
+al centrarse en la estructura y el contenido de los documentos.  Tanto las
+el marcado procedimental tiende a centrar la atención de los autores en la presentación física.
+Cuando se marca el texto descriptivamente, se hace la estructura lógica de la
+texto explícito.  Por ejemplo, los conjuntos de etiquetas estándar incluyen etiquetas de"nivel de encabezado"
+tales como u003ch1u003e, u003ch2u003e, u003ch3u003e, y así sucesivamente.  Este marcado aclara tanto la jerarquización
+y relaciones secuenciales.  De hecho, algunos de nosotros comenzamos regularmente nuestros documentos
+como esquemas esqueléticos compuestos de estas etiquetas.  A medida que nuestros documentos se expanden,
+de la estructura nos ayuda a mantenerse al tanto del enfoque planeado para cada
+sección.  Además, como detallaremos, podemos utilizar aplicaciones especiales
+para acercar y alejar la estructura.
+A diferencia del marcado descriptivo, el marcado de presentación y de procedimiento no
+el escritor en el desarrollo de la estructura;  peor aún, distraen de la
+contenido.  Como ya hemos comentado, el primer paso de marcar un documento,
+elemento de reconocimiento, es el mismo para todas las formas de marcado.  El siguiente paso, marcado
+selección, siempre implica algún esfuerzo adicional, pero el marcado descriptivo mantiene
+este esfuerzo se centró en el elemento y su papel en el documento.  Presentación
+markup convierte la atención del autor en convenciones tipográficas y estilo
+hojas;  y el marcado procedural aleja aún más el documento del
+el marcado especial requerido para hacer que un formateador de texto particular produzca el
+marcado de presentación seleccionado.
+Hay una serie de sutilezas que no podemos abordar en detalle aquí.  los
+el lector debe tener en cuenta, sin embargo, que nuestro argumento se dirige a sí mismo
+principalmente al proceso de selección de marcado.  Ya hemos señalado que puede ser
+posible realizar márgenes complicados de presentación o procedimientos tan fácilmente
+como es para realizar marcado descriptivo.  En otras palabras, cualquier forma de marcado puede
+puede reducirse a una sola acción de edición.  A la inversa, una mala interfaz podría
+el rendimiento de la marcación descriptiva difícil y distraer.
+Además, hemos planteado, de manera algo oblicua, las cuestiones de lo que los autores ven.
+Hemos sugerido brevemente que las interfaces que exponen o exhiben descriptivas
+El marcado ayudará a los autores a centrarse en el contenido ya mantenerse al tanto de la estructura.  Esto es
+claramente una simplificación excesiva.  En primer lugar, no todos los márgenes
+información estructural o, mejor, información que es importante para el autor
+En el momento.  En segundo lugar, incluso el marcado descriptivo puede llegar a ser tan denso
+oscurecer el texto.  Además, podría ser en el mejor interés del autor
+cualquier momento particular para ver, por ejemplo, la enumeración de elementos en una lista
+en lugar del marcado descriptivo.  En última instancia, tenemos que concluir que no hay
+relación sencilla entre el formato de visualización y la orientación del contenido.  Un ideal
+sistema permitiría a los autores seleccionar entre una serie de
+diferentes vistas de un archivo, y debería ser posible mostrar el marcado
+algunos elementos textuales y para ocultar el marcado para otros.
+Asistencia de Composición y Procesamiento Especial
+Utilizar marcado descriptivo para identificar los elementos lógicos de un documento que no
+simplifica la composición, el mantenimiento, la colaboración y la publicación, pero
+también permite a los autores aplicar una amplia gama de herramientas para la asistencia a la composición.
+Esta característica debe ser explotada si el procesamiento de texto va a
+promesa original de ayudar significativamente a la composición académica y
+que simplemente mejorado mecanografía.
+Sin las identificaciones estructurales proporcionadas por el marcado descriptivo, el texto
+es simplemente una"cadena de caracteres que no tiene otra forma que la que puede ser
+deducido del análisis del significado del documento"(Goldfarb 68) - y esto es
+una deducción por la cual las computadoras son totalmente inadecuadas.  La suma de
+el marcado descriptivo de contenido cambia esta cadena de caracteres sin forma en una
+una base de datos estructurada de elementos de texto, lo que permite al
+elementos de forma selectiva y sistemática.  Dos funciones de asistencia a la composición
+que explotan la capacidad de abordar selectivamente los elementos de texto a través de sus
+marcado son vistas alternativas y edición orientada a la estructura.
+Vistas alternativas de un documento
+Si un documento se prepara con un marcado descriptivo, los elementos de texto que
+que se muestran en el editor pueden especificarse globalmente al
+marcado que identifica esos elementos.  Por ejemplo, se podría especificar que todo
+citas de bloques se ocultan de la vista.  Donde una vez una larga cita
+intervinieron entre dos frases, ahora sólo podría haber una bandera que
+número de líneas ocultas o, si el usuario prefiere, ninguna bandera:
+las frases aparecen adyacentes entre sí.  Del mismo modo, todas las notas a pie de
+ocultas o todas las anotaciones o todas las anotaciones de una determinada clase -digamos, todas
+anotaciones sobre la traducción o por anotadores que no sean el autor.  En esto
+modo en que se distinguen las secciones del texto de interés actual
+atención, mientras que aquellos que no son de interés están ocultos.  Por supuesto, en cualquier
+el proceso de edición, el texto oculto puede ser inmediato y selectivamente
+divulgado para su visualización.
+También son útiles las opiniones más especializadas, que no sólo son eficientes para
+composición y edición general, pero ajustada para ayudar al
+pensando en el tema particular o tema en cuestión.  Considere una
+ejemplo específico: uno de los autores de este artículo escribe artículos sobre
+lógica.  Sus papeles contienen etiquetas de elementos de texto como primitivas (para marcar texto
+que introduce explícitamente un término que es primitivo dentro del sistema axiomático
+propuesto), definición (para definiciones del sistema), axioma (para axiomas
+del sistema), y teorema (para estos que siguen de los axiomas).  Una edición
+utilidad que explota este marcado mantiene una lista actual de todos los
+elemento en el documento.  Esta lista se puede consultar rápidamente durante la edición.
+se muestra a veces en una ventana de edición concurrente y puede ser
+actualizado e incluido como un apéndice cada vez que se imprime el archivo.  Opcionalmente,
+los elementos axiomáticos listados pueden ser clasificados y revisados ​​por primitivas de tipo
+términos, axiomas, definiciones, teoremas-independientemente de su orden en el papel.  Como
+una simple referencia al estado actual de la
+elementos axiomáticos en el sistema en desarrollo, esta utilidad se utiliza para comparar
+sistemas (los resúmenes ordenados de sus elementos axiomáticos se
+ventanas) y explorar ideas sobre las relaciones entre elementos.  Similar
+técnicas pueden aplicarse en otras disciplinas.
+Una fuente de la eficacia de estas estrategias de visualización es la simple
+yuxtaposición de las secciones relacionadas del texto para la comparación.  Otro es el
+reorganización dirigida de estas regiones -esto se debe a que frecuentemente los
+la estructura retórica de un documento dicta un orden narrativo de elementos de texto
+esa no es la mejor secuencia para el propio pensamiento del autor sobre el tema
+importar.  En ambos casos, las utilidades de edición descritas utilizan
+marcado para superar en el entorno compositivo las limitaciones impuestas por
+los requisitos de presentación de la forma retórica pretendida.  Esto es
+exactamente el tipo de ayuda que un erudito debe esperar de la computadora.
+Lo que se está logrando aquí es algo que no se puede realizar
+con herramientas académicas convencionales: secciones dispersas de texto que
+determinadas propiedades relacionadas con el contenido están siendo
+presentado para su comparación y edición.  Con un medio de escritura convencional, como
+papel, sólo una laboriosa búsqueda de pasajes y recortar y reorganizar
+podría lograr la misma cosa e incluso entonces con una probabilidad significativa de
+error.  El tiempo y la energía requeridos por este límite de método físico tradicional
+el número de reordenamientos que el autor puede permitirse intentar y hacer más
+los reordenamientos experimentales son especialmente poco prácticos.  Con la ayuda asistida por ordenador
+enfoque, cada palpitación se puede explorar de inmediato, y las estrategias de visualización pueden
+progresivamente de acuerdo con los resultados de cada ensayo, todos ellos con
+un coste mínimo en tiempo y energía.  Todas estas técnicas requieren la
+información proporcionada por marcado descriptivo;  sin eso, informando a los estudiosos
+son poco mejores que estaban con lápiz, papel y tijeras.
+Aunque el valor de las vistas alternativas de un archivo como herramienta intelectual ha
+han sido descritos por varios autores, sorprendentemente pocos estudiosos están
+parte del problema es que la capacidad de
+presente para mostrar y editar vistas alternativas de archivos se representa como
+característica de determinados sistemas experimentales de procesamiento de texto en
+estrategia general para el procesamiento de texto.  Sin embargo, simplemente utilizando un método descriptivo
+y un editor programable de uso general, cualquier estudiante puede comenzar
+para aprovechar estas herramientas de inmediato.22
+Esquema y Edición Estructurada
+Un ejemplo especial de una vista alternativa es el contorno (ver Figura 3).
+Los documentos tienen una estructura jerárquica natural: los capítulos tienen secciones,
+secciones tienen subsecciones, y así sucesivamente, hasta que uno alcanza frases, palabras y
+letras.  Si las secciones de un documento están marcadas como tales, entonces es
+una simple cuestión de ordenar a un editor de propósito general que muestre
+los títulos de la sección, presentando al becario con un esquema de trabajo.  Además,
+como el marcado de sección se introduce en el nivel de sección, el autor puede
+outliner muestra el contorno a cualquier profundidad de detalle deseada, el nivel más bajo
+de detalle es el texto completo o, quizás, el texto con anotaciones y
+versiones alternativas.  El ocultamiento nivel por nivel y la revelación de sucesivos
+los niveles de detalle pueden ser controlados por una función de"zoom".  También se pueden emplear
+editando utilidades para mover los componentes jerárquicos del documento, como se muestra
+en una vista de esquema, y ​​que la estructura general del documento se ajuste en consecuencia.
+Por ejemplo, uno podría mover directamente una sección, completa con todos sus anidados
+subsecciones y texto, a otro capítulo.  O uno podría levantar una sección de un
+sección de tercer nivel a una sección de segundo nivel y tienen todas sus
+los encabezados de subsección ajustan su marcado de profundidad en consecuencia.  Explotando el
+estructura jerárquica natural del texto de esta manera también ha sido
+recomendados por los teóricos del procesamiento de textos.23 Aunque recientemente
+se han comercializado aplicaciones de gran alcance, de nuevo, estos productos
+aplicaciones especializadas en lugar de implementaciones generales de
+estrategia basada en el marcado descriptivo.
+Este tipo de maniobra es un ejemplo de un estilo superior de edición hecho
+posible mediante marcado descriptivo: edición orientada a la estructura.  Marcado descriptivo
+permite que los objetivos de las operaciones de edición sean no sólo caracteres, palabras y
+líneas, sino también las fichas reales de elementos de texto, las regiones de texto que caen
+dentro del alcance de una etiqueta de marcado particular.  Por ejemplo, se puede ejecutar
+operaciones como"Eliminar esta nota al pie"o"Mover esta cita".
+La edición orientada a la estructura permite a los autores dirigir sus documentos
+nivel de abstracción apropiado para su papel de autor, - otras formas de
+edición requieren la mediación de desplazamientos de línea, números de línea
+regiones.  Así, la edición orientada a la estructura minimiza las demandas cognitivas y ayuda
+los autores se centran en el contenido.
+Funciones de asistencia a la composición, como vistas alternativas de un documento y
+la estructura de la edición orientada prometen inmensas mejoras en la eficacia
+y la productividad del ambiente de composición académica.  La realización de
+la mayoría de estas características dependen del marcado descriptivo.  Procesamiento de texto con cualquier
+otro tipo de marcado garantizará que las estrategias anacrónicas de las
+las tecnologías seguirán dominando la preparación de documentos asistidos por ordenador.
+Conclusión
+El marcado descriptivo resuelve muchos de los problemas que enfrentan los estudiosos en el documento
+desarrollo.  En primer lugar, el proceso de marcado del texto se simplifica porque
+la atención del autor se centra en el contenido en lugar de controlar un
+programa de computadora o en la tipografía de la copia de la presentación.  Segundo,
+los problemas de mantenimiento se reducen a unos pocos lugares fácilmente identificables
+externo a los archivos de documentos;  la actualización de los cambios de estilo es fácil y los documentos
+no están expuestos a la corrupción.  En tercer lugar, como ha sido reconocido por AAP,
+marcado descriptivo proporciona los mejores medios para establecer el
+estándar que necesitamos para la portabilidad completa de documentos.  Portabilidad de documentos
+permite a los autores compartir archivos con colegas y reduce significativamente
+el costo de publicación y las demandas no autorales a los autores.  Finalmente, en
+descriptiva de un documento, el autor proporciona la información semántica y
+información pragmática necesaria para tales ayudas como puntos de vista alternativos sobre
+y edición orientada a la estructura.  Sin marcado descriptivo, sólo
+sistemas con formatos incompatibles ofrecerán incluso una porción de la
+apoyo que los académicos tienen derecho a esperar de sus computadoras.
+Al final, debe quedar claro que el marcado descriptivo no es sólo el mejor
+enfoque de los sistemas de marcado competidores;  es el mejor enfoque imaginable.
+Actualmente, la aceptación del marcado descriptivo está siendo retardada por los autores '
+desean conservar las tecnologías y prácticas familiares y el uso de los
+los formatos propietarios para bloquear a los usuarios en sus productos.  Equipado con la base
+conceptos de la teoría general de los sistemas de marcado, sin embargo, los autores rápidamente
+reconoció la superioridad del marcado descriptivo.  A medida que este conocimiento se extiende,
+pueden esperar mejoras significativas en la calidad de la informática académica.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Figura 1: Formas de marcado.
+Sin marcado
+(Este ejemplo puede parecer artificial, pero la escritura antigua estaba a menudo en tal
+scriptio continua, prácticamente sin espacios de palabras y poca puntuación.)
+en el interior de la ventana traumática, y en la que se coloca la válvula en el interior de la misma, y ​​se desbloquea, sin embargo,
+PRESENTACIONAL
+Milton expresa esta idea más claramente más adelante en el tratado:
+No puedo alabar a una virtud fugitiva y enclaustrada, sin ejercitarse ni respirar, que nunca salta y ve a su adversario, pero se escabulle de la raza donde se va a correr esa guirnalda inmortal, no sin polvo ni calor.
+Del mismo modo, Wordsworth.  .  .  .
+PROCESAL
+Milton expresa esta idea con toda claridad más adelante en el tratado: No puedo alabar a una virtud fugitiva y enclaustrada, sin ejercitarse ni respirar, que nunca salga y la vea  adversario, pero se escapa de la raza donde se va a correr esa guirnalda inmortal, no sin polvo ni calor.  .sk 3a;.in -10 +10;.cp 2;.ls 1
+Del mismo modo, Wordsworth.  .  .  .
+DESCRIPTIVO null
+Milton expresa esta idea más claramente después en el tratado: (lq) No puedo alabar a una virtud fugitiva y enclaustrada, sin ejercitarse ni respirar, que nunca salta y ve a su adversario, pero se escapa de la carrera donde se llevará a cabo esa guirnalda inmortal  para, no sin polvo y calor.  (/ lq) Del mismo modo, Wordsworth.  .  .  .
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Figura 2: Selección de marcado para una cotización larga (aproximadamente).
+[crdmarkup.gif]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Figura 3: Esquema con marcado descriptivo.
+• (h0) Antecedentes y nuevos conceptos
+□ (hl) Teoría del marcado
+☆ (h2) Tipos de marcado
+○ (h3) Puntualidad
+○ (h3) Presentación
+○ (h3) Procedural
+○ (h3) Descriptivo
+○ (h3) Referencial
+○ (h3) Metamarkup
+☆ (h2) Manejo de marcado
+☆ (h2) Ocultos, expuestos, disfrazados y mostrados
+☆ (h2) Resumen
+• (h0) Ventajas de la marcación descriptiva
+□ (hl) Mantenibilidad
+□ (hl) Portabilidad de documentos
+☆ (h2) Antecedentes
+☆ (h2) Ventajas
+☆ (h2) Alternativas a la portabilidad
+☆ (h2) Portabilidad no dependiente de una norma
+☆ (h2) Resumen
+□ (hl) Minimización de las Demandas Cognitivas
+☆ (h2) Teoría Básica
+☆ (h2) Marcaje de presentación
+☆ (h2) Procedural Markup
+☆ (h2) Marcación descriptiva
+☆ (h2) Resumen
+□ (hl) Orientación de contenido
+□ (hl) Asistencia de Composición y Procesamiento Especial
+☆ (h2) Introducción
+☆ (h2) Vistas alternativas de un documento
+☆ (h2) Esquema y Edición Estructurada
+☆ (h2) Resumen
+((Hl) Conclusión null
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Expresiones de gratitud.
+Estamos en deuda con Mary Elizabeth McClure por estimular nuestro pensamiento sobre
+marcado descriptivo ya Richard A. Damon, Elli Mylonas, y David Durand para
+muchas discusiones útiles.  También queremos agradecer a Robert J. Scholes y
+Maurice Glicksman por su papel en la adquisición del apoyo necesario para
+investigar y desarrollar este ensayo.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Otras lecturas.
+Para las ideas seminales sobre sofisticados sistemas de apoyo autoral, véase Bush,
+Carmody, Engelbart e inglés, Engelbart et al., Y Nelson,"Getting It"y
+Máquinas Literarias.  Algunas discusiones recientes importantes se presentan en Corda,
+Trigg y Yankelovitch.  Una serie de buenos documentos sobre el desarrollo de
+edición orientada a la estructura, incluyendo el importante artículo de Goldfarb de 1981 sobre GML,
+están contenidos en ACM.  Este volumen también contiene el útil"Anotado
+Bibliografía del Material de Antecedentes sobre Manipulación de Texto"compilado por Reid y
+Hanson.  Meyrowitz es la encuesta estándar de sistemas de edición y proporciona
+considerable información acerca de formateadores también.  Finalmente, el AAP y SGML
+están documentadas en ANSI y en el estándar de la AAP para
+Preparación y marcado de manuscritos.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Notas
+1. Esta obra, que apareció por primera vez en Comunicaciones de la ACM 30 (noviembre
+1987);  933-47, fue apoyado en parte por la Fundación Mellon.  Aunque el
+los temas abordados en este ensayo se refieren a todo el desarrollo de documentos
+han elegido centrarse en el dominio que mejor conocemos: texto académico
+tratamiento.
+2. Aunque quedan algunas excepciones importantes (por ejemplo, Corda, Trigg,
+Yankelovich), este modelo más antiguo y limitado de interacción máquina-académico ha
+dominante.
+3. Véase Drucker para una discusión de los costos de esta tendencia, así
+no tomar riesgos calculados.
+4. En el último recuento sólo cuatro grupos de investigación en el país estaban tratando de
+desarrollar sofisticados programas de control gramatical (véase Alexander).  Ortografía
+correctores y programas de tesauro han comenzado a
+cantidades, pero tienden a ser desiguales en cuanto a su calidad y difícilmente son
+escrutinio intenso.
+5. Este último punto no debe subestimarse;  si queremos corregir la
+desequilibrio actual en la asignación de recursos, debemos permitir
+nuevos productos para procesar archivos creados por todos los
+sistemas.  Actualmente, no sólo la mayoría de los archivos contienen sólo codificación dirigida al papel
+pero también se producen en formatos muy incompatibles.  Incluso para un relativamente trivial
+programa, como un verificador de ortografía, ahora puede costar a un
+meses y miles de dólares para desarrollar los programas auxiliares necesarios para
+archivos de origen del proceso.  Además, aquellos que no utilizan el texto más común
+los procesadores son cortados del mercado y no tienen acceso a los nuevos sistemas.
+Los costes adicionales y el reducido mercado creado por
+codificación no descriptiva constituyen un considerable desincentivo para el desarrollo
+de sistemas sofisticados.
+6. La siguiente discusión se basa en el trabajo de Coombs.  Esta sección debe mayor
+las deudas con Goldfarb y con el reciente estándar ANSI Standard Markup Language.
+Todos los ejemplos descriptivos de marcado se presentan en notación SGML.
+7. Estrictamente hablando, algunos de nuestros marcajes"electrónicos"se producen en manuscritos y
+escritura a máquina en forma de marcas de corrección de pruebas y de
+tal marcado no se hizo prominente en el proceso de desarrollo de documentos hasta
+el advenimiento de los sistemas electrónicos.  Goldfarb y SGML consideran nuestra
+marcado"explícito"y nuestro marcado"implícito".  En realidad, Goldfarb ignora
+marcado de presentación (70);  SGML distingue la"notación del lenguaje natural"
+(marcado puntual) de"anotaciones de texto con formato"(marcado de presentación)
+(ANSI 90 - 91).  Ambos tipos de marcado scribal, sin embargo, tienen
+instanciación y, por lo tanto, no están realmente implícitos.  Además, ambos forman parte
+escritura y, por lo tanto, son parte de un medio para transmitir lenguaje natural
+expresiones en lugar de parte de las propias lenguas.
+8. Hemos observado, por ejemplo, que Cambridge University Press favorece la
+primer estilo de guión;  Oxford University Press, el segundo.
+9. FRESS se basa directamente en el prototipo de sistema HES (Hypertext Editing
+System) (véase Prusky, Carmody).
+10. Las hojas de estilo electrónicas rigurosamente utilizadas pueden proporcionar la misma
+problemas de mantenimiento.  Dado que las hojas de estilo están orientadas a la presentación, sin embargo,
+esperan que los autores no hagan todas las distinciones necesarias.  El bloque
+estilo", por ejemplo, podría proporcionar temporalmente el formato apropiado para muchos
+diferentes entidades como la cita en prosa, citas de poesía, teoremas,
+definiciones y ejemplos.  Posteriormente, puede ser necesario distinguir
+elementos, y el marcado necesitará revisión.
+11. Aunque la mayor parte de la literatura parece asumir la lectura autoral de
+la galera y las pruebas de la página seguirán siendo parte del proceso de publicación, tenemos
+eliminó esa pesada tarea de la producción de libros que tipificamos
+Nosotros mismos.  No vemos ninguna razón para no retener estas ventajas una vez que los editores
+son capaces de escribir directamente de los archivos de origen de los autores.
+12. Para más sofisticados esfuerzos de traducción, véase Mamrak.  Tenga en cuenta, sin embargo, que
+buscan apoyar la traducción dentro y fuera de las normas, no de una
+formato arbitrario a otro.  Además, eligen un sistema de marcado descriptivo
+para su prototipado: SGML.
+13. Ver"Integración"21-25 para un informe de las críticas.  La mayor parte de la información
+en esta sección sobre la actividad SGML se ha derivado de los informes en (TAG).
+14. Lo contrario ocurre con otro estándar propuesto: Contenido de Documento de IBM
+Arquitectura (DCA).  En lugar de declarar el estado lógico de
+entidades, Revisable-Form-Text DCA declara los aspectos de formateo y es
+orientado a la presentación.  Por lo tanto, DCA no permitiría a un editor, por ejemplo,
+cambiar de notas finales a notas de pie de página o incluso cambiar a fuentes más pequeñas para el bloque
+citas sin revisar los archivos de origen.
+15. Nuestros problemas actuales de incompatibilidad no se limitan a los archivos de documentos.
+Cada sistema de gestión de bases de datos, por ejemplo, tiene su propio formato,
+difícil de compartir información o incluso cambiar de un sistema a otro.
+Con su Sistema de Gestión de la Información para Estudiosos (IMSS), Coombs ha
+establecido que el marcado descriptivo proporciona una información adecuada y
+para la portabilidad de la base de datos.  Los archivos de datos del IMSS se pueden
+otros sistemas de bases de datos, los estudiosos pueden ahora crear bibliografía y
+una variedad de máquinas e importarlas al IMSS para aprovechar sus ventajas
+funciones.  A medida que tomen conciencia de las posibilidades, los autores considerarán
+tal flexibilidad un requisito en vez de una característica.
+16. Este análisis se generaliza sobre los tres pasos de markup procesal Goldfarb
+discute (68).
+17. A primera vista, parecería que el marcado descriptivo
+rendimiento de marcado óptimo.  Sea cual sea la interfaz, debería ser posible
+
+proceso de identificación de procedimientos de formato puede requerir
+comportamiento.  Muchos editores, sin embargo, ofrecen facilidades para reducir
+serie de funciones editoriales a una sola pulsación de tecla.  Si el usuario piensa
+ejemplo", pulsando la tecla de función 1, doblaré el espacio dos veces, el recuadro diez
+desde la izquierda, iniciar una nueva página si es necesario, y cambiar a espaciado sencillo,"
+entonces el usuario ha realizado un marcado de presentación relativamente complicado con
+con el menor esfuerzo posible para realizar un marcado descriptivo.  los
+proceso de decidir cómo marcar el elemento, sin embargo, habrá sido
+más complicado, y permitimos que nuestro argumento se apoye en ese punto.
+18. Hay toda una gama de posibilidades de recuperación y selección que
+no se puede discutir aquí.  Esta sección debe ser considerada sugestiva en su lugar
+de exhaustivo.
+19. Por razones de minimización de marcado, SGML introdujo una"etiqueta de final vacía"
+u003c/u003e.  Dado que esta etiqueta sólo puede utilizarse en determinados contextos, esta
+complicar la selección de marcas en lugar de optimizarla.
+20. Reconociendo este hecho, Brian K. Reid tomó las
+marcado fuera de las manos de los autores en conjunto.  Sólo la base de datos Scribe
+El administrador tiene acceso a marcas de procedimiento y definiciones de formato.
+21. Las discusiones iniciales importantes de las opiniones alternativas del texto son Nelson (
+"Getting It"193-95), Engelbart e inglés, y Carmody (288-300).  Pero sobre un
+década después, Meyrowitz y van Dam describen"el principio de múltiples visiones"
+como"uno que ha sido muy poco utilizado en los cientos de editores que han
+creado"(405).
+22. La mayoría de las funciones descritas en esta sección han sido implementadas por
+los autores para satisfacer alguna necesidad de composición inmediatamente percibida
+sólo las aplicaciones VM estándar de IBM Xedit y Rexx.
+23. Para una discusión temprana sobre el diseño y la estructura de la edición, véase
+Engelbart y el inglés.  Para una selección de trabajos posteriores sobre
+edición y temas relacionados ver los artículos en Proceedings of the ACM SIGPLAN
+SIGOA Simposio sobre Manipulación de Texto.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Bibliografía
+Alexander, Gary B.
+"Ayudas de computadora para los autores y los redactores: Una extensión natural de la palabra
+Procesamiento y tipografía?"Seybold Informe sobre sistemas de publicación 13 (13
+Febrero 1984): 3-21.
+American National Standards Institute (ANSI).
+Procesamiento de la información -Texto y sistemas de oficina-Standard Generalized Markup
+Idioma (SGML).  ISO 8879 - 1986 (E).  Nueva York: ANSI, 1986.
+Asociación para la Maquinaria Informática (ACM).
+Actas del Simposio ACM SIGPLAN-SIGOA sobre Manipulación de Textos.  Nuevo
+York: ACM, 1981.
+Asociación de Editores Americanos.
+Guía del Autor para Preparación y Marcado Electrónico de Manuscritos.  Electrónico
+Serie de manuscritos.  Washington, DC: AAP, mayo de 1986.
+Proyecto de Manuscrito Electrónico: Informe de la Tarea I.  Rockville, MD: Sistemas de Aspen,
+1984.
+Norma para la Preparación y Marcado Electrónico de Manuscritos.  Electrónico
+Serie de manuscritos.  Washington, DC: AAP, febrero de 1986.
+Playa, Richard y Maureen Stone.
+"Estilo gráfico hacia ilustraciones de alta calidad".  SIGGRAPH'83
+Actas de congresos.  Nueva York: ACM, 1983. 127-35.
+Bush, Vannevar.
+"Como Podemos Pensar".  Atlantic Monthly 176 de julio de 1945): 101-08.
+Carmody, Steven, Walter Gross, Theodor H. Nelson, David Rice y Andries van
+Presa.
+"Un sistema de edición de hipertexto para el / 360".  Conceptos pertinentes en el ordenador
+Gráficos.  Ed.  M. Faiman y J. Nievergelt.  Urbana: U de Illinois P, 1969.
+291-330.
+Chamberlin, Donald D.
+"JANUS: un sistema interactivo para la composición de documentos".  Actas de la
+ACM SIGPLAN SIGOA Simposio sobre Manipulación de Texto.  Nueva York: ACM, 1981.
+82-91.
+Coombs, James H.
+"Sistema de Gestión de Información para Estudiosos".  Memorando Técnico TM 69-2.
+Providence: Brown U Computer Center, diciembre de 1986.
+Coombs, James H., Anne M. Scott, George P. Landow, y Arnold A. Sanders, eds.
+Una amistad pre-rafaelita: la correspondencia de William Holman Hunt y
+John Lucas Tupper.  Ann Arbor: UMI, 1986.
+Rope, U., y G. Facchetti.
+"Concept Browser: Un Sistema para la Creación Interactiva de Dinámica
+Documentación". Tratamiento de texto y manipulación de documentos Ed. J.C. van
+Vliet.  Cambridge: Cambridge UP, 1986. 233 - 45.
+Drucker, Peter F.
+Gestión: Tareas, Responsabilidades, Prácticas.  Nueva York: Harper, 1973.
+Engelbart, Douglas C., y William K. Inglés.
+"Un Centro de Investigación para Aumentar el Intelecto Humano".  1968.
+Trabajo cooperativo apoyado por computadora: Un libro de lecturas.  Ed.  Irene Greif.
+San Mateo: Morgan Kaufmann, 1988. 81-105.
+Engelbart, Douglas C., Richard W. Watson y James C. Norton.
+"El Taller de Conocimiento Aumentado".  Actas de la Reunión de Otoño de AFIPS
+Conferencia De la Computadora.  Reston: AFIPS, 1973. 9-21.
+Goldfarb, C. F.
+"Un enfoque generalizado para el marcado de documentos".  Actas de la ACM SIGPLAN
+SIGOA Simposio sobre Manipulación de Texto.  Nueva York: ACM, 1981. 68-73.  (Adaptado
+como"Anexo A. Introducción al marcado generalizado"en ISO 8879.)
+"Integración y Paginación: Documentos Largos, Propuestas, Libros".
+Informe de Seybold sobre los sistemas de publicación 16 (27 de abril de 1987): 21-27.
+"Interfaces, convertidores de medios y dispositivos de OCR".
+Informe Seybold sobre los sistemas editoriales 15 (2 de junio de 1986): 34-39.
+Lamport, Leslie.
+Guía del Usuario y Manual de Referencia de LATEX.  Lectura: Addison-Wesley, 1986.
+Mamrak, S.A., M.J. Kaelbling, C.K. Nicholas, y M. Share.
+"Una Arquitectura de Software para Apoyar el Intercambio de
+Manuscritos". Comunicaciones de la ACM 30 (mayo 1987): 408-14.
+Meyrowitz, Norman y Andries van Dam.
+"Sistemas de edición interactiva: Partes I y II".  Encuestas de Informática ACM 14
+(Septiembre 1982): 321 - 415.
+Asociación de Lenguaje Moderno.
+MLA Manual para Escritores de Documentos de Investigación.  Nueva York: MLA, 1977.
+MLA Manual para Escritores de Documentos de Investigación.  2ª ed.  Nueva York: MLA, 1984.
+Nelson, Theodor H.
+"Sacándolo de nuestro sistema".  Recuperación de información: una revisión crítica.
+Ed.  G. Schecter.  Washington, DC: Thompson, 1967.191 - 210.
+Máquinas Literarias.  Nashville: Autopublicado, 1981.
+Nievergelt, J., G. Coray, J.D. Nicoud, y A.C. Shaw, eds.
+Sistemas de preparación de documentos.  Amsterdam: Norte de Holanda, 1982.
+Prusky, John.
+Manual de recursos del FRESS.  Providence: Brown U Departamento de Ciencias de la Computación,
+1978.
+Reid, Brian K.
+"Un enfoque de alto nivel para el formato de documentos informáticos".  Actas de la
+7º Simposio Anual ACM sobre Lenguajes de Programación.  Nueva York: ACM,
+1980.24-30.
+(TAG) El boletín SGML.
+Alejandría: Asociación de Comunicaciones Gráficas.
+Trigg, Randall H. y Mark Weiser.
+"TEXTNET: Un enfoque basado en red para el tratamiento de texto". Transacciones de ACM en
+Oficina de Sistemas de Información 4 (Enero 1986): 1-23.
+van Dam, Andries y David E. Rice.
+"Edición de texto en línea: una encuesta".  ACM Informática Encuestas 3 (septiembre de 1971):
+93-114.
+Yankelovich, Nicole, Norman Meyrowitz y Andries van Dam.
+"Leyendo y Escribiendo el Libro Electrónico".  IEEE Computer 18 (octubre
+1985):15-30.
