@@ -2,19 +2,25 @@
 
 ## 1. Resumen 
 
-El presente plan propone la definición de una gramática agnóstica y neutral de
+El presente plan propone la definición de una gramática neutral de
 hojas de análisis o planes de obra musical, basada en texto plano serializado
-legible y acompañada por el desarrollo de un sistema de herramientas para
+y legible, acompañada por el desarrollo de un sistema de herramientas para
 interfaz de línea de comandos (Command Line Interface) que genere, a partir de
 estos ficheros, secuencias musicales en el estándar MIDI. 
 
-Así mismo se documentará este desarrollo para su correcta publicación enmarcada
+Se documentará este desarrollo para su correcta publicación enmarcada
 bajo premisas del software libre y abierto. 
 
 
 ## 2. Justificacion 
 
 ### 2.1 ¿Por qué Texto Plano?
+
+> "As Pragmatic Programmers, our base material isn't wood or iron, it's
+> knowledge. [...]. And we believe that the best format for storing knowledge
+> persistently is plain text.  With plain text, we give ourselves the ability to
+> manipulate knowledge, both manually and programmatically, using virtually every
+> tool at our disposal."
 
 * Leverage
 

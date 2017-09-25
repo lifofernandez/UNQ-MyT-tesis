@@ -1,0 +1,335 @@
+Capítulo 3. Las herramientas básicas Todo artesano comienza su viaje con un
+conjunto básico de herramientas de buena calidad.  Un carpintero puede necesitar reglas, calibres,
+un par de sierras, algunos buenos planos, cinceles finos, taladros y tirantes, mazos y
+abrazaderas  Estas herramientas serán elegidas con amor, serán construidas para durar, serán
+realizar trabajos específicos con poca superposición con otras herramientas y, tal vez la mayoría
+lo más importante, se sentirá bien en las manos del carpintero en ciernes.  Entonces empieza una
+proceso de aprendizaje y adaptación.  Cada herramienta tendrá su propia personalidad y
+caprichos, y necesitará su propio manejo especial.  Cada uno debe ser afilado en una
+única manera, o celebrada sólo así.  Con el tiempo, cada uno se desgasta según el uso, hasta
+el agarre se parece a un molde de las manos del carpintero y la superficie de corte
+se alinea perfectamente con el ángulo en el que se sostiene la herramienta.  En este punto, el
+herramientas se convierten en conductos desde el cerebro del artesano hasta el producto
+se han convertido en extensiones de sus manos.  Con el tiempo, el carpintero agregará
+nuevas herramientas, tales como cortadoras de galletas, sierras de inglete guiadas por láser,
+maravillosas piezas de tecnología.  Pero usted puede apostar que él o ella será más feliz
+con una de esas herramientas originales en la mano, sintiendo el avión cantar como se desliza
+a través de la madera.  Las herramientas amplifican su talento.  Cuanto mejores sean sus herramientas, y
+mejor sabes cómo usarlos, más productivo puedes ser.  Comienza con un
+conjunto básico de herramientas de aplicación general.  A medida que adquiera experiencia y
+encontrar requisitos especiales, agregará a este conjunto básico.  Como el
+artesano, espera agregar a su caja de herramientas con regularidad.  Esté siempre atento
+para mejores maneras de hacer las cosas.  Si te encuentras con una situación donde te sientes
+sus herramientas actuales no pueden cortar, hacer una nota para buscar algo diferente o
+más poderoso que hubiera ayudado.  Deje que la necesidad de impulsar sus adquisiciones.  Muchos
+los nuevos programadores cometen el error de adoptar una sola herramienta eléctrica, como
+en un entorno de desarrollo integrado (IDE), y nunca dejar su acogedor
+interfaz.  Esto realmente es un error.  Necesitamos estar más cómodos
+los límites impuestos por un IDE.  La única manera de hacerlo es mantener el conjunto de herramientas básico
+agudo y listo para usar.  En este capítulo hablaremos sobre invertir en su
+caja de herramientas básica.  Como con cualquier buena discusión sobre herramientas, comenzaremos (en The Power
+del texto llano) mirando sus materias primas, la materia que usted estará dando forma.
+Desde allí nos moveremos a la mesa de trabajo, o en nuestro caso la computadora.  ¿Cómo puede
+utiliza su computadora para sacar el máximo provecho de las herramientas que utiliza?  Discutiremos
+esto en Shell Games.  Ahora que tenemos material y un banco para trabajar,
+a su vez la herramienta que probablemente va a utilizar más que cualquier otro, su editor.  En poder
+Editando, sugeriremos maneras de hacerle más eficiente.  Para asegurar que
+nunca pierda nada de nuestro precioso trabajo, siempre debemos utilizar un código fuente de control
+sistema-incluso para cosas tales como nuestra libreta de direcciones personal!  Y, desde que Murphy
+era realmente un optimista después de todo, usted no puede ser un gran programador hasta que usted
+convertirse en altamente cualificados en la depuración.  Necesitará un poco de pegamento para
+magia juntos.  Discutimos algunas posibilidades, como awk, Perl y Python,
+en Manipulación de Texto.  Tal como los carpinteros a veces construyen plantillas para
+construcción de piezas complejas, los programadores pueden escribir código que se escribe
+código.  Discutimos esto en Generadores de código.  Pasa tiempo aprendiendo a usar estos
+herramientas, y en algún momento te sorprenderás al descubrir tus dedos moviéndose
+sobre el teclado, manipulando el texto sin pensamiento consciente.  Las herramientas
+se han convertido en extensiones de sus manos.
+El poder del texto simple Como programadores pragmáticos, nuestro material base no es de madera
+o el hierro, es el conocimiento.  Recogemos los requisitos como conocimiento, y luego expresamos
+
+creemos que el mejor formato para almacenar el conocimiento de forma persistente es el texto sin formato.
+Con texto claro, nos damos la habilidad de manipular el conocimiento, tanto
+manual y programáticamente, utilizando virtualmente todas las herramientas a nuestra disposición.
+¿Qué es el texto sin formato?  El texto sin formato se compone de caracteres imprimibles en un formulario
+que puede ser leído y comprendido directamente por las personas.  Por ejemplo, aunque la
+siguiente fragmento se compone de caracteres imprimibles, no tiene sentido.
+Fieldl9 = 467abe
+El lector no tiene ni idea de cuál puede ser el significado de un niño.  Una mejor opción
+sería hacer que sea comprensible para los seres humanos.
+DrawingType = UMLActivityDrawing
+El texto sin formato no significa que el texto no está estructurado;  XML, SGML y
+HTML son grandes ejemplos de texto sin formato que tiene una estructura bien definida.  Tú
+puede hacer todo con el texto llano que usted podría hacer con un cierto formato binario,
+incluyendo el control de versiones.  El texto normal tiende a estar en un nivel más alto que un
+codificación binaria, que normalmente se deriva directamente de la implementación.
+Suponga que desea almacenar una propiedad denominada uses_menus que puede ser
+Verdadero o falso.  Utilizando texto, puede escribir esto como
+myprop.uses_menus = FALSO
+Contraste esto con 0010010101110101. El problema con la mayoría de los formatos binarios es
+que el contexto necesario para comprender los datos es independiente de los datos
+sí mismo.  Estás divorciando artificialmente los datos de su significado.  Los datos pueden
+así como ser cifrado;  es absolutamente sin sentido sin la aplicación
+lógica para analizarla.  Con texto plano, sin embargo, puede lograr un auto-descripción
+que es independiente de la aplicación que lo creó.  Sugerencia 20
+Mantener el conocimiento en texto simple
+Inconvenientes Hay dos inconvenientes principales al usar el texto sin formato: (1) Puede tomar
+más espacio para almacenar que un formato binario comprimido, y (2) puede ser
+computacionalmente más costoso para interpretar y procesar un archivo de texto plano.
+Dependiendo de su aplicación, una o ambas situaciones pueden ser
+inaceptable -por ejemplo, cuando se almacenan datos de telemetría por satélite o
+formato interno de una base de datos relacional.  Pero incluso en estas situaciones,
+ser aceptable para almacenar metadatos sobre los datos sin procesar en texto
+Metaprogramación).  Algunos desarrolladores pueden preocuparse al poner los metadatos en claro
+texto, lo están exponiendo a los usuarios del sistema.  Este miedo está fuera de lugar.  Binario
+los datos pueden ser más oscuros que el texto sin formato, pero no es más seguro.  Si tu
+preocuparse por los usuarios que ven las contraseñas, encriptarlas.  Si no los quieres
+cambiando
+Los parámetros de configuración incluyen un hash seguro [1] de todos los parámetros
+valores en el archivo como una suma de comprobación.  [1]
+MD5 se utiliza a menudo para este propósito.  Para una excelente introducción al
+mundo maravilloso de la criptografía, véase [Sch95].
+El poder del texto Ya que más grandes y más lentos no son los más solicitados
+características de los usuarios, ¿por qué molestarse con el texto sin formato?  ¿Cuales son los beneficios?  •
+•
+•
+•
+•
+•
+Seguro contra la obsolescencia
+Seguros contra la obsolescencia Las formas legibles de datos, y
+auto-descriptivos, sobrevivirán a todas las demás formas de datos y las aplicaciones
+que los creó.  Período.  Mientras los datos sobreviva, tendrá una
+posibilidad de poder usarlo-potencialmente mucho después de la aplicación original
+que lo escribió es difunto.  Puede analizar tal archivo con sólo parcial
+conocimiento de su formato;  con la mayoría de los archivos binarios, debe conocer todos los detalles
+de todo el formato para analizarlo con éxito.  Considere un archivo de datos
+de algún sistema heredado [2] que se le da.  Usted sabe poco sobre el
+solicitud original;  todo lo que es importante para usted es que mantuvo una lista
+de los números de Seguridad Social de los clientes, que usted necesita para encontrar y extraer.  Entre
+los datos, usted ve [2]
+Todo software se convierte en legado tan pronto como está escrito.
+u003cFIELD10u003e 123-45-6789 u003c/ FIELD10u003e... u003cFIELD10u003e 567-89-0123 u003c/ FIELD10u003e...
+u003cFIELD10u003e 901-23-4567 u003c/ FIELD10u003e
+Reconociendo el formato de un número de Seguro Social, puede escribir rápidamente un
+pequeño programa para extraer esos datos, incluso si no tiene información sobre nada
+else en el archivo.
+Pero imagínese si el archivo se había formateado de esta manera:
+AC27123456789B11P... XY43567890123QTYL... 6T2190123456788AM
+Es posible que no haya reconocido la importancia de los números con la misma facilidad.
+Esta es la diferencia entre lo legible y lo humano
+comprensible.  Mientras estamos en ello, FIELD10 no ayuda mucho tampoco.  Alguna cosa
+me gusta null
+u003cSSNOu003e 123-45-6789 u003c/ SSNOu003e null
+hace que el ejercicio no-brainer-y se asegura de que los datos sobreviva a cualquier
+proyecto que lo creó.
+Aprovechar virtualmente todas las herramientas del universo de computación, desde el código fuente
+sistemas de gestión a los entornos de compilación para editores y filtros independientes,
+puede funcionar en texto plano.
+La Filosofía de Unix Unix es famoso por estar diseñado alrededor de la filosofía de
+herramientas pequeñas y afiladas, cada una destinada a hacer una cosa bien.  Esta filosofía es
+habilitado mediante el uso de un formato subyacente común: el archivo de texto plano orientado a líneas.
+Bases de datos utilizadas para la administración del sistema (usuarios y contraseñas,
+configuración, etc.) se mantienen como archivos de texto sin formato.  (algunos sistemas, tales como
+como Solaris, también mantienen formas binarias de ciertas bases de datos como un rendimiento
+mejoramiento.  La versión de texto sin formato se mantiene como una interfaz para el binario
+Cuando un sistema se bloquea, es posible que se enfrente a una
+(es posible que no pueda acceder a los controladores de gráficos,
+situaciones como esta pueden hacer que usted aprecie la
+simplicidad del texto sin formato.
+Por ejemplo, supongamos que tiene un despliegue de producción de
+aplicación con un archivo de configuración complejo específico del sitio (sendmail
+mente).  Si este archivo está en texto plano, podría colocarlo bajo un código fuente
+(consulte Control de código fuente), para que mantenga automáticamente un
+historia de todos los cambios.  Herramientas de comparación de archivos como diff y fc le permiten
+ver de un vistazo qué cambios se han hecho, mientras que la suma le permite generar un
+checksum para supervisar el archivo para la modificación accidental (o maliciosa).
+Pruebas más sencillas Si utiliza texto sin formato para crear datos sintéticos para impulsar el sistema
+pruebas, entonces es una cuestión sencilla añadir, actualizar o modificar los datos de la prueba
+sin tener que crear herramientas especiales para hacerlo.  Del mismo modo, el texto sin formato
+la salida de las pruebas de regresión puede analizarse trivialmente (con diff, para
+ejemplo) o sometido a un escrutinio más profundo con Perl, Python o algunos
+otra herramienta de secuencias de comandos.
+El Menor Denominador Común Incluso en el futuro de los agentes inteligentes basados ​​en XML
+que viajan de forma autónoma el peligroso y peligroso Internet, negociando datos
+intercambio entre sí, el archivo de texto omnipresente seguirá allí.  En
+hecho, en ambientes heterogéneos las ventajas del texto plano pueden compensar
+todos los inconvenientes.  Debe asegurarse de que todas las partes puedan comunicarse
+un estándar común.  El texto simple es ese estándar.
+Las secciones relacionadas incluyen: •
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+Código fuente Códigos Generadores de código Metaprogramación Pizarras Ubiquitous
+Automatización Es todo escrito
+Desafíos •
+Diseñe una pequeña base de datos de direcciones (nombre, número de teléfono, etc.)
+representación binaria directa en su idioma de elección.  Hacer esto
+antes de leer el resto de este reto.
+•
+1. 1.
+2. 2.
+Traducir ese formato a un formato de texto sin formato utilizando XML.  Para cada versión,
+agregue un nuevo campo de longitud variable llamado direcciones en las que puede ingresar
+direcciones a la casa de cada persona.
+¿Qué problemas surgen con el control de versiones y la extensibilidad?  Cual forma fue
+más fácil de modificar?  ¿Qué pasa con la conversión de los datos existentes?
+Shell Games Cada carpintero necesita un buen banco de trabajo, sólido, confiable, en alguna parte
+para mantener las piezas de trabajo a una altura conveniente mientras las trabaja.  los
+el banco de trabajo se convierte en el centro de la tienda de madera, el artesano vuelve a ella
+una y otra vez como una pieza toma forma.  Para un programador que manipula
+archivos de texto, ese banco de trabajo es el shell de comandos.  Desde el indicador de shell,
+puede invocar su repertorio completo de herramientas, utilizando tuberías para combinarlas de maneras
+nunca soñado por sus desarrolladores originales.  Desde el shell, puede iniciar
+aplicaciones, depuradores, navegadores, editores y utilidades.  Puedes buscar
+archivos, consultar el estado del sistema y la salida del filtro.  Y mediante la programación
+el shell, puede crear comandos macro complejos para las actividades que realice
+a menudo.  Para programadores planteados en interfaces GUI y desarrollo integrado
+(IDEs), esto podría parecer una posición extrema.  Después de todo, no puedes
+hacer todo igualmente bien apuntando y haciendo clic?  La respuesta simple es
+"no." Interfaces GUI son maravillosos, y pueden ser más rápido y más conveniente
+para algunas operaciones simples.  Mover archivos, leer correo electrónico codificado con MIME y
+escribiendo letras son todas las cosas que usted puede ser que desee hacer en un gráfico
+ambiente.  Pero si haces todo tu trabajo usando GUIs, te estás perdiendo
+todas las capacidades de su entorno.  No será posible automatizar
+tareas, o utilizar toda la potencia de las herramientas disponibles para usted.  Y no serás
+capaz de combinar sus herramientas para crear herramientas de macros personalizadas.  Un beneficio de las GUI
+es WYSIWYG, lo que ves es lo que obtienes.  La desventaja es WYSIAYG-lo que
+ver es todo lo que obtienes.  Los entornos GUI normalmente se limitan a las capacidades
+que sus diseñadores pretendían.  Si necesita ir más allá del modelo el diseñador
+siempre, por lo general no tienes suerte, y más a menudo que no, necesitas
+ir más allá del modelo.  Los programadores pragmáticos no sólo cortan código,
+modelos de objetos, o escribir documentación, o automatizar el proceso de
+de estas cosas.  El alcance de cualquier herramienta se limita generalmente a las tareas que
+la herramienta se espera que realice.  Por ejemplo, supongamos que necesita integrar un
+preprocesador de código (para implementar el diseño por contrato o multiprocesamiento).
+pragmas, o algo así) en su IDE.  A menos que el diseñador del IDE
+explícitamente proporcionado ganchos para esta capacidad, no puede hacerlo.  Puedes
+ya sea cómodo trabajando desde el símbolo del sistema, en cuyo caso puede
+salte con seguridad esta sección.  De lo contrario, es posible que deba convencerse de que la
+shell es tu amigo.  Como programador pragmático, usted siempre querrá
+realizar operaciones ad hoc, cosas que la GUI puede no admitir.  La línea de comandos
+es más adecuado cuando se desea combinar rápidamente un par de comandos para
+realizar una consulta o alguna otra tarea.  Aquí están algunos ejemplos.
+Encuentre todos los archivos.c modificados más recientemente que su Makefile.  Shell... encontrar.
+-name '*.c' -newer Makefile-print GUI..... Abra el Explorador, navegue a la
+correcto, haga clic en el Makefile y anote el tiempo de modificación.  Entonces
+abra Herramientas / Buscar e ingrese *.c para la especificación del archivo.  Seleccione la fecha
+e ingrese la fecha que anotó para el Makefile en el primer campo de fecha.
+A continuación, pulse Aceptar.
+Construir un archivo zip / tar de mi fuente.  Shell... zip archive.zip *.h *.c tar
+cvf archivo.tar *.h *.c
+GUI..... Traer una utilidad ZIP (como el shareware WinZip [URL 41], seleccione
+"Crear nuevo archivo", introduzca su nombre, seleccione el directorio de origen en el complemento
+diálogo", establezca el filtro en"*.c", haga clic en"Agregar", establezca el filtro en"*.h", haga clic en
+"Añadir"y luego cerrar el archivo.
+¿Qué archivos Java no se han cambiado en la última semana?  Shell... encontrar.  -nombre
+'*.java' -mtime +7 -print GUI..... Haga clic y navegue hasta"Buscar archivos", haga clic en
+"Nombre"y escriba"*.java", seleccione la pestaña"Fecha de modificación".  Luego seleccione
+"Entre." Haga clic en la fecha de inicio y escriba la fecha de inicio del
+comienzo del proyecto.  Haga clic en la fecha de finalización y escriba la fecha de
+semana hace hoy (sea seguro tener un calendario práctico).  Haga clic en"Buscar ahora".
+De esos archivos, que utilizan las bibliotecas awt?  Shell... encontrar.  -name '*.java'
+-mtime +7-impresión |  xargs grep 'java.awt' GUI..... Cargue cada archivo de la lista desde
+el ejemplo anterior en un editor y buscar la cadena"java.awt".  Escribir
+abajo el nombre de cada archivo que contiene una coincidencia.
+Claramente la lista podría continuar.  Los comandos de shell pueden ser oscuros o
+son poderosos y concisos.  Y, porque los comandos de shell pueden combinarse en
+archivos de comandos (o archivos de comandos en sistemas Windows), puede crear secuencias
+de comandos para automatizar las cosas que haces con frecuencia.  Consejo 21 Usar el poder del comando
+Conchas
+Familiarícese con el shell, y verá que su productividad aumenta.
+Necesita crear una lista de todos los nombres de paquetes exclusivos importados explícitamente por
+tu código Java  Lo siguiente lo almacena en un archivo llamado"list".
+grep '^ import' *.java |  sed -e's /.* import
+* // '-e's /;.*$//' |
+ordenar -uu003e lista
+Si no has pasado mucho tiempo explorando las capacidades del shell de comandos
+en los sistemas que utilice, esto puede parecer desalentador.  Sin embargo, invertir algo de energía
+en familiarizarse con su cáscara y las cosas pronto comenzarán a caer en
+lugar.  Juegue con su shell de comandos, y se sorprenderá de cuánto
+más productivo que te hace.
+Shell Utilities y sistemas Windows Aunque los shells de comandos provistos con
+Los sistemas Windows están mejorando gradualmente, las utilidades de línea de comandos de Windows son
+aún inferior a sus homólogos de Unix.  Sin embargo, no todo está perdido.  Cygnus
+Solutions tiene un paquete llamado Cygwin [URL 31].  Además de proporcionar un Unix
+compatible con Windows, Cygwin viene con una colección de más de
+120 utilidades Unix, incluyendo los favoritos como 1s, grep, y find.  los
+utilidades y bibliotecas se pueden descargar y utilizar de forma gratuita, pero asegúrese de
+leer su licencia. [3]  La distribución Cygwin viene con el shell Bash.  [3]
+La Licencia Pública General GNU [URL 57] es una especie de virus legal que abre
+Los desarrolladores de fuentes utilizan para proteger su
+(y sus) derechos.  Usted debe pasar algún tiempo leyendo.  En esencia, dice
+que puede utilizar y modificar el software GPL'd, pero si distribuye
+modificaciones deben ser licenciados de acuerdo a la GPL (y marcados como tales),
+y debes
+hacer que la fuente esté disponible.  Esa es la parte del virus, siempre que obtengas una obra de un trabajo GPL, tu trabajo derivado debe
+también ser GPL'd.  Sin embargo, no te limita de ninguna manera cuando simplemente
+herramientas-la propiedad y licencias de software desarrollado utilizando las herramientas están
+para ti.
+Uso de herramientas Unix bajo Windows Nos encanta la disponibilidad de Unix de alta calidad
+herramientas bajo Windows, y usarlas diariamente.  Sin embargo, tenga en cuenta que existen
+integración.  A diferencia de sus contrapartes Ms-dos, estas utilidades son
+sensible al caso de los nombres de archivo, por lo que un *.bat no encontrará AUTOEXEC.BAT.  Tú
+también pueden encontrar problemas con nombres de archivo que contienen espacios, y con
+diferencias en los separadores de ruta.  Finalmente, hay problemas interesantes cuando
+ejecutando Ms-dos programas que esperan argumentos estilo Ms-DOS bajo el Unix
+shells, Por ejemplo, las utilidades Java de JavaSoft usan dos puntos como su
+CLASSPATH en Unix, pero utilice un punto y coma bajo MS-DOS.  Como resultado,
+un script Bash o ksh que se ejecuta en un cuadro Unix se ejecutará idénticamente en
+Windows, pero la línea de comandos que pasa a Java se interpretará
+incorrectamente.  Por otra parte, David Korn (de la fama de shell Korn) ha reunido un
+paquete llamado uwin.  Esto tiene los mismos objetivos que la distribución Cygwin: es un
+Entorno de desarrollo de Unix bajo Windows.  UWIN viene con una versión del
+Cáscara de Korn.  Las versiones comerciales están disponibles en Global Technologies, Ltd.
+[URL 30].  Además, AT & T permite la descarga gratuita del paquete para
+evaluación y uso académico.  Una vez más, lea su licencia antes de usar.  Finalmente,
+Tom Christiansen es (en el momento de redactar el artículo) reuniendo Perl Power Tools,
+un intento de implementar portables todas las utilidades de Unix de forma familiar, en Perl [URL
+32],
+Las secciones relacionadas incluyen: •
+•
+Automatización ubicua
+Desafíos •
+¿Hay cosas que usted está haciendo actualmente manualmente en una GUI?  Alguna vez
+pasar instrucciones a los colegas que involucran a un número de individuos"haga clic en este
+botón","seleccionar este elemento"pasos? ¿Podrían estos ser automatizado?
+•
+•
+•
+Cada vez que se mueven a un nuevo entorno, hacer un punto de averiguar lo que los depósitos
+están disponibles.  Vea si puede traer su shell actual con usted.  • Investigar
+alternativas a su shell actual.  Si te encuentras con un problema, tu shell
+no puede tratar, ver si un shell alternativo sería mejor.  •
+Edición de Poder Hablamos antes de que las herramientas sean una extensión de su mano.
+Bueno, esto se aplica a los editores más que a cualquier otra herramienta de software.  Necesitas
+ser capaz de manipular el texto tan fácilmente como sea posible, porque el texto es el
+materia prima básica de la programación.  Veamos algunas características comunes y
+funciones que le ayudan a aprovechar al máximo su entorno de edición.
+Un editor Creemos que es mejor conocer muy bien a un editor y usarlo para
+todas las tareas de edición: código, documentación, notas, administración del sistema, etc.
+en.  Sin un solo editor, se enfrenta a un día Babel de hoy
+Confusión.  Puede que tenga que utilizar el editor incorporado en el IDE de cada idioma para
+codificación y un producto de oficina todo en uno para documentación, y tal vez un
+diferente editor incorporado para enviar correo electrónico.  Incluso las teclas que usa para
+editar las líneas de comandos en el shell puede ser diferente. [4]  Es difícil ser
+competente en cualquiera de estos entornos si tiene un conjunto diferente de edición
+convenciones y comandos en cada uno.  [4]
+Idealmente, el shell que utilice debe tener combinaciones de teclas que coincidan con las utilizadas por
+su editor.  Bash, por ejemplo,
+admite las combinaciones de teclas vi y emacs.
+Necesitas ser proficiente.  Simplemente tecleando linealmente y usando un mouse para cortar y
+pasta no es suficiente.  Usted simplemente no puede ser tan efectivo como usted puede o con
+un poderoso editor bajo tus dedos.  Escribir diez veces para mover el cursor hacia la izquierda
+al comienzo de una línea no es tan eficiente como escribir una sola clave como
+Sugerencia 22 Usar un solo editor bien
+o null
+.
