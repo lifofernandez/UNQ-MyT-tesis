@@ -113,7 +113,7 @@ references:
       - 20
   title: 'Manifiesto del Laboratorio de Software Libre'
   title-short: 'Manifiesto del LabSL'
-  container-title: "Laboratorio de Software Libre del Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte"
+  container-title: "Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte"
   URL : https://labsl.multimediales.com.ar/Manifiesto_del_Laboratorio_de_Software_Libre_.html
   language: es-AR
 
@@ -205,8 +205,6 @@ references:
 #   ISBN:
 #   URL : 
 #   language: en-GB
-
-
 
 # ###########
 #
