@@ -3,13 +3,14 @@
 ## 1. Resumen 
 
 El presente plan propone la definición de una gramática neutral de hojas de
-análisis o planes de obra musical, basada en texto plano serializado y
-legible[^ver_combs], acompañada por el desarrollo de un sistema de herramientas
-para interfaz de línea de comandos (Command Line Interface)[^ver_leek][^ver_hunt] que
-genere, a partir de estos ficheros, secuencias musicales en el estándar MIDI. 
+análisis o planes de obra musical, basada en texto plano [^ver_hunt][^ver_leek]
+serializado y legible[^ver_combs], acompañada por el desarrollo de un sistema
+de herramientas para interfaz de línea de comandos (Command Line
+Interface)[^ver_hunt] que genere, a partir de estos ficheros, secuencias
+musicales en el estándar MIDI. 
 
 Se documentará este desarrollo para su correcta publicación enmarcada
-bajo premisas del software libre y abierto[^ver_gnu][^ver_yzaguirre].
+bajo premisas del software libre[^ver_gnu][^ver_yzaguirre].
 
 [^ver_combs]: @coombs 
 [^ver_hunt]: @hunt
@@ -257,7 +258,8 @@ MusicXML.
 
 #### 4.4 Music Markup Language 
 
-El Lenguaje de Marcado de Música (MML) es un intento de marcar objetos y
+
+El Lenguaje de Marcado de Música (MML)[^ver_mml] es un intento de marcar objetos y
 eventos de música con un lenguaje basado en XML. La marcación de estos objetos
 debería permitir gestionar la música documentos para diversos fines, desde la
 teoría musical y la notación hasta rendimiento práctico. Este proyecto no está
@@ -279,6 +281,7 @@ menos los siguientes formatos:
  usar software especial. Así que cualquier persona con un editor de texto debe
 ser capaz de secuenciar la música de esta manera.
 
+[^ver_mml]: @mml
 
 ## 5. Metodología
 
