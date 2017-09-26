@@ -22,7 +22,7 @@ bajo premisas del software libre[^ver_gnu][^ver_yzaguirre].
 
 ### 2.1 ¿Por qué Texto Plano?
 
-> "As Pragmatic Programmers, our base material isn't wood or iron, it's
+> "...our base material isn't wood or iron, it's
 > knowledge. [...]. And we believe that the best format for storing knowledge
 > persistently is plain text.  With plain text, we give ourselves the ability to
 > manipulate knowledge, both manually and programmatically, using virtually every
@@ -97,10 +97,13 @@ Las motivaciones principales del desarrollo que este plan propone son:
 
 ## 4. Marco referencial 
 
-### 4.1 MuseData
+A continuación se describen algunos desarrollos que vinculan representación y manipulación de información
+musical.
+
+## 4.1 MuseData
 
 La base de datos MuseData [^ver_selfridge] es un proyecto y a la vez el sistema de codificación
-principal Centro de Investigación Asistida por Computador en Humanidades
+principal del Centro de Investigación Asistida por Computador en Humanidades
 (CCARH). La base de datos fue creado por Walter Hewlett. 
 
 Los archivos MuseData tienen el potencial de existir en múltiples formatos
@@ -316,13 +319,15 @@ ser capaz de secuenciar la música de esta manera.
 
 ## 6. Cronograma de Trabajo
 
-|                                           | Tiempo Estipulado |  Fechas Tentativas      |
-|-------------------------------------------|-------------------|-------------------------|
-| Boceto de sintaxis y prototipo aplicación | 4 semanas         | Del XX al XX de XXXXXX  |
-| Definición de gramática                   | 5 semanas         | Del XX al XX de XXXXXX  |
-| Dasarrollo de aplicaciones                | 7 semanas         | Del XX al XX de XXXXXX  |
-| Pruebas y optimización                    | 3 semanss         | Del XX al XX de XXXXXX  |
-| Documentación                             | 5 semanas         | Del XX al XX de XXXXXX  |
+|                             | Tiempo Estipulado | Fechas Tentativas       |
+|-----------------------------|-------------------|-------------------------|
+| Boceto de sintaxis          | 1 semana          | Del XX al XX de XXXXXX  |
+| Prototipo aplicación        | 2 semanas         | Del XX al XX de XXXXXX  |
+| Entrevistas y consultas     | 1 semana          | Del XX al XX de XXXXXX  |
+| Definición de gramática     | 5 semanas         | Del XX al XX de XXXXXX  |
+| Dasarrollo de herramientas  | 7 semanas         | Del XX al XX de XXXXXX  |
+| Pruebas y optimización      | 3 semanss         | Del XX al XX de XXXXXX  |
+| Documentación               | 5 semanas         | Del XX al XX de XXXXXX  |
 
 ## 7. Bibliografía
 
