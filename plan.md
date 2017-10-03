@@ -2,12 +2,13 @@
 
 ## 1. Resumen 
 
-El presente plan propone la definición de una gramática neutral de hojas de
-análisis o planes de obra musical, basada en texto plano [^ver_hunt][^ver_leek]
-serializado y legible[^ver_combs], acompañada por el desarrollo de un sistema
-de herramientas para interfaz de línea de comandos (Command Line
-Interface)[^ver_hunt] que genere, a partir de estos ficheros, secuencias
-musicales en el estándar MIDI. 
+El presente plan propone la definición de una gramática neutral para
+representar un discurso musical en estructura de hojas de análisis o planes de
+obra, basada en texto plano [^ver_hunt][^ver_leek] serializado y
+legible[^ver_combs], acompañada por el desarrollo de un sistema de herramientas
+para interfaz de línea de comandos (Command Line Interface)[^ver_hunt] que
+genere secuencias musicales en el estándar MIDI manipulando la información
+representada en estos ficheros
 
 Se documentará este desarrollo para su correcta publicación enmarcada
 bajo premisas del software libre[^ver_gnu][^ver_yzaguirre].
@@ -97,8 +98,9 @@ Las motivaciones principales del desarrollo que este plan propone son:
 
 ## 4. Marco referencial 
 
-A continuación se describen algunos desarrollos que vinculan representación y manipulación de información
-musical.
+A continuación se describen algunos desarrollos que vinculan representación y
+manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como ejemplo
+de un marco de programación basada en una sintaxis declarativa se cosidero Flocking.
 
 ## 4.1 MuseData
 
@@ -186,13 +188,13 @@ de página) y archivos de performance MIDI, que podrían editarse como el usuari
 lo crea conveniente. Las razones de esta postura son dos:
 
 * Cuando se codifica una obra musical, no es la partitura sino el contenido
- lógico de la partitura lo que codifica. Codificar la puntuación significaría
+  lógico de la partitura lo que codifica. Codificar la puntuación significaría
 codificar la posición exacta de cada nota en la página; pero nuestra opinión es
 que tal codificación realmente contendría más información que la que el
 compositor pretende transmitir.
 
 * No se puede anticipar todos los usos a los cuales podrían darse estos datos,
- pero se pude estar bastante seguro de que cada usuario tendrá sus propias
+  pero se pude estar bastante seguro de que cada usuario tendrá sus propias
 necesidades especiales y preferencias. Por lo tanto, no tiene sentido tratar de
 codificar información acerca de cómo debe verse una realización gráfica de los
 datos o cómo sonido que estos datos representan debe sonar.
@@ -207,11 +209,11 @@ documentos de partitura y archivos MIDI.
 
 ### 4.2 Humdrum
 
-David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado constantemente por
-décadas. Humdrum es un conjunto de herramientas de línea de comandos que
-facilita el análisis, así como una sintaxis generalizada para representar
-secuencias de datos. Debido a que es un conjunto de herramientas de línea de
-comandos, es el lenguaje de programa agnóstico. Muchos han empleado
+David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado
+constantemente por décadas. Humdrum es un conjunto de herramientas de línea de
+comandos que facilita el análisis, así como una sintaxis generalizada para
+representar secuencias de datos. Debido a que es un conjunto de herramientas de
+línea de comandos, es el lenguaje de programa agnóstico. Muchos han empleado
 herramientas de Humdrum en secuencias de comandos más grandes que utilizan
 PERL, Ruby, Python, Bash, LISP y C++.
 
@@ -225,10 +227,10 @@ discreta como una serie de registros en un archivo de computadora.
 * Su definición permite que se codifiquen muchos tipos de información.
 
 * El esquema esencial utilizado en la base de datos CCARH para la altura y la
- duración musical es sólo uno de un conjunto abierto.
+  duración musical es sólo uno de un conjunto abierto.
 
 * Algunos otros esquemas pueden ser aumentados por gramáticas definidas por el
- usuario para tareas de investigación.
+  usuario para tareas de investigación.
 
 #### 4.2.2 Manipulación
 
@@ -241,14 +243,14 @@ El énfasis está en **asistido**:
 * Humdrum no posee facultades analíticas de nivel superior per se.
 
 * Más bien, su poder deriva de la flexibilidad de su kit de elementos, que el
- usuario debe aprender a utilizar en combinación para explotar plenamente el
+  usuario debe aprender a utilizar en combinación para explotar plenamente el
 potencial del sistema.
 
 ### 4.3 MusicXML
 
-MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música entre
-aplicaciones y para archivar registros de música para uso en el futuro. Se
-puede contar con archivos de MusicXML que son legibles y utilizables por una
+MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música
+entre aplicaciones y para archivar registros de música para uso en el futuro.
+Se puede contar con archivos de MusicXML que son legibles y utilizables por una
 amplia gama de notaciones musicales, ahora y en el futuro. MusicXML complementa
 al los formatos de archivo utilizados por Finale y otros programas.
 
@@ -262,12 +264,13 @@ MusicXML.
 #### 4.4 Music Markup Language 
 
 
-El Lenguaje de Marcado de Música (MML)[^ver_mml] es un intento de marcar objetos y
-eventos de música con un lenguaje basado en XML. La marcación de estos objetos
-debería permitir gestionar la música documentos para diversos fines, desde la
-teoría musical y la notación hasta rendimiento práctico. Este proyecto no está
-completo y está en progreso. El primer borrador de una posible DTD está
-disponible y se ofrecen algunos ejemplos de piezas de música marcadas con MML.
+El Lenguaje de Marcado de Música (MML)[^ver_mml] es un intento de marcar
+objetos y eventos de música con un lenguaje basado en XML. La marcación de
+estos objetos debería permitir gestionar la música documentos para diversos
+fines, desde la teoría musical y la notación hasta rendimiento práctico. Este
+proyecto no está completo y está en progreso. El primer borrador de una posible
+DTD está disponible y se ofrecen algunos ejemplos de piezas de música marcadas
+con MML.
 
 El enfoque es modular. Muchos módulos aún están incompletos y necesitan más
 investigación y atención.
@@ -276,15 +279,21 @@ Si una pieza musical está serializada usando MML puede ser entregada en al
 menos los siguientes formatos: 
 
 * Texto: representación de notas como, por ejemplo, piano-roll (como el que se
- encuentra en el software del secuenciador de computadora)
+  encuentra en el software del secuenciador de computadora)
 
 * Common Western Notation: Notación musical occidental en pantalla o en papel
 
 * MIDI-device: MML hace posible "secuenciar" una pieza de música sin tener que
- usar software especial. Así que cualquier persona con un editor de texto debe
+  usar software especial. Así que cualquier persona con un editor de texto debe
 ser capaz de secuenciar la música de esta manera.
 
 [^ver_mml]: @mml
+
+#### 4.4 Flocking 
+
+
+[^ver_colin]
+[^ver_colin]: @colin
 
 ## 5. Metodología
 

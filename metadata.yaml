@@ -183,7 +183,31 @@ references:
   container-title: 'Steyn'
   URL: https://steyn.pro/mml
   language: en-GB
-  
+
+- type:
+  id: colin
+  author: 
+  - family: Clark
+    given: Colin 
+  - family: Tindale
+    given: Adam
+  issued:
+    date-parts:
+    - - 2014 
+      - 01
+      - 01
+  title: "Flocking: A Framework for Declarative Music-Making on the Web"
+  title-short: "Flocking"
+  container-title: "The Joint Proceedings of the ICMC and SMC"
+  volume: 
+  issue: 
+  page: 
+  publisher: "Georgaki, A. and Kouroupetroglou (eds.)"
+  DOI:
+  ISBN:
+  URL : 
+  language: en-GB
+
 # - type:
 #   id:
 #   author:

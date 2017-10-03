@@ -1,0 +1,35 @@
+Flocking logo
+
+What is Flocking?
+
+Flocking is a JavaScript audio synthesis framework designed for artists and
+musicians who are building creative and experimental Web-based sound projects.
+It runs in Firefox, Chrome, Safari, and Node.js on Mac OS X, Windows, Linux,
+iOS, and Android.
+
+Flocking is different. Its goal is to promote a uniquely community-minded
+approach to instrument design and composition. In Flocking, unit generators and
+synths are specified declaratively as JSON, making it easy to save, share, and
+manipulate your synthesis algorithms. Send your synths via Ajax, save them for
+later using HTML5 local data storage, or algorithmically produce new
+instruments on the fly.
+
+Because it's just JSON, every instrument you build using Flocking can be easily
+modified and extended by others without forcing them to fork or cut and paste
+your code. This declarative approach will also help make it easier to create
+new authoring, performance, metaprogramming, and social tools on top of
+Flocking.
+
+Flocking was inspired by the SuperCollider desktop synthesis environment. If
+you're familiar with SuperCollider, you'll feel at home with Flocking.
+
+To learn more about Flocking's architecture and approach, see Clark, C. and Tindale, Adam. "Flocking: A Framework for Declarative Music-Making on the Web" in Georgaki, A. and Kouroupetroglou (eds.). The Joint Proceedings of the ICMC and SMC, (2014).
+
+The latest stable release of Flocking is version 0.1.2. It is distributed under
+both the MIT and GPL licenses.
+
+  • Try Flocking
+  • Download v0.1.2
+  • Source Code
+  • Documentation
+
