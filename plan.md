@@ -10,12 +10,13 @@ para interfaz de línea de comandos (Command Line Interface)[^ver_hunt] que
 genere secuencias musicales en el estándar MIDI manipulando la información
 representada en estos ficheros
 
-Se documentará este desarrollo para su correcta publicación enmarcada
+Se documentará[^ver_kernighan] este desarrollo para su correcta publicación enmarcada
 bajo premisas del software libre[^ver_gnu][^ver_yzaguirre].
 
 [^ver_combs]: @coombs 
 [^ver_hunt]: @hunt
 [^ver_leek]: @leek
+[^ver_kernighan]: @kernighan
 [^ver_gnu]: @gnu
 [^ver_yzaguirre]: @yzaguirre
 
@@ -100,9 +101,9 @@ Las motivaciones principales del desarrollo que este plan propone son:
 
 A continuación se describen algunos desarrollos que vinculan representación y
 manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como ejemplo
-de un marco de programación basada en una sintaxis declarativa se cosidero Flocking.
+de un marco de programación basada en una sintaxis declarativa se cosideró Flocking.
 
-## 4.1 MuseData
+### 4.1 MuseData
 
 La base de datos MuseData [^ver_selfridge] es un proyecto y a la vez el sistema de codificación
 principal del Centro de Investigación Asistida por Computador en Humanidades
@@ -291,63 +292,32 @@ ser capaz de secuenciar la música de esta manera.
 
 ### 4.5 Flocking 
 
-```{.dot caption="example graph." label="the_example"}
 
-graph graphname {
-	 a [texlbl="$\alpha$"];
-	 b [texlbl="$\beta$"];
-	 b1 [texlbl="$\beta_1$"];
-	 b2 [texlbl="$\beta_2$"];
-     a -- b
-     b -- b1
-	 b -- b2
- }
-```
-Flocking[^ver_colin] es un nuevo marco para la composición de música por computadora que
-aprovecha las tecnologías e ideas existentes para crear un sistema robusto,
-flexible y expresivo.  Flocado combina el patrón del generador de unidades de
-muchos idiomas de música de computadora con tecnologías Web Audio para permitir
-a los usuarios interactuar con sitios Web existentes y potenciales tecnologías.
-Los usuarios interactúan con Flocking usando un estilo declarativo de
-programación.
-
-El beneficio del enfoque de Flocking, al considerar se han demostrado varios
-ejemplos de entornos de desarrollo web que utilizan tanto expresiones textuales
-como visuales.  Flocking proporciona a los usuarios una forma clara y semántica
-de representan los materiales de la música digital, un marco prometedor para el
-crecimiento de nuevas características y herramientas, y una huella de
-rendimiento ligero.
-
-Flocking es un marco para la síntesis de audio y composición musical escrita
-en JavaScript.  Se necesita una enfoque para resolver varios de los problemas
-arquitectónicos los problemas que enfrentan los entornos de música por
-ordenador, haciendo hincapié en un estilo declarativo que está estrechamente
-principios de la web.
+Flocking[^ver_colin] es un framework, escrito en JavaScript, para la
+composición de música por computadora que aprovecha las tecnologías e ideas
+existentes para crear un sistema robusto, flexible y expresivo.  Flocking
+combina el patrón generador de unidades de muchos idiomas de música de
+computadora con tecnologías Web Audio para permitir a los usuarios interactuar
+con sitios Web existentes y potenciales tecnologías.  Los usuarios interactúan
+con Flocking usando un estilo declarativo de programación.
 
 El objetivo de Flocking es permitir el crecimiento de un ecosistema de
 herramientas que puedan analizar y entender fácilmente la lógica y la semántica
-de los instrumentos digitales mediante la básicos de síntesis de forma
-declarativa.  Esto es particularmente útil para soportar la composición
-generativa (donde los programas generan nuevos instrumentos y puntajes de forma
-algorítmica), herramientas gráficas (para que programadores y no programadores
-colaboren), y nuevos modos de programación social que permiten a los músicos
-adaptar, ampliar y volver a trabajar fácilmente los instrumentos existentes sin
-tener que "Fork"su código.
-
-Flocking proporciona una arquitectura robusta, optimizada y bien probada que
-apoya explícitamente la extensibilidad y el crecimiento a largo plazo.
-
-Flocaje se ejecuta en casi cualquier moderno Entorno de JavaScript, incluyendo
-escritorio y móviles navegadores (Chrome, Firefox y Safari), así como en
-dispositivos incrustados con Node.js.  
+de los instrumentos digitales representando de forma declarativa los pilares
+básicos de síntesis de audio.  Esto es particularmente útil para soportar la
+composición generativa (donde los programas generan nuevos instrumentos y
+puntajes de forma algorítmica), herramientas gráficas (para que programadores y
+no programadores colaboren), y nuevos modos de programación social que permiten
+a los músicos adaptar, ampliar y volver a trabajar fácilmente en instrumentos
+existentes.
 
 [^ver_colin]: @colin
 
 #### 4.5.1 Como funciona Flocking
 
-El núcleo del marco Flocking consiste en varios componentes interconectados que
-proporcionan el comportamiento esencial de interpretar e instanciar generadores
-de unidades, producir corrientes de muestras y programar cambios.  Los
+El núcleo del framework Flocking consiste en varios componentes interconectados
+que proporcionan la capacidad esencial de interpretar e instanciar
+generadores de unidades, producir flujos de muestras y programar procesos. Los
 principales componentes de Flocking incluyen:
 
 1. el intérprete Flocking, que analiza e instancia sintetizadores, generadores
@@ -355,24 +325,25 @@ de unidad y búferes
 
 2. el medio ambiente, que representa el audio general y su configuración
 
-3. Audio Strategies, que son salida de audio conectable (vinculados a los
+3. Audio Strategies, que son las salidas de audio conectables (vinculados a los
 backends como la API de audio web o ALSA en Node.js)
 
-4. Generadores unitarios (ugens), que son las primitivas generadoras de
-muestras utilizadas para producir sonido
+4. Generadores unitarios (ugens), que son funciones primitivas generadoras de
+   las muestras utilizadas para producir sonido
 
-5. Sintetizadores, que representan instrumentos y colecciones de la lógica de
+5. Sintetizadores, que representan instrumentos y colecciones en la lógica de
 generación de señales
 
-6. el Programador, que gestiona el cambio basado en el tiempo eventos en un
-sintetizador
+6. el Programador, que gestiona el cambio secunecial (basado en el tiempo)
+   eventos en un sintetizador
 
 #### 4.5.2 Programación declarativa
 
-Arriba, describimos Flocking como un marco declarativo. Esta característica es esencial para comprender su diseño.
+Arriba, describimos Flocking como un marco **declarativo**. Esta característica es
+esencial para comprender su diseño.
 
 La programación declarativa se puede entender en el contexto de Flocking como
-teniendo dos aspectos esenciales:
+dos aspectos esenciales:
 
 1. enfatiza una visión semántica de alto nivel de la lógica y estructura de un
 programa
@@ -380,8 +351,7 @@ programa
 2. representa los programas como estructuras de datos que pueden ser entendido
 por otros programas 
 
-J.W. Lloyd describe informalmente la programación declarativa como "indicando
-lo que se va a calcular, pero no necesariamente cómo se va a calcular"[7].  El
+el
 énfasis aquí es sobre los aspectos lógicos o semánticos de la computación, que
 en la secuenciación de bajo nivel y el flujo de control.  Tradicional los
 estilos de programación imperativos suelen una"audiencia de uno" -el compilador.
@@ -444,6 +414,18 @@ otros programas.
 | Pruebas y optimización      | 3 semanss         | Del XX al XX de XXXXXX  |
 | Documentación               | 5 semanas         | Del XX al XX de XXXXXX  |
 
+```{.dot caption="example graph." label="the_example"}
+
+graph graphname {
+     a [texlbl="$\alpha$"];
+     b [texlbl="$\beta$"];
+     b1 [texlbl="$\beta_1$"];
+     b2 [texlbl="$\beta_2$"];
+     a -- b
+     b -- b1
+     b -- b2
+ }
+```
 ## 7. Bibliografía
 
 

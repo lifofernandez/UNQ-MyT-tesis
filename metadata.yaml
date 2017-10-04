@@ -100,6 +100,44 @@ references:
   page: 72-99
   ISBN:  978-0-2016-1622-4
   language: en-GB
+
+- type: book
+  id: kernighan 
+  author: 
+  - family: Kernighan
+    given: Brian W.
+  - family: Plaguer 
+    given: P. J. 
+  issued:
+    date-parts:
+    - - 1978
+      - 1
+      - 1
+  title: 'The Elemenets Of Programing Style'
+  publisher: 'McGRAW-HILL BOOK COMPANY' 
+  page: 141-53 
+  ISBN: 9780070342071
+  language: en-GB
+
+- type: book
+  id: hunt
+  author:
+  - family: Hunt 
+    given: Andrew  
+  - family: Thomas
+    given: David 
+  issued:
+    date-parts:
+    - - 1999
+      - 10
+      - 13
+  title: 'The Pragmatic Programmer: From Journeyman to Master'
+  title-short: 'The Pragmatic Programmer'
+  publisher: 'The Pragmatic Bookshelf'
+  editor: 'Addison Wesley'
+  page: 72-99
+  ISBN:  9780201616224
+  language: en-GB
  
 - type: post-weblog
   id: yzaguirre

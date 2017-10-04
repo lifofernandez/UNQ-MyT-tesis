@@ -18,5 +18,5 @@ pandoc plan.md metadata.yaml --template=tesis -o output/lisandro_fernandez-plan_
 
 ---
 
-pandoc plan.md metadata.yaml --template=tesis -o output/lisandro_fernandez-plan_de_tesis.pdf -s -S --csl=iso690-author-date-es.csl --filter=pandoc-citeproc --filter=./vendor/dot2tex-filter.py 
+pandoc plan.md metadata.yaml --template=tesis -o output/lisandro_fernandez-plan_de_tesis.pdf -s -S --csl=vendor/iso690-author-date-es.csl --filter=pandoc-citeproc --filter=./vendor/dot2tex-filter.py --toc 
 
