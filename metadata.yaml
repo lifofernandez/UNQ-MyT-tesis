@@ -35,7 +35,7 @@ references:
       - 01
   title: 'Markup Systems and the Future of Scholarly Text Processing'
   title-short: 'Markup and Scholarly Text Processing'
-  container-title: 'Communications of the ACM '
+  container-title: 'Communications of the ACM'
   publisher: 'Association for Computing Machinery'
   volume: 30
   issue: 11
@@ -184,7 +184,7 @@ references:
   URL: https://steyn.pro/mml
   language: en-GB
 
-- type:
+- type: article-journal
   id: colin
   author: 
   - family: Clark
@@ -194,15 +194,15 @@ references:
   issued:
     date-parts:
     - - 2014 
-      - 01
-      - 01
+      - 14
+      - 9
   title: "Flocking: A Framework for Declarative Music-Making on the Web"
-  title-short: "Flocking"
+  title-short: Flocking
   container-title: "The Joint Proceedings of the ICMC and SMC"
-  volume: 
-  issue: 
-  page: 
   publisher: "Georgaki, A. and Kouroupetroglou (eds.)"
+  volume: 1 
+  issue: 1
+  page: 1150-57
   DOI:
   ISBN:
   URL : 

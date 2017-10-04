@@ -236,6 +236,9 @@ $if(institute)$
 $endif$
 \date{$date$}
 
+\usepackage{tikz} % insert this line
+\usetikzlibrary{shapes,arrows}
+
 \begin{document}
 
 \topskip0pt

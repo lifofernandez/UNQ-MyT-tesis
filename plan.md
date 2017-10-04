@@ -289,11 +289,117 @@ ser capaz de secuenciar la música de esta manera.
 
 [^ver_mml]: @mml
 
-#### 4.4 Flocking 
+### 4.5 Flocking 
 
+```{.dot caption="example graph." label="the_example"}
 
-[^ver_colin]
+graph graphname {
+	 a [texlbl="$\alpha$"];
+	 b [texlbl="$\beta$"];
+	 b1 [texlbl="$\beta_1$"];
+	 b2 [texlbl="$\beta_2$"];
+     a -- b
+     b -- b1
+	 b -- b2
+ }
+```
+Flocking[^ver_colin] es un nuevo marco para la composición de música por computadora que
+aprovecha las tecnologías e ideas existentes para crear un sistema robusto,
+flexible y expresivo.  Flocado combina el patrón del generador de unidades de
+muchos idiomas de música de computadora con tecnologías Web Audio para permitir
+a los usuarios interactuar con sitios Web existentes y potenciales tecnologías.
+Los usuarios interactúan con Flocking usando un estilo declarativo de
+programación.
+
+El beneficio del enfoque de Flocking, al considerar se han demostrado varios
+ejemplos de entornos de desarrollo web que utilizan tanto expresiones textuales
+como visuales.  Flocking proporciona a los usuarios una forma clara y semántica
+de representan los materiales de la música digital, un marco prometedor para el
+crecimiento de nuevas características y herramientas, y una huella de
+rendimiento ligero.
+
+Flocking es un marco para la síntesis de audio y composición musical escrita
+en JavaScript.  Se necesita una enfoque para resolver varios de los problemas
+arquitectónicos los problemas que enfrentan los entornos de música por
+ordenador, haciendo hincapié en un estilo declarativo que está estrechamente
+principios de la web.
+
+El objetivo de Flocking es permitir el crecimiento de un ecosistema de
+herramientas que puedan analizar y entender fácilmente la lógica y la semántica
+de los instrumentos digitales mediante la básicos de síntesis de forma
+declarativa.  Esto es particularmente útil para soportar la composición
+generativa (donde los programas generan nuevos instrumentos y puntajes de forma
+algorítmica), herramientas gráficas (para que programadores y no programadores
+colaboren), y nuevos modos de programación social que permiten a los músicos
+adaptar, ampliar y volver a trabajar fácilmente los instrumentos existentes sin
+tener que "Fork"su código.
+
+Flocking proporciona una arquitectura robusta, optimizada y bien probada que
+apoya explícitamente la extensibilidad y el crecimiento a largo plazo.
+
+Flocaje se ejecuta en casi cualquier moderno Entorno de JavaScript, incluyendo
+escritorio y móviles navegadores (Chrome, Firefox y Safari), así como en
+dispositivos incrustados con Node.js.  
+
 [^ver_colin]: @colin
+
+#### 4.5.1 Como funciona Flocking
+
+El núcleo del marco Flocking consiste en varios componentes interconectados que
+proporcionan el comportamiento esencial de interpretar e instanciar generadores
+de unidades, producir corrientes de muestras y programar cambios.  Los
+principales componentes de Flocking incluyen:
+
+1. el intérprete Flocking, que analiza e instancia sintetizadores, generadores
+de unidad y búferes
+
+2. el medio ambiente, que representa el audio general y su configuración
+
+3. Audio Strategies, que son salida de audio conectable (vinculados a los
+backends como la API de audio web o ALSA en Node.js)
+
+4. Generadores unitarios (ugens), que son las primitivas generadoras de
+muestras utilizadas para producir sonido
+
+5. Sintetizadores, que representan instrumentos y colecciones de la lógica de
+generación de señales
+
+6. el Programador, que gestiona el cambio basado en el tiempo eventos en un
+sintetizador
+
+#### 4.5.2 Programación declarativa
+
+Arriba, describimos Flocking como un marco declarativo. Esta característica es esencial para comprender su diseño.
+
+La programación declarativa se puede entender en el contexto de Flocking como
+teniendo dos aspectos esenciales:
+
+1. enfatiza una visión semántica de alto nivel de la lógica y estructura de un
+programa
+
+2. representa los programas como estructuras de datos que pueden ser entendido
+por otros programas 
+
+J.W. Lloyd describe informalmente la programación declarativa como "indicando
+lo que se va a calcular, pero no necesariamente cómo se va a calcular"[7].  El
+énfasis aquí es sobre los aspectos lógicos o semánticos de la computación, que
+en la secuenciación de bajo nivel y el flujo de control.  Tradicional los
+estilos de programación imperativos suelen una"audiencia de uno" -el compilador.
+Aunque el código es a menudo compartido entre varios desarrolladores, no suele
+ser comprendidos o manipulados por programas distintos de los compilador.
+
+Por el contrario, la programación declarativa implica la capacidad de escribir
+programas que están representados en un formato que pueden ser procesados
+por otros programas como datos ordinarios.  los
+
+La familia de lenguas Lisp es un ejemplo bien conocido de este enfoque.  Paul
+Graham describe la naturaleza declarativa de Lisp, diciendo que "no tiene
+sintaxis.  Escribes programas en los árboles de análisis... [que] son
+totalmente accesibles a sus programas.  Puede escribir programas
+que los manipulen...  programas que escriben programas". Aunque Flocking está
+escrito en JavaScript normal, comparte con Lisp el enfoque expresar programas
+dentro de estructuras de datos que estén disponible para su manipulación por
+otros programas.
 
 ## 5. Metodología
 
