@@ -1,170 +1,81 @@
 
 
-## 1. Resumen 
+## Universidad Nacional de Quilmes \newline Taller de Tesis 
 
-El presente plan propone la definición de una gramática neutral para
-representar un discurso musical en estructura de hojas de análisis o planes de
-obra, basada en texto plano [^ver_hunt][^ver_leek] serializado y
-legible[^ver_combs], acompañada por el desarrollo de un sistema de herramientas
-para interfaz de línea de comandos (Command Line Interface)[^ver_hunt] que
-genere secuencias musicales en el estándar MIDI manipulando la información
-representada en estos ficheros
+\bigskip
 
-Se documentará[^ver_kernighan] este desarrollo para su correcta publicación enmarcada
-bajo premisas del software libre[^ver_gnu][^ver_yzaguirre].
+Docente: **Esteban Calcagno** 
 
-[^ver_combs]: @coombs 
-[^ver_hunt]: @hunt
-[^ver_leek]: @leek
-[^ver_kernighan]: @kernighan
-[^ver_gnu]: @gnu
-[^ver_yzaguirre]: @yzaguirre
+Alumno: **Lisandro Fernández**
 
-## 2. Justificacion 
+   
+   
+## Introducción
 
-### 2.1 ¿Por qué Texto Plano?
+Representación y manipulación de información musical:
 
-> "...our base material isn't wood or iron, it's
-> knowledge. [...]. And we believe that the best format for storing knowledge
-> persistently is plain text.  With plain text, we give ourselves the ability to
-> manipulate knowledge, both manually and programmatically, using virtually every
-> tool at our disposal." [@hunt] 
+* MuseData
 
-* Leverage
+* Humdrum 
 
-* **Soportado en multiples plataformas.** 
-  Cada sistema operativo tiene al menos un editor de texto y son todos
-  compatibles hasta la codificación del texto. 
+* MusicXML
 
-* **Fácil de manipular.** 
-  Procesar cadenas de caracteres es uno de los procesos mas elementales que
-  se pueden realizar en un sistema informático.
+* MML 
 
-* **Fácil de mantener.** 
-  Comparado con alternativas mas complejas, el texto plano es lo mas sencillo ante
-  la necesidad de actualizar información o de realizar cualquier tipo de cambio o
-  ajuste.
+Marcos de programación basada en Sintaxis Declarativa:
 
-* Easier testing 
-
-* **Liviano.**
-  Aspecto clave cuando los recursos a nivel de sistema son
-  limitados, como por ejemplo poca capacidad de procesamiento/almacenamiento,
-  conexiones lentas o sin acceso a una interfaz gráfica.
-  
-* **Compatible con el avance.**
-* Insurance against obsolescence
-  Independientemente de la próxima plataforma, si tenemos nuestros documentos
-  almacenados en texto plano, serán fáciles de interpretar.
+* Flocking.
 
 
+# 1. MuseData
 
+## MuseData
 
-### 2.2 ¿Por qué la Interfaz de Linea de Comandos?
+* Universidad de Stanford
+	* Centro de Investigación Asistida por Computador en Humanidades (CCARH). 
+		* Creado por Walter Hewlett. 
 
-* Esta en todos los sistemas
+* Base de datos MuseData [^ver_selfridge] 
 
-* Primer estado utilizable del sistema 
+	* Estructura y a la vez el sistema de codificación
 
-* Agilidad
+* Archivos => múltiples formatos.
 
-* Misma interfaz para múltiples aplicaciones
+* El archivo MuseData está diseñado para soportar aplicaciones de
+sonido, gráficos y análisis.
 
-* Resultados reproducibles
-
-* Pipeline
-
-* Tradición 
-
-* Menos recursos 
-
-* Acceso remoto
-
-* VIM
-
-
-
-## 3. Objetivos
-
-Las motivaciones principales del desarrollo que este plan propone son:
-
-* Elaborar una herramienta de composición musical que prescinda de interfaz gráfica.
-
-* Unificar el proceso de planificación de obra musical con el de secuenciación MIDI.
-
-* Exponer ventajas de la operación de sistemas a través de la Interfaz de Linea de Comandos.
-
-* Acercar a músicos a la composición musical asistida por ordenadores.
-
-
-## 4. Marco referencial 
-
-A continuación se describen algunos desarrollos que vinculan representación y
-manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como ejemplo
-de un marco de programación basada en una sintaxis declarativa se cosideró Flocking.
-
-### 4.1 MuseData
-
-La base de datos MuseData [^ver_selfridge] es un proyecto y a la vez el sistema de codificación
-principal del Centro de Investigación Asistida por Computador en Humanidades
-(CCARH). La base de datos fue creado por Walter Hewlett. 
-
-Los archivos MuseData tienen el potencial de existir en múltiples formatos
-comunes de información. La mayoría de las codificaciones derivadas acomodan
-sólo algunas de las las características incluidas en el master MuseData de
-codificaciones. El archivo MuseData está diseñado para soportar aplicaciones de
-sonido, gráficos y análisis. Los formatos derivados de las codificaciones
-musicales de MuseData que se distribución son: MIDI1, MIDI+ y Humdrum.
 
 [^ver_selfridge]: @selfridge
 
-#### 4.1.1 Organización de archivos MuseData 
+## 1.1 Organización de archivos MuseData 
 
-Los archivos MuseData están basados en ASCII y se pueden ver en cualquier
-editor de texto. Dentro del formato MuseData El número de archivos por
-movimiento y por trabajo puede variar de un formato a otro así como también de
-una edición a otra.
+Los archivos MuseData 
 
-Los archivos MuseData están organizados en base a las partes. Un movimiento de
+* basados en ASCII => cualquier editor de texto. 
+
+* El número de archivos por movimiento y por trabajo puede variar de un formato 
+
+* están organizados en base a las partes. 
+
+Un movimiento de
 una composición es típicamente encontrado dividido en varios archivos agrupados
 en un directorio para ese movimiento.
 
 Las partes de los archivos MuseData siempre tienen la etiqueta 01 para la
-primera parte, 02 para la segunda parte de la partitura, etc. Conteniendo
+primera parte, 02 para la segunda parte de la partitura, etc. 
+
+Conteniendo
 varias líneas de música, como dos flautas en una partitura de orquesta, o dos
-sistemas para música de piano. Archivos para diferentes los movimientos de una
-composición se encuentran en directorios separados que usualmente indican el
+sistemas para música de piano. 
+
+Archivos para diferentes los movimientos de una
+composición se encuentran en directorios separados que 
+
+usualmente indican el
 número de movimiento, p. 01, 02, etc.
 
-La exhaustividad de la información dentro de los archivos varía entre dos
-niveles que en archivos MuseData llamamos Stage 1 y Stage 2. Sólo los archivos
-Stage 2 son recomendados para aplicaciones serias.
 
-El primer paso en la entrada de datos (Stage 1) captura información básica como
-duración y altura de las notas. Por ejemplo, normalmente habría cuatro archivos
-(Violín 1, Violín 2, Viola, Violonchelo) para cada movimiento de un cuarteto de
-cuerdas. Si el movimiento del cuarteto comienza en metro binario, cambia a
-metro ternario, y luego vuelve a binario, cada sección métrica tendrá su propio
-conjunto de partes. Así habría doce archivos para el movimiento. El segundo
-paso en la entrada de datos (Stage 2) suministra toda la información que no
-puede ser capturado de forma fiable desde un teclado electrónico. Esto incluye
-indicaciones para ritmo, dinámica y articulación.
-
-El juicio humano se aplica en el Stage 2. Así, cuando el movimiento del
-cuarteto de cuerdas citado anteriormente se convierte a la Stage 2, las tres
-secciones métricas para cada instrumento capturado desde la entrada del teclado
-se encadenará en un movimiento cada uno. El movimiento tendrá ahora cuatro
-archivos de datos (uno para Violín 1, otro para Violín 2, Viola, Violonchelo).
-
-El juicio humano también proporciona correcciones y anotaciones a los datos.
-Algunos tipos de errores (por ejemplo, medidas incompletas) deben corregirse y
-así consiguen tener sentido para el usuario. Los asuntos que son más
-discrecionales (tales como alteraciones opcionales de los ornamentos o
-accidentes) por lo general no se modifica. Las decisiones discrecionales se
-anotan en archivos que permiten marcas editoriales.
-
-
-#### 4.1.2 La representación MuseData de información musical
+## 1.2 La representación MuseData de información musical
 
 El propósito de la sintaxis MuseData es representar el contenido lógico de una
 pieza musical de una modo neutral. El código se utiliza actualmente en la
@@ -208,7 +119,8 @@ usa estas sugerencias de impresión y sonido en el proceso de generación de
 documentos de partitura y archivos MIDI.
 
 
-### 4.2 Humdrum
+# 2. Humdrum
+## Humdrum
 
 David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado
 constantemente por décadas. Humdrum es un conjunto de herramientas de línea de
@@ -220,7 +132,7 @@ PERL, Ruby, Python, Bash, LISP y C++.
 
 [^ver_wild]: @wild
 
-#### 4.2.1 Representación 
+## 2.1 Representación 
 
 En primer lugar, Humdrum define una sintaxis para representar información
 discreta como una serie de registros en un archivo de computadora.
@@ -233,7 +145,7 @@ discreta como una serie de registros en un archivo de computadora.
 * Algunos otros esquemas pueden ser aumentados por gramáticas definidas por el
   usuario para tareas de investigación.
 
-#### 4.2.2 Manipulación
+## 2.2 Manipulación
 
 Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para
 manipular archivos que se ajusten a la sintaxis Humdrum en el campo de la
@@ -247,7 +159,9 @@ El énfasis está en **asistido**:
   usuario debe aprender a utilizar en combinación para explotar plenamente el
 potencial del sistema.
 
-### 4.3 MusicXML
+
+# 3. MusicXML
+## MusicXML
 
 MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música
 entre aplicaciones y para archivar registros de música para uso en el futuro.
@@ -263,7 +177,8 @@ MusicXML.
 [^ver_good]: @good
 
 
-#### 4.4 Music Markup Language 
+# 4. Music Markup Language 
+## MML
 
 El Lenguaje de Marcado de Música (MML)[^ver_mml] es un intento de marcar
 objetos y eventos de música con un lenguaje basado en XML. La marcación de
@@ -291,7 +206,7 @@ ser capaz de secuenciar la música de esta manera.
 [^ver_mml]: @mml
 
 
-### 4.5 Flocking 
+# 5. Flocking 
 
 Flocking[^ver_colin] es un framework, escrito en JavaScript, para la
 composición de música por computadora que aprovecha las tecnologías e ideas
@@ -313,7 +228,7 @@ existentes.
 
 [^ver_colin]: @colin
 
-#### 4.5.1 Como funciona Flocking
+## 5.1 Como funciona Flocking
 
 El núcleo del framework Flocking consiste en varios componentes interconectados
 que proporcionan la capacidad esencial de interpretar e instanciar
@@ -334,10 +249,10 @@ principales componentes de Flocking incluyen:
 5. *Synths* (sintetizadores)  que representan instrumentos y colecciones en la
    lógica de generación de señales
 
-6.  el *Scheduler* (programador ó secuenciador), que gestiona el cambio secunecial (basado en el tiempo)
+6. el *Scheduler* (programador ó secuenciador), que gestiona el cambio secunecial (basado en el tiempo)
    eventos en un sintetizador
 
-#### 4.5.2 Programación declarativa
+## 5.2 Programación declarativa
 
 Arriba, describimos Flocking como un marco **declarativo**. Esta característica es
 esencial para comprender su diseño.
@@ -369,63 +284,26 @@ Aunque Flocking está escrito en JavaScript, comparte con
 Lisp el enfoque expresar programas dentro de estructuras de datos que estén
 disponibles para su manipulación por otros programas.
 
-## 5. Metodología
 
-* Análisis de caso
+## 5.2.1 Ejemplo
 
-	* Boceto de sintaxis 
-
-	* Prototipo de aplicación   
-
-	* Encuestas y consultas a músicos compositores y teóricos
-
-* Diseño de Gramática
-
-	* Sintaxis basada en YAML
-
-	* Terminología de análisis/planificación musical
-
-* Desarrollo 
-
-	* Perl
-
-	* GIT
-
-* Documentación
-
-	* Modulo POD 
-
-	* Paginas MAN, PDF, HTML, etc.  
-
-* Release en repositorios públicos
-
-
-## 6. Cronograma de Trabajo
-
-|                             | Tiempo Estipulado | Fechas Tentativas       |
-|-----------------------------|-------------------|-------------------------|
-| Boceto de sintaxis          | 1 semana          | Del XX al XX de XXXXXX  |
-| Prototipo aplicación        | 2 semanas         | Del XX al XX de XXXXXX  |
-| Entrevistas y consultas     | 1 semana          | Del XX al XX de XXXXXX  |
-| Definición de gramática     | 5 semanas         | Del XX al XX de XXXXXX  |
-| Dasarrollo de herramientas  | 7 semanas         | Del XX al XX de XXXXXX  |
-| Pruebas y optimización      | 3 semanss         | Del XX al XX de XXXXXX  |
-| Documentación               | 5 semanas         | Del XX al XX de XXXXXX  |
-
-```{.dot caption="example graph." label="the_example"}
-
-graph graphname {
-     a [texlbl="$\alpha$"];
-     b [texlbl="$\beta$"];
-     b1 [texlbl="$\beta_1$"];
-     b2 [texlbl="$\beta_2$"];
-     a -- b
-     b -- b1
-     b -- b2
- }
 ```
-## 7. Bibliografía
 
-
-
+// Create a new synth consisting of a sine wave,
+// modulating its amplitude slowly with another sine wave.
+var synth = flock.synth({
+    synthDef: {
+        id: carrier,
+        ugen: flock.ugen.sinOsc,
+        freq: 440,
+        mul: {
+            id: mod,
+            ugen: flock.ugen.sinOsc,
+            freq: 1.0,
+            mul: 0.25
+        }
+    }
+});
+        
+```
 

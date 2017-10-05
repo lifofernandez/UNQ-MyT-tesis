@@ -1,0 +1,1 @@
+pandoc --slide-level 2 -t beamer  marco_referecial.beamer.sp.md metadata.yaml -o fernandez_lisandro-marco_referencial.pdf --csl=../../vendor/iso690-author-date-es.csl --filter=pandoc-citeproc -V theme:Hannover -V color-theme:beaver
