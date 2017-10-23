@@ -13,11 +13,15 @@ representada en estos ficheros
 Se documentará[^ver_kernighan] este desarrollo para su correcta publicación enmarcada
 bajo premisas del software libre[^ver_gnu][^ver_yzaguirre].
 
+Buscar [^ver_raymond] [^ver_raymond2]
+
 [^ver_combs]: @coombs 
 [^ver_hunt]: @hunt
 [^ver_leek]: @leek
 [^ver_kernighan]: @kernighan
 [^ver_gnu]: @gnu
+[^ver_raymond]: @raymond
+[^ver_raymond2]: @raymond2
 [^ver_yzaguirre]: @yzaguirre
 
 ## 2. Justificacion 
@@ -243,9 +247,46 @@ El énfasis está en **asistido**:
 
 * Humdrum no posee facultades analíticas de nivel superior per se.
 
-* Más bien, su poder deriva de la flexibilidad de su kit de elementos, que el
-  usuario debe aprender a utilizar en combinación para explotar plenamente el
-potencial del sistema.
+* Más bien, *su poder deriva de la flexibilidad de su kit de elementos,
+  utilizados en combinacióin* para explotar plenamente el potencial del
+  sistema.
+
+## 4.2.3 De la experiencia a la apreciación 
+
+Apreciación de todo el potencial de Humdrum es definitivamente a partir de la 
+experiencia. En palabras de David Huron:
+
+> Cualquier conjunto de herramientas requiere el desarrollo de una experiencia 
+> concomitante, y Humdrum Toolkit no es una excepción.  Espero que la inversión de
+> el tiempo requerido para aprender a usar Humdrum será más que compensado por 
+> ganancias académicas posteriores.
+
+Los usuarios de Humdrum hasta ahora han tendido a trabajar en la percepción 
+de la música o etnomusicología, mientras que los teóricos y los musicólogos histioriadores han sido lentos
+para reconocer el potencial del sistema. 
+
+
+## 4.2.4 CLI vs GUI
+
+Humdrum u otros sistemas como él ofrecen los recursos para una marcar un nuevo
+paradigma para la investigación musical.  
+
+El tedio de recopilar pruebas sólidas que apoyen las propias
+teorías pueden ser aliviadas por la automatización, y cuanto 
+mayor sea la cantidad de música examinada 
+mayor será el rigor de la prueba de las hipótesis.  
+
+Sin embargo, la desafortunada posibilidad es que muchos de los musicólogos 
+y teóricos actuales que se benefician de una pequeña intuición asistida por la máquina
+es probalbe que sean repelidos por la interfaz totalmente basada en texto de Humdrum.  
+
+Aunque en el análisis final los comandos estilo UNIX son seguramente más flexibles y eficientes que 
+una interfaz grafica "amigable", pueden parecer intimidantes para no programadores, muchos de los cuales pueden ser disuadidos de hacer uso de un herramienta de otra manera valiosa.
+
+Independientemente de que los teóricos de la música decidan o no aumentar
+su invaluable intuición musical con valiosas pruebas empíricas
+resultados, basados en las cantidades máximas de datos pertinentes, será un
+factor en la evolución de nuestra disciplina.
 
 ### 4.3 MusicXML
 

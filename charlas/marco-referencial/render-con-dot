@@ -1,0 +1,1 @@
+pandoc marco_referecial.beamer.sp.md metadata.yaml --template=charla -o fernandez_lisandro-marco_referencial.pdf -s -S --csl=../../vendor/iso690-author-date-es.csl --filter=pandoc-citeproc --filter=../../vendor/dot2tex-filter.py --toc

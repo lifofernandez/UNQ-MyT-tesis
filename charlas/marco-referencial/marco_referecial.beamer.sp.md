@@ -9,7 +9,21 @@ Alumno: **Lisandro Fernández**
 
    
    
+\newpage
 ## Introducción
+
+```{.dot caption="example graph." label="the_example"}
+
+graph graphname {
+     a [texlbl="$\alpha$"];
+     b [texlbl="$\beta$"];
+     b1 [texlbl="$\beta_1$"];
+     b2 [texlbl="$\beta_2$"];
+     a -- b
+     b -- b1
+     b -- b2
+ }
+```
 
 Representación y manipulación de información musical:
 
@@ -26,9 +40,8 @@ Marcos de programación basada en Sintaxis Declarativa:
 * Flocking.
 
 
+\newpage
 # 1. MuseData
-
-## MuseData
 
 * Universidad de Stanford
 	* Centro de Investigación Asistida por Computador en Humanidades (CCARH). 
@@ -46,6 +59,7 @@ sonido, gráficos y análisis.
 
 [^ver_selfridge]: @selfridge
 
+\newpage
 ## 1.1 Organización de archivos MuseData 
 
 Los archivos MuseData 
@@ -70,6 +84,7 @@ Los archivos MuseData
 
 
 
+\newpage
 ## 1.2 La representación MuseData de información musical
 
 El propósito de la sintaxis MuseData es representar el contenido lógico de una
@@ -113,6 +128,7 @@ software de aplicación o despojado enteramente de los datos. MuseData software
 usa estas sugerencias de impresión y sonido en el proceso de generación de
 documentos de partitura y archivos MIDI.
 
+\newpage
 ## 1.3.1 Ejemplo
 
 ```
@@ -132,12 +148,6 @@ measure 1
 A3     2        q     d        p
 rest   2        q
 rest   2        q
-...
-
-```
-## 1.3.2 Ejemplo
-```
-...
 measure 10
 rest   6
 measure 11
@@ -151,8 +161,8 @@ mheavy4         :||:
 /END
 ```
 
+\newpage
 # 2. Humdrum
-## Humdrum
 
 David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado
 constantemente por décadas. Humdrum es un conjunto de herramientas de línea de
@@ -164,6 +174,7 @@ PERL, Ruby, Python, Bash, LISP y C++.
 
 [^ver_wild]: @wild
 
+\newpage
 ## 2.1 Representación 
 
 En primer lugar, Humdrum define una sintaxis para representar información
@@ -177,6 +188,7 @@ discreta como una serie de registros en un archivo de computadora.
 * Algunos otros esquemas pueden ser aumentados por gramáticas definidas por el
   usuario para tareas de investigación.
 
+\newpage
 ## 2.2 Manipulación
 
 Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para
@@ -192,8 +204,8 @@ El énfasis está en **asistido**:
 potencial del sistema.
 
 
+\newpage
 # 3. MusicXML
-## MusicXML
 
 MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música
 entre aplicaciones y para archivar registros de música para uso en el futuro.
@@ -209,8 +221,8 @@ MusicXML.
 [^ver_good]: @good
 
 
+\newpage
 # 4. Music Markup Language 
-## MML
 
 El Lenguaje de Marcado de Música (MML)[^ver_mml] es un intento de marcar
 objetos y eventos de música con un lenguaje basado en XML. La marcación de
@@ -238,6 +250,7 @@ ser capaz de secuenciar la música de esta manera.
 [^ver_mml]: @mml
 
 
+\newpage
 # 5. Flocking 
 
 Flocking[^ver_colin] es un framework, escrito en JavaScript, para la
@@ -260,6 +273,7 @@ existentes.
 
 [^ver_colin]: @colin
 
+\newpage
 ## 5.1 Como funciona Flocking
 
 El núcleo del framework Flocking consiste en varios componentes interconectados
@@ -284,6 +298,7 @@ principales componentes de Flocking incluyen:
 6. el *Scheduler* (programador ó secuenciador), que gestiona el cambio secunecial (basado en el tiempo)
    eventos en un sintetizador
 
+\newpage
 ## 5.2 Programación declarativa
 
 Arriba, describimos Flocking como un marco **declarativo**. Esta característica es
@@ -316,11 +331,10 @@ Aunque Flocking está escrito en JavaScript, comparte con
 Lisp el enfoque expresar programas dentro de estructuras de datos que estén
 disponibles para su manipulación por otros programas.
 
-
+\newpage
 ## 5.2.1 Ejemplo
 
 ```
-
 // Create a new synth consisting of a sine wave,
 // modulating its amplitude slowly with another sine wave.
 var synth = flock.synth({
@@ -336,4 +350,5 @@ var synth = flock.synth({
         }
     }
 });
-        
+```
+\newpage

@@ -77,6 +77,7 @@ references:
       - 01
   title: 'Beyond MIDI: The Jandbok of Musical Codes'
   publisher: 'The MIT Press' 
+  publisher-place: 'Estados Unidos'
   page: 402-445 
   ISBN: 9780262193948
   language: en-GB
@@ -95,8 +96,9 @@ references:
       - 13
   title: 'The Pragmatic Programmer: From Journeyman to Master'
   title-short: 'The Pragmatic Programmer'
-  publisher: 'The Pragmatic Bookshelf'
-  editor: 'Addison Wesley'
+  publisher-place: 'Estados Unidos'
+  publisher: 'Addison Wesley'
+  #publisher: 'The Pragmatic Bookshelf'
   page: 72-99
   ISBN:  978-0-2016-1622-4
   language: en-GB
@@ -114,7 +116,8 @@ references:
       - 1
       - 1
   title: 'The Elemenets Of Programing Style'
-  publisher: 'McGRAW-HILL BOOK COMPANY' 
+  publisher: 'McGraw-Hill Book Company' 
+  publisher-place: 'Estados Unidos'
   page: 141-53 
   ISBN: 9780070342071
   language: en-GB
@@ -151,7 +154,7 @@ references:
       - 20
   title: 'Manifiesto del Laboratorio de Software Libre'
   title-short: 'Manifiesto del LabSL'
-  container-title: "Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte"
+  container-title: 'Área Trasndepartamental de Artes Multimediales / Universidad Nacional del Arte'
   URL : https://labsl.multimediales.com.ar/Manifiesto_del_Laboratorio_de_Software_Libre_.html
   language: es-AR
 
@@ -168,12 +171,6 @@ references:
   title: 'MusicXML: An Internet-Friendly Format for Sheet Music'
   title-short: 'MusicXML'
   container-title: 'Proceedings of XML'
-  # volume: 
-  # issue: 
-  # page: 
-  # publisher: 
-  # DOI:
-  # ISBN:
   URL: http://michaelgood.info/publications/music/musicxml-an-internet-friendly-format-for-sheet-music/
   language: en-GB
 
@@ -234,10 +231,10 @@ references:
     - - 2014 
       - 14
       - 9
-  title: "Flocking: A Framework for Declarative Music-Making on the Web"
+  title: 'Flocking: A Framework for Declarative Music-Making on the Web'
   title-short: Flocking
-  container-title: "The Joint Proceedings of the ICMC and SMC"
-  publisher: "Georgaki, A. and Kouroupetroglou (eds.)"
+  container-title: 'The Joint Proceedings of the ICMC and SMC'
+  publisher: 'Georgaki, A. and Kouroupetroglou (eds.)'
   volume: 1 
   issue: 1
   page: 1150-57
@@ -245,6 +242,57 @@ references:
   ISBN:
   URL : 
   language: en-GB
+
+- type: book
+  id: raymond
+  author:
+  - family: Raymond
+    given: Eric Steven 
+  issued:
+    date-parts:
+    - - 1999
+      - 01 
+      - 01
+  title: 'The Art of UNIX Programming'
+  title-short: 'taoup'
+  publisher: 'Addison-Wesley Professional'
+  #publisher: 'Addison-Wesley Professional Computing Series'
+  publisher-place: 'Estados Unidos'
+  page: 33-44
+  ISBN: 978-0131429017
+  language: en-GB
+
+- type: paper-conference
+  id: raymond2
+  author:
+  - family: Raymond
+    given: Eric Steven 
+  issued:
+    date-parts:
+    - - 1997
+      - 05
+      - 21
+  title: 'The Cathedral and the Bazaar'
+  container-title: 'Linux Kongress'
+  publisher-place: 'Estados Unidos'
+  publisher: "O'Reilly Media"
+  title-short: 'catedral-bazaar'
+  page: 01-99 
+  DOI : 10.1007/s12130-999-1026-0
+  language: en-GB
+
+
+
+# ###########
+#
+# http://rx.codesimply.com/
+#
+# https://en.wikipedia.org/wiki/Lightweight_markup_language
+# 
+# http://repmus.ircam.fr/openmusic/documents
+# 
+# http://msp.ucsd.edu/publications.html
+#
 
 # - type:
 #   id:
@@ -268,14 +316,4 @@ references:
 #   URL : 
 #   language: en-GB
 
-# ###########
-#
-# http://rx.codesimply.com/
-#
-# https://en.wikipedia.org/wiki/Lightweight_markup_language
-# 
-# http://repmus.ircam.fr/openmusic/documents
-# 
-# http://msp.ucsd.edu/publications.html
-#
 ...

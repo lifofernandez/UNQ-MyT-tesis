@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-pacman -S pandoc pandoc-citeproc
-
-# DOT/GraphViz Suport
-wget https://bootstrap.pypa.io/get-pip.py
-sudo python3 get-pip.py
-rm get-pip.py
-sudo pip3 install pandocfilters
