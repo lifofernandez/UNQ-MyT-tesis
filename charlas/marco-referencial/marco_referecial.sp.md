@@ -12,33 +12,40 @@ Alumno: **Lisandro Fernández**
 \newpage
 ## Introducción
 
-```{.dot caption="example graph." label="the_example"}
+```{.dot}
+graph G{
+	node [ 
+		shape=box,
+		style="fill=red!20",
+		splines=polyline,
+	]
+	a [ texlbl="rmación musical" ];
+	b [ texlbl="Representación y manipulación" ];
 
-graph graphname {
-     a [texlbl="$\alpha$"];
-     b [texlbl="$\beta$"];
-     b1 [texlbl="$\beta_1$"];
-     b2 [texlbl="$\beta_2$"];
-     a -- b
-     b -- b1
-     b -- b2
- }
+        c [texlbl="Marcos de programación"];
+        d [texlbl="Sintaxis Declarativa"];
+
+	musedata [ texlbl="MuseData",
+	];
+	humdrum [ texlbl="Humdrum",
+	];
+	musicxml [ texlbl="MusicXML",
+	];
+	mml     [ texlbl="MML",
+	];
+	flocking [ texlbl="flocking",
+	];
+	a -- b 
+	c -- d 
+	b -- musedata
+	b -- humdrum
+	b -- musicxml
+	b -- mml      
+	b -- flocking 
+
+}
+
 ```
-
-Representación y manipulación de información musical:
-
-* MuseData
-
-* Humdrum 
-
-* MusicXML
-
-* MML 
-
-Marcos de programación basada en Sintaxis Declarativa:
-
-* Flocking.
-
 
 \newpage
 # 1. MuseData
@@ -87,47 +94,66 @@ Los archivos MuseData
 \newpage
 ## 1.2 La representación MuseData de información musical
 
-El propósito de la sintaxis MuseData es representar el contenido lógico de una
-pieza musical de una modo neutral. El código se utiliza actualmente en la
-construcción de bases de datos de texto completo de música de varios
-compositores, J.S. Bach, Beethoven, Corelli, Handel, Haydn, Mozart, Telemann y
-Vivaldi. Se pretende que estas bases de datos de texto completo se utilicen
-para la impresión de música, análisis musical y producción de archivos de sonido 
-digitales.
+* Propósito de la sintaxis: 
 
-Aunque el código MuseData está destinado a ser genérico, se han desarrollado
-piezas de software de diversos tipos con el fin de probar su eficacia. Las
-aplicaciones MuseData pueden imprimir resultados y partes para ser utilizadas
-por editores profesionales de música, así como también compilar archivos MIDI
-(que se pueden utilizar con secuenciadores estándar) y facilitar las búsquedas
-rápidas de los datos de patrones rítmicos, melódicos y armónicos específicos.
+	* Representar el contenido lógico de una pieza musical de una modo neutral. 
 
-La sintaxis MuseData está diseñada para representar tanto información de
-notación como de sonido, pero en ambos casos no se pretende que la
-representación esté completa. Eso prevé que los registros MuseData servirían
-como archivos de origen para generar tanto documentos gráficos (específicamente
-de página) y archivos de performance MIDI, que podrían editarse como el usuario
-lo crea conveniente. Las razones de esta postura son dos:
+* Actualmente bases de datos de texto varios compositores
 
-* Cuando se codifica una obra musical, no es la partitura sino el contenido
-  lógico de la partitura lo que codifica. Codificar la puntuación significaría
-codificar la posición exacta de cada nota en la página; pero nuestra opinión es
-que tal codificación realmente contendría más información que la que el
-compositor pretende transmitir.
+	* J.S. Bach, Beethoven, Corelli, Handel, Haydn, Mozart, Telemann y Vivaldi
 
-* No se puede anticipar todos los usos a los cuales podrían darse estos datos,
-  pero se pude estar bastante seguro de que cada usuario tendrá sus propias
-necesidades especiales y preferencias. Por lo tanto, no tiene sentido tratar de
-codificar información acerca de cómo debe verse una realización gráfica de los
-datos o cómo sonido que estos datos representan debe sonar.
+* Se utilicen para la 
 
-Por otro lado, a veces puede ser útil hacer sugerencias sobre cómo los gráficos
-y el sonido deben ser realizados. Lo importante es identificar las sugerencias
-como un tipo de datos independiente, que puede ser fácilmente ignorado por
-software de aplicación o despojado enteramente de los datos. MuseData software
-usa estas sugerencias de impresión y sonido en el proceso de generación de
-documentos de partitura y archivos MIDI.
+	* Impresión de música
+	
+	* Análisis musical 
+	
+	* Producción de archivos de sonido digitales.
 
+* Destinado para a ser genérico
+
+	* Diseño  para representar tanto información de
+		
+		* Notación
+
+		* Sonido
+
+* Se han desarrollado piezas de software de diversos tipos con el fin de probar su eficacia
+
+	* Aplicaciones imprimir resultados 
+	
+	* Partes para ser utilizadas por editores profesionales de música
+	
+	* Así como también compilar archivos MIDI 
+	
+	* Facilitar las búsquedas rápidas de los datos de patrones específico
+		
+		* Rítmicos
+	
+		* Melódicos 
+	
+		* Armónicos 
+
+
+* No se pretende que la representación esté completa
+
+	* Registros MuseData servirían como archivos de origen para generar tanto
+
+		* Documentos gráficos (específicamente de página) 
+		
+		* Archivos de performance MIDI,
+
+	* 2 razones para esta postura:
+
+		* no es la partitura sino el contenido lógico de la partitura
+		  lo que codifica. 
+			* Codificar la puntuación significaría codificar la
+			posición exacta contendría más información que la que
+			el compositor pretende transmitir.
+
+		* No se puede anticipar todos los usos a q podrían darse
+  		Si podemos asegurar que c/suario tendrá sus propias 
+		necesidades especiales y preferencias. 
 \newpage
 ## 1.3.1 Ejemplo
 
