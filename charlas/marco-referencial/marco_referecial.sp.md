@@ -13,14 +13,18 @@ Alumno: **Lisandro Fernández**
 ## Introducción
 
 ```{.dot}
-graph G{
+digraph G{
 	node [ 
 		shape=box,
-		style="fill=red!20",
-		splines=polyline,
+		width=0.5,
+		fontsize=10,
+		fontcolor=blue,
+		style="filled,color=green",
+		overlap=scale,
 	]
-	a [ texlbl="rmación musical" ];
-	b [ texlbl="Representación y manipulación" ];
+	a [ texlbl="Información musical" ];
+	ba [ texlbl="Representación" ];
+	bb [ texlbl="Manipulación" ];
 
         c [texlbl="Marcos de programación"];
         d [texlbl="Sintaxis Declarativa"];
@@ -33,16 +37,21 @@ graph G{
 	];
 	mml     [ texlbl="MML",
 	];
-	flocking [ texlbl="flocking",
+	flocking [ texlbl="Flocking",
 	];
-	a -- b 
+	a -- ba 
+	a -- bb 
 	c -- d 
-	b -- musedata
-	b -- humdrum
-	b -- musicxml
-	b -- mml      
-	b -- flocking 
+	ba -- musedata
+	ba -- humdrum
+	ba -- musicxml
+	ba -- mml      
+	ba -- flocking 
+	subgraph clusterC{
 
+		bdia -- wefflocking 
+
+	}
 }
 
 ```
