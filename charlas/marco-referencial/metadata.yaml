@@ -3,20 +3,19 @@ instituto: 'Universidad Nacional de Quilmes'
 departamento: 'Escuela de Artes' 
 carrera: 'LICENCIATURA EN MÚSICA Y TECNOLOGÍA'
 director: Esteban Calcagno
+materia: 'Taller de Tesis'
 
-title: 'Exposicióni: Marco Referencial'
+title: 'Exposición: Marco Referencial'
 subtitle: 'Representación y Manipulación de Información Musical'
 
 author: 'Lisandro Fernández'
-tutor: 'no sabemos todavia'
 date:  'Octubre 2017'
 place: 'Buenos Aires, Argentina'
 
 tags: [representación, codificación, texto plano, CLI, MIDI]
 
-abstract: 'Definición de estructura y gramática de plan de obra musical,
-basada en texto serializado legible y desarrollo de un sistema de herramientas
-CLI para generar sequencias MIDI a partir de las mismas.'
+abstract: 'Presentación de herramientas que vinculan representación 
+textual de información musical en para su manipulacion, análisis y busqueda'
 
 references:
 - type: article-journal

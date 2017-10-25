@@ -1,74 +1,70 @@
-# Introducción
+
+## Universidad Nacional de Quilmes \newline Taller de Tesis 
+
+\bigskip
+
+Docente: **Esteban Calcagno** 
+
+Alumno: **Lisandro Fernández**
+
+   
+   
+\newpage
+## Introducción
 
 	
     
-\begin{center}
 \begin{tikzpicture}[node distance = 2cm, auto]
         % Place nodes
-	\tikzstyle{block} = [
-		rectangle, 
+	\tikzstyle{accion} = [
+		diamond, 
 		draw, 
 		fill=blue!20, 
-		text width=7em, 
+	    	text width=4.5em, 
+		text centered,
+		node distance=3cm,
+		inner sep=0pt,
+	]
+	\tikzstyle{block} = [rectangle, 
+		draw, 
+		fill=blue!20, 
+		text width=5em, 
 		text centered, 
 		rounded corners, 
-		minimum height=4em,
-		node distance=3cm,
-	]
-	\tikzstyle{circulo} = [
-		circle, 
-		draw, 
-		fill=blue!20, 
-		text width=6em, 
-		text centered, 
-		minimum width=7.5em,
-		node distance=3cm,
+		minimum height=4em
 	]
 	\tikzstyle{line} = [
 		draw,
 		-latex'
 	]
+	\tikzstyle{cloud} = [
+		draw,
+		ellipse,
+		fill=red!20,
+		node distance=3cm,
+    		minimum height=2em
+	]
     % Place nodes
-    \node [block] (infom) {Información Musical};
-    \node [block, 
-	below of=infom
-    ](repre) {Representación};
-    \node [block, 
-	below of=repre,
-    ] (manip) {Manipulación};
-    \node [block, 
-	left of=manip,
-    ] (anali) {Análisis};
-    \node [block, 
-	right of=manip,
-    ] (busqu) {Busqueda};
+    \node [block] 			(infom) {Informacón Musical};
+    \node [accion, below of=infom] 	(repre) {Representación};
+    \node [ accion, 
+	below of=infom, 
+	left of=repre,
+	] (manip) {Manipulación};
+
+    % \node [cloud, left of=init] (expert) {expert};
+    % \node [cloud, right of=init] (system) {system};
+    % \node [block, below of=init] (identify) {identify candidate models};
+
+    % \node [block, below of=identify] (evalute) {evaluate candidate models};
+
+    % \node [block, left of=evaluate, node distance=3cm] (update) {update model};
 
 
-    \node [circulo, 
-	below of=manip,
-    ](mused) {MuseData};
-    \node [circulo, 
-	left of=mused,
-    ](humdr) {Humdrum};
-    \node [circulo, 
-	right of=mused
-    ](xml) {MusicXML};
-    \node [circulo, 
-	right of=xml,
-    ](mml) {Music Markup Language};
-    \node [circulo, 
-	right of=mml,
-    ](flock) {Flocking JS};
-
-    \node [block, 
-	above of=flock,
-    ] (decla) {Sintaxis Declarativa};
-
+    %\node [block, below of=decide, node distance=3cm] (stop) {stop};
     % Draw edges
     \path [line] (infom) -- (repre);
-    \path [line] (repre) -- (manip);
-    \path [line] (repre) -- (anali);
-    \path [line] (repre) -- (busqu);
+    \path [line] (infom) -- (manip);
     %\path [line] (identify) -- (evaluate);
     %\path [line] (evaluate) -- (decide);
     %\path [line] (decide) -| node [near start] {yes} (update);
@@ -77,12 +73,8 @@
     %\path [line,dashed] (expert) -- (init);
     %\path [line,dashed] (system) -- (init);
     %\path [line,dashed] (system) |- (evaluate);
-% \foreach 
-% 	\from/\to in {n6/n4,n4/n5,n5/n1,n1/n2,n2/n5,n2/n3,n3/n4}
-% 	\draw (\from) -- (\to);
 \end{tikzpicture}
 
-\end{center}
 	
 
 \newpage
@@ -428,9 +420,8 @@ var synth = flock.synth({
   \node (n2) at (9,6)  {2};
   \node (n3) at (5,5)  {3};
 
-\foreach 
-	\from/\to in {n6/n4,n4/n5,n5/n1,n1/n2,n2/n5,n2/n3,n3/n4}
-	\draw (\from) -- (\to);
+  \foreach \from/\to in {n6/n4,n4/n5,n5/n1,n1/n2,n2/n5,n2/n3,n3/n4}
+    \draw (\from) -- (\to);
 
 \end{tikzpicture}
 	
@@ -438,55 +429,72 @@ var synth = flock.synth({
 \newpage
 
 \begin{tikzpicture}[node distance = 2cm, auto]
-%        % Define node tipes
-%	\tikzstyle{decision} = [
-%		diamond, 
-%		draw, 
-%		fill=blue!20, 
-%	    	text width=4.5em, 
-%		text badly centered,
-%		node distance=3cm,
-%		inner sep=0pt,
-%	]
-%	\tikzstyle{block} = [rectangle, 
-%		draw, 
-%		fill=blue!20, 
-%		text width=5em, 
-%		text centered, 
-%		rounded corners, 
-%		minimum height=4em
-%	]
-%	\tikzstyle{line} = [
-%		draw,
-%		-latex'
-%	]
-%	\tikzstyle{cloud} = [
-%		draw,
-%		ellipse,
-%		fill=red!20,
-%		node distance=3cm,
-%    		minimum height=2em
-%	]
-%    % Place nodes
-%    \node [block] (init) {initialize model};
-%    \node [cloud, left of=init] (expert) {expert};
-%    \node [cloud, right of=init] (system) {system};
-%    \node [block, below of=init] (identify) {identify candidate models};
-%    \node [block, below of=identify] (evaluate) {evaluate candidate models};
-%    \node [block, left of=evaluate, node distance=3cm] (update) {update model};
-%    \node [decision, below of=evaluate] (decide) {is best candidate better?};
-%    \node [block, below of=decide, node distance=3cm] (stop) {stop};
-%    % Draw edges
-%    \path [line] (init) -- (identify);
-%    \path [line] (identify) -- (evaluate);
-%    \path [line] (evaluate) -- (decide);
-%    \path [line] (decide) -| node [near start] {yes} (update);
-%    \path [line] (update) |- (identify);
-%    \path [line] (decide) -- node {no}(stop);
-%    \path [line,dashed] (expert) -- (init);
-%    \path [line,dashed] (system) -- (init);
-%    \path [line,dashed] (system) |- (evaluate);
+        % Define node tipes
+	\tikzstyle{decision} = [
+		diamond, 
+		draw, 
+		fill=blue!20, 
+	    	text width=4.5em, 
+		text badly centered,
+		node distance=3cm,
+		inner sep=0pt,
+	]
+	\tikzstyle{block} = [rectangle, 
+		draw, 
+		fill=blue!20, 
+		text width=5em, 
+		text centered, 
+		rounded corners, 
+		minimum height=4em
+	]
+	\tikzstyle{line} = [
+		draw,
+		-latex'
+	]
+	\tikzstyle{cloud} = [
+		draw,
+		ellipse,
+		fill=red!20,
+		node distance=3cm,
+    		minimum height=2em
+	]
+    % Place nodes
+    \node [block] (init) {initialize model};
+    \node [cloud, left of=init] (expert) {expert};
+    \node [cloud, right of=init] (system) {system};
+    \node [block, below of=init] (identify) {identify candidate models};
+    \node [block, below of=identify] (evaluate) {evaluate candidate models};
+    \node [block, left of=evaluate, node distance=3cm] (update) {update model};
+    \node [decision, below of=evaluate] (decide) {is best candidate better?};
+    \node [block, below of=decide, node distance=3cm] (stop) {stop};
+    % Draw edges
+    \path [line] (init) -- (identify);
+    \path [line] (identify) -- (evaluate);
+    \path [line] (evaluate) -- (decide);
+    \path [line] (decide) -| node [near start] {yes} (update);
+    \path [line] (update) |- (identify);
+    \path [line] (decide) -- node {no}(stop);
+    \path [line,dashed] (expert) -- (init);
+    \path [line,dashed] (system) -- (init);
+    \path [line,dashed] (system) |- (evaluate);
 \end{tikzpicture}
 
+	
+\begin{tikzpicture}
+\begin{axis}
+\addplot[color=red]{exp(x)};
+\end{axis}
+\end{tikzpicture}
+%Here ends the furst plot
+\hskip 5pt
+%Here begins the 3d plot
+\begin{tikzpicture}
+\begin{axis}
+\addplot3[
+    surf,
+]
+{exp(-x^2-y^2)*x};
+\end{axis}
+\end{tikzpicture}
 
 \newpage

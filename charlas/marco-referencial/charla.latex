@@ -252,81 +252,81 @@ $endif$
 \usepackage{tikz} % insert this line
 \usetikzlibrary{shapes,arrows}
 
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9} 
+
 \begin{document}
 
 %\usepackage[sf,pagestyles,bf]{titlesec} 
 \topskip0pt
 \vspace*{\fill}
 
-$if(empresa)$
+$if(instituo)$
 \begin{center}
 \LARGE
 \sffamily
-$empresa$
+$instituo$
 \end{center}
 $endif$
 
 
-$if(empresa_lema)$
+$if(departamento)$
 \begin{center}
-$empresa_lema$
+$departamento$
+\end{center}
+$endif$
+
+$if(carrera)$
+\begin{center}
+$carrera$
 \end{center}
 $endif$
 
 
 \bigskip
-\bigskip
-\bigskip
 
+$if(materia)$
 \begin{center}
-Responsable de proyecto:
-\end{center}
-$if(responsable)$
-\begin{center}
-$responsable$
+$materia$
 \end{center}
 $endif$
 
-
+$if(director)$
+\begin{center}
+Docente:
+$director$
+\end{center}
+$endif$
 
 \bigskip
 
 
-$if(proyecto)$
+$if(title)$
 % \maketitle
 \begin{center}
 \huge
 \sffamily
 \bfseries
-$proyecto$
+$title$
 \end{center}
 $endif$
 
-$if(cliente)$
+$if(author)$
 \begin{center}
-Para:
-$cliente$
+Autor:
+$author$
 \end{center}
 $endif$
 
 
-\bigskip
-\begin{center}
-Representado por:
-\end{center}
-$if(cliente_contacto)$
-\begin{center}
-$cliente_contacto$
-\end{center}
-$endif$
 
 
 \bigskip
 \bigskip
 $if(abstract)$
-\begin{abstract}
+\begin{center}
 $abstract$
-\end{abstract}
+\end{center}
 $endif$
 
 \bigskip

@@ -1,90 +1,91 @@
-# Introducción
 
-	
-    
-\begin{center}
-\begin{tikzpicture}[node distance = 2cm, auto]
-        % Place nodes
-	\tikzstyle{block} = [
-		rectangle, 
-		draw, 
-		fill=blue!20, 
-		text width=7em, 
-		text centered, 
-		rounded corners, 
-		minimum height=4em,
-		node distance=3cm,
+## Universidad Nacional de Quilmes \newline Taller de Tesis 
+
+\bigskip
+
+Docente: **Esteban Calcagno** 
+
+Alumno: **Lisandro Fernández**
+
+   
+   
+\newpage
+## Introducción
+
+```{.dot}
+digraph G{
+	node [ 
+		shape=box,
+		width=0.5,
+		fontsize=10,
+		fontcolor=blue,
+		style="filled,color=green",
+		overlap=scale,
 	]
-	\tikzstyle{circulo} = [
-		circle, 
-		draw, 
-		fill=blue!20, 
-		text width=6em, 
-		text centered, 
-		minimum width=7.5em,
-		node distance=3cm,
-	]
-	\tikzstyle{line} = [
-		draw,
-		-latex'
-	]
-    % Place nodes
-    \node [block] (infom) {Información Musical};
-    \node [block, 
-	below of=infom
-    ](repre) {Representación};
-    \node [block, 
-	below of=repre,
-    ] (manip) {Manipulación};
-    \node [block, 
-	left of=manip,
-    ] (anali) {Análisis};
-    \node [block, 
-	right of=manip,
-    ] (busqu) {Busqueda};
+	a [ texlbl="Información musical" ];
+	ba [ texlbl="Representación" ];
+	bb [ texlbl="Manipulación" ];
 
+        c [texlbl="Marcos de programación"];
+        d [texlbl="Sintaxis Declarativa"];
 
-    \node [circulo, 
-	below of=manip,
-    ](mused) {MuseData};
-    \node [circulo, 
-	left of=mused,
-    ](humdr) {Humdrum};
-    \node [circulo, 
-	right of=mused
-    ](xml) {MusicXML};
-    \node [circulo, 
-	right of=xml,
-    ](mml) {Music Markup Language};
-    \node [circulo, 
-	right of=mml,
-    ](flock) {Flocking JS};
+	musedata [ texlbl="MuseData",
+	];
+	humdrum [ texlbl="Humdrum",
+	];
+	musicxml [ texlbl="MusicXML",
+	];
+	mml     [ texlbl="MML",
+	];
+	flocking [ texlbl="Flocking",
+	];
+	a -- ba 
+	a -- bb 
+	c -- d 
+	ba -- musedata
+	ba -- humdrum
+	ba -- musicxml
+	ba -- mml      
+	ba -- flocking 
+	subgraph clusterC{
 
-    \node [block, 
-	above of=flock,
-    ] (decla) {Sintaxis Declarativa};
+		bdia -- wefflocking 
 
-    % Draw edges
-    \path [line] (infom) -- (repre);
-    \path [line] (repre) -- (manip);
-    \path [line] (repre) -- (anali);
-    \path [line] (repre) -- (busqu);
-    %\path [line] (identify) -- (evaluate);
-    %\path [line] (evaluate) -- (decide);
-    %\path [line] (decide) -| node [near start] {yes} (update);
-    %\path [line] (update) |- (identify);
-    %\path [line] (decide) -- node {no}(stop);
-    %\path [line,dashed] (expert) -- (init);
-    %\path [line,dashed] (system) -- (init);
-    %\path [line,dashed] (system) |- (evaluate);
-% \foreach 
-% 	\from/\to in {n6/n4,n4/n5,n5/n1,n1/n2,n2/n5,n2/n3,n3/n4}
-% 	\draw (\from) -- (\to);
-\end{tikzpicture}
+	}
+}
 
-\end{center}
-	
+```
+ 
 
+```{.dot}
+digraph G {
+
+        subgraph cluster_0 {
+                style=filled;
+                color=lightgrey;
+                node [style=filled,color=white];
+                a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0 -> a1 -> a2 -> a3;
+                label = "process #1";
+        }
+
+        subgraph cluster_1 {
+                node [style=filled];
+                b0b0b0 -> b1 -> b2 -> b3;
+                label = "process #2";                       
+                color=blue
+        }
+        start -> a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0;
+        start -> b0b0b0;
+        a1 -> b3;
+        b2 -> a3;
+        a3 -> a0a0a0a0a0a0a0a0a0a0;
+        a3 -> end;
+        b3 -> end;
+
+        start [shape=Mdiamond];
+        end [shape=Msquare];
+}
+```
 \newpage
 # 1. MuseData
 
@@ -415,78 +416,4 @@ var synth = flock.synth({
     }
 });
 ```
-\newpage
-
-## RESERVA TEMPORAL CHEATSHEAT GRAFICOS
-
-\begin{tikzpicture}
-  [scale=.8,auto=left,every node/.style={circle,fill=blue!20}]
-  \node (n6) at (1,10) {humdrum};
-  \node (n4) at (4,8)  {4};
-  \node (n5) at (8,9)  {5};
-  \node (n1) at (11,8) {1};
-  \node (n2) at (9,6)  {2};
-  \node (n3) at (5,5)  {3};
-
-\foreach 
-	\from/\to in {n6/n4,n4/n5,n5/n1,n1/n2,n2/n5,n2/n3,n3/n4}
-	\draw (\from) -- (\to);
-
-\end{tikzpicture}
-	
-    
-\newpage
-
-\begin{tikzpicture}[node distance = 2cm, auto]
-%        % Define node tipes
-%	\tikzstyle{decision} = [
-%		diamond, 
-%		draw, 
-%		fill=blue!20, 
-%	    	text width=4.5em, 
-%		text badly centered,
-%		node distance=3cm,
-%		inner sep=0pt,
-%	]
-%	\tikzstyle{block} = [rectangle, 
-%		draw, 
-%		fill=blue!20, 
-%		text width=5em, 
-%		text centered, 
-%		rounded corners, 
-%		minimum height=4em
-%	]
-%	\tikzstyle{line} = [
-%		draw,
-%		-latex'
-%	]
-%	\tikzstyle{cloud} = [
-%		draw,
-%		ellipse,
-%		fill=red!20,
-%		node distance=3cm,
-%    		minimum height=2em
-%	]
-%    % Place nodes
-%    \node [block] (init) {initialize model};
-%    \node [cloud, left of=init] (expert) {expert};
-%    \node [cloud, right of=init] (system) {system};
-%    \node [block, below of=init] (identify) {identify candidate models};
-%    \node [block, below of=identify] (evaluate) {evaluate candidate models};
-%    \node [block, left of=evaluate, node distance=3cm] (update) {update model};
-%    \node [decision, below of=evaluate] (decide) {is best candidate better?};
-%    \node [block, below of=decide, node distance=3cm] (stop) {stop};
-%    % Draw edges
-%    \path [line] (init) -- (identify);
-%    \path [line] (identify) -- (evaluate);
-%    \path [line] (evaluate) -- (decide);
-%    \path [line] (decide) -| node [near start] {yes} (update);
-%    \path [line] (update) |- (identify);
-%    \path [line] (decide) -- node {no}(stop);
-%    \path [line,dashed] (expert) -- (init);
-%    \path [line,dashed] (system) -- (init);
-%    \path [line,dashed] (system) |- (evaluate);
-\end{tikzpicture}
-
-
 \newpage
