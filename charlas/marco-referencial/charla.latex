@@ -14,10 +14,10 @@ $endif$
 \usepackage{geometry}
  \geometry{
  a4paper,
- total={217mm,130mm},
- left=20mm,
- top=20mm,
- papersize={257mm,170mm}
+ total={206mm,150mm},
+ left=10mm,
+ top=10mm,
+ papersize={226mm,170mm},
  }
 
 $if(linestretch)$
