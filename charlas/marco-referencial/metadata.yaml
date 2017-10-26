@@ -14,8 +14,7 @@ place: 'Buenos Aires, Argentina'
 
 tags: [representación, codificación, texto plano, CLI, MIDI]
 
-abstract: 'Presentación de herramientas que vinculan representación 
-textual de información musical en para su manipulacion, análisis y busqueda'
+abstract: 'Representación textual de información musical, desarrollos, herramientas y definiciones para su manipulacion, análisis, busqueda y distribución.'
 
 references:
 - type: article-journal

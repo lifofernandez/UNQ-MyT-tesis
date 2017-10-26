@@ -7,6 +7,6 @@ dependencias:
 pdf:
 	pandoc marco_referecial.sp.md metadata.yaml \
 	--template=charla \
-	-o lisandro_fernandez-marco_referencial.pdf \
+	-o fernandez_lisandro-marco_referencial.pdf \
 	-s -S --csl=../../vendor/iso690-author-date-es.csl \
 	--filter=pandoc-citeproc 

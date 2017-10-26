@@ -1,7 +1,4 @@
 # Introducción
-
-	
-    
 \begin{center}
 \begin{tikzpicture}[node distance = 2cm, auto]
         % Place nodes
@@ -18,7 +15,7 @@
 	\tikzstyle{circulo} = [
 		circle, 
 		draw, 
-		fill=blue!20, 
+		fill=red!20, 
 		text width=6em, 
 		text centered, 
 		minimum width=7.5em,
@@ -29,29 +26,13 @@
 		-latex'
 	]
     % Place nodes
-    \node [block] (infom) {Información Musical};
-    \node [block, 
-	below of=infom
-    ](repre) {Representación};
-    \node [block, 
-	below of=repre,
-    ] (manip) {Manipulación};
-    \node [block, 
-	left of=manip,
-    ] (anali) {Análisis};
-    \node [block, 
-	right of=manip,
-    ] (busqu) {Busqueda};
-
-
     \node [circulo, 
-	below of=manip,
     ](mused) {MuseData};
     \node [circulo, 
-	left of=mused,
+	right of=mused,
     ](humdr) {Humdrum};
     \node [circulo, 
-	right of=mused
+	right of=humdr
     ](xml) {MusicXML};
     \node [circulo, 
 	right of=xml,
@@ -60,15 +41,51 @@
 	right of=mml,
     ](flock) {Flocking JS};
 
+    %\node [block, 
+    %    below of=flock,
+    %] (decla) {Lenguaje con Sintaxis Declarativa};
+
+    \node [block,
+	below of=xml
+    ](infom) {Información Musical};
     \node [block, 
-	above of=flock,
-    ] (decla) {Sintaxis Declarativa};
+	node distance=2cm,
+	below of=infom
+    ](repre) {Representación};
+
+    \node [block, 
+	node distance=3cm,
+	below of=repre,
+    ] (manip) {Manipulación};
+
+    \node [block, 
+	left of=manip,
+    ] (anali) {Análisis};
+    \node [block, 
+	left of=anali,
+	%right of=manip,
+    ] (busqu) {Busqueda};
+
+    \node [block, 
+	right of=manip,
+    ] (produ) {Producción};
+    \node [block, 
+	right of=produ,
+    ] (distr) {Distribución};
+
+
 
     % Draw edges
     \path [line] (infom) -- (repre);
-    \path [line] (repre) -- (manip);
     \path [line] (repre) -- (anali);
+    \path [line] (repre) -- (manip);
+
     \path [line] (repre) -- (busqu);
+    \path [line] (repre) -- (distr);
+    \path [line] (repre) -- (produ);
+
+    \path [line] (mused) -- (humdr);
+
     %\path [line] (identify) -- (evaluate);
     %\path [line] (evaluate) -- (decide);
     %\path [line] (decide) -| node [near start] {yes} (update);
@@ -77,9 +94,11 @@
     %\path [line,dashed] (expert) -- (init);
     %\path [line,dashed] (system) -- (init);
     %\path [line,dashed] (system) |- (evaluate);
+
 % \foreach 
 % 	\from/\to in {n6/n4,n4/n5,n5/n1,n1/n2,n2/n5,n2/n3,n3/n4}
 % 	\draw (\from) -- (\to);
+
 \end{tikzpicture}
 
 \end{center}

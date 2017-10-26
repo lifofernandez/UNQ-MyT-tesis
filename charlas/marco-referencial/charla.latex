@@ -16,7 +16,7 @@ $endif$
  a4paper,
  total={206mm,150mm},
  left=10mm,
- top=10mm,
+ top=5mm,
  papersize={226mm,170mm},
  }
 
@@ -261,38 +261,46 @@ $endif$
 \topskip0pt
 \vspace*{\fill}
 
-$if(instituo)$
+$if(instituto)$
 \begin{center}
-\LARGE
-\sffamily
-$instituo$
+\Huge
+$instituto$
 \end{center}
 $endif$
 
 
 $if(departamento)$
+\LARGE
 \begin{center}
 $departamento$
 \end{center}
 $endif$
 
 $if(carrera)$
+\huge
 \begin{center}
 $carrera$
 \end{center}
 $endif$
 
-
 \bigskip
+\bigskip
+
 
 $if(materia)$
 \begin{center}
+\LARGE
+\sffamily
+\bfseries{
 $materia$
+}
 \end{center}
 $endif$
 
 $if(director)$
 \begin{center}
+\Large
+\sffamily
 Docente:
 $director$
 \end{center}
@@ -300,6 +308,16 @@ $endif$
 
 \bigskip
 
+
+
+$if(author)$
+\Large
+\sffamily
+\begin{center}
+Alumno:
+$author$
+\end{center}
+$endif$
 
 $if(title)$
 % \maketitle
@@ -311,12 +329,7 @@ $title$
 \end{center}
 $endif$
 
-$if(author)$
-\begin{center}
-Autor:
-$author$
-\end{center}
-$endif$
+
 
 
 
@@ -324,6 +337,7 @@ $endif$
 \bigskip
 \bigskip
 $if(abstract)$
+\huge
 \begin{center}
 $abstract$
 \end{center}
@@ -346,6 +360,8 @@ $empresa_ubicacion$
 $endif$
 
 \vspace*{\fill}
+\sffamily
+\normalsize
 \newpage
 
 $for(include-before)$
