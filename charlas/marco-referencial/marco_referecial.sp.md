@@ -1,4 +1,6 @@
 # Introducción
+
+\vspace*{\fill}
 \begin{center}
 \begin{tikzpicture}[node distance = 2cm, auto]
         % Place nodes
@@ -74,7 +76,6 @@
     ] (distr) {Distribución};
 
 
-
     % Draw edges
     \path [line] (infom) -- (repre);
     \path [line] (repre) -- (anali);
@@ -103,25 +104,111 @@
 
 \end{center}
 	
-
-\newpage
-# 1. MuseData
-
-* Universidad de Stanford
-	* Centro de Investigación Asistida por Computador en Humanidades (CCARH). 
-		* Creado por Walter Hewlett. 
-
-* Base de datos MuseData [^ver_selfridge] 
-
-	* Estructura y a la vez el sistema de codificación
-
-* Archivos => múltiples formatos.
-
-* El archivo MuseData está diseñado para soportar aplicaciones de
-sonido, gráficos y análisis.
+\vspace*{\fill}
 
 
-[^ver_selfridge]: @selfridge
+## 1. MuseData
+
+	
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[node distance = 2cm, auto]
+
+    \tikzstyle{circulo} = [
+    	circle, 
+    	draw, 
+    	fill=red!20, 
+    	text width=6em, 
+    	text centered, 
+    	minimum width=7.5em,
+    	node distance=4cm,
+    ]
+    \tikzstyle{block} = [
+    	rectangle, 
+    	draw, 
+    	fill=blue!20, 
+    	text width=7em, 
+    	text centered, 
+    	minimum height=4em,
+    	node distance=3.5cm,
+    ]
+    \tikzstyle{line} = [
+    	draw,
+    	-latex'
+    ]
+    \node [circulo](mused) {\large\bfseries MuseData};
+
+    \node [block, 
+        left of=mused
+    ](stanf) {Universidad de Stanford};
+
+
+
+
+    \node [block, 
+        below of=stanf
+    ](ccarh) { CCARH};
+    \node [block, 
+        below of=ccarh
+    ](hawle) { Walter Hewlett };
+
+    \node [block, 
+        right of=mused
+    ](based) {Base de Datos};
+
+    \node [block, 
+        below right of=based
+    ](estru) {Estructura y Organización};
+    \node [block, 
+        below left of=based
+    ](siste) {Sistema de Codificación};
+
+    \node [block, 
+        below left of=estru
+    ](archi) {Archivos};
+    \node [block, 
+        below left of=archi
+    ](forma) {Múltiples Formatos};
+
+    \node [block, 
+        below right of=archi
+    ](aplic) {Múltiples Aplicaciones};
+    \node [block, 
+        below of=aplic
+    ](sonid) {Sonido};
+    \node [block, 
+        right of=sonid
+    ](grafi) {Gráficos};
+    \node [block, 
+        left of=sonid
+    ](anali) {Análisis};
+
+    \path [line] (mused) -- (stanf);
+    \path [line] (mused) -- (based);
+
+    \path [line] (stanf) -- (ccarh);
+    \path [line] (ccarh) -- node [near end] {Creado por} (hawle);
+
+    \path [line] (based) |- (estru);
+    \path [line] (based) |- node [near start] {define}(siste);
+
+    \path [line] (estru) |- (archi) ;
+    \path [line] (siste) |- (archi) ;
+
+    \path [line] (archi) |- (aplic) ;
+    \path [line] (archi) |- (forma) ;
+
+    \path [line] (aplic) -- (sonid);
+    \path [line] (aplic) -- (grafi);
+    \path [line] (aplic) -- (anali);
+
+\end{tikzpicture}
+
+\end{center}
+	
+\vspace*{\fill}
+
+
 
 \newpage
 ## 1.1 Organización de archivos MuseData 
