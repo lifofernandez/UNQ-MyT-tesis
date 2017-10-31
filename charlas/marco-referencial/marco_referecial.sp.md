@@ -208,33 +208,145 @@
 	
 \vspace*{\fill}
 
-
-
-\newpage
 ## 1.1 Organización de archivos MuseData 
 
-Los archivos MuseData 
+\begin{center}
+\begin{tikzpicture}[node distance = 2cm, auto]
 
-* basados en ASCII => cualquier editor de texto. 
+    \tikzstyle{circulo} = [
+    	circle, 
+    	draw, 
+    	fill=red!20, 
+    	text width=6em, 
+    	text centered, 
+    	minimum width=7.5em,
+    	node distance=4cm,
+    ]
+    \tikzstyle{block} = [
+    	rectangle, 
+    	draw, 
+    	fill=blue!20, 
+    	text width=7em, 
+    	text centered, 
+    	minimum height=4em,
+    	node distance=3.5cm,
+    ]
+    \tikzstyle{line} = [
+    	draw,
+    	-latex'
+    ]
 
-* Organizados en base a las partes. 
+\node [circulo](archi) { ARCHIVOS MuseData };
 
-* El número de archivos y el formato puede variar por movimiento y por trabajo 
+\node [block,
+left of=archi
+](ascii) {
+basados en ASCII
+};
+\path [line] (archi) -- (ascii);
 
-* Archivos para los diferentes movimientos de una composición se encuentran en directorios separados  
+\node [block,
+below of=ascii
+](texto) {
+Cualquier Editor de Texto
+};
+\path [line] (ascii) -- (texto);
 
-* Un movimiento de una composición es típicamente encontrado 
+\node [block,
+right of=archi
+](organ) {
+Organizados en base a 
+};
+\path [line] (archi) -- (organ);
 
-	* Rótulo: número de movimiento, p. 01, 02, etc.
 
-	* Dividido en varios archivos, agrupados en ese directorio para ese movimiento.
+\node [block,
+below right of=organ
+](estruc) {
+la Estructura Musical  
+};
 
-	* Las partes de los archivos 
+\node [block,
+below left of=organ
+](instr) {
+las Partes Instrumentales 
+};
+
+
+\node [block,
+right of=organ
+](canti) {
+La cantidad de archivos y el formato 
+};
+\path [line] (organ) -- (canti);
+
+\node [block,
+right of=canti
+](varia) {
+Puede variar por movimiento y por trabajo 
+};
+\path [line] (canti) -- (varia);
+
+\node [block,
+below of=estru
+](difer) {
+Diferentes movimientos de una composición 
+};
+\path [line] (varia) -- (difer);
+
+\node [block,
+below of=difer
+](encue) {
+Se encuentran en directorios separados  
+};
+\path [line] (difer) -- (encue);
+
+\node [block,
+left of=encue
+](movim) {
+Un movimiento de una composición es típicamente encontrado 
+};
+\path [line] (encue) -- (movim);
+
+
+\node [block,
+left of=movim
+](divid) {
+Dividido en varios archivos, agrupados en ese directorio para ese movimiento.
+};
+\path [line] (movim) -- (divid);
+
+\node [block,
+above of=divid
+](rotul) {
+Rótulado segun número de movimiento, p. 01, 02, etc.
+};
+\path [line] (rotul) -- (divid);
+
+\node [block,
+left of=divid
+](parte) {
+Las parte de los archivos 
+};
+
+\node [block,
+below of=secci
+](etiqu) {
+Etiqueta 01 para la primera part 
+};
+
+\node [block,
+left of=etiqu
+](etiq2) {
+02 para la 2da parte de la partitura, etc. 
+};
+
+
+\end{tikzpicture}
+
+\end{center}
 	
-		* Etiqueta 01 para la primera parte, 02 para la 2da parte de la partitura, etc. 
-
-
-
+\vspace*{\fill}
 \newpage
 ## 1.2 La representación MuseData de información musical
 
