@@ -320,7 +320,7 @@ Dividido en varios archivos, agrupados en ese directorio para ese movimiento.
 \node [block,
 below of=instr
 ](parte) {
-Los partes de cada archivo 
+Las secciones de los archivos 
 };
 \path [line] (instr) -- (parte);
 \path [line] (varia) -- (difer);

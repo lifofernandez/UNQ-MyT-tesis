@@ -250,7 +250,7 @@ $endif$
 \date{$date$}
 
 \usepackage{tikz} % insert this line
-\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{shapes,arrows,positioning}
 
 \usepackage{pgfplots}
 \pgfplotsset{width=10cm,compat=1.9} 
