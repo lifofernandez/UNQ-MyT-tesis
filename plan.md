@@ -8,7 +8,7 @@ obra, basada en texto plano [^ver_hunt][^ver_leek] serializado y
 legible[^ver_combs], acompañada por el desarrollo de un sistema de herramientas
 para interfaz de línea de comandos (Command Line Interface)[^ver_hunt] que
 genere secuencias musicales en el estándar MIDI manipulando la información
-representada en estos ficheros
+almacenada en estos ficheros
 
 Se documentará[^ver_kernighan] este desarrollo para su correcta publicación enmarcada
 bajo premisas del software libre[^ver_gnu][^ver_yzaguirre].
@@ -24,7 +24,11 @@ Buscar [^ver_raymond] [^ver_raymond2]
 [^ver_raymond2]: @raymond2
 [^ver_yzaguirre]: @yzaguirre
 
+\newpage
+
 ## 2. Justificacion 
+
+A continución se argumentan los aspectos clave de este proyecto.
 
 ### 2.1 ¿Por qué Texto Plano?
 
@@ -34,59 +38,65 @@ Buscar [^ver_raymond] [^ver_raymond2]
 > manipulate knowledge, both manually and programmatically, using virtually every
 > tool at our disposal." [@hunt] 
 
-* Leverage
+Algunas ventajas del texto plano por sobre el formato binario de archivos u otras 
+alternativas mas complejas.
 
-* **Soportado en multiples plataformas.** 
-  Cada sistema operativo tiene al menos un editor de texto y son todos
+* **Aprovechar.** 
+  Potencialmente cualquier herramienta de computo puede operar texto plano.
+
+* **Mínimo Común Denominador.**
+  Soportado en multiples plataformas,
+  cada sistema operativo tiene al menos un editor de texto y son todos
   compatibles hasta la codificación del texto. 
 
-* **Fácil de manipular.** 
-  Procesar cadenas de caracteres es uno de los procesos mas elementales que
-  se pueden realizar en un sistema informático.
+* **Fácil**
 
-* **Fácil de mantener.** 
-  Comparado con alternativas mas complejas, el texto plano es lo mas sencillo ante
-  la necesidad de actualizar información o de realizar cualquier tipo de cambio o
-  ajuste.
+	* **Fácil de manipular.** 
+	Procesar cadenas de caracteres es de los procesos mas rudimentales que
+  	se pueden realizar en un sistema informático.
 
-* Easier testing 
+	* **Fácil de mantener.** 
+	El texto plano es lo mas simple ante la necesidad de actualizar
+	información o de realizar cualquier tipo de cambio o ajuste.
+
+	* **Fácil de comprobar.**
+	Es tarea sencilla agregar, actualizar o modificar datos de testeo sin
+        la necesidad de emplear o desarrollar herramientas especiales para ello.
 
 * **Liviano.**
-  Aspecto clave cuando los recursos a nivel de sistema son
-  limitados, como por ejemplo poca capacidad de procesamiento/almacenamiento,
-  conexiones lentas o sin acceso a una interfaz gráfica.
+  Aspecto clave cuando los recursos de sistema son limitados, como por ejemplo
+  poca capacidad de procesamiento/almacenamiento, conexiones lentas o sin acceso
+  a la interfaz gráfica de usuario.
   
-* **Compatible con el avance.**
-* Insurance against obsolescence
-  Independientemente de la próxima plataforma, si tenemos nuestros documentos
-  almacenados en texto plano, serán fáciles de interpretar.
+* **Seguro contra toda obsolescencia (o compatible con el avance).**
+  Los formatos de datos legibles y autodescriptivos perduraran por sobre otros
+  formatos aun cuando las aplicaciones que los hayan creado caduquen. 
 
 
 
+### 2.2 ¿Por qué Interfaz de Linea de Comandos?
 
-### 2.2 ¿Por qué la Interfaz de Linea de Comandos?
+* **Primer estado operable de cualquier de sistema.** 
+  Eventualmente todos los sistemas operativos permiten ser 
+  ultilizados a travez de este acceso previo al gerente de escritorio/ventanas.
 
-* Esta en todos los sistemas
+* **Menor utilización de recursos.**
 
-* Primer estado utilizable del sistema 
+* **Acceso remoto.**
 
-* Agilidad
+* **Una interfaz, múltiples aplicaciones.**
 
-* Misma interfaz para múltiples aplicaciones
+* **Resultados reproducibles.**
 
-* Resultados reproducibles
+* **Tradición.**
 
-* Pipeline
+* **Pipeline.**
 
-* Tradición 
+* **Agilidad.**
 
-* Menos recursos 
+* **VIM**
 
-* Acceso remoto
-
-* VIM
-
-
+\newpage
 
 ## 3. Objetivos
 
@@ -101,6 +111,7 @@ Las motivaciones principales del desarrollo que este plan propone son:
 * Acercar a músicos a la composición musical asistida por ordenadores.
 
 
+\newpage
 ## 4. Marco referencial 
 
 A continuación se describen algunos desarrollos que vinculan representación y
@@ -251,7 +262,7 @@ El énfasis está en **asistido**:
   utilizados en combinacióin* para explotar plenamente el potencial del
   sistema.
 
-## 4.2.3 De la experiencia a la apreciación 
+#### 4.2.3 De la experiencia a la apreciación 
 
 Apreciación de todo el potencial de Humdrum es definitivamente a partir de la 
 experiencia. En palabras de David Huron:
@@ -266,7 +277,7 @@ de la música o etnomusicología, mientras que los teóricos y los musicólogos 
 para reconocer el potencial del sistema. 
 
 
-## 4.2.4 CLI vs GUI
+#### 4.2.4 CLI vs GUI
 
 Humdrum u otros sistemas como él ofrecen los recursos para una marcar un nuevo
 paradigma para la investigación musical.  
@@ -304,7 +315,7 @@ MusicXML.
 [^ver_good]: @good
 
 
-#### 4.4 Music Markup Language 
+### 4.4 Music Markup Language 
 
 El Lenguaje de Marcado de Música (MML)[^ver_mml] es un intento de marcar
 objetos y eventos de música con un lenguaje basado en XML. La marcación de
@@ -410,6 +421,9 @@ Aunque Flocking está escrito en JavaScript, comparte con
 Lisp el enfoque expresar programas dentro de estructuras de datos que estén
 disponibles para su manipulación por otros programas.
 
+
+\newpage
+
 ## 5. Metodología
 
 * Análisis de caso
@@ -441,6 +455,7 @@ disponibles para su manipulación por otros programas.
 * Release en repositorios públicos
 
 
+
 ## 6. Cronograma de Trabajo
 
 |                             | Tiempo Estipulado | Fechas Tentativas       |
@@ -453,8 +468,8 @@ disponibles para su manipulación por otros programas.
 | Pruebas y optimización      | 3 semanss         | Del XX al XX de XXXXXX  |
 | Documentación               | 5 semanas         | Del XX al XX de XXXXXX  |
 
-```{.dot caption="example graph." label="the_example"}
 
+```{.dot caption="example graph." label="the_example"}
 graph graphname {
      a [texlbl="$\alpha$"];
      b [texlbl="$\beta$"];
@@ -465,7 +480,11 @@ graph graphname {
      b -- b2
  }
 ```
+
+\newpage
 ## 7. Bibliografía
+
+
 
 
 
