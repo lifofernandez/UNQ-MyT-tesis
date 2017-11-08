@@ -14,9 +14,10 @@ place: 'Buenos Aires, Argentina'
 
 tags: [representación, codificación, texto plano, CLI, MIDI]
 
-abstract: 'Definición de estructura y gramática de plan de obra musical,
-basada en texto serializado legible y desarrollo de un sistema de herramientas
-CLI para generar sequencias MIDI a partir de las mismas.'
+abstract: 'Definición de estructura y gramática de plan de obra musical, basada
+en texto plano serializado, acompañada por el desarrollo de un sistema de
+herramientas CLI para producir sequencias MIDI.'
+
 
 references:
 - type: article-journal
@@ -182,7 +183,7 @@ references:
   issued:
     date-parts:
     - - 2017
-      - 06
+      - 6
       - 13
   title: 'The future of education is plain text'
   container-title: SimplyStats
@@ -202,6 +203,21 @@ references:
   title: '¿Que es el Software Libre?'
   container-title: 'GNU It is Not Unix'
   URL: https://www.gnu.org/philosophy/free-sw.es.html
+  language: en-GB
+
+- type: webpage
+  id: moolenaar 
+  author:
+  - family:  Moolenaar
+    given: Bram
+  issued:
+    date-parts:
+    - - 2000
+      - 11
+      - 1
+  title: 'Seven habits of effective text editing'
+  container-title: 'moolenaar.net'
+  URL: http://moolenaar.net/habits.html
   language: en-GB
 
 - type: webpage
@@ -279,6 +295,23 @@ references:
   title-short: 'catedral-bazaar'
   page: 01-99 
   DOI : 10.1007/s12130-999-1026-0
+  language: en-GB
+
+- type: book
+  id: neil
+  editor: 
+  - family: Neil 
+    given: Drew 
+  issued:
+    date-parts:
+    - - 2012
+      - 09
+      - 01
+  title: 'Practical Vim'
+  publisher: 'The Pragmatic Bookshelf'
+  publisher-place: 'Dallas, Texas - Ralegh, North Carolina'
+  page: 1 
+  ISBN: 978-1-934356-98-2 
   language: en-GB
 
 

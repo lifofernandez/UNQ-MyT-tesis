@@ -2,9 +2,9 @@
 
 ## 1. Resumen 
 
-El presente plan propone la definición de una gramática neutral para
-representar un discurso musical en estructura de hojas de análisis o planes de
-obra, basada en texto plano [^ver_hunt][^ver_leek] serializado y
+El presente plan propone definir una gramática neutral que
+represente un discurso musical en estructura de hoja de análisis o plan de
+obra, sobre texto plano [^ver_hunt][^ver_leek] serializado y
 legible[^ver_combs], acompañada por el desarrollo de un sistema de herramientas
 para interfaz de línea de comandos (Command Line Interface)[^ver_hunt] que
 genere secuencias musicales en el estándar MIDI manipulando la información
@@ -41,8 +41,8 @@ A continución se argumentan los aspectos clave de este proyecto.
 Algunas ventajas del texto plano por sobre el formato binario de archivos u otras 
 alternativas mas complejas.
 
-* **Aprovechar.** 
-  Potencialmente cualquier herramienta de computo puede operar texto plano.
+* **Aprovechar.** Potencialmente cualquier herramienta de computo puede operar
+  informacion almacenada en texto plano.
 
 * **Mínimo Común Denominador.**
   Soportado en multiples plataformas,
@@ -60,7 +60,7 @@ alternativas mas complejas.
 	información o de realizar cualquier tipo de cambio o ajuste.
 
 	* **Fácil de comprobar.**
-	Es tarea sencilla agregar, actualizar o modificar datos de testeo sin
+	Es sencillo agregar, actualizar o modificar datos de testeo sin
         la necesidad de emplear o desarrollar herramientas especiales para ello.
 
 * **Liviano.**
@@ -76,25 +76,43 @@ alternativas mas complejas.
 
 ### 2.2 ¿Por qué Interfaz de Linea de Comandos?
 
-* **Primer estado operable de cualquier de sistema.** 
+* **Primer estado operativo de un ordenador.** 
   Eventualmente todos los sistemas operativos permiten ser 
-  ultilizados a travez de este acceso previo al gerente de escritorio/ventanas.
+  ultilizados a travez de este acceso previo al gerente de escritorio.
 
 * **Menor utilización de recursos.**
+  No depender de un agente de ventanas que interviene entre el usuario y el
+  sistema deja libre una cantidad considerable de recursos.  
 
-* **Acceso remoto.**
-
-* **Una interfaz, múltiples aplicaciones.**
-
-* **Resultados reproducibles.**
+* **Una interfaz para diferentes aplicaciones.**
+  La estructura *aplicación - argumento - fichero* (su analogía *verbo - adverbio -
+  sujeto*) persiste en cualquier pieza de software destinada para esta interfaz.
+  Dicha recurrencia elimina el ejercicio que significa operar de modo 
+  distinto y único cada aplicación, favoreciendo acciones semejantes en diferentes
+  circunstancias.
 
 * **Tradición.**
+  Perdura por decadas como estándar intalterable a lo largo de la historia de la
+  informática remitiendo a los origenes de los ordenadores basados en teletipo.
 
-* **Pipeline.**
+* **Resultados reproducibles.**
+  Las instrucciones textuales pueden ser compiladas en estructura 
+  de acciones secuenciales (guión).
+
+* **Pipeline y Automatización.**
+  La composicion encadenando resultados con trabajos para expresar flujos
+  de procesos complejos. 
+  
+* **Acceso remoto.**
+  Mas allá del protocolo en el que se base la negociación local/remoto la
+  iterfáz de comandos es la herramienta de facto para administrar un sistema a
+  distancia.  
 
 * **Agilidad.**
+  El empleo de editores de texto avanzados (como VIM ó Emacs) agilizan el
+  trabajo como es caracteristico de herramientas pulidas.[^ver_moolenaar] 
 
-* **VIM**
+[^ver_moolenaar]: @moolenaar
 
 \newpage
 
@@ -106,7 +124,8 @@ Las motivaciones principales del desarrollo que este plan propone son:
 
 * Unificar el proceso de planificación de obra musical con el de secuenciación MIDI.
 
-* Exponer ventajas de la operación de sistemas a través de la Interfaz de Linea de Comandos.
+* Exponer a artitas y teoricos a las ventajas de la operación de sistemas
+  informaticos a través de la Interfaz de Linea de Comandos.
 
 * Acercar a músicos a la composición musical asistida por ordenadores.
 
