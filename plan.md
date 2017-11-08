@@ -4,25 +4,17 @@
 
 El presente plan propone definir una gramática neutral que
 represente un discurso musical en estructura de hoja de análisis o plan de
-obra, sobre texto plano [^ver_hunt][^ver_leek] serializado y
+obra, sobre texto plano serializado y
 legible[^ver_combs], acompañada por el desarrollo de un sistema de herramientas
-para interfaz de línea de comandos (Command Line Interface)[^ver_hunt] que
+para interfaz de línea de comandos (Command Line Interface) que
 genere secuencias musicales en el estándar MIDI manipulando la información
 almacenada en estos ficheros
 
-Se documentará[^ver_kernighan] este desarrollo para su correcta publicación enmarcada
-bajo premisas del software libre[^ver_gnu][^ver_yzaguirre].
-
-Buscar [^ver_raymond] [^ver_raymond2]
+Se documentará este desarrollo para su correcta publicación enmarcada
+bajo premisas del software libre. [^ver_gnu]
 
 [^ver_combs]: @coombs 
-[^ver_hunt]: @hunt
-[^ver_leek]: @leek
-[^ver_kernighan]: @kernighan
 [^ver_gnu]: @gnu
-[^ver_raymond]: @raymond
-[^ver_raymond2]: @raymond2
-[^ver_yzaguirre]: @yzaguirre
 
 \newpage
 
@@ -36,13 +28,13 @@ A continución se argumentan los aspectos clave de este proyecto.
 > knowledge. [...]. And we believe that the best format for storing knowledge
 > persistently is plain text.  With plain text, we give ourselves the ability to
 > manipulate knowledge, both manually and programmatically, using virtually every
-> tool at our disposal." [@hunt] 
+> tool at our disposal." [@hunt]
 
 Algunas ventajas del texto plano por sobre el formato binario de archivos u otras 
 alternativas mas complejas.
 
 * **Aprovechar.** Potencialmente cualquier herramienta de computo puede operar
-  informacion almacenada en texto plano.
+  informacion almacenada en texto plano.[^ver_hunt]
 
 * **Mínimo Común Denominador.**
   Soportado en multiples plataformas,
@@ -70,9 +62,11 @@ alternativas mas complejas.
   
 * **Seguro contra toda obsolescencia (o compatible con el avance).**
   Los formatos de datos legibles y autodescriptivos perduraran por sobre otros
-  formatos aun cuando las aplicaciones que los hayan creado caduquen. 
+  formatos aun cuando las aplicaciones que los hayan creado caduquen. [^ver_leek] 
 
 
+[^ver_hunt]: @hunt
+[^ver_leek]: @leek
 
 ### 2.2 ¿Por qué Interfaz de Linea de Comandos?
 
@@ -101,7 +95,7 @@ alternativas mas complejas.
 
 * **Pipeline y Automatización.**
   La composicion encadenando resultados con trabajos para expresar flujos
-  de procesos complejos. 
+  de procesos complejos. [^ver_raymond]
   
 * **Acceso remoto.**
   Mas allá del protocolo en el que se base la negociación local/remoto la
@@ -113,21 +107,26 @@ alternativas mas complejas.
   trabajo como es caracteristico de herramientas pulidas.[^ver_moolenaar] 
 
 [^ver_moolenaar]: @moolenaar
+[^ver_raymond]: @raymond
 
 \newpage
 
 ## 3. Objetivos
 
-Las motivaciones principales del desarrollo que este plan propone son:
+Las motivacion principal de este proyecto es confeccionar una herramienta para
+la composición musical que presinda de otra interfaz gráfica mas que la
+representaciones de discursos en formato de esquema de obra y que por lo tanto unifique  el proceso de
+planificación de obra musical con el de secuenciación MIDI.
 
-* Elaborar una herramienta de composición musical que prescinda de interfaz gráfica.
-
-* Unificar el proceso de planificación de obra musical con el de secuenciación MIDI.
-
-* Exponer a artitas y teoricos a las ventajas de la operación de sistemas
+* Exponer a musicos y teoricos a las ventajas de la operación de sistemas
   informaticos a través de la Interfaz de Linea de Comandos.
 
-* Acercar a músicos a la composición musical asistida por ordenadores.
+* Acercar a comunidad artistica a la composición musical asistida por ordenadores.
+
+* Fomentar el trabajo colaborativo generar un vinculo con los usuarios. [^ver_raymond2] [^ver_yzaguirre]
+
+[^ver_raymond2]: @raymond2
+[^ver_yzaguirre]: @yzaguirre
 
 
 \newpage
@@ -465,7 +464,7 @@ disponibles para su manipulación por otros programas.
 
 	* GIT
 
-* Documentación
+* Documentación[^ver_kernighan]
 
 	* Modulo POD 
 
@@ -473,6 +472,7 @@ disponibles para su manipulación por otros programas.
 
 * Release en repositorios públicos
 
+[^ver_kernighan]: @kernighan
 
 
 ## 6. Cronograma de Trabajo
