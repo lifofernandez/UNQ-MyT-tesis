@@ -18,9 +18,9 @@ bajo premisas del software libre. [^ver_gnu]
 
 \newpage
 
-## 2. Justificacion 
+## 2. Justificación 
 
-A continución se argumentan los aspectos clave de este proyecto.
+A continuación se argumentan los aspectos clave de este proyecto.
 
 ### 2.1 ¿Por qué Texto Plano?
 
@@ -30,39 +30,40 @@ A continución se argumentan los aspectos clave de este proyecto.
 > manipulate knowledge, both manually and programmatically, using virtually every
 > tool at our disposal." [@hunt]
 
+
+\bigskip
 Algunas ventajas del texto plano por sobre el formato binario de archivos u otras 
-alternativas mas complejas.
+alternativas mas complejas.[^ver_hunt]
 
-* **Aprovechar.** Potencialmente cualquier herramienta de computo puede operar
-  informacion almacenada en texto plano.[^ver_hunt]
+**Aprovechar.**
+Potencialmente cualquier herramienta de computo puede operar
+información almacenada en texto plano.
 
-* **Mínimo Común Denominador.**
-  Soportado en multiples plataformas,
-  cada sistema operativo tiene al menos un editor de texto y son todos
-  compatibles hasta la codificación del texto. 
+**Mínimo Común Denominador.**
+Soportado en múltiples plataformas,
+cada sistema operativo tiene al menos un editor de texto y son todos
+compatibles hasta la codificación del texto. 
 
-* **Fácil**
+**Fácil de manipular.** 
+Procesar cadenas de caracteres es de los procesos mas rudimentales que
+  se pueden realizar en un sistema informático.
 
-	* **Fácil de manipular.** 
-	Procesar cadenas de caracteres es de los procesos mas rudimentales que
-  	se pueden realizar en un sistema informático.
+**Fácil de mantener.** 
+El texto plano es lo mas simple ante la necesidad de actualizar
+información o de realizar cualquier tipo de cambio o ajuste.
 
-	* **Fácil de mantener.** 
-	El texto plano es lo mas simple ante la necesidad de actualizar
-	información o de realizar cualquier tipo de cambio o ajuste.
+**Fácil de comprobar.**
+Es sencillo agregar, actualizar o modificar datos de testeo sin
+la necesidad de emplear o desarrollar herramientas especiales para ello.
 
-	* **Fácil de comprobar.**
-	Es sencillo agregar, actualizar o modificar datos de testeo sin
-        la necesidad de emplear o desarrollar herramientas especiales para ello.
+**Liviano.**
+Característica determinante cuando los recursos de sistema son limitados, como por ejemplo
+poca capacidad de procesamiento/almacenamiento, conexiones lentas o sin acceso
+a la interfaz gráfica de usuario.
 
-* **Liviano.**
-  Aspecto clave cuando los recursos de sistema son limitados, como por ejemplo
-  poca capacidad de procesamiento/almacenamiento, conexiones lentas o sin acceso
-  a la interfaz gráfica de usuario.
-  
-* **Seguro contra toda obsolescencia (o compatible con el avance).**
-  Los formatos de datos legibles y autodescriptivos perduraran por sobre otros
-  formatos aun cuando las aplicaciones que los hayan creado caduquen. [^ver_leek] 
+**Seguro contra toda obsolescencia (o compatible con el avance).**
+Los formatos de datos legibles y autodescriptivos perduraran por sobre otros
+formatos aun cuando las aplicaciones que los hayan creado caduquen. [^ver_leek] 
 
 
 [^ver_hunt]: @hunt
@@ -70,60 +71,64 @@ alternativas mas complejas.
 
 ### 2.2 ¿Por qué Interfaz de Linea de Comandos?
 
-* **Primer estado operativo de un ordenador.** 
-  Eventualmente todos los sistemas operativos permiten ser 
-  ultilizados a travez de este acceso previo al gerente de escritorio.
+**Primer estado operativo de un ordenador.** 
+Eventualmente todos los sistemas operativos permiten ser 
+utilizados a través de este acceso previo al gerente de escritorio.
 
-* **Menor utilización de recursos.**
-  No depender de un agente de ventanas que interviene entre el usuario y el
-  sistema deja libre una cantidad considerable de recursos.  
+**Menor utilización de recursos.**
+No depender de un agente de ventanas que interviene entre el usuario y el
+sistema deja libre una cantidad considerable de recursos.  
 
-* **Una interfaz para diferentes aplicaciones.**
-  La estructura *aplicación - argumento - fichero* (su analogía *verbo - adverbio -
-  sujeto*) persiste en cualquier pieza de software destinada para esta interfaz.
-  Dicha recurrencia elimina el ejercicio que significa operar de modo 
-  distinto y único cada aplicación, favoreciendo acciones semejantes en diferentes
-  circunstancias.
+**Una interfaz para diferentes aplicaciones.**
+La estructura *aplicación - argumento - fichero* (su analogía *verbo - adverbio -
+sujeto*) persiste en cualquier pieza de software destinada para esta interfaz.
+Dicha recurrencia elimina el ejercicio que significa operar de modo 
+distinto y único cada aplicación, favoreciendo acciones semejantes en diferentes
+circunstancias.
 
-* **Tradición.**
-  Perdura por decadas como estándar intalterable a lo largo de la historia de la
-  informática remitiendo a los origenes de los ordenadores basados en teletipo.
+**Tradición.**
+Perdura por décadas como estándar inalterable a lo largo de la historia de la
+informática remitiendo a los orígenes de los ordenadores basados en teletipo.
 
-* **Resultados reproducibles.**
-  Las instrucciones textuales pueden ser compiladas en estructura 
-  de acciones secuenciales (guión).
+**Resultados reproducibles.**
+Las instrucciones textuales pueden ser compiladas en estructura 
+de acciones secuenciales (guión).
 
-* **Pipeline y Automatización.**
-  La composicion encadenando resultados con trabajos para expresar flujos
-  de procesos complejos. [^ver_raymond]
-  
-* **Acceso remoto.**
-  Mas allá del protocolo en el que se base la negociación local/remoto la
-  iterfáz de comandos es la herramienta de facto para administrar un sistema a
-  distancia.  
+**Pipeline y Automatización.**
+La composición encadenando resultados con trabajos para expresar flujos
+de procesos complejos. [^ver_raymond]
 
-* **Agilidad.**
-  El empleo de editores de texto avanzados (como VIM ó Emacs) agilizan el
-  trabajo como es caracteristico de herramientas pulidas.[^ver_moolenaar] 
+**Acceso remoto.**
+Mas allá del protocolo en el que se base la negociación local/remoto la
+interfaz de comandos es la herramienta de facto para administrar un sistema a
+distancia.  
+
+**Productividad.** 
+El valerse de herramientas pulidas como editores de texto avanzados (VIM /
+Emacs) que dejan de la lado el empleo del mouse por el uso de atajos de
+teclado, combinaciones astutas de teclas que resuelven acciones complejas,
+resulta en un aumento de la productividad y un flujo de trabajo
+ágil.[^ver_moolenaar] 
 
 [^ver_moolenaar]: @moolenaar
 [^ver_raymond]: @raymond
 
-\newpage
 
 ## 3. Objetivos
 
-Las motivacion principal de este proyecto es confeccionar una herramienta para
-la composición musical que presinda de otra interfaz gráfica mas que la
-representaciones de discursos en formato de esquema de obra y que por lo tanto unifique  el proceso de
-planificación de obra musical con el de secuenciación MIDI.
+Este proyecto procura un procedimiento sencillo y flexible para elaborar
+discursos musicales unificando la planificación de obra con la secuenciación
+MIDI.
 
-* Exponer a musicos y teoricos a las ventajas de la operación de sistemas
-  informaticos a través de la Interfaz de Linea de Comandos.
+Ademas pretende exponer las ventajas de la Interfaz de Linea de Comandos para
+operar sistemas informáticos a la comunidad de artistas, teóricos
+e investigadores.
 
-* Acercar a comunidad artistica a la composición musical asistida por ordenadores.
+Promover la adopción de formatos consolidados y abiertos para archivar
+información digital.
 
-* Fomentar el trabajo colaborativo generar un vinculo con los usuarios. [^ver_raymond2] [^ver_yzaguirre]
+Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
+[^ver_raymond2] [^ver_yzaguirre]
 
 [^ver_raymond2]: @raymond2
 [^ver_yzaguirre]: @yzaguirre
@@ -297,7 +302,7 @@ para reconocer el potencial del sistema.
 
 #### 4.2.4 CLI vs GUI
 
-Humdrum u otros sistemas como él ofrecen los recursos para una marcar un nuevo
+Humdrum u otros sistemas como él ofrecen los recursos para una marcar un 
 paradigma para la investigación musical.  
 
 El tedio de recopilar pruebas sólidas que apoyen las propias
@@ -440,7 +445,6 @@ Lisp el enfoque expresar programas dentro de estructuras de datos que estén
 disponibles para su manipulación por otros programas.
 
 
-\newpage
 
 ## 5. Metodología
 
@@ -474,6 +478,7 @@ disponibles para su manipulación por otros programas.
 
 [^ver_kernighan]: @kernighan
 
+\newpage
 
 ## 6. Cronograma de Trabajo
 
@@ -490,15 +495,15 @@ disponibles para su manipulación por otros programas.
 
 ```{.dot caption="example graph." label="the_example"}
 graph graphname {
-     a [texlbl="$\alpha$"];
-     b [texlbl="$\beta$"];
-     b1 [texlbl="$\beta_1$"];
-     b2 [texlbl="$\beta_2$"];
-     a -- b
-     b -- b1
-     b -- b2
- }
-```
+     a [texlbl="Análisis"];
+     b [texlbl="Diseño de Gramática"];
+     c [texlbl="Desarrollo"];
+     d [texlbl="Documentación"];
+     e [texlbl="Lanzamiento en repositorios públicos"];
+     a -- b -- c -- d -- e
+}    
+```   
+
 
 \newpage
 ## 7. Bibliografía
