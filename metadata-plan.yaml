@@ -4,11 +4,11 @@ departamento: 'Escuela de Artes'
 carrera: 'LICENCIATURA EN MÚSICA Y TECNOLOGÍA'
 director: Esteban Calcagno
 
-title: 'Tesis de Grado'
+title: 'Plan de Tesis de Grado'
 subtitle: 'SUBTITULO'
 
 author: 'Lisandro Fernández'
-tutor: 'no sabemos todavia'
+tutor: 'ns'
 date:  'Septiembre 2017'
 place: 'Buenos Aires, Argentina'
 
@@ -236,7 +236,7 @@ references:
   language: en-GB
 
 - type: article-journal
-  id: colin
+  id: clark
   author: 
   - family: Clark
     given: Colin 
@@ -253,7 +253,7 @@ references:
   publisher: 'Georgaki, A. and Kouroupetroglou (eds.)'
   volume: 1 
   issue: 1
-  page: 1150-57
+  page: 50-57
   DOI:
   ISBN:
   URL : 

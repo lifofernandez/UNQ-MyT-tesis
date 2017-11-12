@@ -368,7 +368,7 @@ ser capaz de secuenciar la música de esta manera.
 
 ### 4.5 Flocking 
 
-Flocking[^ver_colin] es un framework, escrito en JavaScript, para la
+Flocking[^ver_clark] es un framework, escrito en JavaScript, para la
 composición de música por computadora que aprovecha las tecnologías e ideas
 existentes para crear un sistema robusto, flexible y expresivo.  Flocking
 combina el patrón generador de unidades de muchos idiomas de música de
@@ -386,7 +386,7 @@ no programadores colaboren), y nuevos modos de programación social que permiten
 a los músicos adaptar, ampliar y volver a trabajar fácilmente en instrumentos
 existentes.
 
-[^ver_colin]: @colin
+[^ver_clark]: @clark
 
 #### 4.5.1 Como funciona Flocking
 
