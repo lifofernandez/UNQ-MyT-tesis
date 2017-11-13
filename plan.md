@@ -1,21 +1,19 @@
 
-
 ## 1. Resumen 
 
-El presente plan propone definir una gramática neutral que
-represente un discurso musical en estructura de hoja de análisis o plan de
-obra, sobre texto plano serializado y
-legible[^ver_combs], acompañada por el desarrollo de un sistema de herramientas
-para interfaz de línea de comandos (Command Line Interface) que
-genere secuencias musicales en el estándar MIDI manipulando la información
-almacenada en estos ficheros
+El presente plan propone definir una gramática formal en estructura de árbol de
+análisis para representar discursos musicales, sobre texto plano serializado y
+legible[^ver_combs], contextualizada con el desarrollo de un sistema de
+herramientas para interfaz de línea de comandos (Command Line Interface) que
+genere secuencias musicales (en estándar MIDI) manipulando la información
+registrada en dichos ficheros.
 
-Se documentará este desarrollo para su correcta publicación enmarcada
-bajo premisas del software libre. [^ver_gnu]
+El desarrollo será documentado[^ver_kernighan] para que su publicación cumpla con las premisas
+del software libre.[^ver_gnu]
 
 [^ver_combs]: @coombs 
 [^ver_gnu]: @gnu
-
+[^ver_kernighan]: @kernighan
 \newpage
 
 ## 2. Justificación 
@@ -30,8 +28,8 @@ A continuación se argumentan los aspectos clave de este proyecto.
 > manipulate knowledge, both manually and programmatically, using virtually every
 > tool at our disposal." [@hunt]
 
-
 \bigskip
+
 Algunas ventajas del texto plano por sobre el formato binario de archivos u otras 
 alternativas mas complejas.[^ver_hunt]
 
@@ -41,33 +39,35 @@ información almacenada en texto plano.
 
 **Mínimo Común Denominador.**
 Soportado en múltiples plataformas,
-cada sistema operativo tiene al menos un editor de texto y son todos
-compatibles hasta la codificación del texto. 
+cada sistema operativo cuenta con al menos un editor de texto y son todos
+compatibles hasta la codificación. 
 
 **Fácil de manipular.** 
-Procesar cadenas de caracteres es de los procesos mas rudimentales que
-  se pueden realizar en un sistema informático.
+Procesar cadenas de caracteres es de los trabajos mas rudimentales que pueden
+ser realizados en un sistema informático.
 
 **Fácil de mantener.** 
-El texto plano es lo mas simple ante la necesidad de actualizar
-información o de realizar cualquier tipo de cambio o ajuste.
+El texto plano no presenta ninguna dificultad o impedimento ante la
+necesidad de actualizar información o de realizar cualquier tipo de cambio o
+ajuste.
 
 **Fácil de comprobar.**
 Es sencillo agregar, actualizar o modificar datos de testeo sin
 la necesidad de emplear o desarrollar herramientas especiales para ello.
 
 **Liviano.**
-Característica determinante cuando los recursos de sistema son limitados, como por ejemplo
+Determinante cuando los recursos de sistema son limitados, como por ejemplo
 poca capacidad de procesamiento/almacenamiento, conexiones lentas o sin acceso
 a la interfaz gráfica de usuario.
 
 **Seguro contra toda obsolescencia (o compatible con el avance).**
-Los formatos de datos legibles y autodescriptivos perduraran por sobre otros
-formatos aun cuando las aplicaciones que los hayan creado caduquen. [^ver_leek] 
+Los archivos de datos en formatos legibles y autodescriptivos perdurar por
+sobre otros formatos aun cuando caduqen las aplicaciones con las hayan sido
+creados.[^ver_leek] 
 
-
-[^ver_hunt]: @hunt
+[^ver_hunt]: @hunt Capítulo 3: Basic Tools (pp. 72-99).
 [^ver_leek]: @leek
+
 
 ### 2.2 ¿Por qué Interfaz de Linea de Comandos?
 
@@ -76,23 +76,23 @@ Eventualmente todos los sistemas operativos permiten ser
 utilizados a través de este acceso previo al gerente de escritorio.
 
 **Menor utilización de recursos.**
-No depender de un agente de ventanas que interviene entre el usuario y el
-sistema deja libre una cantidad considerable de recursos.  
+No depender de un agente de ventanas intervieniendo entre el usuario y el
+sistema libra una cantidad considerable de recursos.  
 
 **Una interfaz para diferentes aplicaciones.**
 La estructura *aplicación - argumento - fichero* (su analogía *verbo - adverbio -
 sujeto*) persiste en cualquier pieza de software destinada para esta interfaz.
 Dicha recurrencia elimina el ejercicio que significa operar de modo 
-distinto y único cada aplicación, favoreciendo acciones semejantes en diferentes
-circunstancias.
+distino cada aplicación, permitiendo un accionar semejante en 
+contextos y circunstancias diferentes.
 
 **Tradición.**
 Perdura por décadas como estándar inalterable a lo largo de la historia de la
 informática remitiendo a los orígenes de los ordenadores basados en teletipo.
 
 **Resultados reproducibles.**
-Las instrucciones textuales pueden ser compiladas en estructura 
-de acciones secuenciales (guión).
+Las instrucciones textuales pueden ser compiladas en secuencias de acciones
+(guión).
 
 **Pipeline y Automatización.**
 La composición encadenando resultados con trabajos para expresar flujos
@@ -104,33 +104,33 @@ interfaz de comandos es la herramienta de facto para administrar un sistema a
 distancia.  
 
 **Productividad.** 
-El valerse de herramientas pulidas como editores de texto avanzados (VIM /
-Emacs) que dejan de la lado el empleo del mouse por el uso de atajos de
-teclado, combinaciones astutas de teclas que resuelven acciones complejas,
-resulta en un aumento de la productividad y un flujo de trabajo
-ágil.[^ver_moolenaar] 
+Valerse de herramientas pulidas como editores de texto avanzados (VIM / Emacs)
+que favorecen el uso de atajos (acciones complejas asignadas a combinaciones de
+teclas) evitan la alternancia entre mouse y teclado, lo cual promueve un flujo
+de trabajo ágil y un aumento de la productividad.[^ver_moolenaar] 
 
 [^ver_moolenaar]: @moolenaar
-[^ver_raymond]: @raymond
+[^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy, Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
 
 ## 3. Objetivos
 
-Este proyecto procura un procedimiento sencillo y flexible para elaborar
-discursos musicales unificando la planificación de obra con la secuenciación
-MIDI.
+Este proyecto procura establecer un contexto y proveer los recursos para un
+procedimiento sencillo y flexible de elaboración discursos musicales unificando
+la planificación de obra con la secuenciación MIDI.
 
 Ademas pretende exponer las ventajas de la Interfaz de Linea de Comandos para
-operar sistemas informáticos a la comunidad de artistas, teóricos
-e investigadores.
+operar sistemas informáticos a la comunidad de artistas, teóricos e
+investigadores.
 
-Promover la adopción de formatos consolidados y abiertos para archivar
-información digital.
+Promover la adopción de prácticas consolidadas y formatos abiertos para
+representar, manipular y almacenar información digital.
 
 Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
 [^ver_raymond2] [^ver_yzaguirre]
 
-[^ver_raymond2]: @raymond2
+[^ver_raymond2]: @raymond2 Capítulo 11: The Social Context of Open-Source Software (p. 11)
+
 [^ver_yzaguirre]: @yzaguirre
 
 
@@ -439,44 +439,135 @@ ejemplo bien conocido de este enfoque. Paul Graham describe la naturaleza
 declarativa de Lisp, expresando que "no tiene sintaxis. Escribes programas en
 árboles de análisis... [que] son totalmente accesibles a tus programas.
 Puedes escribir programas que los manipulen...  programas que escriben
-programas".
+programas".[^ver_graham2]
 Aunque Flocking está escrito en JavaScript, comparte con
 Lisp el enfoque expresar programas dentro de estructuras de datos que estén
 disponibles para su manipulación por otros programas.
 
+[^ver_graham2]: @graham2
 
 
+\newpage
 ## 5. Metodología
 
-* Análisis de caso
+ \vspace*{\fill}
+    \begin{center}
+    \begin{tikzpicture}[node distance = 2cm, auto]
 
-	* Boceto de sintaxis 
+    \tikzstyle{circulo} = [
+    	ellipse, 
+    	draw, 
+        %fill=red!20, 
+    	minimum height=4em,
+    	text centered, 
+    	node distance=3.5cm,
+	font=\bfseries
+    ]
+    \tikzstyle{block} = [
+    	rectangle, 
+    	draw, 
+    	%fill=blue!20, 
+    	text width=7em, 
+    	text centered, 
+    	minimum height=4em,
+    	node distance=3.5cm,
+    ]
+    \tikzstyle{line} = [
+    	draw,
+    	-latex'
+    ]
 
-	* Prototipo de aplicación   
+    \node [circulo]              (ana) {Análisis};
+    \node [circulo, text width=6em,below of=ana](dis) {Diseño de Sintaxis};
+    \node [circulo, text width=7em, below of=dis](dev) {Desarrollo de Herramientas};
+    \node [circulo, below of=dev](doc) {Documentación};
+    \node [circulo, below of=doc](dep) {Publicación};
 
-	* Encuestas y consultas a músicos compositores y teóricos
+    \path [line] (ana) -- (dis) -- (dev) -- (doc) -- (dep);
 
-* Diseño de Gramática
 
-	* Sintaxis basada en YAML
+    \node [block, 
+        right of=ana
+    ](boc) { 
+          Boceto de sintaxis 
+    };
 
-	* Terminología de análisis/planificación musical
+    \node [block, 
+        right of=boc
+    ](pro) { 
+          Prototipo de aplicación   
+    };
 
-* Desarrollo 
+    \node [block, 
+        below of=pro
+    ](enc) { 
+          Consultas a músicos compositores y teóricos
+    };
 
-	* Perl
+    \path [line] (ana) -- (boc) -- (pro) -- (enc) -- (dis);
 
-	* GIT
 
-* Documentación[^ver_kernighan]
 
-	* Modulo POD 
 
-	* Paginas MAN, PDF, HTML, etc.  
 
-* Release en repositorios públicos
 
-[^ver_kernighan]: @kernighan
+    \node [block, 
+        left of=dis
+    ](sin) { 
+	  Sintaxis basada en YAML
+    };
+
+    \node [block, 
+        below of=sin
+    ](arb) { 
+	  Arbol de análisis / Estructura de Plan de Obra
+    };
+
+    \path [line] (dis) -- (sin) -- (arb) -- (dev) ;
+
+
+	  
+
+    \node [block, 
+        right of=dev
+    ](per) { 
+	  Perl
+    };
+
+    \node [block, 
+        right of=per
+    ](git) { 
+	  GIT
+    };
+
+    \node [block, 
+        below of=git
+    ](opt) { 
+	  Optimización
+    };
+
+    \path [line] (dev) -- (per) -- (git) -- (opt) -- (doc);
+
+
+
+    \node [block, 
+        left of=doc
+    ](pod) { 
+	  Modulo POD 
+    };
+
+    \node [block, 
+        below of=pod
+    ](pag) { 
+	  Paginas MAN, PDF, HTML, etc.  
+    };
+
+    \path [line] (doc) -- (pod) -- (pag) -- (dep) ;
+
+     \end{tikzpicture}
+     
+     \end{center}
+\vspace*{\fill}
 
 \newpage
 
@@ -492,17 +583,6 @@ disponibles para su manipulación por otros programas.
 | Pruebas y optimización      | 3 semanss         | Del XX al XX de XXXXXX  |
 | Documentación               | 5 semanas         | Del XX al XX de XXXXXX  |
 
-
-```{.dot caption="example graph." label="the_example"}
-graph graphname {
-     a [texlbl="Análisis"];
-     b [texlbl="Diseño de Gramática"];
-     c [texlbl="Desarrollo"];
-     d [texlbl="Documentación"];
-     e [texlbl="Lanzamiento en repositorios públicos"];
-     a -- b -- c -- d -- e
-}    
-```   
 
 
 \newpage
