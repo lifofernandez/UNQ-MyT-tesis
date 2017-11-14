@@ -237,7 +237,7 @@ $endif$
 \date{$date$}
 
 \usepackage{tikz} % insert this line
-\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{shapes,arrows,decorations.markings,positioning}
 
 \begin{document}
 
@@ -283,6 +283,14 @@ $title$
 \end{center}
 $endif$
 
+$if(subtitle)$
+\begin{center}
+%\large
+$subtitle$
+\end{center}
+$endif$
+
+\bigskip
 $if(author)$
 \begin{center}
 Presentada por:

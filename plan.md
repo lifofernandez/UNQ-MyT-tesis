@@ -1,12 +1,12 @@
 
 ## 1. Resumen 
 
-El presente plan propone definir una gramática formal en estructura de árbol de
-análisis para representar discursos musicales, sobre texto plano serializado y
-legible[^ver_combs], contextualizada con el desarrollo de un sistema de
-herramientas para interfaz de línea de comandos (Command Line Interface) que
-genere secuencias musicales (en estándar MIDI) manipulando la información
-registrada en dichos ficheros.
+El presente plan propone definir una gramática formal basada en texto plano
+serializado[^ver_combs] y legible, estructurada como arbol de análisis para
+representar planes de obra musical. 
+Acompañada por el desarrollo de un contexto de herramientas para interfaz de
+línea de comandos (Command Line Interface) para producción de sequencias MIDI a
+partir de la manipulación de la información en dichos ficheros.
 
 El desarrollo será documentado[^ver_kernighan] para que su publicación cumpla con las premisas
 del software libre.[^ver_gnu]
@@ -61,8 +61,8 @@ poca capacidad de procesamiento/almacenamiento, conexiones lentas o sin acceso
 a la interfaz gráfica de usuario.
 
 **Seguro contra toda obsolescencia (o compatible con el avance).**
-Los archivos de datos en formatos legibles y autodescriptivos perdurar por
-sobre otros formatos aun cuando caduqen las aplicaciones con las hayan sido
+Los archivos de datos en formatos legibles y autodescriptivos perduran por
+sobre otros formatos aun cuando caduquen las aplicaciones con las hayan sido
 creados.[^ver_leek] 
 
 [^ver_hunt]: @hunt Capítulo 3: Basic Tools (pp. 72-99).
@@ -450,8 +450,7 @@ disponibles para su manipulación por otros programas.
 \newpage
 ## 5. Metodología
 
- \vspace*{\fill}
-    \begin{center}
+\begin{center}
     \begin{tikzpicture}[node distance = 2cm, auto]
 
     \tikzstyle{circulo} = [
@@ -460,7 +459,7 @@ disponibles para su manipulación por otros programas.
         %fill=red!20, 
     	minimum height=4em,
     	text centered, 
-    	node distance=3.5cm,
+    	node distance=2.5cm,
 	font=\bfseries
     ]
     \tikzstyle{block} = [
@@ -470,94 +469,100 @@ disponibles para su manipulación por otros programas.
     	text width=7em, 
     	text centered, 
     	minimum height=4em,
-    	node distance=3.5cm,
+    	node distance=2.5cm,
     ]
     \tikzstyle{line} = [
     	draw,
-    	-latex'
+    	-latex',
     ]
 
+    %\tikzset{flecha/.style={
+    %    decoration={
+    %    	markings,mark=at position 1 with %
+    %		{\arrow[scale=3,>=stealth]{>}}},
+    %    	postaction={decorate}
+    %    }
+    %}
     \node [circulo]              (ana) {Análisis};
-    \node [circulo, text width=6em,below of=ana](dis) {Diseño de Sintaxis};
+    \node [circulo, text width=6em,below of=ana](dis) {Diseño de Gramática};
     \node [circulo, text width=7em, below of=dis](dev) {Desarrollo de Herramientas};
     \node [circulo, below of=dev](doc) {Documentación};
     \node [circulo, below of=doc](dep) {Publicación};
 
-    \path [line] (ana) -- (dis) -- (dev) -- (doc) -- (dep);
-
+    %\path [line] (ana) -> (dis) -- (dev) -- (doc) -- (dep);
+    \draw[line] (ana) -- (dis);
+    \draw[line] (dis) -- (dev);
+    \draw[line] (dev) -- (doc);
+    \draw[line] (doc) -- (dep);
 
     \node [block, 
-        right of=ana
+        right of=ana,
+    	node distance=4cm,
     ](boc) { 
-          Boceto de sintaxis 
+          Boceto de Gramática
+          / Prototipo de Aplicación   
     };
 
-    \node [block, 
-        right of=boc
-    ](pro) { 
-          Prototipo de aplicación   
-    };
 
     \node [block, 
-        below of=pro
+        below of=boc
     ](enc) { 
           Consultas a músicos compositores y teóricos
     };
 
-    \path [line] (ana) -- (boc) -- (pro) -- (enc) -- (dis);
+    \path [line] (ana) -- (boc) -- (enc) -- (dis);
 
 
 
 
 
 
-    \node [block, 
-        left of=dis
-    ](sin) { 
-	  Sintaxis basada en YAML
-    };
 
     \node [block, 
-        below of=sin
-    ](arb) { 
-	  Arbol de análisis / Estructura de Plan de Obra
+        left of=dis,
+    	node distance=4cm,
+    ](def) { 
+	Definicion de Vocabulario y Jerarquias
     };
 
-    \path [line] (dis) -- (sin) -- (arb) -- (dev) ;
+    %\node [block, 
+    %    below of=def
+    %](sin) { 
+    %      Sintaxis YAML
+    %};
+
+    \path [line] (dis) -- (def) |-  (dev) ;
 
 
 	  
 
     \node [block, 
-        right of=dev
+        right of=dev,
+    	node distance=4cm,
     ](per) { 
-	  Perl
+	  Perl / Git
     };
 
-    \node [block, 
-        right of=per
-    ](git) { 
-	  GIT
-    };
 
     \node [block, 
-        below of=git
+        below of=per
     ](opt) { 
 	  Optimización
     };
 
-    \path [line] (dev) -- (per) -- (git) -- (opt) -- (doc);
+    \path [line] (dev) -- (per) -- (opt) -- (doc);
 
 
 
     \node [block, 
-        left of=doc
+        left of=doc,
+    	node distance=4cm,
     ](pod) { 
 	  Modulo POD 
     };
 
     \node [block, 
-        below of=pod
+        below of=pod,
     ](pag) { 
 	  Paginas MAN, PDF, HTML, etc.  
     };
@@ -566,10 +571,8 @@ disponibles para su manipulación por otros programas.
 
      \end{tikzpicture}
      
-     \end{center}
-\vspace*{\fill}
+\end{center}
 
-\newpage
 
 ## 6. Cronograma de Trabajo
 
@@ -584,12 +587,7 @@ disponibles para su manipulación por otros programas.
 | Documentación               | 5 semanas         | Del XX al XX de XXXXXX  |
 
 
-
 \newpage
+
 ## 7. Bibliografía
-
-
-
-
-
 
