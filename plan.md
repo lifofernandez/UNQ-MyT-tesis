@@ -1,19 +1,21 @@
 
 ## 1. Resumen 
 
-El presente plan propone definir una gramática formal basada en texto plano
-serializado[^ver_combs] y legible, estructurada como arbol de análisis para
-representar planes de obra musical. 
-Acompañada por el desarrollo de un contexto de herramientas para interfaz de
-línea de comandos (Command Line Interface) para producción de sequencias MIDI a
-partir de la manipulación de la información en dichos ficheros.
+El presente plan propone definir una gramática formal[^ver_lerdahl] basada en
+texto plano serializado[^ver_combs] y legible, estructurada como árbol de
+análisis con el fin de representar planes de obra musical.  Acompañada por el
+desarrollo de un contexto de herramientas para interfaz de línea de comandos
+(Command Line Interface) para producción de sequencias MIDI a partir de la
+manipulación de la información en dichos ficheros.
 
-El desarrollo será documentado[^ver_kernighan] para que su publicación cumpla con las premisas
-del software libre.[^ver_gnu]
+El desarrollo será documentado[^ver_kernighan] para que su publicación cumpla
+con las premisas del software libre.[^ver_gnu]
 
+[^ver_lerdahl]: @lerdahl
 [^ver_combs]: @coombs 
+[^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
 [^ver_gnu]: @gnu
-[^ver_kernighan]: @kernighan
+
 \newpage
 
 ## 2. Justificación 
@@ -373,7 +375,7 @@ composición de música por computadora que aprovecha las tecnologías e ideas
 existentes para crear un sistema robusto, flexible y expresivo.  Flocking
 combina el patrón generador de unidades de muchos idiomas de música de
 computadora con tecnologías Web Audio para permitir a los usuarios interactuar
-con sitios Web existentes y potenciales tecnologías.  Los usuarios interactúan
+con sitios Web existentes y potenciales tecnologías. Los usuarios interactúan
 con Flocking usando un estilo declarativo de programación.
 
 El objetivo de Flocking es permitir el crecimiento de un ecosistema de
@@ -446,7 +448,6 @@ disponibles para su manipulación por otros programas.
 
 [^ver_graham2]: @graham2
 
-
 \newpage
 ## 5. Metodología
 
@@ -459,7 +460,7 @@ disponibles para su manipulación por otros programas.
         %fill=red!20, 
     	minimum height=4em,
     	text centered, 
-    	node distance=2.5cm,
+    	node distance=2cm,
 	font=\bfseries
     ]
     \tikzstyle{block} = [
@@ -469,7 +470,7 @@ disponibles para su manipulación por otros programas.
     	text width=7em, 
     	text centered, 
     	minimum height=4em,
-    	node distance=2.5cm,
+    	node distance=2cm,
     ]
     \tikzstyle{line} = [
     	draw,
@@ -485,22 +486,22 @@ disponibles para su manipulación por otros programas.
     %}
     \node [circulo]              (ana) {Análisis};
     \node [circulo, text width=6em,below of=ana](dis) {Diseño de Gramática};
-    \node [circulo, text width=7em, below of=dis](dev) {Desarrollo de Herramientas};
+    \node [circulo, text width=7em, below of=dis](dev) {Desarrollo del Contexto};
     \node [circulo, below of=dev](doc) {Documentación};
     \node [circulo, below of=doc](dep) {Publicación};
 
-    %\path [line] (ana) -> (dis) -- (dev) -- (doc) -- (dep);
-    \draw[line] (ana) -- (dis);
-    \draw[line] (dis) -- (dev);
-    \draw[line] (dev) -- (doc);
-    \draw[line] (doc) -- (dep);
+    %\path [line] (ana) -- (dis) -- (dev) -- (doc) -- (dep);
+    \draw[densely dotted] (ana) -- (dis);
+    \draw[densely dotted] (dis) -- (dev);
+    \draw[densely dotted] (dev) -- (doc);
+    \draw[densely dotted] (doc) -- (dep);
 
     \node [block, 
         right of=ana,
     	node distance=4cm,
     ](boc) { 
           Boceto de Gramática
-          / Prototipo de Aplicación   
+          / Prototipo de Entorno
     };
 
 
@@ -522,7 +523,7 @@ disponibles para su manipulación por otros programas.
         left of=dis,
     	node distance=4cm,
     ](def) { 
-	Definicion de Vocabulario y Jerarquias
+	Definicion de Vocabulario y Jerarquías
     };
 
     %\node [block, 
@@ -540,7 +541,7 @@ disponibles para su manipulación por otros programas.
         right of=dev,
     	node distance=4cm,
     ](per) { 
-	  Perl / Git
+	  Evaluacion y desarrollo de herramientas
     };
 
 
@@ -557,22 +558,26 @@ disponibles para su manipulación por otros programas.
     \node [block, 
         left of=doc,
     	node distance=4cm,
-    ](pod) { 
-	  Modulo POD 
+    ](fun) { 
+	Indicaciones de Funcionamiento
     };
 
     \node [block, 
-        below of=pod,
-    ](pag) { 
-	  Paginas MAN, PDF, HTML, etc.  
+	below = 0.2cm of fun
+    ](for) { 
+	Revisión de Formateo 
+    };
+    \node [block, 
+	below = 0.2cm of for
+    ](not) { 
+	Incorporación de Notas y Etiquetas 
     };
 
-    \path [line] (doc) -- (pod) -- (pag) -- (dep) ;
+    \path [line] (doc) -- (fun) -- (for) -- (not) -| (dep) ;
 
      \end{tikzpicture}
      
 \end{center}
-
 
 ## 6. Cronograma de Trabajo
 

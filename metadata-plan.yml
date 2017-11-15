@@ -7,7 +7,7 @@ director: Esteban Calcagno
 title: 'Plan de Tesis de Grado'
 
 subtitle: 'GRAMÁTICA FORMAL PARA PLAN DE OBRA MUSICAL Y HERRAMIENTA DE
-SECUENCIACIÓN MIDI.'
+SECUENCIACIÓN MIDI'
 
 author: 'Lisandro Fernández'
 tutor: 'ns'
@@ -16,10 +16,10 @@ place: 'Buenos Aires, Argentina'
 
 tags: [representación, texto plano, CLI, MIDI]
 
-abstract: 'Definición de gramática formal basada en texto plano serializado,
-estructurada como arbol de análisis para representar planes de obra musical.
-Acompañada por el desarrollo de un contexto de herramientas CLI para generar
-sequencias MIDI.'
+# abstract: 'Definición de gramática formal basada en texto plano serializado,
+# estructurada como arbol de análisis para representar planes de obra musical.
+# Acompañada por el desarrollo de un contexto de herramientas CLI para generar
+# sequencias MIDI.'
 
 
 references:
