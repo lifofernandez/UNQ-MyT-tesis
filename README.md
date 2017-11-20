@@ -2,14 +2,13 @@
 
 Repositorio de mi Plan de Tesis y mi Tesis de Grado.
 
-Es necesario tener Pandoc y Latex mas algunos filtros que se pueden instalar
-usando el makefile 
+Instalar Pandoc y Latex y filtror
 
 ```bash
 make dependencias
 ```
 
-Y para generar los documentos PDF
+Generar los documentos pdf
 ```bash
-make pdf
+make plan
 ```

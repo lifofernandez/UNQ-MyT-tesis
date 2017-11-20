@@ -30,8 +30,7 @@ A continuación se argumentan los aspectos clave de este proyecto.
 
 \bigskip
 
-Algunas ventajas del texto plano por sobre el formato binario de archivos u otras 
-alternativas mas complejas.[^ver_hunt]
+Algunas ventajas del texto plano por sobre el formato binario de archivos y alternativas.[^ver_hunt]
 
 **Aprovechar.**
 Potencialmente cualquier herramienta de computo puede operar
@@ -39,7 +38,7 @@ información almacenada en texto plano.
 
 **Mínimo Común Denominador.**
 Soportado en múltiples plataformas,
-cada sistema operativo cuenta con al menos un editor de texto y son todos
+cada sistema operativo cuenta con al menos un editor de texto todos
 compatibles hasta la codificación. 
 
 **Fácil de manipular.** 
@@ -80,11 +79,12 @@ No depender de un agente de ventanas intervieniendo entre el usuario y el
 sistema libra una cantidad considerable de recursos.  
 
 **Una interfaz para diferentes aplicaciones.**
-La estructura *aplicación - argumento - fichero* (su analogía *verbo - adverbio -
-sujeto*) persiste en cualquier pieza de software destinada para esta interfaz.
-Dicha recurrencia elimina el ejercicio que significa operar de modo 
-distino cada aplicación, permitiendo un accionar semejante en 
-contextos y circunstancias diferentes.
+
+La estructura de las instrucciones para esta interfaz *aplicación - argumento -
+fichero* (su analogía *verbo - adverbio - sujeto*) persiste en cualquier pieza
+de software.  Dicha recurrencia elimina el ejercicio que significa operar de
+modo distino cada aplicación, permitiendo un accionar semejante en contextos y
+circunstancias diferentes.
 
 **Tradición.**
 Perdura por décadas como estándar inalterable a lo largo de la historia de la
@@ -105,9 +105,9 @@ distancia.
 
 **Productividad.** 
 Valerse de herramientas pulidas como editores de texto avanzados (VIM / Emacs)
-que favorecen el uso de atajos (acciones complejas asignadas a combinaciones de
+que gracias al uso de atajos (acciones complejas asignadas a combinaciones de
 teclas) evitan la alternancia entre mouse y teclado, lo cual promueve un flujo
-de trabajo ágil y un aumento de la productividad.[^ver_moolenaar] 
+de trabajo ágil.[^ver_moolenaar] 
 
 [^ver_moolenaar]: @moolenaar
 [^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy, Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
