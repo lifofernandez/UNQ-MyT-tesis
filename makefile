@@ -6,5 +6,9 @@ dependencias:
 plan:
 	pandoc plan.md metadata-plan.yml --template=tesis \
 	-o output/lisandro_fernandez-plan_de_tesis.pdf \
-	-s -S --csl=vendor/iso690-author-date-es.csl \
+	-s --csl=vendor/iso690-author-date-es.csl \
+	--filter=pandoc-citeproc \
 	--toc 
+# --filter=./vendor/dot2tex-filter.py \
+# -f markdown+smart \ 
+# -t markdown-smart

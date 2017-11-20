@@ -1,19 +1,22 @@
 
 ## 1. Resumen 
 
-El presente plan propone definir una gramática formal basada en texto plano
-serializado[^ver_combs] y legible, estructurada como arbol de análisis para
-representar planes de obra musical. 
+El presente plan propone definir una gramática formal[^ver_lerdahl] basada en
+texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
+análisis con el fin de representar planes de obra musical.
+
 Acompañada por el desarrollo de un contexto de herramientas para interfaz de
 línea de comandos (Command Line Interface) para producción de sequencias MIDI a
-partir de la manipulación de la información en dichos ficheros.
+partir de manipular información subscripta a dicha representación.
 
-El desarrollo será documentado[^ver_kernighan] para que su publicación cumpla con las premisas
-del software libre.[^ver_gnu]
+El desarrollo será documentado[^ver_kernighan] para que su publicación cumpla
+con las premisas del software libre.[^ver_gnu]
 
+[^ver_lerdahl]: @lerdahl
 [^ver_combs]: @coombs 
+[^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
 [^ver_gnu]: @gnu
-[^ver_kernighan]: @kernighan
+
 \newpage
 
 ## 2. Justificación 
@@ -30,7 +33,7 @@ A continuación se argumentan los aspectos clave de este proyecto.
 
 \bigskip
 
-Algunas ventajas del texto plano por sobre el formato binario de archivos y alternativas.[^ver_hunt]
+Algunas ventajas del texto plano y legible en contraste a la codificación binaria de datos.[^ver_hunt]
 
 **Aprovechar.**
 Potencialmente cualquier herramienta de computo puede operar
@@ -43,7 +46,7 @@ compatibles hasta la codificación.
 
 **Fácil de manipular.** 
 Procesar cadenas de caracteres es de los trabajos mas rudimentales que pueden
-ser realizados en un sistema informático.
+ser realizados por un sistema informático. 
 
 **Fácil de mantener.** 
 El texto plano no presenta ninguna dificultad o impedimento ante la
@@ -55,9 +58,8 @@ Es sencillo agregar, actualizar o modificar datos de testeo sin
 la necesidad de emplear o desarrollar herramientas especiales para ello.
 
 **Liviano.**
-Determinante cuando los recursos de sistema son limitados, como por ejemplo
-poca capacidad de procesamiento/almacenamiento, conexiones lentas o sin acceso
-a la interfaz gráfica de usuario.
+Determinante cuando los recursos de sistema son limitados como por ejemplo
+almacenamiento escaso, velocidad de computo restringida o conexiones lentas.
 
 **Seguro contra toda obsolescencia (o compatible con el avance).**
 Los archivos de datos en formatos legibles y autodescriptivos perduran por
@@ -287,40 +289,42 @@ El énfasis está en **asistido**:
 
 #### 4.2.3 De la experiencia a la apreciación 
 
-Apreciación de todo el potencial de Humdrum es definitivamente a partir de la 
+Apreciación de todo el potencial de Humdrum es definitivamente a partir de la
 experiencia. En palabras de David Huron:
 
-> Cualquier conjunto de herramientas requiere el desarrollo de una experiencia 
-> concomitante, y Humdrum Toolkit no es una excepción.  Espero que la inversión de
-> el tiempo requerido para aprender a usar Humdrum será más que compensado por 
-> ganancias académicas posteriores.
+> Cualquier conjunto de herramientas requiere el desarrollo de una experiencia
+> concomitante, y Humdrum Toolkit no es una excepción.  Espero que la inversión
+> de el tiempo requerido para aprender a usar Humdrum será más que compensado
+> por ganancias académicas posteriores.
 
-Los usuarios de Humdrum hasta ahora han tendido a trabajar en la percepción 
-de la música o etnomusicología, mientras que los teóricos y los musicólogos histioriadores han sido lentos
-para reconocer el potencial del sistema. 
+Los usuarios de Humdrum hasta ahora han tendido a trabajar en la percepción de
+la música o etnomusicología, mientras que los teóricos y los musicólogos
+histioriadores han sido lentos para reconocer el potencial del sistema. 
 
 
 #### 4.2.4 CLI vs GUI
 
-Humdrum u otros sistemas como él ofrecen los recursos para una marcar un 
+Humdrum u otros sistemas como él ofrecen los recursos para una marcar un
 paradigma para la investigación musical.  
 
-El tedio de recopilar pruebas sólidas que apoyen las propias
-teorías pueden ser aliviadas por la automatización, y cuanto 
-mayor sea la cantidad de música examinada 
-mayor será el rigor de la prueba de las hipótesis.  
+El tedio de recopilar pruebas sólidas que apoyen las propias teorías pueden ser
+aliviadas por la automatización, y cuanto mayor sea la cantidad de música
+examinada mayor será el rigor de la prueba de las hipótesis.  
 
-Sin embargo, la desafortunada posibilidad es que muchos de los musicólogos 
-y teóricos actuales que se benefician de una pequeña intuición asistida por la máquina
-es probalbe que sean repelidos por la interfaz totalmente basada en texto de Humdrum.  
+Sin embargo, la desafortunada posibilidad es que muchos de los musicólogos y
+teóricos que se benefician de una pequeña intuición asistida por la máquina es
+probable que sean repelidos por la interfaz totalmente basada en texto de
+Humdrum.  
 
-Aunque en el análisis final los comandos estilo UNIX son seguramente más flexibles y eficientes que 
-una interfaz grafica "amigable", pueden parecer intimidantes para no programadores, muchos de los cuales pueden ser disuadidos de hacer uso de un herramienta de otra manera valiosa.
+Aunque en el análisis final los comandos estilo UNIX son seguramente más
+flexibles y eficientes que una interfaz gráfica "amigable", pueden parecer
+intimidantes para no programadores, muchos de los cuales pueden ser disuadidos
+de hacer uso de un herramienta de otra manera valiosa.
 
-Independientemente de que los teóricos de la música decidan o no aumentar
-su invaluable intuición musical con valiosas pruebas empíricas
-resultados, basados en las cantidades máximas de datos pertinentes, será un
-factor en la evolución de nuestra disciplina.
+Independientemente de que los teóricos de la música decidan o no aumentar su
+invaluable intuición musical con valiosas pruebas empíricas, los resultados
+basados en las cantidades máximas de datos pertinentes será un factor en la
+evolución de nuestra disciplina.
 
 ### 4.3 MusicXML
 
@@ -373,7 +377,7 @@ composición de música por computadora que aprovecha las tecnologías e ideas
 existentes para crear un sistema robusto, flexible y expresivo.  Flocking
 combina el patrón generador de unidades de muchos idiomas de música de
 computadora con tecnologías Web Audio para permitir a los usuarios interactuar
-con sitios Web existentes y potenciales tecnologías.  Los usuarios interactúan
+con sitios Web existentes y potenciales tecnologías. Los usuarios interactúan
 con Flocking usando un estilo declarativo de programación.
 
 El objetivo de Flocking es permitir el crecimiento de un ecosistema de
@@ -391,61 +395,59 @@ existentes.
 #### 4.5.1 Como funciona Flocking
 
 El núcleo del framework Flocking consiste en varios componentes interconectados
-que proporcionan la capacidad esencial de interpretar e instanciar
-generadores de unidades, producir flujos de muestras y programar procesos. Los
-principales componentes de Flocking incluyen:
+que proporcionan la capacidad esencial de interpretar e instanciar generadores
+de unidades, producir flujos de muestras y programar procesos. Los principales
+componentes de Flocking incluyen:
 
-1. el *Intérprete Flocking*, que analiza e instancia sintetizadores, generadores
-   de unidad y búferes
+1. el *Intérprete Flocking*, que analiza e instancia sintetizadores,
+   generadores de unidad y búferes
 
 2. el *Ecosistema*, que representa el audio general y su configuración
 
 3. *Audio Strategies*, que son las salidas de audio conectables (vinculados a
    los backends como la API de audio web o ALSA en Node.js)
 
-4. *Unit Generators* (ugens), que son funciones primitivas generadoras de
-   las muestras utilizadas para producir sonido
+4. *Unit Generators* (ugens), que son funciones primitivas generadoras de las
+   muestras utilizadas para producir sonido
 
 5. *Synths* (sintetizadores)  que representan instrumentos y colecciones en la
    lógica de generación de señales
 
-6.  el *Scheduler* (programador ó secuenciador), que gestiona el cambio secunecial (basado en el tiempo)
-   eventos en un sintetizador
+6.  el *Scheduler* (programador ó secuenciador), que gestiona el cambio
+    secunecial (basado en el tiempo) eventos en un sintetizador
 
 #### 4.5.2 Programación declarativa
 
-Arriba, describimos Flocking como un marco **declarativo**. Esta característica es
-esencial para comprender su diseño.
-La programación declarativa se puede entender en el contexto de Flocking por
-dos aspectos esenciales:
+Arriba, se describió Flocking como un marco **declarativo**. Esta
+característica es esencial para comprender su diseño.  La programación
+declarativa se puede entender en el contexto de Flocking por dos aspectos
+esenciales:
 
 1. enfatiza una visión semántica de alto nivel de la lógica y estructura de un
-programa
+   programa
 
 2. representa los programas como estructuras de datos que pueden ser entendido
-por otros programas. 
+   por otros programas. 
 
-El énfasis aquí es sobre los aspectos lógicos o semánticos de la computación, en
-vez de en la secuenciación de bajo nivel y el flujo de control. Tradicionalmente
-los estilos de programación imperativos suelen estar destinados solo para el
-compilador. Aunque el código es a menudo compartido entre varios
-desarrolladores, no suele ser comprendidos o manipulados por programas
-distintos a los compiladores.
+El énfasis aquí es sobre los aspectos lógicos o semánticos de la computación,
+en vez de en la secuenciación de bajo nivel y el flujo de control.
+Tradicionalmente los estilos de programación imperativos suelen estar
+destinados solo para el compilador. Aunque el código es a menudo compartido
+entre varios desarrolladores, no suele ser comprendidos o manipulados por
+programas distintos a los compiladores.
 
 Por el contrario, la programación declarativa implica la capacidad de escribir
 programas que están representados en un formato que pueden ser procesados por
 otros programas como datos ordinarios. La familia de lenguajes Lisp es un
 ejemplo bien conocido de este enfoque. Paul Graham describe la naturaleza
 declarativa de Lisp, expresando que "no tiene sintaxis. Escribes programas en
-árboles de análisis... [que] son totalmente accesibles a tus programas.
-Puedes escribir programas que los manipulen...  programas que escriben
-programas".[^ver_graham2]
-Aunque Flocking está escrito en JavaScript, comparte con
-Lisp el enfoque expresar programas dentro de estructuras de datos que estén
+árboles de análisis... [que] son totalmente accesibles a tus programas.  Puedes
+escribir programas que los manipulen...  programas que escriben
+programas".[^ver_graham2] Aunque Flocking está escrito en JavaScript, comparte
+con Lisp el enfoque expresar programas dentro de estructuras de datos que estén
 disponibles para su manipulación por otros programas.
 
 [^ver_graham2]: @graham2
-
 
 \newpage
 ## 5. Metodología
@@ -459,7 +461,7 @@ disponibles para su manipulación por otros programas.
         %fill=red!20, 
     	minimum height=4em,
     	text centered, 
-    	node distance=2.5cm,
+    	node distance=2cm,
 	font=\bfseries
     ]
     \tikzstyle{block} = [
@@ -469,7 +471,7 @@ disponibles para su manipulación por otros programas.
     	text width=7em, 
     	text centered, 
     	minimum height=4em,
-    	node distance=2.5cm,
+    	node distance=2cm,
     ]
     \tikzstyle{line} = [
     	draw,
@@ -485,22 +487,22 @@ disponibles para su manipulación por otros programas.
     %}
     \node [circulo]              (ana) {Análisis};
     \node [circulo, text width=6em,below of=ana](dis) {Diseño de Gramática};
-    \node [circulo, text width=7em, below of=dis](dev) {Desarrollo de Herramientas};
+    \node [circulo, text width=7em, below of=dis](dev) {Desarrollo del Contexto};
     \node [circulo, below of=dev](doc) {Documentación};
     \node [circulo, below of=doc](dep) {Publicación};
 
-    %\path [line] (ana) -> (dis) -- (dev) -- (doc) -- (dep);
-    \draw[line] (ana) -- (dis);
-    \draw[line] (dis) -- (dev);
-    \draw[line] (dev) -- (doc);
-    \draw[line] (doc) -- (dep);
+    %\path [line] (ana) -- (dis) -- (dev) -- (doc) -- (dep);
+    \draw[densely dotted] (ana) -- (dis);
+    \draw[densely dotted] (dis) -- (dev);
+    \draw[densely dotted] (dev) -- (doc);
+    \draw[densely dotted] (doc) -- (dep);
 
     \node [block, 
         right of=ana,
     	node distance=4cm,
     ](boc) { 
           Boceto de Gramática
-          / Prototipo de Aplicación   
+          / Prototipo de Entorno
     };
 
 
@@ -522,7 +524,7 @@ disponibles para su manipulación por otros programas.
         left of=dis,
     	node distance=4cm,
     ](def) { 
-	Definicion de Vocabulario y Jerarquias
+	Definicion de Vocabulario y Jerarquías
     };
 
     %\node [block, 
@@ -540,7 +542,7 @@ disponibles para su manipulación por otros programas.
         right of=dev,
     	node distance=4cm,
     ](per) { 
-	  Perl / Git
+	  Evaluación y desarrollo de herramientas
     };
 
 
@@ -557,22 +559,26 @@ disponibles para su manipulación por otros programas.
     \node [block, 
         left of=doc,
     	node distance=4cm,
-    ](pod) { 
-	  Modulo POD 
+    ](fun) { 
+	Indicaciones de Funcionamiento
     };
 
     \node [block, 
-        below of=pod,
-    ](pag) { 
-	  Paginas MAN, PDF, HTML, etc.  
+	below = 0.2cm of fun
+    ](for) { 
+	Revisión de Formateo 
+    };
+    \node [block, 
+	below = 0.2cm of for
+    ](not) { 
+	Incorporación de Notas y Etiquetas 
     };
 
-    \path [line] (doc) -- (pod) -- (pag) -- (dep) ;
+    \path [line] (doc) -- (fun) -- (for) -- (not) -| (dep) ;
 
      \end{tikzpicture}
      
 \end{center}
-
 
 ## 6. Cronograma de Trabajo
 
