@@ -5,7 +5,7 @@ El presente plan propone definir una gramática formal[^ver_lerdahl] basada en
 texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
 análisis con el fin de representar planes de obra musical.
 
-Acompañada por el desarrollo de un contexto de herramientas para interfaz de
+Acompañada por el desarrollo de un contexto de herramientas para interprete de
 línea de comandos (Command Line Interface) para producción de sequencias MIDI a
 partir de manipular información subscripta a dicha representación.
 
@@ -72,6 +72,7 @@ creados.[^ver_leek]
 
 ### 2.2 ¿Por qué Interfaz de Linea de Comandos?
 
+
 **Primer estado operativo de un ordenador.** 
 Eventualmente todos los sistemas operativos permiten ser 
 utilizados a través de este acceso previo al gerente de escritorio.
@@ -79,6 +80,7 @@ utilizados a través de este acceso previo al gerente de escritorio.
 **Menor utilización de recursos.**
 No depender de un agente de ventanas intervieniendo entre el usuario y el
 sistema libra una cantidad considerable de recursos.  
+
 
 **Una interfaz para diferentes aplicaciones.**
 
@@ -93,8 +95,10 @@ Perdura por décadas como estándar inalterable a lo largo de la historia de la
 informática remitiendo a los orígenes de los ordenadores basados en teletipo.
 
 **Resultados reproducibles.**
-Las instrucciones textuales pueden ser compiladas en secuencias de acciones
-(guión).
+Si bien la operación de sistemas sin mas que la entrada de caracteres requiere
+de conocimmiento y entrenamiento específicos no considerar la capa
+que representa la posición del puntero como parametros de instrucciones
+permite que sean recopiladas en secuencias de acciones presisas (guión).
 
 **Pipeline y Automatización.**
 La composición encadenando resultados con trabajos para expresar flujos
