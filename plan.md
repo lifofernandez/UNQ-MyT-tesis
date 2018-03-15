@@ -3,16 +3,18 @@
 
 El presente plan propone definir una gramática formal[^ver_lerdahl] basada en
 texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
-análisis con el fin de representar planes de obra musical.
+análisis[^ver_grela] con el fin de representar planes de obra musical.
 
 Acompañada por el desarrollo de un contexto de herramientas para interprete de
-línea de comandos (Command Line Interface) para producción de sequencias MIDI a
+línea de comandos (Command Line Interface) para producción de sequencias MIDI [^ver_penfold] a
 partir de manipular información subscripta a dicha representación.
 
-El desarrollo será documentado[^ver_kernighan] para que su publicación cumpla
+El desarrollo se documentará[^ver_kernighan] para que su publicación cumpla
 con las premisas del software libre.[^ver_gnu]
 
 [^ver_lerdahl]: @lerdahl
+[^ver_grela]: @grela
+[^ver_penfold]: @penfold 
 [^ver_combs]: @coombs 
 [^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
 [^ver_gnu]: @gnu

@@ -320,6 +320,42 @@ references:
   DOI : 10.1007/s12130-999-1026-0
   language: en-US
 
+
+- type: paper-conference
+  id: grela 
+  author:
+  - family: Grela 
+    given: Dante 
+  issued:
+    date-parts:
+    - - 1992
+      - 01
+      - 01
+  title: 'Análisis Musical: Una Propuesta Metodológica'
+  container-title: 'SERIE 5: La música en el Tiempo. Nº1'
+  publisher-place: 'Rosario, Santa Fe, Argentina'
+  publisher: 'Facultad de Humanidades y Artes'
+  title-short: 'Análisis Musical'
+  page: 04-05
+  language: es-ES
+
+- type: book
+  id: penfold
+  author:
+  - family: Penfold
+    given: 'Robert Arthur'
+  issued:
+    date-parts:
+    - - 1992 
+      - 01
+      - 10
+  title: 'Advanced MIDI Users Guide' 
+  page: 1-185 
+  publisher-place: 'United Kingdom'
+  publisher: 'PC Publishing' 
+  ISBN: 978-1870775397
+  language: en-UK
+
 - type: book
   id: neil
   editor: 
