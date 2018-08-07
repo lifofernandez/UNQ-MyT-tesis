@@ -1,27 +1,17 @@
 ---
-instituto: 'Universidad Nacional de Quilmes'
-departamento: 'Escuela de Artes' 
-carrera: 'LICENCIATURA EN MÚSICA Y TECNOLOGÍA'
-director: Esteban Calcagno
-
-title: 'Plan de Tesis de Grado'
-
-subtitle: 'GRAMÁTICA FORMAL PARA PLAN DE OBRA MUSICAL Y ENTORNO DE
-SECUENCIACIÓN MIDI'
-
-author: 'Lisandro Fernández'
-tutor: 'ns'
-date:  'Septiembre 2017'
-place: 'Buenos Aires, Argentina'
-
-tags: [representación, texto plano, CLI, MIDI]
-
-# abstract: 'Definición de gramática formal basada en texto plano serializado,
-# estructurada como arbol de análisis para representar planes de obra musical.
-# Acompañada por el desarrollo de un contexto de herramientas CLI para generar
-# sequencias MIDI.'
-
-
+  instituto: 'Universidad Nacional de Quilmes'
+  departamento: 'Escuela de Artes' 
+  carrera: 'LICENCIATURA EN MÚSICA Y TECNOLOGÍA'
+  director: 'Esteban Calcagno'
+  title: 'Plan de Tesis de Grado'
+  subtitle: 'GRAMÁTICA FORMAL PARA PLAN DE OBRA MUSICAL Y ENTORNO DE SECUENCIACIÓN MIDI'
+  author: 'Lisandro Fernández'
+  tutor: 'ns'
+  date:  'Septiembre 2017'
+  place: 'Buenos Aires, Argentina'
+  tags: ['representación', 'texto plano', 'CLI', 'MIDI']
+---
+---
 references:
 - type: article-journal
   id: coombs
@@ -45,7 +35,6 @@ references:
   issue: 11
   page: 933-47
   DOI: 10.1145/32206.32209
-  # URL : http://www.fdi.ucm.es/profesor/jlsierra/e-learning/primera-sesion/MarkupSystems.pdf
   URL : http://xml.coverpages.org/coombs.html
   language: en-US
 
@@ -64,8 +53,6 @@ references:
   container-title: 'Music Theory Online'
   volume: 2 
   issue: 7
-  # page: 
-  # DOI:
   language: en-US
 
 
@@ -102,7 +89,6 @@ references:
   title-short: 'The Pragmatic Programmer'
   publisher-place: 'Estados Unidos'
   publisher: 'Addison Wesley'
-  #publisher: 'The Pragmatic Bookshelf'
   page: 72-99
   ISBN:  978-0-2016-1622-4
   language: en-US
@@ -275,7 +261,6 @@ references:
   title: 'The Art of UNIX Programming'
   title-short: 'taoup'
   publisher: 'Addison-Wesley Professional'
-  #publisher: 'Addison-Wesley Professional Computing Series'
   publisher-place: 'Estados Unidos'
   page: 33-44
   ISBN: 978-0131429017
@@ -298,7 +283,6 @@ references:
   title-short: 'avg'
   page: 01
   URL: 'http://www.paulgraham.com/avg.html'
-  #DOI:
   language: en-US
 
 - type: paper-conference
@@ -409,38 +393,3 @@ references:
   page: 1
   ISBN: 026262107X 
   language: en-US
-
-# ###########
-#
-# http://rx.codesimply.com/
-#
-# https://en.wikipedia.org/wiki/Lightweight_markup_language
-# 
-# http://repmus.ircam.fr/openmusic/documents
-# 
-# http://msp.ucsd.edu/publications.html
-#
-
-# - type:
-#   id:
-#   author:
-#   - family: 
-#     given: 
-#   issued:
-#     date-parts:
-#     - - 1987
-#       - 11
-#       - 01
-#   title: 
-#   title-short:
-#   container-title:
-#   volume: 
-#   issue: 
-#   page: 
-#   publisher: 
-#   DOI:
-#   ISBN:
-#   URL : 
-#   language: en-US
-
-...

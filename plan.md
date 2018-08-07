@@ -1,3 +1,18 @@
+---
+  institucion: 'Universidad Nacional de Quilmes'
+  departamento: 'Escuela de Artes' 
+  carrera: 'LICENCIATURA EN MÚSICA Y TECNOLOGÍA'
+  director: 'Esteban Calcagno'
+  title: 'Plan de Tesis de Grado'
+  subtitle: 'GRAMÁTICA FORMAL PARA PLAN DE OBRA MUSICAL Y ENTORNO DE SECUENCIACIÓN MIDI'
+  author: 'Lisandro Fernández'
+  tutor: 'ns'
+  date:  'Septiembre 2017'
+  place: 'Buenos Aires, Argentina'
+  tags: ['representación', 'texto plano', 'CLI', 'MIDI']
+  abstract: 'Definición de gramática formal basada en texto plano serializado, estructurada como arbol de análisis para representar planes de obra musical. Acompañada por el desarrollo de un contexto de herramientas CLI para generar  sequencias MIDI.'
+  bibliography: references-plan.bib
+---
 
 ## 1. Resumen 
 
@@ -602,5 +617,3 @@ disponibles para su manipulación por otros programas.
 \newpage
 
 ## 7. Bibliografía
-
-http://stylepedia.net/
