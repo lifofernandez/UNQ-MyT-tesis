@@ -5,7 +5,7 @@ Repositorio de mi Plan de Tesis y mi Tesis de Grado.
 Instalar Pandoc y Latex y filtror
 
 ```bash
-make dependencias
+make install
 ```
 
 Generar los documentos pdf
