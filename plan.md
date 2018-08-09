@@ -21,7 +21,7 @@ texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
 análisis[^ver_grela] con el fin de representar planes de obra musical.
 
 Acompañada por el desarrollo de un contexto de herramientas para interprete de
-línea de comandos (Command Line Interface) para producción de sequencias MIDI [^ver_penfold] a
+línea de comandos (Command Line Interface) para producción de secuencias MIDI [^ver_penfold] a
 partir de manipular información subscripta a dicha representación.
 
 El desarrollo se documentará[^ver_kernighan] para que su publicación cumpla
@@ -95,16 +95,15 @@ Eventualmente todos los sistemas operativos permiten ser
 utilizados a través de este acceso previo al gerente de escritorio.
 
 **Menor utilización de recursos.**
-No depender de un agente de ventanas intervieniendo entre el usuario y el
+No depender de un agente de ventanas interviniendo entre el usuario y el
 sistema libra una cantidad considerable de recursos.  
 
 
 **Una interfaz para diferentes aplicaciones.**
-
 La estructura de las instrucciones para esta interfaz *aplicación - argumento -
-fichero* (su analogía *verbo - adverbio - sujeto*) persiste en cualquier pieza
-de software.  Dicha recurrencia elimina el ejercicio que significa operar de
-modo distino cada aplicación, permitiendo un accionar semejante en contextos y
+recurso* (su analogía *verbo - adverbio - sujeto*) persiste para cualquier pieza
+de software.  Dicha recurrencía elimina el ejercicio que significa operar de
+modo distinto cada aplicación, permitiendo un accionar semejante en contextos y
 circunstancias diferentes.
 
 **Tradición.**
@@ -113,17 +112,17 @@ informática remitiendo a los orígenes de los ordenadores basados en teletipo.
 
 **Resultados reproducibles.**
 Si bien la operación de sistemas sin mas que la entrada de caracteres requiere
-de conocimmiento y entrenamiento específicos no considerar la capa
-que representa la posición del puntero como parametros de instrucciones
-permite que sean recopiladas en secuencias de acciones presisas (guión).
+conocimiento y entrenamiento específico, no considerar la capa
+que representa la posición del puntero como parámetros de instrucciones,
+permite que sean recopiladas en secuencias de acciones precisas (guión).
 
 **Pipeline y Automatización.**
-La composición encadenando resultados con trabajos para expresar flujos
-de procesos complejos. [^ver_raymond]
+La composición flujos de procesos complejos encadenando resultados con trabajos.
+[^ver_raymond]
 
 **Acceso remoto.**
 Mas allá del protocolo en el que se base la negociación local/remoto la
-interfaz de comandos es la herramienta de facto para administrar un sistema a
+interfaz de linea comandos es la herramienta de facto para administrar un sistema a
 distancia.  
 
 **Productividad.** 
@@ -421,7 +420,7 @@ de unidades, producir flujos de muestras y programar procesos. Los principales
 componentes de Flocking incluyen:
 
 1. el *Intérprete Flocking*, que analiza e instancia sintetizadores,
-   generadores de unidad y búferes
+   generadores de unidad y bufers
 
 2. el *Ecosistema*, que representa el audio general y su configuración
 
@@ -605,12 +604,12 @@ disponibles para su manipulación por otros programas.
 
 |                             | Tiempo Estipulado | Fechas Tentativas       |
 |-----------------------------|-------------------|-------------------------|
-| Boceto de sintaxis          | 1 semana          | Del XX al XX de XXXXXX  |
+| Boceto de sintaxis          | 2 semanas         | Del XX al XX de XXXXXX  |
 | Prototipo aplicación        | 2 semanas         | Del XX al XX de XXXXXX  |
-| Entrevistas y consultas     | 1 semana          | Del XX al XX de XXXXXX  |
+| Entrevistas y consultas     | 2 semanas         | Del XX al XX de XXXXXX  |
 | Definición de gramática     | 5 semanas         | Del XX al XX de XXXXXX  |
 | Dasarrollo de herramientas  | 7 semanas         | Del XX al XX de XXXXXX  |
-| Pruebas y optimización      | 3 semanss         | Del XX al XX de XXXXXX  |
+| Pruebas y optimización      | 3 semanas         | Del XX al XX de XXXXXX  |
 | Documentación               | 5 semanas         | Del XX al XX de XXXXXX  |
 
 
