@@ -9,3 +9,9 @@ plan:
 	-s --csl=vendor/iso690-author-date-es.csl \
 	--filter=pandoc-citeproc \
 	--toc 
+
+seminario:
+	pandoc seminario.md --template=seminario \
+	-o output/lisandro_fernandez-seminario_inscripcion_formulario.pdf \
+	-s --csl=vendor/iso690-author-date-es.csl \
+	--filter=pandoc-citeproc 
