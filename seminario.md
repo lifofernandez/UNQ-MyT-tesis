@@ -29,11 +29,11 @@ Profesor Tutor: Pablo Riera
 # Plan de Trabajo
 
 
-## 1. Título del trabajo a desarrollar:
+## 1. Título del trabajo a desarrollar
 
 Gramática formal para plan de obra musical y entorno de secuenciación midi.
 
-## 2. Resumen:
+## 2. Resumen
 
 El presente plan propone definir una gramática formal[^ver_lerdahl] basada en
 texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
@@ -53,7 +53,6 @@ premisas del software libre.[^ver_gnu]
 [^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
 [^ver_gnu]: @gnu
 
-\newpage
 
 ## 3. Objetivos del trabajo
 
@@ -176,8 +175,7 @@ de trabajo ágil.[^ver_moolenaar]
 
 
 
-\newpage
-## 4. Antecedentes y estado actual del tema: 
+## 4. Antecedentes y estado actual del tema
 
 A continuación se describen algunos desarrollos que vinculan representación y
 manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como ejemplo
@@ -482,15 +480,37 @@ otros programas como datos ordinarios. La familia de lenguajes Lisp es un
 ejemplo bien conocido de este enfoque. Paul Graham describe la naturaleza
 declarativa de Lisp, expresando que "no tiene sintaxis. Escribes programas en
 árboles de análisis... [que] son totalmente accesibles a tus programas.  Puedes
-escribir programas que los manipulen...  programas que escriben
+escribir programas que los manipulen... programas que escriben
 programas".[^ver_graham2] Aunque Flocking está escrito en JavaScript, comparte
 con Lisp el enfoque expresar programas dentro de estructuras de datos que estén
 disponibles para su manipulación por otros programas.
 
 [^ver_graham2]: @graham2
 
-\newpage
-## 5. Metodología e hipótesis de trabajo:
+## 5. Metodología e hipótesis de trabajo
+
+El estandar YAML [^ver_yaml] es la opción para serializar la información en 
+las definiciones de cada parte instrumental.
+
+Python es el lenguaje elegído para interpretar la pieza de software que 
+procesará dichas partes (en su ultima version al dia de la fecha 3.7) 
+[^ver_python].
+Se incorporan el modulo "_pyyaml_" [^ver_pyyaml] para analizar la información 
+en dichos ficheros en combinación con la librería "_music21_" [^ver_music21] 
+destinada a las tareas de musicología.
+Ademas de algunos modulos de la "_Libreria Estandar_" [^ver_standarlib].
+
+El editor de texto preferido para toda la actividad sera VIM [^ver_vim], 
+el sistem de control de versiones será GIT [^ver_git]
+y GitHub o GitLab el servicio donde se almacenará el proyecto.
+  
+[^ver_yaml]: @yaml
+[^ver_python]: @python
+[^ver_pyyaml]: @pyyaml
+[^ver_music21]: @music21
+[^ver_standarlib]: @standarlib
+[^ver_vim]: @vim
+[^ver_git]: @git
 
 ## 6. Actividades de investigación
 
@@ -635,6 +655,5 @@ disponibles para su manipulación por otros programas.
 | Documentación               | 6 semanas         | Del XX al XX de XXXXXX  |
 
 
-\newpage
 
 ## 8. Bibliografía

@@ -13,5 +13,5 @@ plan:
 seminario:
 	pandoc seminario.md --template=seminario \
 	-o output/lisandro_fernandez-seminario_inscripcion_formulario.pdf \
-	-s --csl=vendor/iso690-author-date-es.csl \
+	-s --csl=vendor/apa-annotated-bibliography.csl \
 	--filter=pandoc-citeproc 

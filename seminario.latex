@@ -6,6 +6,15 @@ $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
 %\usepackage[sf,pagestyles,bf]{titlesec} % make section headings \sffamily
+\usepackage{geometry}
+\geometry{a4paper,portrait, 
+ %margin=140pt,
+ textwidth=455pt,
+ lmargin=80pt,
+ rmargin=80pt,
+ tmargin=60pt,
+ bmargin=60pt,
+}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 $endif$
