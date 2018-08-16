@@ -503,6 +503,8 @@ Ademas de algunos modulos de la "_Libreria Estandar_" [^ver_standarlib].
 El editor de texto preferido para toda la actividad sera VIM [^ver_vim], 
 el sistem de control de versiones será GIT [^ver_git]
 y GitHub o GitLab el servicio donde se almacenará el proyecto.
+
+La documentacion sera generada con "_sphinx_" [^ver_sphinx].
   
 [^ver_yaml]: @yaml
 [^ver_python]: @python
@@ -511,6 +513,7 @@ y GitHub o GitLab el servicio donde se almacenará el proyecto.
 [^ver_standarlib]: @standarlib
 [^ver_vim]: @vim
 [^ver_git]: @git
+[^ver_sphinx]: @sphinx
 
 ## 6. Actividades de investigación
 
