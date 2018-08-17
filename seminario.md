@@ -487,24 +487,29 @@ disponibles para su manipulación por otros programas.
 
 [^ver_graham2]: @graham2
 
+\newpage
+
 ## 5. Metodología e hipótesis de trabajo
 
-El estandar YAML [^ver_yaml] es la opción para serializar la información en 
-las definiciones de cada parte instrumental.
+El entorno de producción musical que se pretende establecer
+estará principalmente integrando por:
 
-Python es el lenguaje elegído para interpretar la pieza de software que 
-procesará dichas partes (en su ultima version al dia de la fecha 3.7) 
-[^ver_python].
-Se incorporan el modulo "_pyyaml_" [^ver_pyyaml] para analizar la información 
-en dichos ficheros en combinación con la librería "_music21_" [^ver_music21] 
-destinada a las tareas de musicología.
-Ademas de algunos modulos de la "_Libreria Estandar_" [^ver_standarlib].
+El estandar YAML [^ver_yaml] como opción para serializar las definiciones de
+cada parte instrumental.
 
-El editor de texto preferido para toda la actividad sera VIM [^ver_vim], 
-el sistem de control de versiones será GIT [^ver_git]
-y GitHub o GitLab el servicio donde se almacenará el proyecto.
+La rutina de instrucciones principales será interpretada en el lenguaje
+Python[^ver_python] (en su ultima versión estable). 
+Esta pieza de software estará basamentada en otros dos desarrollos: el modulo
+"_pyyaml_" [^ver_pyyaml] para analizar la información serializada, en
+combinación con la librería "_music21_" [^ver_music21] que asistirá en las
+tareas de musicología. Ademas se incorporan algunos módulos de la "_Libreria
+Estandar_" [^ver_standarlib], mientras que la documentación se generará con
+"_sphinx_" [^ver_sphinx].
 
-La documentacion sera generada con "_sphinx_" [^ver_sphinx].
+El editor de texto preferido para toda la actividad será VIM [^ver_vim];
+durante el desarrollo las versiones se controlarán con el sistema GIT
+[^ver_git] y GitLab el servicio donde se almacenará el proyecto.
+
   
 [^ver_yaml]: @yaml
 [^ver_python]: @python
@@ -645,14 +650,16 @@ La documentacion sera generada con "_sphinx_" [^ver_sphinx].
      
 \end{center}
 
+\newpage
+
 ## 7. Cronograma de Trabajo
 
 |                             | Tiempo Estipulado | Fechas Tentativas       |
-|-----------------------------|-------------------|-------------------------|
-| Boceto de sintaxis          | 4 semanas         | Del XX al XX de XXXXXX  |
-| Prototipo aplicación        | 4 semanas         | Del XX al XX de XXXXXX  |
+|-----------------------------+-------------------+-------------------------|
+| Boceto de sintaxis          | 6 semanas         | Del XX al XX de XXXXXX  |
+| Prototipo aplicación        | 6 semanas         | Del XX al XX de XXXXXX  |
 | Entrevistas y consultas     | 4 semanas         | Del XX al XX de XXXXXX  |
-| Definición de gramática     | 6 semanas         | Del XX al XX de XXXXXX  |
+| Definición de gramática     | 8 semanas         | Del XX al XX de XXXXXX  |
 | Dasarrollo de herramientas  | 8 semanas         | Del XX al XX de XXXXXX  |
 | Pruebas y optimización      | 4 semanas         | Del XX al XX de XXXXXX  |
 | Documentación               | 6 semanas         | Del XX al XX de XXXXXX  |

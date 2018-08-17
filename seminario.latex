@@ -147,6 +147,7 @@ $endif$
 $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
+\renewcommand\tabcolsep{4pt}
 $if(tables)$
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
@@ -389,3 +390,4 @@ $include-after$
 
 $endfor$
 \end{document}
+\renewcommand\tabcolsep{4pt}
