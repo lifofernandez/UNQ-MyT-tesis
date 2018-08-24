@@ -253,96 +253,33 @@ $endif$
 
 \begin{document}
 
-\topskip0pt
-\vspace*{\fill}
+% CARATULA
 
-$if(institucion)$
-\begin{center}
-\huge
-$instituto$
-\end{center}
+$if(author)$
+Alumno: $author$
 $endif$
 
-
-$if(departamento)$
-\begin{center}
-$departamento$
-\end{center}
-$endif$
 
 $if(carrera)$
-\begin{center}
+Carrera:
 $carrera$
-\end{center}
 $endif$
 
-$if(director)$
-\begin{center}
-Director de Carrera:
-$director$
-\end{center}
+
+$if(programa)$
+Proyecto o programa acreditado en el que se inscribe el Seminario de Investigación: 
+$programa$
 $endif$
 
-\bigskip
-\bigskip
-\bigskip
 
-$if(title)$
-% \maketitle
-\begin{center}
-\huge
-$title$
-\end{center}
-$endif$
-
-$if(subtitle)$
-\begin{center}
-%\large
-$subtitle$
-\end{center}
-$endif$
-
-\bigskip
-$if(author)$
-\begin{center}
-Presentada por:
-$author$
-\end{center}
-$endif$
 
 $if(tutor)$
-\begin{center}
-Director de Tesis:
-$tutor$
-\end{center}
+Profesor tutor: $tutor$
 $endif$
 
-\bigskip
-\bigskip
-$if(abstract)$
-\begin{abstract}
-$abstract$
-\end{abstract}
-$endif$
+% TERMINA CARATULA
 
-\bigskip
-\bigskip
-\bigskip
-
-$if(date)$
-\begin{center}
-$date$
-\end{center}
-$endif$
-
-$if(place)$
-\begin{center}
-$place$
-\end{center}
-$endif$
-
-\vspace*{\fill}
-\newpage
+% \newpage
 
 $for(include-before)$
 $include-before$

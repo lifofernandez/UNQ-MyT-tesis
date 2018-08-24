@@ -1,9 +1,9 @@
 ---
   institucion: 'Universidad Nacional de Quilmes'
   departamento: 'Escuela de Artes' 
-  carrera: 'LICENCIATURA EN MÚSICA Y TECNOLOGÍA'
+  carrera: 'Licenciatura en Música y Tecnología'
   director: 'Esteban Calcagno'
-  title: 'Plan de Tesis de Grado'
+  title: 'Formulario de presentación Rcd154-09'
   subtitle: 'GRAMÁTICA FORMAL PARA PLAN DE OBRA MUSICAL Y ENTORNO DE SECUENCIACIÓN MIDI'
   author: 'Lisandro Fernández'
   tutor: 'Pablo Riera'
@@ -15,23 +15,12 @@
   bibliography: references-plan.bib
 ---
 
-Alumno: Lisandro Fernández
-
-Carrera: Licenciatura en Música Y Tecnología
-
-Proyecto o programa acreditado en el que se inscribe el Seminario de
-
-Investigación: Cartografías Espacio-Temporales y Arte Sonoro
-
-Profesor Tutor: Pablo Riera
-
-
 # Plan de Trabajo
 
 
 ## 1. Título del trabajo a desarrollar
 
-Gramática formal para plan de obra musical y entorno de secuenciación midi.
+Gramática formal para plan de obra musical y entorno de secuenciación.
 
 ## 2. Resumen
 
@@ -43,7 +32,7 @@ Acompañada por el desarrollo de un contexto de herramientas para interprete de
 línea de comandos (Command Line Interface) para producción de secuencias MIDI [^ver_penfold] a
 partir de manipular información subscripta a dicha representación.
 
-El desarrollo se documentará[^ver_kernighan] en animo de satifacer
+El desarrollo se documentará[^ver_kernighan] en animo de satisfacer
 premisas del software libre.[^ver_gnu]
 
 [^ver_lerdahl]: @lerdahl
@@ -140,7 +129,7 @@ sistema libra una cantidad considerable de recursos.
 **Una interfaz para diferentes aplicaciones.**
 La estructura de las instrucciones para esta interfaz *aplicación - argumento -
 recurso* (su analogía *verbo - adverbio - sujeto*) persiste para cualquier pieza
-de software.  Dicha recurrencía elimina el ejercicio que significa operar de
+de software.  Dicha recurrencia elimina el ejercicio que significa operar de
 modo distinto cada aplicación, permitiendo un accionar semejante en contextos y
 circunstancias diferentes.
 
@@ -499,7 +488,7 @@ cada parte instrumental.
 
 La rutina de instrucciones principales será interpretada en el lenguaje
 Python[^ver_python] (en su ultima versión estable). 
-Esta pieza de software estará basamentada en otros dos desarrollos: el modulo
+Esta pieza de software estará basada en otros dos desarrollos: el modulo
 "_pyyaml_" [^ver_pyyaml] para analizar la información serializada, en
 combinación con la librería "_music21_" [^ver_music21] que asistirá en las
 tareas de musicología. Ademas se incorporan algunos módulos de la "_Libreria
@@ -508,7 +497,8 @@ Estandar_" [^ver_standarlib], mientras que la documentación se generará con
 
 El editor de texto preferido para toda la actividad será VIM [^ver_vim];
 durante el desarrollo las versiones se controlarán con el sistema GIT
-[^ver_git] y GitLab el servicio donde se almacenará el proyecto.
+[^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
+proveido por algún servicio del tipo GitLab/GitHub/BitBucket.
 
   
 [^ver_yaml]: @yaml
