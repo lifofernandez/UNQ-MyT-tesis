@@ -4,7 +4,7 @@
   carrera: 'Licenciatura en Música y Tecnología'
   director: 'Esteban Calcagno'
   title: 'Formulario de presentación Rcd154-09'
-  subtitle: 'GRAMÁTICA FORMAL PARA PLAN DE OBRA MUSICAL Y ENTORNO DE SECUENCIACIÓN MIDI'
+  subtitle: 'Gramática Formal para Plan de Obra Musical y Entorno de Secuenciación'
   author: 'Lisandro Fernández'
   tutor: 'Pablo Riera'
   programa: 'Cartografías Espacio-Temporales y Arte Sonoro'
@@ -32,8 +32,8 @@ Acompañada por el desarrollo de un contexto de herramientas para interprete de
 línea de comandos (Command Line Interface) para producción de secuencias MIDI [^ver_penfold] a
 partir de manipular información subscripta a dicha representación.
 
-El desarrollo se documentará[^ver_kernighan] en animo de satisfacer
-premisas del software libre.[^ver_gnu]
+El desarrollo se documentará[^ver_kernighan] en animo de satisfacer premisas
+del software libre.[^ver_gnu]
 
 [^ver_lerdahl]: @lerdahl
 [^ver_grela]: @grela
@@ -47,7 +47,7 @@ premisas del software libre.[^ver_gnu]
 
 Este proyecto procura establecer un contexto y proveer los recursos para un
 procedimiento sencillo y flexible de elaboración discursos musicales unificando
-la planificación de obra con la secuenciación MIDI.
+la planificación de obra con la secuenciación.
 
 Ademas pretende exponer las ventajas de la Interfaz de Linea de Comandos para
 operar sistemas informáticos a la comunidad de artistas, teóricos e
@@ -63,12 +63,14 @@ Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
 
 [^ver_yzaguirre]: @yzaguirre
 
+\newpage
 ### 3.2 Justificación 
 
 A continuación se argumentan los aspectos clave de este proyecto.
 
 #### 3.2.1 ¿Por qué Texto Plano?
 
+\bigskip
 > "...our base material isn't wood or iron, it's
 > knowledge. [...]. And we believe that the best format for storing knowledge
 > persistently is plain text.  With plain text, we give ourselves the ability to
@@ -476,7 +478,6 @@ disponibles para su manipulación por otros programas.
 
 [^ver_graham2]: @graham2
 
-\newpage
 
 ## 5. Metodología e hipótesis de trabajo
 
@@ -488,17 +489,17 @@ cada parte instrumental.
 
 La rutina de instrucciones principales será interpretada en el lenguaje
 Python[^ver_python] (en su ultima versión estable). 
-Esta pieza de software estará basada en otros dos desarrollos: el modulo
+Esta pieza de software estará basada en otros dos desarrollos: el módulo
 "_pyyaml_" [^ver_pyyaml] para analizar la información serializada, en
 combinación con la librería "_music21_" [^ver_music21] que asistirá en las
-tareas de musicología. Ademas se incorporan algunos módulos de la "_Libreria
+tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
 Estandar_" [^ver_standarlib], mientras que la documentación se generará con
 "_sphinx_" [^ver_sphinx].
 
 El editor de texto preferido para toda la actividad será VIM [^ver_vim];
 durante el desarrollo las versiones se controlarán con el sistema GIT
 [^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
-proveido por algún servicio del tipo GitLab/GitHub/BitBucket.
+proveido por algún servicio del tipo GitLab.
 
   
 [^ver_yaml]: @yaml
@@ -640,20 +641,19 @@ proveido por algún servicio del tipo GitLab/GitHub/BitBucket.
      
 \end{center}
 
-\newpage
 
 ## 7. Cronograma de Trabajo
 
-|                             | Tiempo Estipulado | Fechas Tentativas       |
-|-----------------------------+-------------------+-------------------------|
-| Boceto de sintaxis          | 6 semanas         | Del XX al XX de XXXXXX  |
-| Prototipo aplicación        | 6 semanas         | Del XX al XX de XXXXXX  |
-| Entrevistas y consultas     | 4 semanas         | Del XX al XX de XXXXXX  |
-| Definición de gramática     | 8 semanas         | Del XX al XX de XXXXXX  |
-| Dasarrollo de herramientas  | 8 semanas         | Del XX al XX de XXXXXX  |
-| Pruebas y optimización      | 4 semanas         | Del XX al XX de XXXXXX  |
-| Documentación               | 6 semanas         | Del XX al XX de XXXXXX  |
-
+|                             | Tiempo estipulado | Fechas tentativas             |
+|-----------------------------+-------------------+-------------------------------|
+| Boceto de gramática         | 6 semanas         | Septiembre y octubre del 2018 |
+| Prototipo de entorno        | 6 semanas         | Octubre y noviembre del 2018  |
+| Entrevistas y consultas     | 4 semanas         | Diciembre del 2018            |
+| Definición de gramática     | 8 semanas         | Enero y febrero del 2019      |
+| Desarrollo de contexto      | 8 semanas         | Marzo y abril del 2019        |
+| Pruebas y optimización      | 4 semanas         | Mayo del 2019                 |
+| Documentación               | 6 semanas         | Julio y agosto del 2019       |
+                                                      
 
 
 ## 8. Bibliografía
