@@ -1,20 +1,20 @@
 ---
   institucion: 'Universidad Nacional de Quilmes'
   departamento: 'Escuela de Artes' 
-  carrera: 'LICENCIATURA EN MÚSICA Y TECNOLOGÍA'
+  carrera: 'Licenciatura en Música y Tecnología'
   director: 'Esteban Calcagno'
-  title: 'Plan de Tesis de Grado'
-  subtitle: 'GRAMÁTICA FORMAL PARA PLAN DE OBRA MUSICAL Y ENTORNO DE SECUENCIACIÓN MIDI'
+  title: 'Tesis de Grado'
+  subtitle: 'Gramática Formal para Plan de Obra musical y Entorno de Secuenciación'
   author: 'Lisandro Fernández'
-  tutor: 'ns'
-  date:  'Septiembre 2017'
+  tutor: 'Pablo Riera'
+  date:  'Septiembre 2018'
   place: 'Buenos Aires, Argentina'
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
-  abstract: 'Definición de gramática formal basada en texto plano serializado, estructurada como arbol de análisis para representar planes de obra musical. Acompañada por el desarrollo de un contexto de herramientas CLI para generar  sequencias MIDI.'
+  abstract: 'Definición de gramática formal basada en texto plano serializado, estructurada como arbol de análisis para representar planes de obra musical. Acompañada por el desarrollo de un contexto de herramientas CLI para generar sequencias.'
   bibliography: references-plan.bib
 ---
 
-## 1. Resumen 
+## 1 Resumen 
 
 El presente plan propone definir una gramática formal[^ver_lerdahl] basada en
 texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
@@ -36,7 +36,7 @@ con las premisas del software libre.[^ver_gnu]
 
 \newpage
 
-## 2. Justificación 
+## 2 Justificación 
 
 A continuación se argumentan los aspectos clave de este proyecto.
 
@@ -135,7 +135,7 @@ de trabajo ágil.[^ver_moolenaar]
 [^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy, Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
 
-## 3. Objetivos
+## 3 Objetivos
 
 Este proyecto procura establecer un contexto y proveer los recursos para un
 procedimiento sencillo y flexible de elaboración discursos musicales unificando
@@ -157,7 +157,7 @@ Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
 
 
 \newpage
-## 4. Marco referencial 
+## 4 Marco referencial 
 
 A continuación se describen algunos desarrollos que vinculan representación y
 manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como ejemplo
@@ -470,7 +470,41 @@ disponibles para su manipulación por otros programas.
 [^ver_graham2]: @graham2
 
 \newpage
-## 5. Metodología
+## 5 Metodología
+
+### 5.1 Hipótesis de trabajo
+
+El entorno de producción musical que se pretende establecer
+estará principalmente integrando por:
+
+El estandar YAML [^ver_yaml] como opción para serializar las definiciones de
+cada parte instrumental.
+
+La rutina de instrucciones principales será interpretada en el lenguaje
+Python[^ver_python] (en su ultima versión estable). 
+Esta pieza de software estará basada en otros dos desarrollos: el módulo
+"_pyyaml_" [^ver_pyyaml] para analizar la información serializada, en
+combinación con la librería "_music21_" [^ver_music21] que asistirá en las
+tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
+Estandar_" [^ver_standarlib], mientras que la documentación se generará con
+"_sphinx_" [^ver_sphinx].
+
+El editor de texto preferido para toda la actividad será VIM [^ver_vim];
+durante el desarrollo las versiones se controlarán con el sistema GIT
+[^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
+proveido por algún servicio del tipo GitLab.
+
+  
+[^ver_yaml]: @yaml
+[^ver_python]: @python
+[^ver_pyyaml]: @pyyaml
+[^ver_music21]: @music21
+[^ver_standarlib]: @standarlib
+[^ver_vim]: @vim
+[^ver_git]: @git
+[^ver_sphinx]: @sphinx
+
+### 5.2 Actividades de investigación
 
 \begin{center}
     \begin{tikzpicture}[node distance = 2cm, auto]
@@ -600,19 +634,18 @@ disponibles para su manipulación por otros programas.
      
 \end{center}
 
-## 6. Cronograma de Trabajo
+## 6 Cronograma de Trabajo
 
-|                             | Tiempo Estipulado | Fechas Tentativas       |
-|-----------------------------|-------------------|-------------------------|
-| Boceto de sintaxis          | 2 semanas         | Del XX al XX de XXXXXX  |
-| Prototipo aplicación        | 2 semanas         | Del XX al XX de XXXXXX  |
-| Entrevistas y consultas     | 2 semanas         | Del XX al XX de XXXXXX  |
-| Definición de gramática     | 5 semanas         | Del XX al XX de XXXXXX  |
-| Dasarrollo de herramientas  | 7 semanas         | Del XX al XX de XXXXXX  |
-| Pruebas y optimización      | 3 semanas         | Del XX al XX de XXXXXX  |
-| Documentación               | 5 semanas         | Del XX al XX de XXXXXX  |
-
+|                             | Tiempo estipulado | Fechas tentativas             |
+|-----------------------------+-------------------+-------------------------------|
+| Boceto de gramática         | 6 semanas         | Septiembre y octubre del 2018 |
+| Prototipo de entorno        | 6 semanas         | Octubre y noviembre del 2018  |
+| Entrevistas y consultas     | 4 semanas         | Diciembre del 2018            |
+| Definición de gramática     | 8 semanas         | Enero y febrero del 2019      |
+| Desarrollo de contexto      | 8 semanas         | Marzo y abril del 2019        |
+| Pruebas y optimización      | 4 semanas         | Mayo del 2019                 |
+| Documentación               | 6 semanas         | Julio y agosto del 2019       |
 
 \newpage
 
-## 7. Bibliografía
+## 7 Bibliografía

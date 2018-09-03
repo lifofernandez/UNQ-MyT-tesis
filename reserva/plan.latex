@@ -241,20 +241,16 @@ $endif$
 
 \begin{document}
 
-\begin{titlepage}
-
 \topskip0pt
 \vspace*{\fill}
 
 $if(institucion)$
 \begin{center}
 \huge
-$institucion$
+$instituto$
 \end{center}
 $endif$
 
-\bigskip
-\bigskip
 
 $if(departamento)$
 \begin{center}
@@ -264,7 +260,7 @@ $endif$
 
 $if(carrera)$
 \begin{center}
-\uppercase{$carrera$}
+$carrera$
 \end{center}
 $endif$
 
@@ -287,15 +283,14 @@ $title$
 \end{center}
 $endif$
 
-\bigskip
 $if(subtitle)$
 \begin{center}
 %\large
-\uppercase{$subtitle$}
+$subtitle$
 \end{center}
 $endif$
-\bigskip
 
+\bigskip
 $if(author)$
 \begin{center}
 Presentada por:
@@ -335,9 +330,6 @@ $place$
 $endif$
 
 \vspace*{\fill}
-
-\end{titlepage}
-
 \newpage
 
 $for(include-before)$
