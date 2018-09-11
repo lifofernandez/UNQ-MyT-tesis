@@ -11,8 +11,12 @@
   place: 'Buenos Aires, Argentina'
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
   abstract: 'Definición de gramática formal basada en texto plano serializado, estructurada como arbol de análisis para representar planes de obra musical. Acompañada por el desarrollo de un contexto de herramientas CLI para generar sequencias.'
-  bibliography: references-plan.bib
+  bibliography: referencias.bib
 ---
+
+## 0 ver donde van
+
+@allen, @schaeffer, @samaruga
 
 ## 1 Resumen 
 
