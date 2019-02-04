@@ -3,26 +3,22 @@
   departamento: 'Escuela de Artes' 
   carrera: 'Licenciatura en Música y Tecnología'
   director: 'Esteban Calcagno'
-  title: 'Formulario de presentación Rcd154-09'
-  subtitle: 'Gramática Formal para Plan de Obra Musical y Entorno de Secuenciación'
+  title: 'Tesis de Grado'
+  subtitle: 'Gramática Formal para Plan de Obra musical y Entorno de Secuenciación'
   author: 'Lisandro Fernández'
   tutor: 'Pablo Riera'
-  programa: 'Cartografías Espacio-Temporales y Arte Sonoro'
-  date:  'Agosto 2018'
+  date:  'Septiembre 2018'
   place: 'Buenos Aires, Argentina'
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
-  abstract: 'Definición de gramática formal basada en texto plano serializado, estructurada como arbol de análisis para representar planes de obra musical. Acompañada por el desarrollo de un contexto de herramientas CLI para generar  sequencias MIDI.'
-  bibliography: reserva/references-seminario.bib
+  abstract: 'Definición de gramática formal basada en texto plano serializado, estructurada como arbol de análisis para representar planes de obra musical. Acompañada por el desarrollo de un contexto de herramientas CLI para generar sequencias.'
+  bibliography: referencias.bib
 ---
 
-# Plan de Trabajo
+## 0 ver donde van
 
+@allen, @schaeffer, @samaruga
 
-## 1. Título del trabajo a desarrollar
-
-Gramática formal para plan de obra musical y entorno de secuenciación.
-
-## 2. Resumen
+## 1 Resumen 
 
 El presente plan propone definir una gramática formal[^ver_lerdahl] basada en
 texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
@@ -32,8 +28,8 @@ Acompañada por el desarrollo de un contexto de herramientas para interprete de
 línea de comandos (Command Line Interface) para producción de secuencias MIDI [^ver_penfold] a
 partir de manipular información subscripta a dicha representación.
 
-El desarrollo se documentará[^ver_kernighan] en animo de satisfacer premisas
-del software libre.[^ver_gnu]
+El desarrollo se documentará[^ver_kernighan] para que su publicación cumpla
+con las premisas del software libre.[^ver_gnu]
 
 [^ver_lerdahl]: @lerdahl
 [^ver_grela]: @grela
@@ -42,35 +38,14 @@ del software libre.[^ver_gnu]
 [^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
 [^ver_gnu]: @gnu
 
-
-## 3. Objetivos del trabajo
-
-Este proyecto procura establecer un contexto y proveer los recursos para un
-procedimiento sencillo y flexible de elaboración discursos musicales unificando
-la planificación de obra con la secuenciación.
-
-Ademas pretende exponer las ventajas de la Interfaz de Linea de Comandos para
-operar sistemas informáticos a la comunidad de artistas, teóricos e
-investigadores.
-
-Promover la adopción de prácticas consolidadas y formatos abiertos para
-representar, manipular y almacenar información digital.
-
-Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
-[^ver_raymond2] [^ver_yzaguirre]
-
-[^ver_raymond2]: @raymond2 Capítulo 11: The Social Context of Open-Source Software (p. 11)
-
-[^ver_yzaguirre]: @yzaguirre
-
 \newpage
-### 3.2 Justificación 
+
+## 2 Justificación 
 
 A continuación se argumentan los aspectos clave de este proyecto.
 
-#### 3.2.1 ¿Por qué Texto Plano?
+### 2.1 ¿Por qué Texto Plano?
 
-\bigskip
 > "...our base material isn't wood or iron, it's
 > knowledge. [...]. And we believe that the best format for storing knowledge
 > persistently is plain text.  With plain text, we give ourselves the ability to
@@ -116,7 +91,7 @@ creados.[^ver_leek]
 [^ver_leek]: @leek
 
 
-#### 3.2.2 ¿Por qué Interfaz de Linea de Comandos?
+### 2.2 ¿Por qué Interfaz de Linea de Comandos?
 
 
 **Primer estado operativo de un ordenador.** 
@@ -131,7 +106,7 @@ sistema libra una cantidad considerable de recursos.
 **Una interfaz para diferentes aplicaciones.**
 La estructura de las instrucciones para esta interfaz *aplicación - argumento -
 recurso* (su analogía *verbo - adverbio - sujeto*) persiste para cualquier pieza
-de software.  Dicha recurrencia elimina el ejercicio que significa operar de
+de software.  Dicha recurrencía elimina el ejercicio que significa operar de
 modo distinto cada aplicación, permitiendo un accionar semejante en contextos y
 circunstancias diferentes.
 
@@ -164,9 +139,29 @@ de trabajo ágil.[^ver_moolenaar]
 [^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy, Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
 
+## 3 Objetivos
+
+Este proyecto procura establecer un contexto y proveer los recursos para un
+procedimiento sencillo y flexible de elaboración discursos musicales unificando
+la planificación de obra con la secuenciación MIDI.
+
+Ademas pretende exponer las ventajas de la Interfaz de Linea de Comandos para
+operar sistemas informáticos a la comunidad de artistas, teóricos e
+investigadores.
+
+Promover la adopción de prácticas consolidadas y formatos abiertos para
+representar, manipular y almacenar información digital.
+
+Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
+[^ver_raymond2] [^ver_yzaguirre]
+
+[^ver_raymond2]: @raymond2 Capítulo 11: The Social Context of Open-Source Software (p. 11)
+
+[^ver_yzaguirre]: @yzaguirre
 
 
-## 4. Antecedentes y estado actual del tema
+\newpage
+## 4 Marco referencial 
 
 A continuación se describen algunos desarrollos que vinculan representación y
 manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como ejemplo
@@ -471,15 +466,17 @@ otros programas como datos ordinarios. La familia de lenguajes Lisp es un
 ejemplo bien conocido de este enfoque. Paul Graham describe la naturaleza
 declarativa de Lisp, expresando que "no tiene sintaxis. Escribes programas en
 árboles de análisis... [que] son totalmente accesibles a tus programas.  Puedes
-escribir programas que los manipulen... programas que escriben
+escribir programas que los manipulen...  programas que escriben
 programas".[^ver_graham2] Aunque Flocking está escrito en JavaScript, comparte
 con Lisp el enfoque expresar programas dentro de estructuras de datos que estén
 disponibles para su manipulación por otros programas.
 
 [^ver_graham2]: @graham2
 
+\newpage
+## 5 Metodología
 
-## 5. Metodología e hipótesis de trabajo
+### 5.1 Hipótesis de trabajo
 
 El entorno de producción musical que se pretende establecer
 estará principalmente integrando por:
@@ -511,7 +508,7 @@ proveido por algún servicio del tipo GitLab.
 [^ver_git]: @git
 [^ver_sphinx]: @sphinx
 
-## 6. Actividades de investigación
+### 5.2 Actividades de investigación
 
 \begin{center}
     \begin{tikzpicture}[node distance = 2cm, auto]
@@ -641,8 +638,7 @@ proveido por algún servicio del tipo GitLab.
      
 \end{center}
 
-
-## 7. Cronograma de Trabajo
+## 6 Cronograma de Trabajo
 
 |                             | Tiempo estipulado | Fechas tentativas             |
 |-----------------------------+-------------------+-------------------------------|
@@ -653,7 +649,16 @@ proveido por algún servicio del tipo GitLab.
 | Desarrollo de contexto      | 8 semanas         | Marzo y abril del 2019        |
 | Pruebas y optimización      | 4 semanas         | Mayo del 2019                 |
 | Documentación               | 6 semanas         | Julio y agosto del 2019       |
-                                                      
 
+\newpage
 
-## 8. Bibliografía
+## 8 Entrevistas
+Entrevistas no estructuradas, del tipo por pautas y guías. [^ver_franco]
+
+Pautas/guias 
+ - oeoe
+ - eelee
+  
+[^ver_franco]: @franco
+
+## 7 Bibliografía

@@ -3,14 +3,16 @@
   departamento: 'Escuela de Artes' 
   carrera: 'Licenciatura en Música y Tecnología'
   director: 'Esteban Calcagno'
-  title: 'Tesis de Grado'
+  # title: 'Tesis de Grado'
+  title: 'Seminario de Investigación'
+  programa: 'Cartografías Espacio-Temporales y Arte Sonoro'
   subtitle: 'Gramática Formal para Plan de Obra musical y Entorno de Secuenciación'
   author: 'Lisandro Fernández'
   tutor: 'Pablo Riera'
-  date:  'Septiembre 2018'
+  date:  'Marzo 2019'
   place: 'Buenos Aires, Argentina'
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
-  abstract: 'Definición de gramática formal basada en texto plano serializado, estructurada como arbol de análisis para representar planes de obra musical. Acompañada por el desarrollo de un contexto de herramientas CLI para generar sequencias.'
+  abstract: 'Definición de gramática formal basada en texto plano serializado, estructurada como arbol de análisis para representar planes de obra musical. Acompañada por el desarrollo de un contexto de herramientas para interfaz de linea de comandos (CLI) destinada a generar sequencias musicales en el protocolo MIDI.'
   bibliography: referencias.bib
 ---
 
@@ -637,6 +639,7 @@ proveido por algún servicio del tipo GitLab.
      \end{tikzpicture}
      
 \end{center}
+\newpage
 
 ## 6 Cronograma de Trabajo
 
@@ -652,4 +655,16 @@ proveido por algún servicio del tipo GitLab.
 
 \newpage
 
+## 8 Entrevistas
+Entrevistas del tipo no estructuradas,  por pautas y guías. [^ver_franco]
+
+Pautas / guias :
+
+* oeoe
+
+* eelee
+  
+[^ver_franco]: @franco
+
+\newpage
 ## 7 Bibliografía
