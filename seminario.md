@@ -56,7 +56,7 @@ A continuación se argumentan los aspectos clave de este proyecto.
 
 \bigskip
 
-Algunas ventajas del texto plano y legible en contraste a la codificación binaria de datos.[^ver_hunt]
+Algunas ventajas del texto plano y legible en contraste a la codificación de datos.[^ver_hunt]
 
 **Aprovechar.**
 Potencialmente cualquier herramienta de computo puede operar
@@ -95,7 +95,6 @@ creados.[^ver_leek]
 
 ### 2.2 ¿Por qué Interfaz de Linea de Comandos?
 
-
 **Primer estado operativo de un ordenador.** 
 Eventualmente todos los sistemas operativos permiten ser 
 utilizados a través de este acceso previo al gerente de escritorio.
@@ -113,7 +112,7 @@ modo distinto cada aplicación, permitiendo un accionar semejante en contextos y
 circunstancias diferentes.
 
 **Tradición.**
-Perdura por décadas como estándar inalterable a lo largo de la historia de la
+Perdura por décadas como estándar durante la historia de la
 informática remitiendo a los orígenes de los ordenadores basados en teletipo.
 
 **Resultados reproducibles.**
@@ -639,6 +638,7 @@ proveido por algún servicio del tipo GitLab.
      \end{tikzpicture}
      
 \end{center}
+
 \newpage
 
 ## 6 Cronograma de Trabajo
@@ -656,13 +656,22 @@ proveido por algún servicio del tipo GitLab.
 \newpage
 
 ## 8 Entrevistas
+
+Se realizaron 
 Entrevistas del tipo no estructuradas,  por pautas y guías. [^ver_franco]
 
 Pautas / guias :
 
-* oeoe
+* Background
 
-* eelee
+	* Describa su experiencia con la representación de información musical textual.
+
+	* Describa su experiencia relacionada interfaz de linea de comando.
+
+* Musica através de parametros
+
+* Si puedieras manipular un proyecto a traves de texto..
+
   
 [^ver_franco]: @franco
 
