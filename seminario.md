@@ -657,20 +657,19 @@ proveido por algún servicio del tipo GitLab.
 
 ## 8 Entrevistas
 
-Se realizaron 
-Entrevistas del tipo no estructuradas,  por pautas y guías. [^ver_franco]
+Entrevistas del tipo no estructuradas, por pautas y guías. [^ver_franco]
 
 Pautas / guias :
 
 * Background
 
-	* Describa su experiencia con la representación de información musical textual.
+	* Experiencia con representación de información musical textual  
 
-	* Describa su experiencia relacionada interfaz de linea de comando.
+        * Relación con manipulacion musical a traves de parametros.
 
-* Musica através de parametros
+* Predisposición a trabajar (leer/escribir) con musica que se encuentre descripta en formato textual
 
-* Si puedieras manipular un proyecto a traves de texto..
+
 
   
 [^ver_franco]: @franco
