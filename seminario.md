@@ -16,13 +16,10 @@
   bibliography: referencias.bib
 ---
 
-## 0 ver donde van
-
-@allen, @schaeffer, @samaruga
 
 ## 1 Resumen 
 
-El presente plan propone definir una gramática formal[^ver_lerdahl] basada en
+El presente plan propone definir una gramática formal basada en
 texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
 análisis[^ver_grela] con el fin de representar planes de obra musical.
 
@@ -33,7 +30,6 @@ partir de manipular información subscripta a dicha representación.
 El desarrollo se documentará[^ver_kernighan] para que su publicación cumpla
 con las premisas del software libre.[^ver_gnu]
 
-[^ver_lerdahl]: @lerdahl
 [^ver_grela]: @grela
 [^ver_penfold]: @penfold 
 [^ver_combs]: @coombs 
@@ -475,6 +471,7 @@ disponibles para su manipulación por otros programas.
 [^ver_graham2]: @graham2
 
 \newpage
+
 ## 5 Metodología
 
 ### 5.1 Hipótesis de trabajo
@@ -641,6 +638,8 @@ proveido por algún servicio del tipo GitLab.
 
 \newpage
 
+
+
 ## 6 Cronograma de Trabajo
 
 |                             | Tiempo estipulado | Fechas tentativas             |
@@ -655,7 +654,198 @@ proveido por algún servicio del tipo GitLab.
 
 \newpage
 
-## 8 Entrevistas
+## 7 Estructura de la grámatica y su vocabulario
+
+Explicar brevemente sintaxis YAML
+Describir Pistas
+
+### Parametros de Pista 
+
+#### nombre: !!str 
+    Título de la pista
+    'Pista ejemplo 1'
+
+#### unidades: !!map
+    Paleta de unidades para secuenciar
+    a: &a 
+      <<: *base
+      metro: 2/4
+      alturas: [ 1, 3,0, 5, 7, 8 ]
+      duraciones: [ 1, .5, .5, 1, 1 ]
+    
+    b: &b 
+      <<: *base
+      metro: 6/8
+      duraciones: [ .5 ]
+      alturas: [ 1, 2 ]
+      voces: 0
+      transponer: 3
+      clave: 
+        alteraciones: 2
+        modo: 1 
+      fluctuacion: 
+        min: .1
+        max: .4 
+      desplazar: -1
+    
+    b^: 
+      <<: *b
+      dinamicas: [ .5, .1 ]
+      revertir: [ 'alturas' ]
+    
+    Unidad de unidades ( UoUs )
+    Propiedades sobrescriben a las de las unidades referidas 
+    A: 
+      unidades: [ 'a', 'b' ] 
+      reiterar: 3
+    
+    B: &B 
+      metro: 9/8
+      unidades: [ 'a' , 'b^' ]
+      #desplazar: -0.5
+      desplazar: -0.75
+    
+    B^: 
+      <<: *B
+      voces: 0 
+      bmp: 89
+      unidades: [ 'b', 'a' ] 
+      dinamicas: [ 1 ]
+    
+    estrofa: 
+      unidades: [ 'A', 'B', 'B^' ]
+    
+    estribo: 
+      bpm: 100
+      unidades: [ 'B', 'B^', 'a' ]
+
+#### macroforma: !!seq 
+    Lista de unidades a ser sequenciadas 
+    Ejemplo:
+    [
+      'intro',
+      'estrofa',
+      'estribo',
+      'estrofa',
+      'estribo',
+      'estribo',
+      'inter',
+    ]
+
+### Parametros de unidad:
+
+#### clave: !!map
+    https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.addKeySignature
+    Catidad de alteraciones en la armadura de clave,  
+    -2 = Bb, -1 = F, 0 = C, 1 = G, 2 = D,
+    alteraciones: -2
+    modo: 0 # Modo de la escala, 0 = Mayor o 1 = Menor
+
+#### intervalos: !!seq 
+    Secuencia de intervalos 
+    A ser recorrida por el punteros de altura
+    [ 
+      -12,-10, -9, -7, -5, -3, -2,
+        0,  2,  3,  5,  7,  9, 10,
+       12, 14, 15, 17, 19, 21, 22,
+       24
+    ]
+
+#### alturas: !!seq 
+    Punteros del set de intervalos
+    cada elemento equivale a el n de intervalo
+    [ 1, 3, 5, 8 ] 
+
+#### voces: !!seq
+    Apilamiento de alturas 
+    cada voz es un lista
+    desplaza nº de intervalo
+    - [ 8, 6 ] 
+    - [ 5 ] 
+    - [ 3 ]
+
+#### transportar: !!int 
+    Ajuste de alturas
+    60 # C
+
+#### transponer: !!int
+    Ajuste de alturas pero dentro del set intervalos
+    registración fija
+    0
+
+#### duraciones: !!seq 
+    Lista ordenada de duraciones
+    [ 1 ]
+
+#### bpm: !!int 
+    Tempo, Pulsos Por Minuto
+    62
+
+#### metro: !!str 
+    Clave de compás
+    4/4
+
+#### desplazar: !!float
+    Ajuste temporal 
+    momento, cuando ocurre o acontence
+    offset : + / - offset con la "posicion" original 
+    0 es que donde debe acontecer originalmente
+    Ejemplo: "-2" anticipar 2 pulsos o ".5" demorar medio pulso
+    0
+
+#### reiterar: !!int
+    Catidad de veces q se toca esta unidad 
+    Reiterarse a si misma,
+    no es trasferible, no se hereda, caso contrario se reterarian los referidos
+    0
+
+#### dinamicas: !!seq 
+    Lista ordenada de dinámicas
+    [ 1, .5, .4 ]
+
+#### revertir: !!seq
+    Revierte parametros del tipo !!seq
+    [ 'duraciones', 'dinamicas' ]
+
+#### canal: !!int
+    Número de Canal MIDI 
+    3
+
+#### programa: !!int
+    Número de Instrumento MIDI
+    103
+     
+    Cambio de Banco MIDI
+    Los bancos MIDI se alternan através de cambios de control
+    CC#0 numero de banco, CC#32 numero de programa 
+    Ej: Programa 160 = 2do banco:32º instrumento/programa = CC#0:2,CC#32:32
+    https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
+    http://www.andrelouis.com/qws/art/art009.htm
+
+#### controladores: !!seq
+    Secuencia de pares nº controlador : parametro
+    [
+      70 :  80,
+      70 :  90,
+      71 : 120,
+    ]
+
+#### pista "base": &base !!map
+    describir Referencia y Recurrencia en YAML 
+    Parametros por defecto para todas las unidades, pueden ser sobrescritos
+    <<: \*base (Para que otra pista herede estas propiedades)
+  
+
+
+
+\newpage
+
+## 8 La Aplicación
+
+
+\newpage
+
+## 9 Entrevistas
 
 Entrevistas del tipo no estructuradas, por pautas y guías. [^ver_franco]
 
@@ -670,9 +860,21 @@ Pautas / guias :
 * Predisposición a trabajar (leer/escribir) con musica que se encuentre descripta en formato textual
 
 
-
   
 [^ver_franco]: @franco
 
 \newpage
-## 7 Bibliografía
+
+## 0 Referencias 
+
+reserva de referencias: 
+[^ver_allen], [^ver_schaeffer],[^ver_samaruga], [^ver_lerdahl]
+
+[^ver_allen]: @allen
+[^ver_schaeffer]: @schaeffer
+[^ver_samaruga]: @samaruga
+[^ver_lerdahl]: @lerdahl
+
+\newpage
+
+## 10 Bibliografía
