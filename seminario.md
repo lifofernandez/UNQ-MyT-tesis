@@ -656,191 +656,378 @@ proveido por algún servicio del tipo GitLab.
 
 ## 7 Estructura de la grámatica y su vocabulario
 
-Explicar brevemente sintaxis YAML
-Describir Pistas
+La estructura principal la sintaxis gramatical de cada pista se basa en el
+formato de serializacion de datos YAML[^ver_yaml] el cual delimta entre clave y
+valor con el cáracter ":" (dos puntos), mientras que la indentacion representa
+jerarquias, relacion de pertenecia entre parametros.
+
+Multiples ficheros .yaml equivalen a multiples pistas en el resultado MIDI.
+
+Describir Referencia y Recurrencia en YAML 
+
+<<: \*base (Para que otra pista herede estas propiedades)
 
 ### Parametros de Pista 
 
-#### nombre: !!str 
-    Título de la pista
-    'Pista ejemplo 1'
+Los parametros generales de cada pista son tres: el rotulo, la paleta de
+unidades disponibles y el primer nivel de la forma musical.  A partir del
+primer nivel estructural, las unidades se organizan entre ellas.
 
-#### unidades: !!map
-    Paleta de unidades para secuenciar
-    a: &a 
-      <<: *base
-      metro: 2/4
-      alturas: [ 1, 3,0, 5, 7, 8 ]
-      duraciones: [ 1, .5, .5, 1, 1 ]
-    
-    b: &b 
-      <<: *base
-      metro: 6/8
-      duraciones: [ .5 ]
-      alturas: [ 1, 2 ]
-      voces: 0
-      transponer: 3
-      clave: 
-        alteraciones: 2
-        modo: 1 
-      fluctuacion: 
-        min: .1
-        max: .4 
-      desplazar: -1
-    
-    b^: 
-      <<: *b
-      dinamicas: [ .5, .1 ]
-      revertir: [ 'alturas' ]
-    
-    Unidad de unidades ( UoUs )
-    Propiedades sobrescriben a las de las unidades referidas 
-    A: 
-      unidades: [ 'a', 'b' ] 
-      reiterar: 3
-    
-    B: &B 
-      metro: 9/8
-      unidades: [ 'a' , 'b^' ]
-      #desplazar: -0.5
-      desplazar: -0.75
-    
-    B^: 
-      <<: *B
-      voces: 0 
-      bmp: 89
-      unidades: [ 'b', 'a' ] 
-      dinamicas: [ 1 ]
-    
-    estrofa: 
-      unidades: [ 'A', 'B', 'B^' ]
-    
-    estribo: 
-      bpm: 100
-      unidades: [ 'B', 'B^', 'a' ]
+#### Nombre
+Título de la pista
 
-#### macroforma: !!seq 
-    Lista de unidades a ser sequenciadas 
-    Ejemplo:
-    [
+Etiqueta: nombre.
+
+Tipo: Cadena de caracteres.
+
+Ejemplo:
+
+    nombre: 'Pista 1'
+
+#### Forma
+Lista de unidades a ser sequenciadas 
+
+Etiqueta: macroforma.
+
+Tipo: Lista de cadenas de caracteres que corresponde a un elemento de la paleta
+de unidades.
+
+Ejemplo:
+
+    macroforma: [
       'intro',
       'estrofa',
       'estribo',
       'estrofa',
-      'estribo',
-      'estribo',
+      'coro',
+      'coro',
       'inter',
     ]
 
-### Parametros de unidad:
+#### Paleta de estructuras
+Paleta de unidades para secuenciar
 
-#### clave: !!map
-    https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.addKeySignature
-    Catidad de alteraciones en la armadura de clave,  
-    -2 = Bb, -1 = F, 0 = C, 1 = G, 2 = D,
-    alteraciones: -2
-    modo: 0 # Modo de la escala, 0 = Mayor o 1 = Menor
+En dos tipos de unidades, las que defininen las estructuras minimas y las que
+invocan otras unidades ademas de sobrescribir o no alguno de sus parametros.
 
-#### intervalos: !!seq 
-    Secuencia de intervalos 
-    A ser recorrida por el punteros de altura
-    [ 
+Etiqueta: unidades.
+
+Tipo: Diccionario. 
+
+Ejemplo:
+
+    unidades:
+        base: &base 
+          clave:
+            alteraciones: -2
+            modo:
+          intervalos:  [ 
+              -12,-10, -9, -7, -5, -3, -2,
+                0,  2,  3,  5,  7,  9, 10,
+               12, 14, 15, 17, 19, 21, 22,
+               24
+          ]
+          alturas:  [ 1, 3, 5, 8 ] 
+          voces: 
+            - [ 8, 6 ] 
+            - [ 5 ] 
+            - [ 3 ]
+          transportar: 60 # C
+          transponer: 0
+          duraciones: [ 1 ]
+          bpm: 62
+          metro: 4/4
+          desplazar: 0
+          reiterar: 0
+          dinamicas: [ 1, .5, .4 ]
+          revertir: [ 'duraciones', 'dinamicas' ]
+          canal: 3
+          programa: 103
+          controladores: [ 70:80, 70:90, 71:120 ]
+        a: &a 
+          <<: *base
+          metro: 2/4
+          alturas: [ 1, 3,0, 5, 7, 8 ]
+          duraciones: [ 1, .5, .5, 1, 1 ]
+        b: &b 
+          <<: *base
+          metro: 6/8
+          duraciones: [ .5 ]
+          alturas: [ 1, 2 ]
+          voces: 0
+          transponer: 3
+          clave: 
+            alteraciones: 2
+            modo: 1 
+          fluctuacion: 
+            min: .1
+            max: .4 
+          desplazar: -1
+        b^: 
+          <<: *b
+          dinamicas: [ .5, .1 ]
+          revertir: [ 'alturas' ]
+        
+        # Unidad de unidades ( UoUs )
+        # Propiedades sobrescriben a las de las unidades referidas 
+        A: 
+          unidades: [ 'a', 'b' ] 
+          reiterar: 3
+        B: &B 
+          metro: 9/8
+          unidades: [ 'a' , 'b^' ]
+          #desplazar: -0.5
+          desplazar: -0.75
+        B^: 
+          <<: *B
+          voces: 0 
+          bmp: 89
+          unidades: [ 'b', 'a' ] 
+          dinamicas: [ 1 ]
+        estrofa: 
+          unidades: [ 'A', 'B', 'B^' ]
+        coro: 
+          bpm: 100
+          unidades: [ 'B', 'B^', 'a' ]
+
+
+### Parametros de unidad
+Parametros por defecto para todas sas unidades, pueden ser sobrescritos
+
+#### Armadura de clave
+Catidad de alteraciones en la armadura de clave y modo de la escala.
+
+Los numeros positivos representan sotenidos mientras que los se refiere a
+bemoles con números negativos.  -2 = Bb, -1 = F, 0 = C, 1 = G, 2 = D, modo: 0 #
+Modo de la escala, 0 = Mayor o 1 = Menor
+
+https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.addKeySignature
+
+Etiqueta: clave, alteraciones y modo.
+
+Tipo: Diccionarios de enteros.
+
+Ejemplo:
+
+    clave:
+      alteraciones: -2
+      modo: 0 
+
+#### Registración fija
+Secuencia de intervalos a ser recorrida por el punteros de altura
+
+Etiqueta: intervalos
+
+Tipo: Lista de números enteros.
+
+Ejemplo:
+
+    intervalos: [ 
       -12,-10, -9, -7, -5, -3, -2,
         0,  2,  3,  5,  7,  9, 10,
        12, 14, 15, 17, 19, 21, 22,
        24
     ]
 
-#### alturas: !!seq 
-    Punteros del set de intervalos
-    cada elemento equivale a el n de intervalo
-    [ 1, 3, 5, 8 ] 
+#### Altura
+Punteros del set de intervalos.
+Cada elemento equivale a el numero de intervalo.
 
-#### voces: !!seq
-    Apilamiento de alturas 
-    cada voz es un lista
-    desplaza nº de intervalo
-    - [ 8, 6 ] 
-    - [ 5 ] 
-    - [ 3 ]
+Etiqueta: alturas.
 
-#### transportar: !!int 
-    Ajuste de alturas
-    60 # C
+Tipo: Lista de enteros.
 
-#### transponer: !!int
-    Ajuste de alturas pero dentro del set intervalos
-    registración fija
-    0
+Ejemplo:
 
-#### duraciones: !!seq 
-    Lista ordenada de duraciones
-    [ 1 ]
+    alturas: [ 1, 3, 5, 8 ] 
 
-#### bpm: !!int 
-    Tempo, Pulsos Por Minuto
-    62
+#### Superposicion de altura
+Apilamiento de alturas.
+Lista de listas, cada voz es un lista que modifica intervalo.
+voz + altura = numero de intervalo
 
-#### metro: !!str 
-    Clave de compás
-    4/4
+Etiqueta: voces.
 
-#### desplazar: !!float
-    Ajuste temporal 
-    momento, cuando ocurre o acontence
-    offset : + / - offset con la "posicion" original 
-    0 es que donde debe acontecer originalmente
-    Ejemplo: "-2" anticipar 2 pulsos o ".5" demorar medio pulso
-    0
+Tipo: Lista de listas de enteros.
 
-#### reiterar: !!int
-    Catidad de veces q se toca esta unidad 
-    Reiterarse a si misma,
-    no es trasferible, no se hereda, caso contrario se reterarian los referidos
-    0
+Ejemplo:
 
-#### dinamicas: !!seq 
-    Lista ordenada de dinámicas
-    [ 1, .5, .4 ]
+    voces:
+       - [ 8, 6 ] 
+       - [ 5 ] 
+       - [ 3 ]
 
-#### revertir: !!seq
-    Revierte parametros del tipo !!seq
-    [ 'duraciones', 'dinamicas' ]
+#### Transportar
+Ajuste de alturas
 
-#### canal: !!int
-    Número de Canal MIDI 
-    3
+Etiqueta: transportar.
 
-#### programa: !!int
-    Número de Instrumento MIDI
-    103
+Tipo: Número entero.
+
+Ejemplo:
+
+    transportar: 60 # C
+
+#### Tranponer
+Ajuste de alturas pero dentro del set intervalos
+Semitonos, registración fija
+
+Etiqueta: transponer.
+
+Tipo: Número entero.
+
+Ejemplo:
+
+    transponer: 1
+
+#### Duracion
+Lista ordenada de duraciones.
+
+Etiqueta: duraciones.
+
+Tipo: Lista de decimales.
+
+Ejemplo:
+
+    [ 1, .5, .5, 1, 1 ]
+
+#### Pulso 
+Tempo, Pulsos Por Minuto
+
+Etiqueta: bpm
+
+Tipo: Número entero.
+
+Ejemplo:
+
+    bpm: 62
+
+#### Clave de compás
+Clave de metrica.
+
+Etiqueta: metro.
+
+Tipo: Cadena de caracteres representando una fracción (numerador / denominador).
+
+Ejemplo:
+
+    metro: 4/4
+
+#### Ajuste temporal
+Desfazage temporal del momento en el que originalmente comienza la unidad.
+offset : + / - offset con la "posicion" original 
+0 es que donde debe acontecer originalmente
+"-2" anticipar 2 pulsos o ".5" demorar medio pulso
+
+Etiqueta: desplazar.
+
+Tipo: Número entero.
+
+Ejemplo: 
+
+    desplazar: -2
+
+#### Repeticiones 
+Catidad de veces q se toca esta unidad 
+Reiterarse a si misma,
+no es trasferible, no se hereda, caso contrario se reterarian los referidos
+
+Etiqueta: reiterar.
+
+Tipo: Número entero.
+
+Ejemplo: 
+
+    desplazar: 0
+
+#### Dinámica
+Lista ordenada de dinámicas
+
+Etiqueta: Dinamicas.
+
+Tipo: Lista de número decimales.
+
+Ejemplo: 
+
+    dinamicas: [ 1, .5, .4 ]
+
+#### Sentido de listas 
+Revierte parametros del tipo lista.
+
+Etiqueta: revertir
+Deben corresponderse a la etiqueta de otro parametro del tipo lista.
+
+Tipo: Lista de cadenas de caracteres.
+
+Ejemplo: 
+
+    revertir: [ 'duraciones', 'dinamicas' ]
+
+#### Canal MIDI 
+Número de Canal MIDI.
+
+Etiqueta: canal.
+
+Tipo: Número entero.
+
+Ejemplo: 
+
+    canal: 3
+
+#### Instrumento MIDI 
+Número de Instrumento MIDI en el banco actual.
+
+Etiqueta: programa.
+
+Tipo: Número entero.
+
+Ejemplo: 
+
+    programa: 103
      
-    Cambio de Banco MIDI
-    Los bancos MIDI se alternan através de cambios de control
-    CC#0 numero de banco, CC#32 numero de programa 
-    Ej: Programa 160 = 2do banco:32º instrumento/programa = CC#0:2,CC#32:32
-    https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
-    http://www.andrelouis.com/qws/art/art009.htm
+#### Cambio de banco: !!seq
+TO DO
+Los bancos MIDI se alternan através de cambios de control
 
-#### controladores: !!seq
-    Secuencia de pares nº controlador : parametro
-    [
+CC#0 numero de banco, CC#32 numero de programa 
+
+https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
+
+http://www.andrelouis.com/qws/art/art009.htm
+
+Programa 160 = 2do banco:32º 
+instrumento/programa = CC#0:2, CC#32:32
+
+Etiqueta:
+
+Tipo:
+
+Ejemplo: 
+
+    banco: [
+      0 :  2,
+      32 : 32,
+    ]
+
+
+#### Cambios de control
+Secuencia de pares número controlador y valor a asignar.
+
+Etiqueta: controladores.
+
+Tipo: Lista de pares/tuples.
+
+Ejemplo: 
+
+   controladores: [
       70 :  80,
       70 :  90,
       71 : 120,
     ]
 
-#### pista "base": &base !!map
-    describir Referencia y Recurrencia en YAML 
-    Parametros por defecto para todas las unidades, pueden ser sobrescritos
-    <<: \*base (Para que otra pista herede estas propiedades)
-  
-
-
-
 \newpage
 
-## 8 La Aplicación
+## 8 Aplicación y entorno de secuenciación
 
 
 \newpage
