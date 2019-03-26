@@ -1029,6 +1029,27 @@ Ejemplo:
 
 ## 8 Aplicación y entorno de secuenciación
 
+Lee archivos YAML como argumentos posicionales 
+crea "pistas" a partir de ellos
+Pistas
+	tienen un nombre
+	parametros defaults de unidadad llamados "base"
+	tiene una lista de unidades que se llama "macroforma"
+        a partir de esta lista de busca en la paleta de unidades 
+
+
+        a su vez cada unidad puede tener una lista de unidades a la que invoca
+        arma un arbol de registros con las relaciones entre unidades
+        arma una "sucecion" o "herencia" de parametros
+        sobrescribe los parametros de la unidad "hija" con los sucesion
+	finalmente mezcla el resultado con los defaults 
+ 	
+        repite la unidad (con sus hijas) segun parametro reiteracion
+	agrega a los registros
+	
+	hace secuencia de eventos
+
+
 \begin{center}
     \begin{tikzpicture}[node distance = 2cm, auto]
 
