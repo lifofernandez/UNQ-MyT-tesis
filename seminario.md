@@ -1029,6 +1029,110 @@ Ejemplo:
 
 ## 8 Aplicación y entorno de secuenciación
 
+\begin{center}
+    \begin{tikzpicture}[node distance = 2cm, auto]
+
+    \tikzstyle{circulo} = [
+    	ellipse, 
+    	draw, 
+        %fill=red!20, 
+    	minimum height=4em,
+    	text centered, 
+    	node distance=2cm,
+	font=\bfseries
+    ]
+    \tikzstyle{block} = [
+    	rectangle, 
+    	draw, 
+    	%fill=blue!20, 
+    	text width=7em, 
+    	text centered, 
+    	minimum height=4em,
+    	node distance=2cm,
+    ]
+    \tikzstyle{line} = [
+    	draw,
+    	-latex',
+    ]
+
+    \node [circulo]                               (ana) { Ficheros YAML};
+    \node [circulo, text width=6em,below of=ana]  (dis) { Objetos Clase Pistas };
+    \node [circulo, text width=7em, below of=dis] (dev) { Organizacion de Unidades };
+    \node [circulo, below of=dev]                 (doc) { Eventos };
+    \node [circulo, below of=doc]                 (dep) { Salida MIDI };
+
+    \draw[densely dotted] (ana) -- (dis);
+    \draw[densely dotted] (dis) -- (dev);
+    \draw[densely dotted] (dev) -- (doc);
+    \draw[densely dotted] (doc) -- (dep);
+
+    \node [block, 
+        right of=ana,
+    	node distance=4cm,
+    ](boc) { 
+	piano.yaml,
+	guitarra.yaml,
+	bateria.yaml,
+	bajo.yaml
+    };
+
+
+    \node [block, 
+        below of=boc
+    ](enc) { 
+        Crea lista de objetos "Pista"
+    };
+
+    \path [line] (ana) -- (boc) -- (enc) -- (dis);
+
+    \node [block, 
+        left of=dis,
+    	node distance=4cm,
+    ](def) { 
+        Lorem impsum oe dfkeodekd odlewmdod
+    };
+
+    \path [line] (dis) -- (def) |-  (dev) ;
+
+    \node [block, 
+        right of=dev,
+    	node distance=4cm,
+    ](per) { 
+       Lorem impsum oe dfkeodekd odlewmdod
+    };
+
+
+    \node [block, 
+        below of=per
+    ](opt) { 
+       Lorem impsum oe dfkeodekd odlewmdod
+    };
+
+    \path [line] (dev) -- (per) -- (opt) -- (doc);
+
+    \node [block, 
+        left of=doc,
+    	node distance=4cm,
+    ](fun) { 
+        Lorem impsum oe dfkeodekd odlewmdod
+    };
+
+    \node [block, 
+        below = 0.2cm of fun
+    ](for) { 
+        Lorem impsum oe dfkeodekd odlewmdod
+    };
+    \node [block, 
+        below = 0.2cm of for
+    ](not) { 
+        Lorem impsum oe dfkeodekd odlewmdod
+    };
+
+    \path [line] (doc) -- (fun) -- (for) -- (not) -| (dep) ;
+
+    \end{tikzpicture}
+     
+\end{center}
 
 \newpage
 
