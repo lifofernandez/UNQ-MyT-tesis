@@ -10,6 +10,12 @@ seminario:
 	--filter=pandoc-citeproc \
 	--toc 
 	
+tex:
+	pandoc seminario.md --template=seminario \
+	-o output.tex \
+	-s --csl=vendor/iso690-author-date-es.csl \
+	--filter=pandoc-citeproc \
+	--toc 
 # VIEJOS
 
 tesis:

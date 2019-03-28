@@ -12,7 +12,12 @@
   date:  'Marzo 2019'
   place: 'Buenos Aires, Argentina'
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
-  abstract: 'Definición de gramática formal basada en texto plano serializado, estructurada como arbol de análisis para representar planes de obra musical. Acompañada por el desarrollo de un contexto de herramientas para interfaz de linea de comandos (CLI) destinada a generar sequencias musicales en el protocolo MIDI.'
+  abstract: |
+    Definición de gramática formal basada en texto plano serializado,
+    estructurada como arbol de análisis para representar planes de obra musical.
+    Acompañada por el desarrollo de un contexto de herramientas para interfaz de
+    linea de comandos (CLI) destinada a generar sequencias musicales en el
+    protocolo MIDI.
   bibliography: referencias.bib
 ---
 
@@ -680,8 +685,6 @@ Etiqueta: nombre.
 
 Tipo: Cadena de caracteres.
 
-Ejemplo:
-
     nombre: 'Pista 1'
 
 #### Forma
@@ -691,8 +694,6 @@ Etiqueta: macroforma.
 
 Tipo: Lista de cadenas de caracteres que corresponde a un elemento de la paleta
 de unidades.
-
-Ejemplo:
 
     macroforma: [
       'intro',
@@ -713,8 +714,6 @@ invocan otras unidades ademas de sobrescribir o no alguno de sus parametros.
 Etiqueta: unidades.
 
 Tipo: Diccionario. 
-
-Ejemplo:
 
     unidades:
         base: &base 
@@ -807,8 +806,6 @@ Etiqueta: clave, alteraciones y modo.
 
 Tipo: Diccionarios de enteros.
 
-Ejemplo:
-
     clave:
       alteraciones: -2
       modo: 0 
@@ -819,8 +816,6 @@ Secuencia de intervalos a ser recorrida por el punteros de altura
 Etiqueta: intervalos
 
 Tipo: Lista de números enteros.
-
-Ejemplo:
 
     intervalos: [ 
       -12,-10, -9, -7, -5, -3, -2,
@@ -837,8 +832,6 @@ Etiqueta: alturas.
 
 Tipo: Lista de enteros.
 
-Ejemplo:
-
     alturas: [ 1, 3, 5, 8 ] 
 
 #### Superposicion de altura
@@ -849,8 +842,6 @@ voz + altura = numero de intervalo
 Etiqueta: voces.
 
 Tipo: Lista de listas de enteros.
-
-Ejemplo:
 
     voces:
        - [ 8, 6 ] 
@@ -864,8 +855,6 @@ Etiqueta: transportar.
 
 Tipo: Número entero.
 
-Ejemplo:
-
     transportar: 60 # C
 
 #### Tranponer
@@ -876,8 +865,6 @@ Etiqueta: transponer.
 
 Tipo: Número entero.
 
-Ejemplo:
-
     transponer: 1
 
 #### Duracion
@@ -886,8 +873,6 @@ Lista ordenada de duraciones.
 Etiqueta: duraciones.
 
 Tipo: Lista de decimales.
-
-Ejemplo:
 
     [ 1, .5, .5, 1, 1 ]
 
@@ -898,8 +883,6 @@ Etiqueta: bpm
 
 Tipo: Número entero.
 
-Ejemplo:
-
     bpm: 62
 
 #### Clave de compás
@@ -908,8 +891,6 @@ Clave de metrica.
 Etiqueta: metro.
 
 Tipo: Cadena de caracteres representando una fracción (numerador / denominador).
-
-Ejemplo:
 
     metro: 4/4
 
@@ -922,8 +903,7 @@ offset : + / - offset con la "posicion" original
 Etiqueta: desplazar.
 
 Tipo: Número entero.
-
-Ejemplo: 
+ 
 
     desplazar: -2
 
@@ -935,8 +915,7 @@ no es trasferible, no se hereda, caso contrario se reterarian los referidos
 Etiqueta: reiterar.
 
 Tipo: Número entero.
-
-Ejemplo: 
+ 
 
     desplazar: 0
 
@@ -946,8 +925,7 @@ Lista ordenada de dinámicas
 Etiqueta: Dinamicas.
 
 Tipo: Lista de número decimales.
-
-Ejemplo: 
+ 
 
     dinamicas: [ 1, .5, .4 ]
 
@@ -958,8 +936,7 @@ Etiqueta: revertir
 Deben corresponderse a la etiqueta de otro parametro del tipo lista.
 
 Tipo: Lista de cadenas de caracteres.
-
-Ejemplo: 
+ 
 
     revertir: [ 'duraciones', 'dinamicas' ]
 
@@ -969,8 +946,7 @@ Número de Canal MIDI.
 Etiqueta: canal.
 
 Tipo: Número entero.
-
-Ejemplo: 
+ 
 
     canal: 3
 
@@ -980,8 +956,7 @@ Número de Instrumento MIDI en el banco actual.
 Etiqueta: programa.
 
 Tipo: Número entero.
-
-Ejemplo: 
+ 
 
     programa: 103
      
@@ -1002,8 +977,6 @@ Etiqueta:
 
 Tipo:
 
-Ejemplo: 
-
     banco: [
       0 :  2,
       32 : 32,
@@ -1016,8 +989,6 @@ Secuencia de pares número controlador y valor a asignar.
 Etiqueta: controladores.
 
 Tipo: Lista de pares/tuples.
-
-Ejemplo: 
 
    controladores: [
       70 :  80,
@@ -1041,12 +1012,16 @@ Pistas
         a su vez cada unidad puede tener una lista de unidades a la que invoca
         arma un arbol de registros con las relaciones entre unidades
         arma una "sucecion" o "herencia" de parametros
-        sobrescribe los parametros de la unidad "hija" con los sucesion
-	finalmente mezcla el resultado con los defaults 
  	
         repite la unidad (con sus hijas) segun parametro reiteracion
 	agrega a los registros
-	
+
+	si la unidad actual tiene unidades
+        	sobrescribe los parametros de la unidad "hija" con los sucesion
+		recursivamene busca hasta encontrar una sin unidades HIJAS
+	si la unidad altual NO tiene unidades
+		finalmente mezcla el resultado con los defaults 
+		la secuencia
 	hace secuencia de eventos
 
 
