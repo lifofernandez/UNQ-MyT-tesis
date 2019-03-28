@@ -295,8 +295,11 @@ $endif$
 	numbersep=1mm,
 	commandchars=\\\{\},
 	rulecolor=\color{gray},
-	label={Ejemplo:}
+	label={Ejemplo}
 }
+
+\usepackage{fvextra}
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines}
 
 \begin{document}
 
