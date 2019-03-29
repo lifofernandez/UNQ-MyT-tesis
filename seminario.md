@@ -922,12 +922,24 @@ Tipo: Número entero.
 #### Dinámica
 Lista ordenada de dinámicas
 
-Etiqueta: Dinamicas.
+Etiqueta: dinamicas.
 
 Tipo: Lista de número decimales.
  
 
     dinamicas: [ 1, .5, .4 ]
+
+#### Fluctuación
+Lista ordenada de dinámicas
+
+Etiqueta: fluctuacion, min y max.
+
+Tipo: dicionario de decimales.
+ 
+
+    fluctuacion:
+      min: .3
+      max: .7
 
 #### Sentido de listas 
 Revierte parametros del tipo lista.
