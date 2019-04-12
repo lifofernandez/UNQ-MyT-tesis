@@ -904,7 +904,6 @@ Etiqueta: desplazar.
 
 Tipo: Número entero.
  
-
     desplazar: -2
 
 #### Repeticiones 
@@ -916,8 +915,7 @@ Etiqueta: reiterar.
 
 Tipo: Número entero.
  
-
-    desplazar: 0
+    reiterar: 3
 
 #### Dinámica
 Lista ordenada de dinámicas
@@ -926,7 +924,6 @@ Etiqueta: dinamicas.
 
 Tipo: Lista de número decimales.
  
-
     dinamicas: [ 1, .5, .4 ]
 
 #### Fluctuación
@@ -934,8 +931,10 @@ Lista ordenada de dinámicas
 
 Etiqueta: fluctuacion, min y max.
 
+Default: min: 0, max: 0.
+
 Tipo: dicionario de decimales.
- 
+
 
     fluctuacion:
       min: .3
