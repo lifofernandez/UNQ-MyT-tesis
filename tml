@@ -1,0 +1,449 @@
+  
+
+Stack Exchange Network
+
+Stack Exchange network consists of 175 Q&A communities including Stack Overflow
+, the largest, most trusted online community for developers to learn, share
+their knowledge, and build their careers.
+
+Visit Stack Exchange
+[                    ]
+ 1.  
+ 2.  
+ 3.  
+ 4.  
+ 5.  
+ 6. Log In Sign Up
+ 7. current community
+
+      □  
+        TeX - LaTeX
+        help chat
+      □ 
+         
+        TeX - LaTeX Meta
+   
+    your communities
+
+    Sign up or log in to customize your list.
+
+    more stack exchange communities
+
+    company blog
+      □ Tour Start here for a quick overview of the site
+      □ Help Center Detailed answers to any questions you might have
+      □ Meta Discuss the workings and policies of this site
+      □ About Us Learn more about Stack Overflow the company
+      □ Business Learn more about hiring developers or posting ads with us
+
+By using our site, you acknowledge that you have read and understand our Cookie
+Policy, Privacy Policy, and our Terms of Service.
+
+TeX - LaTeX Stack Exchange is a question and answer site for users of TeX,
+LaTeX, ConTeXt, and related typesetting systems. Join them; it only takes a
+minute:
+Sign up
+Here's how it works:
+Anybody can ask a question
+Anybody can answer
+The best answers are voted up and rise to the top
+TeX - LaTeX
+
+ 1.
+ 2. Home
+ 3.
+     1. Questions
+     2. Tags
+     3. Users
+     4. Unanswered
+
+How to number examples automatically? [closed]
+
+Ask Question
+0
+
+I have document with 30 math examples. How do I number these examples
+automatically? Without using the list
+
+ \begin{enumerate} ... \end{enumerate}
+
+like
+
+Example 1
+blah blah
+
+Example 2
+blah blah
+
+and so on?
+
+enumerate examples
+share|improve this question
+edited May 6 '17 at 8:10
+ 
+[a46]
+Zarko
+130k869169
+asked May 5 '17 at 22:37
+ 
+[pho]
+ray salmonray salmon
+151
+
+closed as unclear what you're asking by Andrew Swann, CarLaTeX, Mico, Zarko, 
+Stefan Pinnow May 23 '17 at 11:33
+
+Please clarify your specific problem or add additional details to highlight
+exactly what you need. As it's currently written, it’s hard to tell exactly
+what you're asking. See the How to Ask page for help clarifying this question. 
+If this question can be reworded to fit the rules in the help center, please
+edit the question.
+
+  • 2
+    \begin{equation}1=0\end{equation} will number the equation as 1,2,... – 
+    David Carlisle May 5 '17 at 22:40
+  • 8
+    What does one example look like (LaTeX source is better than a picture
+    here). – John Kormylo May 5 '17 at 22:43
+  • 1
+    Welcome to TeX SX! Do the examples have to be each on a line of its own? – 
+    Bernard May 5 '17 at 22:47
+  • 4
+    Could you please edit your question title to something that gives people a
+    sense of what your question is about. Also perhaps a place to start is What
+    are good learning resources for a LaTeX beginner. Also, for math
+    formatting, the mathmode documentation is very useful. – Alan Munn May 5
+    '17 at 23:51
+
+add a comment |   
+
+1 Answer 1
+
+active oldest votes
+10
+
+  • define new counter
+  • define new environment with title and number
+  • increment counter before its use
+
+Something like this:
+
+\newcounter{xmpl}
+\newenvironment{example}
+    {\noindent
+     \refstepcouter{xmpl}
+     \textbf{Example \thexmpl }
+    }{\par\noindent%
+      \ignorespacesafterend}
+
+and then use as:
+
+\begin{example}
+< content of the example>
+\end{example}
+
+Addendum: More simpler and straightforward solution is consider Christian
+Hupfer comment below: use of newtheorem.
+
+  • load package amsthm
+  • declare example environments as \newtheorem{example}{Example}
+  • use it as shown above
+
+More details and concise description about theorems like environments you can
+find in Wikibook LaTeX/Theorems. Sorry, because I didn't recall for this usual
+approach before.
+
+Addedndum 2: You can also use enumerate environment. Package enumitem offer
+simple redefinition of labels:
+
+\documentclass{article}
+\usepackage{enumitem}
+\usepackage{lipsum}
+
+\begin{document}
+    \begin{enumerate}[label=Exercise \arabic*]
+\item \lipsum*[11]
+\[
+c = \sqrt{a^2 + b^2}
+\]
+\item blah blah
+\[
+a = \sqrt{c^2 - b^2}
+\]
+\item blah blah
+    \end{enumerate}
+\end{document}
+
+For other possibilities for formatting of enumerate environment see package
+documentation.
+
+Of course this recent solution has sense if examples are organised as list,
+i.e. examples follow one after another.
+
+enter image description here
+
+share|improve this answer
+edited May 6 '17 at 8:36
+answered May 5 '17 at 22:55
+ 
+[a46]
+ZarkoZarko
+130k869169
+
+  • 3
+    You could also mention the usual \newtheorem approach, \newtheorem{example}
+    {Example}, for example (pun intented ;-)) – user31729 May 6 '17 at 6:49
+  • 1
+    @ChristianHupfer, thank you very much for comment. I consider it in my
+    answer. – Zarko May 6 '17 at 8:07
+
+add a comment |   
+
+Not the answer you're looking for? Browse other questions tagged enumerate 
+examples or ask your own question.
+
+asked  1 year, 11 months ago
+
+viewed 1,329 times
+
+active 1 year, 11 months ago
+
+Featured on Meta
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 
+Announcing the arrival of Valued Associate #679: Cesar Manara
+
+ 
+Planned maintenance scheduled April 17/18, 2019 at 00:00UTC (8:00pm US/Eastern)
+
+
+Linked
+
+ 
+331
+What are good learning resources for a LaTeX beginner?
+
+Related
+
+ 
+2
+Compiling a PDF with examples of a longer LaTeX document
+ 
+2
+Problem using align in enumerate environment
+ 
+1
+Create list of examples
+ 
+3
+Changing the default numbering scheme in enumerate environment
+ 
+1
+No new line for theorem in enumerate
+ 
+5
+Enumerate list numbering to include chapter number
+ 
+3
+Enumerate label style A.#number
+ 
+1
+Automatically refer to first and last item of enumerate list
+ 
+1
+Remove space when several gb4e examples
+ 
+0
+Numbering Examples using theoremstyle
+
+Hot Network Questions
+
+  • 
+    Black holes as heat sinks
+  • 
+    Antler Helmet: Can it work?
+  • 
+    The logistics of corpse disposal
+  • 
+    How is the internal pullup resistor in a microcontroller wired?
+  • 
+    Is 1 ppb equal to 1 μg/kg?
+  • 
+    3 doors, three guards, one stone
+  • 
+    What are the motives behind Cersei's orders given to Bronn?
+  • 
+    Stars Make Stars
+  • 
+    Should I call the interviewer directly, if HR aren't responding?
+  • 
+    When -s is used with third person singular. What's its use in this context?
+  • 
+    Are variable time comparisons always a security risk in cryptography code?
+  • 
+    Java 8 stream max() function argument type misunderstand
+  • 
+    Why there are no cargo aircraft with "flying wing" design?
+  • 
+    List *all* the tuples!
+  • 
+    Is the Standard Deduction better than Itemized when both are the same
+    amount?
+  • 
+    What are the pros and cons of Aerospike nosecones?
+  • 
+    Do you forfeit tax refunds/credits if you aren't required to and don't file
+    by April 15?
+  • 
+    Bold symbols in LuaLaTeX with setmathfont
+  • 
+    Can we download SSRS 2017 to use with SQL Server 2016?
+  • 
+    macOS-like app switching in Plasma 5
+  • 
+    How can players work together to take actions that are otherwise
+    impossible?
+  • 
+    How discoverable are IPv6 addresses and AAAA names by potential attackers?
+  • 
+    Bonus calculation: Am I making a mountain out of a molehill?
+  • 
+    Sorting numerically
+
+more hot questions
+*
+lang-tex
+
+TeX - LaTeX
+
+  • Tour
+  • Help
+  • Chat
+  • Contact
+  • Feedback
+  • Mobile
+
+Company
+
+  • Stack Overflow
+  • Stack Overflow Business
+  • Developer Jobs
+  • About
+  • Press
+  • Legal
+  • Privacy Policy
+
+ 
+
+Stack Exchange
+Network
+
+  • Technology
+  • Life / Arts
+  • Culture / Recreation
+  • Science
+  • Other
+
+  • Stack Overflow
+  • Server Fault
+  • Super User
+  • Web Applications
+  • Ask Ubuntu
+  • Webmasters
+  • Game Development
+
+  • TeX - LaTeX
+  • Software Engineering
+  • Unix & Linux
+  • Ask Different (Apple)
+  • WordPress Development
+  • Geographic Information Systems
+  • Electrical Engineering
+
+  • Android Enthusiasts
+  • Information Security
+  • Database Administrators
+  • Drupal Answers
+  • SharePoint
+  • User Experience
+  • Mathematica
+
+  • Salesforce
+  • ExpressionEngine® Answers
+  • Stack Overflow em Português
+  • Blender
+  • Network Engineering
+  • Cryptography
+  • Code Review
+
+  • Magento
+  • Software Recommendations
+  • Signal Processing
+  • Emacs
+  • Raspberry Pi
+  • Stack Overflow на русском
+  • Programming Puzzles & Code Golf
+
+  • Stack Overflow en español
+  • Ethereum
+  • Data Science
+  • Arduino
+  • Bitcoin
+  • more (31)
+
+  • Photography
+  • Science Fiction & Fantasy
+  • Graphic Design
+  • Movies & TV
+  • Music: Practice & Theory
+  • Worldbuilding
+  • Seasoned Advice (cooking)
+
+  • Home Improvement
+  • Personal Finance & Money
+  • Academia
+  • Law
+  • more (15)
+
+  • English Language & Usage
+  • Skeptics
+  • Mi Yodeya (Judaism)
+  • Travel
+  • Christianity
+  • English Language Learners
+  • Japanese Language
+
+  • Arqade (gaming)
+  • Bicycles
+  • Role-playing Games
+  • Anime & Manga
+  • Puzzling
+  • Motor Vehicle Maintenance & Repair
+  • more (33)
+
+  • MathOverflow
+  • Mathematics
+  • Cross Validated (stats)
+  • Theoretical Computer Science
+  • Physics
+  • Chemistry
+  • Biology
+
+  • Computer Science
+  • Philosophy
+  • more (10)
+
+  • Meta Stack Exchange
+  • Stack Apps
+  • API
+  • Data
+
+  • Blog
+  • Facebook
+  • Twitter
+  • LinkedIn
+
+site design / logo © 2019 Stack Exchange Inc; user contributions licensed under
+cc by-sa 3.0 with attribution required. rev 2019.4.12.33321
+
+TeX - LaTeX Stack Exchange works best with JavaScript enabled [p-c1rF4kxg]

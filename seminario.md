@@ -687,6 +687,7 @@ Tipo: Cadena de caracteres.
 
     nombre: 'Pista 1'
 
+
 #### Forma
 Lista de unidades a ser sequenciadas 
 
@@ -704,6 +705,7 @@ de unidades.
       'coro',
       'inter',
     ]
+
 
 #### Paleta de estructuras
 Paleta de unidades para secuenciar
@@ -935,7 +937,6 @@ Default: min: 0, max: 0.
 
 Tipo: dicionario de decimales.
 
-
     fluctuacion:
       min: .3
       max: .7
@@ -958,7 +959,6 @@ Etiqueta: canal.
 
 Tipo: Número entero.
  
-
     canal: 3
 
 #### Instrumento MIDI 
@@ -968,44 +968,39 @@ Etiqueta: programa.
 
 Tipo: Número entero.
  
-
     programa: 103
-     
-#### Cambio de banco: !!seq
-TO DO
-Los bancos MIDI se alternan através de cambios de control
-
-CC#0 numero de banco, CC#32 numero de programa 
-
-https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
-
-http://www.andrelouis.com/qws/art/art009.htm
-
-Programa 160 = 2do banco:32º 
-instrumento/programa = CC#0:2, CC#32:32
-
-Etiqueta:
-
-Tipo:
-
-    banco: [
-      0 :  2,
-      32 : 32,
-    ]
 
 
 #### Cambios de control
 Secuencia de pares número controlador y valor a asignar.
 
-Etiqueta: controladores.
+Etiqueta: controles.
 
-Tipo: Lista de pares/tuples.
+Tipo: Lista de listas de tuples.
 
-   controladores: [
-      70 :  80,
-      70 :  90,
-      71 : 120,
-    ]
+    controles:
+      - [ 70 : 80,  71 : 90, 72 : 100 ]
+      - [ 33 : 121, 51 : 120 ]
+      - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
+
+#### RPN
+Registered Parameter Number Call
+Los bancos MIDI se alternan utilizando de RPN
+CC#0 numero de banco, CC#32 numero de programa 
+Para seleccionar el instrumento #130 = 2do banco, 3º pograma 
+CC#0:2, CC#32:2
+
+    controles:
+      - [  0 : 2 ]
+      - [ 32 : 3 ]
+
+Instrumento/programa = CC#0:2, CC#32:32
+https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
+http://www.andrelouis.com/qws/art/art009.htm
+
+#### NRPN
+Non Registered Parameter Number Call
+
 
 \newpage
 
@@ -1143,7 +1138,20 @@ Pistas
 
 \newpage
 
-## 9 Entrevistas
+
+## 9 Demostraciones y Ejemplos
+
+### Melodia Simple
+
+Ejemplossss
+
+### Multiples Canales
+
+Ejemplossss
+
+\newpage
+
+## 10 Entrevistas
 
 Entrevistas del tipo no estructuradas, por pautas y guías. [^ver_franco]
 
