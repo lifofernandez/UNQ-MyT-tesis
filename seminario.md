@@ -949,7 +949,6 @@ Deben corresponderse a la etiqueta de otro parametro del tipo lista.
 
 Tipo: Lista de cadenas de caracteres.
  
-
     revertir: [ 'duraciones', 'dinamicas' ]
 
 #### Canal MIDI 
