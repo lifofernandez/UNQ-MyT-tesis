@@ -140,6 +140,20 @@ de trabajo ágil.[^ver_moolenaar]
 [^ver_moolenaar]: @moolenaar
 [^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy, Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
+### 2.3 Encuestas
+
+Entrevistas del tipo estructuradas, por pautas y guías. 
+
+Pautas / guias :
+
+* Background
+
+	* Experiencia con representación de información musical textual  
+
+        * Relación con manipulacion musical a traves de parametros.
+
+* Predisposición a trabajar (leer/escribir) con musica que se encuentre descripta en formato textual
+
 
 ## 3 Objetivos
 
@@ -501,7 +515,6 @@ durante el desarrollo las versiones se controlarán con el sistema GIT
 [^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
 proveido por algún servicio del tipo GitLab.
 
-  
 [^ver_yaml]: @yaml
 [^ver_python]: @python
 [^ver_pyyaml]: @pyyaml
@@ -575,12 +588,6 @@ proveido por algún servicio del tipo GitLab.
 
     \path [line] (ana) -- (boc) -- (enc) -- (dis);
 
-
-
-
-
-
-
     \node [block, 
         left of=dis,
     	node distance=4cm,
@@ -637,15 +644,23 @@ proveido por algún servicio del tipo GitLab.
 
     \path [line] (doc) -- (fun) -- (for) -- (not) -| (dep) ;
 
-     \end{tikzpicture}
+    \end{tikzpicture}
      
 \end{center}
 
-\newpage
+
+### 5.3 Sobre el desarrollo 
+
+#### Codigo, Repo
+
+#### Instalacion
+
+#### Uso
 
 
+## N Cronograma de Trabajo
 
-## 6 Cronograma de Trabajo
+¿¿¿ELIMINAR/MOVER/ACTUALIZAR/CABIAR???
 
 |                             | Tiempo estipulado | Fechas tentativas             |
 |-----------------------------+-------------------+-------------------------------|
@@ -659,7 +674,7 @@ proveido por algún servicio del tipo GitLab.
 
 \newpage
 
-## 7 Estructura de la grámatica y su vocabulario
+## 6 Estructura grámatical y vocabulario
 
 La estructura principal la sintaxis gramatical de cada pista se basa en el
 formato de serializacion de datos YAML[^ver_yaml] el cual delimta entre clave y
@@ -984,26 +999,32 @@ Tipo: Lista de listas de tuples.
 
 #### RPN
 Registered Parameter Number Call
+
 Los bancos MIDI se alternan utilizando de RPN
+
+https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
+
+http://www.andrelouis.com/qws/art/art009.htm
+
 CC#0 numero de banco, CC#32 numero de programa 
+
 Para seleccionar el instrumento #130 = 2do banco, 3º pograma 
+
+Instrumento/programa = CC#0:2, CC#32:32
+
 CC#0:2, CC#32:2
 
     controles:
       - [  0 : 2 ]
       - [ 32 : 3 ]
 
-Instrumento/programa = CC#0:2, CC#32:32
-https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
-http://www.andrelouis.com/qws/art/art009.htm
 
 #### NRPN
 Non Registered Parameter Number Call
 
-
 \newpage
 
-## 8 Aplicación y entorno de secuenciación
+## 7 Aplicación y entorno de secuenciación
 
 Lee archivos YAML como argumentos posicionales 
 crea "pistas" a partir de ellos
@@ -1138,41 +1159,37 @@ Pistas
 \newpage
 
 
-## 9 Demostraciones y Ejemplos
+## 8 Demostraciones y Ejemplos
 
 ### Melodia Simple
+descripcion
 
-Ejemplossss
+#### YAML
+código
+
+#### Partitura
+Captura
+
+#### Gráfico
+ploteo
 
 ### Multiples Canales
+descripcion
 
-Ejemplossss
+#### YAML
+codigos
 
-\newpage
+#### Partitura
+Capturas
 
-## 10 Entrevistas
-
-Entrevistas del tipo no estructuradas, por pautas y guías. [^ver_franco]
-
-Pautas / guias :
-
-* Background
-
-	* Experiencia con representación de información musical textual  
-
-        * Relación con manipulacion musical a traves de parametros.
-
-* Predisposición a trabajar (leer/escribir) con musica que se encuentre descripta en formato textual
-
-
-  
-[^ver_franco]: @franco
+#### Gráfico
+ploteos
 
 \newpage
 
-## 0 Referencias 
+## 9 Bibliografía
 
-reserva de referencias: 
+Reserva de referencias: 
 [^ver_allen], [^ver_schaeffer],[^ver_samaruga], [^ver_lerdahl]
 
 [^ver_allen]: @allen
@@ -1181,5 +1198,3 @@ reserva de referencias:
 [^ver_lerdahl]: @lerdahl
 
 \newpage
-
-## 10 Bibliografía
