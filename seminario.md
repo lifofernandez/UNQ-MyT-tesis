@@ -29,8 +29,9 @@ texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
 análisis[^ver_grela] con el fin de representar planes de obra musical.
 
 Acompañada por el desarrollo de un contexto de herramientas para interprete de
-línea de comandos (Command Line Interface) para producción de secuencias MIDI [^ver_penfold] a
-partir de manipular información subscripta a dicha representación.
+línea de comandos (Command Line Interface) para producción de secuencias MIDI
+[^ver_penfold] a partir de manipular información subscripta a dicha
+representación.
 
 El desarrollo se documentará[^ver_kernighan] para que su publicación cumpla
 con las premisas del software libre.[^ver_gnu]
