@@ -290,7 +290,7 @@ $endif$
 	frame=single,
 	framesep=1mm,
 	fontfamily=courier,
-	%fontsize=\scriptsize,
+	fontsize=\scriptsize,
 	numbers=left,
 	framerule=.3mm,
 	numbersep=1mm,
