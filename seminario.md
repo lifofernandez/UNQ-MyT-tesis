@@ -179,8 +179,8 @@ Promover la adopción de prácticas consolidadas y formatos abiertos para
 representar, manipular y almacenar información digital.
 
 Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
-
 [^ver_raymond2] [^ver_yzaguirre]
+
 [^ver_raymond2]: @raymond2 Capítulo 11: The Social Context of Open-Source Software (p. 11)
 [^ver_yzaguirre]: @yzaguirre
 

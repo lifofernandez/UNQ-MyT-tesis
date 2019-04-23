@@ -1,4 +1,6 @@
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+
+
 $if(beamerarticle)$
 \usepackage{beamerarticle} % needs to be loaded first
 $endif$
@@ -250,6 +252,73 @@ $endif$
 
 \usepackage{tikz} % insert this line
 \usetikzlibrary{shapes,arrows,decorations.markings,positioning}
+
+
+%\usepackage{listings}
+%\usepackage{color}
+%
+%
+%\lstset{
+%  frame=tb,
+%  language=Python,
+%  aboveskip=3mm,
+%  belowskip=3mm,
+%  showstringspaces=false,
+%  columns=flexible,
+%  basicstyle={\small\ttfamily},
+%  numbers=none,
+%  numberstyle=\tiny\color{gray},
+%  keywordstyle=\color{blue},
+%  commentstyle=\color{dkgreen},
+%  stringstyle=\color{mauve},
+%  breaklines=true,
+%  breakatwhitespace=true,
+%  tabsize=3,
+%  texcolor=red,
+%}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyvrb}
+ %\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xcolor}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+
+\fvset{
+	frame=single,
+	framesep=1mm,
+	fontfamily=courier,
+	fontsize=\scriptsize,
+	numbers=left,
+	framerule=.3mm,
+	numbersep=1mm,
+	commandchars=\\\{\},
+	rulecolor=\color{gray},
+	label={Ejemplo}
+}
+
+\usepackage{fvextra}
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{}
+%\RecustomVerbatimEnvironment{verbatim}{Verbatim}{ breaklines }
+
+\usepackage{enumitem}
+
+% https://tex.stackexchange.com/questions/368397/how-to-number-examples-automatically
+%\newcounter{xmpl}
+%\newenvironment{example}
+%    {\noindent
+%     \refstepcouter{xmpl}
+%     \textbf{Example \thexmpl }
+%    }{\par\noindent%
+%      \ignorespacesafterend}
+
+%\usepackage{amsthm}
+%\newtheorem{mydef}{Definicion}
+
+
+
 
 \begin{document}
 

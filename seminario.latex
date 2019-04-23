@@ -1,25 +1,21 @@
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
-
-
 $if(beamerarticle)$
 \usepackage{beamerarticle} % needs to be loaded first
 $endif$
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
-%\usepackage[sf,pagestyles,bf]{titlesec} % make section headings \sffamily
-\usepackage{geometry}
-\geometry{a4paper,portrait, 
- %margin=140pt,
- textwidth=455pt,
- lmargin=80pt,
- rmargin=80pt,
- tmargin=60pt,
- bmargin=60pt,
-}
-\usepackage{helvet}
-\renewcommand{\familydefault}{\sfdefault}
+\usepackage{lmodern}
 $endif$
+%\usepackage{geometry}
+%\geometry{a4paper,portrait, 
+% %margin=140pt,
+% textwidth=455pt,
+% lmargin=80pt,
+% rmargin=80pt,
+% tmargin=60pt,
+% bmargin=60pt,
+%}
 $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
@@ -149,7 +145,6 @@ $endif$
 $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
-\renewcommand\tabcolsep{4pt}
 $if(tables)$
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
@@ -253,7 +248,6 @@ $endif$
 \usepackage{tikz} % insert this line
 \usetikzlibrary{shapes,arrows,decorations.markings,positioning}
 
-
 %\usepackage{listings}
 %\usepackage{color}
 %
@@ -276,6 +270,7 @@ $endif$
 %  tabsize=3,
 %  texcolor=red,
 %}
+
 \usepackage{color}
 \usepackage[utf8]{inputenc}
 \usepackage{fancyvrb}
@@ -317,38 +312,106 @@ $endif$
 %\usepackage{amsthm}
 %\newtheorem{mydef}{Definicion}
 
-
-
-
 \begin{document}
 
-% CARATULA
+\begin{titlepage}
 
-$if(author)$
-Alumno: $author$
+\topskip0pt
+\vspace*{\fill}
+
+$if(institucion)$
+\begin{center}
+\huge
+$institucion$
+\end{center}
 $endif$
 
+\bigskip
+\bigskip
+
+$if(departamento)$
+\begin{center}
+$departamento$
+\end{center}
+$endif$
 
 $if(carrera)$
-Carrera:
-$carrera$
+\begin{center}
+\uppercase{$carrera$}
+\end{center}
 $endif$
 
-
-$if(programa)$
-Proyecto o programa acreditado en el que se inscribe el Seminario de Investigación: 
-$programa$
+$if(director)$
+\begin{center}
+Director de Carrera:
+$director$
+\end{center}
 $endif$
 
+\bigskip
+\bigskip
+\bigskip
 
+$if(title)$
+% \maketitle
+\begin{center}
+\huge
+$title$
+\end{center}
+$endif$
+
+\bigskip
+$if(subtitle)$
+\begin{center}
+%\large
+\uppercase{$subtitle$}
+\end{center}
+$endif$
+\bigskip
+
+$if(author)$
+\begin{center}
+Presentada por:
+$author$
+\end{center}
+$endif$
 
 $if(tutor)$
-Profesor tutor: $tutor$
+\begin{center}
+Director de Tesis:
+$tutor$
+\end{center}
 $endif$
 
-% TERMINA CARATULA
+\bigskip
+\bigskip
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
 
-% \newpage
+\bigskip
+\bigskip
+\bigskip
+
+$if(date)$
+\begin{center}
+$date$
+\end{center}
+$endif$
+
+$if(place)$
+\begin{center}
+$place$
+\end{center}
+$endif$
+
+\vspace*{\fill}
+
+\end{titlepage}
+
+\newpage
 
 $for(include-before)$
 $include-before$
@@ -396,4 +459,3 @@ $include-after$
 
 $endfor$
 \end{document}
-\renewcommand\tabcolsep{4pt}
