@@ -65,7 +65,8 @@ eo
 
 \bigskip
 
-Algunas ventajas del texto plano y legible en contraste a la codificación de datos.[^ver_hunt]
+Algunas ventajas del texto plano y legible en contraste a la codificación de
+datos.[^ver_hunt]
 
 **Aprovechar.**
 Potencialmente cualquier herramienta de computo puede operar
@@ -146,7 +147,8 @@ teclas) evitan la alternancia entre mouse y teclado, lo cual promueve un flujo
 de trabajo ágil.[^ver_moolenaar] 
 
 [^ver_moolenaar]: @moolenaar
-[^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy, Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
+[^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy,
+Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
 ### 2.2 Encuestas
 
@@ -162,7 +164,8 @@ Pautas / guias :
 
         * Relación con manipulacion musical a traves de parametros.
 
-* Predisposición a trabajar (leer/escribir) con musica que se encuentre descripta en formato textual
+* Predisposición a trabajar (leer/escribir) con musica que se encuentre
+  descripta en formato textual
 
 
 ### 2.3 Motivacion / Objetivos
@@ -181,7 +184,8 @@ representar, manipular y almacenar información digital.
 Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
 [^ver_raymond2] [^ver_yzaguirre]
 
-[^ver_raymond2]: @raymond2 Capítulo 11: The Social Context of Open-Source Software (p. 11)
+[^ver_raymond2]: @raymond2 Capítulo 11: The Social Context of Open-Source
+  Software (p. 11)
 [^ver_yzaguirre]: @yzaguirre
 
 \newpage
@@ -194,9 +198,9 @@ de un marco de programación basada en una sintaxis declarativa se cosideró Flo
 
 #### 2.4.1 MuseData
 
-La base de datos MuseData [^ver_selfridge] es un proyecto y a la vez el sistema de codificación
-principal del Centro de Investigación Asistida por Computador en Humanidades
-(CCARH). La base de datos fue creado por Walter Hewlett. 
+La base de datos MuseData [^ver_selfridge] es un proyecto y a la vez el sistema
+de codificación principal del Centro de Investigación Asistida por Computador
+en Humanidades (CCARH). La base de datos fue creado por Walter Hewlett. 
 
 Los archivos MuseData tienen el potencial de existir en múltiples formatos
 comunes de información. La mayoría de las codificaciones derivadas acomodan
@@ -1152,7 +1156,7 @@ hace secuencia de eventos
       YAML => Pista => Canal 
       """
       cantidad = 0 
-      defactos = {
+      defactos = \{
         'bpm'           : 60,
         'canal'         : 1,
         'programa'      : 1,
@@ -1176,7 +1180,7 @@ hace secuencia de eventos
         'uniSysEx'      : None,
         'NRPN'          : None,
         'RPN'           : None,
-      }
+     \} 
      
       def __init__( 
         self,
@@ -1465,12 +1469,12 @@ Loop principal que toma unidades previamente analizadas y llena lista de eventos
         args.copyright
       ])
     
-      parte = {
+      parte = \{
          'orden'     : track,
          'nombre'    : pista.nombre,
          'comienzo'  : comienzo, 
          'etiquetas' : [],
-      }
+      \}
       duracion_parte = 0
     
       """
@@ -1573,7 +1577,9 @@ Loop principal que toma unidades previamente analizadas y llena lista de eventos
           """ 
           texto = ''
           ers = referir( articulacion[ 'referente' ] ) if articulacion[ 'referente' ] != None else [ ( 0, 0 ) ]
-          prs = referir( precedente[ 'referente' ] ) if precedente[ 'referente' ] != None else [ ( 0, 0 ) ]
+          prs = [ ( 0, 0 ) ]
+          if precedente[ 'referente' ] != None: 
+            prs = referir( precedente[ 'referente' ] )
           for er, pr in zip( ers , prs ):
             if er != pr: 
               texto += str( er[ 0 ] ) + ' #' + str( er[ 1 ] ) + 'saltodelinea' 
@@ -1820,4 +1826,4 @@ Reserva de referencias:
 
 \newpage
 
-### 10 Apéndice
+## 10 Apéndice
