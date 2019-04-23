@@ -1,14 +1,16 @@
 # Generar PDF
 
 install:
-	sudo pacman -S pandoc pandoc-citeproc texlive-core
+	sudo pacman -S pandoc pandoc-citeproc texlive-core texlive-music pygmentize && \
+        pip install pygments
 	
 seminario:
 	pandoc seminario.md --template=seminario \
 	-o output/lisandro_fernandez-informe_seminario_investigacion.pdf \
 	-s --csl=vendor/iso690-author-date-es.csl \
 	--filter=pandoc-citeproc \
-	--toc 
+	--pdf-engine-opt=-shell-escape \
+	--toc --toc-depth=4 --number-sections 
 	
 tex:
 	pandoc seminario.md --template=seminario \

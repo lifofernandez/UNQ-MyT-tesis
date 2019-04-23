@@ -271,34 +271,35 @@ $endif$
 %  texcolor=red,
 %}
 
-\usepackage{color}
-\usepackage[utf8]{inputenc}
-\usepackage{fancyvrb}
- %\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage{xcolor}
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
+%\usepackage{color}
+%\usepackage[utf8]{inputenc}
+%\usepackage{fancyvrb}
+% %\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage{xcolor}
+%\definecolor{dkgreen}{rgb}{0,0.6,0}
+%\definecolor{gray}{rgb}{0.1,0.1,0.1}
+%\definecolor{mauve}{rgb}{0.58,0,0.82}
+%
+%
+%\fvset{
+%	frame=single,
+%	framesep=1mm,
+%	fontfamily=courier,
+%	fontsize=\scriptsize,
+%	numbers=left,
+%	framerule=.3mm,
+%	numbersep=1mm,
+%	commandchars=\\\{\},
+%	rulecolor=\color{gray},
+%	label={Ejemplo}
+%}
+%
+%\usepackage{fvextra}
+%\RecustomVerbatimEnvironment{verbatim}{Verbatim}{}
+%%\RecustomVerbatimEnvironment{verbatim}{Verbatim}{ breaklines }
 
 
-\fvset{
-	frame=single,
-	framesep=1mm,
-	fontfamily=courier,
-	fontsize=\scriptsize,
-	numbers=left,
-	framerule=.3mm,
-	numbersep=1mm,
-	commandchars=\\\{\},
-	rulecolor=\color{gray},
-	label={Ejemplo}
-}
-
-\usepackage{fvextra}
-\RecustomVerbatimEnvironment{verbatim}{Verbatim}{}
-%\RecustomVerbatimEnvironment{verbatim}{Verbatim}{ breaklines }
-
-\usepackage{enumitem}
+%\usepackage{enumitem}
 
 % https://tex.stackexchange.com/questions/368397/how-to-number-examples-automatically
 %\newcounter{xmpl}
@@ -311,6 +312,8 @@ $endif$
 
 %\usepackage{amsthm}
 %\newtheorem{mydef}{Definicion}
+
+\usepackage{minted}
 
 \begin{document}
 

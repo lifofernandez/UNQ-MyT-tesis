@@ -21,7 +21,7 @@
   bibliography: referencias.bib
 ---
 
-## 1 Resumen 
+# Resumen 
 
 El presente plan propone definir una gramática formal basada en
 texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
@@ -45,17 +45,22 @@ con las premisas del software libre.[^ver_gnu]
 
 \newpage
 
-## 2 Introducción
+# Introducción
 
 *Introducir a los temas q se discutiran en esta sección.*
 
 
 A continuación se argumentan los aspectos clave de este proyecto.
 
-### 2.1 Necesidades
-eo
+## Necesidades / Requerimientos
 
-#### 2.1.1 ¿Por qué Texto Plano?
+Antes de discutir cualquier cosa, resumiremos algunas caracteristicas /
+requerimientos importantes que son relevantes a  nuestro trabajo.
+
+Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
+relevantes pero nos da un criterio para empezar.
+
+### ¿Por qué Texto Plano?
 
 > "...our base material isn't wood or iron, it's
 > knowledge. [...]. And we believe that the best format for storing knowledge
@@ -102,8 +107,7 @@ creados.[^ver_leek]
 [^ver_hunt]: @hunt Capítulo 3: Basic Tools (pp. 72-99).
 [^ver_leek]: @leek
 
-
-#### 2.1.2 ¿Por qué Interfaz de Linea de Comandos?
+### ¿Por qué Interfaz de Linea de Comandos?
 
 **Primer estado operativo de un ordenador.** 
 Eventualmente todos los sistemas operativos permiten ser 
@@ -150,25 +154,8 @@ de trabajo ágil.[^ver_moolenaar]
 [^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy,
 Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
-### 2.2 Encuestas
 
-Algunos casos de pruebas de usurios para conseguir producir musica con este desarrollo
-
-Entrevistas del tipo no estructuradas, por pautas y guías. 
-
-Pautas / guias :
-
-* Background
-
-	* Experiencia con representación de información musical textual  
-
-        * Relación con manipulacion musical a traves de parametros.
-
-* Predisposición a trabajar (leer/escribir) con musica que se encuentre
-  descripta en formato textual
-
-
-### 2.3 Motivacion / Objetivos
+## Motivacion 
 
 Este proyecto procura establecer un contexto y proveer los recursos para un
 procedimiento sencillo y flexible de elaboración discursos musicales unificando
@@ -190,13 +177,13 @@ Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
 
 \newpage
 
-### 2.4 Antecedentes 
+## Antecedentes 
 
 A continuación se describen algunos desarrollos que vinculan representación y
 manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como ejemplo
 de un marco de programación basada en una sintaxis declarativa se cosideró Flocking.
 
-#### 2.4.1 MuseData
+### MuseData
 
 La base de datos MuseData [^ver_selfridge] es un proyecto y a la vez el sistema
 de codificación principal del Centro de Investigación Asistida por Computador
@@ -211,7 +198,7 @@ musicales de MuseData que se distribución son: MIDI1, MIDI+ y Humdrum.
 
 [^ver_selfridge]: @selfridge
 
-##### Organización de archivos MuseData 
+#### Organización de archivos MuseData 
 
 Los archivos MuseData están basados en ASCII y se pueden ver en cualquier
 editor de texto. Dentro del formato MuseData El número de archivos por
@@ -257,7 +244,7 @@ accidentes) por lo general no se modifica. Las decisiones discrecionales se
 anotan en archivos que permiten marcas editoriales.
 
 
-##### La representación MuseData de información musical
+#### La representación MuseData de información musical
 
 El propósito de la sintaxis MuseData es representar el contenido lógico de una
 pieza musical de una modo neutral. El código se utiliza actualmente en la
@@ -301,7 +288,7 @@ usa estas sugerencias de impresión y sonido en el proceso de generación de
 documentos de partitura y archivos MIDI.
 
 
-#### 2.4.2 Humdrum
+### Humdrum
 
 David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado
 constantemente por décadas. Humdrum es un conjunto de herramientas de línea de
@@ -313,7 +300,7 @@ PERL, Ruby, Python, Bash, LISP y C++.
 
 [^ver_wild]: @wild
 
-##### Representación 
+#### Representación 
 
 En primer lugar, Humdrum define una sintaxis para representar información
 discreta como una serie de registros en un archivo de computadora.
@@ -326,7 +313,7 @@ discreta como una serie de registros en un archivo de computadora.
 * Algunos otros esquemas pueden ser aumentados por gramáticas definidas por el
   usuario para tareas de investigación.
 
-##### Manipulación
+#### Manipulación
 
 Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para
 manipular archivos que se ajusten a la sintaxis Humdrum en el campo de la
@@ -340,7 +327,7 @@ El énfasis está en **asistido**:
   utilizados en combinacióin* para explotar plenamente el potencial del
   sistema.
 
-##### De la experiencia a la apreciación 
+#### De la experiencia a la apreciación 
 
 Apreciación de todo el potencial de Humdrum es definitivamente a partir de la
 experiencia. En palabras de David Huron:
@@ -355,7 +342,7 @@ la música o etnomusicología, mientras que los teóricos y los musicólogos
 histioriadores han sido lentos para reconocer el potencial del sistema. 
 
 
-##### CLI vs GUI
+#### CLI vs GUI
 
 Humdrum u otros sistemas como él ofrecen los recursos para una marcar un
 paradigma para la investigación musical.  
@@ -379,7 +366,7 @@ invaluable intuición musical con valiosas pruebas empíricas, los resultados
 basados en las cantidades máximas de datos pertinentes será un factor en la
 evolución de nuestra disciplina.
 
-#### 2.4.3 MusicXML
+### 2.4.3 MusicXML
 
 MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música
 entre aplicaciones y para archivar registros de música para uso en el futuro.
@@ -395,7 +382,7 @@ MusicXML.
 [^ver_good]: @good
 
 
-#### 2.4.4 Music Markup Language 
+### Music Markup Language 
 
 El Lenguaje de Marcado de Música (MML)[^ver_mml] es un intento de marcar
 objetos y eventos de música con un lenguaje basado en XML. La marcación de
@@ -423,7 +410,7 @@ ser capaz de secuenciar la música de esta manera.
 [^ver_mml]: @mml
 
 
-#### 2.4.5 Flocking 
+### Flocking 
 
 Flocking[^ver_clark] es un framework, escrito en JavaScript, para la
 composición de música por computadora que aprovecha las tecnologías e ideas
@@ -445,7 +432,7 @@ existentes.
 
 [^ver_clark]: @clark
 
-##### Como funciona Flocking
+#### Como funciona Flocking
 
 El núcleo del framework Flocking consiste en varios componentes interconectados
 que proporcionan la capacidad esencial de interpretar e instanciar generadores
@@ -469,7 +456,7 @@ componentes de Flocking incluyen:
 6.  el *Scheduler* (programador ó secuenciador), que gestiona el cambio
     secunecial (basado en el tiempo) eventos en un sintetizador
 
-##### Programación declarativa
+#### Programación declarativa
 
 Arriba, se describió Flocking como un marco **declarativo**. Esta
 característica es esencial para comprender su diseño.  La programación
@@ -504,12 +491,11 @@ disponibles para su manipulación por otros programas.
 
 \newpage
 
-## 5 Metodología
+# Metodología
+introduccion a la seccion, explicar que se van a discutir las herramientas
+usadas en cada subseccion.
 
-introduccion a la seccion, explicar que se van a discutir las herramientas usadas en cada subseccion.
-
-
-### 5.1 Explicacion del proceso 
+## Diagrama de procedimiento
 
 \begin{center}
     \begin{tikzpicture}[node distance = 2cm, auto]
@@ -639,20 +625,21 @@ estará principalmente integrando por:
 
 *descripcion general del trabajo*
 
-#### 5.1.1 Codigo, Repo
+## Desarrollo
+
+Sobre el desarrollo 
+como conseguir el codigo.
+Instalacion
+Uso 
 
 Sobre el desarrollo 
 
-#### 5.1.2 Uso / Instalacion
-
-Sobre el desarrollo 
-
-### 5.2 YAML 
+### YAML 
 
 El estandar YAML [^ver_yaml] como opción para serializar las definiciones de
 cada parte instrumental.
 
-### 5.3 Python
+### Python
 
 La rutina de instrucciones principales será interpretada en el lenguaje
 Python[^ver_python] (en su ultima versión estable). 
@@ -663,11 +650,11 @@ tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
 Estandar_" [^ver_standarlib], mientras que la documentación se generará con
 "_sphinx_" [^ver_sphinx].
 
-### 5.4 midiUTIL
+### midiUTIL
 
 midi
 
-### 5.5 otras herramientas
+### Otras herramientas
 
 El editor de texto preferido para toda la actividad será VIM [^ver_vim];
 durante el desarrollo las versiones se controlarán con el sistema GIT
@@ -684,15 +671,17 @@ proveido por algún servicio del tipo GitLab.
 [^ver_sphinx]: @sphinx
 
 
-## 6 Resultados
+
+# Resultados
+
 introduccion a los temas discutidos en cada sub seccion
 gramatica
 aplicacion
 demostracion
 
-### 6.1 Gramática 
+## Gramática 
 
-#### 6.1.2 Estructura grámatical, representación de relaciones jerarquícas
+### Estructura grámatical, representación de relaciones jerarquícas
 
 referir a Metodologia, YAML >
 La estructura principal la sintaxis gramatical de cada pista se basa en el
@@ -706,37 +695,36 @@ Describir Referencia y Recurrencia en YAML
 
 <<: \*base (Para que otra pista herede estas propiedades)
 
-#### 6.1.3 Vocabulario 
+
+### Vocabulario
 
 explicar q se va a describir cada palabra elegida para representar cada
 propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor defacto que se
 asigna
 
-##### 6.1.3.1 Propiedades de Pista 
+#### Propiedades de Pista 
 
 Los parametros generales de cada pista son tres: el rotulo, la paleta de
 unidades disponibles y el primer nivel de la forma musical.  A partir del
 primer nivel estructural, las unidades se organizan entre ellas.
 
+##### Nombre
+Título de la pista.
 
-###### Nombre
-Título de la pista
-
-Etiqueta: nombre.
-
-Tipo: Cadena de caracteres.
-
+**Etiqueta:** _nombre._\newline
+**Tipo de dato:** _Cadena de caracteres._\newline
+**Valor por defecto:** _¿nombre del fichero?_
+\begin{minted}{python}
     nombre: 'Pista 1'
+\end{minted}
 
-Defacto: nombre del fichero?.
+##### Forma
+Lista de unidades a ser sequenciadas.
+Lista de cadenas de caracteres (corresponde a un elemento de la paleta.
 
-###### Forma
-Lista de unidades a ser sequenciadas 
-
-Etiqueta: macroforma.
-
-Tipo: Lista de cadenas de caracteres que corresponde a un elemento de la paleta
-de unidades.
+**Etiqueta:** _macroforma._\newline
+**Tipo de dato:** _Lista de cadenas de caracteres_\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     macroforma: [
       'intro',
@@ -748,16 +736,15 @@ de unidades.
       'inter',
     ]
 
-
-###### Paleta de unidades
-Paleta de estructuras para secuenciar
+##### Paleta de unidades
+Paleta de estructuras para secuenciar.
 
 En dos tipos de unidades, las que defininen las estructuras minimas y las que
 invocan otras unidades ademas de sobrescribir o no alguno de sus parametros.
 
-Etiqueta: unidades.
-
-Tipo: Diccionario. 
+**Etiqueta:** _unidades._\newline
+**Tipo de dato:** _Diccionario._ \newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     unidades:
         base: &base 
@@ -833,33 +820,35 @@ Tipo: Diccionario.
           bpm: 100
           unidades: [ 'B', 'B^', 'a' ]
 
-##### 6.1.3.2 Propiedades de unidad
+#### Propiedades de unidad
 Parametros por defecto para todas sas unidades,
-pueden ser sobrescritos
+pueden ser sobrescritos.
 
-###### Armadura de clave
+##### Armadura de clave
 Catidad de alteraciones en la armadura de clave y modo de la escala.
 
 Los numeros positivos representan sotenidos mientras que los se refiere a
-bemoles con números negativos.  -2 = Bb, -1 = F, 0 = C, 1 = G, 2 = D, modo: 0 #
+bemoles con números negativos.\newline
+-2 = Bb, -1 = F, 0 = C, 1 = G, 2 = D, modo: 0 #
+
 Modo de la escala, 0 = Mayor o 1 = Menor
 
 https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.addKeySignature
 
-Etiqueta: clave, alteraciones y modo.
-
-Tipo: Diccionarios de enteros.
+**Etiqueta:** _clave, alteraciones y modo._\newline
+**Tipo de dato:** _Diccionarios de enteros._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     clave:
       alteraciones: -2
       modo: 0 
 
-###### Registración fija
+##### Registración fija
 Secuencia de intervalos a ser recorrida por el punteros de altura
 
-Etiqueta: intervalos
-
-Tipo: Lista de números enteros.
+**Etiqueta:** _intervalos_\newline
+**Tipo de dato:** _Lista de números enteros._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     intervalos: [ 
       -12,-10, -9, -7, -5, -3, -2,
@@ -868,163 +857,161 @@ Tipo: Lista de números enteros.
        24
     ]
 
-###### Altura
+##### Altura
 Punteros del set de intervalos.
 Cada elemento equivale a el numero de intervalo.
 
-Etiqueta: alturas.
-
-Tipo: Lista de enteros.
+**Etiqueta:** _alturas._\newline
+**Tipo de dato:** _Lista de enteros._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     alturas: [ 1, 3, 5, 8 ] 
 
-###### Superposicion de altura
+##### Superposicion de altura
 Apilamiento de alturas.
 Lista de listas, cada voz es un lista que modifica intervalo.
-voz + altura = numero de intervalo
+voz + altura = numero de intervalo.
 
-Etiqueta: voces.
-
-Tipo: Lista de listas de enteros.
+**Etiqueta:** _voces._\newline
+**Tipo de dato:** _Lista de listas de enteros._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     voces:
        - [ 8, 6 ] 
        - [ 5 ] 
        - [ 3 ]
 
-###### Transportar
-Ajuste de alturas
+##### Transportar
+Ajuste de alturas.
 
-Etiqueta: transportar.
-
-Tipo: Número entero.
+**Etiqueta:** _transportar._\newline
+**Tipo de dato:** _Número entero._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     transportar: 60 # C
 
-###### Tranponer
-Ajuste de alturas pero dentro del set intervalos
-Semitonos, registración fija
+##### Transponer
+Ajuste de alturas pero dentro del set intervalos.
+Semitonos, registración fija.
 
-Etiqueta: transponer.
-
-Tipo: Número entero.
+**Etiqueta:** _transponer._\newline
+**Tipo de dato:** _Número entero._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     transponer: 1
 
-###### Duracion
+##### Duracion
 Lista ordenada de duraciones.
 
-Etiqueta: duraciones.
+**Etiqueta:** _duraciones._\newline
+**Tipo de dato:** _Lista de decimales._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
-Tipo: Lista de decimales.
+    duraciones: [ 1, .5, .5, 1, 1 ]
 
-    [ 1, .5, .5, 1, 1 ]
+##### Pulso 
+Tempo, Pulsos Por Minuto.
 
-###### Pulso 
-Tempo, Pulsos Por Minuto
-
-Etiqueta: bpm
-
-Tipo: Número entero.
+**Etiqueta:** _bpm_\newline
+**Tipo de dato:** _Número entero._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     bpm: 62
 
-###### Clave de compás
+##### Clave de compás
 Clave de metrica.
+representando una fracción (numerador / denominador).
 
-Etiqueta: metro.
-
-Tipo: Cadena de caracteres representando una fracción (numerador / denominador).
+**Etiqueta:** _metro._\newline
+**Tipo de dato:** _Cadena de caracteres._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     metro: 4/4
 
-###### Ajuste temporal
+##### Ajuste temporal
 Desfazage temporal del momento en el que originalmente comienza la unidad.
 offset : + / - offset con la "posicion" original 
 0 es que donde debe acontecer originalmente
 "-2" anticipar 2 pulsos o ".5" demorar medio pulso
 
-Etiqueta: desplazar.
-
-Tipo: Número entero.
+**Etiqueta:** _desplazar._\newline
+**Tipo de dato:** _Número entero._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
  
     desplazar: -2
 
-###### Repeticiones 
-Catidad de veces q se toca esta unidad 
+##### Repeticiones 
+Catidad de veces q se toca esta unidad.
 Reiterarse a si misma,
-no es trasferible, no se hereda, caso contrario se reterarian los referidos
+no es trasferible, no se hereda, caso contrario se reterarian los referidos.
 
-Etiqueta: reiterar.
-
-Tipo: Número entero.
+**Etiqueta:** _reiterar._\newline
+**Tipo de dato:** _Número entero._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
  
     reiterar: 3
 
-###### Dinámica
-Lista ordenada de dinámicas
+##### Dinámica
+Lista ordenada de dinámicas.
 
-Etiqueta: dinamicas.
-
-Tipo: Lista de número decimales.
+**Etiqueta:** _dinamicas._\newline
+**Tipo de dato:** _Lista de número decimales._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
  
     dinamicas: [ 1, .5, .4 ]
 
-###### Fluctuación
-Lista ordenada de dinámicas
+##### Fluctuación
+fluctuciones dinámicas.
 
-Etiqueta: fluctuacion, min y max.
-
-Default: min: 0, max: 0.
-
-Tipo: dicionario de decimales.
+**Etiqueta:** _fluctuacion, min y max._\newline
+**Tipo de dato:** _dicionario de decimales._\newline
+**Valor por defecto:** _min: 0, max: 0._\newline
 
     fluctuacion:
       min: .3
       max: .7
 
-###### Sentido de listas 
+##### Sentido de las listas 
 Revierte parametros del tipo lista.
-
-Etiqueta: revertir
 Deben corresponderse a la etiqueta de otro parametro del tipo lista.
 
-Tipo: Lista de cadenas de caracteres.
+**Etiqueta:** _revertir._\newline
+**Tipo de dato:** _Lista de cadenas de caracteres._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
  
     revertir: [ 'duraciones', 'dinamicas' ]
 
-###### Canal MIDI 
+##### Canal MIDI 
 Número de Canal MIDI.
 
-Etiqueta: canal.
-
-Tipo: Número entero.
+**Etiqueta:** _canal._\newline
+**Tipo de dato:** _Número entero._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
  
     canal: 3
 
-###### Instrumento MIDI 
-Número de Instrumento MIDI en el banco actual.
+##### Instrumento MIDI 
+Número de Instrumento MIDI en el banco actual.\newline
 
-Etiqueta: programa.
-
-Tipo: Número entero.
+**Etiqueta:** _programa._\newline
+**Tipo de dato:** _Número entero._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
  
     programa: 103
 
-
-###### Cambios de control
+##### Cambios de control
 Secuencia de pares número controlador y valor a asignar.
 
-Etiqueta: controles.
-
-Tipo: Lista de listas de tuples.
+**Etiqueta:** _controles._\newline
+**Tipo de dato:** _Lista de listas de tuples._\newline
+**Valor por defecto:** _Lorem impsum_.\newline
 
     controles:
       - [ 70 : 80,  71 : 90, 72 : 100 ]
       - [ 33 : 121, 51 : 120 ]
       - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
 
-###### RPN
+##### RPN
 Registered Parameter Number Call
 
 Los bancos MIDI se alternan utilizando de RPN
@@ -1045,13 +1032,12 @@ CC#0:2, CC#32:2
       - [  0 : 2 ]
       - [ 32 : 3 ]
 
-
-###### NRPN
+##### NRPN
 Non Registered Parameter Number Call
 
 \newpage
 
-### 6.2 Implementación
+## Implementación
 
 Introduccion a la subseccion
 
@@ -1060,7 +1046,7 @@ Aplicación y entorno de secuenciación
 Lee archivos YAML como argumentos posicionales 
 crea "pistas" a partir de ellos
 
-#### 6.2.1 Diagrama de arquitectura de la aplicación 
+### Diagrama de arquitectura
 
 \begin{center}
 
@@ -1120,11 +1106,10 @@ crea "pistas" a partir de ellos
 \newpage
 
 
-#### 6.2.2 Secciones de pricipales del desarrollo
-
+### Secciones de pricipales del desarrollo
 Explicacion de los bloques de codigo mas representativos 
 
-##### 6.2.2.1 Clase Pista (pista.py)
+#### Clase Pista
 
 Clase Pista a partir de cada defefinicion de canal (.yml)
 
@@ -1141,14 +1126,83 @@ arma una "sucecion" o "herencia" de parametros
 repite la unidad (con sus hijas) segun parametro reiteracion
 agrega a los registros
 
-si la unidad actual tiene unidades
+Si la unidad actual tiene unidades
 	sobrescribe los parametros de la unidad "hija" con los sucesion
 	recursivamene busca hasta encontrar una sin unidades HIJAS
-si la unidad altual NO tiene unidades
+Si la unidad altual NO tiene unidades
 	finalmente mezcla el resultado con los defaults 
 	la secuencia
 hace secuencia de eventos
 
+\newpage
+
+#### Recursion principal 
+Loop principal que toma unidades previamente analizadas y llena lista de eventos.
+
+## Demostraciones
+Explicacion de que ejemplo  o demostracion se va a discutir en cada seccion.
+
+### Melodia Simple
+Descripcion
+
+#### YAML
+Código
+
+#### Partitura
+Captura
+
+#### Gráfico
+ploteo
+
+### Multiples Canales
+Descripcion
+
+#### YAML
+Codigos
+
+#### Partitura
+Capturas
+
+#### Gráfico
+ploteos
+
+### Polimetría
+Paterns con duraciones no equivalentes
+
+#### YAML
+codigos
+
+#### Partitura
+Capturas
+
+#### Gráfico
+ploteos
+
+\newpage
+
+# Concluciones
+
+
+## Pruebas / Entrevistas
+
+Algunos casos de pruebas de usurios para conseguir producir musica con este desarrollo
+
+Entrevistas del tipo no estructuradas, por pautas y guías. 
+
+Pautas / guias :
+
+* Background
+
+	* Experiencia con representación de información musical textual  
+
+        * Relación con manipulacion musical a traves de parametros.
+
+* Predisposición a trabajar (leer/escribir) con musica que se encuentre
+  descripta en formato textual
+
+# Apéndice
+
+## pista.py
 
     class Pista:
       """
@@ -1441,13 +1495,7 @@ hace secuencia de eventos
           secuencia.append( articulacion )
         return secuencia 
 
-
-\newpage
-
-##### 6.2.2.2 Main Loop 
-
-Loop principal que toma unidades previamente analizadas y llena lista de eventos.
-
+## main.py 
     """
     Generar eventos MIDI a partir de cada pista
     """
@@ -1771,53 +1819,12 @@ Loop principal que toma unidades previamente analizadas y llena lista de eventos
         duracion_parte += ( duracion *  60 ) / bpm 
     
       PARTES.append( parte )
-
-### 6.3 Demostraciones
-
-Explicacion de que ejemplo  o demostracion se va a discutir en cada seccion.
-
-#### 6.3.1 Melodia Simple
-descripcion
-
-##### YAML
-código
-
-##### Partitura
-Captura
-
-##### Gráfico
-ploteo
-
-#### 6.3.2 Multiples Canales
-descripcion
-
-##### YAML
-codigos
-
-##### Partitura
-Capturas
-
-##### Gráfico
-ploteos
-
-#### 6.3.2 Polimetría
-Paterns con duraciones no equivalentes
-
-##### YAML
-codigos
-
-##### Partitura
-Capturas
-
-##### Gráfico
-ploteos
-
 \newpage
 
-## 9 Bibliografía
+# Bibliografía
 
 Reserva de referencias: 
-[^ver_allen], [^ver_schaeffer],[^ver_samaruga], [^ver_lerdahl]
+[^ver_allen], [^ver_schaeffer], [^ver_samaruga], [^ver_lerdahl]
 
 [^ver_allen]: @allen
 [^ver_schaeffer]: @schaeffer
@@ -1826,4 +1833,3 @@ Reserva de referencias:
 
 \newpage
 
-## 10 Apéndice
