@@ -10,5 +10,6 @@ make install
 
 Generar los documentos pdf
 ```bash
-make plan
+make tex
+make pdf
 ```
