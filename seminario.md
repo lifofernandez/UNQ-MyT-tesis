@@ -726,15 +726,17 @@ Lista de cadenas de caracteres (corresponde a un elemento de la paleta.
 **Tipo de dato:** _Lista de cadenas de caracteres_\newline
 **Valor por defecto:** _Lorem impsum_.\newline
 
-    macroforma: [
-      'intro',
-      'estrofa',
-      'estribo',
-      'estrofa',
-      'coro',
-      'coro',
-      'inter',
-    ]
+\begin{minted}{yaml}
+macroforma: [
+  'intro',
+  'estrofa',
+  'estribo',
+  'estrofa',
+  'coro',
+  'coro',
+  'inter',
+]
+\end{minted}
 
 ##### Paleta de unidades
 Paleta de estructuras para secuenciar.
@@ -746,79 +748,81 @@ invocan otras unidades ademas de sobrescribir o no alguno de sus parametros.
 **Tipo de dato:** _Diccionario._ \newline
 **Valor por defecto:** _Lorem impsum_.\newline
 
-    unidades:
-        base: &base 
-          clave:
-            alteraciones: -2
-            modo:
-          intervalos:  [ 
-              -12,-10, -9, -7, -5, -3, -2,
-                0,  2,  3,  5,  7,  9, 10,
-               12, 14, 15, 17, 19, 21, 22,
-               24
-          ]
-          alturas:  [ 1, 3, 5, 8 ] 
-          voces: 
-            - [ 8, 6 ] 
-            - [ 5 ] 
-            - [ 3 ]
-          transportar: 60 # C
-          transponer: 0
-          duraciones: [ 1 ]
-          bpm: 62
-          metro: 4/4
-          desplazar: 0
-          reiterar: 0
-          dinamicas: [ 1, .5, .4 ]
-          revertir: [ 'duraciones', 'dinamicas' ]
-          canal: 3
-          programa: 103
-          controladores: [ 70:80, 70:90, 71:120 ]
-        a: &a 
-          <<: *base
-          metro: 2/4
-          alturas: [ 1, 3,0, 5, 7, 8 ]
-          duraciones: [ 1, .5, .5, 1, 1 ]
-        b: &b 
-          <<: *base
-          metro: 6/8
-          duraciones: [ .5 ]
-          alturas: [ 1, 2 ]
-          voces: 0
-          transponer: 3
-          clave: 
-            alteraciones: 2
-            modo: 1 
-          fluctuacion: 
-            min: .1
-            max: .4 
-          desplazar: -1
-        b^: 
-          <<: *b
-          dinamicas: [ .5, .1 ]
-          revertir: [ 'alturas' ]
-        
-        # Unidad de unidades ( UoUs )
-        # Propiedades sobrescriben a las de las unidades referidas 
-        A: 
-          unidades: [ 'a', 'b' ] 
-          reiterar: 3
-        B: &B 
-          metro: 9/8
-          unidades: [ 'a' , 'b^' ]
-          #desplazar: -0.5
-          desplazar: -0.75
-        B^: 
-          <<: *B
-          voces: 0 
-          bmp: 89
-          unidades: [ 'b', 'a' ] 
-          dinamicas: [ 1 ]
-        estrofa: 
-          unidades: [ 'A', 'B', 'B^' ]
-        coro: 
-          bpm: 100
-          unidades: [ 'B', 'B^', 'a' ]
+\begin{minted}{yaml}
+unidades:
+    base: &base 
+      clave:
+        alteraciones: -2
+        modo:
+      intervalos:  [ 
+          -12,-10, -9, -7, -5, -3, -2,
+            0,  2,  3,  5,  7,  9, 10,
+           12, 14, 15, 17, 19, 21, 22,
+           24
+      ]
+      alturas:  [ 1, 3, 5, 8 ] 
+      voces: 
+        - [ 8, 6 ] 
+        - [ 5 ] 
+        - [ 3 ]
+      transportar: 60 # C
+      transponer: 0
+      duraciones: [ 1 ]
+      bpm: 62
+      metro: 4/4
+      desplazar: 0
+      reiterar: 0
+      dinamicas: [ 1, .5, .4 ]
+      revertir: [ 'duraciones', 'dinamicas' ]
+      canal: 3
+      programa: 103
+      controladores: [ 70:80, 70:90, 71:120 ]
+    a: &a 
+      <<: *base
+      metro: 2/4
+      alturas: [ 1, 3,0, 5, 7, 8 ]
+      duraciones: [ 1, .5, .5, 1, 1 ]
+    b: &b 
+      <<: *base
+      metro: 6/8
+      duraciones: [ .5 ]
+      alturas: [ 1, 2 ]
+      voces: 0
+      transponer: 3
+      clave: 
+        alteraciones: 2
+        modo: 1 
+      fluctuacion: 
+        min: .1
+        max: .4 
+      desplazar: -1
+    b^: 
+      <<: *b
+      dinamicas: [ .5, .1 ]
+      revertir: [ 'alturas' ]
+    
+    # Unidad de unidades ( UoUs )
+    # Propiedades sobrescriben a las de las unidades referidas 
+    A: 
+      unidades: [ 'a', 'b' ] 
+      reiterar: 3
+    B: &B 
+      metro: 9/8
+      unidades: [ 'a' , 'b^' ]
+      #desplazar: -0.5
+      desplazar: -0.75
+    B^: 
+      <<: *B
+      voces: 0 
+      bmp: 89
+      unidades: [ 'b', 'a' ] 
+      dinamicas: [ 1 ]
+    estrofa: 
+      unidades: [ 'A', 'B', 'B^' ]
+    coro: 
+      bpm: 100
+      unidades: [ 'B', 'B^', 'a' ]
+\end{minted}
 
 #### Propiedades de unidad
 Parametros por defecto para todas sas unidades,
@@ -838,10 +842,11 @@ https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.a
 **Etiqueta:** _clave, alteraciones y modo._\newline
 **Tipo de dato:** _Diccionarios de enteros._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-
-    clave:
-      alteraciones: -2
-      modo: 0 
+\begin{minted}{yaml}
+clave:
+  alteraciones: -2
+  modo: 0 
+\end{minted}
 
 ##### Registración fija
 Secuencia de intervalos a ser recorrida por el punteros de altura
@@ -849,13 +854,14 @@ Secuencia de intervalos a ser recorrida por el punteros de altura
 **Etiqueta:** _intervalos_\newline
 **Tipo de dato:** _Lista de números enteros._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-
-    intervalos: [ 
-      -12,-10, -9, -7, -5, -3, -2,
-        0,  2,  3,  5,  7,  9, 10,
-       12, 14, 15, 17, 19, 21, 22,
-       24
-    ]
+\begin{minted}{yaml}
+intervalos: [ 
+  -12,-10, -9, -7, -5, -3, -2,
+    0,  2,  3,  5,  7,  9, 10,
+   12, 14, 15, 17, 19, 21, 22,
+   24
+]
+\end{minted}
 
 ##### Altura
 Punteros del set de intervalos.
@@ -864,8 +870,9 @@ Cada elemento equivale a el numero de intervalo.
 **Etiqueta:** _alturas._\newline
 **Tipo de dato:** _Lista de enteros._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-
-    alturas: [ 1, 3, 5, 8 ] 
+\begin{minted}{yaml}
+alturas: [ 1, 3, 5, 8 ] 
+\end{minted}
 
 ##### Superposicion de altura
 Apilamiento de alturas.
@@ -875,11 +882,12 @@ voz + altura = numero de intervalo.
 **Etiqueta:** _voces._\newline
 **Tipo de dato:** _Lista de listas de enteros._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-
-    voces:
-       - [ 8, 6 ] 
-       - [ 5 ] 
-       - [ 3 ]
+\begin{minted}{yaml}
+voces:
+   - [ 8, 6 ] 
+   - [ 5 ] 
+   - [ 3 ]
+\end{minted}
 
 ##### Transportar
 Ajuste de alturas.
@@ -887,8 +895,9 @@ Ajuste de alturas.
 **Etiqueta:** _transportar._\newline
 **Tipo de dato:** _Número entero._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-
-    transportar: 60 # C
+\begin{minted}{yaml}
+transportar: 60 # C
+\end{minted}
 
 ##### Transponer
 Ajuste de alturas pero dentro del set intervalos.
@@ -897,8 +906,10 @@ Semitonos, registración fija.
 **Etiqueta:** _transponer._\newline
 **Tipo de dato:** _Número entero._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
+\begin{minted}{yaml}
+transponer: 1
+\end{minted}
 
-    transponer: 1
 
 ##### Duracion
 Lista ordenada de duraciones.
@@ -907,7 +918,9 @@ Lista ordenada de duraciones.
 **Tipo de dato:** _Lista de decimales._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
 
-    duraciones: [ 1, .5, .5, 1, 1 ]
+\begin{minted}{yaml}
+duraciones: [ 1, .5, .5, 1, 1 ]
+\end{minted}
 
 ##### Pulso 
 Tempo, Pulsos Por Minuto.
@@ -915,8 +928,9 @@ Tempo, Pulsos Por Minuto.
 **Etiqueta:** _bpm_\newline
 **Tipo de dato:** _Número entero._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-
-    bpm: 62
+\begin{minted}{yaml}
+bpm: 62
+\end{minted}
 
 ##### Clave de compás
 Clave de metrica.
@@ -925,8 +939,9 @@ representando una fracción (numerador / denominador).
 **Etiqueta:** _metro._\newline
 **Tipo de dato:** _Cadena de caracteres._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-
-    metro: 4/4
+\begin{minted}{yaml}
+metro: 4/4
+\end{minted}
 
 ##### Ajuste temporal
 Desfazage temporal del momento en el que originalmente comienza la unidad.
@@ -937,8 +952,9 @@ offset : + / - offset con la "posicion" original
 **Etiqueta:** _desplazar._\newline
 **Tipo de dato:** _Número entero._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
- 
-    desplazar: -2
+\begin{minted}{yaml}
+desplazar: -2
+\end{minted}
 
 ##### Repeticiones 
 Catidad de veces q se toca esta unidad.
@@ -948,17 +964,19 @@ no es trasferible, no se hereda, caso contrario se reterarian los referidos.
 **Etiqueta:** _reiterar._\newline
 **Tipo de dato:** _Número entero._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
- 
-    reiterar: 3
-
+\begin{minted}{yaml}
+reiterar: 3
+\end{minted}
+    
 ##### Dinámica
 Lista ordenada de dinámicas.
 
 **Etiqueta:** _dinamicas._\newline
 **Tipo de dato:** _Lista de número decimales._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
- 
-    dinamicas: [ 1, .5, .4 ]
+\begin{minted}{yaml}
+dinamicas: [ 1, .5, .4 ]
+\end{minted}
 
 ##### Fluctuación
 fluctuciones dinámicas.
@@ -966,10 +984,11 @@ fluctuciones dinámicas.
 **Etiqueta:** _fluctuacion, min y max._\newline
 **Tipo de dato:** _dicionario de decimales._\newline
 **Valor por defecto:** _min: 0, max: 0._\newline
-
-    fluctuacion:
-      min: .3
-      max: .7
+\begin{minted}{yaml}
+fluctuacion:
+  min: .3
+  max: .7
+\end{minted}
 
 ##### Sentido de las listas 
 Revierte parametros del tipo lista.
@@ -978,8 +997,9 @@ Deben corresponderse a la etiqueta de otro parametro del tipo lista.
 **Etiqueta:** _revertir._\newline
 **Tipo de dato:** _Lista de cadenas de caracteres._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
- 
-    revertir: [ 'duraciones', 'dinamicas' ]
+\begin{minted}{yaml}
+revertir: [ 'duraciones', 'dinamicas' ]
+\end{minted}
 
 ##### Canal MIDI 
 Número de Canal MIDI.
@@ -987,8 +1007,9 @@ Número de Canal MIDI.
 **Etiqueta:** _canal._\newline
 **Tipo de dato:** _Número entero._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
- 
-    canal: 3
+\begin{minted}{yaml}
+canal: 3
+\end{minted}
 
 ##### Instrumento MIDI 
 Número de Instrumento MIDI en el banco actual.\newline
@@ -996,8 +1017,9 @@ Número de Instrumento MIDI en el banco actual.\newline
 **Etiqueta:** _programa._\newline
 **Tipo de dato:** _Número entero._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
- 
-    programa: 103
+\begin{minted}{yaml}
+programa: 103
+\end{minted}
 
 ##### Cambios de control
 Secuencia de pares número controlador y valor a asignar.
@@ -1005,11 +1027,12 @@ Secuencia de pares número controlador y valor a asignar.
 **Etiqueta:** _controles._\newline
 **Tipo de dato:** _Lista de listas de tuples._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-
-    controles:
-      - [ 70 : 80,  71 : 90, 72 : 100 ]
-      - [ 33 : 121, 51 : 120 ]
-      - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
+\begin{minted}{yaml}
+controles:
+  - [ 70 : 80,  71 : 90, 72 : 100 ]
+  - [ 33 : 121, 51 : 120 ]
+  - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
+\end{minted}
 
 ##### RPN
 Registered Parameter Number Call
@@ -1027,10 +1050,11 @@ Para seleccionar el instrumento #130 = 2do banco, 3º pograma
 Instrumento/programa = CC#0:2, CC#32:32
 
 CC#0:2, CC#32:2
-
-    controles:
-      - [  0 : 2 ]
-      - [ 32 : 3 ]
+\begin{minted}{yaml}
+controles:
+  - [  0 : 2 ]
+  - [ 32 : 3 ]
+\end{minted}
 
 ##### NRPN
 Non Registered Parameter Number Call
@@ -1204,623 +1228,626 @@ Pautas / guias :
 
 ## pista.py
 
-    class Pista:
-      """
-      Clase para cada definicion de a partir de archivos .yml
-      YAML => Pista => Canal 
-      """
-      cantidad = 0 
-      defactos = \{
-        'bpm'           : 60,
-        'canal'         : 1,
-        'programa'      : 1,
-        'metro'         : '4/4',
-        'alturas'       : [ 1 ],
-        'tonos'         : [ 0 ],
-        'clave'         : { 'alteraciones' : 0, 'modo' : 0 },
-        'intervalos'    : [ 1 ],
-        'voces'         : None,
-        'duraciones'    : [ 1 ],
-        'desplazar'     : 0,
-        'dinamicas'     : [ 1 ],
-        'fluctuacion'   : { 'min' : 1, 'max' : 1 },
-        'transportar'   : 0,
-        'transponer'    : 0,
-        'controles'     : None,
-        'reiterar'      : 1,
-        'referente'     : None,
-        'afinacionNota' : None,
-        'sysEx'         : None,
-        'uniSysEx'      : None,
-        'NRPN'          : None,
-        'RPN'           : None,
-     \} 
-     
-      def __init__( 
-        self,
-        nombre,
-        paleta,
-        macroforma,
-      ):
-        self.nombre     = nombre
-        self.orden      = Pista.cantidad 
-        Pista.cantidad += 1
-    
-        self.macroforma = macroforma
-        self.paleta     = paleta
-        self.registros  = {}
-        self.secuencia  = [] 
-        self.ordenar()
-    
-        #self.oid        = str( self.orden ) + self.nombre 
-        #self.duracion   = 0
-    
-        #self.secuencia = self.ordenar( macroforma )
-    
-    
-      def __str__( self ):
-        o = '' 
-        for attr, value in self.__dict__.items():
-          l = str( attr ) + ':' + str( value )
-          o += l + 'saltodelinea'
-        return o
-    
-      """
-      Organiza unidades según relacion de referencia
-      Pasa cada unidad despues de analizarla por rutina para generar
-      articulaciones 
-      """
-      def ordenar( 
-        self,
-        forma    = None,
-        nivel    = 0,
-        herencia = {},
-      ):
-        forma = forma if forma is not None else self.macroforma
-        nivel += 1
+\begin{minted}{python}
+class Pista:
+  """
+  Clase para cada definicion de a partir de archivos .yml
+  YAML => Pista => Canal 
+  """
+  cantidad = 0 
+  defactos = \{
+    'bpm'           : 60,
+    'canal'         : 1,
+    'programa'      : 1,
+    'metro'         : '4/4',
+    'alturas'       : [ 1 ],
+    'tonos'         : [ 0 ],
+    'clave'         : { 'alteraciones' : 0, 'modo' : 0 },
+    'intervalos'    : [ 1 ],
+    'voces'         : None,
+    'duraciones'    : [ 1 ],
+    'desplazar'     : 0,
+    'dinamicas'     : [ 1 ],
+    'fluctuacion'   : { 'min' : 1, 'max' : 1 },
+    'transportar'   : 0,
+    'transponer'    : 0,
+    'controles'     : None,
+    'reiterar'      : 1,
+    'referente'     : None,
+    'afinacionNota' : None,
+    'sysEx'         : None,
+    'uniSysEx'      : None,
+    'NRPN'          : None,
+    'RPN'           : None,
+ \} 
+ 
+  def __init__( 
+    self,
+    nombre,
+    paleta,
+    macroforma,
+  ):
+    self.nombre     = nombre
+    self.orden      = Pista.cantidad 
+    Pista.cantidad += 1
+
+    self.macroforma = macroforma
+    self.paleta     = paleta
+    self.registros  = {}
+    self.secuencia  = [] 
+    self.ordenar()
+
+    #self.oid        = str( self.orden ) + self.nombre 
+    #self.duracion   = 0
+
+    #self.secuencia = self.ordenar( macroforma )
+
+
+  def __str__( self ):
+    o = '' 
+    for attr, value in self.__dict__.items():
+      l = str( attr ) + ':' + str( value )
+      o += l + 'saltodelinea'
+    return o
+
+  """
+  Organiza unidades según relacion de referencia
+  Pasa cada unidad despues de analizarla por rutina para generar
+  articulaciones 
+  """
+  def ordenar( 
+    self,
+    forma    = None,
+    nivel    = 0,
+    herencia = {},
+  ):
+    forma = forma if forma is not None else self.macroforma
+    nivel += 1
+    """
+    Limpiar parametros q no se heredan.
+    """
+    herencia.pop( 'unidades', None )
+    herencia.pop( 'reiterar', None )
+
+    """
+    Recorre lista ordenada unidades principales.
+    """
+    error =  "PISTA \"" + self.nombre + "\""
+    for unidad in forma:  
+      verboseprint( '-' * ( nivel - 1 ) +  unidad )
+      try:
+        if unidad not in self.paleta:
+          error +=  " NO ENCUENTRO \"" + unidad + "\"  "  
+          raise Pifie( unidad, error )
+          pass
+        unidad_objeto = self.paleta[ unidad ]
         """
-        Limpiar parametros q no se heredan.
+        Cuenta recurrencias de esta unidad en este nivel.
+        TODO: Que los cuente en cualquier nivel.
         """
-        herencia.pop( 'unidades', None )
-        herencia.pop( 'reiterar', None )
-    
+        recurrencia = sum( 
+          [ 1 for r in self.registros[ nivel ] if r[ 'nombre' ] == unidad ]
+        ) if nivel in self.registros else 0 
         """
-        Recorre lista ordenada unidades principales.
+        Dicionario para ingresar al arbol de registros.
         """
-        error =  "PISTA \"" + self.nombre + "\""
-        for unidad in forma:  
-          verboseprint( '-' * ( nivel - 1 ) +  unidad )
-          try:
-            if unidad not in self.paleta:
-              error +=  " NO ENCUENTRO \"" + unidad + "\"  "  
-              raise Pifie( unidad, error )
-              pass
-            unidad_objeto = self.paleta[ unidad ]
+        registro = { 
+          'nombre'      : unidad,
+          'recurrencia' : recurrencia,
+          'nivel'       : nivel,
+        }
+
+        """
+        Si el referente está en el diccionario herencia registrar referente.
+        """
+        if 'referente' in herencia:
+          registro[ 'referente' ] = herencia[ 'referente' ] 
+
+        """
+        Crea parametros de unidad combinando originales con herencia
+        Tambien agrega el registro de referentes
+        """
+        sucesion = {
+          **unidad_objeto,
+          **herencia,
+          **registro
+        } 
+        """
+        Cantidad de repeticiones de la unidad.
+        """
+        reiterar = unidad_objeto[ 'reiterar' ] if 'reiterar' in unidad_objeto else 1
+        # n = str( nivel ) + unidad + str( reiterar )
+        for r in range( reiterar ):
+          self.registros.setdefault( nivel , [] ).append( registro )
+
+          if 'unidades' in unidad_objeto:
             """
-            Cuenta recurrencias de esta unidad en este nivel.
-            TODO: Que los cuente en cualquier nivel.
+            Si esta tiene parametro "unidades", refiere a otras unidades "hijas" 
+            recursión: pasar de vuelta por esta funcion.
             """
-            recurrencia = sum( 
-              [ 1 for r in self.registros[ nivel ] if r[ 'nombre' ] == unidad ]
-            ) if nivel in self.registros else 0 
+            sucesion[ 'referente' ] = registro 
+            self.ordenar( 
+              unidad_objeto[ 'unidades' ],
+              nivel,
+              sucesion,
+            ) 
+
+          else: 
             """
-            Dicionario para ingresar al arbol de registros.
+            Si esta unidad no refiere a otra unidades, 
+            Unidad célula o "unidad seminal"
             """
-            registro = { 
-              'nombre'      : unidad,
-              'recurrencia' : recurrencia,
-              'nivel'       : nivel,
+            """
+            Combinar "defactos" con propiedas resultantes de unidad + "herencia" y registro.
+            """
+            factura = {
+              **Pista.defactos,
+              **sucesion,
             }
-    
             """
-            Si el referente está en el diccionario herencia registrar referente.
+            Secuenciar articulaciones
             """
-            if 'referente' in herencia:
-              registro[ 'referente' ] = herencia[ 'referente' ] 
-    
-            """
-            Crea parametros de unidad combinando originales con herencia
-            Tambien agrega el registro de referentes
-            """
-            sucesion = {
-              **unidad_objeto,
-              **herencia,
-              **registro
-            } 
-            """
-            Cantidad de repeticiones de la unidad.
-            """
-            reiterar = unidad_objeto[ 'reiterar' ] if 'reiterar' in unidad_objeto else 1
-            # n = str( nivel ) + unidad + str( reiterar )
-            for r in range( reiterar ):
-              self.registros.setdefault( nivel , [] ).append( registro )
-    
-              if 'unidades' in unidad_objeto:
-                """
-                Si esta tiene parametro "unidades", refiere a otras unidades "hijas" 
-                recursión: pasar de vuelta por esta funcion.
-                """
-                sucesion[ 'referente' ] = registro 
-                self.ordenar( 
-                  unidad_objeto[ 'unidades' ],
-                  nivel,
-                  sucesion,
-                ) 
-    
-              else: 
-                """
-                Si esta unidad no refiere a otra unidades, 
-                Unidad célula o "unidad seminal"
-                """
-                """
-                Combinar "defactos" con propiedas resultantes de unidad + "herencia" y registro.
-                """
-                factura = {
-                  **Pista.defactos,
-                  **sucesion,
-                }
-                """
-                Secuenciar articulaciones
-                """
-                self.secuencia += self.secuenciar( factura ) 
-          except Pifie as e:
-              print(e)
-    
+            self.secuencia += self.secuenciar( factura ) 
+      except Pifie as e:
+          print(e)
+
+  """
+  Genera una secuencia de ariculaciones musicales 
+  a partir de unidades preprocesadas. 
+  """
+  def secuenciar( 
+    self,
+    unidad
+  ):
+
+    """
+    Cambia el sentido de los parametros del tipo lista
+    TODO: ¿convertir cualquier string o int en lista?
+    """
+    revertir = unidad[ 'revertir' ] if 'revertir' in unidad else None 
+    if isinstance( revertir , list ): 
+      for r in revertir:
+        if r in unidad:
+          unidad[ r ].reverse() 
+    elif isinstance( revertir , str ):
+      if revertir in unidad:
+        unidad[ revertir ].reverse() 
+
+    intervalos    = unidad[ 'intervalos' ]
+    duraciones    = unidad[ 'duraciones' ]
+    dinamicas     = unidad[ 'dinamicas' ]
+    alturas       = unidad[ 'alturas' ]
+    tonos         = unidad[ 'tonos' ]
+    voces         = unidad[ 'voces' ]
+    ganador_voces = max( voces, key = len) if voces else [ 0 ]
+    capas         = unidad[ 'controles' ]
+    ganador_capas = max( capas , key = len) if capas else [ 0 ]
+
+    """
+    Evaluar que parametro lista es el que mas valores tiene.
+    """
+    candidatos = [ 
+      dinamicas,
+      duraciones,
+      alturas,
+      ganador_voces,
+      ganador_capas,
+      tonos,
+    ]
+    ganador = max( candidatos, key = len )
+    pasos = len( ganador )
+    secuencia = []
+    for paso in range( pasos ):
       """
-      Genera una secuencia de ariculaciones musicales 
-      a partir de unidades preprocesadas. 
+      Consolidad "articulacion" a partir de combinar parametros: altura,
+      duracion, dinamica, etc.
       """
-      def secuenciar( 
-        self,
-        unidad
-      ):
-    
+      duracion = duraciones[ paso % len( duraciones ) ]
+      """
+      Variaciones de dinámica.
+      """
+      rand_min = unidad['fluctuacion']['min'] if 'min' in unidad[ 'fluctuacion' ] else None
+      rand_max = unidad['fluctuacion']['max'] if 'max' in unidad[ 'fluctuacion' ] else None
+      fluctuacion = random.uniform( 
+         rand_min,
+         rand_max 
+      ) if rand_min or rand_max else 1
+      """
+      Asignar dinámica.
+      """
+      dinamica = dinamicas[ paso % len( dinamicas ) ] * fluctuacion
+      """
+      Alturas, voz y superposición voces.
+      """
+      altura = alturas[ paso % len( alturas ) ]
+      tono   = tonos[ paso % len( tonos ) ]
+      acorde = []
+      nota = 'S' # Silencio
+      if altura != 0:
         """
-        Cambia el sentido de los parametros del tipo lista
-        TODO: ¿convertir cualquier string o int en lista?
+        Relacion: altura > puntero en el set de intervalos; Trasponer dentro
+        del set de intervalos, luego Transportar, sumar a la nota resultante.
         """
-        revertir = unidad[ 'revertir' ] if 'revertir' in unidad else None 
-        if isinstance( revertir , list ): 
-          for r in revertir:
-            if r in unidad:
-              unidad[ r ].reverse() 
-        elif isinstance( revertir , str ):
-          if revertir in unidad:
-            unidad[ revertir ].reverse() 
-    
-        intervalos    = unidad[ 'intervalos' ]
-        duraciones    = unidad[ 'duraciones' ]
-        dinamicas     = unidad[ 'dinamicas' ]
-        alturas       = unidad[ 'alturas' ]
-        tonos         = unidad[ 'tonos' ]
-        voces         = unidad[ 'voces' ]
-        ganador_voces = max( voces, key = len) if voces else [ 0 ]
-        capas         = unidad[ 'controles' ]
-        ganador_capas = max( capas , key = len) if capas else [ 0 ]
-    
+        transponer  = unidad[ 'transponer' ] 
+        transportar = unidad[ 'transportar' ]
+        nota = transportar + intervalos[ ( ( altura - 1 ) + transponer ) % len( intervalos ) ] 
         """
-        Evaluar que parametro lista es el que mas valores tiene.
+        Armar superposicion de voces.
         """
-        candidatos = [ 
-          dinamicas,
-          duraciones,
-          alturas,
-          ganador_voces,
-          ganador_capas,
-          tonos,
-        ]
-        ganador = max( candidatos, key = len )
-        pasos = len( ganador )
-        secuencia = []
-        for paso in range( pasos ):
-          """
-          Consolidad "articulacion" a partir de combinar parametros: altura,
-          duracion, dinamica, etc.
-          """
-          duracion = duraciones[ paso % len( duraciones ) ]
-          """
-          Variaciones de dinámica.
-          """
-          rand_min = unidad['fluctuacion']['min'] if 'min' in unidad[ 'fluctuacion' ] else None
-          rand_max = unidad['fluctuacion']['max'] if 'max' in unidad[ 'fluctuacion' ] else None
-          fluctuacion = random.uniform( 
-             rand_min,
-             rand_max 
-          ) if rand_min or rand_max else 1
-          """
-          Asignar dinámica.
-          """
-          dinamica = dinamicas[ paso % len( dinamicas ) ] * fluctuacion
-          """
-          Alturas, voz y superposición voces.
-          """
-          altura = alturas[ paso % len( alturas ) ]
-          tono   = tonos[ paso % len( tonos ) ]
-          acorde = []
-          nota = 'S' # Silencio
-          if altura != 0:
-            """
-            Relacion: altura > puntero en el set de intervalos; Trasponer dentro
-            del set de intervalos, luego Transportar, sumar a la nota resultante.
-            """
-            transponer  = unidad[ 'transponer' ] 
-            transportar = unidad[ 'transportar' ]
-            nota = transportar + intervalos[ ( ( altura - 1 ) + transponer ) % len( intervalos ) ] 
-            """
-            Armar superposicion de voces.
-            """
-            if voces:
-              for v in voces:
-                voz = ( altura + ( v[ paso % len( v ) ] ) - 1 ) + transponer
-                acorde += [ transportar +  intervalos[ voz % len( intervalos ) ]  ]
-    
-          """
-          Cambios de control.
-          """
-          controles = []
-          if capas:
-            for capa in capas:
-              controles += [ capa[ paso % len( capa ) ] ]
-    
-          """
-          TO DO: en vez de pasar toda la unidad: 
-          extraer solo los paramtros de la articulacion:
-    
-          desplazar
-          changeNoteTuning
-          changeTuningBank
-          changeTuningProgram
-          sysEx
-          uniSysEx
-          NPR ( Numeroe Parametros No Registrados )
-          NRPN: Numero de Parametro No Registrado 
-          """
-    
-          """
-          Articulación a secuenciar.
-          """
-          articulacion = {
-            **unidad, # TO DO: Limpiar, pasa algunas cosas de mas aca...
-            # extraer parametros de segmento y agregarlos si es (1er articulacion de
-            # la unidad) o no segun corresponda 
-            'unidad'      : unidad[ 'nombre' ],
-            'orden'       : paso,
-            'altura'      : nota,
-            'tono'        : tono,
-            'acorde'      : acorde,
-            'duracion'    : duracion,
-            'dinamica'    : dinamica,
-            'controles'   : controles,
-          }
-          secuencia.append( articulacion )
-        return secuencia 
+        if voces:
+          for v in voces:
+            voz = ( altura + ( v[ paso % len( v ) ] ) - 1 ) + transponer
+            acorde += [ transportar +  intervalos[ voz % len( intervalos ) ]  ]
+
+      """
+      Cambios de control.
+      """
+      controles = []
+      if capas:
+        for capa in capas:
+          controles += [ capa[ paso % len( capa ) ] ]
+
+      """
+      TO DO: en vez de pasar toda la unidad: 
+      extraer solo los paramtros de la articulacion:
+
+      desplazar
+      changeNoteTuning
+      changeTuningBank
+      changeTuningProgram
+      sysEx
+      uniSysEx
+      NPR ( Numeroe Parametros No Registrados )
+      NRPN: Numero de Parametro No Registrado 
+      """
+
+      """
+      Articulación a secuenciar.
+      """
+      articulacion = {
+        **unidad, # TO DO: Limpiar, pasa algunas cosas de mas aca...
+        # extraer parametros de segmento y agregarlos si es (1er articulacion de
+        # la unidad) o no segun corresponda 
+        'unidad'      : unidad[ 'nombre' ],
+        'orden'       : paso,
+        'altura'      : nota,
+        'tono'        : tono,
+        'acorde'      : acorde,
+        'duracion'    : duracion,
+        'dinamica'    : dinamica,
+        'controles'   : controles,
+      }
+      secuencia.append( articulacion )
+    return secuencia 
+\end{minted}
 
 ## main.py 
+\begin{minted}{python}
+"""
+Generar eventos MIDI a partir de cada pista
+"""
+EVENTOS = []
+for pista in PISTAS:
+  momento = 0
+  track = pista.orden
+  EVENTOS.append([
+    'addTrackName',
+    track,
+    momento,
+    pista.nombre
+  ])
+
+  EVENTOS.append([
+    'addCopyright',
+    track,
+    momento,
+    args.copyright
+  ])
+
+  parte = \{
+     'orden'     : track,
+     'nombre'    : pista.nombre,
+     'comienzo'  : comienzo, 
+     'etiquetas' : [],
+  \}
+  duracion_parte = 0
+
+  """
+  Loop principal:
+  Genera una secuencia de eventos MIDI lista de articulaciones.
+  """
+  for index, articulacion in enumerate( pista.secuencia ):
+
     """
-    Generar eventos MIDI a partir de cada pista
+    TO DO: agregar funcciones de midiutil adicionales:
+    https://midiutil.readthedocs.io/en/1.2.1/class.html#classref
+    [x] addCopyright
+    [x] addPitchWheelEvent
+    [x] changeNoteTunig
+    [ ] changeTuningBank
+    [ ] changeTuningProgram
+    [x] addSysEx
+    [x] addUniversalSysEx
+    [x] makeNRPNCall
+    [x] makeRPNCall
     """
-    EVENTOS = []
-    for pista in PISTAS:
-      momento = 0
-      track = pista.orden
+
+    verboseprint( articulacion )
+    precedente = pista.secuencia[ index - 1 ]
+    unidad     = articulacion[ 'unidad' ]
+    canal      = articulacion[ 'canal' ]
+    bpm        = articulacion[ 'bpm' ]
+    metro      = articulacion[ 'metro' ].split( '/' )
+    clave      = articulacion[ 'clave' ]
+    programa   = articulacion[ 'programa' ]
+    duracion   = articulacion[ 'duracion' ] 
+    tono       = articulacion[ 'tono' ] 
+
+    """
+    Primer articulación de la parte, agregar eventos fundamentales: pulso,
+    armadura de clave, compás y programa.
+    """
+    if ( index == 0 ):
       EVENTOS.append([
-        'addTrackName',
+        'addTempo',
         track,
         momento,
-        pista.nombre
+        bpm
       ])
-    
+
+      """
+      Clave de compás
+      https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.addTimeSignature
+      denominator  = potencia negativa de 2: log10( X ) / log10( 2 ) 
+      2 representa  una negra, 3 una corchea, etc.
+      """
+      numerador        = int( metro[0] ) 
+      denominador      = int( math.log10( int( metro[1] ) ) / math.log10( 2 ) )
+      relojes_por_tick = 12 * denominador
+      notas_por_pulso = 8
       EVENTOS.append([
-        'addCopyright',
+        'addTimeSignature',
         track,
         momento,
-        args.copyright
+        numerador,
+        denominador,
+        relojes_por_tick, 
+        notas_por_pulso
       ])
-    
-      parte = \{
-         'orden'     : track,
-         'nombre'    : pista.nombre,
-         'comienzo'  : comienzo, 
-         'etiquetas' : [],
-      \}
-      duracion_parte = 0
-    
+
+      EVENTOS.append([
+        'addKeySignature',
+        track,
+        momento,
+        clave[ 'alteraciones' ],
+        # multiplica por el n de alteraciones
+        1, 
+        clave[ 'modo' ]
+      ])
+
+      EVENTOS.append([
+        'addProgramChange',
+        track,
+        canal,
+        momento,  
+        programa
+      ])
+
+    """
+    TO DO: Crear estructura superiores a articulacion llamada segmento
+    parametros de que ahora son relativios a la aritulacion #0
+    """
+    """
+    Primer articulacion de la Unidad,
+    inserta etiquetas y modificadores de unidad (desplazar).
+    """
+    if ( articulacion[ 'orden' ] == 0 ):
+      desplazar = articulacion[ 'desplazar' ]
+      # TODO raise error si desplazar + duracion es negativo
+      momento += desplazar 
+
       """
-      Loop principal:
-      Genera una secuencia de eventos MIDI lista de articulaciones.
+      Compone texto de la etiqueta a partir de nombre de unidad, numero de
+      iteración y referentes
+      """ 
+      texto = ''
+      ers = referir( articulacion[ 'referente' ] ) if articulacion[ 'referente' ] != None else [ ( 0, 0 ) ]
+      prs = [ ( 0, 0 ) ]
+      if precedente[ 'referente' ] != None: 
+        prs = referir( precedente[ 'referente' ] )
+      for er, pr in zip( ers , prs ):
+        if er != pr: 
+          texto += str( er[ 0 ] ) + ' #' + str( er[ 1 ] ) + 'saltodelinea' 
+      texto += unidad 
+      EVENTOS.append([
+       'addText',
+        track,
+        momento,
+        texto 
+      ])
       """
-      for index, articulacion in enumerate( pista.secuencia ):
-    
-        """
-        TO DO: agregar funcciones de midiutil adicionales:
-        https://midiutil.readthedocs.io/en/1.2.1/class.html#classref
-        [x] addCopyright
-        [x] addPitchWheelEvent
-        [x] changeNoteTunig
-        [ ] changeTuningBank
-        [ ] changeTuningProgram
-        [x] addSysEx
-        [x] addUniversalSysEx
-        [x] makeNRPNCall
-        [x] makeRPNCall
-        """
-    
-        verboseprint( articulacion )
-        precedente = pista.secuencia[ index - 1 ]
-        unidad     = articulacion[ 'unidad' ]
-        canal      = articulacion[ 'canal' ]
-        bpm        = articulacion[ 'bpm' ]
-        metro      = articulacion[ 'metro' ].split( '/' )
-        clave      = articulacion[ 'clave' ]
-        programa   = articulacion[ 'programa' ]
-        duracion   = articulacion[ 'duracion' ] 
-        tono       = articulacion[ 'tono' ] 
-    
-        """
-        Primer articulación de la parte, agregar eventos fundamentales: pulso,
-        armadura de clave, compás y programa.
-        """
-        if ( index == 0 ):
+      changeNoteTuning
+      """
+      if articulacion[ 'afinacionNota' ]:
+        EVENTOS.append([
+         'changeNoteTuning',
+          track, 
+          articulacion[ 'afinacionNota' ][ 'afinaciones' ],
+          articulacion[ 'afinacionNota' ][ 'canalSysEx' ],
+          articulacion[ 'afinacionNota' ][ 'tiempoReal' ],
+          articulacion[ 'afinacionNota' ][ 'programa' ],
+        ])
+      """
+      SysEx 
+      """
+      if articulacion[ 'sysEx' ]:
+        EVENTOS.append([
+         'addSysEx',
+          track, 
+          momento, 
+          articulacion[ 'sysEx' ][ 'fabricante' ],
+          articulacion[ 'sysEx' ][ 'playload' ],
+        ])
+      """
+      UniversalSysEx 
+      """
+      if articulacion[ 'uniSysEx' ]:
+        EVENTOS.append([
+         'addUniversalSysEx',
+          track, 
+          momento, 
+          articulacion[ 'uniSysEx' ][ 'codigo' ],
+          articulacion[ 'uniSysEx' ][ 'subCodigo' ],
+          articulacion[ 'uniSysEx' ][ 'playload' ],
+          articulacion[ 'uniSysEx' ][ 'canal' ],
+          articulacion[ 'uniSysEx' ][ 'tiempoReal' ],
+        ])
+      """
+      Numero de Parametro No Registrado
+      """
+      if articulacion[ 'NRPN' ]:
+        EVENTOS.append([
+         'makeNRPNCall',
+          track, 
+          canal, 
+          momento, 
+          articulacion[ 'NRPN' ][ 'control_msb' ],
+          articulacion[ 'NRPN' ][ 'control_lsb' ],
+          articulacion[ 'NRPN' ][ 'data_msb' ],
+          articulacion[ 'NRPN' ][ 'data_lsb' ],
+          articulacion[ 'NRPN' ][ 'ordenar' ],
+        ])
+
+      """
+      Numero de Parametro Registrado
+      """
+      if articulacion[ 'RPN' ]:
+        EVENTOS.append([
+         'makeRPNCall',
+          track, 
+          canal, 
+          momento, 
+          articulacion[ 'RPN' ][ 'control_msb' ],
+          articulacion[ 'RPN' ][ 'control_lsb' ],
+          articulacion[ 'RPN' ][ 'data_msb' ],
+          articulacion[ 'RPN' ][ 'data_lsb' ],
+          articulacion[ 'RPN' ][ 'ordenar' ],
+        ])
+      
+      etiqueta = {
+        'texto'  : texto,
+        'cuando' : momento,
+        #'hasta' : duracion_unidad,
+      }
+      parte[ 'etiquetas' ].append( etiqueta ) 
+      # Termina articulacion 0, estos van a ser parametros de Segmento
+
+    """
+    Agrega cualquier cambio de parametro, 
+    comparar cada uno con la articulacion previa.
+    """
+    if ( precedente['bpm'] != bpm ):
+      EVENTOS.append([
+        'addTempo',
+        track,
+        momento,
+        bpm,
+      ])
+
+    if ( precedente[ 'metro' ] != metro ):
+      numerador        = int( metro[ 0 ] ) 
+      denominador      = int( math.log10( int( metro[ 1 ] ) ) / math.log10( 2 ) )
+      relojes_por_tick = 12 * denominador
+      notas_por_pulso = 8
+      EVENTOS.append([
+        'addTimeSignature',
+        track,
+        momento,
+        numerador,
+        denominador,
+        relojes_por_tick, 
+        notas_por_pulso
+      ])
+
+    if ( precedente[ 'clave' ] != clave ):
+      EVENTOS.append([
+        'addKeySignature',
+        track,
+        momento,
+        clave[ 'alteraciones' ],
+        1, # multiplica por el n de alteraciones
+        clave[ 'modo' ]
+      ])
+
+    #if programa:
+    if ( precedente[ 'programa' ] != programa ):
+      EVENTOS.append([
+         'addProgramChange',
+         track,
+         canal, 
+         momento, 
+         programa
+      ])
+    #midi_bits.addText( pista.orden, momento , 'prgm : #' + str( programa ) )
+
+    if ( precedente[ 'tono' ] != tono ):
+      EVENTOS.append([
+         'addPitchWheelEvent',
+         track,
+         canal, 
+         momento, 
+         tono
+      ])
+
+
+    """
+    Agregar nota/s (altura, duracion, dinamica).
+    Si existe acorde en la articulación armar una lista con cada voz superpuesta. 
+    o una lista de solamente un elemento.
+    """
+    voces = articulacion[ 'acorde' ] if articulacion[ 'acorde' ] else [ articulacion[ 'altura' ] ]
+    dinamica = int( articulacion[ 'dinamica' ] * 126 )
+    for voz in voces:
+      altura = voz 
+      """
+      Si la articulacion es un silencio (S) agregar nota sin altura ni dinamica.
+      """
+      if voz == 'S':
+        dinamica = 0
+        altura = 0
+      EVENTOS.append([
+        'addNote',
+        track, 
+        canal, 
+        altura, 
+        momento, 
+        duracion, 
+        dinamica,
+      ])
+
+
+    """
+    Agregar cambios de control
+    """
+    if articulacion[ 'controles' ]:
+      for control in articulacion[ 'controles' ]:
+        for control, valor in control.items():
           EVENTOS.append([
-            'addTempo',
-            track,
-            momento,
-            bpm
-          ])
-    
-          """
-          Clave de compás
-          https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.addTimeSignature
-          denominator  = potencia negativa de 2: log10( X ) / log10( 2 ) 
-          2 representa  una negra, 3 una corchea, etc.
-          """
-          numerador        = int( metro[0] ) 
-          denominador      = int( math.log10( int( metro[1] ) ) / math.log10( 2 ) )
-          relojes_por_tick = 12 * denominador
-          notas_por_pulso = 8
-          EVENTOS.append([
-            'addTimeSignature',
-            track,
-            momento,
-            numerador,
-            denominador,
-            relojes_por_tick, 
-            notas_por_pulso
-          ])
-    
-          EVENTOS.append([
-            'addKeySignature',
-            track,
-            momento,
-            clave[ 'alteraciones' ],
-            # multiplica por el n de alteraciones
-            1, 
-            clave[ 'modo' ]
-          ])
-    
-          EVENTOS.append([
-            'addProgramChange',
-            track,
-            canal,
-            momento,  
-            programa
-          ])
-    
-        """
-        TO DO: Crear estructura superiores a articulacion llamada segmento
-        parametros de que ahora son relativios a la aritulacion #0
-        """
-        """
-        Primer articulacion de la Unidad,
-        inserta etiquetas y modificadores de unidad (desplazar).
-        """
-        if ( articulacion[ 'orden' ] == 0 ):
-          desplazar = articulacion[ 'desplazar' ]
-          # TODO raise error si desplazar + duracion es negativo
-          momento += desplazar 
-    
-          """
-          Compone texto de la etiqueta a partir de nombre de unidad, numero de
-          iteración y referentes
-          """ 
-          texto = ''
-          ers = referir( articulacion[ 'referente' ] ) if articulacion[ 'referente' ] != None else [ ( 0, 0 ) ]
-          prs = [ ( 0, 0 ) ]
-          if precedente[ 'referente' ] != None: 
-            prs = referir( precedente[ 'referente' ] )
-          for er, pr in zip( ers , prs ):
-            if er != pr: 
-              texto += str( er[ 0 ] ) + ' #' + str( er[ 1 ] ) + 'saltodelinea' 
-          texto += unidad 
-          EVENTOS.append([
-           'addText',
-            track,
-            momento,
-            texto 
-          ])
-          """
-          changeNoteTuning
-          """
-          if articulacion[ 'afinacionNota' ]:
-            EVENTOS.append([
-             'changeNoteTuning',
-              track, 
-              articulacion[ 'afinacionNota' ][ 'afinaciones' ],
-              articulacion[ 'afinacionNota' ][ 'canalSysEx' ],
-              articulacion[ 'afinacionNota' ][ 'tiempoReal' ],
-              articulacion[ 'afinacionNota' ][ 'programa' ],
-            ])
-          """
-          SysEx 
-          """
-          if articulacion[ 'sysEx' ]:
-            EVENTOS.append([
-             'addSysEx',
-              track, 
-              momento, 
-              articulacion[ 'sysEx' ][ 'fabricante' ],
-              articulacion[ 'sysEx' ][ 'playload' ],
-            ])
-          """
-          UniversalSysEx 
-          """
-          if articulacion[ 'uniSysEx' ]:
-            EVENTOS.append([
-             'addUniversalSysEx',
-              track, 
-              momento, 
-              articulacion[ 'uniSysEx' ][ 'codigo' ],
-              articulacion[ 'uniSysEx' ][ 'subCodigo' ],
-              articulacion[ 'uniSysEx' ][ 'playload' ],
-              articulacion[ 'uniSysEx' ][ 'canal' ],
-              articulacion[ 'uniSysEx' ][ 'tiempoReal' ],
-            ])
-          """
-          Numero de Parametro No Registrado
-          """
-          if articulacion[ 'NRPN' ]:
-            EVENTOS.append([
-             'makeNRPNCall',
-              track, 
-              canal, 
-              momento, 
-              articulacion[ 'NRPN' ][ 'control_msb' ],
-              articulacion[ 'NRPN' ][ 'control_lsb' ],
-              articulacion[ 'NRPN' ][ 'data_msb' ],
-              articulacion[ 'NRPN' ][ 'data_lsb' ],
-              articulacion[ 'NRPN' ][ 'ordenar' ],
-            ])
-    
-          """
-          Numero de Parametro Registrado
-          """
-          if articulacion[ 'RPN' ]:
-            EVENTOS.append([
-             'makeRPNCall',
-              track, 
-              canal, 
-              momento, 
-              articulacion[ 'RPN' ][ 'control_msb' ],
-              articulacion[ 'RPN' ][ 'control_lsb' ],
-              articulacion[ 'RPN' ][ 'data_msb' ],
-              articulacion[ 'RPN' ][ 'data_lsb' ],
-              articulacion[ 'RPN' ][ 'ordenar' ],
-            ])
-          
-          etiqueta = {
-            'texto'  : texto,
-            'cuando' : momento,
-            #'hasta' : duracion_unidad,
-          }
-          parte[ 'etiquetas' ].append( etiqueta ) 
-          # Termina articulacion 0, estos van a ser parametros de Segmento
-    
-        """
-        Agrega cualquier cambio de parametro, 
-        comparar cada uno con la articulacion previa.
-        """
-        if ( precedente['bpm'] != bpm ):
-          EVENTOS.append([
-            'addTempo',
-            track,
-            momento,
-            bpm,
-          ])
-    
-        if ( precedente[ 'metro' ] != metro ):
-          numerador        = int( metro[ 0 ] ) 
-          denominador      = int( math.log10( int( metro[ 1 ] ) ) / math.log10( 2 ) )
-          relojes_por_tick = 12 * denominador
-          notas_por_pulso = 8
-          EVENTOS.append([
-            'addTimeSignature',
-            track,
-            momento,
-            numerador,
-            denominador,
-            relojes_por_tick, 
-            notas_por_pulso
-          ])
-    
-        if ( precedente[ 'clave' ] != clave ):
-          EVENTOS.append([
-            'addKeySignature',
-            track,
-            momento,
-            clave[ 'alteraciones' ],
-            1, # multiplica por el n de alteraciones
-            clave[ 'modo' ]
-          ])
-    
-        #if programa:
-        if ( precedente[ 'programa' ] != programa ):
-          EVENTOS.append([
-             'addProgramChange',
-             track,
-             canal, 
-             momento, 
-             programa
-          ])
-        #midi_bits.addText( pista.orden, momento , 'prgm : #' + str( programa ) )
-    
-        if ( precedente[ 'tono' ] != tono ):
-          EVENTOS.append([
-             'addPitchWheelEvent',
-             track,
-             canal, 
-             momento, 
-             tono
-          ])
-    
-    
-        """
-        Agregar nota/s (altura, duracion, dinamica).
-        Si existe acorde en la articulación armar una lista con cada voz superpuesta. 
-        o una lista de solamente un elemento.
-        """
-        voces = articulacion[ 'acorde' ] if articulacion[ 'acorde' ] else [ articulacion[ 'altura' ] ]
-        dinamica = int( articulacion[ 'dinamica' ] * 126 )
-        for voz in voces:
-          altura = voz 
-          """
-          Si la articulacion es un silencio (S) agregar nota sin altura ni dinamica.
-          """
-          if voz == 'S':
-            dinamica = 0
-            altura = 0
-          EVENTOS.append([
-            'addNote',
+           'addControllerEvent',
             track, 
             canal, 
-            altura, 
             momento, 
-            duracion, 
-            dinamica,
+            control,
+            valor, 
           ])
-    
-    
-        """
-        Agregar cambios de control
-        """
-        if articulacion[ 'controles' ]:
-          for control in articulacion[ 'controles' ]:
-            for control, valor in control.items():
-              EVENTOS.append([
-               'addControllerEvent',
-                track, 
-                canal, 
-                momento, 
-                control,
-                valor, 
-              ])
-    
-    
-        momento += duracion
-        duracion_parte += ( duracion *  60 ) / bpm 
-    
-      PARTES.append( parte )
-\newpage
 
+
+    momento += duracion
+    duracion_parte += ( duracion *  60 ) / bpm 
+
+  PARTES.append( parte )
+\end{minted}
+\newpage
 # Bibliografía
 
 Reserva de referencias: 
