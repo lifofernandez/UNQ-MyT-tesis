@@ -313,6 +313,7 @@ $endif$
 %\usepackage{amsthm}
 %\newtheorem{mydef}{Definicion}
 
+%\newminted{python}{frame=lines,framerule=1pt}
 \usepackage{minted}
 
 \begin{document}
