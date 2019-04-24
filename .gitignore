@@ -1,3 +1,4 @@
 _minted-*
 output.*
+!*.pdf
 texput.log
