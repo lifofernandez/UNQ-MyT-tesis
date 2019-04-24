@@ -714,8 +714,8 @@ Título de la pista.
 **Etiqueta:** _nombre._\newline
 **Tipo de dato:** _Cadena de caracteres._\newline
 **Valor por defecto:** _¿nombre del fichero?_
-\begin{minted}{python}
-    nombre: 'Pista 1'
+\begin{minted}{yaml}
+nombre: 'Pista 1'
 \end{minted}
 
 ##### Forma

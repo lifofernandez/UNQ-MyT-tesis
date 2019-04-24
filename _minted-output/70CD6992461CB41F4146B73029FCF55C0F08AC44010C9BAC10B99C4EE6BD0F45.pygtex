@@ -1,0 +1,292 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+class Pista:
+  \PYGZdq{}\PYGZdq{}\PYGZdq{}
+  Clase para cada definicion de a partir de archivos .yml
+  YAML =\PYGZgt{} Pista =\PYGZgt{} Canal
+  \PYGZdq{}\PYGZdq{}\PYGZdq{}
+  cantidad = 0
+  defactos = \PYGZbs{}\PYGZob{}
+    \PYGZsq{}bpm\PYGZsq{}           : 60,
+    \PYGZsq{}canal\PYGZsq{}         : 1,
+    \PYGZsq{}programa\PYGZsq{}      : 1,
+    \PYGZsq{}metro\PYGZsq{}         : \PYGZsq{}4/4\PYGZsq{},
+    \PYGZsq{}alturas\PYGZsq{}       : [ 1 ],
+    \PYGZsq{}tonos\PYGZsq{}         : [ 0 ],
+    \PYGZsq{}clave\PYGZsq{}         : \PYGZob{} \PYGZsq{}alteraciones\PYGZsq{} : 0, \PYGZsq{}modo\PYGZsq{} : 0 \PYGZcb{},
+    \PYGZsq{}intervalos\PYGZsq{}    : [ 1 ],
+    \PYGZsq{}voces\PYGZsq{}         : None,
+    \PYGZsq{}duraciones\PYGZsq{}    : [ 1 ],
+    \PYGZsq{}desplazar\PYGZsq{}     : 0,
+    \PYGZsq{}dinamicas\PYGZsq{}     : [ 1 ],
+    \PYGZsq{}fluctuacion\PYGZsq{}   : \PYGZob{} \PYGZsq{}min\PYGZsq{} : 1, \PYGZsq{}max\PYGZsq{} : 1 \PYGZcb{},
+    \PYGZsq{}transportar\PYGZsq{}   : 0,
+    \PYGZsq{}transponer\PYGZsq{}    : 0,
+    \PYGZsq{}controles\PYGZsq{}     : None,
+    \PYGZsq{}reiterar\PYGZsq{}      : 1,
+    \PYGZsq{}referente\PYGZsq{}     : None,
+    \PYGZsq{}afinacionNota\PYGZsq{} : None,
+    \PYGZsq{}sysEx\PYGZsq{}         : None,
+    \PYGZsq{}uniSysEx\PYGZsq{}      : None,
+    \PYGZsq{}NRPN\PYGZsq{}          : None,
+    \PYGZsq{}RPN\PYGZsq{}           : None,
+ \PYGZbs{}\PYGZcb{}
+
+  def \PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}(
+    self,
+    nombre,
+    paleta,
+    macroforma,
+  ):
+    self.nombre     = nombre
+    self.orden      = Pista.cantidad
+    Pista.cantidad += 1
+
+    self.macroforma = macroforma
+    self.paleta     = paleta
+    self.registros  = \PYGZob{}\PYGZcb{}
+    self.secuencia  = []
+    self.ordenar()
+
+    \PYGZsh{}self.oid        = str( self.orden ) + self.nombre
+    \PYGZsh{}self.duracion   = 0
+
+    \PYGZsh{}self.secuencia = self.ordenar( macroforma )
+
+
+  def \PYGZus{}\PYGZus{}str\PYGZus{}\PYGZus{}( self ):
+    o = \PYGZsq{}\PYGZsq{}
+    for attr, value in self.\PYGZus{}\PYGZus{}dict\PYGZus{}\PYGZus{}.items():
+      l = str( attr ) + \PYGZsq{}:\PYGZsq{} + str( value )
+      o += l + \PYGZsq{}saltodelinea\PYGZsq{}
+    return o
+
+  \PYGZdq{}\PYGZdq{}\PYGZdq{}
+  Organiza unidades según relacion de referencia
+  Pasa cada unidad despues de analizarla por rutina para generar
+  articulaciones
+  \PYGZdq{}\PYGZdq{}\PYGZdq{}
+  def ordenar(
+    self,
+    forma    = None,
+    nivel    = 0,
+    herencia = \PYGZob{}\PYGZcb{},
+  ):
+    forma = forma if forma is not None else self.macroforma
+    nivel += 1
+    \PYGZdq{}\PYGZdq{}\PYGZdq{}
+    Limpiar parametros q no se heredan.
+    \PYGZdq{}\PYGZdq{}\PYGZdq{}
+    herencia.pop( \PYGZsq{}unidades\PYGZsq{}, None )
+    herencia.pop( \PYGZsq{}reiterar\PYGZsq{}, None )
+
+    \PYGZdq{}\PYGZdq{}\PYGZdq{}
+    Recorre lista ordenada unidades principales.
+    \PYGZdq{}\PYGZdq{}\PYGZdq{}
+    error =  \PYGZdq{}PISTA \PYGZbs{}\PYGZdq{}\PYGZdq{} + self.nombre + \PYGZdq{}\PYGZbs{}\PYGZdq{}\PYGZdq{}
+    for unidad in forma:
+      verboseprint( \PYGZsq{}\PYGZhy{}\PYGZsq{} * ( nivel \PYGZhy{} 1 ) +  unidad )
+      try:
+        if unidad not in self.paleta:
+          error +=  \PYGZdq{} NO ENCUENTRO \PYGZbs{}\PYGZdq{}\PYGZdq{} + unidad + \PYGZdq{}\PYGZbs{}\PYGZdq{}  \PYGZdq{}
+          raise Pifie( unidad, error )
+          pass
+        unidad\PYGZus{}objeto = self.paleta[ unidad ]
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        Cuenta recurrencias de esta unidad en este nivel.
+        TODO: Que los cuente en cualquier nivel.
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        recurrencia = sum(
+          [ 1 for r in self.registros[ nivel ] if r[ \PYGZsq{}nombre\PYGZsq{} ] == unidad ]
+        ) if nivel in self.registros else 0
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        Dicionario para ingresar al arbol de registros.
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        registro = \PYGZob{}
+          \PYGZsq{}nombre\PYGZsq{}      : unidad,
+          \PYGZsq{}recurrencia\PYGZsq{} : recurrencia,
+          \PYGZsq{}nivel\PYGZsq{}       : nivel,
+        \PYGZcb{}
+
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        Si el referente está en el diccionario herencia registrar referente.
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        if \PYGZsq{}referente\PYGZsq{} in herencia:
+          registro[ \PYGZsq{}referente\PYGZsq{} ] = herencia[ \PYGZsq{}referente\PYGZsq{} ]
+
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        Crea parametros de unidad combinando originales con herencia
+        Tambien agrega el registro de referentes
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        sucesion = \PYGZob{}
+          **unidad\PYGZus{}objeto,
+          **herencia,
+          **registro
+        \PYGZcb{}
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        Cantidad de repeticiones de la unidad.
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        reiterar = unidad\PYGZus{}objeto[ \PYGZsq{}reiterar\PYGZsq{} ] if \PYGZsq{}reiterar\PYGZsq{} in unidad\PYGZus{}objeto else 1
+        \PYGZsh{} n = str( nivel ) + unidad + str( reiterar )
+        for r in range( reiterar ):
+          self.registros.setdefault( nivel , [] ).append( registro )
+
+          if \PYGZsq{}unidades\PYGZsq{} in unidad\PYGZus{}objeto:
+            \PYGZdq{}\PYGZdq{}\PYGZdq{}
+            Si esta tiene parametro \PYGZdq{}unidades\PYGZdq{}, refiere a otras unidades \PYGZdq{}hijas\PYGZdq{}
+            recursión: pasar de vuelta por esta funcion.
+            \PYGZdq{}\PYGZdq{}\PYGZdq{}
+            sucesion[ \PYGZsq{}referente\PYGZsq{} ] = registro
+            self.ordenar(
+              unidad\PYGZus{}objeto[ \PYGZsq{}unidades\PYGZsq{} ],
+              nivel,
+              sucesion,
+            )
+
+          else:
+            \PYGZdq{}\PYGZdq{}\PYGZdq{}
+            Si esta unidad no refiere a otra unidades,
+            Unidad célula o \PYGZdq{}unidad seminal\PYGZdq{}
+            \PYGZdq{}\PYGZdq{}\PYGZdq{}
+            \PYGZdq{}\PYGZdq{}\PYGZdq{}
+            Combinar \PYGZdq{}defactos\PYGZdq{} con propiedas resultantes de unidad + \PYGZdq{}herencia\PYGZdq{} y registro.
+            \PYGZdq{}\PYGZdq{}\PYGZdq{}
+            factura = \PYGZob{}
+              **Pista.defactos,
+              **sucesion,
+            \PYGZcb{}
+            \PYGZdq{}\PYGZdq{}\PYGZdq{}
+            Secuenciar articulaciones
+            \PYGZdq{}\PYGZdq{}\PYGZdq{}
+            self.secuencia += self.secuenciar( factura )
+      except Pifie as e:
+          print(e)
+
+  \PYGZdq{}\PYGZdq{}\PYGZdq{}
+  Genera una secuencia de ariculaciones musicales
+  a partir de unidades preprocesadas.
+  \PYGZdq{}\PYGZdq{}\PYGZdq{}
+  def secuenciar(
+    self,
+    unidad
+  ):
+
+    \PYGZdq{}\PYGZdq{}\PYGZdq{}
+    Cambia el sentido de los parametros del tipo lista
+    TODO: ¿convertir cualquier string o int en lista?
+    \PYGZdq{}\PYGZdq{}\PYGZdq{}
+    revertir = unidad[ \PYGZsq{}revertir\PYGZsq{} ] if \PYGZsq{}revertir\PYGZsq{} in unidad else None
+    if isinstance( revertir , list ):
+      for r in revertir:
+        if r in unidad:
+          unidad[ r ].reverse()
+    elif isinstance( revertir , str ):
+      if revertir in unidad:
+        unidad[ revertir ].reverse()
+
+    intervalos    = unidad[ \PYGZsq{}intervalos\PYGZsq{} ]
+    duraciones    = unidad[ \PYGZsq{}duraciones\PYGZsq{} ]
+    dinamicas     = unidad[ \PYGZsq{}dinamicas\PYGZsq{} ]
+    alturas       = unidad[ \PYGZsq{}alturas\PYGZsq{} ]
+    tonos         = unidad[ \PYGZsq{}tonos\PYGZsq{} ]
+    voces         = unidad[ \PYGZsq{}voces\PYGZsq{} ]
+    ganador\PYGZus{}voces = max( voces, key = len) if voces else [ 0 ]
+    capas         = unidad[ \PYGZsq{}controles\PYGZsq{} ]
+    ganador\PYGZus{}capas = max( capas , key = len) if capas else [ 0 ]
+
+    \PYGZdq{}\PYGZdq{}\PYGZdq{}
+    Evaluar que parametro lista es el que mas valores tiene.
+    \PYGZdq{}\PYGZdq{}\PYGZdq{}
+    candidatos = [
+      dinamicas,
+      duraciones,
+      alturas,
+      ganador\PYGZus{}voces,
+      ganador\PYGZus{}capas,
+      tonos,
+    ]
+    ganador = max( candidatos, key = len )
+    pasos = len( ganador )
+    secuencia = []
+    for paso in range( pasos ):
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      Consolidad \PYGZdq{}articulacion\PYGZdq{} a partir de combinar parametros: altura,
+      duracion, dinamica, etc.
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      duracion = duraciones[ paso \PYGZpc{} len( duraciones ) ]
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      Variaciones de dinámica.
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      rand\PYGZus{}min = unidad[\PYGZsq{}fluctuacion\PYGZsq{}][\PYGZsq{}min\PYGZsq{}] if \PYGZsq{}min\PYGZsq{} in unidad[ \PYGZsq{}fluctuacion\PYGZsq{} ] else None
+      rand\PYGZus{}max = unidad[\PYGZsq{}fluctuacion\PYGZsq{}][\PYGZsq{}max\PYGZsq{}] if \PYGZsq{}max\PYGZsq{} in unidad[ \PYGZsq{}fluctuacion\PYGZsq{} ] else None
+      fluctuacion = random.uniform(
+         rand\PYGZus{}min,
+         rand\PYGZus{}max
+      ) if rand\PYGZus{}min or rand\PYGZus{}max else 1
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      Asignar dinámica.
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      dinamica = dinamicas[ paso \PYGZpc{} len( dinamicas ) ] * fluctuacion
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      Alturas, voz y superposición voces.
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      altura = alturas[ paso \PYGZpc{} len( alturas ) ]
+      tono   = tonos[ paso \PYGZpc{} len( tonos ) ]
+      acorde = []
+      nota = \PYGZsq{}S\PYGZsq{} \PYGZsh{} Silencio
+      if altura != 0:
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        Relacion: altura \PYGZgt{} puntero en el set de intervalos; Trasponer dentro
+        del set de intervalos, luego Transportar, sumar a la nota resultante.
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        transponer  = unidad[ \PYGZsq{}transponer\PYGZsq{} ]
+        transportar = unidad[ \PYGZsq{}transportar\PYGZsq{} ]
+        nota = transportar + intervalos[ ( ( altura \PYGZhy{} 1 ) + transponer ) \PYGZpc{} len( intervalos ) ]
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        Armar superposicion de voces.
+        \PYGZdq{}\PYGZdq{}\PYGZdq{}
+        if voces:
+          for v in voces:
+            voz = ( altura + ( v[ paso \PYGZpc{} len( v ) ] ) \PYGZhy{} 1 ) + transponer
+            acorde += [ transportar +  intervalos[ voz \PYGZpc{} len( intervalos ) ]  ]
+
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      Cambios de control.
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      controles = []
+      if capas:
+        for capa in capas:
+          controles += [ capa[ paso \PYGZpc{} len( capa ) ] ]
+
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      TO DO: en vez de pasar toda la unidad:
+      extraer solo los paramtros de la articulacion:
+
+      desplazar
+      changeNoteTuning
+      changeTuningBank
+      changeTuningProgram
+      sysEx
+      uniSysEx
+      NPR ( Numeroe Parametros No Registrados )
+      NRPN: Numero de Parametro No Registrado
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      Articulación a secuenciar.
+      \PYGZdq{}\PYGZdq{}\PYGZdq{}
+      articulacion = \PYGZob{}
+        **unidad, \PYGZsh{} TO DO: Limpiar, pasa algunas cosas de mas aca...
+        \PYGZsh{} extraer parametros de segmento y agregarlos si es (1er articulacion de
+        \PYGZsh{} la unidad) o no segun corresponda
+        \PYGZsq{}unidad\PYGZsq{}      : unidad[ \PYGZsq{}nombre\PYGZsq{} ],
+        \PYGZsq{}orden\PYGZsq{}       : paso,
+        \PYGZsq{}altura\PYGZsq{}      : nota,
+        \PYGZsq{}tono\PYGZsq{}        : tono,
+        \PYGZsq{}acorde\PYGZsq{}      : acorde,
+        \PYGZsq{}duracion\PYGZsq{}    : duracion,
+        \PYGZsq{}dinamica\PYGZsq{}    : dinamica,
+        \PYGZsq{}controles\PYGZsq{}   : controles,
+      \PYGZcb{}
+      secuencia.append( articulacion )
+    return secuencia
+\end{Verbatim}
