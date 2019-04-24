@@ -6,14 +6,13 @@ install:
 	
 tex:
 	pandoc seminario.md --template=seminario \
+	-o output.tex \
 	-s --csl=vendor/iso690-author-date-es.csl \
 	--filter=pandoc-citeproc \
-	--pdf-engine-opt=-shell-escape \
-	--toc --toc-depth=4 --number-sections \
-	-o output.tex 
+	--toc --toc-depth=4 --number-sections 
 
 pdf:
-	xelatex -shell-escape -toc output.tex
+	xelatex -shell-escape output.tex
 	
 	
 # -s --csl=vendor/apa-annotated-bibliography.csl \

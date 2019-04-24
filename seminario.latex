@@ -414,28 +414,25 @@ $endif$
 
 \end{titlepage}
 
-\newpage
 
 $for(include-before)$
 $include-before$
-
-
 $endfor$
-$if(toc)$ {
-  $if(colorlinks)$
-    \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
-  $endif$
-    \setcounter{tocdepth}{$toc-depth$}
-    
-    \renewcommand{\contentsname}{Contendios}
-    \tableofcontents
-} $endif$
+
+$if(colorlinks)$
+  \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
+$endif$
+\setcounter{tocdepth}{$toc-depth$}
+\renewcommand{\contentsname}{Contendios}
+\tableofcontents
+
 $if(lot)$
 \listoftables
 $endif$
 $if(lof)$
 \listoffigures
 $endif$
+
 $body$
 
 $if(natbib)$
