@@ -971,7 +971,7 @@ Lista de unidades a ser sequenciadas. Lista de cadenas de caracteres
 \emph{Lista de cadenas de caracteres}\newline \textbf{Valor por
 defecto:} \emph{Lorem impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 macroforma: [
   'intro',
   'estrofa',
@@ -981,7 +981,7 @@ macroforma: [
   'coro',
   'inter',
 ]
-\end{minted}
+\end{verbatim}
 
 \hypertarget{paleta-de-unidades}{%
 \subparagraph{Paleta de unidades}\label{paleta-de-unidades}}
@@ -996,7 +996,7 @@ parametros.
 \emph{Diccionario.} \newline \textbf{Valor por defecto:} \emph{Lorem
 impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 unidades:
     base: &base 
       clave:
@@ -1070,7 +1070,7 @@ unidades:
     coro: 
       bpm: 100
       unidades: [ 'B', 'B^', 'a' ]
-\end{minted}
+\end{verbatim}
 
 \hypertarget{propiedades-de-unidad}{%
 \paragraph{Propiedades de unidad}\label{propiedades-de-unidad}}
@@ -1094,11 +1094,11 @@ https://midiutil.readthedocs.io/en/1.2.1/class.html\#midiutil.MidiFile.MIDIFile.
 \textbf{Tipo de dato:} \emph{Diccionarios de enteros.}\newline
 \textbf{Valor por defecto:} \emph{Lorem impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 clave:
   alteraciones: -2
   modo: 0 
-\end{minted}
+\end{verbatim}
 
 \hypertarget{registraciuxf3n-fija}{%
 \subparagraph{Registración fija}\label{registraciuxf3n-fija}}
@@ -1109,14 +1109,14 @@ Secuencia de intervalos a ser recorrida por el punteros de altura
 \emph{Lista de números enteros.}\newline \textbf{Valor por defecto:}
 \emph{Lorem impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 intervalos: [ 
   -12,-10, -9, -7, -5, -3, -2,
     0,  2,  3,  5,  7,  9, 10,
    12, 14, 15, 17, 19, 21, 22,
    24
 ]
-\end{minted}
+\end{verbatim}
 
 \hypertarget{altura}{%
 \subparagraph{Altura}\label{altura}}
@@ -1128,9 +1128,9 @@ intervalo.
 \emph{Lista de enteros.}\newline \textbf{Valor por defecto:} \emph{Lorem
 impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 alturas: [ 1, 3, 5, 8 ] 
-\end{minted}
+\end{verbatim}
 
 \hypertarget{superposicion-de-altura}{%
 \subparagraph{Superposicion de altura}\label{superposicion-de-altura}}
@@ -1142,12 +1142,12 @@ modifica intervalo. voz + altura = numero de intervalo.
 \emph{Lista de listas de enteros.}\newline \textbf{Valor por defecto:}
 \emph{Lorem impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 voces:
    - [ 8, 6 ] 
    - [ 5 ] 
    - [ 3 ]
-\end{minted}
+\end{verbatim}
 
 \hypertarget{transportar}{%
 \subparagraph{Transportar}\label{transportar}}
@@ -1158,9 +1158,9 @@ Ajuste de alturas.
 \emph{Número entero.}\newline \textbf{Valor por defecto:} \emph{Lorem
 impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 transportar: 60 # C
-\end{minted}
+\end{verbatim}
 
 \hypertarget{transponer}{%
 \subparagraph{Transponer}\label{transponer}}
@@ -1172,9 +1172,9 @@ registración fija.
 \emph{Número entero.}\newline \textbf{Valor por defecto:} \emph{Lorem
 impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 transponer: 1
-\end{minted}
+\end{verbatim}
 
 \hypertarget{duracion}{%
 \subparagraph{Duracion}\label{duracion}}
@@ -1185,9 +1185,9 @@ Lista ordenada de duraciones.
 \emph{Lista de decimales.}\newline \textbf{Valor por defecto:}
 \emph{Lorem impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 duraciones: [ 1, .5, .5, 1, 1 ]
-\end{minted}
+\end{verbatim}
 
 \hypertarget{pulso}{%
 \subparagraph{Pulso}\label{pulso}}
@@ -1198,9 +1198,9 @@ Tempo, Pulsos Por Minuto.
 \emph{Número entero.}\newline \textbf{Valor por defecto:} \emph{Lorem
 impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 bpm: 62
-\end{minted}
+\end{verbatim}
 
 \hypertarget{clave-de-compuxe1s}{%
 \subparagraph{Clave de compás}\label{clave-de-compuxe1s}}
@@ -1211,9 +1211,9 @@ Clave de metrica. representando una fracción (numerador / denominador).
 \emph{Cadena de caracteres.}\newline \textbf{Valor por defecto:}
 \emph{Lorem impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 metro: 4/4
-\end{minted}
+\end{verbatim}
 
 \hypertarget{ajuste-temporal}{%
 \subparagraph{Ajuste temporal}\label{ajuste-temporal}}
@@ -1227,9 +1227,9 @@ demorar medio pulso
 \emph{Número entero.}\newline \textbf{Valor por defecto:} \emph{Lorem
 impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 desplazar: -2
-\end{minted}
+\end{verbatim}
 
 \hypertarget{repeticiones}{%
 \subparagraph{Repeticiones}\label{repeticiones}}
@@ -1241,9 +1241,9 @@ trasferible, no se hereda, caso contrario se reterarian los referidos.
 \emph{Número entero.}\newline \textbf{Valor por defecto:} \emph{Lorem
 impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 reiterar: 3
-\end{minted}
+\end{verbatim}
 
 \hypertarget{dinuxe1mica}{%
 \subparagraph{Dinámica}\label{dinuxe1mica}}
@@ -1254,9 +1254,9 @@ Lista ordenada de dinámicas.
 \emph{Lista de número decimales.}\newline \textbf{Valor por defecto:}
 \emph{Lorem impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 dinamicas: [ 1, .5, .4 ]
-\end{minted}
+\end{verbatim}
 
 \hypertarget{fluctuaciuxf3n}{%
 \subparagraph{Fluctuación}\label{fluctuaciuxf3n}}
@@ -1267,11 +1267,11 @@ fluctuciones dinámicas.
 de dato:} \emph{dicionario de decimales.}\newline \textbf{Valor por
 defecto:} \emph{min: 0, max: 0.}\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 fluctuacion:
   min: .3
   max: .7
-\end{minted}
+\end{verbatim}
 
 \hypertarget{sentido-de-las-listas}{%
 \subparagraph{Sentido de las listas}\label{sentido-de-las-listas}}
@@ -1283,9 +1283,9 @@ de otro parametro del tipo lista.
 \emph{Lista de cadenas de caracteres.}\newline \textbf{Valor por
 defecto:} \emph{Lorem impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 revertir: [ 'duraciones', 'dinamicas' ]
-\end{minted}
+\end{verbatim}
 
 \hypertarget{canal-midi}{%
 \subparagraph{Canal MIDI}\label{canal-midi}}
@@ -1296,9 +1296,9 @@ Número de Canal MIDI.
 \emph{Número entero.}\newline \textbf{Valor por defecto:} \emph{Lorem
 impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 canal: 3
-\end{minted}
+\end{verbatim}
 
 \hypertarget{instrumento-midi}{%
 \subparagraph{Instrumento MIDI}\label{instrumento-midi}}
@@ -1309,9 +1309,9 @@ Número de Instrumento MIDI en el banco actual.\newline
 \emph{Número entero.}\newline \textbf{Valor por defecto:} \emph{Lorem
 impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 programa: 103
-\end{minted}
+\end{verbatim}
 
 \hypertarget{cambios-de-control}{%
 \subparagraph{Cambios de control}\label{cambios-de-control}}
@@ -1322,12 +1322,12 @@ Secuencia de pares número controlador y valor a asignar.
 \emph{Lista de listas de tuples.}\newline \textbf{Valor por defecto:}
 \emph{Lorem impsum}.\newline
 
-\begin{minted}[]{text}
+\begin{verbatim}
 controles:
   - [ 70 : 80,  71 : 90, 72 : 100 ]
   - [ 33 : 121, 51 : 120 ]
   - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
-\end{minted}
+\end{verbatim}
 
 \hypertarget{rpn}{%
 \subparagraph{RPN}\label{rpn}}
@@ -1348,11 +1348,11 @@ Instrumento/programa = CC\#0:2, CC\#32:32
 
 CC\#0:2, CC\#32:2
 
-\begin{minted}[]{text}
+\begin{verbatim}
 controles:
   - [  0 : 2 ]
   - [ 32 : 3 ]
-\end{minted}
+\end{verbatim}
 
 \hypertarget{nrpn}{%
 \subparagraph{NRPN}\label{nrpn}}
@@ -1574,7 +1574,7 @@ Pautas / guias :
 \hypertarget{pista.py}{%
 \subsection{pista.py}\label{pista.py}}
 
-\begin{minted}[]{text}
+\begin{verbatim}
 class Pista:
   """
   Clase para cada definicion de a partir de archivos .yml
@@ -1865,12 +1865,12 @@ class Pista:
       }
       secuencia.append( articulacion )
     return secuencia 
-\end{minted}
+\end{verbatim}
 
 \hypertarget{main.py}{%
 \subsection{main.py}\label{main.py}}
 
-\begin{minted}[]{text}
+\begin{verbatim}
 """
 Generar eventos MIDI a partir de cada pista
 """
@@ -2194,7 +2194,7 @@ for pista in PISTAS:
     duracion_parte += ( duracion *  60 ) / bpm 
 
   PARTES.append( parte )
-\end{minted}
+\end{verbatim}
 
 \newpage
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.4.9)  24 APR 2019 16:10
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.4.9)  24 APR 2019 16:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1646,20 +1646,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 970--973
 
  []
 
-\openout4 = `output.pyg'.
-
-
-(./_minted-output/D7D52F2221B26A5ED7DFF05A9CFEAB9F0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex) [15]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 995--998
 
  []
 
-\openout4 = `output.pyg'.
-
-
-(./_minted-output/7BABBE8951A974C2C6B6BC6265AE72320F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex [16]) [17]
+[16] [17]
 Overfull \hbox (82.73001pt too wide) in paragraph at lines 1091--1092
 []\TU/lmr/m/n/10 https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.M
 idiFile.MIDIFile.addKeySignature 
@@ -1670,139 +1662,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 1093--1096
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/E76AE72D81CDAFF075EB4318078009D90F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1108--1111
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/9CA4166A2E2AB4D2455FD500CA76EC430F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1127--1130
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/F9F08D7CE4A162B83FB808ECDA89A94E0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1141--1144
 
  []
 
-\openout4 = `output.pyg'.
-
-
-(./_minted-output/70583EDC3AECCD38BDC131B6DB37991C0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex [18])
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 1157--1160
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/75D6051A9CA6EE3BBA111B9CE00FEB510F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1171--1174
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/E2863E0910F692F2F55DE106A4BAF4100F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1184--1187
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/C7EA1520E535537EF7AF37F810C2CA580F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1197--1200
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/80949700883A5AF5EDA6F328BA03B96F0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1210--1213
 
  []
 
 [19]
-\openout4 = `output.pyg'.
-
-
-(./_minted-output/6246C753CA0F4BAEDACB0440EDA54B2D0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1226--1229
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/66C55D190A7F04CB6E6C62A87B04E4A30F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1240--1243
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/CDFC230258B7D297D559A8D12858E33B0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1253--1256
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/CAC39BA923B6D3592AAAA681D0015E7D0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1266--1269
 
  []
 
 [20]
-\openout4 = `output.pyg'.
-
-
-(./_minted-output/8506E2AC8FDCAC36AF604114E01A2C6F0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1282--1285
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/363334CAF1A5ED7D744255B6A2B2D23C0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1295--1298
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/D34B2B6BC21CFF263394481F8FE5F84E0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1306--1307
 
  []
@@ -1812,62 +1742,300 @@ Underfull \hbox (badness 10000) in paragraph at lines 1308--1311
 
  []
 
-\openout4 = `output.pyg'.
 
-
-(./_minted-output/E5C42C9319797F0A83B3058B8FB254A40F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 1321--1324
 
  []
 
-\openout4 = `output.pyg'.
-
-
-(./_minted-output/63E5481CCBCF0574CB6BE7596D38124A0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex [21])
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 1339--1340
 []\TU/lmr/m/n/10 https://www.mutools.com/info/docs/mulab/using-bank-select-and-
 prog-
  []
 
-\openout4 = `output.pyg'.
+[22] [23] [24] [25] [26] [27] [28]
+Overfull \hbox (48.75pt too wide) in paragraph at lines 1868--1868
+[]          \TU/lmtt/m/n/10 [ 1 for r in self.registros[ nivel ] if r[ []nombre
+[] ] == unidad ][] 
+ []
 
 
-(./_minted-output/A9DCAB33819BEFFFE32A8E4EC449E62C0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex) [22] [23] [24] [25] [26]
-\openout4 = `output.pyg'.
+Overfull \hbox (54.0pt too wide) in paragraph at lines 1868--1868
+[]        \TU/lmtt/m/n/10 Si el referente está en el diccionario herencia regis
+trar referente.[] 
+ []
 
 
-(./_minted-output/70CD6992461CB41F4146B73029FCF55C0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex [27] [28] [29] [30] [31] [32])
-\openout4 = `output.pyg'.
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1868--1868
+[]        \TU/lmtt/m/n/10 Crea parametros de unidad combinando originales con h
+erencia[] 
+ []
+
+[29]
+Overfull \hbox (96.0pt too wide) in paragraph at lines 1868--1868
+[]        \TU/lmtt/m/n/10 reiterar = unidad_objeto[ []reiterar[] ] if []reitera
+r[] in unidad_objeto else 1[] 
+ []
 
 
-(./_minted-output/6866014B17089AE4F0EB70DE4437614F0F08AC44010C9BAC10B99C4EE6BD0
-F45.pygtex [33] [34] [35] [36] [37] [38] [39]) [40] [41] [42] [43]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1868--1868
+[]          \TU/lmtt/m/n/10 self.registros.setdefault( nivel , [] ).append( reg
+istro )[] 
+ []
+
+
+Overfull \hbox (75.0pt too wide) in paragraph at lines 1868--1868
+[]            \TU/lmtt/m/n/10 Si esta tiene parametro "unidades", refiere a otr
+as unidades "hijas"[] 
+ []
+
+
+Overfull \hbox (138.0pt too wide) in paragraph at lines 1868--1868
+[]            \TU/lmtt/m/n/10 Combinar "defactos" con propiedas resultantes de 
+unidad + "herencia" y registro.[] 
+ []
+
+[30]
+Overfull \hbox (17.25pt too wide) in paragraph at lines 1868--1868
+[]    \TU/lmtt/m/n/10 revertir = unidad[ []revertir[] ] if []revertir[] in unid
+ad else None[] 
+ []
+
+[31]
+Overfull \hbox (33.0pt too wide) in paragraph at lines 1868--1868
+[]      \TU/lmtt/m/n/10 Consolidad "articulacion" a partir de combinar parametr
+os: altura,[] 
+ []
+
+
+Overfull \hbox (132.75pt too wide) in paragraph at lines 1868--1868
+[]      \TU/lmtt/m/n/10 rand_min = unidad[[]fluctuacion[]][[]min[]] if []min[] 
+in unidad[ []fluctuacion[] ] else None[] 
+ []
+
+
+Overfull \hbox (132.75pt too wide) in paragraph at lines 1868--1868
+[]      \TU/lmtt/m/n/10 rand_max = unidad[[]fluctuacion[]][[]max[]] if []max[] 
+in unidad[ []fluctuacion[] ] else None[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 1868--1868
+[]      \TU/lmtt/m/n/10 dinamica = dinamicas[ paso % len( dinamicas ) ] * fluct
+uacion[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 1868--1868
+[]        \TU/lmtt/m/n/10 Relacion: altura > puntero en el set de intervalos; T
+rasponer dentro[] 
+ []
+
+
+Overfull \hbox (59.25pt too wide) in paragraph at lines 1868--1868
+[]        \TU/lmtt/m/n/10 del set de intervalos, luego Transportar, sumar a la 
+nota resultante.[] 
+ []
+
+
+Overfull \hbox (148.5pt too wide) in paragraph at lines 1868--1868
+[]        \TU/lmtt/m/n/10 nota = transportar + intervalos[ ( ( altura - 1 ) + t
+ransponer ) % len( intervalos ) ][] 
+ []
+
+
+Overfull \hbox (33.0pt too wide) in paragraph at lines 1868--1868
+[]            \TU/lmtt/m/n/10 voz = ( altura + ( v[ paso % len( v ) ] ) - 1 ) +
+ transponer[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 1868--1868
+[]            \TU/lmtt/m/n/10 acorde += [ transportar +  intervalos[ voz % len(
+ intervalos ) ]  ][] 
+ []
+
+[32]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1868--1868
+[]        \TU/lmtt/m/n/10 **unidad, # TO DO: Limpiar, pasa algunas cosas de mas
+ aca...[] 
+ []
+
+
+Overfull \hbox (75.0pt too wide) in paragraph at lines 1868--1868
+[]        \TU/lmtt/m/n/10 # extraer parametros de segmento y agregarlos si es (
+1er articulacion de[] 
+ []
+
+[33] [34]
+Overfull \hbox (43.5pt too wide) in paragraph at lines 2197--2197
+[]    \TU/lmtt/m/n/10 Primer articulación de la parte, agregar eventos fundamen
+tales: pulso,[] 
+ []
+
+
+Overfull \hbox (185.25pt too wide) in paragraph at lines 2197--2197
+[]      \TU/lmtt/m/n/10 https://midiutil.readthedocs.io/en/1.2.1/class.html#mid
+iutil.MidiFile.MIDIFile.addTimeSignature[] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 2197--2197
+[]      \TU/lmtt/m/n/10 denominator  = potencia negativa de 2: log10( X ) / log
+10( 2 )[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 2197--2197
+[]      \TU/lmtt/m/n/10 denominador      = int( math.log10( int( metro[1] ) ) /
+ math.log10( 2 ) )[] 
+ []
+
+[35]
+Overfull \hbox (22.5pt too wide) in paragraph at lines 2197--2197
+[]    \TU/lmtt/m/n/10 TO DO: Crear estructura superiores a articulacion llamada
+ segmento[] 
+ []
+
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 2197--2197
+[]      \TU/lmtt/m/n/10 Compone texto de la etiqueta a partir de nombre de unid
+ad, numero de[] 
+ []
+
+
+Overfull \hbox (216.75pt too wide) in paragraph at lines 2197--2197
+[]      \TU/lmtt/m/n/10 ers = referir( articulacion[ []referente[] ] ) if artic
+ulacion[ []referente[] ] != None else [ ( 0, 0 ) ][] 
+ []
+
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 2197--2197
+[]          \TU/lmtt/m/n/10 texto += str( er[ 0 ] ) + [] #[] + str( er[ 1 ] ) +
+ []saltodelinea[][] 
+ []
+
+[36] [37]
+Overfull \hbox (22.5pt too wide) in paragraph at lines 2197--2197
+[]      \TU/lmtt/m/n/10 # Termina articulacion 0, estos van a ser parametros de
+ Segmento[] 
+ []
+
+
+Overfull \hbox (80.25pt too wide) in paragraph at lines 2197--2197
+[]      \TU/lmtt/m/n/10 denominador      = int( math.log10( int( metro[ 1 ] ) )
+ / math.log10( 2 ) )[] 
+ []
+
+[38]
+Overfull \hbox (59.25pt too wide) in paragraph at lines 2197--2197
+[]    \TU/lmtt/m/n/10 #midi_bits.addText( pista.orden, momento , []prgm : #[] +
+ str( programa ) )[] 
+ []
+
+
+Overfull \hbox (80.25pt too wide) in paragraph at lines 2197--2197
+[]    \TU/lmtt/m/n/10 Si existe acorde en la articulación armar una lista con c
+ada voz superpuesta.[] 
+ []
+
+
+Overfull \hbox (169.5pt too wide) in paragraph at lines 2197--2197
+[]    \TU/lmtt/m/n/10 voces = articulacion[ []acorde[] ] if articulacion[ []aco
+rde[] ] else [ articulacion[ []altura[] ] ][] 
+ []
+
+[39]
+Overfull \hbox (75.0pt too wide) in paragraph at lines 2197--2197
+[]      \TU/lmtt/m/n/10 Si la articulacion es un silencio (S) agregar nota sin 
+altura ni dinamica.[] 
+ []
+
+[40] [41] [42]
+runsystem(rm _minted-output/D7D52F2221B26A5ED7DFF05A9CFEAB9F0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/7BABBE8951A974C2C6B6BC6265AE72320F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/E76AE72D81CDAFF075EB4318078009D90F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/9CA4166A2E2AB4D2455FD500CA76EC430F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/F9F08D7CE4A162B83FB808ECDA89A94E0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/70583EDC3AECCD38BDC131B6DB37991C0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/75D6051A9CA6EE3BBA111B9CE00FEB510F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/E2863E0910F692F2F55DE106A4BAF4100F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/C7EA1520E535537EF7AF37F810C2CA580F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/80949700883A5AF5EDA6F328BA03B96F0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/6246C753CA0F4BAEDACB0440EDA54B2D0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/66C55D190A7F04CB6E6C62A87B04E4A30F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/CDFC230258B7D297D559A8D12858E33B0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/CAC39BA923B6D3592AAAA681D0015E7D0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/8506E2AC8FDCAC36AF604114E01A2C6F0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/363334CAF1A5ED7D744255B6A2B2D23C0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/D34B2B6BC21CFF263394481F8FE5F84E0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/E5C42C9319797F0A83B3058B8FB254A40F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/63E5481CCBCF0574CB6BE7596D38124A0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/A9DCAB33819BEFFFE32A8E4EC449E62C0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/70CD6992461CB41F4146B73029FCF55C0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+runsystem(rm _minted-output/6866014B17089AE4F0EB70DE4437614F0F08AC44010C9BAC10B
+99C4EE6BD0F45.pygtex)...executed.
+
+ [43]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2345.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 2345.
-
-(./output.aux)
+ (./output.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2345.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2345.
 
 Package rerunfilecheck Info: File `output.out' has not changed.
 (rerunfilecheck)             Checksum: 46AF2632EAB1FD7E7E30AF206BF523CC.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 runsystem(rm output.pyg)...executed.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2345.
  ) 
 Here is how much of TeX's memory you used:
- 42057 strings out of 492933
- 846921 string characters out of 6138668
- 1098488 words of memory out of 5000000
- 45481 multiletter control sequences out of 15000+600000
+ 41987 strings out of 492933
+ 841119 string characters out of 6138668
+ 1098556 words of memory out of 5000000
+ 45455 multiletter control sequences out of 15000+600000
  537779 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,8n,115p,969b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
