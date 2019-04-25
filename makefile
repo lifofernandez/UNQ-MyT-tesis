@@ -1,8 +1,8 @@
 # Generar PDF
 
 install:
-	sudo pacman -S pandoc pandoc-citeproc texlive-core texlive-music pygmentize && \
-        pip install pygments
+	sudo pacman -S pandoc pandoc-citeproc texlive-core texlive-music pygmentize & 
+	pip install pygments
 	
 tex:
 	pandoc seminario.md --template=seminario \

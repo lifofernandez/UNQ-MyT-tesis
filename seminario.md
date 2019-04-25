@@ -964,9 +964,12 @@ no es trasferible, no se hereda, caso contrario se reterarian los referidos.
 **Etiqueta:** _reiterar._\newline
 **Tipo de dato:** _Número entero._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-reiterar: 3
-\end{minted}
+\begin{example}
+
+    \begin{minted}{yaml}
+    reiterar: 3
+    \end{minted}
+\end{example}
     
 ##### Dinámica
 Lista ordenada de dinámicas.
@@ -974,12 +977,17 @@ Lista ordenada de dinámicas.
 **Etiqueta:** _dinamicas._\newline
 **Tipo de dato:** _Lista de número decimales._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
+\begin{example}
 \begin{minted}{yaml}
 dinamicas: [ 1, .5, .4 ]
 \end{minted}
+\end{example}
 
 ##### Fluctuación
 fluctuciones dinámicas.
+\begin{example}
+ioeoeooe
+\end{example}
 
 **Etiqueta:** _fluctuacion, min y max._\newline
 **Tipo de dato:** _dicionario de decimales._\newline
@@ -1826,7 +1834,7 @@ for pista in PISTAS:
       ])
 
 
-    """
+
     Agregar cambios de control
     """
     if articulacion[ 'controles' ]:
