@@ -1530,7 +1530,7 @@ class Pista:
 \end{minted}
 
 ## main.py 
-\begin{minted}{python}
+\begin{minted}[frame=lines,framerule=1pt]{python}
 """
 Generar eventos MIDI a partir de cada pista
 """
@@ -1552,12 +1552,12 @@ for pista in PISTAS:
     args.copyright
   ])
 
-  parte = \{
+  parte = {
      'orden'     : track,
      'nombre'    : pista.nombre,
      'comienzo'  : comienzo, 
      'etiquetas' : [],
-  \}
+  }
   duracion_parte = 0
 
   """

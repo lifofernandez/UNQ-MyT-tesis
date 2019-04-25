@@ -251,6 +251,18 @@ $endif$
 \usepackage{amsthm}
 \newtheorem{example}{Example}
 \usepackage{minted}
+%\usepackage[]{minted}
+%\usepackage{tcolorbox}
+%\usepackage{etoolbox}
+%\BeforeBeginEnvironment{minted}{\begin{tcolorbox}}%
+%\AfterEndEnvironment{minted}{\end{tcolorbox}}%
+%\setminted[yaml]{frame=lines,framerule=1pt}
+\setminted[yaml]{,
+               linenos,
+               numbersep=5pt,
+               frame=lines,
+               framesep=2mm}
+\setminted[python]{frame=lines,framerule=1pt}
 
 \begin{document}
 

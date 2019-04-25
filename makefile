@@ -15,4 +15,12 @@ pdf:
 	xelatex -shell-escape output.tex
 	
 	
+render: 
+	rm _minted-output* -r
+	rm output.* 
+	make tex 
+	make pdf
+	
+	
 # -s --csl=vendor/apa-annotated-bibliography.csl \
+
