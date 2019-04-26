@@ -12,13 +12,13 @@
   date:  'Marzo 2019'
   place: 'Buenos Aires, Argentina'
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
+  bibliography: referencias.bib
   abstract: |
     Definición de gramática formal basada en texto plano serializado,
     estructurada como arbol de análisis para representar planes de obra musical.
     Acompañada por el desarrollo de un contexto de herramientas para interfaz de
     linea de comandos (CLI) destinada a generar sequencias musicales en el
     protocolo MIDI.
-  bibliography: referencias.bib
 ---
 
 # Resumen 
@@ -964,31 +964,22 @@ no es trasferible, no se hereda, caso contrario se reterarian los referidos.
 **Etiqueta:** _reiterar._\newline
 **Tipo de dato:** _Número entero._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-\begin{example}
 
     \begin{minted}{yaml}
     reiterar: 3
     \end{minted}
-\end{example}
-    
 ##### Dinámica
 Lista ordenada de dinámicas.
 
 **Etiqueta:** _dinamicas._\newline
 **Tipo de dato:** _Lista de número decimales._\newline
 **Valor por defecto:** _Lorem impsum_.\newline
-\begin{example}
 \begin{minted}{yaml}
 dinamicas: [ 1, .5, .4 ]
 \end{minted}
-\end{example}
 
 ##### Fluctuación
 fluctuciones dinámicas.
-\begin{example}
-ioeoeooe
-\end{example}
-
 **Etiqueta:** _fluctuacion, min y max._\newline
 **Tipo de dato:** _dicionario de decimales._\newline
 **Valor por defecto:** _min: 0, max: 0._\newline
@@ -1868,3 +1859,9 @@ Reserva de referencias:
 
 \newpage
 
+---
+  arg:
+    - item 1
+    - item 2
+    - item 3
+---

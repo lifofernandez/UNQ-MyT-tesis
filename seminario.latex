@@ -248,24 +248,42 @@ $endif$
 \usepackage{tikz} % insert this line
 \usetikzlibrary{shapes,arrows,decorations.markings,positioning}
 
-\usepackage{amsthm}
-\newtheorem{example}{Example}
-\usepackage{minted}
 %\usepackage[]{minted}
 %\usepackage{tcolorbox}
 %\usepackage{etoolbox}
-%\BeforeBeginEnvironment{minted}{\begin{tcolorbox}}%
-%\AfterEndEnvironment{minted}{\end{tcolorbox}}%
 %\setminted[yaml]{frame=lines,framerule=1pt}
-\setminted[yaml]{,
-               linenos,
-               numbersep=5pt,
-               frame=lines,
-               framesep=2mm}
-\setminted[python]{frame=lines,framerule=1pt}
 
+\usepackage{lipsum}
+%\usepackage{showframe}
+%\setlength{\parskip}{1pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+
+\usepackage{minted}
+
+\setminted[yaml]{
+	framesep=2mm,
+	baselinestretch=1.2,
+	%bgcolor=grey,
+	fontsize=\footnotesize,
+        frame=lines,
+        framesep=2mm
+}
+\setminted[python]{
+	linenos,
+	numbersep=1pt,
+	frame=lines,
+	framesep=2mm
+}
+
+%\BeforeBeginEnvironment{minted}{\smallskip}
+%\AfterEndEnvironment{minted}{\medskip}
+
+\usepackage{enumitem}
+
+\setlist[itemize]{leftmargin=0pt}
 \begin{document}
 
+%\setlength{leftmargin}{0pt}
 \begin{titlepage}
 
 \topskip0pt
@@ -382,6 +400,105 @@ $if(lof)$
 \listoffigures
 $endif$
 
+%\lipsum*[1]\\
+%\lipsum*[1]
+
+
+%\lipsum*[1]
+
+%\setlength{\parskip}{1pt}
+%\setlength{\parskip}{12pt plus 2pt minus 1pt}
+\begin{itemize}
+\item[\texttt{etiqueta}] 
+	\begin{minipage}[t]{6cm}\flushleft
+		\textsf{\textbf{(boolean)}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{6cm}\flushright
+		default:
+		\texttt{false}
+	\end{minipage}
+	\lipsum*[1]
+\begin{minted}{yaml}
+fluctuacion:
+  min: .3
+  max: .7
+
+\end{minted}
+
+\item[\texttt{etiqueta}] 
+	\begin{minipage}[t]{6cm}\flushleft
+		\textsf{(string)}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{6cm}\flushright
+		default:
+		\texttt{None}
+	\end{minipage}
+        % DESCRIPCION
+	\lipsum*[1]
+\begin{minted}{yaml}
+fluctuacion:
+  min: .3
+  max: .7
+\end{minted}
+
+\item[\texttt{
+		etiqueta
+		}] 
+	\begin{minipage}[t]{6cm}
+		\flushleft
+		\textsf{
+			(boolean)
+			}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{6cm}
+		\flushright
+		default:
+		\texttt{
+			false
+			}
+	\end{minipage}
+	\lipsum*[2]
+\begin{minted}{yaml}
+fluctuacion:
+  min: .3
+  max: .7
+\end{minted}
+
+\end{itemize}
+%$if(arg)$
+%%\begin{itemize}
+%$for(arg)$
+%$arg$ \newline
+%%\item[\texttt{etiqueta}] 
+%	\begin{minipage}[t]{6cm}\flushleft
+%		\textsf{
+%			(boolean)
+%			}
+%	\end{minipage}
+%	\hfill
+%	\begin{minipage}[t]{6cm}\flushright
+%		default:
+%		\texttt{
+%			false
+%			}
+%	\end{minipage}
+%	\lipsum*[1]
+%	\newline
+%\begin{minted}{yaml}
+%fluctuacion:
+%  min: .3
+%  max: .7
+%\end{minted}
+%$endfor$
+%\begin{abstract}
+%$abstract$
+%\end{abstract}
+%\end{itemize}
+%$endif$
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
 $body$
 
 $if(natbib)$
