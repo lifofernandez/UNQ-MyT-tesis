@@ -279,12 +279,13 @@ $endif$
 %\AfterEndEnvironment{minted}{\medskip}
 
 \usepackage{enumitem}
-\setlist[itemize]{leftmargin=0pt}
+
+\setlist[itemize]{leftmargin=11pt}
+\setlist[enumerate]{leftmargin=11pt}
 
 \usepackage{pgffor}
 
 \begin{document}
-
 
 %\setlength{leftmargin}{0pt}
 \begin{titlepage}
