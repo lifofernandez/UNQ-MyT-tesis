@@ -270,7 +270,7 @@ $endif$
 }
 \setminted[python]{
 	linenos,
-	numbersep=1pt,
+	numbersep=5pt,
 	frame=lines,
 	framesep=2mm
 }
@@ -279,9 +279,12 @@ $endif$
 %\AfterEndEnvironment{minted}{\medskip}
 
 \usepackage{enumitem}
-
 \setlist[itemize]{leftmargin=0pt}
+
+\usepackage{pgffor}
+
 \begin{document}
+
 
 %\setlength{leftmargin}{0pt}
 \begin{titlepage}
@@ -320,38 +323,49 @@ $endif$
 
 \bigskip
 \bigskip
+
+$if(programa)$
+\begin{center}
+Programa de Investigación
+
+\large
+\uppercase{$programa$}
+\end{center}
+$endif$
+
+$if(tutor)$
+\begin{center}
+Director:
+$tutor$
+\end{center}
+$endif$
+
 \bigskip
 
 $if(title)$
-% \maketitle
 \begin{center}
 \huge
 $title$
 \end{center}
 $endif$
 
-\bigskip
+%\bigskip
+
 $if(subtitle)$
 \begin{center}
-%\large
+\large
 \uppercase{$subtitle$}
 \end{center}
 $endif$
-\bigskip
+%\bigskip
 
 $if(author)$
 \begin{center}
-Presentada por:
+Presentado por:
 $author$
 \end{center}
 $endif$
 
-$if(tutor)$
-\begin{center}
-Director de Tesis:
-$tutor$
-\end{center}
-$endif$
 
 \bigskip
 \bigskip
@@ -400,105 +414,6 @@ $if(lof)$
 \listoffigures
 $endif$
 
-%\lipsum*[1]\\
-%\lipsum*[1]
-
-
-%\lipsum*[1]
-
-%\setlength{\parskip}{1pt}
-%\setlength{\parskip}{12pt plus 2pt minus 1pt}
-\begin{itemize}
-\item[\texttt{etiqueta}] 
-	\begin{minipage}[t]{6cm}\flushleft
-		\textsf{\textbf{(boolean)}}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[t]{6cm}\flushright
-		default:
-		\texttt{false}
-	\end{minipage}
-	\lipsum*[1]
-\begin{minted}{yaml}
-fluctuacion:
-  min: .3
-  max: .7
-
-\end{minted}
-
-\item[\texttt{etiqueta}] 
-	\begin{minipage}[t]{6cm}\flushleft
-		\textsf{(string)}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[t]{6cm}\flushright
-		default:
-		\texttt{None}
-	\end{minipage}
-        % DESCRIPCION
-	\lipsum*[1]
-\begin{minted}{yaml}
-fluctuacion:
-  min: .3
-  max: .7
-\end{minted}
-
-\item[\texttt{
-		etiqueta
-		}] 
-	\begin{minipage}[t]{6cm}
-		\flushleft
-		\textsf{
-			(boolean)
-			}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[t]{6cm}
-		\flushright
-		default:
-		\texttt{
-			false
-			}
-	\end{minipage}
-	\lipsum*[2]
-\begin{minted}{yaml}
-fluctuacion:
-  min: .3
-  max: .7
-\end{minted}
-
-\end{itemize}
-%$if(arg)$
-%%\begin{itemize}
-%$for(arg)$
-%$arg$ \newline
-%%\item[\texttt{etiqueta}] 
-%	\begin{minipage}[t]{6cm}\flushleft
-%		\textsf{
-%			(boolean)
-%			}
-%	\end{minipage}
-%	\hfill
-%	\begin{minipage}[t]{6cm}\flushright
-%		default:
-%		\texttt{
-%			false
-%			}
-%	\end{minipage}
-%	\lipsum*[1]
-%	\newline
-%\begin{minted}{yaml}
-%fluctuacion:
-%  min: .3
-%  max: .7
-%\end{minted}
-%$endfor$
-%\begin{abstract}
-%$abstract$
-%\end{abstract}
-%\end{itemize}
-%$endif$
-%\setlength{\parskip}{6pt plus 2pt minus 1pt}
 $body$
 
 $if(natbib)$
@@ -523,3 +438,4 @@ $include-after$
 
 $endfor$
 \end{document}
+
