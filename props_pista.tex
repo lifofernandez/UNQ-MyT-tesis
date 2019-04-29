@@ -1,76 +1,39 @@
-
+\bigskip
 \setlist[itemize]{leftmargin=0pt}
-
+\setlength{\parskip}{1pt}
 \begin{itemize}
-\item[\texttt{etiqueta}] 
-	\begin{minipage}[t]{6cm}\flushleft
-		\textsf{\textbf{(boolean)}}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[t]{6cm}\flushright
-		default:
-		\texttt{false}
-	\end{minipage}
-	\lipsum*[1]
+
+  \item [\texttt{nombre}] 
+    \begin{minipage}[t]{5.5cm}\flushleft
+	    \textsf{(string)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{5.5cm}\flushright
+      default: \texttt{null}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Titulo de la pista
 \begin{minted}{yaml}
-fluctuacion:
-  min: .3
-  max: .7
+nombre: 'Piano'
 
 \end{minted}
 
-
-\item[\texttt{
-		etiqueta
-		}] 
-	\begin{minipage}[t]{6cm}
-		\flushleft
-		\textsf{
-			(boolean)
-			}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[t]{6cm}
-		\flushright
-		default:
-		\texttt{
-			false
-			}
-	\end{minipage}
-	\lipsum*[2]
+  \item [\texttt{forma}] 
+    \begin{minipage}[t]{5.5cm}\flushleft
+	    \textsf{(lista de cadenas de caracteres)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{5.5cm}\flushright
+      default: \texttt{empty}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Macro estructura de la pista
 \begin{minted}{yaml}
-fluctuacion:
-  min: .3
-  max: .7
-\end{minted}
-\end{itemize}
-%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+forma: ['intro', 'estrofa']
 
-\begin{itemize}
-\foreach \etiqueta/\tipo/\defacto/\descripcion in { 
-	1/bla/qq/
-	pp
-	pepep,
-	2/blabla/qwfd/ddd,
-	3/blablabla/pwpwef/efwef
-}{
-\item [\texttt{\etiqueta}] 
-	\begin{minipage}[t]{6cm}\flushleft
-		\textsf{(\tipo)}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[t]{6cm}\flushright
-		default:
-		\texttt{\defacto}
-	\end{minipage}
-        % DESCRIPCION
-	\descripcion
-	%\begin{quote}
-%\begin{verbatim}
-%fluctuacion: min: .3 max: .71kdmpd
-%\end{verbatim}
-	%\end{quote}
-}
+\end{minted}
+
 
 \end{itemize}
 \setlist[itemize]{leftmargin=11pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}

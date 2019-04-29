@@ -1,0 +1,25 @@
+\bigskip
+\setlist[itemize]{leftmargin=0pt}
+\setlength{\parskip}{1pt}
+\begin{itemize}
+
+\BLOCK{ for p in PROPS }
+  \item [\texttt{\VAR{p}}] 
+    \begin{minipage}[t]{5.5cm}\flushleft
+	    \textsf{(\VAR{PROPS[p]['tipo']})}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{5.5cm}\flushright
+      default: \texttt{\VAR{PROPS[p]['defacto']}}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \VAR{PROPS[p]['descripcion']}
+\begin{minted}{yaml}
+\VAR{PROPS[p]['ejemplo']}
+\end{minted}
+
+\BLOCK{ endfor }
+
+\end{itemize}
+\setlist[itemize]{leftmargin=11pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}

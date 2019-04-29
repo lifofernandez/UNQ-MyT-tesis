@@ -276,7 +276,7 @@ $endif$
 }
 
 %\BeforeBeginEnvironment{minted}{\smallskip}
-%\AfterEndEnvironment{minted}{\medskip}
+\AfterEndEnvironment{minted}{\bigskip}
 
 \usepackage{enumitem}
 

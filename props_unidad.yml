@@ -1,0 +1,16 @@
+unidad:
+  instrumento:
+     tipo: 'Número Entero'
+     defacto: '1'
+     descripcion: 'Numero de Programa MIDI'
+     ejemplo: | 
+       instrumento: '1'
+  forma:
+     tipo: 'lista'
+     defacto: 'empty'
+     descripcion: 'Estructura de la Unidad'
+     ejemplo: | 
+       forma: ['A', 'B']
+       
+       
+     

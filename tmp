@@ -1,0 +1,109 @@
+Jump to navigation
+
+Home
+
+LaTeX templates with Python and Jinja2 to generate PDFs
+
+Tuesday, Nov 24th, 2015
+
+The Jinja templating engine works well to create LaTeX templates for generating
+PDF files. The only issue is the default Jinja block, variable, and comment
+identification strings can conflict with the LaTeX commands. A solution is to
+change the Jinja environment to mimic the LaTeX environment.
+
+Here is an example. This is the python file test.py:
+
+import jinja2
+import os
+from jinja2 import Template
+latex_jinja_env = jinja2.Environment(
+        block_start_string = '\BLOCK{',
+        block_end_string = '}',
+        variable_start_string = '\VAR{',
+        variable_end_string = '}',
+        comment_start_string = '\#{',
+        comment_end_string = '}',
+        line_statement_prefix = '%%',
+        line_comment_prefix = '%#',
+        trim_blocks = True,
+        autoescape = False,
+        loader = jinja2.FileSystemLoader(os.path.abspath('.'))
+)
+template = latex_jinja_env.get_template('jinja-test.tex')
+print(template.render(section1='Long Form', section2='Short Form'))
+
+And an example jinja-test.tex to go with it:
+
+
+The above results in test.tex:
+
+\documentclass{article}
+\begin{document}
+\section{Example}
+An example document using \LaTeX, Python, and Jinja.
+
+% This is a regular LaTeX comment
+\section{Long Form}
+\begin{itemize}
+  \item Counting: 0
+  \item Counting: 1
+  \item Counting: 2
+\end{itemize}
+
+\section{Short Form}
+
+\begin{itemize}
+  \item Counting: 0
+  \item Counting: 1
+  \item Counting: 2
+\end{itemize}
+
+\end{document}
+
+The resulting PDF:
+[latex-jinja-python]
+
+I found harshjv's Dockerized Texlive 2015 useful for this project.
+
+This is based off an article by Johannes Dollinger only available via
+archive.org.
+
+Tags: 
+Python
+Python3
+Jinja2
+PDF
+Templates
+LaTeX
+Tex
+
+  • Add new comment
+
+Main menu
+
+  • Articles
+  • About
+
+   
+
+Recent Projects
+
+  • Xerographer Color Fonts - Free color SVGinOT web fonts designed by
+    Xerographer.
+  • Roll a Ball VR - SteamVR HTC Vive conversion for the Unity "Roll a Ball"
+    Tutorial
+  • rjsmake - Use Markdown to generate a Reveal.js presentation in minutes.
+
+Recent articles
+
+  • Dockerizing godoc for private repositories
+  • List all Public IP addresses in an AWS account
+  • Creating a photosphere: Set EXIF values
+  • Changing the default fallback subsitution fonts in Linux
+
+   
+
+© 2000-2016 Brad Erickson
+Code: The MIT License (MIT)
+Text: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License
+

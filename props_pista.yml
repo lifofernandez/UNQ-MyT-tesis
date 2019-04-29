@@ -1,0 +1,12 @@
+nombre:
+   tipo: 'string'
+   defacto: 'null'
+   descripcion: 'Titulo de la pista'
+   ejemplo: |
+     nombre: 'Piano'
+forma:
+   tipo: 'lista de cadenas de caracteres'
+   defacto: 'empty'
+   descripcion: 'Macro estructura de la pista'
+   ejemplo: | 
+     forma: ['intro', 'estrofa']

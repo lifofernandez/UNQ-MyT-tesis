@@ -13,11 +13,16 @@ tex:
 
 pdf:
 	xelatex -shell-escape output.tex
+props:
+	python propiedades.py
+      	
 	
 	
-render: 
+clean: 
 	rm _minted-output* -r
 	rm output.* 
+render: 
+	make props
 	make tex 
 	make pdf
 	
