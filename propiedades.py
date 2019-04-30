@@ -21,24 +21,11 @@ latex_jinja_env = jinja2.Environment(
 )
 template = latex_jinja_env.get_template( 'props_tmpl.tex' )
 
-def leer_yamls():
-  props = {}
-  fichero_yaml = 'props_pista.yml'
-  data = open( fichero_yaml, 'r' )
-  try:
-    y = yaml.load( data ) 
-    props = y 
-  except Exception as e:
-    print(e)
-    print( "=" * 80)
-    pass
-  return props
-PROPS_PISTA = leer_yamls()
+PROPS_PISTA  = yaml.load( open( 'props_pista.yml', 'r' ) ) 
+with open( 'props_pista.tex', "w" ) as tex:
+   tex.write( template.render( PROPS = PROPS_PISTA ) )
 
-salida = template.render( PROPS = PROPS_PISTA )
-print(salida)
-nombre_archivo = 'props_pista'
-with open( nombre_archivo + ".tex", "w" ) as tex:
-   tex.write( salida )
-
+PROPS_UNIDAD = yaml.load( open( 'props_unidad.yml', 'r' ) ) 
+with open( 'props_unidad.tex', "w" ) as tex:
+   tex.write( template.render( PROPS = PROPS_UNIDAD ) )
 

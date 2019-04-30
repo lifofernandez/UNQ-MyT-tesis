@@ -824,6 +824,8 @@ unidades:
 Parametros por defecto para todas sas unidades,
 pueden ser sobrescritos.
 
+\input{props_unidad.tex}
+
 ##### Armadura de clave
 Catidad de alteraciones en la armadura de clave y modo de la escala.
 
