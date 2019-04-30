@@ -6,7 +6,12 @@ $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
 \usepackage{lmodern}
+
 $endif$
+%\usepackage[T1]{fontenc}
+%\usepackage{Alegreya} %% Option 'black' gives heavier bold face 
+%\renewcommand*\oldstylenums[1]{{\AlegreyaOsF #1}}
+
 %\usepackage{geometry}
 %\geometry{a4paper,portrait, 
 % %margin=140pt,
@@ -280,8 +285,8 @@ $endif$
 
 \usepackage{enumitem}
 
-\setlist[itemize]{leftmargin=11pt}
-\setlist[enumerate]{leftmargin=11pt}
+\setlist[itemize]{leftmargin=12pt}
+\setlist[enumerate]{leftmargin=12pt}
 
 \usepackage{pgffor}
 
@@ -305,12 +310,14 @@ $endif$
 
 $if(departamento)$
 \begin{center}
+\large
 $departamento$
 \end{center}
 $endif$
 
 $if(carrera)$
 \begin{center}
+\large
 \uppercase{$carrera$}
 \end{center}
 $endif$
@@ -327,6 +334,7 @@ $endif$
 
 $if(programa)$
 \begin{center}
+\large
 Programa de Investigación
 
 \large
@@ -342,15 +350,14 @@ $tutor$
 $endif$
 
 \bigskip
+\bigskip
 
 $if(title)$
 \begin{center}
-\huge
+\large
 $title$
 \end{center}
 $endif$
-
-%\bigskip
 
 $if(subtitle)$
 \begin{center}
@@ -358,7 +365,6 @@ $if(subtitle)$
 \uppercase{$subtitle$}
 \end{center}
 $endif$
-%\bigskip
 
 $if(author)$
 \begin{center}
@@ -367,15 +373,16 @@ $author$
 \end{center}
 $endif$
 
+\bigskip
+\bigskip
 
-\bigskip
-\bigskip
 $if(abstract)$
 \begin{abstract}
 $abstract$
 \end{abstract}
 $endif$
 
+\bigskip
 \bigskip
 \bigskip
 \bigskip

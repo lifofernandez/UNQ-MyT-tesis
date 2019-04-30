@@ -1,12 +1,98 @@
 nombre:
-   tipo: 'string'
-   defacto: 'null'
+   tipo: 'cadena de carcteres'
+   defacto: 'TO DO'
    descripcion: 'Titulo de la pista'
    ejemplo: |
      nombre: 'Piano'
 forma:
    tipo: 'lista de cadenas de caracteres'
-   defacto: 'empty'
-   descripcion: 'Macro estructura de la pista'
+   defacto: 'TO DO'
+   descripcion: |
+     Macro estructura de la pista.  Lista de unidades a ser sequenciadas.
+     Corresponde a un elemento de la paleta.
    ejemplo: | 
-     forma: ['intro', 'estrofa']
+     forma: [
+       'intro',
+       'estrofa',
+       'estribo',
+       'coda',
+     ]
+unidades:
+   tipo: 'diccionario'
+   defacto: 'TO DO'
+   descripcion: |
+     Paleta de estructuras para secuenciar. En dos tipos de unidades,
+     las que defininen las estructuras minimas y las que invocan otras
+     unidades ademas de sobrescribir o no alguno de sus parametros.
+   ejemplo: | 
+     unidades:
+         base: &base 
+           clave:
+             alteraciones: -2
+             modo:
+           intervalos:  [ 
+               -12,-10, -9, -7, -5, -3, -2,
+                 0,  2,  3,  5,  7,  9, 10,
+                12, 14, 15, 17, 19, 21, 22,
+                24
+           ]
+           alturas:  [ 1, 3, 5, 8 ] 
+           voces: 
+             - [ 8, 6 ] 
+             - [ 5 ] 
+             - [ 3 ]
+           transportar: 60 # C
+           transponer: 0
+           duraciones: [ 1 ]
+           bpm: 62
+           metro: 4/4
+           desplazar: 0
+           reiterar: 0
+           dinamicas: [ 1, .5, .4 ]
+           canal: 3
+           programa: 103
+           controladores: [ 70:80, 70:90, 71:120 ]
+         a: &a 
+           <<: *base
+           metro: 2/4
+           alturas: [ 1, 3,0, 5, 7, 8 ]
+           duraciones: [ 1, .5, .5, 1, 1 ]
+         b: &b 
+           <<: *base
+           metro: 6/8
+           duraciones: [ .5 ]
+           alturas: [ 1, 2 ]
+           voces: 0
+           revertir: [ 'duraciones', 'dinamicas' ]
+           transponer: 3
+           clave: 
+             alteraciones: 2
+             modo: 1 
+           fluctuacion: 
+             min: .1
+             max: .4 
+           desplazar: -1
+         b^: 
+           <<: *b
+           dinamicas: [ .5, .1 ]
+           revertir: [ 'alturas' ]
+         # Unidad de unidades ( UoUs )
+         # Propiedades sobrescriben a las de las unidades referidas 
+         A: 
+           unidades: [ 'a', 'b' ] 
+           reiterar: 3
+         B: &B 
+           metro: 9/8
+           unidades: [ 'a' , 'b^' ]
+           desplazar: -0.75
+         B^: 
+           <<: *B
+           voces: 0 
+           bmp: 89
+           unidades: [ 'b', 'a' ] 
+           dinamicas: [ 1 ]
+         estrofa: 
+           unidades: [ 'A', 'B', 'B^' ]
+         coro: 
+           bpm: 100
+           unidades: [ 'B', 'B^', 'a' ]

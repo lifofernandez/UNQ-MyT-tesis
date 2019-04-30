@@ -48,7 +48,6 @@ con las premisas del software libre.[^ver_gnu]
 
 *Introducir a los temas q se discutiran en esta sección.*
 
-
 A continuación se argumentan los aspectos clave de este proyecto.
 
 ## Necesidades / Requerimientos
@@ -172,8 +171,6 @@ Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
 [^ver_raymond2]: @raymond2 Capítulo 11: The Social Context of Open-Source
   Software (p. 11)
 [^ver_yzaguirre]: @yzaguirre
-
-\newpage
 
 ## Antecedentes 
 
@@ -665,6 +662,7 @@ proveido por algún servicio del tipo GitLab.
 [^ver_sphinx]: @sphinx
 
 
+\newpage
 
 # Resultados
 
@@ -689,7 +687,6 @@ Describir Referencia y Recurrencia en YAML
 
 <<: \*base (Para que otra pista herede estas propiedades)
 
-
 ### Vocabulario
 
 explicar q se va a describir cada palabra elegida para representar cada
@@ -704,357 +701,11 @@ primer nivel estructural, las unidades se organizan entre ellas.
 
 \input{props_pista.tex}
 
-##### Nombre
-Título de la pista.
-
-**Etiqueta:** _nombre._\newline
-**Tipo de dato:** _Cadena de caracteres._\newline
-**Valor por defecto:** _¿nombre del fichero?_
-\begin{minted}{yaml}
-nombre: 'Pista 1'
-\end{minted}
-
-##### Forma
-Lista de unidades a ser sequenciadas.
-Lista de cadenas de caracteres (corresponde a un elemento de la paleta.
-
-**Etiqueta:** _macroforma._\newline
-**Tipo de dato:** _Lista de cadenas de caracteres_\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-
-\begin{minted}{yaml}
-macroforma: [
-  'intro',
-  'estrofa',
-  'estribo',
-  'estrofa',
-  'coro',
-  'coro',
-  'inter',
-]
-\end{minted}
-
-##### Paleta de unidades
-Paleta de estructuras para secuenciar.
-
-En dos tipos de unidades, las que defininen las estructuras minimas y las que
-invocan otras unidades ademas de sobrescribir o no alguno de sus parametros.
-
-**Etiqueta:** _unidades._\newline
-**Tipo de dato:** _Diccionario._ \newline
-**Valor por defecto:** _Lorem impsum_.\newline
-
-\begin{minted}{yaml}
-unidades:
-    base: &base 
-      clave:
-        alteraciones: -2
-        modo:
-      intervalos:  [ 
-          -12,-10, -9, -7, -5, -3, -2,
-            0,  2,  3,  5,  7,  9, 10,
-           12, 14, 15, 17, 19, 21, 22,
-           24
-      ]
-      alturas:  [ 1, 3, 5, 8 ] 
-      voces: 
-        - [ 8, 6 ] 
-        - [ 5 ] 
-        - [ 3 ]
-      transportar: 60 # C
-      transponer: 0
-      duraciones: [ 1 ]
-      bpm: 62
-      metro: 4/4
-      desplazar: 0
-      reiterar: 0
-      dinamicas: [ 1, .5, .4 ]
-      revertir: [ 'duraciones', 'dinamicas' ]
-      canal: 3
-      programa: 103
-      controladores: [ 70:80, 70:90, 71:120 ]
-    a: &a 
-      <<: *base
-      metro: 2/4
-      alturas: [ 1, 3,0, 5, 7, 8 ]
-      duraciones: [ 1, .5, .5, 1, 1 ]
-    b: &b 
-      <<: *base
-      metro: 6/8
-      duraciones: [ .5 ]
-      alturas: [ 1, 2 ]
-      voces: 0
-      transponer: 3
-      clave: 
-        alteraciones: 2
-        modo: 1 
-      fluctuacion: 
-        min: .1
-        max: .4 
-      desplazar: -1
-    b^: 
-      <<: *b
-      dinamicas: [ .5, .1 ]
-      revertir: [ 'alturas' ]
-    
-    # Unidad de unidades ( UoUs )
-    # Propiedades sobrescriben a las de las unidades referidas 
-    A: 
-      unidades: [ 'a', 'b' ] 
-      reiterar: 3
-    B: &B 
-      metro: 9/8
-      unidades: [ 'a' , 'b^' ]
-      #desplazar: -0.5
-      desplazar: -0.75
-    B^: 
-      <<: *B
-      voces: 0 
-      bmp: 89
-      unidades: [ 'b', 'a' ] 
-      dinamicas: [ 1 ]
-    estrofa: 
-      unidades: [ 'A', 'B', 'B^' ]
-    coro: 
-      bpm: 100
-      unidades: [ 'B', 'B^', 'a' ]
-\end{minted}
-
 #### Propiedades de unidad
 Parametros por defecto para todas sas unidades,
 pueden ser sobrescritos.
 
 \input{props_unidad.tex}
-
-##### Armadura de clave
-Catidad de alteraciones en la armadura de clave y modo de la escala.
-
-Los numeros positivos representan sotenidos mientras que los se refiere a
-bemoles con números negativos.\newline
--2 = Bb, -1 = F, 0 = C, 1 = G, 2 = D, modo: 0 #
-
-Modo de la escala, 0 = Mayor o 1 = Menor
-
-https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.addKeySignature
-
-**Etiqueta:** _clave, alteraciones y modo._\newline
-**Tipo de dato:** _Diccionarios de enteros._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-clave:
-  alteraciones: -2
-  modo: 0 
-\end{minted}
-
-##### Registración fija
-Secuencia de intervalos a ser recorrida por el punteros de altura
-
-**Etiqueta:** _intervalos_\newline
-**Tipo de dato:** _Lista de números enteros._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-intervalos: [ 
-  -12,-10, -9, -7, -5, -3, -2,
-    0,  2,  3,  5,  7,  9, 10,
-   12, 14, 15, 17, 19, 21, 22,
-   24
-]
-\end{minted}
-
-##### Altura
-Punteros del set de intervalos.
-Cada elemento equivale a el numero de intervalo.
-
-**Etiqueta:** _alturas._\newline
-**Tipo de dato:** _Lista de enteros._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-alturas: [ 1, 3, 5, 8 ] 
-\end{minted}
-
-##### Superposicion de altura
-Apilamiento de alturas.
-Lista de listas, cada voz es un lista que modifica intervalo.
-voz + altura = numero de intervalo.
-
-**Etiqueta:** _voces._\newline
-**Tipo de dato:** _Lista de listas de enteros._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-voces:
-   - [ 8, 6 ] 
-   - [ 5 ] 
-   - [ 3 ]
-\end{minted}
-
-##### Transportar
-Ajuste de alturas.
-
-**Etiqueta:** _transportar._\newline
-**Tipo de dato:** _Número entero._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-transportar: 60 # C
-\end{minted}
-
-##### Transponer
-Ajuste de alturas pero dentro del set intervalos.
-Semitonos, registración fija.
-
-**Etiqueta:** _transponer._\newline
-**Tipo de dato:** _Número entero._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-transponer: 1
-\end{minted}
-
-
-##### Duracion
-Lista ordenada de duraciones.
-
-**Etiqueta:** _duraciones._\newline
-**Tipo de dato:** _Lista de decimales._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-
-\begin{minted}{yaml}
-duraciones: [ 1, .5, .5, 1, 1 ]
-\end{minted}
-
-##### Pulso 
-Tempo, Pulsos Por Minuto.
-
-**Etiqueta:** _bpm_\newline
-**Tipo de dato:** _Número entero._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-bpm: 62
-\end{minted}
-
-##### Clave de compás
-Clave de metrica.
-representando una fracción (numerador / denominador).
-
-**Etiqueta:** _metro._\newline
-**Tipo de dato:** _Cadena de caracteres._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-metro: 4/4
-\end{minted}
-
-##### Ajuste temporal
-Desfazage temporal del momento en el que originalmente comienza la unidad.
-offset : + / - offset con la "posicion" original 
-0 es que donde debe acontecer originalmente
-"-2" anticipar 2 pulsos o ".5" demorar medio pulso
-
-**Etiqueta:** _desplazar._\newline
-**Tipo de dato:** _Número entero._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-desplazar: -2
-\end{minted}
-
-##### Repeticiones 
-Catidad de veces q se toca esta unidad.
-Reiterarse a si misma,
-no es trasferible, no se hereda, caso contrario se reterarian los referidos.
-
-**Etiqueta:** _reiterar._\newline
-**Tipo de dato:** _Número entero._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-
-    \begin{minted}{yaml}
-    reiterar: 3
-    \end{minted}
-##### Dinámica
-Lista ordenada de dinámicas.
-
-**Etiqueta:** _dinamicas._\newline
-**Tipo de dato:** _Lista de número decimales._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-dinamicas: [ 1, .5, .4 ]
-\end{minted}
-
-##### Fluctuación
-fluctuciones dinámicas.
-**Etiqueta:** _fluctuacion, min y max._\newline
-**Tipo de dato:** _dicionario de decimales._\newline
-**Valor por defecto:** _min: 0, max: 0._\newline
-\begin{minted}{yaml}
-fluctuacion:
-  min: .3
-  max: .7
-\end{minted}
-
-##### Sentido de las listas 
-Revierte parametros del tipo lista.
-Deben corresponderse a la etiqueta de otro parametro del tipo lista.
-
-**Etiqueta:** _revertir._\newline
-**Tipo de dato:** _Lista de cadenas de caracteres._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-revertir: [ 'duraciones', 'dinamicas' ]
-\end{minted}
-
-##### Canal MIDI 
-Número de Canal MIDI.
-
-**Etiqueta:** _canal._\newline
-**Tipo de dato:** _Número entero._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-canal: 3
-\end{minted}
-
-##### Instrumento MIDI 
-Número de Instrumento MIDI en el banco actual.\newline
-
-**Etiqueta:** _programa._\newline
-**Tipo de dato:** _Número entero._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-programa: 103
-\end{minted}
-
-##### Cambios de control
-Secuencia de pares número controlador y valor a asignar.
-
-**Etiqueta:** _controles._\newline
-**Tipo de dato:** _Lista de listas de tuples._\newline
-**Valor por defecto:** _Lorem impsum_.\newline
-\begin{minted}{yaml}
-controles:
-  - [ 70 : 80,  71 : 90, 72 : 100 ]
-  - [ 33 : 121, 51 : 120 ]
-  - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
-\end{minted}
-
-##### RPN
-Registered Parameter Number Call
-
-Los bancos MIDI se alternan utilizando de RPN
-
-https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
-
-http://www.andrelouis.com/qws/art/art009.htm
-
-CC#0 numero de banco, CC#32 numero de programa 
-
-Para seleccionar el instrumento #130 = 2do banco, 3º pograma 
-
-Instrumento/programa = CC#0:2, CC#32:32
-
-CC#0:2, CC#32:2
-\begin{minted}{yaml}
-controles:
-  - [  0 : 2 ]
-  - [ 32 : 3 ]
-\end{minted}
-
-##### NRPN
-Non Registered Parameter Number Call
 
 \newpage
 

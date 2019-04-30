@@ -2,7 +2,7 @@
 
 install:
 	sudo pacman -S pandoc pandoc-citeproc texlive-core texlive-music pygmentize & 
-	pip install pygments
+	pip install pygments jinja2 yaml
 	
 tex:
 	pandoc seminario.md --template=seminario \
@@ -15,8 +15,6 @@ pdf:
 	xelatex -shell-escape output.tex
 props:
 	python propiedades.py
-      	
-	
 	
 clean: 
 	rm _minted-output* -r
@@ -25,6 +23,7 @@ render:
 	make props
 	make tex 
 	make pdf
+	make pdf # quick fix: table of contents.
 	
 	
 # -s --csl=vendor/apa-annotated-bibliography.csl \

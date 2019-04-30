@@ -1,15 +1,198 @@
-instrumento:
-   tipo: 'Número Entero'
-   defacto: '1'
-   descripcion: 'Numero de Programa MIDI'
-   ejemplo: | 
-     instrumento: '1'
 forma:
-   tipo: 'lista'
-   defacto: 'empty'
-   descripcion: 'Estructura de la Unidad'
-   ejemplo: | 
-     forma: ['A', 'B']
-     
+  tipo: 'lista'
+  defacto: None
+  descripcion: 'Estructura de la Unidad'
+  ejemplo: | 
+    forma: ['A', 'B']
+clave:
+  tipo: 'diccionario'
+  defacto: 'alteraciones:0, modo: 0'
+  descripcion: |
+    Armadura de clave
+    Catidad de alteraciones en la armadura de clave y modo de la escala.
+    Los numeros positivos representan sotenidos mientras que los se
+    refiere a bemoles con números negativos.  -2 = Bb, -1 = F, 0 = C, 1 =
+    G, 2 = D, modo: 0 (mayor) 
+    Modo de la escala, 0 = Mayor o 1 = Menor
+    (referir midi util doc, key signature)
+  ejemplo: | 
+    clave:
+      alteraciones: -2
+      modo: 1 
+intervalos:
+  tipo: 'lista de enteros'
+  defacto: '[ 1 ]'
+  descripcion: |
+   Registración fija.
+   Secuencia de intervalos a ser recorrida por el punteros de altura.
+  ejemplo: | 
+    intervalos: [ 
+      -12,-10, -9, -7, -5, -3, -2,
+        0,  2,  3,  5,  7,  9, 10,
+       12, 14, 15, 17, 19, 21, 22,
+       24
+    ]
+alturas:
+  tipo: 'lista de números enteros'
+  defacto: '[1]'
+  descripcion: |
+    Punteros del set de intervalos.
+    Cada elemento equivale a el numero de intervalo.
+  ejemplo: | 
+    alturas: [ 1, 3, 5, 8 ] 
+voces:
+  tipo: 'lista de números enteros'
+  defacto: 'TO DO'
+  descripcion: |
+    Superposicion de altura
+    Apilamiento de alturas.
+    Lista de listas, cada voz es un lista que modifica intervalo.
+    voz + altura = numero de intervalo.
+  ejemplo: | 
+    voces:
+       - [ 8, 6 ] 
+       - [ 5 ] 
+       - [ 3 ]
+transportar:
+  tipo: 'número entero'
+  defacto: 0
+  descripcion: |
+    Transportar
+    Ajuste de alturas.
+    Semitonos
+  ejemplo: | 
+    transportar: 60 # C
+transponer:
+  defacto: 'número entero'
+  defacto: 0 
+  descripcion: |
+    Transponer puntero de intervalos
+    Ajuste de alturas pero dentro del set intervalos.
+  ejemplo: | 
+    transponer: 1
+duraciones:
+  tipo: 'lista de números decimales'
+  defacto: '[ 1 ]'
+  descripcion: |
+    Duracion
+    Lista ordenada de duraciones.
+  ejemplo: | 
+   duraciones: [ 1, .5, .5, 1, 1 ]
+bpm:
+  tipo: 'número entero'
+  defacto: 60 
+  descripcion: |
+    Pulso 
+    Tempo, Pulsos Por Minuto.
+  ejemplo: | 
+    bpm: 62
+metro:
+  tipo: 'cadena de caracteres'
+  defacto: '4/4'
+  descripcion: |
+    Clave de compás
+    Clave de metrica.
+    representando una fracción (numerador / denominador).
+  ejemplo: | 
+    metro: 4/4
+desplazar:
+  tipo: 'número decimal'
+  defacto: '0'
+  descripcion: |
+    Ajuste temporal Desfazage temporal del momento en el que
+    originalmente comienza la unidad.  offset : + / - offset con la
+    "posicion" original 0 es que donde debe acontecer originalmente "-2"
+    anticipar 2 pulsos o ".5" demorar medio pulso
+  ejemplo: | 
+    desplazar: -2
+reiterar:
+  tipo: 'número entero'
+  defacto: 1
+  descripcion: |
+    Repeticiones Catidad de veces q se toca esta unidad.  Reiterarse a si
+    misma, no es trasferible, no se hereda, caso contrario se reterarian
+    los referidos.
+  ejemplo: | 
+    reiterar: 3
+dinamicas:
+  tipo: 'lista de números decimales'
+  defacto: '[ 1 ]'
+  descripcion: |
+    Dinámica
+    Lista ordenada de dinámicas.
+  ejemplo: | 
+    dinamicas: [ 1, .5, .4 ]
+etiqueta:
+  tipo: 'dicionario'
+  defacto: 'min:1, max:1'
+  descripcion: |
+    Fluctuación
+    fluctuciones dinámicas.
+  ejemplo: | 
+    fluctuacion:
+      min: .3
+      max: .7
+revertir:
+  tipo: 'lista de cadenas de caracteres'
+  defacto: '[none]'
+  descripcion: |
+    Sentido de las listas 
+    Revierte parametros del tipo lista.
+    Deben corresponderse a la etiqueta de otro parametro del tipo lista.
+  ejemplo: | 
+    revertir: [ 'duraciones', 'dinamicas' ]
+canal:
+  tipo: 'número entero'
+  defacto: 1
+  descripcion: |
+    Canal MIDI 
+    Número de Canal MIDI.
+  ejemplo: | 
+    canal: 3
+programa:
+  tipo: 'número entero'
+  defacto: 1 
+  descripcion: |
+    Instrumento MIDI 
+    Número de Instrumento MIDI en el banco actual.\newline
+  ejemplo: | 
+    programa: 103
+controles:
+  tipo: 'lista de listas de pares'
+  defacto: 'None' 
+  descripcion: |
+    Cambios de control
+    Secuencia de pares número controlador y valor a asignar.
+  ejemplo: | 
+    controles:
+      - [ 70 : 80,  71 : 90, 72 : 100 ]
+      - [ 33 : 121, 51 : 120 ]
+      - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
+RPN:
+  tipo: 'dicionario'
+  defacto: 'None'
+  descripcion: |
+    RPN Registered Parameter Number Call
+
+    Los bancos MIDI se alternan utilizando de RPN
+    CC\#0 numero de banco, CC\#32 numero de programa.
+    Para seleccionar el instrumento \#130 = 2do banco, 3º pograma 
+    Instrumento/programa = CC\#0:2, CC\#32:32
+    http://www.andrelouis.com/qws/art/art009.htm
+  ejemplo: | 
+    TO DO 
+NRPN:
+  tipo: 'dicionario'
+  defacto: 'None'
+  descripcion: |
+    NRPN Non Registered Parameter Number Call
+  ejemplo: | 
+    TO DO 
+        
+#etiqueta:
+#  tipo: ''
+#  defacto: 'TO DO'
+#  descripcion: |
+#  ejemplo: | 
      
    

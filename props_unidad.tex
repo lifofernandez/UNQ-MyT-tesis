@@ -3,33 +3,374 @@
 \setlength{\parskip}{1pt}
 \begin{itemize}
 
-  \item [\texttt{instrumento}] 
-    \begin{minipage}[t]{5.5cm}\flushleft
-	    \textsf{(Número Entero)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{5.5cm}\flushright
-      default: \texttt{1}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Numero de Programa MIDI
-\begin{minted}{yaml}
-instrumento: '1'
-
-\end{minted}
-
   \item [\texttt{forma}] 
-    \begin{minipage}[t]{5.5cm}\flushleft
+    \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(lista)}
     \end{minipage}
     \hfill
-    \begin{minipage}[t]{5.5cm}\flushright
-      default: \texttt{empty}
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
     \end{minipage}
     \vskip.2\baselineskip
     Estructura de la Unidad
 \begin{minted}{yaml}
 forma: ['A', 'B']
+
+\end{minted}
+
+  \item [\texttt{clave}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{alteraciones:0, modo: 0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Armadura de clave
+Catidad de alteraciones en la armadura de clave y modo de la escala.
+Los numeros positivos representan sotenidos mientras que los se
+refiere a bemoles con números negativos.  -2 = Bb, -1 = F, 0 = C, 1 =
+G, 2 = D, modo: 0 (mayor) 
+Modo de la escala, 0 = Mayor o 1 = Menor
+(referir midi util doc, key signature)
+
+\begin{minted}{yaml}
+clave:
+  alteraciones: -2
+  modo: 1 
+
+\end{minted}
+
+  \item [\texttt{intervalos}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de enteros)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{[ 1 ]}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Registración fija.
+Secuencia de intervalos a ser recorrida por el punteros de altura.
+
+\begin{minted}{yaml}
+intervalos: [ 
+  -12,-10, -9, -7, -5, -3, -2,
+    0,  2,  3,  5,  7,  9, 10,
+   12, 14, 15, 17, 19, 21, 22,
+   24
+]
+
+\end{minted}
+
+  \item [\texttt{alturas}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de números enteros)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{[1]}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Punteros del set de intervalos.
+Cada elemento equivale a el numero de intervalo.
+
+\begin{minted}{yaml}
+alturas: [ 1, 3, 5, 8 ] 
+
+\end{minted}
+
+  \item [\texttt{voces}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de números enteros)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{TO DO}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Superposicion de altura
+Apilamiento de alturas.
+Lista de listas, cada voz es un lista que modifica intervalo.
+voz + altura = numero de intervalo.
+
+\begin{minted}{yaml}
+voces:
+   - [ 8, 6 ] 
+   - [ 5 ] 
+   - [ 3 ]
+
+\end{minted}
+
+  \item [\texttt{transportar}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Transportar
+Ajuste de alturas.
+Semitonos
+
+\begin{minted}{yaml}
+transportar: 60 # C
+
+\end{minted}
+
+  \item [\texttt{transponer}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{()}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Transponer puntero de intervalos
+Ajuste de alturas pero dentro del set intervalos.
+
+\begin{minted}{yaml}
+transponer: 1
+
+\end{minted}
+
+  \item [\texttt{duraciones}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de números decimales)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{[ 1 ]}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Duracion
+Lista ordenada de duraciones.
+
+\begin{minted}{yaml}
+duraciones: [ 1, .5, .5, 1, 1 ]
+
+\end{minted}
+
+  \item [\texttt{bpm}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{60}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Pulso 
+Tempo, Pulsos Por Minuto.
+
+\begin{minted}{yaml}
+bpm: 62
+
+\end{minted}
+
+  \item [\texttt{metro}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(cadena de caracteres)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{4/4}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Clave de compás
+Clave de metrica.
+representando una fracción (numerador / denominador).
+
+\begin{minted}{yaml}
+metro: 4/4
+
+\end{minted}
+
+  \item [\texttt{desplazar}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número decimal)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Ajuste temporal Desfazage temporal del momento en el que
+originalmente comienza la unidad.  offset : + / - offset con la
+"posicion" original 0 es que donde debe acontecer originalmente "-2"
+anticipar 2 pulsos o ".5" demorar medio pulso
+
+\begin{minted}{yaml}
+desplazar: -2
+
+\end{minted}
+
+  \item [\texttt{reiterar}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{1}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Repeticiones Catidad de veces q se toca esta unidad.  Reiterarse a si
+misma, no es trasferible, no se hereda, caso contrario se reterarian
+los referidos.
+
+\begin{minted}{yaml}
+reiterar: 3
+
+\end{minted}
+
+  \item [\texttt{dinamicas}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de números decimales)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{[ 1 ]}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Dinámica
+Lista ordenada de dinámicas.
+
+\begin{minted}{yaml}
+dinamicas: [ 1, .5, .4 ]
+
+\end{minted}
+
+  \item [\texttt{etiqueta}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(dicionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{min:1, max:1}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Fluctuación
+fluctuciones dinámicas.
+
+\begin{minted}{yaml}
+fluctuacion:
+  min: .3
+  max: .7
+
+\end{minted}
+
+  \item [\texttt{revertir}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de cadenas de caracteres)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{[none]}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Sentido de las listas 
+Revierte parametros del tipo lista.
+Deben corresponderse a la etiqueta de otro parametro del tipo lista.
+
+\begin{minted}{yaml}
+revertir: [ 'duraciones', 'dinamicas' ]
+
+\end{minted}
+
+  \item [\texttt{canal}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{1}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Canal MIDI 
+Número de Canal MIDI.
+
+\begin{minted}{yaml}
+canal: 3
+
+\end{minted}
+
+  \item [\texttt{programa}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{1}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Instrumento MIDI 
+Número de Instrumento MIDI en el banco actual.\newline
+
+\begin{minted}{yaml}
+programa: 103
+
+\end{minted}
+
+  \item [\texttt{controles}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de listas de pares)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Cambios de control
+Secuencia de pares número controlador y valor a asignar.
+
+\begin{minted}{yaml}
+controles:
+  - [ 70 : 80,  71 : 90, 72 : 100 ]
+  - [ 33 : 121, 51 : 120 ]
+  - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
+
+\end{minted}
+
+  \item [\texttt{RPN}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(dicionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    RPN Registered Parameter Number Call
+
+Los bancos MIDI se alternan utilizando de RPN
+CC\#0 numero de banco, CC\#32 numero de programa.
+Para seleccionar el instrumento \#130 = 2do banco, 3º pograma 
+Instrumento/programa = CC\#0:2, CC\#32:32
+http://www.andrelouis.com/qws/art/art009.htm
+
+\begin{minted}{yaml}
+TO DO 
+
+\end{minted}
+
+  \item [\texttt{NRPN}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(dicionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    NRPN Non Registered Parameter Number Call
+
+\begin{minted}{yaml}
+TO DO 
+    
 
 \end{minted}
 
