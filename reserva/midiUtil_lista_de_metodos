@@ -1,0 +1,17 @@
+addControllerEvent(track, channel, time, controller_number, parameter)¶
+addCopyright(track, time, notice)¶
+addKeySignature(track, time, accidentals, accidental_type, mode, 
+addNote(track, channel, pitch, time, duration, volume, annotation=None)¶
+addPitchWheelEvent(track, channel, time, pitchWheelValue)¶
+addProgramChange(tracknum, channel, time, program)¶
+addSysEx(track, time, manID, payload)¶
+addTempo(track, time, tempo)¶
+addText(track, time, text)¶
+addTimeSignature(track, time, numerator, denominator, clocks_per_tick, 
+addTrackName(track, time, trackName)¶
+addUniversalSysEx(track, time, code, subcode, payload, sysExChannel=127, 
+changeNoteTuning(track, tunings, sysExChannel=127, realTime=True, 
+changeTuningBank(track, channel, time, bank, time_order=False)¶
+changeTuningProgram(track, channel, time, program, time_order=False)¶
+makeNRPNCall(track, channel, time, controller_msb, controller_lsb, data_msb
+makeRPNCall(track, channel, time, controller_msb, controller_lsb, data_msb,
