@@ -884,10 +884,20 @@ Pautas / guias :
 # Bibliografía
 
 Reserva de referencias: 
-[^ver_allen], [^ver_schaeffer], [^ver_samaruga], [^ver_lerdahl]
 
-[^ver_allen]: @allen
+* [^ver_allen]
+
+* [^ver_schaeffer]
+
+* [^ver_samaruga]
+
+* [^ver_lerdahl]
+
+* [^ver_lily1]
+
+[^ver_lily1]: @lily1
 [^ver_schaeffer]: @schaeffer
+[^ver_allen]: @allen
 [^ver_samaruga]: @samaruga
 [^ver_lerdahl]: @lerdahl
 
