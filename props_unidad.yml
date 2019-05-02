@@ -195,12 +195,27 @@ NRPN:
 #  descripcion: |
 #  ejemplo: | 
 
+
+#tonos: !!seq
+#  # Curva de entonaciones (Pitch-bend / Pitch-wheel)
+#  [ 666, 777 ]
+#
 #afinacionNota: !!map
 #  # Actualizar afinacion MIDI en tiempo real
 #  afinaciones: !!seq [ [69, 50],[79,60]]
 #  canalSysEx: !!int 127
 #  tiempoReal: !!bool true
 #  programa: !!int 0
+#
+#afinacionBanco: !!map
+#  # Actualizar afinacion banco MIDI
+#  banco: !!int 0
+#  ordenar: !!bool false
+#
+#afinacionPrograma: !!map
+#  # Actualizar afinacion Programa MIDI
+#  programa: !!int 0
+#  ordenar: !!bool false
 #
 #NRPN: !!map
 #  # Numero de Parametro No Registrado 
