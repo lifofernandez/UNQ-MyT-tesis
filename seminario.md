@@ -752,22 +752,22 @@ crea "pistas" a partir de ellos
     	-latex',
     ]
 
-    \node [circulo]                                  (yaml) { Definiciones YAML};
-    \node [circulo, below of=yaml]                  (pista) { Pistas };
-    \node [block, right of=pista]                   (parte) { Partes };
+    \node [circulo] (yaml) { Definiciones YAML};
+    \node [circulo, below of=yaml] (pista) { Pistas };
+    \node [block, right of=pista] (secuencia) { Secuencia };
 
-    \node [circulo, below of=pista]                (unidad) { Unidades };
-    \node [block, below of=parte]                (segmento) { Segmentos};
-    \node [block, below of=segmento]         (articulacion) { Articulaciones };
+    \node [circulo, below of=pista] (unidad) { Unidades };
+    \node [block, below of=secuencia] (segmento) { Segmentos};
+    \node [block, below of=segmento] (articulacion) { Articulaciones };
 
-    \node [circulo, right of=articulacion ]        (evento) { Eventos };
-    \node [circulo, below of=evento]                 (midi) { MIDI };
+    \node [circulo, right of=articulacion ] (evento) { Eventos };
+    \node [circulo, below of=evento] (midi) { MIDI };
 
     \path [line] (yaml) -- (pista) -- (unidad);
-    \path [line] (parte) -- (segmento) -- (articulacion);
+    \path [line] (secuencia) -- (segmento) -- (articulacion);
     \path [line] (evento) -- (midi);
 
-    \draw[densely dotted] (pista) -- (parte);
+    \draw[densely dotted] (pista) -- (secuencia);
     \draw[densely dotted] (unidad) -- (segmento);
     \draw[densely dotted] (articulacion) -- (evento);
 
