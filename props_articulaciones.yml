@@ -1,0 +1,140 @@
+alturas:
+  tipo: 'lista de números enteros'
+  defacto: '[1]'
+  descripcion: |
+    Punteros del set de registracion.
+    Cada elemento equivale a el numero de intervalo.
+  ejemplo: | 
+    alturas: [ 1, 3, 5, 8 ] 
+voces:
+  tipo: 'lista de números enteros'
+  defacto: 'TO DO'
+  descripcion: |
+    Superposicion de altura
+    Apilamiento de alturas.
+    Lista de listas, cada voz es un lista que modifica intervalo.
+    voz + altura = numero de intervalo.
+  ejemplo: | 
+    voces:
+       - [ 8, 6 ] 
+       - [ 5 ] 
+       - [ 3 ]
+duraciones:
+  tipo: 'lista de números decimales'
+  defacto: '[ 1 ]'
+  descripcion: |
+    Duracion
+    Lista ordenada de duraciones.
+  ejemplo: | 
+   duraciones: [ 1, .5, .5, 1, 1 ]
+BPMs:
+  tipo: 'número entero'
+  defacto: 60 
+  descripcion: |
+    Pulso 
+    Tempo, Pulsos Por Minuto.
+  ejemplo: | 
+    bpm: 62
+dinamicas:
+  tipo: 'lista de números decimales'
+  defacto: '[ 1 ]'
+  descripcion: |
+    Dinámica
+    Lista ordenada de dinámicas.
+  ejemplo: | 
+    dinamicas: [ 1, .5, .4 ]
+programas:
+  tipo: 'número entero'
+  defacto: 1 
+  descripcion: |
+    Instrumento MIDI 
+    Número de Instrumento MIDI en el banco actual.\newline
+  ejemplo: | 
+    programa: 103
+controles:
+  tipo: 'lista de listas de pares'
+  defacto: 'None' 
+  descripcion: |
+    Cambios de control
+    Secuencia de pares número controlador y valor a asignar.
+  ejemplo: | 
+    controles:
+      - [ 70 : 80,  71 : 90, 72 : 100 ]
+      - [ 33 : 121, 51 : 120 ]
+      - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
+        
+#etiqueta:
+#  tipo: ''
+#  defacto: 'TO DO'
+#  descripcion: |
+#  ejemplo: | 
+
+
+#tonos: !!seq
+#  # Curva de entonaciones (Pitch-bend / Pitch-wheel)
+#  [ 666, 777 ]
+#
+#afinacionNota: !!map
+#  # Actualizar afinacion MIDI en tiempo real
+#  afinaciones: !!seq [ [69, 50],[79,60]]
+#  canalSysEx: !!int 127
+#  tiempoReal: !!bool true
+#  programa: !!int 0
+#
+#afinacionBanco: !!map
+#  # Actualizar afinacion banco MIDI
+#  banco: !!int 0
+#  ordenar: !!bool false
+#
+#afinacionPrograma: !!map
+#  # Actualizar afinacion Programa MIDI
+#  programa: !!int 0
+#  ordenar: !!bool false
+#
+#NRPN: !!map
+#  # Numero de Parametro No Registrado 
+#  # NRPN (Non Registered Parameter Number)
+#  # https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.makeNRPNCall
+#  # http://www.philrees.co.uk/nrpnq.htm
+#  # https://en.wikipedia.org/wiki/NRPN
+#
+#  control_msb: !!int
+#    # The Most significant byte of the controller.
+#    # In common usage this will usually be 0
+#    0
+#  control_lsb: !!int
+#    # The Least significant Byte for the controller message.
+#    # For example, for a fine-tuning change this would be 01.
+#    3
+#  data_msb: !!int
+#    # The Most Significant Byte of the controller’s parameter.
+#    0
+#  data_lsb: !!int
+#    # The Least Significant Byte of the controller’s parameter.
+#    # If not needed this should be set to None
+#    1
+#  ordenar: !!bool
+#    # Order the control events in time. 
+#    False
+#
+#  # alternar bancos MIDI através de NPRN
+#  # https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
+#  # http://www.andrelouis.com/qws/art/art009.htm
+#
+#RPN: !!map
+#  control_msb: 0
+#  control_lsb: 32
+#  data_msb: 2 
+#  data_lsb: 9
+#  ordenar: True
+#
+#sysEx: !!map
+#  fabricante: 0
+#  playload:  !!binary ''
+#
+#uniSysEx: !!map
+#  codigo: !!int 0
+#  subCodigo: !!int 0
+#  playload:  !!binary ''
+#  canal: !!int 14
+#  tiempoReal: !!bool False

@@ -701,11 +701,19 @@ primer nivel estructural, las unidades se organizan entre ellas.
 
 \input{props_pista.tex}
 
-#### Propiedades de unidad
+#### Propiedades de Unidad
 Parametros por defecto para todas sas unidades,
 pueden ser sobrescritos.
 
 \input{props_unidad.tex}
+
+\newpage
+
+#### Propiedades de Articulaciones
+Parametros por defecto para todas sas unidades,
+pueden ser sobrescritos.
+
+\input{props_articulaciones.tex}
 
 \newpage
 

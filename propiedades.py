@@ -29,3 +29,6 @@ PROPS_UNIDAD = yaml.load( open( 'props_unidad.yml', 'r' ) )
 with open( 'props_unidad.tex', "w" ) as tex:
   tex.write( template.render( PROPS = PROPS_UNIDAD ) )
 
+PROPS_ARTICULACIONES = yaml.load( open( 'props_articulaciones.yml', 'r' ) ) 
+with open( 'props_articulaciones.tex', "w" ) as tex:
+  tex.write( template.render( PROPS = PROPS_ARTICULACIONES ) )
