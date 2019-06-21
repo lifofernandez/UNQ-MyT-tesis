@@ -666,10 +666,10 @@ proveido por algún servicio del tipo GitLab.
 
 # Resultados
 
-introduccion a los temas discutidos en cada sub seccion
-gramatica
-aplicacion
-demostracion
+[ ] Introduccion a los temas discutidos en cada sub seccion
+[ ] Gramatica
+[ ] Aplicacion
+[ ] Demostracion
 
 ## Gramática 
 
@@ -725,6 +725,9 @@ Aplicación y entorno de secuenciación
 
 Lee archivos YAML como argumentos posicionales 
 crea "pistas" a partir de ellos
+
+esplicar estructura
+pista como flujo de eventos agrupados en segmentos agrupados en secciones
 
 ### Diagrama de arquitectura
 
