@@ -120,10 +120,6 @@ canal:
 #  ejemplo: | 
 
 
-#tonos: !!seq
-#  # Curva de entonaciones (Pitch-bend / Pitch-wheel)
-#  [ 666, 777 ]
-#
 #afinacionNota: !!map
 #  # Actualizar afinacion MIDI en tiempo real
 #  afinaciones: !!seq [ [69, 50],[79,60]]

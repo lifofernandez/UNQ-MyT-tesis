@@ -9,12 +9,27 @@
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{TO DO}
+      default: \texttt{empty}
     \end{minipage}
     \vskip.2\baselineskip
     Titulo de la pista
 \begin{minted}{yaml}
 nombre: 'Piano'
+
+\end{minted}
+
+  \item [\texttt{complementos}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(cadena de carcteres)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{< empty >}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Ubicación de fichero con modulo de usuario.
+\begin{minted}{yaml}
+complementos: 'enchufes.py'
 
 \end{minted}
 
@@ -27,7 +42,8 @@ nombre: 'Piano'
       default: \texttt{TO DO}
     \end{minipage}
     \vskip.2\baselineskip
-    Macro estructura de la pista.  Lista de unidades a ser sequenciadas.
+    Macro estructura de la pista.
+Lista de unidades a ser sequenciadas.
 Corresponde a un elemento de la paleta.
 
 \begin{minted}{yaml}
@@ -57,8 +73,8 @@ unidades ademas de sobrescribir o no alguno de sus parametros.
 unidades:
     base: &base 
       clave:
-        alteraciones: -2
-        modo:
+      alteraciones: -2
+      modo: 1
       registracion:  [ 
           -12,-10, -9, -7, -5, -3, -2,
             0,  2,  3,  5,  7,  9, 10,

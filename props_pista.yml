@@ -1,14 +1,21 @@
 nombre:
    tipo: 'cadena de carcteres'
-   defacto: 'TO DO'
+   defacto: 'empty'
    descripcion: 'Titulo de la pista'
    ejemplo: |
      nombre: 'Piano'
+complementos:
+   tipo: 'cadena de carcteres'
+   defacto: '< empty >'
+   descripcion: 'Ubicación de fichero con modulo de usuario.'
+   ejemplo: |
+     complementos: 'enchufes.py'
 forma:
    tipo: 'lista de cadenas de caracteres'
    defacto: 'TO DO'
    descripcion: |
-     Macro estructura de la pista.  Lista de unidades a ser sequenciadas.
+     Macro estructura de la pista.
+     Lista de unidades a ser sequenciadas.
      Corresponde a un elemento de la paleta.
    ejemplo: | 
      forma: [
@@ -28,8 +35,8 @@ unidades:
      unidades:
          base: &base 
            clave:
-             alteraciones: -2
-             modo:
+           alteraciones: -2
+           modo: 1
            registracion:  [ 
                -12,-10, -9, -7, -5, -3, -2,
                  0,  2,  3,  5,  7,  9, 10,
