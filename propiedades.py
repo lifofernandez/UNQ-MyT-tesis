@@ -21,14 +21,24 @@ latex_jinja_env = jinja2.Environment(
 )
 template = latex_jinja_env.get_template( 'props_tmpl.tex' )
 
-PROPS_PISTA  = yaml.load( open( 'props_pista.yml', 'r' ) ) 
-with open( 'props_pista.tex', "w" ) as tex:
-  tex.write( template.render( PROPS = PROPS_PISTA ) )
+propiedades = [ 
+  'props_pista',
+  'props_articulaciones',
+  'props_unidad',
+]
 
-PROPS_UNIDAD = yaml.load( open( 'props_unidad.yml', 'r' ) ) 
-with open( 'props_unidad.tex', "w" ) as tex:
-  tex.write( template.render( PROPS = PROPS_UNIDAD ) )
-
-PROPS_ARTICULACIONES = yaml.load( open( 'props_articulaciones.yml', 'r' ) ) 
-with open( 'props_articulaciones.tex', "w" ) as tex:
-  tex.write( template.render( PROPS = PROPS_ARTICULACIONES ) )
+for p in propiedades:
+  prop = yaml.load( open( p + '.yml', 'r' ), Loader = yaml.FullLoader ) 
+  with open( p + '.tex', "w" ) as tex:
+    tex.write( template.render( PROPS = prop ) )
+# PROPS_PISTA  = yaml.load( open( 'props_pista.yml', 'r' ) ) 
+# with open( 'props_pista.tex', "w" ) as tex:
+#   tex.write( template.render( PROPS = PROPS_PISTA ) )
+# 
+# PROPS_UNIDAD = yaml.load( open( 'props_unidad.yml', 'r' ) ) 
+# with open( 'props_unidad.tex', "w" ) as tex:
+#   tex.write( template.render( PROPS = PROPS_UNIDAD ) )
+# 
+# PROPS_ARTICULACIONES = yaml.load( open( 'props_articulaciones.yml', 'r' ) ) 
+# with open( 'props_articulaciones.tex', "w" ) as tex:
+#   tex.write( template.render( PROPS = PROPS_ARTICULACIONES ) )
