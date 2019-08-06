@@ -31,6 +31,7 @@ for p in propiedades:
   prop = yaml.load( open( p + '.yml', 'r' ), Loader = yaml.FullLoader ) 
   with open( p + '.tex', "w" ) as tex:
     tex.write( template.render( PROPS = prop ) )
+
 # PROPS_PISTA  = yaml.load( open( 'props_pista.yml', 'r' ) ) 
 # with open( 'props_pista.tex', "w" ) as tex:
 #   tex.write( template.render( PROPS = PROPS_PISTA ) )
