@@ -12,29 +12,61 @@
   place: 'Buenos Aires, Argentina'
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
   bibliography: referencias.bib
+
   abstract: |
     Definición de gramática formal basada en texto plano serializado,
     estructurada como arbol de análisis para representar planes de obra musical.
     Acompañada por el desarrollo de un contexto de herramientas para interfaz de
-    linea de comandos (CLI) destinada a generar sequencias musicales en el
+    linea de comandos destinada a generar sequencias musicales en el
     protocolo MIDI.
+
+  abstract: |
+    Definición de gramática formal que represente estructuras musicales y 
+    contexto de produccion musical para interface de linea de comandos.
+
 ---
 
 # Resumen 
 
-El presente plan propone definir una gramática formal basada en
-texto plano serializado[^ver_combs] y descriptivo, estructurada como árbol de
-análisis[^ver_grela] con el fin de representar planes de obra musical.
+El presente plan propone un contexto de producion musical meramente textual.
+Constituido principalmente por
+un marco de reglas, jerarquias y patrones gramaticales
+que contendios en ficheros de texto llano serializado[^ver_combs] y descriptivo,
+permitan representar informacion musical 
+siendo la materia prima que manipulada y consumida.
 
-Acompañada por el desarrollo de un contexto de herramientas para interprete de
-línea de comandos (Command Line Interface) para producción de secuencias MIDI
+En un flujo de herramientas para interprete de
+línea de comandos para producción de secuencias MIDI
 [^ver_penfold] a partir de manipular información subscripta a dicha
 representación.
 
-El desarrollo se documentará[^ver_kernighan] para que su publicación cumpla
-con las premisas del software libre.[^ver_gnu]
+[//]: # estructurada como árbol de
+[//]: # análisis
+[//]: # [^ver_grela]
+
+[//]: # El desarrollo se documentará [^ver_kernighan] para que su publicación cumpla
+[//]: # con las premisas del software libre.[^ver_gnu]
+
 
 *Explicar estructura del texto, que se discutite en cada parte*
+
+Introduccion:
+  Justificación, Motivacion y Antecedentes.
+
+Metodologia: 
+  Diagrama de procedimiento, desarrollo
+
+Resultados: (central)
+  Gramatica, Aplicacion y Demostraciones.
+
+Concluciones:
+  Pruebas y entrevistass
+  posibles Aplicaciones, futuro, 
+  online, IA, archivologia, complementos
+
+Apendice:
+  Modulo Secuencia.py
+
 
 [^ver_grela]: @grela
 [^ver_penfold]: @penfold 
@@ -48,15 +80,16 @@ con las premisas del software libre.[^ver_gnu]
 
 *Introducir a los temas q se discutiran en esta sección.*
 
-A continuación se argumentan los aspectos clave de este proyecto.
 
-## Necesidades / Requerimientos
+## Justificacion 
 
-Antes de discutir cualquier cosa, resumiremos algunas caracteristicas /
-requerimientos importantes que son relevantes a  nuestro trabajo.
+[//]: # ## Necesidades / Requerimientos
 
-Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
-relevantes pero nos da un criterio para empezar.
+Se resumen algunas caracteristicas y requerimientos importantes relevantes al
+proyecto.
+
+[//]: # Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
+[//]: # relevantes pero nos da un criterio para empezar.
 
 ### ¿Por qué Texto Plano?
 

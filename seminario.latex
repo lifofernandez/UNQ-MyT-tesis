@@ -290,6 +290,8 @@ $endif$
 
 \usepackage{pgffor}
 
+\newenvironment{gris}{\color{gray}}{\ignorespacesafterend}
+
 \begin{document}
 
 %\setlength{leftmargin}{0pt}
