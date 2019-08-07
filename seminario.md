@@ -21,25 +21,28 @@
     protocolo MIDI.
 
   abstract: |
-    Definición de gramática formal que represente estructuras musicales y 
+    Definición de gramática formal capaz de representar estructuras musicales y 
     contexto de produccion musical para interface de linea de comandos.
 
 ---
 
 # Resumen 
 
-El presente plan propone un contexto de producion musical meramente textual.
-Constituido principalmente por
-un marco de reglas, jerarquias y patrones gramaticales
-que contendios en ficheros de texto llano serializado[^ver_combs] y descriptivo,
-permitan representar informacion musical 
-siendo la materia prima que manipulada y consumida.
+El presente plan propone
+un contexto de producion musical puramente textual.
+Conformado principalmente por
+un marco de patrones, reglas y jerarquias gramaticales
+con finalidad de representar información musical,
+contenida en ficheros de texto llano serializado [^ver_combs] y descriptivo,
+la información subscripta a dicha representación es consumida
+en una cadena de procesos,
+siendo este conjunto de herramientas
+(para interprete de línea de comandos)
+el otro componente fundamental del entorno propuesto
+resultando en la producción de secuencias sonoras en el estándar MIDI [^ver_penfold]
+.
 
-En un flujo de herramientas para interprete de
-línea de comandos para producción de secuencias MIDI
-[^ver_penfold] a partir de manipular información subscripta a dicha
-representación.
-
+[//]: # es la materia prima manipulada
 [//]: # estructurada como árbol de
 [//]: # análisis
 [//]: # [^ver_grela]
@@ -50,8 +53,12 @@ representación.
 
 *Explicar estructura del texto, que se discutite en cada parte*
 
-Introduccion:
-  Justificación, Motivacion y Antecedentes.
+[//]: # Introduccion:
+ Como primera parte de este texto 
+ se justifica el objeto de estudio,
+ se presentan los motivos de las iterrogantes
+ asi como tambien
+ se repasan los antecedentes en representacion textual de información musical
 
 Metodologia: 
   Diagrama de procedimiento, desarrollo
@@ -66,7 +73,6 @@ Concluciones:
 
 Apendice:
   Modulo Secuencia.py
-
 
 [^ver_grela]: @grela
 [^ver_penfold]: @penfold 
@@ -483,7 +489,7 @@ componentes de Flocking incluyen:
 #### Programación declarativa
 
 Arriba, se describió Flocking como un marco **declarativo**. Esta
-característica es esencial para comprender su diseño.  La programación
+característica es esencial para comprender su diseño. La programación
 declarativa se puede entender en el contexto de Flocking por dos aspectos
 esenciales:
 
@@ -917,13 +923,41 @@ Pautas / guias :
 
 # Apéndice
 
-## pista.py
-\inputminted{python}{pista.py}
+[//]: # ## pista.py
+[//]: # \inputminted{python}{pista.py}
+[//]: # \newpage
+
+[//]: # ## main.py 
+[//]: # \inputminted{python}{main.py}
+[//]: # \newpage
+
+## Secuencia
+\inputminted{python}{secuencia/__init__.py}
 \newpage
 
-## main.py 
-\inputminted{python}{main.py}
+## Pista
+\inputminted{python}{secuencia/pista.py}
 \newpage
+
+## Elemento
+\inputminted{python}{secuencia/elemento.py}
+\newpage
+
+## Seccion
+\inputminted{python}{secuencia/seccion.py}
+\newpage
+
+## Segmento
+\inputminted{python}{secuencia/segmento.py}
+\newpage
+## Articulacion
+\inputminted{python}{secuencia/articulacion.py}
+\newpage
+
+## Complementos
+\inputminted{python}{secuencia/complementos.py}
+\newpage
+
 
 # Bibliografía
 
@@ -947,3 +981,8 @@ Reserva de referencias:
 
 \newpage
 
+total 40
+http://strasheela.sourceforge.net/strasheela/doc/
+https://www.researchgate.net/publication/265736511_Debugging_Constraint_Models_with_Metamodels_and_Metaknowledge_II
+https://en.wikipedia.org/wiki/Constraint_satisfaction
+https://www.researchgate.net/figure/Record-Structure-of-Data-Base_fig3_228746840
