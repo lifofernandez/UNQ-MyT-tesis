@@ -4,8 +4,11 @@ install:
 	sudo pacman -S pandoc pandoc-citeproc texlive-core texlive-music pygmentize & 
 	pip install pygments jinja2 yaml
 	
+comentarios:
+	cat seminario.md | grep -v '%' > seminario_sincomentarios.md
+
 tex:
-	pandoc seminario.md --template=seminario \
+	pandoc seminario_sincomentarios.md --template=seminario \
 	-s --csl=vendor/iso690-author-date-es.csl \
 	--filter=pandoc-citeproc \
 	--toc --toc-depth=4 --number-sections \
@@ -20,6 +23,7 @@ clean:
 	rm _minted-output* -r
 	rm output.* 
 render: 
+	make comentarios
 	make props
 	make tex 
 	make pdf

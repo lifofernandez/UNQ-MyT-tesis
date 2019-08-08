@@ -31,7 +31,6 @@
 
 El presente trabajo propone
 un contexto de producion musical puramente textual.
-% representacion textual de información musical.
 Conformado principalmente por
 un marco de patrones, reglas y jerarquias gramaticales
 cuyo fin de representar información musical,
@@ -44,42 +43,29 @@ el otro componente fundamental del entorno propuesto
 derivando en la producción de secuencias mensajes en el estándar MIDI [^ver_penfold]
 .
 
-% es la materia prima manipulada
-% estructurada como árbol de
-% análisis
-% [^ver_grela]
 
-% El desarrollo se documentará [^ver_kernighan] para que su publicación cumpla
-% con las premisas del software libre. [^ver_gnu]
 
-% Introduccion:
 La primera parte de este escrito 
 esta destinada a justificar el objeto de estudio,
 presentar los motivos de las interrogantes
 asi como tambien se enumeran
 antecedentes en representacion textual de información musical.
 
-% Metodologia: 
 La segunda seccion se describe el metodo de ejecución,
 detallando el procedimiento de investigación y desarrollo.
 
-% Resultados: (central)
 La parte centrar de este trabajo versa sobre
 el vocabulario y relaciones que conforman la gramática propuesta,
 se explica como dicha representación habilita que la informacion musical
 sea consumida en una serie de procesos
 y se despligan el resultado de algunos ejemplos a modo de demostración.
 
-% Concluciones:
-% Pruebas y entrevistass
 A modo de conclución
 se plantean algunas aplicaciones posibles 
-% Posibles Aplicaciones, futuro, 
 en diferentes escenarios 
 (online archivologia, livecodig)
 y disciplinas (IA, machine learning).
 
-% Apendice:
 codigo
 Modulo Secuencia.py
 
@@ -97,13 +83,10 @@ Modulo Secuencia.py
 
 
 ## Justificacion 
-%## Necesidades / Requerimientos
 
 Se resumen algunas caracteristicas y requerimientos importantes relevantes al
 proyecto.
 
-% # Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
-% # relevantes pero nos da un criterio para empezar.
 
 ### ¿Por qué Texto Plano?
 
@@ -225,10 +208,6 @@ A continuación se describen algunos desarrollos que vinculan representación y
 manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como ejemplo
 de un marco de programación basada en una sintaxis declarativa se cosideró Flocking.
 
-% http://strasheela.sourceforge.net/strasheela/doc/
-% https://www.researchgate.net/publication/265736511_Debugging_Constraint_Models_with_Metamodels_and_Metaknowledge_II
-% https://en.wikipedia.org/wiki/Constraint_satisfaction
-% https://www.researchgate.net/figure/Record-Structure-of-Data-Base_fig3_228746840
 
 ### MuseData
 
@@ -546,7 +525,6 @@ usadas en cada subseccion.
     \tikzstyle{circulo} = [
     	ellipse, 
     	draw, 
-        %fill=red!20, 
     	minimum height=4em,
     	text centered, 
     	node distance=2cm,
@@ -555,7 +533,6 @@ usadas en cada subseccion.
     \tikzstyle{block} = [
     	rectangle, 
     	draw, 
-    	%fill=blue!20, 
     	text width=7em, 
     	text centered, 
     	minimum height=4em,
@@ -566,20 +543,12 @@ usadas en cada subseccion.
     	-latex',
     ]
 
-    %\tikzset{flecha/.style={
-    %    decoration={
-    %    	markings,mark=at position 1 with %
-    %		{\arrow[scale=3,>=stealth]{>}}},
-    %    	postaction={decorate}
-    %    }
-    %}
     \node [circulo]              (ana) {Análisis};
     \node [circulo, text width=6em,below of=ana](dis) {Diseño de Gramática};
     \node [circulo, text width=7em, below of=dis](dev) {Desarrollo del Contexto};
     \node [circulo, below of=dev](doc) {Documentación};
     \node [circulo, below of=doc](dep) {Publicación};
 
-    %\path [line] (ana) -- (dis) -- (dev) -- (doc) -- (dep);
     \draw[densely dotted] (ana) -- (dis);
     \draw[densely dotted] (dis) -- (dev);
     \draw[densely dotted] (dev) -- (doc);
@@ -609,11 +578,6 @@ usadas en cada subseccion.
 	Definicion de Vocabulario y Jerarquías
     };
 
-    %\node [block, 
-    %    below of=def
-    %](sin) { 
-    %      Sintaxis YAML
-    %};
 
     \path [line] (dis) -- (def) |-  (dev) ;
 
@@ -793,7 +757,6 @@ pista como flujo de eventos agrupados en segmentos agrupados en secciones
     \tikzstyle{circulo} = [
     	ellipse, 
     	draw, 
-        %fill=red!20, 
     	minimum height=4em,
     	text centered, 
     	node distance=3cm,
@@ -803,7 +766,6 @@ pista como flujo de eventos agrupados en segmentos agrupados en secciones
     \tikzstyle{block} = [
     	rectangle, 
     	draw, 
-    	%fill=blue!20, 
     	text width=7em, 
     	text centered, 
     	minimum height=4em,
