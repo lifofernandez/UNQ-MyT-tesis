@@ -13,16 +13,16 @@
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
   bibliography: referencias.bib
 
-  abstract: |
-    Definición de gramática formal basada en texto plano serializado,
-    estructurada como arbol de análisis para representar planes de obra musical.
-    Acompañada por el desarrollo de un contexto de herramientas para interfaz de
-    linea de comandos destinada a generar sequencias musicales en el
-    protocolo MIDI.
+  #abstract: |
+  #  Definición de gramática formal basada en texto plano serializado,
+  #  estructurada como arbol de análisis para representar planes de obra musical.
+  #  Acompañada por el desarrollo de un contexto de herramientas para interfaz de
+  #  linea de comandos destinada a generar sequencias musicales en el
+  #  protocolo MIDI.
 
   abstract: |
-    Definición de gramática formal capaz de representar estructuras musicales y 
-    contexto de produccion musical para interface de linea de comandos.
+    Gramática formal capaz de representar estructuras musicales y 
+    entorno de secuenciación MIDI para interface de linea de comandos.
 
 ---
 
@@ -30,41 +30,45 @@
 # Resumen 
 
 El presente trabajo propone
-un contexto de producion musical puramente textual.
-Conformado principalmente por
-un marco de patrones, reglas y jerarquias gramaticales
-cuyo fin de representar información musical,
-contenida en ficheros de texto llano serializado [^ver_combs] y descriptivo.
+un contexto de secuenciación MIDI puramente textual.
 
-La información subscripta a dicha representación es manipulada
-por una cadena de procesos, 
-un conjunto de herramientas para interprete de línea de comandos
-el otro componente fundamental del entorno propuesto
-derivando en la producción de secuencias mensajes en el estándar MIDI [^ver_penfold]
+Son el producto de esta investigación 
+un marco de patrones, reglas y jerarquias gramaticales
+que posibilitan representar información musical.
+Una léxico y sintaxis que definen estructuras musicales
+contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
+
+Contextualiza esta propuesta,
+siendo la otra pata fundamental de este desarrollo,
+un conjunto de herramientas para interprete de línea de comandos.
+Una cadena de procesos que consume 
+información subscripta a dicha representación;
+derivando de esta manipulacón
+secuencias de mensajes en el estándar MIDI
 .
 
 
 
 La primera parte de este escrito 
-esta destinada a justificar el objeto de estudio,
+esta dedicada a justificar el objeto de estudio,
 presentar los motivos de las interrogantes
 asi como tambien se enumeran
 antecedentes en representacion textual de información musical.
 
-La segunda seccion se describe el metodo de ejecución,
-detallando el procedimiento de investigación y desarrollo.
+En la segunda sección se describe el metodo de ejecución,
+detallando el procedimiento de desarrollo.
 
 La parte centrar de este trabajo versa sobre
 el vocabulario y relaciones que conforman la gramática propuesta,
-se explica como dicha representación habilita que la informacion musical
-sea consumida en una serie de procesos
+se explica como dicha representación habilita que la información musical
+pueda convertirse en la materia prima de esta serie de procesos
 y se despligan el resultado de algunos ejemplos a modo de demostración.
 
 A modo de conclución
 se plantean algunas aplicaciones posibles 
 en diferentes escenarios 
-(online archivologia, livecodig)
-y disciplinas (IA, machine learning).
+(online, archivologia, livecodig)
+y varias disciplinas (IA, machine learning).
 
 codigo
 Modulo Secuencia.py
