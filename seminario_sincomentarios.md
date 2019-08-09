@@ -13,12 +13,12 @@
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
   bibliography: referencias.bib
 
-  #abstract: |
-  #  Definición de gramática formal basada en texto plano serializado,
-  #  estructurada como arbol de análisis para representar planes de obra musical.
-  #  Acompañada por el desarrollo de un contexto de herramientas para interfaz de
-  #  linea de comandos destinada a generar sequencias musicales en el
-  #  protocolo MIDI.
+  abstract: |
+    Definición de gramática formal basada en texto plano serializado,
+    estructurada como árbol de análisis para representar planes de obra musical.
+    Acompañada por el desarrollo de un contexto de herramientas para interfaz de
+    linea de comandos destinada a generar secuencias musicales en el
+    protocolo MIDI.
 
   abstract: |
     Gramática formal capaz de representar estructuras musicales y 
@@ -33,45 +33,45 @@ El presente trabajo propone
 un contexto de secuenciación MIDI puramente textual.
 
 Son el producto de esta investigación 
-un marco de patrones, reglas y jerarquias gramaticales
-que posibilitan representar información musical.
+un marco de patrones y relaciones gramaticales
+que posibilitan la representación de información musical.
 Una léxico y sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
-Contextualiza esta propuesta,
-siendo la otra pata fundamental de este desarrollo,
+Contextualiza esta propuesta
 un conjunto de herramientas para interprete de línea de comandos.
-Una cadena de procesos que consume 
-información subscripta a dicha representación;
-derivando de esta manipulacón
+Siendo la otra pata fundamental del presente desarrollo
+esta cadena de procesos que consume 
+información suscrita a dicha representación;
+derivando de esta manipulación
 secuencias de mensajes en el estándar MIDI
 .
 
 
-
-La primera parte de este escrito 
-esta dedicada a justificar el objeto de estudio,
+La primera parte de este escrito esta dedicada a
+justificar el objeto de estudio 
+y la necesidad alternativas,
 presentar los motivos de las interrogantes
-asi como tambien se enumeran
-antecedentes en representacion textual de información musical.
+así como también se enumeran
+antecedentes en representación textual de información musical.
 
-En la segunda sección se describe el metodo de ejecución,
+En la segunda sección se describe el método de ejecución,
 detallando el procedimiento de desarrollo.
 
-La parte centrar de este trabajo versa sobre
+La parte central de este trabajo versa sobre
 el vocabulario y relaciones que conforman la gramática propuesta,
 se explica como dicha representación habilita que la información musical
-pueda convertirse en la materia prima de esta serie de procesos
-y se despligan el resultado de algunos ejemplos a modo de demostración.
+pueda ser la materia prima de esta serie de procesos
+y se despliegan el resultado de algunos ejemplos como demostración.
 
-A modo de conclución
+A modo de conclusión
 se plantean algunas aplicaciones posibles 
 en diferentes escenarios 
-(online, archivologia, livecodig)
+(online, archivología, livecodig)
 y varias disciplinas (IA, machine learning).
 
-codigo
-Modulo Secuencia.py
+Se expone en el apéndice el código de los módulos
+desarrollados para la implementación.
 
 [^ver_grela]: @grela
 [^ver_penfold]: @penfold 
@@ -86,11 +86,12 @@ Modulo Secuencia.py
 *Introducir a los temas q se discutiran en esta sección.*
 
 
-## Justificacion 
+## Justificación 
 
-Se resumen algunas caracteristicas y requerimientos importantes relevantes al
+Se resumen algunas características y requerimientos importantes relevantes al
 proyecto.
-
+Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
+relevantes pero provee un criterio para empezar.
 
 ### ¿Por qué Texto Plano?
 
@@ -103,7 +104,7 @@ proyecto.
 \bigskip
 
 Algunas ventajas del texto plano y legible en contraste a la codificación de
-datos.[^ver_hunt]
+datos. [^ver_hunt]
 
 **Aprovechar.**
 Potencialmente cualquier herramienta de computo puede operar
@@ -177,16 +178,16 @@ interfaz de linea comandos es la herramienta de facto para administrar un sistem
 distancia.  
 
 **Productividad.** 
-Valerse de herramientas pulidas como editores de texto avanzados (VIM / Emacs)
-que gracias al uso de atajos (acciones complejas asignadas a combinaciones de
-teclas) evitan la alternancia entre mouse y teclado, lo cual promueve un flujo
-de trabajo ágil.[^ver_moolenaar] 
+Valerse de herramientas pulidas como editores de texto avanzados que gracias al
+uso de atajos (acciones complejas asignadas a combinaciones de teclas) evitan
+la alternancia entre mouse y teclado, lo cual promueve un flujo de trabajo
+ágil.[^ver_moolenaar] 
 
 [^ver_moolenaar]: @moolenaar
 [^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy,
 Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
-## Motivacion 
+## Motivación 
 
 Este proyecto procura establecer un contexto y proveer los recursos para un
 procedimiento sencillo y flexible de elaboración discursos musicales unificando
@@ -567,13 +568,8 @@ usadas en cada subseccion.
     };
 
 
-    \node [block, 
-        below of=boc
-    ](enc) { 
-          Consultas a músicos compositores y teóricos
-    };
 
-    \path [line] (ana) -- (boc) -- (enc) -- (dis);
+    \path [line] (ana) -- (boc) |- (dis);
 
     \node [block, 
         left of=dis,
@@ -640,14 +636,14 @@ estará principalmente integrando por:
 
 Sobre el desarrollo 
 como conseguir el codigo.
-Instalacion
+Instalación
 Uso 
 
 Sobre el desarrollo 
 
 ### YAML 
 
-El estandar YAML [^ver_yaml] como opción para serializar las definiciones de
+El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
 cada parte instrumental.
 
 ### Python
@@ -658,8 +654,7 @@ Esta pieza de software estará basada en otros dos desarrollos: el módulo
 "_pyyaml_" [^ver_pyyaml] para analizar la información serializada, en
 combinación con la librería "_music21_" [^ver_music21] que asistirá en las
 tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
-Estandar_" [^ver_standarlib], mientras que la documentación se generará con
-"_sphinx_" [^ver_sphinx].
+Estandar_" [^ver_standarlib],
 
 ### midiUTIL
 
@@ -679,7 +674,6 @@ proveido por algún servicio del tipo GitLab.
 [^ver_standarlib]: @standarlib
 [^ver_vim]: @vim
 [^ver_git]: @git
-[^ver_sphinx]: @sphinx
 
 
 \newpage
@@ -695,9 +689,9 @@ proveido por algún servicio del tipo GitLab.
 
 ### Estructura grámatical, representación de relaciones jerarquícas
 
-referir a Metodologia, YAML >
+referir a Metodología, YAML >
 La estructura principal la sintaxis gramatical de cada pista se basa en el
-formato de serializacion de datos YAML[^ver_yaml] el cual delimta entre clave y
+formato de serialización de datos YAML[^ver_yaml] el cual delimta entre clave y
 valor con el cáracter ":" (dos puntos), mientras que la indentacion representa
 jerarquias, relacion de pertenecia entre parametros.
 
@@ -810,6 +804,9 @@ pista como flujo de eventos agrupados en segmentos agrupados en secciones
 ### Secciones de pricipales del desarrollo
 Explicacion de los bloques de codigo mas representativos 
 
+#### Modulo "Secuencia" 
+Loop principal que toma unidades previamente analizadas y llena lista de eventos.
+
 #### Clase Pista
 
 Clase Pista a partir de cada defefinicion de canal (.yml)
@@ -837,11 +834,9 @@ hace secuencia de eventos
 
 \newpage
 
-#### Recursion principal 
-Loop principal que toma unidades previamente analizadas y llena lista de eventos.
 
 ## Demostraciones
-Explicacion de que ejemplo o demostracion se va a discutir en cada seccion.
+Explicación de que ejemplo o demostración se va a discutir en cada sección.
 
 ### Melodia Simple
 Descripcion
@@ -883,25 +878,13 @@ ploteos
 
 # Concluciones
 
-## Pruebas / Entrevistas
+aplicaciones posibles 
+en diferentes escenarios 
+(online, archivología, livecodig)
+y varias disciplinas (IA, machine learning).
 
-Algunos casos de pruebas de usurios para conseguir producir musica con este desarrollo
-
-Entrevistas del tipo no estructuradas, por pautas y guías. 
-
-Pautas / guias :
-
-* Background
-
-	* Experiencia con representación de información musical textual  
-
-        * Relación con manipulacion musical a traves de parametros.
-
-* Predisposición a trabajar (leer/escribir) con musica que se encuentre
-  descripta en formato textual
 
 # Apéndice
-
 
 ## Secuencia
 \inputminted{python}{secuencia/__init__.py}
@@ -915,14 +898,15 @@ Pautas / guias :
 \inputminted{python}{secuencia/elemento.py}
 \newpage
 
-## Seccion
+## Sección
 \inputminted{python}{secuencia/seccion.py}
 \newpage
 
 ## Segmento
 \inputminted{python}{secuencia/segmento.py}
 \newpage
-## Articulacion
+
+## Articulación
 \inputminted{python}{secuencia/articulacion.py}
 \newpage
 
@@ -935,15 +919,15 @@ Pautas / guias :
 
 Reserva de referencias: 
 
-* [^ver_allen]
+* allen [^ver_allen]
 
-* [^ver_schaeffer]
+* schaffer [^ver_schaeffer]
 
-* [^ver_samaruga]
+* samaruga [^ver_samaruga]
 
-* [^ver_lerdahl]
+* lerdall [^ver_lerdahl]
 
-* [^ver_lily1]
+* lily [^ver_lily1]
 
 [^ver_lily1]: @lily1
 [^ver_schaeffer]: @schaeffer
