@@ -25,47 +25,44 @@
     entorno de secuenciación MIDI para interface de linea de comandos.
 
 ---
-
 \newpage
+
 # Resumen 
 
 El presente trabajo propone
 un contexto de secuenciación MIDI puramente textual.
 
 Son el producto de esta investigación 
-% por un lado 
 un marco de patrones y relaciones gramaticales
-que posibilitan la representación de información musical.
-Una léxico y sintaxis que definen estructuras musicales
+que posibilitan la representación de información musical;
+un léxico y una sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
 Contextualiza esta propuesta
 un conjunto de herramientas para interprete de línea de comandos.
-Siendo la otra pata fundamental del presente desarrollo
+Siendo la otra parte fundamental del actual desarrollo
 esta cadena de procesos que consume 
 información suscrita a dicha representación;
-derivando de esta manipulación
-secuencias de mensajes en el estándar MIDI
+produciendo secuencias de mensajes en el estándar MIDI
+como derivado de esta manipulación
 % [^ver_penfold]
 .
 
-% es la materia prima manipulada
-% estructurada como árbol de
-% análisis
+% estructurada como árbol de análisis
 % [^ver_grela]
-% El desarrollo se documentará [^ver_kernighan] para que su publicación cumpla
-% con las premisas del software libre. [^ver_gnu]
+% [^ver_kernighan]
+% [^ver_gnu]
 
 % Introducción:
 La primera parte de este escrito esta dedicada a
 justificar el objeto de estudio 
-y la necesidad alternativas,
+% y plantear la necesidad alternativas,
 presentar los motivos de las interrogantes
 así como también se enumeran
 antecedentes en representación textual de información musical.
 
 % Metodología: 
-En la segunda sección se describe el método de ejecución,
+En la segunda sección se describe el método de ejecución, 
 detallando el procedimiento de desarrollo.
 
 % Resultados: (central)
@@ -76,42 +73,46 @@ pueda ser la materia prima de esta serie de procesos
 y se despliegan el resultado de algunos ejemplos como demostración.
 
 % Conclusiones:
-% Pruebas y entrevistas
 A modo de conclusión
 se plantean algunas aplicaciones posibles 
-en diferentes escenarios 
+para diferentes escenarios 
 (online, archivología, livecodig)
-y varias disciplinas (IA, machine learning).
+y  en varias disciplinas (IA, machine learning).
 
 % Apéndice:
-Se expone en el apéndice el código de los módulos
+Se exponen en el apéndice el código de los módulos
 desarrollados para la implementación.
 
-[^ver_grela]: @grela
-[^ver_penfold]: @penfold 
+% [^ver_grela]: @grela
+% [^ver_penfold]: @penfold 
+% [^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
+% [^ver_gnu]: @gnu
+
 [^ver_combs]: @coombs 
-[^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
-[^ver_gnu]: @gnu
 
 \newpage
 
 # Introducción
 
-*Introducir a los temas q se discutiran en esta sección.*
+Esta es la introdución al objeto de estudio,
+Se defiende el por que de las dos contricciones principales: texto plano y cli 
+lo cual justifica la necesidad de una representacion textual de informacion musical
 
+primero se explica el interés por la re
 
 ## Justificación 
-%## Necesidades / Requerimientos
+
+% Necesidades / Requerimientos
 
 Se resumen algunas características y requerimientos importantes relevantes al
 proyecto.
-Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
-relevantes pero provee un criterio para empezar.
+% Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
+% relevantes pero provee un criterio para empezar.
 
 ### ¿Por qué Texto Plano?
 
-> "...our base material isn't wood or iron, it's
-> knowledge. [...]. And we believe that the best format for storing knowledge
+> "...our base material isn't wood or iron, it's knowledge. [...].
+> And we believe that the best format for storing knowledge
 > persistently is plain text.  With plain text, we give ourselves the ability to
 > manipulate knowledge, both manually and programmatically, using virtually every
 > tool at our disposal." [@hunt]
@@ -170,7 +171,7 @@ sistema libra una cantidad considerable de recursos.
 La estructura de las instrucciones para esta interfaz *aplicación - argumento -
 recurso* (su analogía *verbo - adverbio - sujeto*) persiste para cualquier pieza
 de software.  Dicha recurrencía elimina el ejercicio que significa operar de
-modo distinto cada aplicación, permitiendo un accionar semejante en contextos y
+modo distinto cada aplicación, favoreciendo un accionar semejante en contextos y
 circunstancias diferentes.
 
 **Tradición.**
@@ -538,8 +539,13 @@ disponibles para su manipulación por otros programas.
 \newpage
 
 # Metodología
-introduccion a la seccion, explicar que se van a discutir las herramientas
-usadas en cada subseccion.
+
+En esta seccion se presentan los métodos optados para el desarrollo de la investigacion.
+Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
+
+% Introduccion a la seccion, 
+% explicar que se van a discutir las herramientas
+% usadas
 
 ## Diagrama de procedimiento
 
@@ -670,7 +676,7 @@ Sobre el desarrollo
 El entorno de producción musical que se pretende establecer
 estará principalmente integrando por:
 
-*descripcion general del trabajo*
+% descripcion general del trabajo
 
 ## Desarrollo
 
@@ -722,10 +728,10 @@ proveido por algún servicio del tipo GitLab.
 
 # Resultados
 
-[ ] Introduccion a los temas discutidos en cada sub seccion
-[ ] Gramatica
-[ ] Aplicacion
-[ ] Demostracion
+% Introduccion a los temas discutidos en cada sub seccion
+% Gramatica
+% Aplicacion
+% Demostracion
 
 ## Gramática 
 

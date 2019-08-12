@@ -1,5 +1,3 @@
-# Generar PDF
-
 install:
 	sudo pacman -S pandoc pandoc-citeproc texlive-core texlive-music pygmentize & 
 	pip install pygments jinja2 yaml
@@ -7,24 +5,29 @@ install:
 comentarios:
 	cat seminario.md | grep -v '%' > seminario_sincomentarios.md
 
+props:
+	python propiedades.py
+
 tex:
-	pandoc seminario_sincomentarios.md --template=seminario \
+	pandoc \
+	seminario_sincomentarios.md \
+       	--template=seminario \
 	-s --csl=vendor/iso690-author-date-es.csl \
 	--filter=pandoc-citeproc \
-	--toc --toc-depth=4 --number-sections \
+	--toc --toc-depth=3 --number-sections \
 	-o output.tex
 
 pdf:
-	xelatex -shell-escape output.tex
-props:
-	python propiedades.py
+	xelatex \
+	-interaction=batchmode \
+	-shell-escape output.tex
 	
 clean: 
 	rm _minted-output* -r
 	rm output.* 
 render: 
-	make comentarios
 	make props
+	make comentarios
 	make tex 
 	make pdf
 	make pdf # quick fix: table of contents.

@@ -43,14 +43,13 @@ un conjunto de herramientas para interprete de línea de comandos.
 Siendo la otra pata fundamental del presente desarrollo
 esta cadena de procesos que consume 
 información suscrita a dicha representación;
-derivando de esta manipulación
-secuencias de mensajes en el estándar MIDI
+produciendo secuencias de mensajes en el estándar MIDI
+como derivado de esta manipulación
 .
 
 
 La primera parte de este escrito esta dedicada a
 justificar el objeto de estudio 
-y la necesidad alternativas,
 presentar los motivos de las interrogantes
 así como también se enumeran
 antecedentes en representación textual de información musical.
@@ -73,11 +72,8 @@ y varias disciplinas (IA, machine learning).
 Se expone en el apéndice el código de los módulos
 desarrollados para la implementación.
 
-[^ver_grela]: @grela
-[^ver_penfold]: @penfold 
+
 [^ver_combs]: @coombs 
-[^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
-[^ver_gnu]: @gnu
 
 \newpage
 
