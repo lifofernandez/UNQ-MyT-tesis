@@ -93,19 +93,36 @@ desarrollados para la implementación.
 \newpage
 
 # Introducción
+% introduce al objeto de estudio,
 
-Esta es la introdución al objeto de estudio,
-Se defiende el por que de las dos contricciones principales: texto plano y cli 
-lo cual justifica la necesidad de una representacion textual de informacion musical
+En esta sección inaugural se enmarca la investigación,
+ante todo argumentando la constricción principal,
+el por que de la adopción de un sistema de escritura
+como contenedor instrucciones y medio de interacción.
 
-primero se explica el interés por la re
+Seguido de ello se repasan
+necesidades que denotan la pertinencia de este estudio,
+aludiendo a requerimientos externos a satisfacer.
+
+Para concluir esta introducción
+se tratan proyectos similares con cierta relevancia a este proyecto,
+que fueron estudiados y analizados.
+
+% instrucciones, enunciados textuales, rudimental.
+
+% Tanto para contener la información como para interacutar con la aplicacion
+% en contra de las interaces graficas 
+% precidir de una representacion grafica como unidad de sentido
+
+% lo cual justifica la necesidad de una representacion textual de informacion musical
+
+% primero se explica el interés por la re
 
 ## Justificación 
 
-% Necesidades / Requerimientos
-
 Se resumen algunas características y requerimientos importantes relevantes al
 proyecto.
+
 % Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
 % relevantes pero provee un criterio para empezar.
 
@@ -158,14 +175,13 @@ creados.[^ver_leek]
 
 ### ¿Por qué Interfaz de Linea de Comandos?
 
-**Primer estado operativo de un ordenador.** 
+**Estado operativo de un ordenador inicial.** 
 Eventualmente todos los sistemas operativos permiten ser 
 utilizados a través de este acceso previo al gerente de escritorio.
 
 **Menor utilización de recursos.**
 No depender de un agente de ventanas interviniendo entre el usuario y el
 sistema libra una cantidad considerable de recursos.  
-
 
 **Una interfaz para diferentes aplicaciones.**
 La estructura de las instrucciones para esta interfaz *aplicación - argumento -
@@ -205,7 +221,9 @@ Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
 ## Motivación 
 
-Este proyecto procura establecer un contexto y proveer los recursos para un
+% Necesidades / Requerimientos
+
+Este proyecto la necesidad de establecer un contexto y proveer los recursos para un
 procedimiento sencillo y flexible de elaboración discursos musicales unificando
 la planificación de obra con la secuenciación MIDI.
 
@@ -539,6 +557,9 @@ disponibles para su manipulación por otros programas.
 \newpage
 
 # Metodología
+
+con lo previamente argumentando
+
 
 En esta seccion se presentan los métodos optados para el desarrollo de la investigacion.
 Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.

@@ -25,8 +25,8 @@
     entorno de secuenciación MIDI para interface de linea de comandos.
 
 ---
-
 \newpage
+
 # Resumen 
 
 El presente trabajo propone
@@ -34,13 +34,13 @@ un contexto de secuenciación MIDI puramente textual.
 
 Son el producto de esta investigación 
 un marco de patrones y relaciones gramaticales
-que posibilitan la representación de información musical.
-Una léxico y sintaxis que definen estructuras musicales
+que posibilitan la representación de información musical;
+un léxico y una sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
 Contextualiza esta propuesta
 un conjunto de herramientas para interprete de línea de comandos.
-Siendo la otra pata fundamental del presente desarrollo
+Siendo la otra parte fundamental del actual desarrollo
 esta cadena de procesos que consume 
 información suscrita a dicha representación;
 produciendo secuencias de mensajes en el estándar MIDI
@@ -54,7 +54,7 @@ presentar los motivos de las interrogantes
 así como también se enumeran
 antecedentes en representación textual de información musical.
 
-En la segunda sección se describe el método de ejecución,
+En la segunda sección se describe el método de ejecución, 
 detallando el procedimiento de desarrollo.
 
 La parte central de este trabajo versa sobre
@@ -65,11 +65,11 @@ y se despliegan el resultado de algunos ejemplos como demostración.
 
 A modo de conclusión
 se plantean algunas aplicaciones posibles 
-en diferentes escenarios 
+para diferentes escenarios 
 (online, archivología, livecodig)
-y varias disciplinas (IA, machine learning).
+y  en varias disciplinas (IA, machine learning).
 
-Se expone en el apéndice el código de los módulos
+Se exponen en el apéndice el código de los módulos
 desarrollados para la implementación.
 
 
@@ -79,20 +79,33 @@ desarrollados para la implementación.
 
 # Introducción
 
-*Introducir a los temas q se discutiran en esta sección.*
+En esta sección inaugural se enmarca la investigación,
+ante todo argumentando la constricción principal,
+el por que de la adopción de un sistema de escritura
+como contenedor instrucciones y medio de interacción.
+
+Seguido de ello se repasan
+necesidades que denotan la pertinencia de este estudio,
+aludiendo a requerimientos externos a satisfacer.
+
+Para concluir esta introducción
+se tratan proyectos similares con cierta relevancia a este proyecto,
+que fueron estudiados y analizados.
+
+
+
 
 
 ## Justificación 
 
 Se resumen algunas características y requerimientos importantes relevantes al
 proyecto.
-Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
-relevantes pero provee un criterio para empezar.
+
 
 ### ¿Por qué Texto Plano?
 
-> "...our base material isn't wood or iron, it's
-> knowledge. [...]. And we believe that the best format for storing knowledge
+> "...our base material isn't wood or iron, it's knowledge. [...].
+> And we believe that the best format for storing knowledge
 > persistently is plain text.  With plain text, we give ourselves the ability to
 > manipulate knowledge, both manually and programmatically, using virtually every
 > tool at our disposal." [@hunt]
@@ -138,7 +151,7 @@ creados.[^ver_leek]
 
 ### ¿Por qué Interfaz de Linea de Comandos?
 
-**Primer estado operativo de un ordenador.** 
+**Estado operativo de un ordenador inicial.** 
 Eventualmente todos los sistemas operativos permiten ser 
 utilizados a través de este acceso previo al gerente de escritorio.
 
@@ -146,12 +159,11 @@ utilizados a través de este acceso previo al gerente de escritorio.
 No depender de un agente de ventanas interviniendo entre el usuario y el
 sistema libra una cantidad considerable de recursos.  
 
-
 **Una interfaz para diferentes aplicaciones.**
 La estructura de las instrucciones para esta interfaz *aplicación - argumento -
 recurso* (su analogía *verbo - adverbio - sujeto*) persiste para cualquier pieza
 de software.  Dicha recurrencía elimina el ejercicio que significa operar de
-modo distinto cada aplicación, permitiendo un accionar semejante en contextos y
+modo distinto cada aplicación, favoreciendo un accionar semejante en contextos y
 circunstancias diferentes.
 
 **Tradición.**
@@ -185,7 +197,8 @@ Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
 ## Motivación 
 
-Este proyecto procura establecer un contexto y proveer los recursos para un
+
+Este proyecto la necesidad de establecer un contexto y proveer los recursos para un
 procedimiento sencillo y flexible de elaboración discursos musicales unificando
 la planificación de obra con la secuenciación MIDI.
 
@@ -515,8 +528,13 @@ disponibles para su manipulación por otros programas.
 \newpage
 
 # Metodología
-introduccion a la seccion, explicar que se van a discutir las herramientas
-usadas en cada subseccion.
+
+con lo previamente argumentando
+
+
+En esta seccion se presentan los métodos optados para el desarrollo de la investigacion.
+Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
+
 
 ## Diagrama de procedimiento
 
@@ -626,7 +644,6 @@ Sobre el desarrollo
 El entorno de producción musical que se pretende establecer
 estará principalmente integrando por:
 
-*descripcion general del trabajo*
 
 ## Desarrollo
 
@@ -676,10 +693,6 @@ proveido por algún servicio del tipo GitLab.
 
 # Resultados
 
-[ ] Introduccion a los temas discutidos en cada sub seccion
-[ ] Gramatica
-[ ] Aplicacion
-[ ] Demostracion
 
 ## Gramática 
 
