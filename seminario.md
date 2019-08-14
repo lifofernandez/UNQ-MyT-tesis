@@ -4,7 +4,7 @@
   carrera: 'Licenciatura en Música y Tecnología'
   director: 'Esteban Calcagno'
   title: 'Seminario de Investigación'
-  subtitle: 'Gramática formal para plan de obra musical y entorno de secuenciación'
+  subtitle: 'Representación textual de estructuras musicales y entorno de secuenciación'
   author: 'Lisandro Fernández'
   tutor: 'Pablo Riera'
   programa: 'Cartografías Espacio-Temporales y Arte Sonoro'
@@ -12,81 +12,64 @@
   place: 'Buenos Aires, Argentina'
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
   bibliography: referencias.bib
-
   abstract: |
-    Definición de gramática formal basada en texto plano serializado,
-    estructurada como árbol de análisis para representar planes de obra musical.
-    Acompañada por el desarrollo de un contexto de herramientas para interfaz de
-    linea de comandos destinada a generar secuencias musicales en el
-    protocolo MIDI.
+    Se propone un lenguaje formal
+    basado en texto plano, descriptivo y serializado,
+    capaz de representar informacion musical.
+    Contextualiza, un conjunto de utilidades
+    cuyo fin es producir
+    secuencias musicales en el estándar MIDI.
 
-  abstract: |
-    Gramática formal capaz de representar estructuras musicales y 
-    entorno de secuenciación MIDI para interface de linea de comandos.
-
+  # estructurada como árbol de análisis
+  # para interfaz de linea de comandos
 ---
 \newpage
 
 # Resumen 
 
 El presente trabajo propone
-un contexto de secuenciación MIDI puramente textual.
+un contexto de producción musical puramente textual.
+% un contexto de secuenciación MIDI puramente textual.
 
 Son el producto de esta investigación 
 un marco de patrones y relaciones gramaticales
-que posibilitan la representación de información musical;
+que posibilitan la representación textual de
+información con significado musical;
 un léxico y una sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
-Contextualiza esta propuesta
-un conjunto de herramientas para interprete de línea de comandos.
-Siendo la otra parte fundamental del actual desarrollo
+Acompaña esta propuesta
+un entorno de herramientas, 
+para interprete de línea de comandos.
+Siendo otro aporte principal del actual desarrollo
 esta cadena de procesos que consume 
 información suscrita a dicha representación;
-produciendo secuencias de mensajes en el estándar MIDI
-como derivado de esta manipulación
-% [^ver_penfold]
-.
+derivando esta manipulación en la producción de
+secuencias de mensajes en el estándar MIDI.
 
-% estructurada como árbol de análisis
-% [^ver_grela]
-% [^ver_kernighan]
-% [^ver_gnu]
-
-% Introducción:
 La primera parte de este escrito esta dedicada a
-justificar el objeto de estudio 
-% y plantear la necesidad alternativas,
+justificar el objeto de estudio,
 presentar los motivos de las interrogantes
+% y plantear la necesidad alternativas,
 así como también se enumeran
-antecedentes en representación textual de información musical.
+antecedentes en codificación textual de información musical.
 
-% Metodología: 
 En la segunda sección se describe el método de ejecución, 
 detallando el procedimiento de desarrollo.
 
-% Resultados: (central)
 La parte central de este trabajo versa sobre
 el vocabulario y relaciones que conforman la gramática propuesta,
-se explica como dicha representación habilita que la información musical
+se explica como dicha representación habilita que la semántica musical
 pueda ser la materia prima de esta serie de procesos
 y se despliegan el resultado de algunos ejemplos como demostración.
 
-% Conclusiones:
 A modo de conclusión
-% se plantean algunas aplicaciones posibles 
 se proyectan algunas aplicaciones posibles 
-en diferentes escenarios (online, archivología, livecodig)
-y varias disciplinas (IA, etc  ).
+en diferentes escenarios (online, livecodig)
+y varias disciplinas (IA, archivología).
 
-% Apéndice:
-Se exponen en el apéndice el código de los módulos
-desarrollados para la implementación.
-
-% [^ver_grela]: @grela
-% [^ver_penfold]: @penfold 
-% [^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
-% [^ver_gnu]: @gnu
+En el apéndice se exponen el código de los módulos
+desarrollados en la implementación.
 
 [^ver_combs]: @coombs 
 
@@ -101,33 +84,29 @@ el por que de la adopción de un sistema de escritura
 como contenedor instrucciones y medio de interacción.
 
 Seguido se repasan
-necesidades que denotan la pertinencia de este estudio,
+las necesidades que denotan la pertinencia de este estudio,
 aludiendo a requerimientos externos a satisfacer.
 
 Para concluir esta introducción
-se tratan proyectos similares de cierta relevancia a este proyecto
-% que fueron estudiados y analizados.
-.
+se tratan proyectos similares con cierta relevancia a este proyecto.
 
 % instrucciones, enunciados textuales, rudimental.
 
-% Tanto para contener la información
-% como para interacutar con la aplicacion
-% en contra de las interaces graficas 
-% precidir de una representacion grafica como unidad de sentido
 
-% lo cual justifica la necesidad de una
-% representacion textual de informacion musical
-
-% primero se explica el interés por la re
 
 ## Justificación 
 
-Se resumen algunas características y requerimientos importantes relevantes al
-proyecto.
+En este apartado
+se resumen
+las características principales 
+por las que el texto es idóneo 
+como propósitos generales.
 
-% Esto no agota todo los asuntos, y otros van aparecer mientas se vuelven
-% relevantes pero provee un criterio para empezar.
+% Se resumen 
+% algunas características y
+% requerimientos importantes relevantes al
+% proyecto.
+
 
 ### ¿Por qué Texto Plano?
 
@@ -139,7 +118,7 @@ proyecto.
 
 \bigskip
 
-Algunas ventajas del texto plano y legible en contraste a la codificación de
+Se enfrenta el texto plano y legible en contraste a la codificación de
 datos. [^ver_hunt]
 
 **Aprovechar.**
@@ -177,6 +156,8 @@ creados.[^ver_leek]
 [^ver_leek]: @leek
 
 ### ¿Por qué Interfaz de Linea de Comandos?
+
+% precidir de una representacion grafica como unidad de sentido
 
 **Estado operativo de un ordenador inicial.** 
 Eventualmente todos los sistemas operativos permiten ser 
@@ -340,13 +321,13 @@ de página) y archivos de performance MIDI, que podrían editarse como el usuari
 lo crea conveniente. Las razones de esta postura son dos:
 
 * Cuando se codifica una obra musical, no es la partitura sino el contenido
-  lógico de la partitura lo que codifica. Codificar la puntuación significaría
+lógico de la partitura lo que codifica. Codificar la puntuación significaría
 codificar la posición exacta de cada nota en la página; pero nuestra opinión es
 que tal codificación realmente contendría más información que la que el
 compositor pretende transmitir.
 
 * No se puede anticipar todos los usos a los cuales podrían darse estos datos,
-  pero se pude estar bastante seguro de que cada usuario tendrá sus propias
+pero se pude estar bastante seguro de que cada usuario tendrá sus propias
 necesidades especiales y preferencias. Por lo tanto, no tiene sentido tratar de
 codificar información acerca de cómo debe verse una realización gráfica de los
 datos o cómo sonido que estos datos representan debe sonar.
@@ -412,7 +393,7 @@ la música o etnomusicología, mientras que los teóricos y los musicólogos
 histioriadores han sido lentos para reconocer el potencial del sistema. 
 
 
-#### CLI vs GUI
+% #### CLI vs GUI
 
 Humdrum u otros sistemas como él ofrecen los recursos para una marcar un
 paradigma para la investigación musical.  
@@ -500,29 +481,29 @@ existentes.
 
 [^ver_clark]: @clark
 
-#### Como funciona Flocking
-
-El núcleo del framework Flocking consiste en varios componentes interconectados
-que proporcionan la capacidad esencial de interpretar e instanciar generadores
-de unidades, producir flujos de muestras y programar procesos. Los principales
-componentes de Flocking incluyen:
-
-1. el *Intérprete Flocking*, que analiza e instancia sintetizadores,
-   generadores de unidad y bufers
-
-2. el *Ecosistema*, que representa el audio general y su configuración
-
-3. *Audio Strategies*, que son las salidas de audio conectables (vinculados a
-   los backends como la API de audio web o ALSA en Node.js)
-
-4. *Unit Generators* (ugens), que son funciones primitivas generadoras de las
-   muestras utilizadas para producir sonido
-
-5. *Synths* (sintetizadores)  que representan instrumentos y colecciones en la
-   lógica de generación de señales
-
-6.  el *Scheduler* (programador ó secuenciador), que gestiona el cambio
-    secunecial (basado en el tiempo) eventos en un sintetizador
+% #### Como funciona Flocking
+% 
+% El núcleo del framework Flocking consiste en varios componentes interconectados
+% que proporcionan la capacidad esencial de interpretar e instanciar generadores
+% de unidades, producir flujos de muestras y programar procesos. Los principales
+% componentes de Flocking incluyen:
+% 
+% 1. el *Intérprete Flocking*, que analiza e instancia sintetizadores,
+%    generadores de unidad y bufers
+% 
+% 2. el *Ecosistema*, que representa el audio general y su configuración
+% 
+% 3. *Audio Strategies*, que son las salidas de audio conectables (vinculados a
+%    los backends como la API de audio web o ALSA en Node.js)
+% 
+% 4. *Unit Generators* (ugens), que son funciones primitivas generadoras de las
+%    muestras utilizadas para producir sonido
+% 
+% 5. *Synths* (sintetizadores)  que representan instrumentos y colecciones en la
+%    lógica de generación de señales
+% 
+% 6.  el *Scheduler* (programador ó secuenciador), que gestiona el cambio
+%     secunecial (basado en el tiempo) eventos en un sintetizador
 
 #### Programación declarativa
 
@@ -531,10 +512,10 @@ característica es esencial para comprender su diseño. La programación
 declarativa se puede entender en el contexto de Flocking por dos aspectos
 esenciales:
 
-1. enfatiza una visión semántica de alto nivel de la lógica y estructura de un
+1. Enfatiza una visión semántica de alto nivel de la lógica y estructura de un
    programa
 
-2. representa los programas como estructuras de datos que pueden ser entendido
+2. Representa los programas como estructuras de datos que pueden ser entendido
    por otros programas. 
 
 El énfasis aquí es sobre los aspectos lógicos o semánticos de la computación,
@@ -549,7 +530,7 @@ programas que están representados en un formato que pueden ser procesados por
 otros programas como datos ordinarios. La familia de lenguajes Lisp es un
 ejemplo bien conocido de este enfoque. Paul Graham describe la naturaleza
 declarativa de Lisp, expresando que "no tiene sintaxis. Escribes programas en
-árboles de análisis... [que] son totalmente accesibles a tus programas.  Puedes
+árboles de análisis... [que] son totalmente accesibles a tus programas. Puedes
 escribir programas que los manipulen...  programas que escriben
 programas".[^ver_graham2] Aunque Flocking está escrito en JavaScript, comparte
 con Lisp el enfoque expresar programas dentro de estructuras de datos que estén
@@ -557,11 +538,20 @@ disponibles para su manipulación por otros programas.
 
 [^ver_graham2]: @graham2
 
+\bigskip
+
+Si bien el resumen expuesto no agota
+la lista de posibles referentes pertinentes a analizar
+y otros van aparecer mientras se vuelven relevantes,
+provee un criterio para proceder.
+
 \newpage
 
 # Metodología
 
 con lo previamente argumentando
+% En la segunda sección se describe el método de ejecución, 
+% detallando el procedimiento de desarrollo.
 
 
 En esta seccion se presentan los métodos optados para el desarrollo de la investigacion.
@@ -752,14 +742,22 @@ proveido por algún servicio del tipo GitLab.
 
 # Resultados
 
-% Introduccion a los temas discutidos en cada sub seccion
+% La parte central de este trabajo versa sobre
+% el vocabulario y relaciones que conforman la gramática propuesta,
+% se explica como dicha representación habilita que la información musical
+% pueda ser la materia prima de esta serie de procesos
+% y se despliegan el resultado de algunos ejemplos como demostración.
+
+% Introduccion a los temas discutidos en cada sub sección
 % Gramatica
 % Aplicacion
 % Demostracion
 
-## Gramática 
+## Lenguaje formal
+%## Gramática 
 
-### Estructura grámatical, representación de relaciones jerarquícas
+### Estructura gramatical
+% representación de relaciones jerárquicas
 
 referir a Metodología, YAML >
 La estructura principal la sintaxis gramatical de cada pista se basa en el
@@ -1000,23 +998,29 @@ y varias disciplinas (IA, machine learning).
 
 # Bibliografía
 
-Reserva de referencias: 
+% Reserva de referencias: 
 
-* allen [^ver_allen]
+% allen [^ver_allen]
+% schaffer [^ver_schaeffer]
+% samaruga [^ver_samaruga]
+% lerdall [^ver_lerdahl]
+% lily [^ver_lily1]
+% [^ver_penfold]
+% estructurada como árbol de análisis
+% [^ver_grela]
+% [^ver_kernighan]
+% [^ver_gnu]
 
-* schaffer [^ver_schaeffer]
+% [^ver_lily1]: @lily1
+% [^ver_schaeffer]: @schaeffer
+% [^ver_allen]: @allen
+% [^ver_samaruga]: @samaruga
+% [^ver_lerdahl]: @lerdahl
+% [^ver_grela]: @grela
+% [^ver_penfold]: @penfold 
+% [^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
+% [^ver_gnu]: @gnu
 
-* samaruga [^ver_samaruga]
-
-* lerdall [^ver_lerdahl]
-
-* lily [^ver_lily1]
-
-[^ver_lily1]: @lily1
-[^ver_schaeffer]: @schaeffer
-[^ver_allen]: @allen
-[^ver_samaruga]: @samaruga
-[^ver_lerdahl]: @lerdahl
 
 \newpage
 
