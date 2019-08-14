@@ -74,10 +74,10 @@ y se despliegan el resultado de algunos ejemplos como demostración.
 
 % Conclusiones:
 A modo de conclusión
-se plantean algunas aplicaciones posibles 
-para diferentes escenarios 
-(online, archivología, livecodig)
-y  en varias disciplinas (IA, machine learning).
+% se plantean algunas aplicaciones posibles 
+se proyectan algunas aplicaciones posibles 
+en diferentes escenarios (online, archivología, livecodig)
+y varias disciplinas (IA, etc  ).
 
 % Apéndice:
 Se exponen en el apéndice el código de los módulos
@@ -96,25 +96,28 @@ desarrollados para la implementación.
 % introduce al objeto de estudio,
 
 En esta sección inaugural se enmarca la investigación,
-ante todo argumentando la constricción principal,
+argumentando la constricción principal,
 el por que de la adopción de un sistema de escritura
 como contenedor instrucciones y medio de interacción.
 
-Seguido de ello se repasan
+Seguido se repasan
 necesidades que denotan la pertinencia de este estudio,
 aludiendo a requerimientos externos a satisfacer.
 
 Para concluir esta introducción
-se tratan proyectos similares con cierta relevancia a este proyecto,
-que fueron estudiados y analizados.
+se tratan proyectos similares de cierta relevancia a este proyecto
+% que fueron estudiados y analizados.
+.
 
 % instrucciones, enunciados textuales, rudimental.
 
-% Tanto para contener la información como para interacutar con la aplicacion
+% Tanto para contener la información
+% como para interacutar con la aplicacion
 % en contra de las interaces graficas 
 % precidir de una representacion grafica como unidad de sentido
 
-% lo cual justifica la necesidad de una representacion textual de informacion musical
+% lo cual justifica la necesidad de una
+% representacion textual de informacion musical
 
 % primero se explica el interés por la re
 

@@ -3,7 +3,7 @@ install:
 	pip install pygments jinja2 yaml
 	
 comentarios:
-	cat seminario.md | grep -v '%' > seminario_sincomentarios.md
+	cat seminario.md | grep -v '^%' > seminario_sincomentarios.md
 
 props:
 	python propiedades.py

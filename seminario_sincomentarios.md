@@ -64,10 +64,9 @@ pueda ser la materia prima de esta serie de procesos
 y se despliegan el resultado de algunos ejemplos como demostración.
 
 A modo de conclusión
-se plantean algunas aplicaciones posibles 
-para diferentes escenarios 
-(online, archivología, livecodig)
-y  en varias disciplinas (IA, machine learning).
+se proyectan algunas aplicaciones posibles 
+en diferentes escenarios (online, archivología, livecodig)
+y varias disciplinas (IA, etc  ).
 
 Se exponen en el apéndice el código de los módulos
 desarrollados para la implementación.
@@ -80,17 +79,17 @@ desarrollados para la implementación.
 # Introducción
 
 En esta sección inaugural se enmarca la investigación,
-ante todo argumentando la constricción principal,
+argumentando la constricción principal,
 el por que de la adopción de un sistema de escritura
 como contenedor instrucciones y medio de interacción.
 
-Seguido de ello se repasan
+Seguido se repasan
 necesidades que denotan la pertinencia de este estudio,
 aludiendo a requerimientos externos a satisfacer.
 
 Para concluir esta introducción
-se tratan proyectos similares con cierta relevancia a este proyecto,
-que fueron estudiados y analizados.
+se tratan proyectos similares de cierta relevancia a este proyecto
+.
 
 
 
@@ -544,6 +543,7 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
     \tikzstyle{circulo} = [
     	ellipse, 
     	draw, 
+        %fill=red!20, 
     	minimum height=4em,
     	text centered, 
     	node distance=2cm,
@@ -552,6 +552,7 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
     \tikzstyle{block} = [
     	rectangle, 
     	draw, 
+    	%fill=blue!20, 
     	text width=7em, 
     	text centered, 
     	minimum height=4em,
@@ -562,12 +563,20 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
     	-latex',
     ]
 
+    %\tikzset{flecha/.style={
+    %    decoration={
+    %    	markings,mark=at position 1 with %
+    %		{\arrow[scale=3,>=stealth]{>}}},
+    %    	postaction={decorate}
+    %    }
+    %}
     \node [circulo]              (ana) {Análisis};
     \node [circulo, text width=6em,below of=ana](dis) {Diseño de Gramática};
     \node [circulo, text width=7em, below of=dis](dev) {Desarrollo del Contexto};
     \node [circulo, below of=dev](doc) {Documentación};
     \node [circulo, below of=doc](dep) {Publicación};
 
+    %\path [line] (ana) -- (dis) -- (dev) -- (doc) -- (dep);
     \draw[densely dotted] (ana) -- (dis);
     \draw[densely dotted] (dis) -- (dev);
     \draw[densely dotted] (dev) -- (doc);
@@ -582,7 +591,13 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
     };
 
 
+    %\node [block, 
+    %    below of=boc
+    %](enc) { 
+    %      Consultas a músicos compositores y teóricos
+    %};
 
+    %\path [line] (ana) -- (boc) -- (enc) -- (dis);
     \path [line] (ana) -- (boc) |- (dis);
 
     \node [block, 
@@ -592,6 +607,11 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
 	Definicion de Vocabulario y Jerarquías
     };
 
+    %\node [block, 
+    %    below of=def
+    %](sin) { 
+    %      Sintaxis YAML
+    %};
 
     \path [line] (dis) -- (def) |-  (dev) ;
 
@@ -764,6 +784,7 @@ pista como flujo de eventos agrupados en segmentos agrupados en secciones
     \tikzstyle{circulo} = [
     	ellipse, 
     	draw, 
+        %fill=red!20, 
     	minimum height=4em,
     	text centered, 
     	node distance=3cm,
@@ -773,6 +794,7 @@ pista como flujo de eventos agrupados en segmentos agrupados en secciones
     \tikzstyle{block} = [
     	rectangle, 
     	draw, 
+    	%fill=blue!20, 
     	text width=7em, 
     	text centered, 
     	minimum height=4em,
