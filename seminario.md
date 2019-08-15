@@ -96,30 +96,28 @@ se tratan proyectos similares con cierta relevancia a este proyecto.
 
 ## Justificación 
 
-En este apartado
-se resumen
+En este apartado se repasan
 las características principales 
-por las que el texto es idóneo 
-como propósitos generales.
+que hacen del texto idóneo
+para almacenar información 
+en un escenario generales.
 
-% Se resumen 
-% algunas características y
-% requerimientos importantes relevantes al
-% proyecto.
-
+Y también las ventajas de uso
+de un lenguaje verbal
+como como medio de interacción.
 
 ### ¿Por qué Texto Plano?
 
 > "...our base material isn't wood or iron, it's knowledge. [...].
-> And we believe that the best format for storing knowledge
-> persistently is plain text.  With plain text, we give ourselves the ability to
-> manipulate knowledge, both manually and programmatically, using virtually every
-> tool at our disposal." [@hunt]
+> And we believe that the best format for storing knowledge persistently is plain
+> text. With plain text, we give ourselves the ability to manipulate knowledge,
+> both manually and programmatically, using virtually every tool at our
+> disposal." [@hunt]
 
 \bigskip
 
-Se enfrenta el texto plano y legible en contraste a la codificación de
-datos. [^ver_hunt]
+Se listan las virtudes del texto plano y legible
+en contraste a la codificación de datos. [^ver_hunt]
 
 **Aprovechar.**
 Potencialmente cualquier herramienta de computo puede operar
@@ -154,6 +152,22 @@ creados.[^ver_leek]
 
 [^ver_hunt]: @hunt Capítulo 3: Basic Tools (pp. 72-99).
 [^ver_leek]: @leek
+
+\bigskip
+
+%Si bien estas razones son agnósticas a un fin,
+Si bien estas razones son de ánimo universal,
+las mismas aplican a propósitos específicos
+los que tocan a este estudio.
+Como se expone mas adelante,
+no presenta complicación alguna
+representar (con cierto grado de arbitrariedad) 
+información de significancia musical estudio,
+en gran medida, puede ser parametrizada [^ver_lerdahl].
+
+[^ver_lerdahl]: @lerdahl
+
+
 
 ### ¿Por qué Interfaz de Linea de Comandos?
 
@@ -1015,7 +1029,6 @@ y varias disciplinas (IA, machine learning).
 % [^ver_schaeffer]: @schaeffer
 % [^ver_allen]: @allen
 % [^ver_samaruga]: @samaruga
-% [^ver_lerdahl]: @lerdahl
 % [^ver_grela]: @grela
 % [^ver_penfold]: @penfold 
 % [^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
