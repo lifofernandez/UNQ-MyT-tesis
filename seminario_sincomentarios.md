@@ -40,7 +40,7 @@ contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 Acompaña esta propuesta
 un entorno de herramientas, 
 para interprete de línea de comandos.
-Siendo otro aporte principal del actual desarrollo
+Siendo otro aporte importante del actual desarrollo
 esta cadena de procesos que consume 
 información suscrita a dicha representación;
 derivando esta manipulación en la producción de
@@ -48,9 +48,9 @@ secuencias de mensajes en el estándar MIDI.
 
 La primera parte de este escrito esta dedicada a
 justificar el objeto de estudio,
-presentar los motivos de las interrogantes
-así como también se enumeran
-antecedentes en codificación textual de información musical.
+presentar los motivos de las interrogantes,
+plantear la necesidad alternativas,
+también se discuten antecedentes en codificación textual de información musical.
 
 En la segunda sección se describe el método de ejecución, 
 detallando el procedimiento de desarrollo.
@@ -58,16 +58,16 @@ detallando el procedimiento de desarrollo.
 La parte central de este trabajo versa sobre
 el vocabulario y relaciones que conforman la gramática propuesta,
 se explica como dicha representación habilita que la semántica musical
-pueda ser la materia prima de esta serie de procesos
-y se despliegan el resultado de algunos ejemplos como demostración.
+pueda ser materia prima de esta serie de procesos
+y se despliegan el resultado de algunos ejemplos a modo de demostración.
 
-A modo de conclusión
+Para concluir
 se proyectan algunas aplicaciones posibles 
-en diferentes escenarios (online, livecodig)
+en diferentes escenarios (trabajo colaborativo en simultaneo y a distancia, livecodig)
 y varias disciplinas (IA, archivología).
 
-En el apéndice se exponen el código de los módulos
-desarrollados en la implementación.
+En el apéndice se exponen los módulos
+desarrollados para la implementación.
 
 [^ver_combs]: @coombs 
 
@@ -77,7 +77,7 @@ desarrollados en la implementación.
 
 En esta sección inaugural se enmarca la investigación,
 argumentando la constricción principal,
-el por que de la adopción de un sistema de escritura
+la adopción de un sistema de escritura
 como contenedor instrucciones y medio de interacción.
 
 Seguido se repasan
@@ -87,20 +87,15 @@ aludiendo a requerimientos externos a satisfacer.
 Para concluir esta introducción
 se tratan proyectos similares con cierta relevancia a este proyecto.
 
-
-
-
 ## Justificación 
 
 En este apartado se repasan
-las características principales 
-que hacen del texto idóneo
-para almacenar información 
-en un escenario generales.
-
-Y también las ventajas de uso
-de un lenguaje verbal
-como como medio de interacción.
+las ventajas principales 
+del registro de información
+con enunciados textuales 
+y del empleo del lenguaje 
+como medio ingreso de instrucciones
+en escenarios generales.
 
 ### ¿Por qué Texto Plano?
 
@@ -113,9 +108,12 @@ como como medio de interacción.
 \bigskip
 
 Se listan las virtudes del texto plano y legible
-en contraste a la codificación de datos. [^ver_hunt]
+en contraste a
+la codificación binaria de datos [^ver_hunt]
+o cualquier otro tipo de operación que opaque 
+la relación con lo representado 
 
-**Aprovechar.**
+**Conveniente.**
 Potencialmente cualquier herramienta de computo puede operar
 información almacenada en texto plano.
 
@@ -149,23 +147,12 @@ creados.[^ver_leek]
 [^ver_hunt]: @hunt Capítulo 3: Basic Tools (pp. 72-99).
 [^ver_leek]: @leek
 
-\bigskip
-
-Si bien estas razones son de ánimo universal,
-las mismas aplican a propósitos específicos
-los que tocan a este estudio.
-Como se expone mas adelante,
-no presenta complicación alguna
-representar (con cierto grado de arbitrariedad) 
-información de significancia musical estudio,
-en gran medida, puede ser parametrizada [^ver_lerdahl].
-
-[^ver_lerdahl]: @lerdahl
-
-
-
 ### ¿Por qué Interfaz de Linea de Comandos?
 
+Se argumenta la conveniencia
+de prescindir de representaciones gráficas
+como canal de interacción con herramientas
+informáticas.
 
 **Estado operativo de un ordenador inicial.** 
 Eventualmente todos los sistemas operativos permiten ser 
@@ -176,10 +163,12 @@ No depender de un agente de ventanas interviniendo entre el usuario y el
 sistema libra una cantidad considerable de recursos.  
 
 **Una interfaz para diferentes aplicaciones.**
-La estructura de las instrucciones para esta interfaz *aplicación - argumento -
-recurso* (su analogía *verbo - adverbio - sujeto*) persiste para cualquier pieza
-de software.  Dicha recurrencía elimina el ejercicio que significa operar de
-modo distinto cada aplicación, favoreciendo un accionar semejante en contextos y
+La estructura esperada de las instrucciones en esta interfaz
+*aplicación - argumento - recurso* (su analogía *verbo - adverbio - sujeto*)
+persiste para cualquier pieza de software.
+Dicha recurrencia elimina el ejercicio que significa un operar 
+distinto para cada aplicación,
+favoreciendo un accionar semejante en contextos y
 circunstancias diferentes.
 
 **Tradición.**
@@ -190,15 +179,17 @@ informática remitiendo a los orígenes de los ordenadores basados en teletipo.
 Si bien la operación de sistemas sin mas que la entrada de caracteres requiere
 conocimiento y entrenamiento específico, no considerar la capa
 que representa la posición del puntero como parámetros de instrucciones,
-permite que sean recopiladas en secuencias de acciones precisas (guión).
+permite que sean recopiladas en secuencias de acciones precisas,
+reutilizar estos guiones en diferentes escenarios y agentes diversos.
 
-**Pipeline y Automatización.**
-La composición flujos de procesos complejos encadenando resultados con trabajos.
-[^ver_raymond]
+**Encadenado**
+La posibilidad de componer 
+complejas rutinas de manipulación
+concatenando resultados con procesos. [^ver_raymond]
 
 **Acceso remoto.**
 Mas allá del protocolo en el que se base la negociación local/remoto la
-interfaz de linea comandos es la herramienta de facto para administrar un sistema a
+interfaz de linea de comandos es la herramienta de facto para administrar un sistema a
 distancia.  
 
 **Productividad.** 
@@ -211,11 +202,23 @@ la alternancia entre mouse y teclado, lo cual promueve un flujo de trabajo
 [^ver_raymond]: @raymond Capítulo 1: Context, Apartado 1: Philosophy,
 Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
+\bigskip
+
+Si bien estas razones son de carácter universal,
+las mismas aplican a propósitos específicos
+como los que implica este estudio.
+
+
+
+
+
 ## Motivación 
 
 
-Este proyecto la necesidad de establecer un contexto y proveer los recursos para un
-procedimiento sencillo y flexible de elaboración discursos musicales unificando
+Este proyecto plantea la necesidad de establecer
+un contexto y proveer recursos para un
+procedimiento rudimental pero a la vez ágil y flexible de
+elaboración discursos musicales unificando
 la planificación de obra con la secuenciación MIDI.
 
 Ademas pretende exponer las ventajas de la Interfaz de Linea de Comandos para
@@ -241,12 +244,13 @@ de un marco de programación basada en una sintaxis declarativa se cosideró Flo
 
 ### MuseData
 
-La base de datos MuseData [^ver_selfridge] es un proyecto y a la vez el sistema
+La base de datos MuseData [^ver_selfridge] es el sistema
 de codificación principal del Centro de Investigación Asistida por Computador
-en Humanidades (CCARH). La base de datos fue creado por Walter Hewlett. 
+en Humanidades (CCARH) de la Universidad de Stanford.
+La base de datos fue creado por Walter Hewlett. 
 
 Los archivos MuseData tienen el potencial de existir en múltiples formatos
-comunes de información. La mayoría de las codificaciones derivadas acomodan
+comunes de información. La mayoría de las codificaciones derivadas definen
 sólo algunas de las las características incluidas en el master MuseData de
 codificaciones. El archivo MuseData está diseñado para soportar aplicaciones de
 sonido, gráficos y análisis. Los formatos derivados de las codificaciones
@@ -257,47 +261,12 @@ musicales de MuseData que se distribución son: MIDI1, MIDI+ y Humdrum.
 #### Organización de archivos MuseData 
 
 Los archivos MuseData están basados en ASCII y se pueden ver en cualquier
-editor de texto. Dentro del formato MuseData El número de archivos por
-movimiento y por trabajo puede variar de un formato a otro así como también de
-una edición a otra.
+editor de texto. Dentro del formato MuseData el número de archivos por
+movimiento y por trabajo puede variar de una edición a otra.
+Estos ficheros están organizados en base a las partes. Un movimiento de
+una composición es típicamente encontrado dividido en varios archivos
+agrupados en un directorio para ese movimiento.
 
-Los archivos MuseData están organizados en base a las partes. Un movimiento de
-una composición es típicamente encontrado dividido en varios archivos agrupados
-en un directorio para ese movimiento.
-
-Las partes de los archivos MuseData siempre tienen la etiqueta 01 para la
-primera parte, 02 para la segunda parte de la partitura, etc. Conteniendo
-varias líneas de música, como dos flautas en una partitura de orquesta, o dos
-sistemas para música de piano. Archivos para diferentes los movimientos de una
-composición se encuentran en directorios separados que usualmente indican el
-número de movimiento, p. 01, 02, etc.
-
-La exhaustividad de la información dentro de los archivos varía entre dos
-niveles que en archivos MuseData llamamos Stage 1 y Stage 2. Sólo los archivos
-Stage 2 son recomendados para aplicaciones serias.
-
-El primer paso en la entrada de datos (Stage 1) captura información básica como
-duración y altura de las notas. Por ejemplo, normalmente habría cuatro archivos
-(Violín 1, Violín 2, Viola, Violonchelo) para cada movimiento de un cuarteto de
-cuerdas. Si el movimiento del cuarteto comienza en metro binario, cambia a
-metro ternario, y luego vuelve a binario, cada sección métrica tendrá su propio
-conjunto de partes. Así habría doce archivos para el movimiento. El segundo
-paso en la entrada de datos (Stage 2) suministra toda la información que no
-puede ser capturado de forma fiable desde un teclado electrónico. Esto incluye
-indicaciones para ritmo, dinámica y articulación.
-
-El juicio humano se aplica en el Stage 2. Así, cuando el movimiento del
-cuarteto de cuerdas citado anteriormente se convierte a la Stage 2, las tres
-secciones métricas para cada instrumento capturado desde la entrada del teclado
-se encadenará en un movimiento cada uno. El movimiento tendrá ahora cuatro
-archivos de datos (uno para Violín 1, otro para Violín 2, Viola, Violonchelo).
-
-El juicio humano también proporciona correcciones y anotaciones a los datos.
-Algunos tipos de errores (por ejemplo, medidas incompletas) deben corregirse y
-así consiguen tener sentido para el usuario. Los asuntos que son más
-discrecionales (tales como alteraciones opcionales de los ornamentos o
-accidentes) por lo general no se modifica. Las decisiones discrecionales se
-anotan en archivos que permiten marcas editoriales.
 
 #### La representación MuseData de información musical
 
@@ -338,7 +307,7 @@ datos o cómo sonido que estos datos representan debe sonar.
 Por otro lado, a veces puede ser útil hacer sugerencias sobre cómo los gráficos
 y el sonido deben ser realizados. Lo importante es identificar las sugerencias
 como un tipo de datos independiente, que puede ser fácilmente ignorado por
-software de aplicación o despojado enteramente de los datos. MuseData software
+software de aplicación o despojado enteramente de los datos. MuseData 
 usa estas sugerencias de impresión y sonido en el proceso de generación de
 documentos de partitura y archivos MIDI.
 
@@ -347,10 +316,10 @@ documentos de partitura y archivos MIDI.
 David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado
 constantemente por décadas. Humdrum es un conjunto de herramientas de línea de
 comandos que facilita el análisis, así como una sintaxis generalizada para
-representar secuencias de datos. Debido a que es un conjunto de herramientas de
-línea de comandos, es el lenguaje de programa agnóstico. Muchos han empleado
-herramientas de Humdrum en secuencias de comandos más grandes que utilizan
-PERL, Ruby, Python, Bash, LISP y C++.
+representar secuencias de datos.
+Debido a que el conjunto de herramientas es de lenguaje de agnóstico.
+Muchos han empleado herramientas de Humdrum en secuencias de comandos
+más grandes que utilizan PERL, Ruby, Python, Bash, LISP y C++.
 
 [^ver_wild]: @wild
 
@@ -359,13 +328,11 @@ PERL, Ruby, Python, Bash, LISP y C++.
 En primer lugar, Humdrum define una sintaxis para representar información
 discreta como una serie de registros en un archivo de computadora.
 
-* Su definición permite que se codifiquen muchos tipos de información.
-
-* El esquema esencial utilizado en la base de datos CCARH para la altura y la
-  duración musical es sólo uno de un conjunto abierto.
-
-* Algunos otros esquemas pueden ser aumentados por gramáticas definidas por el
-  usuario para tareas de investigación.
+Esta definición permite que se codifiquen muchos tipos de información.
+El esquema esencial utilizado en la base de datos CCARH para la altura y la
+duración musical es sólo uno de un conjunto abierto.
+Algunos otros esquemas pueden ser aumentados por gramáticas definidas por el
+usuario para tareas de investigación.
 
 #### Manipulación
 
@@ -387,13 +354,13 @@ Apreciación de todo el potencial de Humdrum es definitivamente a partir de la
 experiencia. En palabras de David Huron:
 
 > Cualquier conjunto de herramientas requiere el desarrollo de una experiencia
-> concomitante, y Humdrum Toolkit no es una excepción.  Espero que la inversión
+> concomitante, y Humdrum Toolkit no es una excepción. Espero que la inversión
 > de el tiempo requerido para aprender a usar Humdrum será más que compensado
 > por ganancias académicas posteriores.
 
 Los usuarios de Humdrum hasta ahora han tendido a trabajar en la percepción de
 la música o etnomusicología, mientras que los teóricos y los musicólogos
-histioriadores han sido lentos para reconocer el potencial del sistema. 
+histioriadores han sido mas lentos para reconocer el potencial del sistema. 
 
 
 
@@ -410,19 +377,19 @@ probable que sean repelidos por la interfaz totalmente basada en texto de
 Humdrum.  
 
 Aunque en el análisis final los comandos estilo UNIX son seguramente más
-flexibles y eficientes que una interfaz gráfica "amigable", pueden parecer
-intimidantes para no programadores, muchos de los cuales pueden ser disuadidos
-de hacer uso de un herramienta de otra manera valiosa.
+flexibles y eficientes que una interfaz gráfica "amigable", pueden
+intimidar a principiantes, muchos de los cuales pueden resultar disuadidos
+de emplear herramientas de utilidad considerable.
 
-Independientemente de que los teóricos de la música decidan o no aumentar su
-invaluable intuición musical con valiosas pruebas empíricas, los resultados
-basados en las cantidades máximas de datos pertinentes será un factor en la
-evolución de nuestra disciplina.
+Independientemente que teóricos de la música decidan o no aumentar su
+intuición musical con valiosas pruebas empíricas, los resultados
+basados en las cantidades máximas de datos pertinentes será
+un factor en la evolución de nuestra disciplina.
 
 ### MusicXML
 
 MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música
-entre aplicaciones y para archivar registros de música para uso en el futuro.
+entre aplicaciones y archivar registros de música para uso en el futuro.
 Se puede contar con archivos de MusicXML que son legibles y utilizables por una
 amplia gama de notaciones musicales, ahora y en el futuro. MusicXML complementa
 al los formatos de archivo utilizados por Finale y otros programas.
@@ -444,10 +411,9 @@ proyecto no está completo y está en progreso. El primer borrador de una posibl
 DTD está disponible y se ofrecen algunos ejemplos de piezas de música marcadas
 con MML.
 
-El enfoque es modular. Muchos módulos aún están incompletos y necesitan más
+El enfoque es modular, varios módulos aún están incompletos y necesitan más
 investigación y atención.
-
-Si una pieza musical está serializada usando MML puede ser entregada en al
+Una pieza musical serializada usando MML puede ser entregada en al
 menos los siguientes formatos: 
 
 * Texto: representación de notas como, por ejemplo, piano-roll (como el que se
@@ -465,19 +431,19 @@ ser capaz de secuenciar la música de esta manera.
 
 Flocking[^ver_clark] es un framework, escrito en JavaScript, para la
 composición de música por computadora que aprovecha las tecnologías e ideas
-existentes para crear un sistema robusto, flexible y expresivo.  Flocking
-combina el patrón generador de unidades de muchos idiomas de música de
+existentes para crear un sistema robusto, flexible y expresivo.
+Flocking combina el patrón generador de unidades de muchos idiomas de música de
 computadora con tecnologías Web Audio para permitir a los usuarios interactuar
-con sitios Web existentes y potenciales tecnologías. Los usuarios interactúan
-con Flocking usando un estilo declarativo de programación.
+con sitios Web entre otras potenciales tecnologías, usando un estilo
+declarativo de programación.
 
 El objetivo de Flocking es permitir el crecimiento de un ecosistema de
 herramientas que puedan analizar y entender fácilmente la lógica y la semántica
 de los instrumentos digitales representando de forma declarativa los pilares
 básicos de síntesis de audio.  Esto es particularmente útil para soportar la
-composición generativa (donde los programas generan nuevos instrumentos y
-puntajes de forma algorítmica), herramientas gráficas (para que programadores y
-no programadores colaboren), y nuevos modos de programación social que permiten
+composición generativa donde los programas generan nuevos instrumentos
+de forma algorítmica, herramientas gráficas para que programadores y
+no programadores colaboren, y nuevos modos de programación social que permiten
 a los músicos adaptar, ampliar y volver a trabajar fácilmente en instrumentos
 existentes.
 

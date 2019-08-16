@@ -33,6 +33,15 @@ render:
 	make pdf # quick fix: table of contents.
 	firefox output.pdf
 	
+freq:
+	tr '[A-Z]' '[a-z]' < seminario_sincomentarios.md | \
+	tr -cd '[A-Za-z0-9_ \012]' | \
+	tr -s '[ ]' '\012' | \
+	sort | \
+	uniq -c | \
+	sort -nr | \
+	grep -v '1'
+
 	
 # -s --csl=vendor/apa-annotated-bibliography.csl \
 
