@@ -32,7 +32,7 @@ un contexto de producción musical puramente textual.
 
 Son el producto de esta investigación 
 un marco de patrones y relaciones gramaticales
-que posibilitan la representación textual de
+que posibilitan la representación sintáctica de
 información con significado musical;
 un léxico y una sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
@@ -64,10 +64,11 @@ y se despliegan el resultado de algunos ejemplos a modo de demostración.
 Para concluir
 se proyectan algunas aplicaciones posibles 
 %con un animo ambicioso 
-en diferentes escenarios (trabajo colaborativo en simultaneo y a distancia, livecodig)
-y varias disciplinas (IA, archivología).
+en diferentes escenarios
+(trabajo colaborativo en simultaneo y a distancia, programación en vivo)
+y varias disciplinas (Inteligencia artificial, archivología).
 
-En el apéndice se exponen los módulos
+Completando el aspecto técnico de este trabajo se incluyen los módulos
 desarrollados para la implementación.
 
 [^ver_combs]: @coombs 
@@ -75,7 +76,6 @@ desarrollados para la implementación.
 \newpage
 
 # Introducción
-% introduce al objeto de estudio,
 
 En esta sección inaugural se enmarca la investigación,
 argumentando la constricción principal,
@@ -442,8 +442,9 @@ un factor en la evolución de nuestra disciplina.
 MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música
 entre aplicaciones y archivar registros de música para uso en el futuro.
 Se puede contar con archivos de MusicXML que son legibles y utilizables por una
-amplia gama de notaciones musicales, ahora y en el futuro. MusicXML complementa
-al los formatos de archivo utilizados por Finale y otros programas.
+amplia gama de notaciones musicales, ahora y en el futuro.
+MusicXML complementa al los formatos de archivo utilizados por Finale y otros
+programas.
 
 MusicXML se pretende un el estándar para compartir partituras interactivas,
 dado que facilita crear música en un programa y exportar sus resultados a otros
@@ -468,12 +469,12 @@ Una pieza musical serializada usando MML puede ser entregada en al
 menos los siguientes formatos: 
 
 * Texto: representación de notas como, por ejemplo, piano-roll (como el que se
-  encuentra en el software del secuenciador de computadora)
+encuentra en el software del secuenciador de computadora).
 
 * Common Western Notation: Notación musical occidental en pantalla o en papel
 
 * MIDI-device: MML hace posible "secuenciar" una pieza de música sin tener que
-  usar software especial. Así que cualquier persona con un editor de texto debe
+usar software especial. Así que cualquier persona con un editor de texto debe
 ser capaz de secuenciar la música de esta manera.
 
 [^ver_mml]: @mml
@@ -568,19 +569,27 @@ provee un criterio para proceder.
 
 # Metodología
 
-con lo previamente argumentando
 % En la segunda sección se describe el método de ejecución, 
 % detallando el procedimiento de desarrollo.
+% Con lo argumentando previamente 
 
+En esta sección se presentan el proceder de la investigación.
 
-En esta seccion se presentan los métodos optados para el desarrollo de la investigacion.
-Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
+Los métodos optados en
+El procedimiento de esta investigación esta 
+del desarrollo.
 
-% Introduccion a la seccion, 
-% explicar que se van a discutir las herramientas
-% usadas
+## Procedimiento
 
-## Diagrama de procedimiento
+En animo de facilitar una primera lectura
+antes de detallar el proceso de trabajo optado
+se diagrama,
+con la intensión de de volverlo lo mas abarcable,
+el mismo.
+
+%para exponer el flujo de trabajo.
+
+\bigskip
 
 \begin{center}
     \begin{tikzpicture}[node distance = 2cm, auto]
@@ -632,7 +641,12 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
     	node distance=4cm,
     ](boc) { 
           Boceto de Gramática
-          / Prototipo de Entorno
+    };
+
+    \node [block, 
+        below of=boc,
+    ](pro) { 
+          Prototipo de Entorno
     };
 
 
@@ -643,7 +657,7 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
     %};
 
     %\path [line] (ana) -- (boc) -- (enc) -- (dis);
-    \path [line] (ana) -- (boc) |- (dis);
+    \path [line] (ana) -- (boc) -- (pro) -- (dis);
 
     \node [block, 
         left of=dis,
@@ -660,9 +674,6 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
 
     \path [line] (dis) -- (def) |-  (dev) ;
 
-
-	  
-
     \node [block, 
         right of=dev,
     	node distance=4cm,
@@ -678,8 +689,6 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
     };
 
     \path [line] (dev) -- (per) -- (opt) -- (doc);
-
-
 
     \node [block, 
         left of=doc,
@@ -705,20 +714,58 @@ Como recurso *didactico* se usa un gráfico para exponer el flujo de trabajo.
      
 \end{center}
 
-Sobre el desarrollo 
-El entorno de producción musical que se pretende establecer
-estará principalmente integrando por:
+\bigskip
 
-% descripcion general del trabajo
+% Descripción general de la investigación
+
+- Análisis 
+
+  - Boceto de Sintaxis
+
+  - Prototipo en Perl
+
+- Desarrollo 
+
+  - Sintaxis
+  
+    - Vocabulario 
+  
+    - Gramática
+  
+  - Contexto
+  
+    - Evaluación de Herramientas Antecedentes
+  
+    - Desarrollo del entorno
+  
+    - Optimizar
+
+- Post
+
+  - Formateo
+
+  - Documentación
+
+  - Devel notes
+
 
 ## Desarrollo
 
+% explicar que se van a discutir las herramientas
+% usadas
+
 Sobre el desarrollo 
-como conseguir el codigo.
+Se detalla en profundidad
+la parte central del todo el procedimiento
+de la propuesta
+El entorno de producción musical que se pretende establecer
+estará principalmente integrando por:
+
+Sobre el desarrollo 
+como conseguir el código.
 Instalación
 Uso 
 
-Sobre el desarrollo 
 
 ### YAML 
 

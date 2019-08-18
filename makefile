@@ -1,5 +1,7 @@
 install:
-	sudo pacman -S pandoc pandoc-citeproc texlive-core texlive-music pygmentize & 
+	sudo pacman -S \
+	pandoc pandoc-citeproc \
+	texlive-core texlive-music pygmentize 
 	pip install pygments jinja2 yaml
 	
 comentarios:
@@ -33,7 +35,7 @@ render:
 	make pdf # quick fix: table of contents.
 	firefox output.pdf
 	
-freq:
+cuenta_palabras:
 	tr '[A-Z]' '[a-z]' < seminario_sincomentarios.md | \
 	tr -cd '[A-Za-z0-9_ \012]' | \
 	tr -s '[ ]' '\012' | \
