@@ -592,6 +592,7 @@ el mismo.
 \bigskip
 
 \begin{center}
+
     \begin{tikzpicture}[node distance = 2cm, auto]
 
     \tikzstyle{circulo} = [
@@ -603,6 +604,7 @@ el mismo.
     	node distance=2cm,
 	font=\bfseries
     ]
+
     \tikzstyle{block} = [
     	rectangle, 
     	draw, 
@@ -612,18 +614,12 @@ el mismo.
     	minimum height=4em,
     	node distance=2cm,
     ]
+
     \tikzstyle{line} = [
     	draw,
     	-latex',
     ]
 
-    %\tikzset{flecha/.style={
-    %    decoration={
-    %    	markings,mark=at position 1 with %
-    %		{\arrow[scale=3,>=stealth]{>}}},
-    %    	postaction={decorate}
-    %    }
-    %}
     \node [circulo]              (ana) {Análisis};
     \node [circulo, text width=6em,below of=ana](dis) {Diseño de Gramática};
     \node [circulo, text width=7em, below of=dis](dev) {Desarrollo del Contexto};
@@ -649,14 +645,6 @@ el mismo.
           Prototipo de Entorno
     };
 
-
-    %\node [block, 
-    %    below of=boc
-    %](enc) { 
-    %      Consultas a músicos compositores y teóricos
-    %};
-
-    %\path [line] (ana) -- (boc) -- (enc) -- (dis);
     \path [line] (ana) -- (boc) -- (pro) -- (dis);
 
     \node [block, 
@@ -666,12 +654,6 @@ el mismo.
 	Definicion de Vocabulario y Jerarquías
     };
 
-    %\node [block, 
-    %    below of=def
-    %](sin) { 
-    %      Sintaxis YAML
-    %};
-
     \path [line] (dis) -- (def) |-  (dev) ;
 
     \node [block, 
@@ -680,7 +662,6 @@ el mismo.
     ](per) { 
 	  Evaluación y desarrollo de herramientas
     };
-
 
     \node [block, 
         below of=per
@@ -742,11 +723,12 @@ el mismo.
 
 - Post
 
+  - Devel notes
+
   - Formateo
 
   - Documentación
 
-  - Devel notes
 
 
 ## Desarrollo
