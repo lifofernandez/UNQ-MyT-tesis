@@ -65,7 +65,9 @@ Para concluir
 se proyectan algunas aplicaciones posibles 
 en diferentes escenarios
 (trabajo colaborativo en simultaneo y a distancia, programación en vivo)
-y varias disciplinas (Inteligencia artificial, archivología).
+y varias disciplinas (Inteligencia artificial,
+modelo condicional restringido
+archivología).
 
 Completando el aspecto técnico de este trabajo se incluyen los módulos
 desarrollados para la implementación.
@@ -487,7 +489,7 @@ disponibles para su manipulación por otros programas.
 
 \bigskip
 
-Si bien el resumen expuesto no agota
+Si este resumen no agota
 la lista de posibles referentes pertinentes a analizar
 y otros van aparecer mientras se vuelven relevantes,
 provee un criterio para proceder.
@@ -497,24 +499,25 @@ provee un criterio para proceder.
 # Metodología
 
 
-En esta sección se presentan el proceder de la investigación.
+En esta segunda sección
+se describe el método de ejecución, 
+se presentan el proceder de la investigación.
 
-Los métodos optados en
-El procedimiento de esta investigación esta 
-del desarrollo.
+Se detalla los
+procedimientos optados en del desarrollo.
 
 ## Procedimiento
 
-En animo de facilitar una primera lectura
+Con la intensión de facilitar una primera lectura
 antes de detallar el proceso de trabajo optado
 se diagrama,
-con la intensión de de volverlo lo mas abarcable,
 el mismo.
 
 
 \bigskip
 
 \begin{center}
+
     \begin{tikzpicture}[node distance = 2cm, auto]
 
     \tikzstyle{circulo} = [
@@ -526,6 +529,7 @@ el mismo.
     	node distance=2cm,
 	font=\bfseries
     ]
+
     \tikzstyle{block} = [
     	rectangle, 
     	draw, 
@@ -535,18 +539,12 @@ el mismo.
     	minimum height=4em,
     	node distance=2cm,
     ]
+
     \tikzstyle{line} = [
     	draw,
     	-latex',
     ]
 
-    %\tikzset{flecha/.style={
-    %    decoration={
-    %    	markings,mark=at position 1 with %
-    %		{\arrow[scale=3,>=stealth]{>}}},
-    %    	postaction={decorate}
-    %    }
-    %}
     \node [circulo]              (ana) {Análisis};
     \node [circulo, text width=6em,below of=ana](dis) {Diseño de Gramática};
     \node [circulo, text width=7em, below of=dis](dev) {Desarrollo del Contexto};
@@ -572,14 +570,6 @@ el mismo.
           Prototipo de Entorno
     };
 
-
-    %\node [block, 
-    %    below of=boc
-    %](enc) { 
-    %      Consultas a músicos compositores y teóricos
-    %};
-
-    %\path [line] (ana) -- (boc) -- (enc) -- (dis);
     \path [line] (ana) -- (boc) -- (pro) -- (dis);
 
     \node [block, 
@@ -589,12 +579,6 @@ el mismo.
 	Definicion de Vocabulario y Jerarquías
     };
 
-    %\node [block, 
-    %    below of=def
-    %](sin) { 
-    %      Sintaxis YAML
-    %};
-
     \path [line] (dis) -- (def) |-  (dev) ;
 
     \node [block, 
@@ -603,7 +587,6 @@ el mismo.
     ](per) { 
 	  Evaluación y desarrollo de herramientas
     };
-
 
     \node [block, 
         below of=per
@@ -664,11 +647,12 @@ el mismo.
 
 - Post
 
+  - Devel notes
+
   - Formateo
 
   - Documentación
 
-  - Devel notes
 
 
 ## Desarrollo
@@ -698,7 +682,7 @@ La rutina de instrucciones principales será interpretada en el lenguaje
 Python[^ver_python] (en su ultima versión estable). 
 Esta pieza de software estará basada en otros dos desarrollos: el módulo
 "_pyyaml_" [^ver_pyyaml] para analizar la información serializada, en
-combinación con la librería "_music21_" [^ver_music21] que asistirá en las
+combinación con la librería "MIDIutil" [^ver_midiutil] que asistirá en las
 tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
 Estandar_" [^ver_standarlib],
 
@@ -716,7 +700,7 @@ proveido por algún servicio del tipo GitLab.
 [^ver_yaml]: @yaml
 [^ver_python]: @python
 [^ver_pyyaml]: @pyyaml
-[^ver_music21]: @music21
+[^ver_midiutil]: @midiutil
 [^ver_standarlib]: @standarlib
 [^ver_vim]: @vim
 [^ver_git]: @git

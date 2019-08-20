@@ -66,7 +66,11 @@ se proyectan algunas aplicaciones posibles
 %con un animo ambicioso 
 en diferentes escenarios
 (trabajo colaborativo en simultaneo y a distancia, programación en vivo)
-y varias disciplinas (Inteligencia artificial, archivología).
+y varias disciplinas (Inteligencia artificial,
+%Constrained conditional model,
+modelo condicional restringido
+archivología).
+%https://en.wikipedia.org/wiki/Constrained_conditional_model
 
 Completando el aspecto técnico de este trabajo se incluyen los módulos
 desarrollados para la implementación.
@@ -560,7 +564,8 @@ disponibles para su manipulación por otros programas.
 
 \bigskip
 
-Si bien el resumen expuesto no agota
+% Si bien el resumen expuesto no agota
+Si este resumen no agota
 la lista de posibles referentes pertinentes a analizar
 y otros van aparecer mientras se vuelven relevantes,
 provee un criterio para proceder.
@@ -569,24 +574,24 @@ provee un criterio para proceder.
 
 # Metodología
 
-% En la segunda sección se describe el método de ejecución, 
-% detallando el procedimiento de desarrollo.
-% Con lo argumentando previamente 
+% con lo argumentando previamente 
 
-En esta sección se presentan el proceder de la investigación.
+En esta segunda sección
+se describe el método de ejecución, 
+se presentan el proceder de la investigación.
 
-Los métodos optados en
-El procedimiento de esta investigación esta 
-del desarrollo.
+Se detalla los
+% herramientas
+procedimientos optados en del desarrollo.
 
 ## Procedimiento
 
-En animo de facilitar una primera lectura
+Con la intensión de facilitar una primera lectura
 antes de detallar el proceso de trabajo optado
 se diagrama,
-con la intensión de de volverlo lo mas abarcable,
 el mismo.
 
+% con la intensión de de volverlo lo mas abarcable,
 %para exponer el flujo de trabajo.
 
 \bigskip
@@ -760,7 +765,7 @@ La rutina de instrucciones principales será interpretada en el lenguaje
 Python[^ver_python] (en su ultima versión estable). 
 Esta pieza de software estará basada en otros dos desarrollos: el módulo
 "_pyyaml_" [^ver_pyyaml] para analizar la información serializada, en
-combinación con la librería "_music21_" [^ver_music21] que asistirá en las
+combinación con la librería "MIDIutil" [^ver_midiutil] que asistirá en las
 tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
 Estandar_" [^ver_standarlib],
 %mientras que la documentación se generará con "_sphinx_" [^ver_sphinx].
@@ -779,7 +784,7 @@ proveido por algún servicio del tipo GitLab.
 [^ver_yaml]: @yaml
 [^ver_python]: @python
 [^ver_pyyaml]: @pyyaml
-[^ver_music21]: @music21
+[^ver_midiutil]: @midiutil
 [^ver_standarlib]: @standarlib
 [^ver_vim]: @vim
 [^ver_git]: @git
