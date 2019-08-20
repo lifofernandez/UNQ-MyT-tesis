@@ -211,7 +211,7 @@ Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
 \bigskip
 
-Si bien estas razones son de carácter universal,
+Si bien estas razones son de carácter general,
 las mismas aplican a propósitos específicos
 como los que implica este estudio.
 
@@ -564,35 +564,34 @@ disponibles para su manipulación por otros programas.
 
 \bigskip
 
-% Si bien el resumen expuesto no agota
-Si este resumen no agota
+Si bien la recopilación expuesta no agota
 la lista de posibles referentes pertinentes a analizar
-y otros van aparecer mientras se vuelven relevantes,
+y otros aparecerán mientras se vuelven relevantes,
 provee un criterio para proceder.
 
 \newpage
 
 # Metodología
 
-% con lo argumentando previamente 
+En esta segunda sección se introduce el método de ejecución
+diagramando el procedimiento de investigación organizado en tres etapas,
+una preparatoria dedicada a experimentación y pruebas
+que deviene en la fase de producción en si, la cual se describe con detalle 
+y que culmina con un periodo de rectificación y retoques.
 
-En esta segunda sección
-se describe el método de ejecución, 
-se presentan el proceder de la investigación.
-
-Se detalla los
-% herramientas
-procedimientos optados en del desarrollo.
+Seguido se reseñan herramientas preexistentes elegidas,
+se mencionan aquellas que fueron consideradas pero 
+descartadas luego de algunos ensayos
+y otras que sin emplearse directamente
+% en la actividad central
+se vinculan con la tarea accesoria.
+% se vinculan perifericamente con la tarea.
 
 ## Procedimiento
 
-Con la intensión de facilitar una primera lectura
-antes de detallar el proceso de trabajo optado
-se diagrama,
-el mismo.
-
-% con la intensión de de volverlo lo mas abarcable,
-%para exponer el flujo de trabajo.
+Antes de explicar el proceso de trabajo consecuente,
+en ánimo de presentarlo abarcable y facilitar una primera lectura
+se gráfica el mismo.
 
 \bigskip
 
@@ -697,6 +696,44 @@ el mismo.
     \path [line] (doc) -- (fun) -- (for) -- (not) -| (dep) ;
 
     \end{tikzpicture}
+
+\begin{tikzpicture}
+  [node distance=.8cm,
+  start chain=going below,]
+     \node[punktchain, join] (intro) {Introduktion};
+     \node[punktchain, join] (probf)      {Problemformulering};
+     \node[punktchain, join] (investeringer)      {Investeringsteori};
+     \node[punktchain, join] (perfekt) {Det perfekte kapitalmarked};
+     \node[punktchain, join, ] (emperi) {Emperi};
+      \node (asym) [punktchain ]  {Asymmetrisk information};
+      \begin{scope}[start branch=venstre,
+        %We need to redefine the join-style to have the -> turn out right
+        every join/.style={->, thick, shorten <=1pt}, ]
+        \node[punktchain, on chain=going left, join=by {<-}]
+            (risiko) {Risiko og gamble};
+      \end{scope}
+      \begin{scope}[start branch=hoejre,]
+      \node (finans) [punktchain, on chain=going right] {Det finansielle system};
+    \end{scope}
+  \node[punktchain, join,] (disk) {Det imperfekte finansielle marked};
+  \node[punktchain, join,] (makro) {InvesteringsmÃ¦ssige konsekvenser};
+  \node[punktchain, join] (konk) {Konklusion};
+  % Now that we have finished the main figure let us add some "after-drawings"
+  %% First, let us connect (finans) with (disk). We want it to have
+  %% square corners.
+  \draw[|-,-|,->, thick,] (finans.south) |-+(0,-1em)-| (disk.north);
+  % Now, let us add some braches. 
+  %% No. 1
+  \draw[tuborg] let
+    \p1=(risiko.west), \p2=(finans.east) in
+    ($(\x1,\y1+2.5em)$) -- ($(\x2,\y2+2.5em)$) node[above, midway]  {Teori};
+  %% No. 2
+  \draw[tuborg, decoration={brace}] let \p1=(disk.north), \p2=(makro.south) in
+    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Analyse};
+  %% No. 3
+  \draw[tuborg, decoration={brace}] let \p1=(perfekt.north), \p2=(emperi.south) in
+    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Problemfelt};
+  \end{tikzpicture}
      
 \end{center}
 
