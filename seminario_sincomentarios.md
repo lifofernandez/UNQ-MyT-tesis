@@ -501,7 +501,7 @@ provee un criterio para proceder.
 En esta segunda sección se introduce el método de ejecución
 diagramando el procedimiento de investigación organizado en tres etapas,
 una preparatoria dedicada a experimentación y pruebas
-que deviene en la fase de producción en si, la cual se describe con detalle 
+que deviene en la fase de producción en si
 y que culmina con un periodo de rectificación y retoques.
 
 Seguido se reseñan herramientas preexistentes elegidas,
@@ -513,149 +513,102 @@ se vinculan con la tarea accesoria.
 ## Procedimiento
 
 Antes de explicar el proceso de trabajo consecuente,
-en ánimo de presentarlo abarcable y facilitar una primera lectura
+en ánimo de presentarlo abarcable y facilitar una primera lectura,
 se gráfica el mismo.
 
 \bigskip
 
 \begin{center}
 
-    \begin{tikzpicture}[node distance = 2cm, auto]
 
-    \tikzstyle{circulo} = [
-    	ellipse, 
-    	draw, 
-        %fill=red!20, 
-    	minimum height=4em,
-    	text centered, 
-    	node distance=2cm,
-	font=\bfseries
-    ]
 
-    \tikzstyle{block} = [
-    	rectangle, 
-    	draw, 
-    	%fill=blue!20, 
-    	text width=7em, 
-    	text centered, 
-    	minimum height=4em,
-    	node distance=2cm,
-    ]
+\begin{tikzpicture}
+  \node  (a) {a}  ;             
+  \node  (b) at (4,2) {b};
+  \path   (a) -- node {m} (b);
+  %  or \path (a) -- (b) node[midway]{m}; 
+  % or pos =.5  instead of midway
+\end{tikzpicture}
 
-    \tikzstyle{line} = [
-    	draw,
-    	-latex',
-    ]
+\begin{tikzpicture} % with calc library
+  \node  (a) {a}  ;             
+  \node  (b) at (4,2) {b};
+  \node  at ($(a)!0.5!(b)$){MM};
+\end{tikzpicture}
 
-    \node [circulo]              (ana) {Análisis};
-    \node [circulo, text width=6em,below of=ana](dis) {Diseño de Gramática};
-    \node [circulo, text width=7em, below of=dis](dev) {Desarrollo del Contexto};
-    \node [circulo, below of=dev](doc) {Documentación};
-    \node [circulo, below of=doc](dep) {Publicación};
+\begin{tikzpicture}[node distance=3cm,on grid]
+  % \draw[help lines] (-6,-9) grid (6,1);
+  \node (top)          {$\top$};
+  \node (node1)      [below left=  of top]             {\{node1\}};
+  \node (node2)      [left=        of node1]           {\{node2\}};
+  \node (node3)      [below right= of top]             {\{node3\}};
+  \node (node4)      [right=       of node3]           {\{node4\}};
+  \node (node1node2) [below right= of node2]           {\{node2 , node1\}};
+  %\node (node4node3) [below right= of node3]           {\{node3, node4\}};
+  \node (node4node3) [below left= of node4]           {\{node3, node4\}};
+  \path (node1node2) -- node (bot) [text=red,below=3cm] {$\bot$} (node4node3);
+  \draw (top)         edge (node1)
+                      edge (node2)
+                      edge (node3)
+                      edge (node4);
+  \draw (node1node2)  edge (bot)
+                      edge (node1) 
+                      edge (node2);
+  \draw (node4node3)  edge (bot)
+                      edge (node3) 
+                      edge (node4);                    
 
-    %\path [line] (ana) -- (dis) -- (dev) -- (doc) -- (dep);
-    \draw[densely dotted] (ana) -- (dis);
-    \draw[densely dotted] (dis) -- (dev);
-    \draw[densely dotted] (dev) -- (doc);
-    \draw[densely dotted] (doc) -- (dep);
+ \end{tikzpicture}
 
-    \node [block, 
-        right of=ana,
-    	node distance=4cm,
-    ](boc) { 
-          Boceto de Gramática
-    };
-
-    \node [block, 
-        below of=boc,
-    ](pro) { 
-          Prototipo de Entorno
-    };
-
-    \path [line] (ana) -- (boc) -- (pro) -- (dis);
-
-    \node [block, 
-        left of=dis,
-    	node distance=4cm,
-    ](def) { 
-	Definicion de Vocabulario y Jerarquías
-    };
-
-    \path [line] (dis) -- (def) |-  (dev) ;
-
-    \node [block, 
-        right of=dev,
-    	node distance=4cm,
-    ](per) { 
-	  Evaluación y desarrollo de herramientas
-    };
-
-    \node [block, 
-        below of=per
-    ](opt) { 
-	  Optimización
-    };
-
-    \path [line] (dev) -- (per) -- (opt) -- (doc);
-
-    \node [block, 
-        left of=doc,
-    	node distance=4cm,
-    ](fun) { 
-	Indicaciones de Funcionamiento
-    };
-
-    \node [block, 
-	below = 0.2cm of fun
-    ](for) { 
-	Revisión de Formateo 
-    };
-    \node [block, 
-	below = 0.2cm of for
-    ](not) { 
-	Incorporación de Notas y Etiquetas 
-    };
-
-    \path [line] (doc) -- (fun) -- (for) -- (not) -| (dep) ;
-
-    \end{tikzpicture}
 
 \begin{tikzpicture}
   [node distance=.8cm,
   start chain=going below,]
-     \node[punktchain, join] (intro) {Introduktion};
-     \node[punktchain, join] (probf)      {Problemformulering};
-     \node[punktchain, join] (investeringer)      {Investeringsteori};
-     \node[punktchain, join] (perfekt) {Det perfekte kapitalmarked};
-     \node[punktchain, join, ] (emperi) {Emperi};
-      \node (asym) [punktchain ]  {Asymmetrisk information};
-      \begin{scope}[start branch=venstre,
-        %We need to redefine the join-style to have the -> turn out right
-        every join/.style={->, thick, shorten <=1pt}, ]
-        \node[punktchain, on chain=going left, join=by {<-}]
-            (risiko) {Risiko og gamble};
-      \end{scope}
-      \begin{scope}[start branch=hoejre,]
-      \node (finans) [punktchain, on chain=going right] {Det finansielle system};
-    \end{scope}
-  \node[punktchain, join,] (disk) {Det imperfekte finansielle marked};
-  \node[punktchain, join,] (makro) {InvesteringsmÃ¦ssige konsekvenser};
-  \node[punktchain, join] (konk) {Konklusion};
-  % Now that we have finished the main figure let us add some "after-drawings"
-  %% First, let us connect (finans) with (disk). We want it to have
-  %% square corners.
-  \draw[|-,-|,->, thick,] (finans.south) |-+(0,-1em)-| (disk.north);
-  % Now, let us add some braches. 
-  %% No. 1
+    % \node[punktchain, join] (intro) {Introduktion};
+    % \node[punktchain, join] (probf)      {Problemformulering};
+    % \node[punktchain, join] (investeringer)      {Investeringsteori};
+
+     \node[punktchain, join] (perfekt) {Boceto Gramatica};
+     \node[punktchain, join] (emperi) {Prótotipo Entorno};
+
+     \node (asym) [punktchain,
+    	node distance=4cm,
+]  {Sintaxis};
+
+     \begin{scope}[
+        start branch=venstre,
+        % We need to redefine the join-style to have the -> turn out right
+        every join/.style={->, thick, shorten <=1pt}
+      ]
+       \node[punktchain, on chain=going left, join=by {<-}] (risiko) {Léxico};
+     \end{scope}
+
+     \begin{scope}[
+        start branch=hoejre
+       ]
+       \node (finans) [punktchain, on chain=going right] {Contexto};
+     \end{scope}
+
+  \node[punktchain, join] (disk) { Optimizar };
+  \node[punktchain, join] (makro) { Documentación};
+  \node[punktchain, join] (konk) {Publicación};
+
+  %%  Connect (finans) with (disk). We want it to have square corners.
+  \draw[|-,-|,->, thick,] (finans.south) |-+(0,-1em)-| (risiko.south);
+
+   Llaves 
+  % No. 1
   \draw[tuborg] let
     \p1=(risiko.west), \p2=(finans.east) in
-    ($(\x1,\y1+2.5em)$) -- ($(\x2,\y2+2.5em)$) node[above, midway]  {Teori};
+    ($(\x1,\y1+2.5em)$) -- ($(\x2,\y2+2.5em)$) node[above, midway]  {Desarrollo};
+
   %% No. 2
   \draw[tuborg, decoration={brace}] let \p1=(disk.north), \p2=(makro.south) in
-    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Analyse};
+    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Postpro};
+
   %% No. 3
   \draw[tuborg, decoration={brace}] let \p1=(perfekt.north), \p2=(emperi.south) in
-    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Problemfelt};
+    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Ensayos};
   \end{tikzpicture}
      
 \end{center}
