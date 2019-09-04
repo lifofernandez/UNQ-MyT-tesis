@@ -516,6 +516,12 @@ Antes de explicar el proceso de trabajo consecuente,
 en ánimo de presentarlo abarcable y facilitar una primera lectura,
 se gráfica el mismo.
 
+| boceto | sintaxis |
+|--------|----------|
+|        |          |
+|        |          |
+|        |          |
+
 \bigskip
 
 \begin{center}
@@ -536,80 +542,49 @@ se gráfica el mismo.
   \node  at ($(a)!0.5!(b)$){MM};
 \end{tikzpicture}
 
+
+  - Boceto de Sintaxis | Prototipo en Perl
+
+  
+  - Gramática 
+  Vocabulario 
+
+  - Evaluación de Antecedentes 
+  Desarrollo del entorno      
+  Debugeo y Optimización      
+
+  - Formateo | Devel notes
+
 \begin{tikzpicture}[node distance=3cm,on grid]
-  % \draw[help lines] (-6,-9) grid (6,1);
-  \node (top)          {$\top$};
-  \node (node1)      [below left=  of top]             {\{node1\}};
-  \node (node2)      [left=        of node1]           {\{node2\}};
-  \node (node3)      [below right= of top]             {\{node3\}};
-  \node (node4)      [right=       of node3]           {\{node4\}};
-  \node (node1node2) [below right= of node2]           {\{node2 , node1\}};
-  %\node (node4node3) [below right= of node3]           {\{node3, node4\}};
-  \node (node4node3) [below left= of node4]           {\{node3, node4\}};
-  \path (node1node2) -- node (bot) [text=red,below=3cm] {$\bot$} (node4node3);
-  \draw (top)         edge (node1)
-                      edge (node2)
-                      edge (node3)
-                      edge (node4);
-  \draw (node1node2)  edge (bot)
-                      edge (node1) 
-                      edge (node2);
-  \draw (node4node3)  edge (bot)
-                      edge (node3) 
-                      edge (node4);                    
+   \draw[help lines] (-6,-9) grid (6,1);
+  \node (top)          {TOP};
+
+  \node (node2)      [below = of top]   {B};
+
+  \node (pepe) [ above left = of node2]          { boceto };
+  \node (trueno) [ above right= of node2]          { prototipo };
+
+  \node (node1node2) [below left = of node2]          { AB };
+  \node (node2node3) [below right= of node2]          { BC };
+
+  \node (node1)      [above left  = of node1node2] {A};
+  \node (node3)      [above right = of node2node3] {C};
+
+  \node (node12node23) [below left= of node2node3]    { AB BC };
+
+
+  %\draw (top)         edge (node1)
+  %                    edge (node2)
+  %                    edge (node3)
+  %\draw (node1node2)  edge (bot)
+  %                    edge (node1) 
+  %                    edge (node2);
+  %\draw (node2node3)  edge (bot)
+  %                    edge (node3) 
 
  \end{tikzpicture}
 
 
-\begin{tikzpicture}
-  [node distance=.8cm,
-  start chain=going below,]
-    % \node[punktchain, join] (intro) {Introduktion};
-    % \node[punktchain, join] (probf)      {Problemformulering};
-    % \node[punktchain, join] (investeringer)      {Investeringsteori};
-
-     \node[punktchain, join] (perfekt) {Boceto Gramatica};
-     \node[punktchain, join] (emperi) {Prótotipo Entorno};
-
-     \node (asym) [punktchain,
-    	node distance=4cm,
-]  {Sintaxis};
-
-     \begin{scope}[
-        start branch=venstre,
-        % We need to redefine the join-style to have the -> turn out right
-        every join/.style={->, thick, shorten <=1pt}
-      ]
-       \node[punktchain, on chain=going left, join=by {<-}] (risiko) {Léxico};
-     \end{scope}
-
-     \begin{scope}[
-        start branch=hoejre
-       ]
-       \node (finans) [punktchain, on chain=going right] {Contexto};
-     \end{scope}
-
-  \node[punktchain, join] (disk) { Optimizar };
-  \node[punktchain, join] (makro) { Documentación};
-  \node[punktchain, join] (konk) {Publicación};
-
-  %%  Connect (finans) with (disk). We want it to have square corners.
-  \draw[|-,-|,->, thick,] (finans.south) |-+(0,-1em)-| (risiko.south);
-
-   Llaves 
-  % No. 1
-  \draw[tuborg] let
-    \p1=(risiko.west), \p2=(finans.east) in
-    ($(\x1,\y1+2.5em)$) -- ($(\x2,\y2+2.5em)$) node[above, midway]  {Desarrollo};
-
-  %% No. 2
-  \draw[tuborg, decoration={brace}] let \p1=(disk.north), \p2=(makro.south) in
-    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Postpro};
-
-  %% No. 3
-  \draw[tuborg, decoration={brace}] let \p1=(perfekt.north), \p2=(emperi.south) in
-    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Ensayos};
-  \end{tikzpicture}
      
 \end{center}
 
