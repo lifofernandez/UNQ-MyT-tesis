@@ -498,132 +498,69 @@ provee un criterio para proceder.
 
 # Metodología
 
-En esta segunda sección se introduce el método de ejecución
-diagramando el procedimiento de investigación organizado en tres etapas,
-una preparatoria dedicada a experimentación y pruebas
+En esta segunda sección
+se introduce el método de ejecución
+diagramando el proceder de la investigación
+organizado en tres etapas,
+un periodo preparatorio dedicado a experimentación y pruebas
 que deviene en la fase de producción en si
-y que culmina con un periodo de rectificación y retoques.
+y culmina con un etapa de corrección y arreglo de los errores y defectos.
 
-Seguido se reseñan herramientas preexistentes elegidas,
+
+Se aprovecha la oportunidad
+para reseñar las herramientas preexistentes elegidas,
 se mencionan aquellas que fueron consideradas pero 
 descartadas luego de algunos ensayos
-y otras que sin emplearse directamente
-se vinculan con la tarea accesoria.
+y otras periféricas 
+vinculadas a la tarea accesoria.
 
 ## Procedimiento
 
-Antes de explicar el proceso de trabajo consecuente,
+Antes de exponer el proceso de trabajo consecuente,
 en ánimo de presentarlo abarcable y facilitar una primera lectura,
 se gráfica el mismo.
-
-| boceto | sintaxis |
-|--------|----------|
-|        |          |
-|        |          |
-|        |          |
 
 \bigskip
 
 \begin{center}
 
+\input{metodologia}
 
-
-\begin{tikzpicture}
-  \node  (a) {a}  ;             
-  \node  (b) at (4,2) {b};
-  \path   (a) -- node {m} (b);
-  %  or \path (a) -- (b) node[midway]{m}; 
-  % or pos =.5  instead of midway
-\end{tikzpicture}
-
-\begin{tikzpicture} % with calc library
-  \node  (a) {a}  ;             
-  \node  (b) at (4,2) {b};
-  \node  at ($(a)!0.5!(b)$){MM};
-\end{tikzpicture}
-
-
-  - Boceto de Sintaxis | Prototipo en Perl
-
-  
-  - Gramática 
-  Vocabulario 
-
-  - Evaluación de Antecedentes 
-  Desarrollo del entorno      
-  Debugeo y Optimización      
-
-  - Formateo | Devel notes
-
-\begin{tikzpicture}[node distance=3cm,on grid]
-   \draw[help lines] (-6,-9) grid (6,1);
-  \node (top)          {TOP};
-
-  \node (node2)      [below = of top]   {B};
-
-  \node (pepe) [ above left = of node2]          { boceto };
-  \node (trueno) [ above right= of node2]          { prototipo };
-
-  \node (node1node2) [below left = of node2]          { AB };
-  \node (node2node3) [below right= of node2]          { BC };
-
-  \node (node1)      [above left  = of node1node2] {A};
-  \node (node3)      [above right = of node2node3] {C};
-
-  \node (node12node23) [below left= of node2node3]    { AB BC };
-
-
-  %\draw (top)         edge (node1)
-  %                    edge (node2)
-  %                    edge (node3)
-  %\draw (node1node2)  edge (bot)
-  %                    edge (node1) 
-  %                    edge (node2);
-  %\draw (node2node3)  edge (bot)
-  %                    edge (node3) 
-
- \end{tikzpicture}
-
-
-     
 \end{center}
 
 \bigskip
 
 
-- Análisis 
+## Análisis 
 
-  - Boceto de Sintaxis
+### Boceto de Sintaxis
 
-  - Prototipo en Perl
+### Prototipo en Perl
 
-- Desarrollo 
+## Desarrollo 
 
-  - Sintaxis
+### Sintaxis
   
-    - Vocabulario 
+#### Vocabulario 
   
-    - Gramática
+#### Gramática
   
-  - Contexto
+### Contexto
   
-    - Evaluación de Herramientas Antecedentes
+#### Evaluación de Herramientas Antecedentes
+     
+##### Parseo YAML
+Análisis  Gramático
+Relaciones Jerarquías
+pyyaml
+El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
+cada parte instrumental.
+
+##### Manipulación MIDI
+Codificación en el Estandar MIDI
+midiUTIL
   
-    - Desarrollo del entorno
-  
-    - Optimizar
-
-- Post
-
-  - Devel notes
-
-  - Formateo
-
-  - Documentación
-
-
-
-## Desarrollo
+#### Desarrollo aplicación
 
 
 Sobre el desarrollo 
@@ -634,18 +571,9 @@ El entorno de producción musical que se pretende establecer
 estará principalmente integrando por:
 
 Sobre el desarrollo 
-como conseguir el código.
-Instalación
 Uso 
 
-
-### YAML 
-
-El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
-cada parte instrumental.
-
-### Python
-
+Python
 La rutina de instrucciones principales será interpretada en el lenguaje
 Python[^ver_python] (en su ultima versión estable). 
 Esta pieza de software estará basada en otros dos desarrollos: el módulo
@@ -654,16 +582,25 @@ combinación con la librería "MIDIutil" [^ver_midiutil] que asistirá en las
 tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
 Estandar_" [^ver_standarlib],
 
-### midiUTIL
+#### Hilvanado de entorno
 
-midi
-
-### Otras herramientas
-
+Otras herramientas
+como conseguir el código.
+Instalación
 El editor de texto preferido para toda la actividad será VIM [^ver_vim];
 durante el desarrollo las versiones se controlarán con el sistema GIT
 [^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
 proveido por algún servicio del tipo GitLab.
+
+## Post
+
+### Optimizar
+
+### Formateo
+ 
+### Documentación
+
+### Devel notes
 
 [^ver_yaml]: @yaml
 [^ver_python]: @python
@@ -692,14 +629,14 @@ jerarquias, relacion de pertenecia entre parametros.
 
 Multiples ficheros .yaml equivalen a multiples pistas en el resultado MIDI.
 
-Describir Referencia y Recurrencia en YAML 
+Describir Referencia y recurrencia en YAML 
 
 <<: \*base (Para que otra pista herede estas propiedades)
 
 ### Vocabulario
 
-explicar q se va a describir cada palabra elegida para representar cada
-propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor defacto que se
+Explicar q se va a describir cada palabra elegida para representar cada
+propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor de facto que se
 asigna
 
 #### Propiedades de Pista 

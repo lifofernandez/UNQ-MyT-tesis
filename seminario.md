@@ -573,289 +573,74 @@ provee un criterio para proceder.
 
 # Metodología
 
-En esta segunda sección se introduce el método de ejecución
-diagramando el procedimiento de investigación organizado en tres etapas,
-una preparatoria dedicada a experimentación y pruebas
+En esta segunda sección
+se introduce el método de ejecución
+diagramando el proceder de la investigación
+organizado en tres etapas,
+un periodo preparatorio dedicado a experimentación y pruebas
 que deviene en la fase de producción en si
 % , la cual se describe con detalle 
-y que culmina con un periodo de rectificación y retoques.
+y culmina con un etapa de corrección y arreglo de los errores y defectos.
 
-Seguido se reseñan herramientas preexistentes elegidas,
+
+Se aprovecha la oportunidad
+para reseñar las herramientas preexistentes elegidas,
 se mencionan aquellas que fueron consideradas pero 
 descartadas luego de algunos ensayos
-y otras que sin emplearse directamente
+y otras periféricas 
+%y otras que sin emplearse directamente
 % en la actividad central
-se vinculan con la tarea accesoria.
+vinculadas a la tarea accesoria.
 % se vinculan perifericamente con la tarea.
 
 ## Procedimiento
 
-Antes de explicar el proceso de trabajo consecuente,
+Antes de exponer el proceso de trabajo consecuente,
 en ánimo de presentarlo abarcable y facilitar una primera lectura,
 se gráfica el mismo.
-
-| boceto | sintaxis |
-|--------|----------|
-|        |          |
-|        |          |
-|        |          |
 
 \bigskip
 
 \begin{center}
 
-%    \begin{tikzpicture}[node distance = 2cm, auto]
-%
-%    \tikzstyle{circulo} = [
-%    	ellipse, 
-%    	draw, 
-%        %fill=red!20, 
-%    	minimum height=4em,
-%    	text centered, 
-%    	node distance=2cm,
-%	font=\bfseries
-%    ]
-%
-%    \tikzstyle{block} = [
-%    	rectangle, 
-%    	draw, 
-%    	%fill=blue!20, 
-%    	text width=7em, 
-%    	text centered, 
-%    	minimum height=4em,
-%    	node distance=2cm,
-%    ]
-%
-%    \tikzstyle{line} = [
-%    	draw,
-%    	-latex',
-%    ]
-%
-%    \node [circulo]              (ana) {Análisis};
-%    \node [circulo, text width=6em,below of=ana](dis) {Diseño de Gramática};
-%    \node [circulo, text width=7em, below of=dis](dev) {Desarrollo del Contexto};
-%    \node [circulo, below of=dev](doc) {Documentación};
-%    \node [circulo, below of=doc](dep) {Publicación};
-%
-%    %\path [line] (ana) -- (dis) -- (dev) -- (doc) -- (dep);
-%    \draw[densely dotted] (ana) -- (dis);
-%    \draw[densely dotted] (dis) -- (dev);
-%    \draw[densely dotted] (dev) -- (doc);
-%    \draw[densely dotted] (doc) -- (dep);
-%
-%    \node [block, 
-%        right of=ana,
-%    	node distance=4cm,
-%    ](boc) { 
-%          Boceto de Gramática
-%    };
-%
-%    \node [block, 
-%        below of=boc,
-%    ](pro) { 
-%          Prototipo de Entorno
-%    };
-%
-%    \path [line] (ana) -- (boc) -- (pro) -- (dis);
-%
-%    \node [block, 
-%        left of=dis,
-%    	node distance=4cm,
-%    ](def) { 
-%	Definicion de Vocabulario y Jerarquías
-%    };
-%
-%    \path [line] (dis) -- (def) |-  (dev) ;
-%
-%    \node [block, 
-%        right of=dev,
-%    	node distance=4cm,
-%    ](per) { 
-%	  Evaluación y desarrollo de herramientas
-%    };
-%
-%    \node [block, 
-%        below of=per
-%    ](opt) { 
-%	  Optimización
-%    };
-%
-%    \path [line] (dev) -- (per) -- (opt) -- (doc);
-%
-%    \node [block, 
-%        left of=doc,
-%    	node distance=4cm,
-%    ](fun) { 
-%	Indicaciones de Funcionamiento
-%    };
-%
-%    \node [block, 
-%	below = 0.2cm of fun
-%    ](for) { 
-%	Revisión de Formateo 
-%    };
-%    \node [block, 
-%	below = 0.2cm of for
-%    ](not) { 
-%	Incorporación de Notas y Etiquetas 
-%    };
-%
-%    \path [line] (doc) -- (fun) -- (for) -- (not) -| (dep) ;
-%
-%    \end{tikzpicture}
+\input{metodologia}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% https://tex.stackexchange.com/questions/117063/tikz-center-node-below-2-other-nodes
-
-\begin{tikzpicture}
-  \node  (a) {a}  ;             
-  \node  (b) at (4,2) {b};
-  \path   (a) -- node {m} (b);
-  %  or \path (a) -- (b) node[midway]{m}; 
-  % or pos =.5  instead of midway
-\end{tikzpicture}
-
-\begin{tikzpicture} % with calc library
-  \node  (a) {a}  ;             
-  \node  (b) at (4,2) {b};
-  \node  at ($(a)!0.5!(b)$){MM};
-\end{tikzpicture}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-  - Boceto de Sintaxis | Prototipo en Perl
-
-  
-  - Gramática 
-  Vocabulario 
-
-  - Evaluación de Antecedentes 
-  Desarrollo del entorno      
-  Debugeo y Optimización      
-
-  - Formateo | Devel notes
-
-\begin{tikzpicture}[node distance=3cm,on grid]
-   \draw[help lines] (-6,-9) grid (6,1);
-  \node (top)          {TOP};
-
-  \node (node2)      [below = of top]   {B};
-
-  \node (pepe) [ above left = of node2]          { boceto };
-  \node (trueno) [ above right= of node2]          { prototipo };
-
-  \node (node1node2) [below left = of node2]          { AB };
-  \node (node2node3) [below right= of node2]          { BC };
-
-  \node (node1)      [above left  = of node1node2] {A};
-  \node (node3)      [above right = of node2node3] {C};
-
-  \node (node12node23) [below left= of node2node3]    { AB BC };
-
-%  \path (node1node2) -- node (bot) [text=red,below=3cm] {$\bot$} (node2node3);
-
-  %\draw (top)         edge (node1)
-  %                    edge (node2)
-  %                    edge (node3)
-  %\draw (node1node2)  edge (bot)
-  %                    edge (node1) 
-  %                    edge (node2);
-  %\draw (node2node3)  edge (bot)
-  %                    edge (node3) 
-
- \end{tikzpicture}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%\begin{tikzpicture}
-%  [node distance=.8cm,
-%  start chain=going below,]
-%    % \node[punktchain, join] (intro) {Introduktion};
-%    % \node[punktchain, join] (probf)      {Problemformulering};
-%    % \node[punktchain, join] (investeringer)      {Investeringsteori};
-%
-%     \node[punktchain, join] (perfekt) {Boceto Gramatica};
-%     \node[punktchain, join] (emperi) {Prótotipo Entorno};
-%
-%     \node (asym) [punktchain,
-%    	node distance=4cm,
-%]  {Sintaxis};
-%
-%     \begin{scope}[
-%        start branch=venstre,
-%        % We need to redefine the join-style to have the -> turn out right
-%        every join/.style={->, thick, shorten <=1pt}
-%      ]
-%       \node[punktchain, on chain=going left, join=by {<-}] (risiko) {Léxico};
-%     \end{scope}
-%
-%     \begin{scope}[
-%        start branch=hoejre
-%       ]
-%       \node (finans) [punktchain, on chain=going right] {Contexto};
-%     \end{scope}
-%
-%  \node[punktchain, join] (disk) { Optimizar };
-%  \node[punktchain, join] (makro) { Documentación};
-%  \node[punktchain, join] (konk) {Publicación};
-%
-%  %%  Connect (finans) with (disk). We want it to have square corners.
-%  \draw[|-,-|,->, thick,] (finans.south) |-+(0,-1em)-| (risiko.south);
-%
-%   Llaves 
-%  % No. 1
-%  \draw[tuborg] let
-%    \p1=(risiko.west), \p2=(finans.east) in
-%    ($(\x1,\y1+2.5em)$) -- ($(\x2,\y2+2.5em)$) node[above, midway]  {Desarrollo};
-%
-%  %% No. 2
-%  \draw[tuborg, decoration={brace}] let \p1=(disk.north), \p2=(makro.south) in
-%    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Postpro};
-%
-%  %% No. 3
-%  \draw[tuborg, decoration={brace}] let \p1=(perfekt.north), \p2=(emperi.south) in
-%    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Ensayos};
-%  \end{tikzpicture}
-     
 \end{center}
 
 \bigskip
 
 % Descripción general de la investigación
 
-- Análisis 
+## Análisis 
 
-  - Boceto de Sintaxis
+### Boceto de Sintaxis
 
-  - Prototipo en Perl
+### Prototipo en Perl
 
-- Desarrollo 
+## Desarrollo 
 
-  - Sintaxis
+### Sintaxis
   
-    - Vocabulario 
+#### Vocabulario 
   
-    - Gramática
+#### Gramática
   
-  - Contexto
+### Contexto
   
-    - Evaluación de Herramientas Antecedentes
+#### Evaluación de Herramientas Antecedentes
+     
+##### Parseo YAML
+Análisis  Gramático
+Relaciones Jerarquías
+pyyaml
+El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
+cada parte instrumental.
+
+##### Manipulación MIDI
+Codificación en el Estandar MIDI
+midiUTIL
   
-    - Desarrollo del entorno
-  
-    - Optimizar
-
-- Post
-
-  - Devel notes
-
-  - Formateo
-
-  - Documentación
-
-
-
-## Desarrollo
+#### Desarrollo aplicación
 
 % explicar que se van a discutir las herramientas
 % usadas
@@ -868,18 +653,9 @@ El entorno de producción musical que se pretende establecer
 estará principalmente integrando por:
 
 Sobre el desarrollo 
-como conseguir el código.
-Instalación
 Uso 
 
-
-### YAML 
-
-El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
-cada parte instrumental.
-
-### Python
-
+Python
 La rutina de instrucciones principales será interpretada en el lenguaje
 Python[^ver_python] (en su ultima versión estable). 
 Esta pieza de software estará basada en otros dos desarrollos: el módulo
@@ -889,16 +665,25 @@ tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
 Estandar_" [^ver_standarlib],
 %mientras que la documentación se generará con "_sphinx_" [^ver_sphinx].
 
-### midiUTIL
+#### Hilvanado de entorno
 
-midi
-
-### Otras herramientas
-
+Otras herramientas
+como conseguir el código.
+Instalación
 El editor de texto preferido para toda la actividad será VIM [^ver_vim];
 durante el desarrollo las versiones se controlarán con el sistema GIT
 [^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
 proveido por algún servicio del tipo GitLab.
+
+## Post
+
+### Optimizar
+
+### Formateo
+ 
+### Documentación
+
+### Devel notes
 
 [^ver_yaml]: @yaml
 [^ver_python]: @python
@@ -939,14 +724,14 @@ jerarquias, relacion de pertenecia entre parametros.
 
 Multiples ficheros .yaml equivalen a multiples pistas en el resultado MIDI.
 
-Describir Referencia y Recurrencia en YAML 
+Describir Referencia y recurrencia en YAML 
 
 <<: \*base (Para que otra pista herede estas propiedades)
 
 ### Vocabulario
 
-explicar q se va a describir cada palabra elegida para representar cada
-propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor defacto que se
+Explicar q se va a describir cada palabra elegida para representar cada
+propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor de facto que se
 asigna
 
 #### Propiedades de Pista 
