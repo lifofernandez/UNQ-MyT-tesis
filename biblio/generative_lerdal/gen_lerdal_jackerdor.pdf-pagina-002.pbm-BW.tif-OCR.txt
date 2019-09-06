@@ -1,0 +1,51 @@
+We have tried to achieve a synthesis of the outlook and methodology of
+contemporary linguistics with the insights of recent music theory. There
+was a natural division of labor: Lerdahl, the composer, supplied musical
+insights, and Jackendoff, the linguist, constructed formal systems to ex-
+press them. But of course it was hardly that cut and dried. Lerdahl had
+enough expertise in logic and linguistics to make substantial contribu-
+tions on the formal side, and Jackendoff's experience as a performing
+musician enriched the purely musical aspect of the enterprise. Con-
+seguently, our individual contributions to the work are hopelessly in-
+tertwined, and neither of us could really have done any part of the work
+alone.
+
+The result is a theory formulated in terms of rules of musical grammar.
+Like the rules of linguistic theory, these are not meant to be prescriptions
+telling the reader how one should hear pieces of music or how music may
+be organized according to some abstract mathematical schema. Rather, it
+is evident that a listener perceives music as more than a mere sequence of
+notes with different pitches and durations; one hears music in organized
+patterns. Each rule of musical grammar is intended to express a general-
+ization about the organization that the listener attributes to the music he
+hears. The grammar is formulated in such a way as to permit the descrip-
+tion of divergent intuitions about the organization of a piece.
+
+We do not expect that these organizing principles will necessarily be
+accessible to introspection, any more than are the principles governing
+the ability to speak, walk, or see. The justification of the rules, therefore,
+lies not merely in whether they “look right” to ordinary intuition but in
+their ability to describe intuitions about a wide range of musical passages.
+
+We conceive of a rule of musical grammar as an empirically verifiable
+or falsifiable description of some aspect of musical organization, poten-
+tially to be tested against all available evidence from contrived examples,
+from the existing literature of tonal music, or from laboratory experi-
+ments. Time and again in the course of developing the theory we discov-
+ered examples for which our musical intuitions did not conform to the
+predictions of our then-current set of rules. In such instances we were
+forced either to invent a new rule or, better, to come up with a more
+general formulation of the rules we had. Our exposition of the grammar
+here reflects some of this process of constant revision, but much more has
+been expunged in the interest of sparing the reader many of our blind
+alleys.
+
+We consider this book a progress report in an ongoing program of
+research, rather than a pristine whole. We have taken care to leave the
+rough edges showing—to make clear where we have left problems un-
+solved or where our solutions seem to us inadequate. We presentit at this
+stage partly because of limitations of time and patience and partly out of
+the realization that no theory ever reaches true completion. We feel,
+
+Preface
+

@@ -1,0 +1,65 @@
+Chapter 3
+
+Chapter 4
+
+336
+
+11. Schenker's brief remarks about pirch-metrical relations (1935, especially
+paragraph 288) are consonant with the views set forth here. Also see his rhythmic
+analysis of the first movement of Beerhoven's Fifth Symphony (1921, pp. 27—37).
+On the other hand, no clear distincrion is made between grouping and meter.
+
+1. In this and succeeding examples, we include the rest berween groups as part of
+the earlier group. This is not just a convention, bur corresponds to the intuition
+thar a group normally begins with irs first note. To make the intuition clearer,
+consider a case like measures 124—127 of the Eroica Symphony, where one
+clearly has the opposite sense: the rests on the downbears of these measures are
+heard as part of a group that includes the two following beats. Such a striking
+exception makes the intuition in the normal case more evident by contrast. Ap-
+parently, then, the assignment of rests to groups is rule-governed. However, we
+will nor pursue the details of this phenomenon here.
+
+2. The term preference rule should not mislead the reader into thinking that
+preference rules model conscious preferences. Much of musical understanding 1s
+unconscious and hence seems automatic. A “preferred” analysis represents how a
+musical passage is coherent to a listener.
+
+Proximity and similarity are of course only two of many principles involved in
+visual and auditory perception. Another well-known principle is good continua-
+tion, one musical analog of which is the rule of prolongational connection
+(PRPR 3) in prolongational reduction. This rule picks out as strucrurally impor-
+rant chose events that form the best connection with (are the best continuation of)
+surrounding structurally important events.
+
+3. Tenney and Polansky (1980) develop a theory of “temporal gestalt-units” that
+corresponds in some respects to our theory of grouping preference rules. Their
+system includes an equivalent of GPR 1, rhough they make the rule a prohibition
+of single-element groups rather than an avoidance. They have a rule of proximity
+thar is in essential respects idenrical to our attack-point rule (GPR 2b), and a rule
+of similarity that is close to our register and dynamics rules (GPRs 3a and 3b).
+Furthermore, they make clear that grouping perception relies on the interaction
+of the various principles. Their treatment attempts more than ours in one respect:
+they quantify strengths of rule application, so thar grouping judgments can be
+simulated by a computer program. The reasons we have nor taken this step are
+explained later in this section.
+
+1. See Cone's (1968) remarks on differences in importance of hypermeasure levels
+through the history of classical Western tonal music.
+
+2. Metrical preference rule 2, the “downbeat early” rule, predicrs in addirion that
+structure ¿, with the strong beat on the first nore of each group, should be slightly
+more natural than structure //. This seems to conform to intuirion. However, if
+the second eighth note and the rest are replaced by a quarter nore, structure íí is
+considerably more natural than ¿. We take up this effect in the next subsection. A
+similar situation occurs in 4.17a below.
+
+3. Because of their similarity, it would be possible to generalize MPRs 3 and 4 into
+a single rule. We keep them separate only for convenience.
+
+4. Though the use of the time-span reduction in 4.32 1s clear, we have not
+gathered definitive evidence for what in general constitures a “relevant” level of
+time-span reduction for the length rule. We believe thar the rule may use any
+rime-span level that is smaller than the metrical level currently being derived.
+
+Notes to pp. 34—83
+

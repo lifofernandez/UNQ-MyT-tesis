@@ -1,0 +1,68 @@
+11.5
+
+Remarks on the
+Basis of Tonal
+Systems
+
+ 
+
+In the chapters on reductions we have simply assumed the conventional
+notions of harmony and counterpoint for classical Western tonal music,
+without attempting to provide the principled basis for these notions that
+a complete theory of musical cognition would require. This section
+sketches some essential features of a foundation for the system of pitch
+relationships in tonal music and tonal idioms in general.
+
+Historically, the most prevalent approach to explaining the basis of
+tonality has been an appeal to the natural overtone series. The argument
+goes back at least to Rameau; two recent advocates have been Hindemith
+(1952) and Bernstein (1976). Although we agree that tonality reflects an
+innate organization of the pitch structure of music, we will review why
+the overtone series has only a limited influence on this ability.
+
+One part of the argument involves simultaneously sounded tones. We
+observe that, next to singing in unison with each other, people find 1t
+easiest to sing in octaves, often doing so without conscious effort, People
+sometimes even sing in fifths, thinking that they are singing in unison, but
+this phenomenon is less prevalent than that at the octave. These results
+are not confined to humans: apparently, ¡f dogs are trained to respond to
+a particular pitch, and their responses are then tested on different pitches,
+a pitch an octave away from the original elicits much greater response
+than surrounding tones.
+
+To account for these results, it has been observed that the octave and
+the fifth are intervals formed by the first two overtones of the natural
+harmonic series, as shown in figure 11.1.
+
+ 
+
+   
+
+-
+fundamenta!
+
+overtone
+
+290
+
+20d 34 MA 54 5% 7 yM P
+overtone
+
+The theory is that we can consider two pitches similar, or that we find
+their combination less dissonant, more pleasing, or easier to sing, if one
+of them forms a unison with an overtone of the other or if they are
+overtones of a common fundamental. Thus, goes the argument, the inter-
+vallic inventory of music has grown gradually more complex or sophisti-
+cated as people have come to make use of more overtones,5
+
+This hypothesis appears to account for certain developments in the
+history of Western music, since the next harmonic interval to appear after
+the fifth, during the Middle Ages, was the fourth—the interval between
+the second and third overtones. After that, the major third began to
+appear—the interval between the third and fourth overtones. By sound-
+ing simultaneously the overtones up through the fourth, we arrive at the
+major triad, the fundamental building block of Western tonal music, By
+building a major triad on the second overtone as well as on the funda-
+
+Chapter 11
+

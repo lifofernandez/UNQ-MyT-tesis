@@ -1,0 +1,45 @@
+194
+
+of the phrase. That leaves branching % as the obvious choice. A moment's
+reflection reveals that this is only logical, since all the branchings in 8.21a
+are left branches, signifying relaxations at various levels. Clearly there
+must first be tension f relaxation is to follow; therefore there must be at
+least one right branch off the opening 1, indicating a departure, before the
+left-branching cadential nucleus.
+
+There are, of course, numerous right-branching possibilities —for in-
+stance the ascending circle of fifths in 8.22.
+
+8.22
+
+ 
+
+This example in effect combines 8.18a and 8.18b into one. In such a
+symmetrical case there occurs a point of reversal where the branching
+could conceivably go either way (hence the dashed branches in 8.22); in
+practice, the issue can usually be decided on rhythmic grounds or on the
+basis of structural parallelism.*
+
+Far more common than ascending-descending sequential patterns is
+the right (strong or weak) prolongation of the opening tonic, within
+which further elaborations proliferate; the tonic prolongation (7 in
+8.21b) is then followed by the cadential nucleus, as shown in 8.23a. Thus
+the phrase divides prolongationally into more or less unequal halves.
+Examples 8.23b—8.23e provide four elaborated illustrations of 8.23a,
+each freely based on a model from the classical literature (8.23b from
+Schubert's song “Morgengruss,” 8.23c from “O Haupt,” 8.23d from the
+K. 331 theme, and 8.23e from the opening of Beethoven's Sonata
+op. 109).
+
+Some comments on 8.23c—8.23e are in order. According to the
+branching criteria sketched above, the second event in 8.23c (the IV)
+should attach not to the ensuing IS but to the preceding I. We have
+attached it to the IS because of mutually supporting linear criteria in the
+bass and the soprano. This is a good example of how vertical and hori-
+zontal factors can conflict. In 8.23d the point of interest lies in the double
+neighboring motion of the V$ to the I and the “vi7” to the VS. The
+neighboring motion is represented in the tree by a right-branching pro-
+gression enclosed within a right-branching strong prolongation; this
+
+Chapter 8
+

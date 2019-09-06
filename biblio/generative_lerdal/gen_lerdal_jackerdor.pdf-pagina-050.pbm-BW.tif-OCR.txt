@@ -1,0 +1,51 @@
+46
+
+GPR 3 (Change) Consider a sequence of four notes 7,79737,. All else
+
+being equal, the transition 7,—3 may be heard as a group boundary if
+
+a. (Register) the transition 1,—73 involves a greater intervallic distance
+than both 7,-7, and n;—n,, orif
+
+b. (Dynamics) the transition 1,—7; involves a change in dynamics and
+n1-n3 and n3—74 do not, or if
+
+c. (Articulation) the transition 7,—73 involves a change in articulation
+and 7,-, and n,—-7n, do not, orif
+
+d. (Length) , and n; are of different lengths and both pairs ,,, and
+n3,14 do not differ in length.
+
+(One might add further cases to deal with such things as change in timbre
+
+or instrumentation.)
+
+This rule too relies on a transition as being distinctive with respect to the
+transitions on both sides. Example 3.17, like 3.15, illustrates cases where
+transitions are distinctive with respect only to the transition on one side;
+grouping intuitions are again much less secure than in 3.16.
+
+ 
+
+As observed in the preceding section, the various cases of GPRs 2 and 3
+may reinforce each other, producing a stronger sense of boundary, as in
+3.18a. Alternatively, different cases of the rules may come into conflict,
+as in 3.18b-—3.18d. In these examples each caret is labeled with the cases
+of GPRs 2 and 3 that apply.
+
+ 
+
+In 3.18b-—3.18d there is evidence for a group boundary between both the
+second and third notes and between the third and fourth notes. However,
+GPR 1 prohibits both being group boundaries at once, since that would
+result in the third note alone constituting a group. Thus only one of the
+transitions may be a group boundary, and the evidence is conflicting.
+This prediction by the formal theory corresponds to the intuition that the
+grouping judgment is somewhat less secure in 3.18b-—3.18d than in
+3.18a, where all the evidence favors a single position for the group
+boundary.
+
+Although judgments are weaker for 3.18b—3.18d than for 3.18a, they
+
+Chapter 3
+

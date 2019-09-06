@@ -1,0 +1,55 @@
+269
+
+The actual prolongational structure of the song embodies an unexpected
+deviation from his hopes.
+
+It 1s an open question how well a formal music theory can incorporate
+partially extramusical areas such as “dramatic” expectations, fulfill-
+ments, and disappointments. Although our theory does not directly ad-
+dress these concerns, we hope that it can be useful as a tool for discussing
+them precisely.
+
+To conclude this section, we will attempt a prolongational reduction of
+the development of the first movement of Mozart's D Major Quintet, K.
+593. First consider the prolongational reduction of the phrase that both
+opens and closes the allegro (10.15). The dashed lines at the top of the
+tree indicate the prolongational alternatives for the head of the phrase,
+depending on its position in the time-span reduction (PRPR 1), which in
+turn follows from the grouping. The chief reason this phrase can end as
+well as begin the allegro is that it amply fulfills the tensing-relaxing
+pattern of normative structure; it provides the prolongational criterion
+for closure. As will be seen, the development section functions as an
+enlargement of this phrase.
+
+Figure 10.16 repeats the schematic prolongational tree for sonata form
+developed in section 9.7. We are concerned here with the prolongational
+region bracketed (x) —from the tonicized V at the end of the exposition
+to the lat the beginning of the recapitulation. As discussed in section 9.7,
+the V at the end of the development might attach either as a prolongation
+of the V at the end of the exposition or as a progression to the beginning
+the recapitulation (see the dashed branch attaching at either a or b in
+10.16).
+
+Now turn to 10.17, an already highly reduced version of the develop-
+ment section of K. 593. The circled Roman numerals at the far left and
+right signify the opening tonic and the final cadence, respectively; the
+dashed line slicing across the upper region of the tree isolates the global
+normative structure of the entire movement. The region bracketed (x)
+beneath the music and the branching attachments marked a and b corre-
+spond to the identical labelings in 10.16. As the tree in 10.17 indicates,
+we have selected attachment a for the structural V at the end of the
+development (measure 138), because it is locally tonicized and hence
+forms a strong prolongation (PRPR 3) with the structural V at the end of
+the exposition (measure 89). (However, this local tonicization is under-
+mined by the previous descending-fifths sequence having progressed all
+the way to the subdominant (measure 133); so attachment b is also
+plausible.)
+
+Thus both the opening phrase (10.15) and the development (10.17) are
+contained within prolongations. But the analogy goes much farther than
+this. In motivic and grouping structure, the development forms two parts
+(measures 106-122 and 123-144) corresponding exactlv to the two
+parts of the opening phrase (measures 1-4 and 5—8 in 10.15). (Measures
+
+Analyses
+

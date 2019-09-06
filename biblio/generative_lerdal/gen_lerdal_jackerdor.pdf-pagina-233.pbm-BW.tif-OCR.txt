@@ -1,0 +1,39 @@
+229
+
+9.13
+
+ 
+
+There are now two regions to consider: berween the two Is and from
+the second I to the final V. Let us deal with the latter first. The ii and the
+L are equal in time-span importance, so PRPR 1 does not apply. Of the
+four possible connections between these two chords and the endpoints,
+the most stable is the left-branching descending fifth progression from the
+1i to the V, so the ii is chosen as ex. Then the $ must attach to either the
+ii* or the V. Because of the arrival in the bass, it attaches to the V, as in
+9.14.
+
+9.14
+
+ 
+
+The part of the tree just developed is one of the cadential formulas
+presented in section 8.3. The ii5, despite its relative unimportance in the
+time-span reduction, has emerged as relatively important in the prolon-
+gational reduction: it is the most important left branch of the cadential V.
+
+Next we turn to the region between the two Is in 9.14. The V* and the
+“vi?” are again most time-span-important, but the most stable harmonic
+connection is from the initial I to the I6. The Interaction Principle as
+applied so far selects the I$ as most important; however, intuition favors
+the V*. There are two local influences supporting this intuition. First, the
+V* is melodically closer to the I than the I* is, and the events involved are
+at a local enough level here that melodic connection, in both the soprano
+and the bass, plays a decisive role. Thus PRPR 3 is itself conflicted be-
+tween harmonic and melodic closeness, so that the 1 is not clearly a more
+stable connection than the V%. PRPR 1 therefore prevails, choosing the V*
+for its time-span importance. The second factor in the choice of the V*
+involves motivic structure, and will be discussed below.
+
+Formalization of Prolongational Reduction
+

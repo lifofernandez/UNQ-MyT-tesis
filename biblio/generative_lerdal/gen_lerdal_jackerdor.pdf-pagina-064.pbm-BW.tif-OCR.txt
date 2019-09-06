@@ -1,0 +1,57 @@
+60
+
+b c
+— — —————— —  —c— — —
+————————£ — ——————].Ú—]—]
+
+In 3.31a the intermediate level of grouping bisects one element of the
+smallest level of grouping; in 3.31b the intermediate level of grouping has
+an overlap and the smallest level does not; in 3.31c the small groups
+overlap and the intermediate ones do not.
+
+A more empirically sound alteration of the theory is to modify the
+effects of GWER 4 in such a way as to make possible only those particular
+types of violations that actually occur in music. To make the appropriate
+modifications, we propose to distinguish two formal steps in describing a
+piece's grouping structure. The first, underlying grouping structure, is
+described completely by means of the grouping well-formedness rules of
+section 3.1; that is, it contains no overlaps or elisions. The second step,
+surface grouping structure, contains the overlaps and elisions actually
+observed. These two steps are identical except where the surface group-
+ing structure contains an overlap or elision. At points of overlap, the
+underlying grouping structure resolves the overlapped event into two
+occurrences of the same event, one in each group. At elisions, the under-
+lying structure contains the event understood as being elided. Thus the
+underlying grouping structure of a piece has two important properties: it
+conforms to the GWFRs, and it explicitly represents the double function
+of the overlapped or elided event.
+
+The following rule expresses the desired relationship berween under-
+lying and surface grouping structure for overlap. The last two conditions
+in the rule are safeguards to ensure that all groups meeting at a boundary
+are overlapped in exactly the same way. They prevent the rule from
+creating situations like 3.31b and 3.31c, in which overlapping is not
+uniform from one level to the next.
+
+Grouping Overlap Given a well-formed underlying grouping structure
+G as described by GWFRs 1-5, containing two adjacent groups g, and g>
+such that
+
+£1 ends with event e,,
+
+£2 begins with event e,, and
+
+€1 = €n,
+a well-formed surface grouping structure G' may be formed that is iden-
+tical to G except that
+
+it contains one event e' where G had the sequence e¡e»,
+
+e' = e = en,
+
+all groups ending with e, in G end with e' in G', and
+
+all groups beginning with e, in G begin with e' in G'.
+
+Chapter 3
+

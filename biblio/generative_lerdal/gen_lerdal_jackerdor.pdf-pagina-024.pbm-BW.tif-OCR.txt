@@ -1,0 +1,48 @@
+20
+
+Observe that the beats in 2.7a are equally spaced not only at the
+smallest level but at larger levels as well. This, the norm in tonal music,
+provides what might be called a “metrical grid” in which the periodicity
+of beats is reinforced from level to level. Because of the equal spacing
+between beats at any level, it is convenient to refer to a given level by the
+length of its time-spans— for example, the “quarter-note level” and the
+“dotted-half-note level.” As in 2.8, we indicate this labeling of metrical
+levels by showing the appropriate time-span note value to the left of each
+level.
+
+2.8
+a b
+» SR p 1239FOIRIATO!)
+
+J .
+d . d
+
+An important limitation on metrical grids for classical Western tonal
+music is that the time-spans berween beats at any given level must be
+either two or three times longer than the time-spans between beats at the
+next smaller level. For example, in 4/4 (2.7a) the lengths of time-spans
+multiply consistently by 2 from level to level; in 3/4 (2.8a) they multiply
+by 2 and then by 3; in 6/8 (2.8b) they multiply by 3 and then by 2.
+
+It is interesting to see how the three restrictions on grouping hierar-
+chies— nonoverlapping, adjacency, and recursion — ransfer to the very
+different formalism of metrical structure. The principle of nonoverlap-
+ping prohibits situations such as 2.9a, in which the time-spans from beat
+to beat at one level overlap the time-spans from beat to beat at another
+level. Rather, a beat at a larger level must also be a beat at all smaller
+levels; this is the sense in which meter is hierarchical.
+
+2.9
+a b
+
+The principle of adjacency means that beats do not relate in some such
+fashion as suggested by the arrows in 2.9b; rather, they relate succes-
+sively at any given metrical level. The principle of recursion says that the
+elements of metrical structure are essentially the same whether at the level
+of the smallest note value or at a hypermeasure level (a level larger than
+the notated measure). Thus the pattern in 2.7a not only expresses 4/4
+meter, but could apply equally to a sequence of 16th notes or a sequence
+of downbeats of successive measures. Typically there are at least five or
+
+Chapter 2
+

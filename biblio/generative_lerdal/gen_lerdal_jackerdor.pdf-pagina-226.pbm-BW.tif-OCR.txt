@@ -1,0 +1,46 @@
+222
+
+the V-vi forms a deceptive cadence at the end of a phrase, and the
+following progression is a phrase extension that forms a group of its own.
+
+9.7
+
+Time -span reduction Prolon gat conal
+reduction
+
+ 
+
+In time-span reduction the vi is more important than the preceding V,
+since it forms the rhythmic completion of the group. However, in prolon-
+gational reduction the V will normally be more important, for reasons of
+harmonic stability. The problem PRPR 2 addresses is how to attach the vi
+chord.
+
+At the point in the derivation where the attachment of the vi is being
+considered, its context is the V on the left and the ii“ on the right. A
+harmonic connection in either direction is possible: the vi can in principle
+be construed either as a departure from the preceding V or as part of the
+cadential preparation for the final V. PRPR 2, taking note that the first V
+and the vi are contained in a group that does not contain the ii“, tips the
+balance in favor of the right-branching interpretation (departure). In the
+resulting tree the branching is not congruent with the time-span branch-
+ing, but it does respect grouping boundaries. PRPR 2 is stated in terms of
+segmentation rather than branching, then, in order to address just this
+sort of case.
+
+PRPR 2 is by no means as strong a rule as PRPR 1, since prolongational
+reductions commonly are noncongruent with time-span segmentation. Its
+influence appears to be strongest at relatively local levels of segmentation
+and to fade considerably from the phrase level up. The local strength of
+PRPR 2 seems to be related to the “locality” condition on fusion in
+time-span reduction (mentioned in section 7.2), in ways that we cannot at
+present specify.
+
+If unchecked by other considerations, PRPR 2 would build prolonga-
+tional trees that expressed tension and relaxation only in terms of each
+individual phrase, connecting the phrases up in whatever manner the
+time-span segmentation dictated. Thus PRPR 2 creates pressure toward
+relatively local, phrase-by-phrase prolongational reductions of the sort
+
+Chapter 9
+

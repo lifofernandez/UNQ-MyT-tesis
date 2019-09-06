@@ -1,0 +1,49 @@
+83
+
+Again, the longer of two alternating patterns of articulation attracts the
+stronger beat. In 4.30 the beginning of the triplet pattern is somewhat
+more likely to be heard as the strong beat at the dotted-half level than the
+beginning of the sixteenths. In other words, from the point of view of
+MPR $, example 4.30 behaves like the rhythmic pattern shown below
+
+ 
+
+So far pitch has not been implicated in the metrical preference rules.
+But the repetition of a pitch also counts as a kind of length, as shown by
+the preference for 4.31 to be heard with the first C on a strong beat of the
+quarter-note level and (less decisively) the half-note level.
+
+4.31
+
+  
+
+Preferred, _
+.fóru'áéure .
+
+Equiva
+o:
+
+6r gN ARr —
+
+The rule of length applies to repeated pitches not only at the surface,
+but also at relevant levels of the time-span reduction.* Consider the upper
+line in 4.32, which has the preferred metrical structure shown.
+
+4.32
+Surface
+
+7ime-
+reduction
+
+» level
+
+Eíui12_%l:mt r r r r r
+
+ 
+
+The slurring establishes the preferred placement of beats at the quarter-
+note level, but beyond that there is nothing in the musical surface to
+account for larger metrical levels. On the other hand, as will emerge in
+
+Metrical Structure
+

@@ -1,0 +1,43 @@
+12.5
+Music Theory as
+a Cognitive Science
+
+332
+
+Recently a composite discipline called “cognitive science” has been
+emerging out of parts of psychology, linguistics, neurophysiology, phi-
+losophy, and computer science. As its name implies, this discipline is
+concerned with characterizing the cognitive capacities of humans and
+other organisms. Perhaps its most important goal is to understand the
+nature of mental representation. Insofar as the goals we have set for the
+present study are consistent with such a program of research, we have in
+effect claimed for music theory a place among the branches of cognitive
+science.
+
+Our approach to music theory has not been concerned with questions
+of memory capacity, real-time processing, brain localization, and the like.
+We have restricted ourselves to a formal characterization of the listener's
+intuitions about musical structure (that is, of his mental representation of
+music). Although the theory is far from complete, it is detailed enough
+and explicit enough to account for a rich range of musical intuitions,
+from very elementary ones about grouping and meter to very sophisti-
+cated ones involving prolongational structure. That alone would suffice
+to justify music theory as a cognitive science.
+
+Though it could have been the case that musical cognitive capacity had
+nothing in common with other aspects of human behavior about which
+anything is known, this chapter has shown that music theory begins to
+bridge the gap berween two other capacities that have been studied much
+more extensively: visual perception and language. Moreover, the strong
+parallel between time-span reduction and prosodic structure appears to
+provide the starting point for a more general theory of temporal pattern-
+ing. That our study has managed to touch base with visual and linguistic
+theory in such a striking fashion is in itself a vindication of the idealiza-
+tions implicit in our approach.
+
+Thus music theory is by no means a curious side branch of cognitive
+science. We believe we have shown that it can provide central evidence
+toward a more organic theory of mind.
+
+Chapter 12
+

@@ -1,0 +1,40 @@
+136
+
+convenient to view all cs, regardless of type, as undifferentiated entities;
+the details of cadential reduction are reserved for the next section.
+
+Imagine a piece in four phrases, grouped together as in 6.15a. As an
+aid, we place a number, signifying the number of measures spanned,
+within each grouping slur. We find the bs and cs and supply each with
+one or more subscripts corresponding to the groups that it begins or
+cadences, Suppose (not implausibly) that each b is about as stable, purely
+by pitch criteria, as each c. In short, disregard all factors except the bs,
+the cs, and the regions over which they operate.
+
+6.15
+
+.[b4,8 184 lal + Csalbos , lCdbd ¿ 60
+
+&__————/'E____L———J
+8
+
+ 
+
+[94,el [Ca) [P4] [E4,8) 24,8) [Es) [6] [C6,10)
+
+Á
+
+Bauel _* ed _ T“o'
+
+/
+[Pre] [e 18]
+
+Example 6.15b connects the b and c of each phrase as in 6.13b.c.
+Whether the b or the c is structurally most important in a particular
+phrase is determined by the role each plays in the larger grouping struc-
+ture; that is, by whether it functions as a b or c for a larger group. Thus,
+as indicated by the subscripts, the c of the first phrase is a c only for that
+phrase, butits b is also a b at the next larger grouping level; hence the b is
+
+Chapter 6
+

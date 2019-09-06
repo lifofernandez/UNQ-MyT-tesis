@@ -1,0 +1,55 @@
+294
+
+respect to metrical structure.) We have made no extensive survey of other
+tonal idioms, but a preliminary examination suggests three elements that
+enter into the definition of a tonal system: a pitch collection or scale, a
+member of the pitch collection designated as tonic, and a measure of
+relative stability among members of the pitch collection (particularly
+with respect to the tonic). Let us consider these in turn.
+
+Pitch Collection
+
+In certain simple tonal systems the pitch collection consists simply of a
+given number of distinct pitches, related only by relative height, without
+fixed intervals berween them. Some varieties of gamelan music described
+in Becker and Becker 1979 have such an organization (though this music
+is very complex in other respects). Assuming differentiation among drum
+sounds, it is possible to think of drum music in these terms as well.
+
+The next refinementis to specify the intervallic relationships among the
+available pitches, as in any number of familiar tonal systems. If the pitch
+collection in such an idiom spans more than an octave, two possibilities
+appear. First, the upper octave may contain different intervals (or pitch
+classes) than the lower; Nettl 1960 (p. 10) cites Cheremis music as an
+example of such a system. Alternatively, as in classical Western tonal
+music, a principle of octave equivalence may be invoked, so that the pitch
+collection extends indefinitely upward and downward by successive oc-
+tave transpositions.
+
+Among the options in the definition of pitch collection is the possibility
+of contextual variation, such as different pitches in ascending and de-
+scending contexts. This is familiar in classical Western tonal music from
+the inflection of the sixth and seventh degrees in the minor scale, but 1t
+occurs as well in other idioms, for instance in certain Indian ragas
+(Cooper 1977).
+
+The specification of pitch collections for classical Western tonal music
+might begin with the major and minor diatonic scales, together with their
+possible chromatic inflections (in contrast to starting with the chromatic
+scale, which does not provide enough internal structure). In addition, a
+recursive principle based on the circle of fifths relates the scales by trans-
+position. A very different and more complex system appears in raga,
+where traditional Indian theory describes the several hundred distinct
+thátas, or pitch collections, in terms of relationships to “parent scales.”
+Cooper 1977 shows that it is of theoretical interest to treat these relation-
+ships as generative principles of some subtlety (see also Powers 1977). To
+do so is to claim that the choice of pitch collections is not arbitrary, but
+follows from the interaction of simple principles.
+
+Of course, there are many idioms that employ far simpler pitch collec-
+tions than the two just mentioned. One would eventually hope to char-
+acterize in a constrained way the range of possibilities across “natural”
+tonal idioms.
+
+Chapter 11
+

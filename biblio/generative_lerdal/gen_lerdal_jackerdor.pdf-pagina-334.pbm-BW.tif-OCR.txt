@@ -1,0 +1,57 @@
+12.4
+A Remark on
+Brain Localization
+
+330
+
+tween syntactic and musical trees, discussed in section 5.3, are too great
+for such a grammatical comparison to be meaningful.
+
+Why should there be such a parallelism? Given that both theories are
+attempts to account for human cognitive abilities, the existence of paral-
+lelism between them implies a claim that these areas are a respect in
+which human musical and linguistic capacities overlap. In other words,
+both capacities make use of some of the same organizing principles to
+impose structure on their respective inputs, no matter how disparate
+these inputs are 1n other respects.
+
+However, i¡f this claim is true, it would be surprising if music and
+language were the only human abilities so structured. Rather, we should
+be led to look for something closely analogous to time-span structure in
+many human abilities under the rubric of “temporal patterning,” from
+event perception to motor control to the planning of extended strategies
+of behavior. In particular, we should expect a hierarchically articulated
+notion of headlelaboration to figure prominently in psychological theo-
+ries of temporal organization.
+
+One bit of suggestive evidence for this hypothesis is Lasher's (1978)
+finding that sequences of ballet steps are invariably interpreted as a se-
+quence of major movements, each preceded by preparatory movements.
+Such a descriprion is easily seen to be a variant of time-span reduction
+principles, with the major movements serving as heads of larger segments
+and the preparatory movements as their elaborations. Notice how this
+description is more highly structured than one articulated only in terms
+of “chunking,” since it accords one element of each “chunk” the privi-
+leged status of head.
+
+Whether or not other kinds of organization eventually prove amenable
+to more rigorous treatment along these lines, our main point should be
+clear: The similarity between prosodic and musical structure can be used
+as a point of triangulation for approaching an account of other tempo-
+rally structured cognitive capacities.!*
+
+Some readers may ask how the parallel between music and phonology
+comports with evidence of brain localization. It is well known that the
+left hemisphere of the brain (in right-handed people) subserves special-
+ized linguistic functions, and that the right hemisphere is implicated in
+musical perception. Bever and Chiarello (1974) report that in musically
+naive listeners the right hemisphere seems to be dominant for certain
+tasks of melodic perception, whereas in musically experienced listeners
+the left hemisphere is dominant. They argue therefore that “being mu-
+sically sophisticated has real neurological concomitants, permitting the
+utilization of a different strategy of musical apprehension that calls on
+left hemisphere function,” namely a more analytic and less holistic or
+Gestalt form of processing.
+
+Chapter 12
+

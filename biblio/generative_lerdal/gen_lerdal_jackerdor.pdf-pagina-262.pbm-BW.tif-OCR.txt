@@ -1,0 +1,62 @@
+10.3
+
+Some Time-Span
+and Prolongational
+Reductions
+
+258
+
+Each of the following prolongational reductions will be preceded by the
+time-span reduction (along with the associated grouping and metrical
+analyses) from which it is derived. We begin with the opening portion of
+Mozart's G Minor Symphony, as a reductional addendum to the detailed
+rhythmic analyses in chapters 2-4. Then we analyze Bach's C Major
+Prelude from volume I of The Well-Tempered Clavier and Schubert's
+“Morgengruss” from the song cycle Die Schone Múllerin; in both of
+these cases, issues of general interest arise. Finally, we consider a complex
+development section, from Mozart's D Major Quintet K. 593.3
+
+In example 10.8 (a simplified version of the first 22 bars of the
+G Minor Symphony), the metrical analysis duplicates that of “hypothesis
+A” discussed in section 2.2. The grouping analysis is complicated and
+depends in part on reductional considerations (GPR 7); for example, it
+would seem reductionally inappropriate to connect the introductory bar
+(measure 1) at a larger grouping level than that in 10.8. The most difficult
+grouping decision concerns measures 14-16: should the subsidiary
+woodwind line receive a separate group, or should we maintain the prin-
+ciple of nonpolyphonic grouping analyses? We have chosen the latter
+course, with the result that measures 12-—16 are analyzed simply as an
+extended answer (GPR 6) to measures 10—11. Here, and also in measure
+1, subgroup bracketing fills the time-span breach where the grouping
+analysis fails to segment the musical surface beyond a certain level of
+detail.
+
+In cases where the grouping analysis is so irregular, the assignment of
+levels in the time-span reduction becomes somewhat arbitrary. We have
+therefore taken the added step in 10.8 of labeling the groups according to
+
+their corresponding reductional levels; in-between grouping levels are
+
+given primed letters. (The subgroup bracketings in measures 1 and 16
+receive the label e because they would have extended through that time-
+span—the 2-bar level—if they had not been “cut off” by grouping
+boundaries.)
+
+The secondary notation in 10.8 also requires an adjustment. Normally
+we notate events over the duration of their relevant group. But this
+becomes cumbersome when grouping and meter are as out of phase as
+they are here. Hence we have opted to notate the durations not according
+to grouping structure but according to metrical periodicity; the second-
+ary notation thereby becomes easier to read and hear. The tree is not
+affected by this change. At the same time, however, it becomes more
+difficult to correlate the tree with the secondary notation; so we have
+added grouping markings within the secondary notation itself to show
+which events are available for analysis at any given stage. For example,
+the groups marked e beneath level f in the secondary notation indicate
+the selectional possibilities for level e.
+
+The prolongational reduction shown in 10.9 follows without compli-
+cation from 10.8—thatiis, the prolongational reduction preference rules
+
+Chapter 10
+

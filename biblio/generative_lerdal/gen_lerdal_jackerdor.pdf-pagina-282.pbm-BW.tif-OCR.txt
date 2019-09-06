@@ -1,0 +1,39 @@
+11.1
+What is a Musical
+Universal?
+
+11
+Musical Universals and Related Issues
+
+This chapter presents a retrospective overview of the theory developed in
+chapters 2-9, focusing on the issue of musical universals and their impli-
+cations for musical cognition.
+
+To forestall misunderstanding, we should make clear at the outset what
+we mean by the term “musical universal.” A musical universal need not
+be readily apparent in all musical idioms. We are concerned here rather
+with universals of musical grammars—ethe principles available to all
+experienced listeners for organizing the musical surfaces they hear, no
+matter what idiom they are experienced in. The relation between a mu-
+sical universal in this sense and the nature of particular musical idioms is
+somewhat subtle and bears explanation.
+
+Each rule of musical grammar is sensitive to certain features of the
+musical surface (such as presence of attack points or relatively consonant
+pitch events) or to certain aspects of musical structure (for example,
+symmetry, parallelism, and stability of other components of the analysis).
+If the relevant feature is present, the rule applies to mark a certain struc-
+ture as well formed or preferred (depending whether the rule is a well-
+formedness or a preference rule). Essentially, we can claim a rule to be
+universal f it applies in the same way in every idiom that employs the
+distinctions to which the rule is sensitive. For example, we feel fairly
+confident that metrical preference rule 4, the stress rule, is universal; we
+suspecr that there is no idiom that uses local stresses in which these
+stresses do not tend to be heard as strong beats, other things being equal.
+In particular, there is no idiom in which stresses are marks of weak beats.
+
+There are two kinds of apparent counterexamples to this claim, both of
+which are taken into account in our definition. First, an idiom in which
+stresses do not occur (for example, some varieties of Renaissance music)
+does not argue against the universality of the rule. The stylistic norms of
+

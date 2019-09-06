@@ -1,0 +1,42 @@
+921
+Fundamental
+Hypotheses
+
+9
+Formalization of Prolongational Reduction
+
+In the discussion in chapter 8 of the essential intuitions behind prolonga-
+tional reduction, we assumed that the Strong Reduction Hypothesis ap-
+plies to this domain of musical analysis, that is, that it makes sense to
+describe these intuitions in the form of a unified tree structure. Now we
+state this assumprion overtly:
+
+Prolongational Hypothesis 1 Intuitions about pitch-derived tension and
+
+relaxation in a piece can be expressed in terms of a strictly hierarchical
+
+segmentation of the piece into prolongational regions, such that
+
+a. each region represents an overall tensing or relaxing in the progression
+from its beginning to its end, and
+
+b. tensings and relaxings internal to each region represent subordinate
+and nonoverlapping stages in the overall progression.
+
+In our initial discussion of tension and relaxation in section 8.1 we
+implicitly assumed Prolongational Hypothesis 1, in that we drew dia-
+grams like 9.1a and 9.1b (copies of 8.3a and 8.3b) but none that were
+like 9.1c and 9.1d.
+
+All of the examples in 9.1 satisfy condition a of Prolongational Hypothe-
+sis 1, since each arrow represents an overall tensing or relaxing from its
+beginning to its end. In 9.1a and 9.1b the regions form a hierarchical
+structure of the usual sort, whereas 9.1c and 9.1d violate condition b in
+that they contain overlapping of the sort we have disallowed in other
+components of musical structure. Prolongational Hypothesis 1 claims
+that such situations do not occur in musical intuition. Where they seem to
+occur, it is as a result of structural ambiguity in a piece—two indepen-
+dently viable structures in competition—not as part of a single unified
+structure. It is this property that permits prolongational reductions to be
+represented as tree structures.
+

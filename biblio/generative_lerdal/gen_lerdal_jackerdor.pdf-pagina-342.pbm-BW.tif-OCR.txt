@@ -1,0 +1,63 @@
+338
+
+orientation was not psychological (as thar of generative linguistics 1s), but artistic;
+the chief purpose of his theory was to illuminate structure 1n musical master-
+pieces. Though our proposed theory also aspires to such illumination, its focus is
+on musical cognition. Despite these differences, we are profoundly indebted to
+Schenker's work—as, indeed, anybody in the field must be. Readers unfamiliar
+with Schenker's work can find a good introduction in Forte 1959 or Jonas 1954.
+
+2. See Kassler 1963, 1976 and Sundberg and Lindblom 1976 for studies along
+these lines.
+
+3. Smoliar 1980 and Snell 1979 are examples of such an approach.
+
+4. Keiler (1975, 1978a), whose broad theoretical perspective seems to resemble
+our own, makes this kind of transference of linguistic trees, replete with gram-
+matical categories such as “tonic prolongation,” “ronic completion,” and “dom-
+inant prolongation.” From our viewpoint, the resultant musical trees suffer from
+the sort of superficial analogy between music and language for which he rightly
+criricizes Bernstein (1976). One also wonders how in principle Keiler's proposed
+theory will be able to generalize beyond classical tonal music. A musical grammar
+must be conceived on a more abstract basis ¡f it 1s to be relevant to the funda-
+mental issue of musical cognition.
+
+Even in the restricred context of classical tonal music, there are severe short-
+comings in the descriptive adequacy of Keiler's proposed trees (see for example
+Keiler 1978a, pp. 212—221). We give three examples: (1) Keiler's trees cannor
+assign structure to nonharmonic tones, thus missing obvious generalizations such
+as the similar function of a passing chord and a passing tone. (2) Keiler's trees
+cannor assign structure to such prevalent forms as an antecedent phrase or an
+antecedent-consequent period, because his formalism requires every “tonic pro-
+longarion” ro have a “tonic completion.” But it is precisely a characteristic of
+“interruption” forms that at a certain point the tonic is not completed. (3)
+Keiler's trees cannot assign strucrure to such common progressions as I -vi—[ and
+IV-V-I, because the only categories available are “tonic” and “dominant.”
+Plainly a “subdominant” category is needed. (The subdominant category would
+also apply to the ii in a t15-V progression, dubiously analyzed by Keiler as
+“dominant” to “tonic” under a “dominant prolongation.”)
+
+Finally, we must distance ourselves from Keiler's generative approach in one
+absolutely essential respect: Keiler does not develop, nor does he propose to
+develop, a system of rules that pairs musical surfaces with heard musical struc-
+rures. He has only developed an analytic notarion. Thus, despite the linguistic
+ambience of his work and the “syntactic” nature of his trees, he is not engaged in
+constructing a generative grammar in any sense normally intended by the term.
+(See Jackendoff and Lerdahl 1980 for further discussion.)
+
+5. However, such an assignment does occur in the musical surface in conjuncrion
+with grouping overlap, where event x 1n 5.7c is represented twice in underlying
+strucrure. The underlying tree has one branch to each occurrence of x and is
+therefore well formed; hence x is assigned two distinct functions. See section 7.1.
+
+6. The angles made by these branchings convey no informarion; they are simply a
+fortuitous result of where an event is on the page in relation to the geometry of
+the tree.
+
+7. We discuss this already overdiscussed passage because, beneath its brevity and
+apparent simplicity, it 1s unusually useful in presenting issues of general signifi-
+cance. Reducrions of a wide variety of pieces will be presented in the following
+chapters.
+
+Notes to pp. 111—118
+

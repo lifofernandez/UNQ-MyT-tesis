@@ -1,0 +1,55 @@
+304
+
+account of perception was formulated by Wertheimer as the Law of
+Prignanz. In Koffka 1935 (p. 110) it is stated briefly:
+
+Psychological organization will always be as “good” as the prevailing conditions
+allow. In this definition the term “good” is undefined. It embraces such properties
+as regularity, symmetry, [and] simplicity.
+
+In other words, the various principles of visual perception that Koffka
+demonstrates are explications of the notion of “good” organization.
+
+The preference rule component of the generative theory of musical
+grouping resembles Wertheimer's and Koffka's account of vision in more
+than the way individual rules apply and interact with each other. It also
+has overall properties that make it a Gestalt theory in the sense just
+described. First, it is mentalistic: it claims that perceived grouping is not
+present in any direct way in the musical surface. In fact, the events of
+grouping structure are not even in one-to-one correspondence with the
+musical surface, since in grouping overlap one surface event appears
+twice in underlying grouping structure, and in grouping elision an event
+appears in grouping structure that is absent from the musical surface.
+These noncorrespondences are made possible by claiming that grouping
+structure is a mental construct, associated with the musical surface by
+unconscious rules.
+
+But the theory of grouping is not just mentalistic. It is specifically
+Gestalt, in that it claims that grouping structures cannot be built up
+strictly from their parts. Three of the preference rules are indeed con-
+cerned with local details, and the information they provide is of undeni-
+able importance. But the rule of intensification (grouping preference rule
+4) involves comparison of scattered potential group boundaries, the rule
+of symmetry (GPR 5) involves the total internal structure of groups, and
+the rule of parallelism (GPR 6) can invoke the mutual influence of regions
+spaced arbitrarily far apart. Furthermore, there are cases—such as the
+opening theme of Mozart's G Minor Symphony, at transition 8—9 (ex-
+ample 3.19)—in which the interpretation of a low-level local detail is
+overridden by considerations of parallelism.
+
+Other components of the musical grammar show even more clearly
+that global considerations are essential for musical perception. For exam-
+ple, in syncopation, preference rules for local metrical detail are over-
+ridden by global requirements on metrical well-formedness. A choice of
+head for a time-span is often influenced by a cadential function at some
+larger level. Global considerations pervade prolongational reduction as a
+result of its “top-down” construction.
+
+The overall function of the preference rules is to select a structure that
+is maximally stable; that is, they define what assignments of structure to a
+musical surface are perceptually “good.” Thus the preference rules in
+effect constitute an explicit statement of the Law of Prágnanz as it ap-
+plies to musical perception.
+
+Chapter 12
+

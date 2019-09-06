@@ -1,0 +1,63 @@
+280
+
+not engage those parts of the time-span and prolongational reduction
+rules that are sensitive to harmonic stability. One might wonder if there
+are universals of musical grammar that are similarly not exploited by
+classical Western tonal music and whose presence we have therefore not
+suspected here. A study of other idioms would help to reveal the existence
+of such principles.
+
+Beyond the specific claims about universality of particular rules dis-
+cussed in preceding chapters, we present here some overall hypotheses
+about universals that emerge from the theory —general features that re-
+main intact beneath any modifications of the rules themselves.
+
+1. Musical intuitions are organized along the four hierarchical dimen-
+sions treated here: grouping, metrical structure, time-span reduction,
+and prolongational reduction. Each of these (with specified exceptions
+such as overlaps) is a strictly hierarchical structure that includes every
+pitch-event in a piece.
+
+2. The structure of a piece in each component is determined by the in-
+teraction of well-formedness rules, preference rules, and transforma-
+tional rules, applying in essentially the way we have illustrated in
+previous chapters.
+
+3. The four components interrelate basically in the ways developed here:
+a. Grouping and meter are independent (though different ¡idioms con-
+
+strain their interaction in varying degrees).
+
+b. Time-span segmentation depends on meter at small levels, grouping
+at large levels, and the combination of the two at intermediate
+levels.
+
+c. Time-span reduction depends on a combination of pitch stability
+and time-span segmentation.
+
+d. Prolongational regions and prolongational importance are deter-
+mined largely in terms of time-span importance and stability of
+pitch connection.
+
+As a consequence of b-—d, the listener's understanding of global pitch
+
+structure is strongly influenced by his local segmentation of the mu-
+
+sical surface.
+
+4. In order for hierarchical decisions to be made within the two reduc-
+tional components, there must be criteria for the relative stability of
+pitch-events. This means that a given idiom must supply both a tonal
+center for a piece (not necessarily a tonic as defined in classical Western
+tonality, but a center of pitch gravity) and a scale of distance of other
+pitch-events from the tonal center.
+
+$. Structural beginnings and endings of groups form significant articula-
+tion of a piece's structure; structural endings are marked by conven-
+tional formulas (cadences of some kind).
+
+Each of these points is embodied in the form or content of our gram-
+mar for classical Western tonal music. The first two specify the overall
+
+Chapter 11
+

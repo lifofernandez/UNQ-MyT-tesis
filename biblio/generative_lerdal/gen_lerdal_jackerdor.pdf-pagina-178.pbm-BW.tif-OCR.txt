@@ -1,0 +1,55 @@
+174
+
+oracfor a larger group. This means that neither condition iii of TSRPR 7
+nor the condition of TSRPR 8 is met. There are two consequences: first,
+there is no way to retain both elements of the cadence, since only
+TSRPR 7 would permit this; second, the choice between the first and last
+events is determined only on the basis of harmonic and melodic stability.
+In the present case the ending is favored, but this might not be so in every
+case. It may be desirable to add a special rule to deal with the highest level
+of reduction:
+
+TSRPR 9 In choosing the head of a piece, prefer the structural ending to
+the structural beginning.
+
+Behind this rule lies the intuition that tonal pieces are fundamentally
+goal-oriented.
+
+We next examine a passage where the large-scale reduction is not
+symmetrical: the introduction of Beethoven's First Symphony (7.27). It
+has often been noted that, although the symphony is in C, its first mea-
+sure appears superficially to be a cadence in F. The time-span reduction
+will show how, as a consequence of this unusual beginning, the entire
+passage functions as a sequence of structural anacruses to the beginning
+of the allegro in measure 13.
+
+Before discussing the reduction in 7.28, we must make two comments
+on the grouping, First, the largest subdivision of the passage sets off the
+first 37 measures from the rest, as a sort of preintroduction consisting
+only of wind chords supported by pizzicato; in the rest of the introduc-
+tion the melodic line is dominated by the violins. Second, the grouping
+contains three overlaps. As argued in section 7.1, time-span reduction is
+based on the underlying grouping structure, so that an overlapped event
+can be assigned different functions in the two groups to which it belongs.
+The overlapped event corresponds to two events in time-span reduction,
+one in the left group and one in the right. This dual function appears in
+7.28 in measures 8 and 13 (the overlap in measure 10 has already been
+reduced out).
+
+Example 7.28 is the reduction of 7.27 from approximately the measure
+level to the level of the whole passage. Measures 7 and 10 still contain
+more than one event in level e because they are broken by group bound-
+aries. We have placed a double bar after the “preintroduction” as a visual
+aid.
+
+With the exception of measure 1, to which we will return shortly, the
+reduction from the musical surface to level e is relatively straightforward
+and requires no comment. The reduction of group 5—13 proceeds down
+to level c according to principles familiar from previous examples, lead-
+ing to an approximately symmetrical tree in which beginnings and
+endings of cadenced groups are of greatest importance. In reducing this
+group to level b the final cadence is most important, since it is the c for
+the entire introduction.
+
+Chapter 7
+

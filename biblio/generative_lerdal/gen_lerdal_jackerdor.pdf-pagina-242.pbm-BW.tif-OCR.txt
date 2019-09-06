@@ -1,0 +1,55 @@
+238
+
+attach as left branches. The T in measure 11 is closer in diatonic collection
+to the preceding V than to the following V/ii, so it becomes a right branch
+(by stability condition 2 on PRPR 3). As a result, the second phrase in
+itself constitutes a normative structure.
+
+In the first phrase, the Interaction Principle suggests that the V in
+measure 5 should attach next, as a prolongation of the initial V. How-
+ever, a closer approximation to normative structure within this phrase is
+obtained by attaching the I in measure 7 first, with the V as its left
+branch. By parallelism (PRPR 5), the Tin measure 3 behaves like the Lin
+measure 11, attaching as a right branch to the initial V.
+
+The nonparallelism in branching between the first two V—I progres-
+sions reflects the fact that the second is a cadence and the first is not,
+according to the criteria discussed in section 7.4. Alternatively, parallel-
+ism (PRPR 5) might dictate that the importance of the second V—I be
+reversed. These conflicting applications of PRPR $ at different levels of
+structure contribute to the ambiguity of the piece.
+
+The result is a balanced normative structure, altogether similar to the
+structure of a classical antecedent-consequent phrase like the K. 331
+theme with one exception: the roles of l and V are exactly reversed on the
+largest left branch of the structure and all its elaborations. Thus the
+whole piece consists not of a I prolongation, as in the basic form, but of a
+V prolongation leading to a final cadence. The maximal point of tension
+in the piece, the transition from measure 11 to measure 12, emerges
+clearly in the tree as a transition from right to left branching.
+
+An oddity of 9.24 is that the Is in measures 3, 7, and 11 are right
+branches of preceding Vs, a situation we have not previously encoun-
+tered. This happens because, according to this interpretation, these Is are
+heard in the context of a V prolongation.
+
+An alternative interpretation, in which the first Lis the structural begin-
+ning, results in the prolongational reduction in 9.25, which we will not
+derive.
+
+Although 9.25 satisfies the basic form, it suffers from at least two short-
+comings. First, in 9.24 the most important V in the piece is the one in
+measure 1, which therefore functions both as structural beginning and as
+structural dominant. In 9.25, by contrast, the initial V is only a local
+elaboration; the structural beginning is the I in measure 3, and the struc-
+tural dominant is the V in measure 14. But the weak register of the bass in
+measure 14 makes it an unconvincing structural dominant in compari-
+son with the Vs in measures 1 and 9. Second, one's sense of parallelism
+between the two phrases depends more on the identity of the Vs in
+measures 1 and 9 than on the Is in measures 3 and 11, since the T in
+measure 11 does not complete its group but progresses on to the V/ii.
+Example 9.24 brings out the importance of the Vs to the parallelism,
+whereas 9.25 relies more heavily on the Is. In addition to these problems
+
+Chapter 9
+

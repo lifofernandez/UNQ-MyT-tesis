@@ -1,0 +1,46 @@
+317
+
+branch). Hence the primary stress in 12.11 is indicated by the longest
+branch in the tree.
+
+12.11
+
+r
+re con ci li ation con trac tu al
+
+It is at least an interesting coincidence that two theories, developed
+independently to deal with totally dissimilar phenomena, should have
+arrived at equivalent notations to express their analyses. To establish a
+preliminary sense of the strength of the equivalence, it is useful to com-
+pare time-span and prosodic trees with syntactic trees. Both the time-
+span and prosodic trees represent a hierarchy of binary oppositions: head
+versus elaboration and strong versus weak. By contrast, syntactic trees
+represent a hierarchy of abstract syntactic categories, such as sentence,
+noun phrase, and verb phrase. Thus the form of time-span and prosodic
+trees is not an inevitable consequence of strict hierarchical structure
+alone, since there are other imaginable hierarchical organizations that
+lead to different types of tree structures,
+
+Does the equivalence of the two notations mean that there is a similar-
+ity berween the intuitions the two theories address? As a step toward
+answering this question, we Will compare the rule systems that determine
+time-span reductions and prosodic trees, and show that they share im-
+portant formal properties and even some substantive properties. By dem-
+onstrating this more extensive parallelism, we will have shown that the
+equivalence of notations is more than a coincidence,
+
+Prosodic Segmentation Rules
+
+We begin by summarizing the grammar of time-span reduction developed
+in chapters 6 and7. There are three subcomponents, First, the segmenta-
+tion rules (section 7.1) produce an exhaustive hierarchical segmentation
+of the musical surface into time-spans. The time-spans form what might
+be called a layered hierarchy. At the most local levels are the time-spans
+we have called subgroups, those determined by metrical structure alone
+and by metrical structure interacting with grouping. Next, there are one
+or more levels of uncadenced groups; and at the largest levels the time-
+spans are all cadenced groups. These layers are fixed in order from small-
+est level to largest and cannot mix; for example, there cannot be a level
+
+Psychological and Linguistic Connections
+

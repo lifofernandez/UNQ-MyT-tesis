@@ -1,0 +1,50 @@
+95
+
+Now turn to the first half of passage 4.41. The musical surface appar-
+ently provides no new applications of preference rules, but a considera-
+tion of the time-span reduction reveals evidence for metrical structure.
+The issue concerns where the harmony is heard to change in each group.
+As pointed out already, each chord is immediately preceded by a pitch
+that is consistent with it, so the chords are not heard as the points of
+change. However, example 4.42, the time-span reduction of beats 1-24
+at the quarter-note level, shows pitches inconsistent with the preceding
+harmony at 10, 16, and 22, suggesting that these beats are the point of
+harmonic change; we have indicated this in 4.41.8
+
+4.42
+
+2 46 8 101 14 6186 20 2
+
+ 
+
+As evidence that this indirect source of metrical prominence derived
+through the time-span reduction is the correct one, consider 4.43, in
+which the pitches at $ and 11 have been changed from Haydn's.
+
+4.43
+123456 78 391011 12
+
+ 
+
+Whatever the musical sins of this alteration, it results in a radically differ-
+ent metrical intuition— the strongest beats are most naturally heard at 6
+and 12 rather than at 4 and 10. The theory proposed here accounts nicely
+for this difference: because the chords in 4.43 are not preceded by pitches
+consistent with them, they can this time be heard as the points of har-
+monic change. Hence 6 and 12 rather than 4 and 10 will be marked by
+MPRs Se and Sf, altering the distribution of metrical weight.
+
+In choosing the preferred dotted half-note level for this part of 4.41, we
+are faced with a conflict between the harmonic changes at 4, 10, 16, and
+22 on one hand and the chords at 6, 12, 18, and 24 on the other. Though
+the strength of the harmony rule (MPR Sf) is undoubtedly sufficient to
+prevail, the metrical evidence for the chords causes them to be heard as
+cross-accents, parallel to those in the second half of the passage at 30 and
+36
+
+Thus the rules predict that the analysis shown in 4.41 should be fa-
+vored for both halves of the passage. However, the indirectness of metri-
+cal evidence in the first half of the passage and the syncopation in the
+
+Metrical Structure
+

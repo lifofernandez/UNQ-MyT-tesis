@@ -1,0 +1,62 @@
+7.3
+Preference Rules
+Within Phrases
+
+159
+
+TSRWER 3 If T contains other time-spans, let T;,..., 7, be the (regular or
+augmented) time-spans immediately contained in T and let e,,...,e, be
+their respective heads. Then:
+
+a. (Ordinary Reduction) The head of T may be one of the events
+€ y-- .E a-
+
+b. (Fusion) If e,,...,€, are not separated by a group boundary (“locality”
+
+condition), the head of T may be the superimposition of two or more
+
+Of e1,...,en.
+
+(Transformation) If e,,...,e, are not separated by a group boundary,
+
+the head of T may be some mutually consonant combination of pitches
+
+chosen out of e,,...,én-
+
+d. (Cadential Retention) The head of T may be a cadence whose final is
+e, (the head of 7;,, the last time-span immediately contained in T) and
+whose penult, if there is one, is the head of a time-span immediately
+preceding T, though not necessarily at the same level.
+
+o
+
+TSRWER 4 Ifa two-element cadence is directly subordinate to the head
+e of a time-span T, the final is directly subordinaté to e and the penult is
+directly subordinate to the final.
+
+The two segmentation rules plus TSRWFRs 1-4 are now sufficiently
+rich to express the class of time-span reductions that we have motivated.
+However, as was the case with the grouping and metrical components,
+the definition of a set of possible structures is insufficient. How is the
+theory to choose the head of á time-span from among the heads of
+the immediately contained time-spans? This question is addressed by the
+time-span reduction preference rules.
+
+The principles for selecting the head of a time-span fall into three catego-
+ries. Local rules attend exclusively to the rhythmic structure and pitch
+content of the events within the time-span itself. Nonlocal rules bring
+into play the pitch content of other time-spans (essentially considerations
+of voice-leading and parallelism). Structural accent rules involve articu-
+lation of group boundaries. This section deals with the first two types;
+section 7.4 discusses the third.
+
+An initial caveat: We will not specify what factors motivate the choice
+of fusion or transformation rather than ordinary reduction in a time-
+span. Nonetheless, we will not hesitate to use fusion and transformation
+in our analyses where they are intuitively appropriate.
+
+Local Influences
+Consider the reduction of example 7.16a at the quarter-note level.
+
+Formalization of Time-Span Reducrion
+

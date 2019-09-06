@@ -1,0 +1,54 @@
+34
+Grouping Overlaps
+
+55
+
+foolish to attempt to quantify local rules of grouping without a far better
+understanding of how these rules interact with other rules whose effects
+are in many ways not comparable.
+
+Both the problem of overprecision and that of global considerations
+are acknowledged by Tenney and Polansky (1980), whose theory of mu-
+sical grouping in many ways resembles ours (see note 3). They state
+quantified rules of local detail, which are used by a computer program to
+predict grouping judgments. They point out, however, that their system
+does not comfortably account for vague or ambiguous grouping judg-
+ments, because of its numerical character, and they note the essential
+arbitrariness in the choice of numerical weights. And, although aware of
+the need for global rules such as those of symmetry and parallelism, they
+do not incorporate these rules into their system. It is our impression that
+they do not really confront the difficulty of how in principle one balances
+global against local considerations.
+
+To sum up: Our theory cannot provide a computable procedure for
+determining musical analyses. However, achieving computability in any
+meaningful way requires a much better understanding of many difficult
+musical and psychological issues than exists at present. In the meantime
+we have attempted to make the theory as predictive as possible by stating
+rules clearly and following through their consequences carefully, avoid-
+ing ad hoc adjustments that make analyses work out the way we want.
+We believe that the insights the theory has been able to afford are
+sufficient justification for this methodology.
+
+The term overlap has had a number of uses in the music literature. This
+section is devoted to overlaps in grouping structure, an important class of
+counterexamples to the grouping well-formedness rules. The discussion is
+in two parts. The first discusses the perceptual phenomena of grouping
+overlap and elision; the second describes some of the mechanisms needed
+to incorporate overlap and elision into the formal theory.
+
+The Perception of Grouping Overlaps and Elisions
+
+In section 3.1 we remarked that there is a discrepancy between the pre-
+dictions of GWER 4 (“If a group G¡ contains part of a group G, it must
+contain all of G>”) and certain actual musical intuitions according to
+which groups overlap. A typical case is the beginning of Mozart's Sonata
+K. 279 (example 3.25).
+
+In this example, the beginnings of the third and fifth measures are heard
+as belonging to two intersecting groups at once, at various levels of
+grouping. This situation is a violation of GWFR 4, since there are groups
+that contain part but not all of other groups. Such situations are common
+
+Grouping Structure
+

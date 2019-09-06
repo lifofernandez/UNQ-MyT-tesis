@@ -1,0 +1,52 @@
+12.16
+
+reconciliation
+syllable leve! i —
+
+fot kel — — —
+
+word level .-
+
+Looking at a large variety of languages, Vergnaud and Halle (1979)
+conclude that the rule for structuring the feet of an English word is
+typical. The only major difference that appears is that in some languages
+the gathering of feet begins at the left and works rightward, in the mirror
+image of the English rule.$ Morris Halle has suggested (personal commu-
+nication) that one should expect similar mirror-image phenomena in
+time-span segmentation in music. Recall that the normal gathering of
+subgroups into larger subgroups places the strong beat on the left. How-
+ever, as mentioned at the end of section 7.1, there is a musical idiom in
+Which the strong beat appears to be on the right end of subgroups: the
+gamelan music described by Becker and Becker (1979). Hence the cross-
+linguistic possibilities for foot formation parallel the cross-idiom possi-
+bilities for subgroup formation.
+
+The larger levels of the prosodic structure—phonological phrase, in-
+tonational phrase, and utterance—have been less extensively studied
+than syllables, feet, and words. Selkirk's preliminary work indicates that
+the rules determining segmentation at these levels are not terribly differ-
+ent from the rules discussed so far, except that they make use of syntactic
+as well as phonological properties to establish boundaries.
+
+To sum up: We find that prosodic structure, like time-span reduction,
+is based on a segmentation of the surface string into a layered hierarchy.
+Each layer (subgroups, uncadenced groups, and cadenced groups in mu-
+sic; syllables, feet, words, and the like in language) in itself exhaustively
+analyzes the string, and of course there may be more than one such level.
+
+We next turn to the principles that define the possible trees associated
+with a phonological segmentation.
+
+Prosodic Well-Formedness Rules
+
+The principles of segmentation apply in such a way that each segment at
+each level immediately contains either one or two segments of the next
+smaller level (this should be evident from examination of the structures in
+12.12-12.16). Thus it is simple to construct a tree that reflects the seg-
+mentation. Each of the smallest segments (syllables in the version of the
+theory presented here) is attached to the bottom of a branch. If a segment
+x is the only segment immediately contained in the segment of the next
+larger level, nothing happens in the tree. If segments x and y are both
+
+Psychological and Linguistic Connections
+

@@ -1,0 +1,44 @@
+Chapter 1
+
+Notes
+
+1. This consideration militates against Goodman's (1968) characterization of a
+piece as the set of performances in conformance with irs score.
+
+2. We concur with Arnheim's view (1974, p. 5) that “Far from being a mechan-
+ical recording of sensory elements, vision [and other sorts of perceprion] proved
+to be a truly creative apprehension of reality —imaginative, inventive, shrewd,
+and beautiful. ... the qualities thar dignify the thinker and artist distinguisl all
+performances of the mind.”
+
+3. The distinction underlying this idealizarion corresponds to one sense of Chom-
+sky's (1965) distinction berween competence and performance. However, since
+these terms have been used in many senses and have been subject to fruitless
+polemics, we prefer to avoid this terminology, and wish our idealization to be
+understood strictly in the terms outlined here.
+
+4. One means of testing bey ond the kinds presented in this study is by laborarory
+experiment, as in the research reported by Dowling (1972, 1978), Deutsch
+(1977), Bamberger (1980), and Bever (1980). On rthe nature of scientific stan-
+dards for a theory of mental structures such as ours, see Chomsky 1980.
+
+5. Among music theorists, Narmour (1977) has been a vocal critic of the meth-
+odology of generative linguistics in music theory. However, Narmour's extensive
+criticism of transformational linguistics does not seem to be based on any great
+acquaintance with the field, as the only primary source he cites in his bibliography
+is Chomsky 1957; furthermore, his discussion contains many elementary errors.
+One reason for this might be that Narmour's main source seems to have been
+Robinson 1975, accurately assessed in Green 1977.
+
+6. In particular, we will not be concerned whether or nor our theory can readily
+be converted into a computer program—one of the more fashionable criteria of
+formalization. Though we are not opposed in principle to computational em-
+bodiments of formal theories, we will argue thar various aspects of the theory
+cannot be so formalized on the basis of present understanding of the issues (see
+section 3.3).
+
+7. Sundberg and Lindblom 1976, Kassler 1963, and Smoliar 1974 are examples
+
+of this approach. Babbitr 1972 makes similar assumprions in his discussions of
+music cheory based on generatiye linguistics. Winograd 1968 is an interesting
+

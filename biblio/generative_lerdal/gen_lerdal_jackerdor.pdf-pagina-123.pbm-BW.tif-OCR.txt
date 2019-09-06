@@ -1,0 +1,54 @@
+119
+
+of the opening I; the one in measure 2 is scarcely a chord at all, but a
+neighboring motion within a V6; and the one in measure 4, though
+important within the phrase, is not as important as the structural accents.
+
+These intuitions all have to do with rhythm—specifically, with
+grouping and meter. The V in measure 4 is heard as cadential only
+because it articulates the end of a large group; this in itself is enough to
+raise it above the [ in measure 4, which by pitch criteria alone is the more
+stable of the two. The opening I also occurs at a large grouping bound-
+ary, and besides is in a strong metrical position. By contrast, the 1 on the
+third eighth of measure 1 and the I in measure 2 do not stand next to
+grouping boundaries, and are in weak metrical positions. The I in mea-
+sure 4 occurs on a fairly strong beat, but is in the middle of a group.
+
+The solution, then, lies in the proper integration of criteria of pitch
+stability with rhythmic criteria based on the grouping and metrical com-
+ponents, Schenkerian reductions rely heavily on a tacit knowledge of
+these areas. Indeed, Schenkerian analysis is workable at all only because
+the analyst himself supplies (consciously or unconsciously) the requisite
+rhythmic intuitions. A formal cognitive theory must make this knowledge
+manifest through a set of explicit rules.
+
+A reductional theory based only on pitch criteria is deficient in another
+respect: it does not restrict in the slightest way the domains over which
+events can attach. The criteria for pitch stability alone are “free
+floating” — they can connect up events anywhere, as long as the resultant
+trees are well formed and the principles of relative consonance and disso-
+nance are observed. For example, there is nothing in principle to prevent
+the 1 “chord” in measure 2 of 5.10 from attaching at the level of the
+whole phrase, even though intuitively it is an elaboration only within the
+context of the first half of measure 2.
+
+Again the metrical and grouping structures fill the need, for they offer a
+principled way of segmenting a piece into domains of elaboration at
+every level—a hierarchy of time-spans. At the most local levels, the
+metrical component marks off the music into beats of equal time-spans;
+at larger levels, the grouping component divides the piece into motives,
+subphrase groups, phrases, periods, theme groups, and sections. Thus it
+becomes possible to convert a combined metrical and grouping analysis
+into a time-span segmentation, as diagrammed for the beginning of
+K. 331 in5.11, (As in section 2.3, the brackets represent time-spans from
+beat to beat.) This time-span segmentation can define the domains over
+which reduction takes place.
+
+Conseguently, the grouping and metrical components serve a double
+function in constructing reductions: they segment the music into
+rhythmic domains, and within these domains they provide rhythmic cri-
+teria to supplement pitch criteria in the determination of the structural
+importance of events.
+
+Reductions
+

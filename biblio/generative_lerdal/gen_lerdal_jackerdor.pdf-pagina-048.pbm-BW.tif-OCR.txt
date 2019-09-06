@@ -1,0 +1,51 @@
+44
+
+The effect of this version is to prohibit single-note groups except with
+very strong evidence, and to prohibit two-note groups except with fairly
+strong evidence. By three- or four-note groups, its effect would be imper-
+ceptible. Put more generally, this rule prevents segmentation into groups
+from becoming too fussy: very small-scale grouping perceptions tend to
+be marginal.
+
+The second preference rule involving local detail is an elaborated and
+more explicit form of the principle of proximity discussed in the preced-
+ing section. It detects breaks in the musical flow, which are heard as
+boundaries between groups. Consider the unmetered examples in 3.14,
+
+3.14
+
+ 
+
+Our judgment is that, all else being equal, the first three notes in each
+example are heard as a group and the last two are also heard as a group.
+In each case the caret beneath the example marks a discontinuity between
+the third and fourth notes: the third note is in some sense closer to the
+second, and the fourth note is closer to the fifth, than the third and fourth
+notes are to each other. In 3.14a the discontinuity is a break in a slur; in
+3.14bitis a rest; in3.14c itis a relatively greater interval of time between
+attack points. (The examples of proximity in the preceding section in-
+volved a combination of the last two of these.)
+
+In order to state the preference rule explicitly, we must focus on the
+transitions from note to note and pick out those transitions that are more
+distinctive than the surrounding ones. These more distinctive transitions
+are the ones that intuition will favor as group boundaries.
+
+To locate distinctive transitions the rule considers four consecutive
+notes at a time, which we designate as , through . The sequence of
+four notes contains three transitions: from the first note to the second,
+from the second to the third, and from the third to the fourth. The middle
+transition, 4,—73, is distinctive ¡f it differs from both adjacent transitions
+in particular respects. If it is distinctive, it may be heard as a boundary
+between one group ending with ; and one beginning with .
+
+The distance between two notes can be measured in two ways: from
+the end of the first note to the beginning of the next, and from the
+beginning of the first note to the beginning of the next. Both these ways of
+measuring distance contribute to grouping judgments. The formeriis rele-
+vant when an unslurred transition is surrounded by slurred transitions, as
+in 3.14a, or when a transition containing a rest is surrounded by transi-
+tions without rests, as in 3.14b, The latter is relevant when a long note is
+
+Chapter 3
+

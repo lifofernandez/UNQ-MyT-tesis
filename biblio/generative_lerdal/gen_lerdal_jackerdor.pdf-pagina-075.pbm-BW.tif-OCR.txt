@@ -1,0 +1,58 @@
+71
+
+ 
+
+ 
+
+ 
+
+This overexplicitness becomes a descriptive liability in dealing with the
+not uncommon passages in tonal music that mix incommensurate sub-
+divisions of the beat, such as example 4.5 (from the Brahms Clarinet
+Sonata op. 120, no. 2, measures 9-11).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+As stated above, MWER 1 requires that each attack point in this passage
+be associated with a beat on the smallest level. MWER 4 requires that this
+smallest level of beats must be equally spaced. Thus the smallest beat
+level must be spaced at the least common denominator of all the different
+subdivisions—in this case 1/60 of the quarter note, an absurdly small
+time interval.
+
+These mechanical difficulties in the formal notation reflect a more basic
+metrical intuition that the rules as stated fail to express. The metrical
+structures described by MWERs 1-4 treat each metrical level, from small-
+est to largest, as though it is as salient as every other. Yet metrical in-
+tuitions about music clearly include at least one specially designated
+metrical level, which we are calling the tactus. This is the level of beats
+that is conducted and with which one most naturally coordinates foot-
+tapping and dance steps. When one wonders whether to “feel” a piece
+“in 4” or “in 2,” the issue is which metrical level is the tactus. In short,
+the tactus is a perceptually prominent level of metrical structure that the
+rules so far fail to designate as in any way special.
+
+We can incorporate this notion into the formal theory by designating a
+particular level in a metrical structure as the tactus. The tactus is required
+to be continuous throughout the piece, but levels smaller than the tactus
+are permitted to drop out when unnecessary. Normally, two or three
+metrical levels larger than the tactus are continuous as well, extending to
+whatis usually notated as the measure level; regular metrical units of two
+and four measures are not uncommon. Example 4.6 illustrates the con-
+ception of metrical structure that arises from incorporating this notion of
+tactus. The tactus is either the eighth-note or the dotted quarter-note
+level; the sixteenth-note level appears only where an eighth-note level
+beat is subdivided in the surface.
+
+Metrical Structure
+

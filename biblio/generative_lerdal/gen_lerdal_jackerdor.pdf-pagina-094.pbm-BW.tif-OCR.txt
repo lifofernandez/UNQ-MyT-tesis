@@ -1,0 +1,50 @@
+90
+
+ 
+
+What really influences the metrical structure is the stability of the bass
+within the harmonic context: the lower bass is favored, but not at the
+expense of choosing an inversion (especially a 5 chord) over root position.
+These principles of bass stability play a role in determining the time-span
+reduction, and it would miss a generalization to repeat them in the metri-
+cal rules, Rather, the appropriate account seems to be a metrical prefer-
+ence rule that takes into account the interaction with the time-span
+reduction.
+
+The preference rules for time-span reduction are concerned with the
+relative structural importance of events (see chapters 6 and 7). Broadly
+speaking, the factors involved are pitch stability, metrical stability, and
+articulation of groups. It often happens that pitch considerations and
+metrical considerations are at odds, for example in a suspension. In such
+a case the choice of time-span reduction is conflicted, with the result that
+the reduction is less stable at that point than it would be if all the factors
+were reinforcing.
+
+Now consider the G Minor Symphony. If the higher bass note were
+chosen as the strong beat at the whole-note level, the rules of time-span
+reduction would encounter a conflict between metrical and pitch consid-
+erations, since the more stable pitch-event (the low G) would fall in the
+weaker metrical position. On the other hand, if the low G is chosen as the
+strong beat, metrical and pitch considerations reinforce each other, re-
+sulting in a more stable time-span reduction. Similarly, in 4.39 the C in
+the bass is far more stable than the G in terms of pitch, since it forms a
+root-position chord and the G forms a %; hence the least conflicted time-
+span reduction results from a metrical analysis with the C on a stronger
+beat. These considerations suggest the following preference rule:
+
+MPR 9 (Time-Span Interaction) Prefer a metrical analysis that mini-
+mizes conflict in the time-span reduction.7
+
+A More Difficult Example
+
+Example 4.40 is the opening of the finale of the Haydn Quartet op. 76,
+no. 6. The smallest metrical level is of course supplied by the metrical
+well-formedness rules; we will show how the next two levels are derived
+by the metrical preference rules. As usual, the example is presented with-
+out bars and beams. The dashed vertical lines are added as a visual aid.
+
+The first half of the passage is characterized by tremendous metrical
+ambiguity. The reader is invited to demonstrate to himself how many
+
+Chapter 4
+

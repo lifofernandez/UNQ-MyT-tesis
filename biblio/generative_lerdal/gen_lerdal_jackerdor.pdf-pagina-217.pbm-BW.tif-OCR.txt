@@ -1,0 +1,58 @@
+92.2
+Prolongational
+Reduction
+Well-Formedness
+Rules
+
+213
+
+Prolongational Hypothesis 1 raises a crucial question: how are the
+hierarchical regions in a piece defined? For example, how does one arrive
+at the difference in the regions appropriate to the hearing of 9.1a and
+9.1b? In effect, this was the question asked in section 5.4, where we
+demonstrated the impossibility of reducing a piece on the basis of the
+surface sequence of pitch-events alone. As suggested in section 8.2, the
+answer we propose can be stated as the following hypothesis:
+
+Prolongational Hypothesis 2 The choice of events that define prolonga-
+tional regions is strongly influenced by the relative importance of events
+in the time-span reduction.
+
+Prolongational Hypothesis 1 claims that it is possible to build a tree
+structure; it thus enters into the formulation of the prolongational reduc-
+tion well-formedness rules, to be stated in the next section. Prolonga-
+tional Hypothesis 2, on the other hand, deals with the question of which
+of the many possible tree structures assigned to a piece by the well-
+formedness rules represents one's actual hearing. It claims that the major
+axes of tension and relaxation tend to be those events that are most
+important in articulating grouping structure. This hypothesis, with a
+number of refinements, will be incorporated into the prolongational re-
+duction preference rules, to be developed in section 9.4.
+
+To define prolongational tree structures over pieces, we need four rules.
+First, the tree must contain a single most important event, the head.
+Second, there must be specified ways for events to elaborate other events.
+Ás discussed in section 8.1, these are strong prolongation, weak prolon-
+gation, and progression. Third, every event in the piece must be attached
+to the tree. Fourth, branches must not cross. It is the latter two conditions
+that embody Prolongational Hypothesis 1, guaranteeing the hierarchical
+embedding of prolongational regions.
+
+For precision, We must state over What string of pitch-events the pro-
+longational reduction is defined. If it is defined over the musical surface,
+we will be unable to supply two separate functions to those events con-
+tained in a grouping overlap. This suggests that the prolongational reduc-
+tion, like the time-span reduction, should be defined over underlying
+grouping structure. A further refinement would take account of the extra
+events present in the time-span reduction that are created by fusion and
+transformation, since they too have functions in the prolongational re-
+duction. However, we leave their incorporation into this component for
+future research and assume for the moment that the underlying grouping
+structure provides the correct string of events from which to construct the
+prolongational reduction.
+
+To facilitate formal treatment of the prolongational tree, we introduce
+the following definitions:
+
+Formalization of Prolongational Reduction
+

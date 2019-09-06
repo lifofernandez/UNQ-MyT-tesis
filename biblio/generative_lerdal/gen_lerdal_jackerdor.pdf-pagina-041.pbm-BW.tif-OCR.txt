@@ -1,0 +1,57 @@
+3.1
+
+Grouping
+Well-Formedness
+Rules
+
+37
+
+presented in section 3.1. Grouping preference rules (GPRs) establish
+which of the formally possible structures that can be assigned to a piece
+correspond to the listener's actual intuitions; these are developed in sec-
+tions 3.2 and 3.3. Section 3.4 deals with grouping overlap. Section 3.5
+briefly addresses some questions of musical performance. Section 3.6
+presents two additional analyses.
+
+Before beginning to discuss the grammar of grouping structure, we
+must enter an important caveat. At the present stage of development of
+the theory, we are treating all music as essentially homophonic; that is,
+we assume that a single grouping analysis suffices for all voices of a piece.
+For the more contrapuntal varieties of tonal music, where this condition
+does not obtain, our theory is inadequate. We consider an extension of
+the theory to account for polyphonic music to be of great importance.
+However, we will not attempt to treat such music here except by
+approximation.
+
+This section defines the formal notion group by stating the conditions
+that all possible grouping structures must satisfy. In effect these condi-
+tions define a strict, nonoverlapping, recursive hierarchy in the sense
+discussed in section 2.1. As a sample of the notation, 3.1 repeats the
+grouping for the first few bars of melody in the Mozart G Minor Sym-
+phony, K. 550.1
+
+31
+
+ 
+
+ 
+
+The first rule defines the basic notion of a group.
+
+GWER 1 Any contiguous seguence of pitch-events, drum beats, or the
+like can constitute a group, and only contiguous sequences can constitute
+a group.
+
+GWER 1 permits all groups of the sort designated in 3.1, and prevents
+certain configurations from being designated as groups. For example, it
+prevents all the eighth notes in 3.1 from being designated together as a
+group, or the first six occurrences of the pitch D. (The contiguity condi-
+tion is what makes the slur notation a viable representation of grouping
+intuitions; if there could be discontinuous groups some other notation
+would have to be devised.)
+
+The second rule expresses the intuition that a piece is heard as a whole
+rather than merely as a sequence of events.
+
+Grouping Structure
+

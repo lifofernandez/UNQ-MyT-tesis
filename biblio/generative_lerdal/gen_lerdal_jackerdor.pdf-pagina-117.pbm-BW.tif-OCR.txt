@@ -1,0 +1,55 @@
+113
+
+pitch-event being an elaboration of another pitch-event; the latter is the
+structurally more important event of the two. Thus a suspension is an
+elaboration of its resolution, the events en route in a phrase are elabora-
+tions of either the phrase's structural beginning or its cadence (as the case
+may be), and so forth.
+
+In these musical cases the event thatis elaborated is retained along with
+the event(s) that elaborate it; the structural beginning and the cadence of
+a phrase do not disappear or convert into something else in the course of
+fleshing out the phrase as a whole. In language, by contrast, grammatical
+categories are not retained in the tree structure from level to level, but
+break down into other categories; a verb phrase may break down into a
+verb plus a noun phrase, which in turn may break down into an article
+plus a noun, and so on. A mere transference of linguistic trees into their
+musical counterpart would be misguided from the start.*
+
+With these considerations in mind, we will develop purely musical
+trees, having nothing to do with linguistic trees except that both express
+hierarchical structures with precision. There is nothing esoteric about
+this—the organization of a corporate bureaucracy might best be rep-
+resented by a tree diagram; it is just a notation.
+
+Given two pitch-events x and y, if y is an elaboration of x (see figure
+5.6a), then its “branch” attaches to the branch of x, which continues
+upward (presumably to attach to the branch of another event of which it
+in turn is an elaboration); the converse can be said if x is an elaboration
+of y (5.6b). The first case (5.6a) is called a “right branch,” and signifies
+the subordination of an event to a preceding event; the second case (5.6b)
+is called a “left branch,” and signifies the subordination of an event to a
+succeeding event. (Sometimes, for purposes of discussion, it is useful to
+indicate simply that the branches of two events attach, without any con-
+cern for which dominates the other. In such cases we just connect their
+branches neutrally, as in 5.6c.)
+
+5.6
+a b c
+
+y sa x sa
+
+right-branchung 1eft-brancheng A
+x y Elaboration , f % y elaboration fy x y
+
+In accordance with the Strong Reduction Hypothesis, these branching
+structures must meet the well-formedness conditions of strict hierarchical
+structure. Thus the trees must satisfy the requirements of nonoverlap-
+ping, adjacency, and recursion, just as did the grouping and metrical
+structures (see sections 2.1 and 2.2). We will illustrate with a sequence of
+four arbitrary pitch-events (figure 5.7). The principle of nonoverlapping
+prohibits the crossing of branches (5.7a, 5.7b). It also disallows the as-
+signment of more than one branch to the same event (5.7c), since that
+
+Reductions
+

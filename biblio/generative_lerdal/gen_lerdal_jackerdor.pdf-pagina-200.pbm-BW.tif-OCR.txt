@@ -1,0 +1,35 @@
+8.25
+
+196
+
+complex then repeats itself. In 8.23e the ii is in parentheses because it
+does not appear in Op. 109. This weakens the sense of closure. It also
+creates a balance among pairs of events: as the partial branchings in 8.24
+show, the first two pairs of events form right branchings, the second two
+pairs left branchings. This symmetry cuts across the larger-level asym-
+metry of tonic prolongation (six events) plus cadence (two events).
+
+8.24
+
+ 
+
+Local versus Global Hearing
+
+A significant aspect of prolongational branching emerges if one of these
+phrasal analyses is considered within a more global context. To illustrate,
+let us suppose that 8.23b is the consequent phrase of an interrupted and
+completed antecedent-consequent period (8.25).
+
+ 
+
+If the two phrases are analyzed separately (8.25a), the antecedent shows
+an overall tensing to the half-cadential V and the consequent repeats the
+self-contained structure of 8.23b. In the context of the entire period,
+however, the consequent must be analyzed differently: the opening I of
+the consequent is heard as a prolongational repetition of the initial I of
+the antecedent, and the cadence of the consequent is heard as resolving
+the period as a whole (8.25b). When the intervening events in the conse-
+quent are assigned branches, as in 8.25c, their subordination remains the
+
+Chapter 8
+

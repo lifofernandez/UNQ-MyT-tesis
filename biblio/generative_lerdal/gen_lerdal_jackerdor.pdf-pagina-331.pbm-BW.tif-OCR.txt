@@ -1,0 +1,52 @@
+327
+
+the events within it: fusion, in which the head represents the simultane-
+ous sounding of two or more events from the time-span; transformation,
+in which the head is a composite of the events in the time-span; and
+cadential retention, in which two successive events forming a cadence are
+both retained. Prosodic theory has no equivalent for these three addi-
+tional relationships. Thus, if it were desirable to adopt a uniform nota-
+tion for the two theories, time-span notation would be more appropriate;
+phonological theory would merely adopt the restrictive form with only
+ordinary branching. On the other hand, Morris Halle has informed us
+(personal communication) that recent developments suggest the possibil-
+ity of other relationships in phonology not shared by music. In other
+words, phonology and music might share a common core of hierarchical
+structure but diverge in various specifics.
+
+A second formal difference between the two theories concerns the
+plurality of branching. In time-span theory, most of the branching we
+have discussed has been binary; each time-span above the smallest level
+contains two time-spans of the next smaller level. However, in a triple
+meter (such as the 6/8 of Mozart K. 331), ternary branching appears at a
+certain subgroup level. Itis also not inconceivable for a group to contain
+three or more smaller groups: for example, in strophic songs and varia-
+tion forms, the largest segmentation of the piece is often into as many
+groups as there are verses or variations.
+
+On the other hand, prosodic theory has been formulated in terms of
+strictly binary branching. Where a foot, for example, contains more than
+two syllables, the segmentation and the resulting tree are constructed
+using recursive binary branching, as in 12.22a, rather than multiple
+branching, as in 12.22b. Is this a real difference berween language and
+Music, oris it just a consequence of the way the two theories happen to be
+stated?
+
+12.22
+
+rather than =
+
+a
+S w
+AW
+A rather than =
+5 w =
+AN
+
+m
+2
+
+S w w w
+
+Psychological and Linguistic Connections
+

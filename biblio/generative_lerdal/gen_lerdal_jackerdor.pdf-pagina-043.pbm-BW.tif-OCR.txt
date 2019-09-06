@@ -1,0 +1,46 @@
+3.2
+
+Perceptual
+Motivation for
+
+the Preference Rule
+Formalism
+
+39
+
+These five well-formedness rules define a class of grouping structures
+that can be associated with a sequence of pitch-events, but which are not
+specified in any direct way by the physical signal (as pitches and dura-
+tions are). Thus, to the extent that grouping structures truly correspond
+to a listener's intuitions, they represent part of what the listener brings to
+the perception of music. This will become clearer as we discuss the pref-
+erence rules in the next two sections.
+
+Although the GWFRs rule out as ill-formed certain possible groupings
+such as 3.2 and 3.3, they do not preclude the assignment of grouping
+structures such as those in 3.5 to the opening of the Mozart G Minor
+Symphony.
+
+3.5
+
+ 
+
+Though these groupings conform to GWERs 1--5, they do not, we trust,
+correspond to anyone's intuition of the actual grouping of this passage.
+One might conceivably attempt to deal with this problem by refining the
+well-formedness and transformational rules, but in practice we have
+found such an approach counterproductive. A different type of rule turns
+out to be more appropriate. We will call this type of rule a preference
+rule, for reasons that will soon be obvious.
+
+To begin to motivate this second rule type, we observe that nothing in
+the GWFRs stated in the previous section refers to the actual content of
+the music; these rules describe only formal, not substantive, conditions
+on grouping configurations. To distinguish 3.1 from 3.5 it is necessary to
+appeal to conditions that refer to the music under analysis. In working
+out these conditions we find that a number of different factors within the
+music affect perceived grouping, and that these factors may either rein-
+force each other or conflict. When they reinforce each other, strong
+
+Grouping Structure
+

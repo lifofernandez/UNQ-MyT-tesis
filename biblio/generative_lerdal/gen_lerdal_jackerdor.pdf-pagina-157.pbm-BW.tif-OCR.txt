@@ -1,0 +1,50 @@
+153
+
+TSRWER 2 If T does not contain any other time-spans (thatis, if Tis at
+the smallest level of time-spans), e is whatever event occurs in T.
+
+TSRWER 3 If T contains other time-spans, let T;,...,T, be the (regular or
+augmented) time-spans immediately contained in T, and let e,,...,e, be
+their respective heads. Then the head of T is one of the events e,,...,en.
+
+Observe how the Strong Reduction Hypothesis is incorporated into
+these rules. First, the segmentation rules guarantee that a piece is ex-
+haustively segmented into time-spans, arranged hierarchically from the
+smallest metrical level up to the level of grouping encompassing the entire
+piece. Second, each time-span has a head, chosen from the heads of those
+time-spans it immediately contains. This method of choice guarantees
+that each level of reduction can be constructed from the next smaller level
+and does not have to refer to events eliminated at earlier stages of reduc-
+tion. Hence these rules create a class of unified hierarchical structures for
+the entire piece.
+
+The rules just stated deal only with cases of reduction in which the
+head of a time-span is a single event chosen from among the events in that
+time-span. Let us call this situation ordinary reduction. Though the ma-
+jority of situations produce ordinary reduction, three other sorts of heads
+can also appear, resulting from reductional processes which we will call
+fusion, transformation, and cadential retention. We take them up in turn,
+before incorporating them into a final statement of the well-formedness
+rules later in this section.
+
+Fusion
+This process can be exemplified by 7.10, a passage from the prelude of
+the first Bach Cello Suite.
+
+7.10
+
+ 
+
+A reduction at the eighth-note level should obviously show the existence
+of the rising line, but it should also reflect awareness of the pedal D.
+Similarly, in an Alberti bass, the reduction should represent the fact that
+one hears a single chord spread out over a time-span. If the rules for
+selecting the head of a time-span were to allow only the selection of a
+single event in a time-span, we would not be able to represent such
+intuitions in a time-span reduction. Accordingly we will introduce an-
+other possible relation between the head of a time-span and the events
+within it: the head may be the fusion of the events into a single event; or,
+conversely, the surface events may be an arpeggiation of the head.
+
+Formalization of Time-Span Reduction
+

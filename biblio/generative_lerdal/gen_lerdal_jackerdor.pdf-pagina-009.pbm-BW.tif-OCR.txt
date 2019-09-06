@@ -1,0 +1,54 @@
+1.2
+The Connection
+with Linguistics
+
+formal criteria common to any theoretical enterprise, requiring internal
+coherence and simplicity of the formal model relative to the complexity
+of the phenomena it accounts for. In short, we conceive of our theory as
+being in principle testable by usual scientific standards; that is, subject to
+verification or falsification on various sorts of empirical grounds.*
+
+In advocating these goals for inquiry about music, we are adopting a
+stance analogous to that taken in the study of language by the school of
+generative-transformational grammar, most widely known through the
+work of Noam Chomsky (see for example Chomsky 1965, 1968, 1975).5
+This approach has resulted in a depth of understanding about the nature
+of language unparalleled in previous approaches. Inasmuch as it has
+caused questions to be asked about language that could not even be
+imagined before, it has also revealed the extent of our ignorance; this too
+is progress.
+
+Generative linguistic theory is an attempt to characterize what a
+human being knows when he knows how to speak a language, enabling
+him to understand and create an indefinitely large number of sentences,
+most of which he has never heard before. This knowledge is not on the
+whole available to conscious introspection and hence cannot have been
+acquired by direct instruction. Linguistic theory models this unconscious
+knowledge by a formal system of principles or rules called a grammar,
+which describes (or “generates”) the possible sentences of the language.
+
+Because many people have thought of using generative linguistics as a
+model for music theory, it is worth pointing out what we take to be the
+significant parallel: the combination of psychological concerns and the
+formal nature of the theory. Formalism alone is to us uninteresting except
+insofar as it serves to express musically or psychologically interesting
+generalizations and to make empirical issues more precise. We have de-
+signed our formalism with these goals in mind, avoiding unwarranted
+overformalization.$
+
+Many previous applications of linguistic methodology to music have
+foundered because they attempt a literal translation of some aspect of
+linguistic theory into musical terms— for instance, by looking for musical
+“parts of speech,” deep structures, transformations, or semantics. But
+pointing out superficial analogies berween music and language, with or
+without the help of generative grammar, is an old and largely futile game.
+One should not approach music with any preconceptions that the sub-
+stance of music theory will look at all like linguistic theory. For example,
+whatever music may “mean,” it is in no sense comparable to linguistic
+meaning; there are no musical phenomena comparable to sense and ref-
+erence in language, or to such semantic judgments as synonymy, analytic-
+ity, and entailment. Likewise there are no substantive parallels berween
+elements of musical structure and such syntactic categories as noun, verb,
+
+Theoretical Perspective
+

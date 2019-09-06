@@ -1,0 +1,58 @@
+2.4
+
+The Relation of
+Structural Accent
+to Grouping and
+Meter
+
+30
+
+2.17 (cont.)
+b
+—
+
+— — ————;i—]]Ñ]]
+—————]—— — .—]]]
+
+In such cases we can speak of the grouping and metrical structures as in
+phase. An example is the Beethoven scherzo in 2.15. However, if a group
+begins on a beat weaker than the strongest beat in the group (thatiis, ¡f it
+begins on an upbeat), then the grouping and metrical structures are out
+of phase—that is, the grouping boundaries cut across the periodicity of
+the metrical grid, as in 2.17b.
+
+Grouping and meter can be in or out of phase in varying degrees. To
+clarify this point, we define anacrusis as the span from the beginning of a
+group to the strongest beat in the group. (The term upbeat will not do
+here, since beats do not have duration; an anacrusis can include many
+upbeats at various levels.) If the anacrusis is brief, as in the Haydn minuet
+(2.12), grouping and meter are only slightly out of phase. On the other
+hand, if the anacrusis takes up a major portion of the relevant group, as
+in the theme of the G Minor Symphony (2.14), grouping and meter are
+acutely out of phase. Acutely out-of-phase passages are more compli-
+cated for the listener to process because the recurrent patterns in the two
+components conflict rather than reinforce one another. Generally, the
+degree to which grouping and meter are in or out of phase is a highly
+important rhythmic feature of a musical passage.
+
+Unlike metrical structure, pitch structure is a powerful organizing force
+at global levels of musical structure. The launching of a section, the
+return of a tonal region, or the articulation of a cadence can all have
+large-scale reverberations. Pitch-events functioning at such levels cause
+“structural accents” because they are the pillars of tonal organization, its
+“points of gravity.” In Cone's simile (1968, pp. 26-27), a ball is thrown,
+soars through the air, and is caught; likewise, events causing structural
+accents initiate and terminate arcs of tonal motion. The initiating event
+can be called a structural beginning, and the terminating event a struc-
+tural ending or cadence. (Chapter 6 will show how these events emerge
+from time-span reduction.)
+
+The relation of structural accent to grouping is easily disposed of:
+Structural accents articulate the boundaries of groups at the phrase level
+and all larger grouping levels. To be sure, a structural beginning may
+occur shortly after the onset of a group, especially if there is an anacrusis;
+more rarely, an extension after a cadence may cause a group to stretch
+beyond the cadence proper. In general, however, these events form an arc
+
+Chapter 2
+

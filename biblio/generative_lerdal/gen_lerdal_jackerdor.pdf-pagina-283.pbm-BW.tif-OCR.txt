@@ -1,0 +1,54 @@
+279
+
+the idiom simply do not give the rule opportunities to apply. An analo-
+gous situation can be found in the visual arts: one would not claim,
+because a particular artistic idiom made use only of black and white,
+that the intended viewers could not make use of principles of color
+perception.
+
+A second kind of apparent counterexample might involve an idiom like
+jazz in which cross-accents and syncopation are a prominent characteris-
+tic. One might be tempted to claim that in such an idiom an accent or a
+stress is indeed a mark of a weak beat, violating the putative universal.
+However, closer examination suggests that such a solution would be
+incorrect. The stylistic norm is not simply stresses on weak beats; it
+consists rather of a number of strategies aimed at increasing local metri-
+cal tension. The normal preference rules do not fail to apply; in fact they
+are exploited as a means of creating the desired metrical tension, which
+results from a conflict among rules. In short, the mere fact that a particu-
+lar idom makes particular stylistic choices cannot itself contradict a
+claim of universality for a rule; these choices may simply reflect the way
+the idiom uses the interaction of universal rules to create interesting
+musical structures.
+
+A case can be made for genuine idiom-specificity of rules, however, ¡f
+there are two idioms for which similar aspects of the musical surface give
+rise to distinct kinds of musical structure. Two obvious examples are the
+rules for pitch stability and the metrical well-formedness rules. In the
+former case there is no question that particular pitch configurations are
+treated as consonant by one idiom and dissonant by another (see section
+11.5). In the latter case an idiom that permits metrical regularities, say, at
+a distance of seven beats (such as much Balkan folk music) will analyze as
+metrically stable a passage that in classical Western tonal music would be
+complex and irregular. Thus it is not hard to make a case for some
+aspects of musical grammar being idiom-specific.
+
+However, the idiom-specific features of the grammar we have devel-
+oped seem to be considerably fewer than one might at first surmise.!
+Though this may in part be a function of our own ignorance of other
+idioms, we have shown why a superficial examination of another idiom
+will not necessarily disprove our conjectures. To invalidate our claims, it
+is necessary to demonstrate that our principles of grammar cannot be
+applied to the idiom to yield analyses that correspond to the intuitions of
+experienced listeners. This is a task of no less complexity in other idioms
+than in classical Western tonal music. In short, a genuine test of our
+claims of universality would appear to require serious historical and
+ethnomusicological research.
+
+Investigation of other idioms may be expected to yield a further ben-
+efit. We have just noted that not all idioms make use of accentual distinc-
+tions to which the metrical preference rules are sensitive. Similarly, many
+idioms do not make use of pitch simultaneities (harmony), so that they do
+
+Musical Universals and Related Issues
+

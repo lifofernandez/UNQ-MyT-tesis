@@ -1,0 +1,49 @@
+242
+
+v Y lI
+S 23 4
+incorrect
+
+l N YI l1 VY WYI l1 YY MWYI
+1 18 234 1 8 9 172344 1 839 18% 23 4
+correct correct incorrect
+
+of the dominant. Here a prolongation to the dominant of the final ca-
+dence would be impossible; the relative major is heard as a departure
+from the initial tonic. One does not hear any great structural difference
+between the two alternatives, and in fact in the cello suites in minor keys
+Bach sometimes chooses the dominant minor and sometimes the relative
+major. Thus, for generality, 9.28a cannot be the correct structure for this
+piece.
+
+The PRPRs create a different tree. Within the basic form, derived from
+level b of the time-span reduction, the most stable prolongational con-
+nection possible in the next two time-span levels is that between the IV
+chord in level d and the V of the final cadence; a weak left prolongation
+to the V in measure 8 or 9 would be considerably weaker. The Interac-
+tion Principle thus selects the IV as the next event added to the basic
+form, as shown in 9.28b.
+
+Between the initial I and the IV, the dominants surrounding the double
+bar are most time-span-important. They do not form a strong prolonga-
+tional connection to the following TV, but can be attached as a departure
+from the initial I. What is the correct way to do this? Two possibilities
+appear in 9.28c,d: in 9.28c the end of the first section is superordinate
+and the beginning of the second section is its elaboration; in 9.28d the
+reverse is the case.
+
+Intuitively, 9.28c appears to be the correct choice. The end of the first
+section is a definite point of harmonic arrival, more important to the
+piece's progress than the beginning of the second section. This is clearer if
+we compare with structurally parallel pieces such as the sarabande of the
+C Minor Cello Suite. Here the first section ends on III, and the second
+section begins immediately with III?, already a departure from the point
+of stability. Again under the assumption that at large levels of structure
+many examples of this genre are structurally parallel, this comparison
+leads us to conclude that 9.28c is the correct structure for 9.27.
+
+The preference rules favor this result. If the V in measure 9 is chosen
+first, as in 9.28d, the V in measure 8 must be attached as a relatively
+
+Chapter 9
+

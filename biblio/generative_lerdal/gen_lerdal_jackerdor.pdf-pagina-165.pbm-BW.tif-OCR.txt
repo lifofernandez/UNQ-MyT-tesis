@@ -1,0 +1,82 @@
+161
+
+points of stability defined through the diatonic collection and relative and
+parallel major-minor relationships. (See sections 9.4 and 11.5 for further
+discussion.)
+
+These two measures of relative stability interact in what is by now the
+expected fashion. For example, a root-position V chord is intrinsically
+more stable than a I5, but the latter is closer to the tonic. Hence a choice
+between these two is less highly determined than a choice between, say, a
+T anda VS, where the two kinds of stability reinforce each other. The
+preference rule can therefore be stated as follows:
+
+TSRPR 2 (Local Harmony) Of the possible choices for head of a time-
+span T, prefer a choice that is
+
+a. relatively intrinsically consonant,
+
+b. relatively closely related to the local tonic.
+
+Example 7.17, the opening of “O Haupt,” illustrates TSRPR 2 in some
+detail. In the stages of reduction given, TSRPR 1 is consistently overruled.
+In the first half of measure 1, the IV and the I are approximately in
+balance with respect to the factors of TSRPR 2, but voice-leading consid-
+erations favor the I5, In the augmented time-span, the anacrusis I is
+
+717
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+J reduction
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+d reduction
+
+ 
+
+ 
+
+ 
+
+Formalizarion of Time-Span Reduction
+

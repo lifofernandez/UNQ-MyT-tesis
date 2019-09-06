@@ -1,0 +1,54 @@
+298
+
+and since more abstract forms of parallelism intimately involve reduc-
+tional and metrical considerations, the evidence on which to base group-
+ing judgments is predominantly that of local detail (GPRs 1-3). As a
+consequence, little multileveled global grouping can be constructed be-
+yond the most obvious textural divisions. And if local detail results in
+irregular group lengths, metrical structure is further weakened through
+the influence of grouping parallelism on meter (MPR 1). Some varieties of
+contemporary music even cloud evidence for local grouping judgments.
+
+In sum, to the degree that the applicability of these various aspects of
+musical grammar is attenuated, the listener will infer less hierarchical
+structure from the musical surface. As a result, nonhierarchical aspects of
+musical perception (such as timbre and dynamics) tend to play a greater,
+compensatory role in musical organization. But this is not compensation
+in kind; the relative absence of hierarchical dimensions tends to result in
+a kind of music perceived very locally, often as a sequence of gestures and
+associations. Its complexity often resides in the extreme refinement of
+individual nuances. Alternatively, many composers take recourse in con-
+structing very complicated musical surfaces in terms of the sheer number
+and variety of events per unit of time. This too is by way of compensation
+for the lack of sufficient hierarchical organization, but is not a replace-
+ment for it.
+
+All of this discussion presupposes that the listener uses the principles of
+musical cognition set forth in our theory for structuring his perception of
+such music. One might alternatively suppose that he is using different
+principles. What might these principles be? One possibility -is that he
+is somehow capable of inferring the organization that the composer,
+through his compositional method, has consciously built into the piece.
+For example, a composer might use statistical principles of molecular
+motion to determine compositional choices. We find it unlikely that the
+listener can hear according to such radically different principles.$
+
+A more plausible case might be made for serialism in pitch organiza-
+tion as a possible principle of musical cognition. Let us see what this
+would entail. First of all, serialism is a permutational system, in which the
+function of each pitch is determined by its position within the complete
+set (usually a twelve-tone row). This means that local elaboration of a
+particular pitch is not an available option within the compositional tech-
+nique in any direct way. Such ornamentation could be devised by adding
+further principles to the system, but they would not be intrinsic to
+serialism as such.
+
+To be sure, serialism does provide means for elaborating structure, in
+the form of basic operations on the set such as transposition, inversion,
+and retrograde. These are global operations on the set as a whole, and as
+such are transformational (in the technical sense) rather than phrase-
+structure-like, as our trees are. Hence these operations provide only a set
+of relationships among different occurrences of the set or portions of it;
+
+Chapter 11
+

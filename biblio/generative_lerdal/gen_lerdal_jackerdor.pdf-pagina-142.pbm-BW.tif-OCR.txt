@@ -1,0 +1,48 @@
+6.4
+Details of
+Cadential
+Reduction
+
+138
+
+The tree in 6.16 still simplifies the cadential structure for two-membered
+cadences. Although they function as a unit, they also comprise two
+events, each of which must receive its own branch in accordance with the
+Reduction Hypothesis. In the full cadence, because the 1 is next to the
+grouping boundary and is more stable than the V, the V must be subordi-
+nate to the I. The deceptive cadence, being a deviation merely in bass
+motion from the full cadence, receives the same structure (see sections 7.2
+and 9.4 for further discussion).
+
+The internal analysis of a two-membered cadence must violate normal
+principles of time-span branching. In retaining a feminine cadence, two
+branches instead of one are retained within one bracket (6.18a). In re-
+taining a masculine cadence, the V attaches to the ensuing I instead of
+being compared with another event x in its own bracket (6.18b). These
+exceptions are necessary if the V is to function at larger reductional
+levels.
+
+6.18
+a
+
+ 
+
+The treatment of events subordinate to a two-membered cadence must
+also be special. Sometimes a local detail is subordinate to just one mem-
+ber of the cadence. In 6.19a, for example, the $ elaborates only the V; in
+6.19b the appoggiatura elaborates only the I. At somewhat larger levels,
+however, where the cadence has been labeled as a unit, an event may be
+subordinate not to one element of the cadence but to the cadence as a
+whole. We represent this situation by attaching the subordinate branch to
+both cadential branches with an egglike shape, as in 6.19c. Atstill larger
+levels, the cadence may be subordinate to a b; in this case the V attaches
+to the I and the I to the dominating », as in 6.19d. Example 6.19%e
+combines 6.19a—6.19d into one hypothetical tree.
+
+With these considerations in mind, we convert 6.16 into 6.20, this time
+with actual chords indicated for each b and c. This is in fact the time-
+span analysis for the structural accents of the entire 18-bar variation
+theme of Mozart's K. 331.
+
+Chapter 6
+

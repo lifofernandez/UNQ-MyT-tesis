@@ -1,0 +1,62 @@
+Prolongational
+Reduction
+
+351
+
+PRWER 1 (p. 214)
+There is a single event in the underlying grouping structure of every piece
+that functions as prolongational head.
+
+PRWER 2 (p. 214)
+
+An event e; can be a direct elaboration of another event e; in any of the
+
+following ways:
+
+a. e, is a strong prolongation of e; if the roots, bass notes, and melodic
+notes of the two events are identical.*
+
+b. e; is a weak prolongation of e; if the roots of the two events are
+identical but the bass and/or melodic notes differ.*
+
+c. e, is a progression to or from e; if the harmonic roots of the two events
+are different.*
+
+PRWER 3 (p. 214)
+Every event in the underlying grouping structure is either the prolonga-
+tional head or a recursive elaboration of the prolongational head.
+
+PRWER 4 (No Crossing Branches) (p. 215)
+
+If an event e;is a direct elaboration of an event e;, every event between e;
+and e; must be a direct elaboration of either e;, e;, or some event berween
+them.
+
+PRER 1 (Time-Span Importance) (p. 220)
+
+In choosing the prolongationally most important event ey of a prolonga-
+tional region (e;—e;), strongly prefer a choice in which e, is relatively
+time-span-important.
+
+PRER 2 (Time-Span Segmentation) (p. 221)
+
+Let ex be the prolongationally most important event in a prolongational
+region (e;—e). If there is a time-span that contains e; and e but not e;,
+prefer a prolongational reduction in which ey is an elaboration of e;;
+similarly with the roles of e; and e; reversed.
+
+PRPR 3 (Prolongational Connection) (p. 224)
+
+In choosing the prolongationally most important event e; in a prolonga-
+tional region (e;—e;), prefer an ex that attaches so as to form a maximally
+stable prolongational connection with one of the endpoints of the region.
+
+Stability Conditions for Prolongational Connection (p. 224)
+1. (Branching condition)
+a. Right strong prolongations are more stable than right weak prolon-
+gations, which in turn are more stable than right progressions.
+b. Left progressions are more stable than left weak prolongations,
+which in turn are more stable than left strong prolongations.
+
+Rule Index
+

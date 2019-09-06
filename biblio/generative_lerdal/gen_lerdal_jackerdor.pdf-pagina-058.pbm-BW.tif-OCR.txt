@@ -1,0 +1,54 @@
+54
+
+sufficient precision that their consequences, both for and against the
+theory, are as clear as we can make them.
+
+The second argument against the theory is more substantive. The rea-
+son that the rules fail to produce a definitive analysis is that we have not
+completely characterized what happens when two preference rules come
+into conflict. Sometimes the outcome is a vague or ambiguous intuition;
+sometimes one rule overrides the other, resulting in an unambiguous
+judgment anyway. We suggested above the possibility of quantifying rule
+strengths, so that the nature of a judgment in a conflicting situation could
+be determined numerically. A few remarks are in order here to justify our
+decision not to attempt such a refinement.
+
+First, as pointed out earlier, our main concerns in this study are iden-
+tifying the factors relevant to establishing musical intuition and learning
+how these factors interact to produce the richness of musical perception.
+To present a complex set of computations involving numerical values of
+rule applications would have burdened our exposition with too much
+detail not involving strictly musical or psychological issues.
+
+But our decision was not merely methodological. Reflection suggests
+that the assignment of numerical values to rule applications is not as
+simple a task as one might at first think. Winston (1970), in developing a
+computer program for certain aspects of visual pattern recognition, uti-
+lizes procedures not unlike preference rules. Because the computer must
+make a judgment, Winston puts numerical strengths on the rules and sets
+threshold values that rule applications must attain in order to achieve a
+positive judgment. Winston himself notices the artificiality of this solu-
+tion. For one thing, it allows only positive and negative judgments; not
+ambiguous or vague ones, which we showed necessary in section 3.2.
+Moreover, the choice of threshold values is to a certain extent arbitrary:
+should the threshold be, say, 68 or 72? A simple numerical solution of
+this sort provides an illusion of precision that is simply absent from the
+data.
+
+A more formidable conceptual problem lies in the need for the prefer-
+ence rules to balance local and global considerations. Although it is not
+hard to imagine numerically balancing the length of a rest against the size
+of an adjacent change in pitch, it is much more difficult to balance the
+strength of a parallelism against a break in a slur. Part of the difficulty
+lies in the present obscurity of the notion of parallelism, but part also lies
+in a lack of clarity about how to compare parallelism with anything else.
+Even worse is the difficulty of balancing intercomponent considerations
+such as those introduced by GPR 7, the rule of time-span and prolonga-
+tional stability. How much local instability in grouping, or loss of paral-
+lelism, is one to tolerate in order to produce more favorable results in the
+reductions? Evidently, if we are to quantify strength of rule application,
+nothing short of a global measure of stability over all aspects of the
+structural description will be satisfactory. Thus we feel that it would be
+
+Chapter 3
+

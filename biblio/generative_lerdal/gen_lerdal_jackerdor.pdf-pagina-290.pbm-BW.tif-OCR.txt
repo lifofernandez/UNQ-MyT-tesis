@@ -1,0 +1,62 @@
+11.4
+
+Motivic “Trans-
+formations,” *
+“Deep Structures,
+and Musical
+“Archetypes”
+
+286
+
+,
+
+Though we have made heavy use of motivic relationships in motivating
+and stating the preference rules of the theory, we have not addressed the
+important issue of how to formalize these relationships. Indeed, it may
+seem odd, given our linguistically oriented methodology, that we have
+not proposed a component of thematic and motivic “transformations” —
+after all, transformations are so central to linguistic theory (though see
+note 10 to chapter 1).
+
+To explain why we have avoided this approach, we must first point out
+that the word transformation does not normally mean the same thing in
+music as it does in linguistics. Its linguistic usage is adapted from
+mathematics and denotes the conversion of one syntactic construction
+into another, semantically related construction. Our usage has been
+similar, in that a transformational rule in our theory converts one musical
+structure into another structure that retains the “sense” of the former. In
+both cases, the number of transformations is finite. In musical parlance,
+however, transformation is used in a more general sense: it signifies any
+thematic, motivic, or other change in musical material such that the result
+of the transformation is recognized as a modification of the previous state
+of the material.
+
+This more generalized usage poses difficulties f it is to be treated in a
+systematic fashion. Let us put the problem in the following way: Given
+any two sets of pitches and durations, it is possible logically to “trans-
+form” one into the other, and to do so in any number of ways. Every
+musician has been confronted with analyses that relate musical materials
+indiscriminately. As recognized by Meyer (1973), the problem is to con-
+strain the admissible relations, to limit the permissible transformations.
+Presumably a theory that purports to describe the musical intuitions of
+the experienced listener should be able to treat this matter. It may in fact
+be possible to construct a system in which only certain musical ideas can
+be related only if certain transformations (in the general sense) take
+place; such a system would establish the relative proximity or distance of
+musical ideas. There are two reasons why we have skirted this area in
+favor of the four domains of analysis developed here, both alluded to in
+section 1.4.
+
+First, themes, motives, and other musical ideas (in the limited sense in
+which they are usually meant) are relatively local patterns that are sub-
+sumed under more generalized perceptions of rhythmic structure and
+pitch elaboration; that is, they are heard within the context of a metrical
+organization, a set of grouping boundaries, and the two hierarchies of
+pitch importance. If these ideas were developed compositionally without
+respect to context, the result would be largely chaotic; in the work of
+sophisticated composers, they often seem inextricably bound up with
+context. It would be pointless to discuss them without a theory of the
+structures in which they are embedded.*
+
+Chapter 11
+

@@ -1,0 +1,53 @@
+31
+
+of tonal motion over the duration of the group. The points of structural
+accent occur precisely at the attack points of the structural beginning and
+cadence; if the cadence has two members (as in a full cadence), the
+terminating structural accent takes place at the moment of resolution, the
+attack point of the second member of the cadence. Thus, even without a
+postcadential extension, there is a short time-span——the duration of the
+(second) cadential event— between the terminating structural accent and
+the end of the group. These remarks are summarized in figure 2.18, with
+b signifying “structural beginning” and c signifying “cadence.”
+
+2.18
+str. accent str. accent
+//”"' ( ere ef tonal motion ) —…_Nxx
+/, Xx
+(anacr:) Db... C Cy ....(ext.)
+s —— 7
+*______&—__—_—__¿'1//
+(_9raup)
+
+The relation of structural accent to meter requires lengthier discussion,
+because recently there have been several attempts to equate structural
+accents with strong metrical accents. We will argue against such a view
+and hold instead that the two are interactive accentual principles that
+sometimes coincide and sometimes do not.
+
+Before proceeding to the details, let us observe in passing that the
+proposed equation of structural and metrical accents would mean giving
+up the traditional distinction berween cadences that resolve at weak met-
+rical points and cadences that resolve at strong metrical points. Thus
+there would be no distinction between “feminine” and “masculine” ca-
+dences, or between metrically unaccented large-scale arrivals and large-
+scale structural downbeats. In our view this would be an unacceptable
+impoverishment of rhythmic intuition.
+
+Taking a closer view, we can schematize the issue as follows. Figure
+2.19 represents a normal 4-bar phrase (it could just as well be an 8-bar
+phrase), with the b (most likely a tonic chord in root position) at the left
+group boundary on the downbeat of the first bar and the c (either a half
+or a full cadence) on the downbeat of the fourth bar. For present pur-
+poses only two levels of metrical structure need to be indicated: the
+measure level and the 2-measure level. Typically, the downbeats of suc-
+cessive measures are in a regular alternation of strong and weak metrical
+accent. Thus either the downbeats of measures 1 and 3 or the downbeats
+of measures 2 and 4 are relatively strong. But since the structural accents
+occur on the downbeats of measures 1 and4, there is a conflict: either the
+c occurs at a relatively weak metrical point, as in hypothesis A, or the b
+occurs at a relatively weak metrical point, as in hypothesis B. The only
+way out of this apparent conundrum is to place strong beats both on bs
+
+Rhythmic Structure
+

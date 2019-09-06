@@ -1,0 +1,54 @@
+257
+
+at widely different reductional levels.? In measures 2-3 the line
+Ct-D-E-F appears in the bass (bracketed in 10.7.) The Ct of this
+line stems from the registrally isolated low C£ in measure 1. Only in
+retrospect does one become aware that this low C itself initiates a large-
+scale unfolding of the identical motive, so that its quick statement in
+measures 2-3 seems like a surface foreshadowing. This larger statement
+is indicated by the dashed arrows in the secondary notation in 10.7. At
+level », the low Cf is finally answered in its own register by the D in
+measure 21, with the large-scale arrival of the tonic. At this point the
+pace of the motive quickens, the D proceeding to E and F at level e
+(measures 21 and following). Surface motivic associations (the rising ar-
+peggio in measures 1—2, 21—22, and so on) reinforce these connections.
+
+Meanwhile, a version of the motive involving an augmented second
+has appeared at level f (E—-F-G$—A in measures 7—13). This fragment is
+then picked up, again at level f, in the lower register in the sequential
+passage following measure 21. Finally, the combined pattern extends,
+beyond the music shown in 10.7, by transposition (D-E—F-Gt-A to
+A—-B-—C-—D$—E) to the E pedal beginning in measure 41. The different
+rates at which this linear motive unfolds provide an important means for
+unifying the disparate tempi of this movement.
+
+The passage in 10.7 is instructive for another purpose as well: it is a
+good example of a structural anacrusis (measures 1—20) resolving on a
+structural downbeat (measure 21), as discussed in section 2.4. Note how
+the downbeat of measure 21 represents the convergence of three separate
+parameters: meter (a large-level beat), grouping (large-scale grouping
+boundaries, in this case strengthened by an overlap), and time-span re-
+duction (a large-scale harmonic arrival). Only where all three conditions
+are met simultaneously do we speak of a structural downbeat. Note also
+how the duration of the structural anacrusis, from measure 1 to the
+downbeat of measure 21, is indicated by the grouping analysis and level b
+of the reduction.
+
+One feature of the reduction itself deserves special comment: the
+choice of the opening V% as the head of the entire passage. One might
+instead select the tonic chord in measure 3, on grounds of pitch stability
+(TSRPR 2). This tonic, however, is heard within the context of a domi-
+nant prolongation (see measures 1—6 at level f); in other words, TSRPR 6
+overrrides TSRPR 2 here. Further supporting the V% are its low bass
+register (TSRPR 3) andits position in the larger grouping structure as a
+structural beginning (TSRPR 8). This latter factor also supports the choice
+of the opening V* over the tonic arrival in measure 21; but the really
+decisive factor in this case is parallelism (TSRPR 4), since any equivalent
+to measure 21 is omitred in the recapitulation (in large part because its
+motivic material is exhausted in the development section). (In order to
+optimally fulfill normative structure (PRPR 6), the prolongational reduc-
+tion would reverse the relative prominence of the V* in measure 1 and the
+i in measure 21,)
+
+Analyses
+

@@ -1,0 +1,56 @@
+5.2
+
+Possible Formal
+Approaches to
+Reduction
+
+111
+
+detail to the most long-range connection. Most likely, he will hear fairly
+accurately the details (except when his mind wanders) and the largest
+connections, but will be vague about some of the intervening relation-
+ships. A complete reduction of the Eroica is in this sense an idealization.
+
+A final remark on the need for reductions: The Gestalt psychologists,
+for example Koffka (1935), recognized transposition of a musical pas-
+sage as a way of changing a musical surface that preserves recognizabil-
+ity. They rook this as important evidence for a mental representation that
+involves not just a list of pitches, but an abstract representation in which
+relations among pitches are more important than the actual pitches them-
+selves. However, for whatever reasons, comparatively little seems to have
+been done within psychology to extend these observations in any
+significant way (though a certain degree of generalization appears in
+Dowling 1978, for example). The concepts, examples, and arguments
+just presented are exactly the sort that should be of interest in this regard,
+because they provide evidence for musical cognition of relationships not
+just between events adjacent on the musical surface, but between struc-
+turally important events at various reductiorral levels that are potentially
+far apart on the musical surface. Thus the study of musical reductions
+and of the processes producing them from musical surfaces is of great
+value in extending to a richer class of cases what has long been acknowl-
+edged as a psychologically important phenomenon.
+
+If Schenkerian thought is central to the notion of reduction, and if there
+are significant parallels between Schenkerian theory and generative lin-
+guistics,? it seems logical to ask what is required to convert Schenkerian
+theory into a formal theory. For example, one might set out to develop a
+set of rules that would generate little pieces, perhaps without durational
+values, from the triad to the Ursatz (the “fundamental structure,” made
+up essentially of a tonic-dominant-tonic progression supporting a linear
+melodic descent to the tonic note), and from there to simple harmonic
+and contrapuntal elaborations. Such an enterprise, however, would be
+utterly unrevealing from a psychological standpoint. “Generating” trivial
+musical examples says nothing about how people hear.?
+
+It would be more promising to take Schenkerian analyses of actual
+tonal pieces—pieces that are intrinsically interesting as well as
+sufficiently complex to be informative about cognitive processes—and
+then to develop a rule system capable of generating these analyses. This
+approach would reveal the lacunae in Schenkerian theory, and, generally,
+would put the theory on a solid intellectual foundation.3 We might have
+taken this tack, except that it seemed a doubtful strategy to launch a
+theory of musical cognition by filling in the gaps in somebody else's
+“artistic” theory, no matter how brilliant it may be in numerous respects.
+
+Reductions
+

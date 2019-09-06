@@ -1,0 +1,37 @@
+12
+Psychological and Linguistic Connections
+
+In chapter 1 we said that one of the criteria for adequacy of our theory of
+music is its ability to shed light on more general psychological issues. In
+this chapter we present some ways in which the formal theory developed
+in chapters 3, 4, 7, and 9 reveals clear connections with existing theories
+in psychology and linguistics, and we reflect on the possible conseguences
+of these connections.
+
+Neisser 1967 (pp. 245-248) points out an important similarity in
+spirit berween generative linguistics and the Gestalt psychology of the
+1920s to the 1940s. As we said in chapter 1, our theory is conceived with
+the same general goals as generative linguistics: to give an account of one
+aspect of (largely unconscious) human knowledge, explicating the char-
+acter of a certain class of intuitions, and to divide this knowledge into
+innate and learned parts. Thus our theory of music is another instance of
+the sort of cognitive theory discussed by Neisser. One burden of this
+chapter will be to use the theory of music to forge a more than merely
+spiritual connection berween generative linguistics and Gestalt psychol-
+ogy. Section 12.1 reviews the similarities presented in chapter 3 between
+the rules of musical grouping and the processes involved in visual form
+perception. This leads to some discussion of how some of the defects of
+Gestalt theory can be overcome in the light of contemporary linguistics
+and the present music theory. Finally, we survey recent work in vision
+whose general form resembles our music theory.
+
+One of the striking differences berween music theory and linguistic
+theory, mentioned in chapter 1, is the presence in music theory of prefer-
+ence rules, a rule type foreign to generative-transformational grammar.
+Section 12.2 suggests some cases of current issues in linguistic theory
+where the preference-rule formalism appears to provide insightful solu-
+tions, suggesting that linguistics and music theory are not as different in
+
+-this respect as might otherwise have been supposed.
+Section 12.3 describes a strong parallel between certain aspects of
+

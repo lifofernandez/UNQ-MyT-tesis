@@ -1,0 +1,53 @@
+331
+
+Given this evidence, one might conclude that the parallel of time-span
+reduction and phonology should be explained as follows: Time-span
+reduction is an analytic function in musical perception; it is therefore
+confined to musically sophisticated listeners; and it is localized in the left
+hemisphere, perhaps even in the same place as phonological functions.
+We would consider such a conclusion hasty, for at least two reasons.
+
+First, we must take issue with the commonly made dichotomy between
+“analytic” and “holistic” processing. It should be obvious from the pres-
+ent study that every aspect of musical cognition involves an intricate
+interweaving of local and global evidence. Perception of “Gestalt” prop-
+erties requires a great deal of “analytic” processing, and vice versa.
+Hence the musical evidence suggests that it is more difficult to make a
+sharp division berween the functions of the hemispheres along these lines
+than has often been thought. One would not expect physiological func-
+tions to be any more localized than the corresponding psychological
+ones.
+
+Second, we have repeatedly emphasized that the analytic structures we
+postulate are not confined to experienced listeners. Even the most naive
+listeners undoubtedly hear music as grouped; and they know where to
+tap their feet in time to the music, so they have assigned metrical struc-
+ture. Moreover, our impression of children's errors in singing songs and
+of regional variants of folk songs is thar they reveal intuitions of re-
+ductional structure. Typically it seems to be reductionally unimportant
+pitches that are omitted or changed, while the structural skeleton remains
+intact. We believe, therefore, that differences among listeners concern
+how complex and conflicted the structures are that they can handle. This
+accords with Bever's (1980, p. 206) assessment that musical sophistica-
+tion is actually associated with an advantage in both hemispheres.
+
+Thus we are reluctant to draw any immediate connections between
+studies of hemispheric localization and the reduction-phonology parallel.
+However, given our conjecture in the preceding subsection that some
+form of reductional structure is a more general element in remporal
+patterning, we can envisage two distinct hypotheses about brain local-
+ization. First, it is possible that all functions involving reductional struc-
+ture are localized in the same place. In computational terms, this would
+amount to a claim that reduction is a “parameterized subroutine” to
+which various processes refer. Alternatively, the parallel could be due to a
+conservatism in developing new functions; that is, reductionlike struc-
+tures could appear as parts of numerous different capacities and be dif-
+ferently localized. Computationally, this would be like saying that many
+copies of essentially the same routine are present, each serving different
+functions. We are in no position to assess these alternatives. We do think,
+however, that the parallelism between the grammars of time-span reduc-
+tion and prosodic structure presents an interesting challenge to any gen-
+eral theory of mental and neurological processing.
+
+Psychological and Linguistic Connecrions
+

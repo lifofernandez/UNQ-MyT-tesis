@@ -1,0 +1,40 @@
+180
+
+way. Let us survey some elementary examples to motivate our general
+approach.
+
+A single pitch (say, the tonic note C) produces no particular tension. A
+repetition of this pitch may create rhythmic tension, but no real melodic
+tension; the C is merely prolonged. However, the insertion of another
+pitch between the two Cs creates a tensing, then a relaxing, of melodic
+progression, as illustrated by the neighboring motion in 8.1 (£ and r stand
+for tensing and relaxing). This effect is due to the comparative dissonance
+of the D within its context.
+
+8.1
+
+Next consider the motion from E to C in 8.2a. Because the second
+event is more “consonant,” the progression is felt as a relaxation. We can
+then elaborate 8.2a by the insertion of a passing tone between the E and
+the C (8.2b), thereby superimposing a second, more local, pattern of
+tension and relaxation like that in 8.1.
+
+ 
+
+Adding a bass line converts the dissonant passing tone in 8.2b into a
+root-position (implied) triad, yielding the quasi-Ursatz in 8.2c. The over-
+all pattern of tension and relaxation, however, does not change berween
+8.2b and 8.2c; musical particulars can vary within a specific pattern of
+tensing and relaxing.
+
+In 8.3 we elaborate 8.2b further, by inserting a D and an E in the
+middle.
+
+ 
+
+Here the contrasting durational values produce different prolongational
+perceptions: in 8.3a the first D is heard as a lower neighbor within the
+context of a prolonged E; in 8.3b the second E is heard as an upper
+
+Chapter 8
+

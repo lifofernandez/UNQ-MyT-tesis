@@ -1,0 +1,70 @@
+boundary if one were chosen at 2-3. Similar (though weaker) parallelism
+plus the change in register are evidence for a boundary at 15—16; finally,
+a number of relatively weak rules apply at transition 18—19. Placement of
+a group boundary at each of these points results in one or more two-note
+groups, which the revised GPR 1 attempts to avoid. The overall effect of
+the revised GPR 1, then, is to suppress or at least make far less salient all
+the groups represented by dashed lines in 3.34.
+
+On the other hand, at all the other marked transitions there are ap-
+plications of the more influential preference rules of proximity, In general
+these rule applications cause no difficulty. However, at one point they
+also lead to a two-event group: notes 12 and 13. We have retained this
+group in the analysis for two reasons: because the local evidence for a
+boundary at transition 11—12 is relatively strong, and because group 1-4
+ftollowed by group 57 is paralleled motivically by group 8-11 followed
+by group 12-—13. Thus both relatively strong local evidence and motivic
+parallelism support a grouping boundary at transition 11-12, overriding
+the preference of the revised GPR 1 against the two-note group 12-13.
+
+The result of the local evidence interacting with GPR 1, then, is to
+establish the small-scale grouping indicated by solid lines in 3.34. In
+attempting to establish larger-level grouping, we first observe that mo-
+tivic parallelism of the groups beginning at 1, 8, and (to a lesser extent)
+14 and 21 favors larger-level boundaries at transitions 7-8, 13-14, and
+20—21. In addition, the strongest local rule applications in the passage
+are at transitions 7-8 and 13-14; the breath at 20—21 also establishes it
+as a relatively strong application of GPR 2a (the slur/rest rule). So far,
+then, GPRs 6 (parallelism) and 4 (intensification) suggest the grouping
+shown in 3.35.
+
+3.35
+
+1- 45 - 783-— N- 8/4-- 20 2- 225-27
+N—]] —lo[oO Í [ N Nn aa—]]—] ) Neurioiia? e?
+— — —Éc h —o— ñ—1a—]] — —c —]-— ?
+
+There are two possible ways to construct still larger groups. Symmetry
+(GPR 5) suggests the grouping shown in 3.36a.
+
+3.36
+
+a
+
+1 — 458 -— 78 - NR-134-- 202R—-225-27
+
+N——  N—] ]——o[———— [d N—]]]—— —
+N——B de zi — —]———]]——]][]]]]
+
+N—]——lÑÑ]z——]———[o————]]—]——Q:Ñ—_——];——!.*—]]_ — —
+
+b
+
+1 — 445 - 7383- 1 12-—13/4- - 202 —-2225-427
+
+— — —.e;]] — — —]]—]]Ñ———]—]
+
+Ne——]——.oóon——— N—o—]——— ————;c—]]]
+N—————.l.—————Ú—]————É—[[.[[————————————
+
+c
+
+1- 4585 -78 - 1/2—13l4--202 - 2a2%5-27
+
+V— — ? N? — a? m
+
+— ————][- —l — — A —————l6oo EEO
+
+——————]————————
+———— ]————].se;——]——]——].—————]—————Á—
+

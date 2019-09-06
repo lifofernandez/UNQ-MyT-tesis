@@ -1,0 +1,47 @@
+70
+
+4.3 (cont.)
+b
+
+(well formed)
+
+MWER 4 holds for the smaller levels of metrical structure in tonal mu-
+sic, with such extremely rare exceptions as the second movement of
+Tchaikovsky's Pathetique Symphony (in five) and the third movement of
+the Brahms C Minor Trio op. 101 (in seven), In much of tonal music this
+metrical regularity also obtains beyond the measure level, producing reg-
+ular “hypermeasures” of two, four, and even eight measures.!
+
+In music where regular hypermeasure metrical levels are sensed, certain
+irregularities are heard as metrical deletions —violations of the metrical
+regularity required by MWER 4. As with grouping overlaps and elisions,
+we do not account for these irregularities by dropping MWER 4 alto-
+gether; we add a transformational rule that modifies permissible metrical
+structures in a constrained way. We deal with hypermeasure irregularities
+and metrical deletions in section 4.5.
+
+Second Approximation
+
+There are some difficulties in the account of metrical structure given by
+MWERs 1-4. This section shows that some of these have a common
+source, and suggests some appropriate refinements,
+
+First, we have assumed that each metrical level has evenly spaced beats.
+In a passage played with rubato or with the numerous minute temporal
+inflections added by a sensitive performer, spacing is uneven in the mu-
+sical surface. Normally, however, the listener treats these local deviations
+from the metrical pattern as though they did not exist; a certain amount
+of metrical inexactness is tolerated in the service of emphasizing grouping
+or gestural patterns. Though the study of such local metrical deviations is
+of interest to the theory of musical cognition, we have nothing more to
+say about it here.
+
+A problem that we will deal with, however, is an overexplicitness in the
+notation for metrical structure. Consider a piece with predominantly
+quarter-note and eighth-note motion, but with an occasional sixteenth
+note—the Mozart A Major Sonata again is a good example. Because of
+the presence of the sixteenth notes, the MWERs require an overly fussy
+sixteenth-note level throughout the piece, as shown in 4.4.
+
+Chapter 4
+

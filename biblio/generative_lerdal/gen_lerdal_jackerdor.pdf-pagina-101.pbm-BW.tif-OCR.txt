@@ -1,0 +1,51 @@
+97
+
+For convenience, we repeat here MWERs 1-4 as stated in section 4.1.
+
+MWER 1 Every attack point must be associated with a beat at the small-
+est metrical level present at that point in the piece.
+
+MWER 2 Every beat at a given level must also be a beat at all smaller
+levels present at that point in the piece.
+
+MWER 3 At each metrical level, strong beats are spaced either two or
+three beats apart.
+
+MWER 4 The tactus and immediately larger metrical levels must consist
+of beats equally spaced throughout the piece. At subtactus metrical levels,
+weak beats must be equally spaced berween the surrounding strong beats.
+
+MWERs 1 and 2 define respectively the association of metrical structure
+with a musical surface and the hierarchical nature of metrical structure,
+conditions common to all types of music. However, MWERs 3 and 4 are
+open to variation. For a simple example, a metrically more rigid idiom
+that allowed only duple meters could be characterized by dropping “or
+three” from the statement of MWER 3. Alternatively, a much more
+loosely structured metrical idiom such as recitativo might be charac-
+terized by dropping MWERs 3 and 4 altogether, permitting strong beats
+at arbitrarily distant points of articulation. In such an idiom, only local
+detail detected by preference rules would determine the location of
+beats.
+
+By keeping MWER 3 but dropping MWER 4 we describe a metrical
+idiom of considerable irregularity, in that strong beats at each level can
+be indiscriminately two or three beats apart. Such structures appear, for
+instance, in some of Stravinsky's music—reflected notationally by his use
+of constantly changing meters. Note that the lack of rigidity in the metri-
+cal structure means that there is no prevailing pattern to which local
+details can be set in opposition; rather, strong beats will be heard wher-
+ever there are appropriate local details. This predicts thatit will be more
+difficult in such a metrical idiom to produce effects of syncopation, which
+depend on the conflict of a rigid metrical pattern with local evidence.
+
+Certain other metrical idioms have more complex rules in place of
+MWER 4, permitting structured alternation of different-length metrical
+units. One such metrical idiom is found in the late sixteenth-century
+settings of French vers mesuré by Claude le Jeune. The metrical principle
+behind these settings is that the length of notes is determined by accentual
+properties of the corresponding syllables: strong syllables receive a half
+note and weak syllables a quarter. A brief sample, accompanied by a
+plausible metrical structure, is given in 4.44,
+
+Metrical Structure
+

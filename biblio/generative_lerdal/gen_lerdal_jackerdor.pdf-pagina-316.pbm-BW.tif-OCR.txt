@@ -1,0 +1,56 @@
+312
+
+Example 12.7a asserts category membership of an individual designated
+nonverbally; 12.7b asserts the category membership of an individual
+designated verbally; 12.7c asserts the inclusion of one category in an-
+'other. Judgments of type 12.7b and 12.7c are basic to most theories of
+entailment, analyticity, and so forth. Jackendoff (forthcoming) gives evi-
+dence that all three sentence types present essentially the same problems
+to a theory of word meaning.
+
+Most theories of word meaning treat categorization as an open-and-
+shut case. But this is an oversimplification. Many judgments are uncer-
+tain— for example, those in 12.8a—12.8c, which correspond to sentence
+types 12.7a—12.7c, respectively. Connoisseurs of linguistic semantics will
+notice that appealing to insufficient scientific knowledge, fuzzy logic (see
+Lakoff 1972), or division of linguistic labor (Putnam 1975) will not help
+account for the uncertainty in these examples.
+
+12.8
+a lake (not just a pond).
+a boulder (not just a stone).
+b. George Bush is a fool.
+The signs Washoe (the chimpanzee) makes are a language.
+c. Án australopithecus is a human.
+Á piano is a percussion instrument.
+
+a. That [pointing] is [
+
+An adequate theory of word meaning must allow for such uncertain
+judgments.
+
+A related problem is pointed out in Wittgenstein 1953. In his well-
+known discussion of the word game, Wittgenstein shows that there can-
+not be necessary and sufficient conditions for something to be a game,
+since there are no properties shared by all games that are not also shared
+by other activities that are not games. Similar arguments can be applied
+to most words in the language: for almost any condition one can place on
+the members of a category, there are individuals that are exceptions to
+the condition but are still intuitively judged to be members of the cate-
+gory. Thus necessary and sufficient conditions are generally too strong a
+requirement on a theory of word meaning. Wittgenstein argues that word
+meanings should be characterized in terms of a system of overlapping
+“family resemblances” —characteristics that members of a category may,
+but need not, share. This suggestion has been investigated experimentally
+in the work of Eleanor Rosch (see particularly Rosch and Mervis 1975).
+These results suport the family-resemblance hypothesis, showing in addi-
+tion that the members of categories that are considered most prototypical
+of that category are those with the most attributes in common with other
+members of the category and the fewest attributes in common with mem-
+bers of other categories.
+
+These arguments suggest that the proper formalization of word mean-
+ings is as a combination of well-formedness rules and preference rules,
+
+Chapter 12
+

@@ -1,0 +1,35 @@
+202
+
+Hierarchical relations among these connected or unconnected events
+are conveyed much the same as in grouping analysis: slurs “contain”
+other slurs. For instance, in 8.30e the slur connecting y to z 1s contained
+by the slur connection x to z. Even if (as in 8.30f) there is no containing
+slur, there is bound to be a larger level of analysis that clarifies the
+situation. Thus in 8.30g y connects to ", turning the connection between
+y and z into a contained slur and the connection between x and y into an
+“appended” slur. In 8.30h the strong prolongation contains the connec-
+tions between x and y and between y and z, and it is deducible that the
+connection berween y and z dominates that between x and y because z is
+also part of the larger slur. In doubtful cases, one can always refer to the
+tree.
+
+Because the drawing of slurs among all the voices in a passage would
+be visually confusing, we will usually include only the bass and soprano
+lines in the secondary notation. It is also convenient to omit inconsequen-
+tial (small-level) details. As a clarification, large-level events such as
+structural beginnings and cadences can be indicated by “white” note
+heads. Finally, the prolongational tree itself can apply to abstractions like
+those in 8.30, to the secondary notation, or, where practicable, to the
+actual notated music. In the last case the secondary notation is placed
+beneath the actual music. All of these provisions are variously illustrated
+in 8.31a, the prolongational reduction of the first phrase of “O Haupt,”
+and in 8.31b, a repeat of the antecedent-consequent period in 8.25c
+repeated in the secondary notation.
+
+8.31
+a
+
+ 
+
+Chapter 8
+

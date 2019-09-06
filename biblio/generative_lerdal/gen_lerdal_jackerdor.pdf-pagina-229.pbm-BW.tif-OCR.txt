@@ -1,0 +1,57 @@
+225
+
+4. (Harmonic condition)
+
+a. (Distance) A connection between two events is harmonically more
+stable if their roots are closer on the circle of fifths.
+
+b. (Direction) A progression that ascends along the circle of fifths is
+most stable as a right-branching structure; one that descends along
+the circle of fifths or produces a subdominant-to-dominant relation-
+ship is most stable as a left-branching structure.
+
+Condition 1 was discussed in connection with examples 8.5 and 8.6
+and requires no further exposition here. Condition 2 was illustrated by a
+secondary dominant relationship in 8.10e. More broadly, this condition
+applies not just to local borrowing from other diatonic collections but
+also to tonicizations at various larger levels of structure. For example,
+this condition creates pressure to unify the branchings in the dominant
+region of a sonata movement.
+
+Condition 3a was illustrated in examples 8.10a and 8.10b and needs
+no more comment. Condition 3b expresses the commonplace intuition
+that a singer or a trumpeter, for example, must make a greater effort to
+reach higher pitches; hence ascent and descent correspond to tension and
+relaxation respectively. The Schenkerian Urlinie, a descending stepwise
+melodic progression, reflects both conditions 3a and 3b.
+
+Parallel to the distance and direction aspects of melodic connection,
+there are corresponding distance and direction aspects of harmonic
+connection. Condition 4a was illustrated in examples 8.10c and 8.10d;
+condition 4b in 8.18 and 8.19,
+
+Condition 4a does not mention relative and parallel major-minor rela-
+tionships, because they arise from the interaction of condition 4a with
+condition 2. The relative major-minor relationship is fairly distant on the
+circle of fifths but close in diatonic collection; conversely, the parallel
+major-minor relationship is identical on the circle of fifths but dissimilar
+in diatonic connection. Thus major-minor relationships are more equiv-
+ocal than tonic-dominant relationships, where conditions 2 and 4a are ín
+mutual agreement.
+
+The ways in which conditions 3 and 4 reinforce or conflict are an
+enriching factor in the tonal idiom. For example, the harmonic implica-
+tions of even an unaccompanied melody often override purely melodic
+factors in determining prolongational connection. Conversely, a har-
+monic progression as such also produces melodic implications, especially
+through the motion of the bass. Typically, melodic influences are more
+marked at smaller levels of reduction, and at larger levels play a relatively
+insignificant role in comparison with harmonic connection.
+
+The interaction of conditions 1-4 and their refinement could be pur-
+sued further, but we will not do so here. In the present context these
+conditions act as sub-preference rules within the application of PRPR 3,
+much like the subcases of the local-detail rules in grouping (GPRs 2 and 3)
+
+Formalization of Prolongational Reduction
+

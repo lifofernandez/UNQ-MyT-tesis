@@ -1,0 +1,44 @@
+123
+
+important events. Whereas in time-span reduction this relationship con-
+cerns relative stability within rhythmic units, in prolongational reduction
+it concerns relative stability expressed in terms of continuity and progres-
+sion, the movement toward tension or relaxation, and the degree of
+closure or nonclosure. The prolongational component not only expresses
+intuitions of connection and continuity such as those suggested in 5.13
+and 5.14, but also provides “psychological” interpretations for them in
+precise structural terms, by means of a tree notation to be described in
+section 8.1,
+
+In order to define the notion of prolongational importance, we again
+need more than purely pitch criteria, so that incorrect reductions such as
+5.10 may be avoided. We will show in chapters 8 and 9 that prolonga-
+tional importance is derived not from the musical surface, but from the
+associated time-span reduction, with all its encoded rhythmic structure.
+Thus, indirectly, grouping and meter are also implicated in prolonga-
+tional structure. The inclusiveness of this hypothesis mirrors the intuitive
+judgment that patterns of tension and relaxation are at the heart of
+musical understanding.
+
+The two kinds of reduction interact in a fashion not unlike the in-phase
+or out-of-phase relationship between grouping and meter. If the domains
+produced by the two reductions correspond, the reductions can be said to
+be congruent; if not, they are noncongruent. As with the “phase” re-
+lationship, congruence and noncongruence are relative terms. A good
+example of an acutely noncongruent passage is the K. 331 phrase, since
+at a certain prolongational level the region of the opening tonic extends
+to the downbeat of measure 4 (as shown in 5.14), in contrast with the
+pitch hierarchy heard through the time-span segmentation in 5.12. If the
+prolongationally significant events were evenly distributed across the
+time-spans— say, if the I in measure 4 had arrived on the downbeat of
+measure 3—the phrase would be fairly congruent. As it is, the opening
+tonic seems to stretch like a rubber band, which in measure 4 belatedly
+springs loose. In general the interaction of the two kinds of reduction has
+a great deal to do with the “shape” of a passage. Congruent passages
+seem relatively straightforward and square; noncongruent passages have
+a more complex, elastic quality,
+
+We will now devote two chapters in turn to each kind of reduction.
+
+Reductions
+

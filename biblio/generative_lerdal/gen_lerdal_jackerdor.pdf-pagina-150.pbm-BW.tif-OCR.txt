@@ -1,0 +1,36 @@
+71
+Time-Span
+Segmentation
+
+7
+Formalization of Time-Span Reduction
+
+In formalizing the time-span reduction, we begin by defining the time-
+span structure—the segmentation of a piece into rhythmic units within
+which relative structural importance of pitch-events can be determined.
+Then, as in previous chapters, we take up in turn well-formedness rules
+and preference rules.
+
+We begin by defining the term time-span in terms of metrical structure:
+
+A time-span is an interval of time beginning at a beat of the metrical
+structure and extending up to, but not including, another beat.
+
+This is the minimal condition on time-spans.! It must be developed fur-
+ther in order to establish the time-span segmentation of a piece.
+
+Section 6.1 discussed the intuitions behind time-span segmentation. Át
+relatively large levels, we argued that the group is the unit of segmenta-
+tion:
+
+Segmentation Rule 1 Every group in a piece is a time-span in the time-
+span segmentation of the piece.
+
+Because, for purposes of deriving a time-span reduction, a piece must
+be exhaustively segmented into time-spans at every level, it is neces-
+sary to guarantee that no such grouping structure as 7.1 arises. The
+gaps between groups would constitute domains not subject to time-span
+reduction.
+
+71
+

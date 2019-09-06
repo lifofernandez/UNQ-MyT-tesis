@@ -211,6 +211,15 @@ Si bien estas razones son de carácter general,
 las mismas aplican a propósitos específicos
 como los que implica este estudio.
 
+### MIDI (Interface Digital para Instrumentos Musicales) 
+
+En relacion directa con la produccion musical y 
+mas especifico todavia a la preproduccion, 
+al registro de una organización de articulaciones 
+que luego es orquestada, grabada, tocada, etc.
+hay que justificar la adompcion de midi
+sencillamente, es el unico estandar al dia y el unico q se proyecta a futuro.
+
 
 
 
@@ -500,14 +509,13 @@ provee un criterio para proceder.
 
 En esta segunda sección
 se introduce el método de ejecución
-diagramando el proceder de la investigación
-organizado en tres etapas,
-un periodo preparatorio dedicado a experimentación y pruebas
+que se pueden distinguir en tres etapas,
+una etapa preparatoria, dedicada a investigación, experimentación y pruebas,
 que deviene en la fase de producción en si
-y culmina con un etapa de corrección y arreglo de los errores y defectos.
+y culmina con un etapa de corrección
+y arreglo de errores y defectos.
 
-
-Se aprovecha la oportunidad
+Se aprovecha
 para reseñar las herramientas preexistentes elegidas,
 se mencionan aquellas que fueron consideradas pero 
 descartadas luego de algunos ensayos
@@ -517,7 +525,7 @@ vinculadas a la tarea accesoria.
 ## Procedimiento
 
 Antes de exponer el proceso de trabajo consecuente,
-en ánimo de presentarlo abarcable y facilitar una primera lectura,
+en ánimo de presentarlo abarcable y facilitar su comprensión,
 se gráfica el mismo.
 
 \bigskip
@@ -532,6 +540,22 @@ se gráfica el mismo.
 
 
 ## Análisis 
+
+A partir de la inquietud inicial y del análisis de
+
+El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
+cada parte instrumental.
+
+primeras concluciones 
+
+primero: elegir un formato de serialización,
+  premisa que sea legible y adoptado
+
+luego: arma un script sencillo que a partir del analisis, el producto del parser
+codifique una secuencia de eventos midi
+un codificador midi
+
+
 
 ### Boceto de Sintaxis
 
@@ -552,9 +576,8 @@ se gráfica el mismo.
 ##### Parseo YAML
 Análisis  Gramático
 Relaciones Jerarquías
+
 pyyaml
-El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
-cada parte instrumental.
 
 ##### Manipulación MIDI
 Codificación en el Estandar MIDI
@@ -590,7 +613,7 @@ Instalación
 El editor de texto preferido para toda la actividad será VIM [^ver_vim];
 durante el desarrollo las versiones se controlarán con el sistema GIT
 [^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
-proveido por algún servicio del tipo GitLab.
+provisto por algún servicio del tipo GitLab.
 
 ## Post
 

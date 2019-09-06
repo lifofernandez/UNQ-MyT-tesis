@@ -1,0 +1,35 @@
+Preface
+
+In the fall of 1973, Leonard Bernstein delivered the Charles Eliot Norton
+Lectures at Harvard University. Inspired by the insights of transforma-
+tional-generative (“Chomskian”) linguistics into the structure of lan-
+guage, he advocated a search for a “musical grammar” that would
+explicate human musical capacity. As a result of these lectures, many
+people in the Boston area took a fresh interest in the idea of an alliance
+between music theory and linguistics, and Irving Singer and David Ep-
+stein formed a faculty seminar on music, linguistics, and aesthetics at the
+Massachusetts Institute of Technology in the fall of 1974.
+
+Our collaboration began as an outgrowth of that seminar. Consulting
+each other during the preparation of our individual talks, we soon found
+ourselves working together on an approach of some novelty. Our partici-
+pation in the MIT seminar gave us frequent opportunities over the next
+three years to present and discuss our work in its formative stages. In
+addition, we had the good fortune to be invited in the spring of 1975 to a
+week-long seminar on music and language at the Institute de Recherche
+et Coordination Acoustique/Musique in Paris, organized by Nicolas
+Ruwet. We have also had the opportunity to present aspects of our work
+in talks at the Accademia Filarmonica in Rome, Brandeis University,
+Columbia University, the University of California at Irvine, and Yale
+University, and to the American Society of University Composers, the
+New York State Theory Society, a Sloan Foundation Conference on Cog-
+nitive Science, and the Third Workshop on Physical and Neuropsycho-
+logical Foundations of Music in Ossiach, Austria.
+
+In the course of preparing a written paper for the proceedings of the
+IRCAM conference (this paper eventually appeared as “Toward a Formal
+Theory of Tonal Music” in the Journal of Music Theory), we realized
+that the material we had worked out required book-length exposition.
+Hence this volume, written intermittently along with string quartets and
+books on linguistic theory.
+

@@ -1,0 +1,67 @@
+323
+
+12.17
+
+ 
+
+ 
+
+ 
+
+7N
+w S
+AN N A
+A s w A w _S s w
+/N N A
+s w s w w _s s w s w
+fl Dl P
+flounce modest Pamela — attire vanilla America
+sy//ab/e level L —— 1 [ | e i K 1 d ULJLILI
+foot level [ — [ [ [ a
+_ ————A
+
+Vergnaud and Halle (1979) show that there are languages in which the
+counterpart of rule 1a has the reverse effect, marking the second syllable
+strong. Rule 1b could conceivably have a mirror-image counterpart,
+making the foot weak; however, the empirical need for such a rule is as
+yet unclear.
+
+The next layer in the hierarchy is the aggregation of feet into words.
+Liberman and Prince (1977) give the following rule for English:
+
+Prominence Rule 2 (Lexical Category Prominence) In a segment im-
+mediately containing two feet, the second is strong if and only if it
+branches.*!
+
+This rule results in the trees in 12.18 for gymnast, reconciliation, anec-
+dote, and anecdotal. Notice in particular the contrast between the last
+two of these, where the extra syllable -al causes the second foot of anec-
+dotal to branch, in turn altering the tree and shifting stress to -do-.
+
+12.18
+
+/
+AA D
+
+w 5 w w s
+
+7N AN A AA
+
+Py yy y 4y £
+gymnast reconciliation anecdote — anecdotal
+Sy“úb/€ level E -d a N ua uN J
+“oot level _a a a a 1 a — _ n
+word level _ — — a 2A
+
+A similar rule governs the aggregation of words into larger words:
+
+Prominence Rule 3 (Compound Stress) In a word immediately contain-
+ing two words, the second is strong i¡f and only if it branches into two
+words.
+
+This rule accounts for the contrast berween main stress on Rorschach in
+Rorschach blot and on ink in Rorschach ink-blot. In the latter only, the
+second word on the next-to-largest level of segmentation branches into
+
+Psychological and Linguistic Connections
+

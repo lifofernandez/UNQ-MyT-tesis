@@ -1,0 +1,60 @@
+Chapter $
+
+337
+
+5. The applications of MPR Se at beats 2, 6, and 10 seem to have something to do
+with the rhythmic restlessness of the theme at a very local level. Notice that the
+second half of the quoted passage, where the pitch repetitions reinforce rather
+than contradicr other metrical preference rules, seems rhythmically more stable.
+
+6. The pervasiveness of certain standard accompanimental patterns can in part
+be explained as a reinforcement of MPR 6: the “oom-pah-pah” pattern
+(1) naturally expresses 3/4, and the Alberti bass (11) not only places the lowest note
+on the first 16th bur places the second-lowest note on the third 16th, that is, on
+the metrically intermediate beat within the parrern.
+
+i u
+
+I TT
+
+7. The distincrion between this rule and the parts of MPR $ (length) thar make use
+of time-span reduction needs some clarification. In the length rule, levels of
+time-span reducrion smaller than the metrical level currently being derived help
+define whar counts as a repeated pitch or prolonged harmony. In MPR 9, by
+contrast, hypotheses about metrical strucrure are tested for their consequences for
+levels of time-span reduction equivalent to and larger than the metrical level
+currently being derived; a more stable time-span outcome affects metrical choice.
+
+8. The question arises as to why the harmonic changes could not be assigned to
+the eighth notes immediately preceding the chords on the eighth-note metrical
+level. To answer this objection, we would argue that harmonic progression 1s not
+heard as significant ar metrical levels smaller than the tactus, which at the speed
+this passage is performed ( J') = at least 240) turns out to be the quarter-note
+level. Thus MPR Sf (harmonic rhythm) is properly restricred in applicarion to
+harmonic changes in the rime-span reduction ar the tactus level and higher,
+eliminating the potentially offending applicarions at bears 5, 11, 17, and 23. (This
+restriction eliminates the applications of MPR Sf below the half-nore level in the
+derivation of the Mozart G Minor Symphony above. Because of the other metri-
+cal evidence, this does not change the derivation.)
+
+2. In Lerdahl and Jackendoff 1977 we spoke of metrical overlaps rather than
+metrical deletions. As Andrew Imbrie has pointed out (personal communicarion),
+beats are points in rime and hence cannot overlap—as opposed to groups, which
+have duration. Hence the terminology is changed.
+
+10. This analysis follows the metrical interpretation given in Lerdahl and Jacken-
+doff 1977. In another interpretation, where the downbeats of odd-numbered bars
+are stronger than those of even-numbered bars, this metrical irregularity does not
+occur.
+
+1. See for example the brief remarks by Babbitt (1965, 1972) on these parallels.
+Briefly: If one downplays the Hegelian and Romanric sides of Schenker's thought
+and emphasizes 1ts more systematic aspects, Schenker can be construed (especially
+in Der freie Satz) as having developed a proto-generative theory of tonal
+music—hat 1s, as having postulated a limited set of principles capable of recur-
+sively generating a potentially infinite set of ronal pieces. Burt, remarkable and
+precursory though his achievement was, he did not develop a formal grammar in
+the sense one would expect nowadays of a generative theory. Moreover, his
+
+Notes to pp. 86—111
+

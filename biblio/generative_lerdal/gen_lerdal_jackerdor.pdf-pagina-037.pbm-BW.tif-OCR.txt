@@ -1,0 +1,38 @@
+33
+
+and out-of-phase passages usually yield hypothesis B. The K. 331 passage
+(2.21a) 15 an instance of the former and the opening of the third move-
+ment of Beethoven's Fifth Symphony (2.21b) an example of the latter.
+
+2.21
+
+ 
+
+ 
+
+The case for the separation of metrical and structural accent can be
+supported at more global levels by a consideration of the notions of
+structural anacrusis and structural downbeat. A structural anacrusis is
+like a local anacrusis except that it spans not just a beat or two but a
+whole passage or section— for example, the transition to the finale of
+Beethoven's Fifth Symphony, or the introduction to Beethoven's First
+Symphony (analyzed in section 7.4), or measures 1-20 of Beethoven's
+“Tempest” Sonata (analyzed in section 10.2). In such cases a large-scale
+group closes on a harmonic arrival (typically through an overlap or an
+elision) in a strong metrical position. The effect is one of prolonged
+tension followed by instantaneous release. In analytic terms, significant
+articulations in three different musical parameters— grouping structure,
+metrical structure, and harmonic structure—converge at a single mo-
+ment, producing a structural downbeat. Thus there is an asymmetry be-
+tween structural anacrusis and structural downbeat: the former stretches
+over a long time-span, and the latter coincides with a beat.
+
+Viewed purely as a structural accent, a structural downbeat is so pow-
+erful because it combines the accentual possibilities of hypotheses A and
+B: the structural anacrusis drives to its cadence (as in hypothesis B),
+which simultaneously, by means of a grouping overlap, initiates a new
+impulse forward at the beginning of the following section (as in hypothe-
+sis A). This situation is diagrammed in figure 2.22.
+
+Rhythmic Structure
+

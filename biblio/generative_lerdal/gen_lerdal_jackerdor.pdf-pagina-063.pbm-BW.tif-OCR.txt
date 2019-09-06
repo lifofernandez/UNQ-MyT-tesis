@@ -1,0 +1,50 @@
+59
+
+hexagons that share a vertical side; in other words, it is resolved percep-
+tually as 3.29b rather than as 3.29c or 3.29d.
+
+3.29
+a
+
+b c d
+A single boundary element functions as part of two independent figures.
+This is comparable to overlap in music.
+For a parallel to elision, consider 3.30a, which is most likely to be
+
+resolved perceptually into a square partially obscured by a triangle
+(3.30b), not as any of the other configurations shown.
+
+3.30
+a
+
+b c d
+The unlikely reading 3.30d is the closest visual parallel to the musical
+example 3.27a. In both cases the left boundary of the right figure has
+been used as the right boundary of the left figure, with inappropriate
+results, The more natural interpretation in both cases is to infer a hidden
+boundary.
+
+These visual examples appear not to be just trivial analogs to the
+musical phenomena. As in the discussion of preference rules, the possi-
+bility of drawing parallels between auditory and visual domains points to
+the operation of fundamental processes of perception and/or cognition.
+In both cases of overlap a single element of the field presented to percep-
+tion is perceived as belonging simultaneously to two adjacent figures,
+neither of which is part of the other. In both cases of elision a boundary
+element of one figure obscures an inferred boundary of an adjacent
+figure. In the visual case the figures are perceived in space; in the musical
+
+case they are perceived in time. But the perceptual effect is the same. (For
+further discussion, see section 12.1.)
+
+The Formal Representation of Overlaps and Elisions
+
+Because the musical intuitions encountered in grouping overlaps and
+elisions correspond to grouping structures that violate GWER 4, the
+grouping well-formedness rules must be modified in order to be empiri-
+cally correct. However, the appropriate alteration is not to abandon
+GWER 4 totally, for such an alteration predicts the existence of grouping
+structures such as 3.31, which do not occur.
+
+Grouping Structure
+

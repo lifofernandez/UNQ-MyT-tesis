@@ -1,0 +1,62 @@
+315
+
+languages such as Turkish), and syllable structure proved resistant to
+perspicuous treatment. A recent line of research in phonology, first pro-
+posed by Liberman (1975) and Liberman and Prince (1977), has devel-
+oped a theory of prosodic tree structures (sometimes also called metrical
+siructures) that overcomes these difficulties. This theory has stimulated a
+great deal of work developing and refining the initial formulation.* Al-
+though there are several variants of the theory already in the literature,
+enough basic agreement exists that we can present a composite version
+that does justice to the literature and brings out those characteristics most
+like time-span reduction.
+
+It is well known that there are two simultaneous and independent
+kinds of organization in the phonetic string— morphological and syl-
+labic—and that these two do not divide up the phonetic string in the
+same way. For example, the word originality divides up morphologically
+as origin+al+ity, but syllabically as o+ri+gi+na+li+ty. Notice that
+the syllables na and H cut across morpheme boundaries. Kahn (1976)
+was the first to give a satisfactory theory of syllable structure in genera-
+tive phonology; Chomsky and Halle (1968) had tried rather successfully
+to do without the notion of syllable in their theory.
+
+The rules determining position of word stress in various languages
+often make use of distinctions among syllable types. This suggests that
+stress rules should apply not to the simple phonological string, nor to the
+morphological structure (as in Chomsky and Halle 1968), but to the
+syllabic structure. Moreover, the existence of numerous languages that
+place stress on every second (or third) syllable of a word suggests that in
+these languages syllables are themselves organized into larger units,
+which have been termed feet. The complete prosodic organization of the
+word results from aggregating the feet together.
+
+A tree notation developed in Liberman and Prince 1977 expresses the
+aggregation of syllables into feet and of feet into words. In their notation,
+each node of the tree dominates either a surface syllable or two other
+branches, one strong (s) and one weak (1), For example, 12.9 illustrates
+their tree structures for the English words reconciliatton and contractual.
+
+12.9
+
+— —
+
+ 
+
+ 
+
+ 
+
+w 5 v s
+S/XW w/xs S'/x w
+N 7N 7
+£ w $ w s w
+Pl |
+re conci li a tion con trac tv al
+
+The purpose of the s and w markings is to express relative degrees of
+stress. In Chomsky and Halle 1968, as in previous traditions, stress was
+marked numerically on vowels: [1 stress] was greater than [2 stress],
+
+Psychological and Linguistic Connections
+

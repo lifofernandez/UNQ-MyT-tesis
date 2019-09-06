@@ -1,0 +1,48 @@
+89
+
+weak (“feminine” cadence). It says only that, whatever the metrical pat-
+tern, the metrical evidence within the cadence should not conflict with the
+prevailing global pattern. In particular, when surrounding metrical evi-
+dence is in conflict, as in 4.37, MPR 7 implies that the cadence is decisive
+in settling on a preferred metrical structure.
+
+From this rule and from MPR 6 follows the traditional principle that
+the cadential $ chord should be on a stronger beat than the dominant it
+precedes. The bass arrives at the fifth degree of the scale at the % and
+maintains it through both chords, so the metrical stability of the bass
+with respect to MPR Sa (length of event) requires the stronger beat on the
+4. The requirement is particularly stringent because itis within a cadence.
+
+Another place where contrapuntal considerations affect metrical struc-
+ture is at suspensions. In tonal music, the examples in 4.38 are heard with
+structure ¿ in strong preference to structure ií; that is, the dissonant
+suspensions are heard as metrically stronger than their consonant prepa-
+rations and resolutions.
+
+4.38
+
+ 
+
+In 4.38a this preference is reinforced by MPR 6, since the lower voice
+moves to create the dissonance. In 4.38b, by contrast, this preference 1s in
+conflict with MPR 6, since the upper voice creates the dissonance and the
+bass is suspended; hence the preference for structure ¿ is somewhat
+weaker here. Nonetheless, the fact that MPR 6 can be overruled here
+demonstrates the need for another preference rule:
+
+MPR 8 (Suspension) Strongly prefer a metrical structure in which a
+suspension is on a stronger beat than its resolution.
+
+Finally, we deal with a preference rule alluded to in the previous sub-
+section in connection with the larger-level metrical structure in example
+4.35. The bass in this passage alternates between G in the upper octave
+on beats 3 and 19 and G in the lower octave on beats 11 and 27. The
+lower G is sensed to be some indication of a stronger beat on the whole-
+note level. To add this effect to the existing rules, one might be tempted
+simply to formulate a preference rule favoring lower bass positions.
+However, the typical “oom-pah” accompanimental figure (4.39) argues
+against such a treatment, since in this example one would hardly be
+tempted to hear the lower bass note as the strongest beat.
+
+Metrical Structure
+

@@ -1,0 +1,43 @@
+221
+
+ 
+
+PRPR 1 addresses only the question of which event in a region is most
+important, not that of which endpoint of the region that event is attached
+to. Another preference rule deals with this second question in terms of
+congruence with time-span segmentation: other things being equal, direct
+prolongational elaborations should not cross time-span boundaries.
+
+PRPR 2 (Time-Span Segmentation) Let e; be the prolongationally most
+important event in a prolongational region (e;—e;). If there is a time-span
+that contains e; and ex but not e;, prefer a prolongational reduction in
+which e; is an elaboration of e;; similarly with the roles of e; and e;
+reversed.
+
+One prominent situation in which PRPR 2 applies is illustrated in 9.6.
+
+92.6
+
+a b
+
+I V 1 1I Y I
+N——i— — — l—
+A——lj2) ;,————;—l;—.| “ — N—]. — ][;— ];.[|
+
+In both 9.6a and 9.6b, assume that e; and e; are I chords and ey is a V
+adjacent to the second I in the musical surface. However, as the group-
+ings shown in the examples indicate, the V in 9.6a is a half cadence
+preceding a new phrase beginning on I; by contrast, the V in 9.6b is the
+dominant of a full cadence resolving on the final I, We argued in section
+8.3 that the half cadence is heard as a departure from the initial I,
+whereas the dominant of a full cadence is a left branch to its resolution.
+PRPR 2 accounts for this difference in terms of the grouping difference
+between 9.6a and 9.6b.
+
+PRPR 2 is stated in terms of time-span segmentation rather than time-
+span reduction branching, in order to accommodate instances in which
+the branching cannot possibly be congruent yet time-span considerations
+still affect prolongational branching. Example 9.7 presents a typical case;
+
+Formalization of Prolongational Reduction
+

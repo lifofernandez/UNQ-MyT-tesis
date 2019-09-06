@@ -1,0 +1,54 @@
+162
+
+chosen as head over the I5 by TSRPR 2a. At the third beat of measure 1,
+the IV* and the V$ are again approximately in balance with respect to
+TSRPR 2, so voice-leading considerations come into play, choosing the
+dominant chord as head. At the fourth beat, the consonance in the sec-
+ond eighth is a clear choice by TSRPR 2. In combining the third and
+fourth beats of measure 1 into a time-span, the I (despite its weaker
+metrical position) is harmonically more stable than the V$ with respect to
+both criteria in TSRPR 2. Finally, in the first half of measure 2, the V on
+the second beat is both intrinsically more stable and closer to the tonic
+than the ii$ on the first beat.
+
+In addition to the two local TSRPRs discussed so far, a third and
+somewhat weaker principle can be stated as follows:
+
+TSRPR 3 (Registral Extremes) Of the possible choices for head of a
+time-span T, weakly prefer a choice that has
+
+a. a higher melodic pitch
+
+b. a lower bass pitch.
+
+In practice, this consideration rarely has a decisive effect unless the har-
+mony and the metrical position are otherwise identical, but it may have a
+supplementary reinforcing or weakening influence.
+
+Example 7.18 illustrates cases where TSRPR 3a affects judgments.
+
+ 
+
+ 
+
+ 
+
+ 
+
+In 7.18a, from the finale of Beethoven's Wind Octet, op. 103, one tends
+to hear the Eb of the anacrusis as more prominent, despite its weaker
+metrical position. That this is due to its higher pitch 1s clear from com-
+parison with 7.18b, where the G is heard as primary.
+
+Example 7.18c returns to Mozart's K. 331. Schenker (1925) analyzes
+the E in the second half of the first measure as the structurally most
+important event in spite of its relatively weak metrical position. The
+plausibility of this judgment is due to the higher pitch of the E. If the
+pitches were changed to those of 7.18d it would be implausible to choose
+the event in weaker metrical position, because it is now lower. Thus,
+although we disagree with Schenker here (because of the bass and the
+metrical structure), his analysis does receive support from TSRPR 3a. (See
+section 10.4 for further discussion of Schenker's alternative.)
+
+Chapter 7
+

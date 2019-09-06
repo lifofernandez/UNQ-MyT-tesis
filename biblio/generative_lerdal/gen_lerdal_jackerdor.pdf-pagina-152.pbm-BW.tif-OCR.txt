@@ -1,0 +1,41 @@
+148
+
+ 
+
+BG G G E EG E GE G MNO E E E
+dA AA A e A A A
+
+— ————2— N—]—<[_=——]]——" (—]——z—];];]—;], Ú———————[—;—————]]e[][;———o—]——]]]]C——[—]d2———o]]]—]—/]?
+— ]—SÑ[Ñ]—! — — —
+
+— ]]] ]C ] — ] —]]—Ú———Q]—:K—j—" — D—]—]]dJge————].Ñ["———[—],——]—[.|]— D————];;———]i—
+— —]—]—]——;————Ú—_—] ——]] ——]]]———l[—]—é]—Í—————] í—]——] —]———]]oé;—,]]Ú;——.i—]]Ú];T—; — [ ]]
+
+Notice that the whole-note level time-span in measure 13 automati-
+cally incorporates the upbeat, because of the way rule 2b defines it: it is
+the union of all half-note level time-spans determined by the half-note
+level beats of measure 13 —including the augmented time-span x. On the
+other hand, the whole-note level time-span corresponding to measure 12
+is only three quarters long, because one half-note level time-span within it
+has been truncated by the group boundary.
+
+As additional justification for this solution to the interaction of group-
+ing and metrical structures in time-span segmentation, consider the first
+phrase of Bach”s “O Haupt” in 7.3. To what time-span does the quarter-
+note anacrusis belong at the larger levels of time-span segmentation?
+
+ 
+
+ 
+
+One possibility is that the anacrusis belongs to no time-spans at larger
+levels; it 1s disregarded at larger levels of time-span segmentation. How-
+ever, this would result in either 7.4a or 7.4b as the half-note level reduc-
+tion of 7.3.
+
+   
+
+( Disregard vupheat )
+
+Chapter 7
+

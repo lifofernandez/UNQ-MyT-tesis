@@ -1,0 +1,56 @@
+295
+
+Tonic
+
+The second element of a system of tonality is the designation of a par-
+ticular member of the pitch collection as the major point of stability, or
+tonic. (Some authors have used the term “basis tone” to avoid any impli-
+cations of classical Western tonality.) All other pitches are heard in terms
+of their relation to this pitch, and it is normally the pitch on which a piece
+must end. In addition, there may be another designated pitch that serves
+as a secondary point of stability, which, following Nettl 1973, we will
+call the “dominant.” In classical Western tonal music it is a fifth above
+the tonic, but in other traditions other intervals appear. For example, in
+different Indian ragas the “dominant” (samvad1) is often a fourth or a
+fifth above the tonic (vadi); in Torah chant, the “dominant,”” where “half
+cadences” end, is a second above the tonic.
+
+Different scales may result from choosing different members of the
+pitch collection as tonic. For example, the range of medieval modes
+results in large part from designating different members of the same pitch
+collection as tonic. The same principle applies in deriving various Indian
+ragas (scales) from a single tháta (pitch collection).
+
+The claim that all pitches of a piece are heard in relation to the tonic
+can be concretely demonstrated in the many musical traditions where the
+melodic line is accompanied by a drone, which is invariably pitched on
+the tonic and/or “dominant.” But even where the tonic is not blatantly
+present in this fashion, its identity is usually clear from such factors as the
+nature of cadential structure and the overall shape of melodic lines. Fur-
+thermore, if the reduction hypothesis of chapter 5 is correct, the most
+background level of reduction for every piece is a statement of the tonic;
+hence the tonic is in some sense implicit in every moment of the piece.
+
+Measure of Relative Stability
+
+The third element of a system of tonality is a measure of relative stability
+(or, broadly speaking, of relative consonance and dissonance) for various
+pitch configurations. We have already discussed above the limited ex-
+tent to which the overtone series influences criteria of intervallic stabil-
+ity. Thus many aspects of a measure of stability will be a matter of
+convention.
+
+The simplest imaginable measure of stability would include only one
+distinction: that between the tonic and any other pitch. The tonic would
+be stable, and all other pitches equally unstable. In such an idiom, the
+tonal system as such would place no constraints on the choice of pitches
+within a piece, except for the last note, which, presuming a piece must
+end stably, would have to be the tonic. Van der Werf 1972 argues that the
+chansons of the thirteenth-century trouvéres are a case of this kind of
+tonal organization.
+
+In classical Western tonal music, the principles of relative stability are
+highly elaborated. There are three distinct sorts of principles involved,
+
+Musical Universals and Related Issues
+

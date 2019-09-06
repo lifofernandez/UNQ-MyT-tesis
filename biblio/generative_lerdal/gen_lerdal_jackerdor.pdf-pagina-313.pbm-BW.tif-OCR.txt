@@ -1,0 +1,55 @@
+309
+
+The rules relating syntactic quantifier position and relative embedding
+of quantifiers in logical form have been discussed at great length in both
+the philosophical and linguistic literature. But among the difficulties in
+most accounts (including Jackendoff 1972) has been the assumprtion that
+these rules are well-formedness rules— thatis, that there are principles of
+the usual grammatical sort that clearly determine the relationship. Ioup
+1975 shows that this assumption is false, and that the relationship is in
+part mediated by what in the present context appear to be preference
+rules.
+
+Ioup takes seriously the observation, made occasionally in the litera-
+ture, that ambiguous sentences containing two quantifiers often have a
+preferred reading.? Her preference rules can be stated as follows:
+
+Preference Rule 1 Given two quantifiers in the same surface clause, pref-
+erably assign larger scope to the quantifier that is higher on the follow-
+ing scale, or hierarchy: each>every >all>most>many>several>some>
+a few.
+
+Preference Rule 2 Given two quantifiers in the same surface clause, pref-
+erably assign larger scope to the one in more salient surface position,
+defined as the hierarchy topic>deep and surface subject>deep or surface
+subject but not both>indirect object>preposition object>direct object.
+
+Ioup shows these preferences to hold over a wide range of languages
+(where the hierarchy in rule 1 is defined over the closest translations of
+the quantifiers), and claims that they are universal. Furthermore, the
+hierarchy of syntactic positions is almost the same as one independently
+motivated for other purposes, so it is not totally ad hoc in this rule.
+Though Ioup does not work out very fully the interaction of the two
+rules, the overall pattern looks very much like what we expect from
+preference rules: variable strength application, which yields strongly pre-
+ferred interpretations when rule applications reinforce, ambiguity when
+rule applications of commensurate strength conflict, and exceptions to a
+rule when its weak application is overridden by strong application of
+another rule.
+
+The preference rules for quantifier scope are a relatively small sub-
+system embedded in a large system of well-formedness rules. The next
+examples are more extensive, though they have the disadvantage of not
+having been given as satisfactory a formal treatment.
+
+Pragmatics
+
+Under normal circumstances we use sentences to mean what they mean
+literally. But a substantial body of literature under the rubric “prag-
+matics” has discussed utterances in which the speaker does not literally
+mean what he says. Among the best-known examples are the uses of the
+sentences in 12.3, which are literally requests for an answer of yes or ro,
+as requests for the salt.
+
+Psychological and Linguistic Connections
+

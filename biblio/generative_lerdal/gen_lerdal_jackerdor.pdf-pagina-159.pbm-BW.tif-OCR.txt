@@ -1,0 +1,51 @@
+155
+
+tion could be made. An extremely restrictive account would claim that
+auditory stream segregation is an independent phenomenon that happens
+to have an effect on musical perception just at this point. By contrast, an
+extremely comprehensive account would claim that the rules of time-
+span reduction are completely subsumed by more general principles of
+auditory perception, and thus that the rule resulting in fusion in the Bach
+suite is just a special case of the principle of auditory stream segregation.
+We suspect that the truth lies somewhere berween these two extremes—
+that the rules of time-span reduction are in part determined by general
+properties of auditory perception, but that there is a certain degree of
+specialization for musical cognition. Section 12.3 discusses this issue fur-
+ther, presenting evidence from linguistics bearing on the cognitive gener-
+ality of rules for time-span reduction.
+
+Transformation
+A process somewhat rarer than fusion occurs in 7.13a, part of the Bach
+chorale “O Haupt.”
+
+7.1433
+a
+
+ 
+
+ 
+
+Within the bracketed time-span, neither of the two surface pitch-events is
+heard as the structurally more important, as ordinary reduction would
+require. Rather, as suggested in section 6.6, the head of this time-span is a
+hypothetical root-position E minor chord, composed out of mutually
+consonant fragments of the two-surface events in the time-span.
+
+Example 7.13b illustrates the representation we adopt. The hypothet-
+ical chord is inserted in brackets into the musical surface, between the
+two events out of which it is constructed; the tree represents both actual
+events as directly subordinate to the hypothetical one. In this situation we
+will call the head of the time-span a transformation of the events within
+the time-span.*
+
+Like fusion, transformation occurs only at quite local levels of reduc-
+tion. Again, we provisionally incorporate a restriction into the well-
+formedness rule to express this fact.
+
+Cadential Retention
+
+Sections 6.3 and 6.4 observed that there is one situation in which more
+than a single event is retained in a step of reduction: at a full or deceptive
+
+Formalization of Time-Span Reduction
+

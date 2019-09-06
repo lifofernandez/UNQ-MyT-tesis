@@ -1,0 +1,39 @@
+190
+
+First consider some left-branching possibilities. In 8.15a the half-
+cadential V attaches to the final V, producing a prolongational antici-
+pation. However, as argued above, this makes no sense over such an
+interval of time: How could the first V relax rhythmically into the sec-
+ond? More plausible would be to make the half-cadential V the most
+important V in the passage, with the final V as a prolongational repeti-
+tion (8.15b). But this alternative is dubious because the final V no longer
+cadences the entire passage (recall the discussion in section 6.5 about the
+location of the structural dominant).
+
+8.15
+a b
+
+ 
+
+Perhaps most significantly, 8.15a and 8.15b both fail on the grounds
+that the opening I of the consequent cannot then connect as a right
+branch with the initial I, because that would result in crossing branches
+with the half-cadential V. The attachment of the two Is beginning the two
+phrases seems particularly essential when, as 1s usually the case, thematic
+para!lelism reinforces the harmonic return of the I; one hears the second I
+as a repetition—a starting over—of the first 1. In prolongational branch-
+ing this relationship is expressed by a strong prolongational repetition, in
+which case the half-cadential V must itself be enclosed within a tonic
+prolongation as in 8.16.
+
+8.16
+
+Ne——]—[[
+N———]É]—]]Ú———[]
+
+This leaves two possibilities for attachment of the half-cadential V: as a
+left-branching progression to the opening I of the consequent (8.17a) or
+as a right-branching departure from the initial tonic (8.17b).
+
+Chapter 8
+

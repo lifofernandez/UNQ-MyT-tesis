@@ -1,0 +1,53 @@
+328
+
+Here it is not clear to us which theory should give way, or even if either
+should. On one hand there seems to be only one use in prosodic theory
+for recursive binary-branching trees that cannot be equally coded into
+multiply branching trees: the assignment of relative degree of subsidiary
+stress (Liberman and Prince 1977, p. 259), which is certainly an impor-
+tant function. But in sections 3.4 and 3.5 of the paper Liberman and
+Prince suggest that subsidiary stresses are assigned by reference to the
+metrical structure instead (or in addition). Thus the restriction of pro-
+sodic segmentation and trees to strictly binary branching does not have as
+much explanatory value as might be expected.
+
+On the other hand, there is some potential justification for strict binary
+branching in time-span trees. At subgroup levels, where ternary branch-
+ing occurs in connection with ternary meter, there is often motivation for
+an additional segmentation into 2 + 1 (d J)or1+2(J) ) (the
+typical “oom-pah-pah” accompaniment can be thought of as a special
+case of the latter). Although this subgrouping would not be adhered to
+consistently throughout a piece, as the meter is, it could be supplied in
+each ternary subgroup by appropriately stated preference rules for time-
+span segmentation, a rule type we have so far managed to avoid.
+
+At larger levels, intuirion seems to support the grouping of multiply
+branching forms such as variations by twos, in the absence of evidence to
+the contrary. An odd variation at the end would be adjoined to the group
+consisting of the previous two variations—oparallel to the segmentation
+of trisyllabic feet in English. Thus there might be some advantage to
+imposing strict binary branching on time-span reductions.13 Whatever
+the outcome, the discrepancy between prosodic and time-span theory
+does not seem irreconcilable, or even particularly serious.
+
+A much more important difference is in the interpretation of time-span
+and prosodic trees. As observed above, a branch at any level of a time-
+span tree stands for a single pitch-event, which is elaborated by all the
+events whose branches are subsidiary to it. In a prosodic tree, however, a
+branch is taken to stand for an entire prosodic constituent containing
+strong and weak parts, If the trees are interpreted so differently, can the
+theories really be parallel?
+
+The contrast between the two interpretations is not unlike that be-
+tween two interpretations of metrical accent in music itself. One view,
+that of Cooper and Meyer 1960, is that metrical weight is (in our terms) a
+property of time-spans—that metrical weight has duration. In section
+2.3 we argued against such a view and for one in which metrical weight is
+a property of beats (points in time) rather than time-spans. We said there,
+essentially, that subsidiary elements of “strong” time-spans (time-spans
+beginning on a relatively strong beat) are in fact no stronger than sub-
+sidiary weak elements of “weak” time-spans. For example, in a 4/4 mea-
+sure, the second beat does not receive more weight than the fourth by
+
+Chapter 12
+

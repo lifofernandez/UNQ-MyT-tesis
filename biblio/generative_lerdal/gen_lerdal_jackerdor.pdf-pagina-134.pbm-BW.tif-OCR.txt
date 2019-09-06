@@ -1,0 +1,41 @@
+130
+
+Let us construct the tree step by step. Example 6.9 applies the princi-
+ples of pitch stability to the events at the quarter-note time-span level. 1f
+there is only one event in a span, its branch extends upward by a dotted
+line, to be connected at a later stage to another branch. If there are two
+events in the span, they attach as in 6.6a or 6.6b. As an aid, we label each
+branching according to the paradigmatic situations shown in 6.7.
+
+ 
+
+L.IJL h J Y IJ Z I YI A A III
+
+If we omit (“reduce out”) the events designated as subordinate in 6.9, a
+single event remains as head of each time-span at the quarter-note level.
+Example 6.10 is a convenient musical notation—a “secondary nota-
+tion” —for representing this stage of analysis.
+
+6.10
+
+ 
+
+In this notation, if the head in 6.9 is on the weaker beat, it is placed in
+6.10 on the associated stronger beat. This procedure expresses three
+related intuitions: that an appoggiatura (in its broadest sense) is a struc-
+tural delay, that strong beats “attract” stable events within a group, and
+that the ear seeks, insofar as possible, a regular underlying harmonic
+rhythm.
+
+The next level in the time-span segmentation, the half-note level, con-
+tains both regular and augmented time-spans (see 6.8). Example 6.11a
+shows the branching for events in the regular time-spans; 6.11b shows it
+for the augmented time-spans as well.
+
+Observe how the levels of branching correspond to the levels of subgroup
+
+bracketing. Again, the labeling specifies the paradigmatic situations from
+6.7. Example 6.11c converts 6.11b into the secondary notation.
+
+Chapter 6
+

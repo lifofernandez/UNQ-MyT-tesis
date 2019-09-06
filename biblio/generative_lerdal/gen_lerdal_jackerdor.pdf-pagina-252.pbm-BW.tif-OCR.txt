@@ -1,0 +1,60 @@
+2.8
+Reflections
+on Musical
+Cognition
+and Music
+as an Art
+
+248
+
+Returning to 9.33, we see that the V/V at the end of the first theme-
+group forms the most stable prolongational connection as a left branch,
+as shown in 9.33b. This completes the exposition.
+
+In the recapitulation, the beginning of the second theme-group forms a
+different connection than in the exposition. Because it is a I rather thana
+V, its most stable attachment is as a prolongation of the beginning of the
+recapitulation. In turn, the end of the first theme-group, a V, is now
+berween two ls, It may atrach to the earlier I because of congruence with
+time-span segmentation (PRPR 2). However, it is more usual to hear this
+event as leading into the second theme-group, by parallelism (PRPR 5)
+with the exposition.
+
+Putting together all these fragments, 9.30—9.33, we arrive at 9.35 as
+the tree for the entire movement, This diagram expresses the structural
+counterpoint between the major grouping divisions of the piece and the
+major patterns of tension and relaxation.
+
+PRPR 6 (normative structure) is the last of the rules of musical grammar
+to be developed in this study. As this rule is the first to embody the
+overarching influence of large-scale prolongational structure on the de-
+tails of musical form, we regret having to break off our discussion of
+musical grammar here. Still, there is something important to be learned
+from our having taken so long to reach this point: how abstract musical
+intuition is. If our theory of normative structure of musical phrases is
+correct, the structure is specified in terms of relationships of prolonga-
+tional connection among structurally significant events, not in terms of
+any specified sequence of events. Moreover, the structurally significant
+events are chosen in large part because of their importance in time-span
+reduction, not just for their superficial melodic and harmonic content.
+But time-span reduction itself represents a considerable degree of ab-
+straction from the musical surface, since it crucially involves the grouping
+and metrical structures, which in turn represent properties of the music
+not directly presented in the surface sequence of pitch-events. We believe
+that the great complexity of this mapping from the musical surface to
+prolongational structure, and the comparative lack of prescriptive con-
+straints wWithin that mapping, are among the deeper reasons why tonal
+music is such a rich art.
+
+Some readers may feel uneasy with the complexity of the apparatus we
+have introduced to describe musical intuition, particularly that used to
+derive prolongational structure. Beyond the sheer empirical power of the
+theory to describe the characteristics of specific pieces and of tonal music
+in general, we offer three arguments that support this complexity.
+
+First, we have been careful to relate every step in our development of
+musical grammar to musical intuition. The four components of musi-
+cal structure each express a different aspect of musical intuition, and
+
+Chapter 9
+

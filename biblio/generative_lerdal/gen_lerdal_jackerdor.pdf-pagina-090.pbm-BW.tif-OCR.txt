@@ -1,0 +1,72 @@
+4.35
+
+ 
+
+ 
+
+ 
+
+J, Jevel
+
+Rule 333
+tecatuons 5e 5a
+a 1evel 3
+J level »
+Rule 3 3
+L¿al¡,maans %
+e level
+Á /evel
+.fey/etia í 3
+Lications
+d€€ d (evel Se
+2 leve!
+/(¿¡/2 , 3
+ueations
+at e level 5e
+20 level
+86
+
+1234356 7239390 14 15 16 17 /_3/9 2_02/2_22324252627292_93:03/ a2
+
+333 333 3 8333 333 333 3
+5a 5a 5a Sa 5a sa “=a
+sc sc -c sc 5c 5c
+5e 5e se 5e Se e
+5F
+3 3 3 3 3 3 3 3 3 3 3 3
+5a 5a 5a 54 $a sa 5a
+5e 5e *“e Sc Jc sc
+“ s .- Y
+e
+f
+3 3 3 3 3
+Ff
+3 3 3
+Y
+
+We start with the eighth-note level, which is of course assigned by the
+MWFRs (MWEFR 1 requires a beat at the attack point of each note, and
+MWER 4 fills the level in evenly). Those beats at the eighth-note level that
+coincide with beginnings of notes are marked by MPR 3 (the event rule);
+rests and continuations of notes are not marked. There are no local
+stresses, so MPR 4 has no effect (though stresses are often added at 11 and
+27 in performance to reinforce the metrical structure). MPR Sa (length of
+pitch-event) marks the beginning of the quarter notes; MPR Sc (length of
+slur) marks the beginning of the slurs. The beginnings of repeated pitches
+are marked by MPR Se. Finally, MPR Sf (length of harmony) applies at
+the change at 27 (beat 1 has been preceded by accompaniment, so it is not
+a harmonic change).5
+
+Examining the totality of rule applications at this level, we find a
+situation not unlike 4.16b above: clusters of three adjacent beats where
+rules apply, followed by a beat with no rule applications. As in 4.16b,
+rule applications on weak beats can be minimized by assigning strong
+beats to the first and third beats of each cluster, giving the quarter-note
+level shown in 4.35.
+
+Now let us determine the strong beats at the quarter-note level. At this
+level, every beat except 15 and 31 occurs at the inception of a pitch-event
+and therefore is marked by MPR 3. The quarter notes are relatively long
+
+Chapter 4
+

@@ -1,0 +1,55 @@
+219
+
+For a more complex but similar case consider 9.4c, in which e, has
+been chosen as the most important event between e; and e¡; assume that
+e, has turned out to be a direct elaboration of e,. Then the passage from
+e7 to e, is divided up into two regions: (e>—e ,) and (e,—e ). Let us focus
+on the geometry of the latter of these regions.
+
+Suppose that the prolongationally most important event in (es—e )
+turns out to be e;. As shown in 9.4d, e; could conceivably be attached in
+any of three ways: to e, to e», orto e. However, if it is attached to e, the
+prohibition against crossing branches means that it must be attached
+higher than e ,, and hence that it is prolongationally more important than
+e. But this violates the assumption that e, was the most important event
+in (e4—e ). Therefore, e; may be attached only to e, or e ¡ ¡f the musical
+meaning of the tree is to be preserved.
+
+For the most complex case, suppose that e; in 9.4d turns out to be
+attached to e, as 1n 9.4e. Then, in the region (e,—es), the prolongation-
+ally most important event e5 can geometrically be attached in four differ-
+ent places: to e, e2, €1, and e;. But attachment to e, would require e; to
+be more important than e,, violating assumptions; and attachment to e,
+would require e; to be more important than es, again violating assump-
+tions. Hence only attachment to e, or e; is possible.
+
+This exercise has established the general procedure for constructing a
+prolongational tree. The prolongational head e; establishes two initial
+regions, (4*-—e ) and (e,—%), of which the second is empty if ej is at the
+very end. We find the prolongationally most important events in each of
+these regions and attach them to e, dividing the piece into at most four
+regions. In each of these regions, we find the prolongationally most im-
+portant event and attach it to one of the events that bound the region
+from which it has been chosen. These then divide the regions in which
+they were chosen into further regions, and so forth. In general, an event
+chosen as the most important event in a region (e;—e;) must be a direct
+elaboration of either e; or e;; it cannot be a direct elaboration of some-
+thing e; or e; is attached to. If one endpoint of a region is *, the most
+important event in the region must be a direct elaboration of its other
+endpoint.
+
+Having worked out this procedure, we can now define a prolonga-
+tional region in a simple and general fashion:
+
+A prolongational region is a sequence of events (e;—e;), (*-—e)), or (e;—%)
+such that all events within the sequence are recursive elaborations of
+either e; or e;.
+
+The reader can easily verify that this definition is valid for all the prolon-
+gational regions illustrated in 9.4. In particular, in the most complex case
+(9.4e), e; must be a direct elaboration of either e, or e5; and events chosen
+subsequently between e, and e; must in turn be elaborations of e,, es, Or
+e5 (that is, recursive elaborations of either e, or e-).
+
+Formalization of Prolongational Reduction
+

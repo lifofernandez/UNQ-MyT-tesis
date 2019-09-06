@@ -1,0 +1,57 @@
+11.3
+Summary of
+Rhythmic Features
+
+283
+
+machinery, for which there is no evident survival value. A conceivable
+answer might be that many of the principles of musical grammar are not
+specific to music; that musical grammar is a confluence of a number of
+factors independently needed for more essential aspects of cognitive abil-
+ity. (There might, nevertheless, be a residue of musical cognition thatis a
+product of nonadaptive evolutionary accident.) We have already men-
+tioned a few such possibilities: the principles of grouping (section 3.2),
+the use of stress (phenomenal accent) and length as indications of accent
+in both music and language (section 4.2), and the phenomenon of audi-
+tory stream segregation and its relation to fusion in time-span reduction
+(section 7.2). Chapter 12 will explore such correspondences in more
+detail.
+
+However, such an argument does not make musical grammar any
+simpler; it just shows that musical grammar, in all its richness, need not
+be isolated from the rest of cognition. In fact, it should be worthwhile to
+pursue these connections in the opposite direction, using the complexity
+of musical grammar as evidence for the complexity of cognition in
+general.
+
+To buttress our claim for the complexity and hence the possible innate-
+ness of much of musical intuition, we summarize in this section the
+contributions of our theory to an area commonly thought to involve
+“natural” abilities: musical rhythm. lt is also an area where musical
+properties carry over to other dimensions of human experience. In addi-
+tion, this overview provides the opportunity from a purely musical stand-
+point for gathering together ideas, scattered throughout the book, on a
+topic of great importance.
+
+At the beginning of chapter 2 we implied that many writers have
+treated the subject of rhythm inadequately because they have tried to
+reduce its many aspects to a few simple notions. We have proposed
+instead that rhythm is multidimensional and interactive. Below are the
+aspects of rhythm that our theory addresses. Some of these aspects
+emerge directly as part of the structural description assigned to a piece by
+the formal grammar, others indirectly as interpretations based on the
+structural description.
+
+1. The grouping component assigns the segmentation into musical units
+inferred by the listener from the musical surface. The local hierarchical
+distortions of overlap and elision are given special treatment within
+the grouping component by means of transformational rules.
+
+2. The metrical component assigns the pattern of strong and weak beats
+heard by the listener. Metrical accents are distinguished from phenom-
+enal accents, which are an input to metrical structure, and structural
+accents, Which are represented in time-span reduction. Syncopation
+arises when phenomenal accents conflict with the inferred metrical
+
+Musical Universals and Related Issues
+

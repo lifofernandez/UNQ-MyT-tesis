@@ -1,0 +1,54 @@
+197
+
+same as before, since their function is local. The result is that the branch-
+ings of the 1, the vii”, and the I* in the consequent diverge from the closing
+1i16-V—I of that phrase, and connect instead across the phrase boundary,
+creating a huge jump in the tree between the IS and the ii“.
+
+Such jumps in prolongational trees have a special meaning: they point
+to moments in the musical low where the “structural action” begins to
+take place (in this case, with the preparation for the final cadence). More
+generally, a right-branching pattern followed by a left-branching pattern
+will always create a jump. Such jumps represent major reversals in ten-
+sion and relaxation, from ongoing progression toward closure.
+
+These features could never appear within a phrase in time-span reduc-
+tion, bound as it is to the time-span segmentation. Indeed, the tree for the
+consequent in 8.25c is highly noncongruent, since the time-span tree for
+this phrase would make its structural beginning subordinate to the final
+cadence, not to the initial I of the antecedent. Together the two kinds of
+reduction illuminate the double function of the beginning of any reprise:
+on one hand, such a moment begins a coherent musical unit (as conveyed
+by time-span reduction); on the other, it repeats and prolongs an earlier
+moment (as conveyed by prolongational reduction).
+
+It may be objected nonetheless that the patterns of tension and relaxa-
+tion for the consequent phrase in 8.25 are most easily revealed by a local
+analysis, and that therefore 8.25a is preferable to 8.25c. We respond that
+both analyses are correct, depending on the perspective. A fundamental
+feature of musical understanding is that it functions simultaneously in
+varying degrees of fragmentation and integration. One can easily imagine
+an undeveloped or inattentive listener who hears only partial prolonga-
+tional hierarchies, either unconnected or insufficiently integrated with
+each other. The experienced listener, on the other hand, follows the
+Reduction Hypothesis and integrates all the parts into a whole, while at
+the same time hearing the aspect of wholeness within each part. This
+truly complex state of affairs could be represented in our theory by
+providing multiple preferred analyses signifying different degrees of inte-
+gration (for example, both 8.25a and 8.25c). Our more modest goal here,
+however, will be to continue to adhere to the simplifying idealizations set
+forth in section 1.1, and to develop analyses of only the most global
+hearings.
+
+Normative Prolongational Structure
+
+Implicit in the discussion so far is that certain tree patterns recur con-
+stantly, whereas others virtually never happen. For example, it is most
+unlikely that a phrase or piece begins in utmost tension and proceeds
+more or less uniformly toward relaxation (8.26a), or that it begins in
+relaxation and proceeds toward a conclusion of utmost tension (8.26b),
+or that it begins and ends in tension with a relaxed midpoint (8.26c).
+These are suggestive possibilities uncharacteristic of Western tonality.
+
+Prolongational Reduction
+

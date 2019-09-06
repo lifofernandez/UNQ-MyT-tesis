@@ -1,0 +1,64 @@
+Chapter 2
+
+334
+
+exception; although musically limited, his “analytic” approach to musical gram-
+mar is in some ways more like ours than the “synthetic” grammars cited above.
+
+8. An intrinsic advantage of our “analytic” approach to generative music theory
+over the “synthetic” approaches listed in note 7 is that we can deal from the start
+with a far wider range of literarure than the musically extremely limited sample
+each of them generates.
+
+9. This is a point often missed by musical laymen. For example, Hofstadter 1979
+speaks of music as expressing the “structure of emorions,” but the only musical
+structures actually discussed are the canonic and fugal structures of such works as
+Bach's Musical Offering. Although we do not deny the interest of rhese struc-
+rures, they are superficial to an understanding of Bach's or any other composer's
+art. Their significance lies, rather, in how they mesh with the more fundamental,
+and very different, kinds of musical structure discussed here. The affective con-
+rent of music, we believe, lies in irs exploiration of the resources of the tonal
+system to build dramaric structure. For an influential discussion of musical affect
+in terms of strucrural “expectations,” see Meyer 1956.
+
+10. Recent developments in generative linguistics (for example, Jackendoff 1972;
+Bresnan 1978) have considerably weakened the role of transformations in favor
+of enriched phrase-structure grammar, lexicon, and semantic interpretation. In
+this respect our music theory more closely resembles current linguistic theory
+than thar of Chomsky 1957, in that ir accounts for structure in terms of the
+interacrion of several components which individually are relatively restricred. For
+another possible notion of musical transformational rule, which we reject, see
+section 11.4.
+
+1. Andrew Imbrie (personal communication) has suggested possible examples of
+overlaps like j. We are inclined to regard them as strucrural ambiguiries, that is,
+passages where two competing plausible groupings can be assigned. Though
+secrion 3.4 treats only overlaps like í, the theory could easily be expanded to
+accommodate case ; should this prove necessary.
+
+2. Sessions (1951, pp. 82—92) makes essentially the same distincrions; his “accent
+of weight” corresponds to strucrural accent, and, in a more restricted sense, his
+“expressive accent” corresponds to phenomenal accent. Cooper and Meyer
+(1960, pp. 6-8) distinguish berween “stress” (phenomenal accent) and “accent,”
+bur do not adequately define che larter term; they appear to intend it to mean
+metrical accent combined with aspects of grouping structure and of struccural
+accent.
+
+3. Imbrie (1973, p. 53) and, in effect, Komar (1971, p. 52) precede us in observ-
+ing thar bears are durationless points in rime. The spatial analogy comes from
+Imbrie. Komar (p. 36) also uses the term time-span in the sense we intend.
+
+4. Yeston 1976 (p. 67) also points this our.
+
+5. Because Komar (1971), by analogy with Schenker's pitch theory, artempts to
+develop a metrical theory derived from “background” metrical levels, ler us
+enumerate a few more general reservarions we have about this approach. First, it
+is an unacceptable simplificarion to argue, as Komar must, rhar harmonic arrival
+(structural accent) and large-scale metrical accent must coincide. This require-
+ment becomes especially problematic when one must choose berween strucrural
+beginnings and cadences, which together form spans thar are anything but
+equidistant. (We trear this matter in section 2.4.) Second, with pieces having any
+sectiona! irregularity ar all (that is, with most pieces), how an analysis gets from
+
+Notes to pp. 6-21
+

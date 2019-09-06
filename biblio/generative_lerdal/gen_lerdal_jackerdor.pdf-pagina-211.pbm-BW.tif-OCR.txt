@@ -1,0 +1,38 @@
+ 
+
+207
+
+prolongs the V in measure 11. Third, the codetta is represented by the
+tonic prolongational repetition from measure 23 to measure 29. Be-
+neath the secondary notation in 8.35a is shown the (rounded binary)
+A+B+A'+codetta form of the piece; note how noncongruent it is with
+the prolongational groupings. From level f in 8.33, 8.35b adds the re-
+maining structural accents, the V in measure 5 and the I in measure 6.
+Also included are the cadential preparations in measures 4 and 9, corre-
+sponding to the ii5 in measure 22.
+
+The portion of the tree within the dashed area a, signifying the
+antecedent-consequent period of measures 1-10, repeats the global tree
+1n 8.34c; this is a good example of self-embedding. Areas b and c draw
+attention to the fact that the I prolongation in measures 23—-29 balances
+the V prolongation in measures 11—18. The coherence of the piece hangs
+in part on these prolongational relationships.
+
+As all the phrases are now framed by their most important events, we
+can turn next to their internal structures one by one.
+
+The major point of prolongational interest in the antecedent phrase in
+measures 1—5 concerns the pivotal role of the vi chord in measure 3.
+Should it be a right or a left branch? Rhythmic and motivic consider-
+ations direct it as a tensing motion off the previous V in measure 3, but
+harmonically it is already part of the cadential nucleus. The analysis in
+8.36c suggests both possibilities with dashed branches. Also worth point-
+ng out in 8.36c is the slight tensing-relaxing motion at the cadence,
+enclosed within the larger relaxation of the ii*—V progression. Finally,
+observe that the neighboring IV chord in measure 2 attaches as a right,
+not a left, branch; this is due to the influence of the time-span segmenta-
+tion, a prolongational principle to be discussed in section 9.4. The conse-
+quent phrase in measures 6-10 requires no additional comment.
+
+Prolongational Reduction
+

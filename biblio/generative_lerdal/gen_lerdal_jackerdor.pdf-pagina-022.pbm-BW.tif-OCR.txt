@@ -1,0 +1,51 @@
+18
+
+are strongly contradictory yet not strong enough, or regular enough, to
+override the inferred pattern. In sum, the listener's cognitive task is to
+match the given pattern of phenomenal accentuation as closely as possi-
+ble to a permissible pattern of metrical accentuation; where the two
+patterns diverge, the result is syncopation, ambiguity, or some other kind
+of rhythmic complexity.
+
+Metrical accent, then, is a mental construct, inferred from but not
+identical to the patterns of accentuation at the musical surface. Our
+concern now is to characterize this construct. However, because “metri-
+cal accent” is nothing but a relative term applied to beats within a regular
+metrical hierarchy, we can instead describe what constitutes a metrical
+pattern. Specifically, we need to investigate the notions of “beat,” “peri-
+odicity,” and “metrical hierarchy.” In the course of this discussion we
+will develop an analytic notation for metrical structure and outline the
+range of permissible metrical patterns.
+
+Before proceeding, we should note that the principles of grouping
+structure are more universal than those of metrical structure. In fact,
+though all music groups into units of various kinds, some music does not
+have metrical structure at all, in the specific sense that the listener is
+unable to extrapolate from the musical signal a hierarchy of beats. Ex-
+amples that come immediately to mind are Gregorian chant, the alap
+(opening section) of a North Indian raga, and much contemporary music
+(regardless of whether the notation is “spatial” or conventional). At the
+opposite extreme, the music of many cultures has a more complicated
+metrical organization than that of tonal music. As will emerge, the
+rhythmic complexities of tonal music arise from the interaction of a
+comparatively simple metrical organization with grouping structure, and,
+above all, from the interaction of both components with a very rich pitch
+structure.
+
+The Metrical Hierarchy
+The elements that make up a metrical pattern are beats. It must be
+emphasized at the outset that beats, as such, do not have duration.
+Players respond to a hypothetically infinitesimal point in the conductor's
+beat; a metronome gives clicks, not sustained sounds. Beats are idealiza-
+tions, utilized by the performer and inferred by the listener from the
+musical signal. To use a spatial analogy: beats correspond to geometric
+points rather than to the lines drawn between them. But, of course, beats
+occur in time; therefore an interval of time—a duration—takes place
+between successive beats. For such intervals we use the term time-span.
+In the spatial analogy, time-spans correspond to the spaces between geo-
+metric points. Time-spans have duration, then, and beats do not.3
+Because beats are analogous to points, it is convenient to represent
+them by dots. The sequences of dots in 2.6 stand for sequences of beats.
+
+Chapter 2
+

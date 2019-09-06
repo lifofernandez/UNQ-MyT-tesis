@@ -1,0 +1,37 @@
+3
+Grouping Structure
+
+Chapter 2 presented the analytic system for two aspects of musical
+structure: grouping and meter. This chapter and the next address the
+formalization of these two components of the analytic system, showing
+how the structures used in analysis are rigorously characterized and how
+they are related to actual pieces of music in a rule-governed way.
+
+In presenting our hypotheses about the grammar of tonal music we will
+attempt to motivate as fully as possible each rule, so that the reader can
+follow each step in building up what turns out to be a rather intricate
+system. Ideally we would explore a number of alternative formulations
+and defend our choice against them, but limitations of space and patience
+preclude doing so to any great extent. The reader should nevertheless
+be aware that alternative formulations are possible, and that defects in
+one aspect of the theory often can be remedied by relatively minor
+modifications.
+
+This chapter is devoted to the organization of the musical surface into
+groups. From a psychological point of view, grouping of a musical sur-
+face is an auditory analog of the partitioning of the visual field into
+objects, parts of objects, and parts of parts of objects. More than any
+other component of the musical grammar, the grouping component ap-
+pears to be of obvious psychological interest, in that the grammar that
+describes grouping structure seems to consist largely of general condi-
+tions for auditory pattern perception that have far broader application
+than for music alone. Moreover, the rules for grouping seem to be
+idiom-independent—ethat is, a listener needs to know relatively little
+about a musical idiom in order to assign grouping structure to pieces in
+that idiom.
+
+Like the other components of the musical grammar, the grouping
+component consists of two sets of rules. Grouping well-formedness rules
+(GWEFRs) establish the formal structure of grouping patterns and their
+relationship to the string of pitch-events that form a piece; these rules are
+

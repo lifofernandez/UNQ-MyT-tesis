@@ -1,0 +1,53 @@
+264
+
+arises that the moment of greatest tension (that is, the most deeply em-
+bedded right branch, measure 29), takes place within the elaboration of
+the final cadence.
+
+A few words about the secondary notation in 10.11; At level b we have
+slightly transformed the outer voice-leading to show the underlying pat-
+tern of descending 10ths in measures 4—19. In measures 24—35 we have
+added some inner voicing, together with the numbering of scale degrees,
+to demonstrate how the melodic line resolves simultaneously on the tonic
+in the upper register and on the third in the middle register. (This analysis
+corresponds closely to that of Schenker 1932.) Level a shows the overall
+basic form and normative structure (with added right prolongation)
+(compare 8.28b). It is unusual for these events to spread out so evenly
+across an entire piece. This, plus the unarticulated musical surface, gives
+the piece the character of a single overarching phrase.
+
+Before turning to the next example, we must interpolate a remark
+about harmonic rhythm. As normally conceived, harmonic rhythm is the
+pattern of durations produced by changes in harmony at the musical
+surface. This conception can easily be deepened by considering it also to
+be the pattern of durations created by any given level of prolongational
+reduction. For example, the harmonic rhythm of the C Major Prelude is
+not just one harmony per bar, but—among other levels—19 bars of 1
+(measures 1-19), 3 bars of ii% (measures 21—23, with measure 20 as
+transitional), 8 bars of V7 (measures 24-—31), and 4 bars of I (measures
+32-35) (level a in the secondary notation in 10.11).
+
+Schubert's song “Morgengruss” also begins its final cadence unusually
+early, but in this case the harmonic rhythm of its global normative struc-
+ture is so bizarre that one suspects the actual music to be a deviation from
+a more prototypical pattern. Before this point can be addressed, however,
+we must look at its grouping, metrical, and time-span reductional
+analyses (10.12). (In the example, the introduction and strophic repeti-
+tions have been omitted. The musicis already reduced to the quarter-note
+level. The voice and piano have been compressed into one; the paren-
+theses in measures 6—7 and 17-19 indicate the timbrally subordinate
+repetitions for piano alone.)
+
+To abbreviate this discussion, let us assume as given the metrical and
+time-span reductional analyses. The grouping, however, deserves special
+comment. In 10.12 the solid slurs denote the selected groupings, the
+dashed slurs alternate possibilities. The first ambiguity concerns the sta-
+tus of the piano repetitions in measures 6-7 and 17-—19. Are they exten-
+sions of two parallel 6-bar phrases (measures 1—6 and 12—17) (GPR 6),
+or are they echoes of immediately preceding material (measures 5—6 and
+15-17) (also GPR 6)? Both are true; we have chosen the latrer parallelism
+because the former would excessively elevate the piano repetitions in the
+time-span reduction (GPR 7).
+
+Chapter 10
+

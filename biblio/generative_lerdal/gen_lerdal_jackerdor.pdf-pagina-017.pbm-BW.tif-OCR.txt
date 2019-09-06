@@ -1,0 +1,56 @@
+2.1
+Grouping Structure
+
+13
+
+The process of grouping is common to many areas of human cognition. I£
+confronted with a series of elements or a sequence of events, a person
+spontaneously segments or “chunks” the elements or events into groups
+of some kind. The ease or difficulty with which he performs this opera-
+tion depends on how well the intrinsic organization of the input matches
+his internal, unconscious principles for constructing groupings. For music
+the input is the raw sequences of pitches, attack points, durations, dy-
+namics, and timbres in a heard piece. When a listener has construed a
+grouping structure for a piece, he has gone a long way toward “making
+sense” of the piece: he knows what the units are, and which units belong
+together and which do not. This knowledge in turn becomes an impor-
+tant input for his constructing other, more complicated kinds of musical
+structure. Thus grouping can be viewed as the most basic component of
+musical understanding.
+
+The most fundamental characteristic of musical groups is that they are
+heard in a hierarchical fashion. A motive is heard as part of a theme, a
+theme as part of a theme-group, and a section as part of a piece. To reflect
+these perceived hierarchies we represent groups by slurs placed beneath
+the musical notation. A slur enclosed within a slur signifies that a group is
+heard as part of a larger group. For example, in 2.1 the groups marked p
+are heard as part of the larger group marked q.
+
+21
+*—P—/——L/
+
+— 4 —
+
+The concept hierarchy must be examined with some precision. A
+hierarchical structure, in the sense used in this theory, is an organization
+composed of discrete elements or regions related in such a way that one
+element or region subsumes or contains other elements or regions. A
+subsumed or contained element or region can be said to be subordinate
+to the element or region that subsumes or contains it; the latter can be
+said to dominate, or be superordinate to, the former. In principle this
+process of subordination (or domination) can continue indefinitely. Thus
+all elements or regions in a hierarchy except those at the very top and
+bottom of the structure are subordinate in one direction and dominating
+in the other. Elements or regions that are about equally subordinate
+within the entire hierarchy can be thought of as being at a particular
+hierarchical level. A particular level can be spoken of as small-scale or
+large-scale, depending on the size of its constituent elements or regions.
+
+In a strictly hierarchical organization, a dominating region contains
+subordinate regions but cannot partially overlap with those regions.
+Hence the grouping structure in 2.2a represents a possible organization,
+but the grouping structure in 2.2b represents an impossible organization:
+at ¿ two regions overlap at both levels 1 and 2, at j two regions overlap
+
+Rhythmic Structure
+

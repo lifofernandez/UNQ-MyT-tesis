@@ -1,0 +1,40 @@
+182
+
+8.5 (cont.)
+
+ 
+
+Second, a joining of branches by a filled-in circle (8.5b) signifies what we
+call a weak prolongation: the roots of the two events are identical, but
+one of the events is in a less consonant position, either with respect to the
+bass (chordal inversion) or— secondarily—with respect to the melodic
+note. Third, a joining of branches by an open circle (8.5c) signifies what
+we call a strong prolongation: the roots, bass notes, and melodic notes of
+the two events are identical. Here pitch factors alone produce no increase
+or decrease in tension, so rhythmic factors must be invoked to decide
+right or left branching. We will take up this issue in the next section.
+The different kinds of right and left branching do not represent the
+same degrees of tension or relaxation. Consider right branching first. A
+repetition of the same event is intrinsically nontensing (8.6a). A repeti-
+tion in a less consonant form induces some degree of tension (8.6b). Most
+tensing is a progression to a completely different and less consonant event
+
+(8.60).
+8.6
+a b c
+Peteh-events: X y x y X Yy
+y :s a stromg pro- J s a weak pro - y is a progression
+Zengation of X /ongation of x Jrom * (departure)
+frepet¿tion)
+d e f
+x y X y * Yy
+X ¿s a strong pro- X (S a weak pro- X ¿S a progression
+longation of y longateon of y to y (arrcval or
+(a.nt¡cúpation ) reselvtion)
+
+In left branching the pattern is reversed, because left branching signifies a
+movement toward relaxation. The least relaxing connection is an antici-
+pation of the same event (8.6d), since no change in pitch structure takes
+
+Chapter 8
+

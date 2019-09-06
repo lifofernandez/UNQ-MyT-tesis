@@ -1,0 +1,57 @@
+8.4
+A Secondary
+Notation
+
+By contrast, the consequent phrase, analyzed in isolation in 8.29b, pro-
+duces a basic form but lacks the right branch necessary for normative
+structure. (If, by parallelism with the antecedent, the ii were analyzed as
+a right-branching departure, the phrase would lack a subdominant ca-
+dential preparation.) This absence of any significant tensing motion
+makes the consequent in itself sound perhaps less complete than the
+antecedent. Together, however, the two phrases produce a normative
+structure, a basic form, and a prolongational repetition indicating the
+reprise (8.29c). Each half needs the other for completion.
+
+We have found that normative structure in particular constitutes more
+than a descriptive generalization about prolongational trees. It is also an
+active force in shaping prolongational relationships. Listeners intuitively
+seek out this tensing-relaxing pattern even where contrasting hearings
+might otherwise seem more viable. (Why this is so would make interest-
+ing speculation; is it a Western cultural convention, or does it originate in
+biological factors?) Therefore this principle must become part of the
+formal grammar; we will return to it in section 9.6.
+
+The prolongational trees are by now sufficiently complicated that it will
+help to relate them to a secondary notation developed from ordinary
+musical notation. For this purpose we will adapt two Schenkerian sym-
+bols, the stemless note head and the solid or dashed slur. The stemless
+note head is useful because it represents pitch-events but is durationally
+and hierarchically neutral. The slurs reflect the connections and hierar-
+chical distinctions conveyed by the tree.
+
+Only the slurs require explanation. Suppose there are two “adjacent”
+events x and y; for the moment it does not matter which is prolonga-
+tionally more important. If they connect as a strong prolongation, a
+dashed slur is drawn between them in the secondary notation (8.30a). 1f
+they connect as a weak prolongation or as a progression, a solid slur is
+drawn between them (8.30b, 8.30c). If their branches do not directly join
+in the tree, no slur can be drawn between them (8.30d). Thus, given the
+three events in 8.30€, slurs are drawn between x andz and between y and
+z, but not between x and y; and similarly in 8.30f£, where no slur is drawn
+between x and z.
+
+8.30
+a b c d
+
+!
+
+A
+
+<y X_y X y x 4
+
+(nos/ur)
+e f g h
+x/_y>> x yz x4<zXn n/%2
+
+Kj — — N -
+

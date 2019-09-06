@@ -1,0 +1,272 @@
+8 Reasons MIDI is Still Alive and Kicking
+
+Advertisement
+by Adrian Try16 Jul 2009
+Length:ShortLanguages:[English]
+GeneralReason
+“Is MIDI dead?” The question seems to be echoed from forum to forum. MIDI was
+invented in the early 80s just after I got into music. Back then keyboards were
+primitive, the personal computer had just been invented, and 640K was enough
+RAM for anyone. MIDI was a solution that fit like a glove in that world. You
+might be surprised people are still using it today.
+
+And yet it seems that MIDI is everywhere you look in music recording. We use it
+in ways that the original engineers never dreamed of or intended, and it looks
+like MIDI is here to stay. Even if you’re part of the “I don’t do MIDI
+sequencing – I’m a real musician” club, MIDI may still form a key part of your
+setup.
+
+What makes MIDI so unique and useful?
+
+1. MIDI lets different pieces of hardware and software work together
+
+MIDI is the “musical instrument digital interface”. It was primarily designed
+to connect different pieces of hardware together. Back then you would use it to
+interconnect two or three keyboards and a drum machine with your Roland MC500
+sequencer. It was a standard, so worked with all brand names, and seemed like
+magic.
+
+MIDI is still used to connect hardware today, though you’re more likely to use
+a USB lead to connect your keyboard to your computer for reasons of speed and
+reduced latency. I still use MIDI leads to connect various digital instruments
+and sound modules to my controller keyboard.
+
+And these days MIDI timing codes also allow different software programs to
+communicate together and work as one, allowing your recording software to start
+external hardware playing, as well as other software programs, for example a
+drum machine application. This is just one example of how the use of MIDI has
+been extended.
+
+2. MIDI lets you play and record music using a wide variety of controllers
+
+MIDI separates the sound from the instrument you are playing, allowing you to
+use a variety of controllers to make music. Weighted keyboards, unweighted
+keyboards, electronic percussion instruments, MIDI wind instruments and guitar
+controllers are all available. In addition, MIDI allows you to use external
+control surfaces with knobs and sliders to do your mixing with. The variety of
+controllers allow you many options for playing with different feeling and
+expression.
+
+3. MIDI files are small
+
+There was a shortage of memory and disk space when MIDI was created. The first
+IBM hard drives were only 5 MB, and space was at a premium. Recording audio
+wasn’t yet an option, either in terms of storage or processing power. In
+comparison, MIDI files were fast, tiny, and appropriate.
+
+During the 90s I used MIDI extensively. My small 95 MHz Toshiba Libretto with
+only 16 MB of RAM was a perfect and portable MIDI sequencer. I took it with me
+everywhere, and sat it on top of the weighted MIDI keyboards I was playing.
+Despite the low specs of the computer, it never skipped a beat.
+
+In these days of terabyte drives, the small size of a MIDI file seems like
+overkill, and it is certainly not as important as it once was. For many years
+MIDI music has been used on websites (unfortunately), game cartridges, and
+mobile phones, but even in these areas larger WAV and MP3 files are now
+acceptable. The small file size is refreshing rather than essential. While
+recording, source audio files can become huge, and anything that can keep the
+size down is welcome.
+
+4. MIDI has been extended
+
+One thing that has kept MIDI alive and relevant is that it keeps getting
+extended. In the early days of electronic keyboards, there was no standard
+patch mapping of instrument sounds. Sound 25 may have been piano on one
+keyboard, and pads on another. That made things difficult when you swapped
+things around – whether you sent your latest MIDI file to a friend with a
+different keyboard, or just replaced a keyboard or module in your rack with
+another. The lack of standardization often brought unexpected results.
+
+In 1991, the MIDI standard was extended to become the General MIDI standard.
+The main change was to standardize 128 patches, so that the instruments on one
+keyboard would match those on another exactly. This made MIDI more useful –
+standard MIDI files could be swapped between users, and now many thousands
+(millions?) are available online.
+
+In time General MIDI was extended to the GS and XG “standards” by Roland and
+Yamaha respectively, both of whom added additional instruments and effects to
+the standard.
+
+5. MIDI sequencing
+
+MIDI sequencing is not the same as recording sounds. A sequencer records which
+notes were played, how hard or fast they were hit, and how long they were held.
+It’s the modern equivalent of a pianola roll. To hear the music played, you
+need an instrument to play back what was recorded.
+
+But even though it’s not really recording, it achieves essentially the same
+thing when it comes to electronic instruments, making it a good starting point
+for those getting into recording – especially those with old or low-spec
+computers. And MIDI’s extra flexibility makes it worth considering for many
+professional applications as well.
+
+6. MIDI is flexible
+
+MIDI sequencing is more flexible than recording in many ways. Here are three of
+them:
+
+ 1. With MIDI sequencing, you don’t have to decide on the sounds before you
+    record. After you have recorded your piece, it is very simple to change the
+    sound to something completely different.
+ 2. If the timing of your playing is a little sloppy, you can quantize a track
+    or region so that it plays perfectly in time.
+ 3. If there are minor errors in your playing, or you change your mind about
+    the timing or pitch of one note, you can make adjustments with your mouse
+    without having to record the track again.
+
+7. MIDI plays soundfonts
+
+In the old days, to play back a MIDI sequence you had to connect your computer
+to a multi-timbral keyboard or sound module. These days all of that can be done
+using software. There are thousands of soundfonts containing rich instrumental
+or artificial sounds, some free, and others costing many thousands of dollars.
+There is a universe of virtual sounds waiting for you to explore.
+
+8. MIDI makes notation easy
+
+Finally, because a standard MIDI file contains the pitch and duration of each
+note, it is relatively easy for a software program to display this as standard
+music notation. Many sequencing and digital recording programs are capable of
+displaying music in this way, or you can use a dedicated notation application
+if you are serious about printing sheet music professionally.
+
+Now it’s over to you. Is MIDI dead or alive in your studio? How do you use
+MIDI, and are you a fan?
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Why MIDI Matters
+
+Getting Started with MIDI Tutorials
+The MIDI Association
+Screen-Shot-2018-04-11-at-5.05.10-PM
+
+MIDI is like air, it's all around you, most of the time you can take it for
+granted, but if you are a digital musician you probably couldn't live with out
+it. MIDI is inside musical instruments, computers, tablets, smart phones, stage
+lighting, audio mixers, and many other products from well-known international
+companies including Apple, Gibson, Google, Korg, Microsoft, Roland, Yamaha, and
+hundreds more. By the fall of 2015, it's projected that they will be around 2.6
+billion devices on the planet that are MIDI enabled!
+
+MIDI is almost always an integral part of the modern recording process for
+popular music and the music that is made for films, TV, and even video games.
+MIDI-equipped electronic keyboards are connected to computers and mobile
+devices running Digital Audio workstation software that record both MIDI and
+Audio to produce music. With advances in computing power making digital
+software based instruments sound ever more realistic, the music you hear on TV,
+in radio ads and in movies is often recordings of MIDI instruments (both
+hardware instruments and virtual "soft synth" software rather than of dozens of
+acoustic instruments. Even the huge orchestral score playing behind that
+big-screen block buster almost always starts off as a MIDI mockup arrangement
+and then the composer uses MIDI to transcribe the parts into music notation.
+
+More and more DJ gear has MIDI integrated into it and the last few years has
+seen a dramatic rise in the number of unique DJ MIDI controllers and
+controllerists- artists like Moldover that use MIDI to manipulate sound and
+loops via MIDI controllers.
+
+Types of MIDI
+
+MIDI technology has been around for more than 30 years, and first appeared in
+the form of a special 5-Pin DIN connector on the back of a keyboard that is
+used to connect to another keyboard or to a computer. Though 5-pin DIN
+connections are still used for making connections between standalone hardware
+digital instruments, over the years as computer technology had developed and
+advanced so has MIDI.
+
+Your computer, tablet, or smart phone probably has MIDI capabilities and
+starting in 2015, the web browser you are using to view this page may be
+capable of making music with MIDI. Google's Chrome browser (and others to
+follow) can access local MIDI devices (hardware and software synthesizers,
+external keyboards, etc.) and use them for producing music and/or for
+controlling objects in the browser (such as a browser-based synthesizer).Web
+app developers are rapidly adding
+
+MIDI support to existing apps and creating new apps that are Web-MIDI enabled.
+
+If you own an iPad or iPhone you probably know that there are hundreds of 
+programs you can get for making music (even on-the-go) that use Apple's
+CoreMIDI technology to connect to MIDI devices.CoreMIDI also allows an iPad/
+iPhone to send/receive MIDI messages via Wi-Fi allowing the iPad/iPhone to
+control and/or play sounds and sequences on the Mac, and vice-versa.CoreMIDI
+also supports MIDI connections via USB, Ethernet, and FireWire (where
+equipped). Windows users can also connect to Macs and iOS devices via a third
+party RTP-MIDI.
+
+With Android M, Google has added robust MIDI support for the billions of
+Android devices that are available making MIDI one of the most ubiquitous
+technologies on the planet.
+
+Of course, MIDI is not just for keyboards... other MIDI-equipped musical
+instruments include digital drums, guitars, wind instruments, and more. For
+electronic dance music (EDM) and DJs, there are specialized controllers that
+use MIDI to trigger beats and loops, and to control lighting. And new kinds of
+digital musical instruments and controllers are being invented all the time,
+all of which integrate perfectly with existing instruments and devices because
+of MIDI.
+
+Besides music creation, MIDI has some other interesting and popular uses. MIDI
+Show Control is a set of MIDI messages used for controlling lights and rides at
+theme parks as well as for operating themed events such as are found outside
+many Las Vegas casinos. And MIDI Machine Control provides remote transport
+control for many kinds of audio/video recording devices. Moreover, because MIDI
+is widely available and free to use, many people are able to develop unique DYI
+products using MIDI to control and/or generate sound... in all kinds of shapes
+and forms.
+
+If you'd like to learn more about the amazingly diverse world of MIDI, this is
+the place as the site has videos, tutorials, forums and stories about MIDI
+artists.So join the community of people who make music and art with MIDI and
+learn how to get the most out of this incredibly flexible technology. 
+
+Tweet
+Share on Pinterest
+1
+Google Web Audio/MIDI Hackathon at Music China 201...
+MIDI History:Chapter 6-MIDI Is Born ...
+
+About the author
+
+The MIDI Association
+
+The MIDI Association
+
+    
+
+THE MIDI ASSOCIATION (TMA)
+The community of people who work, play and create with MIDI The MIDI
+Association’s mission is to nurture an inclusive global community of people who
+create music and art with MIDI. The www.MIDI.org website is the central
+repository of information about anything related to MIDI technology, from
+classic legacy gear to next- gen protocols on the horizon.
+
+Author's recent posts
+
+More posts from author
+Sunday, 01 September 2019 The Cloud Piano by David Bowen
+Sunday, 01 September 2019 Blokas Midihub Standalone MIDI Processor & Router
+Sunday, 01 September 2019 Ólafur Arnalds' MIDI Generative effects and Pianos
+that go Bleep Bloop
+ 
+
+(C) 2019 MIDI Manufacturers Association (MMA)
+
+  • About the MMA
+  • MIDI Trademark Policies
+  • MMA IP Policy
+  • Join the MMA
+  • 
+     1. Request a SysEx ID
+  • Pay MMA Dues & ID Fees
+
+Quick Links
+
+  • Contact Us -- We'd love to hear from you
+  • Tutorials
+  • MIDI/Audio Jobs Board
+  • 
+
+ 
+ 
+Privacy Policy | Terms of Use

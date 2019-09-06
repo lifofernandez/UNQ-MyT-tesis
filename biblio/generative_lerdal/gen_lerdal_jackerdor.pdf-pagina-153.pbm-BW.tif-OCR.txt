@@ -1,0 +1,41 @@
+149
+
+Neither of these is intuitively adequate, since they do not express the
+structural importance of the tonic chord on the upbeat; they claim that at
+this level the piece is heard as not beginning on a root-position tonic.
+To capture the importance of the initial tonic, the anacrusis must be
+included in some half-note level time-span. One solution is to posit,
+before the upbeat, a hypothetical beat at the half-note level, within whose
+time-span the anacrusis could be included. Example 7.5a shows the re-
+sulting reduction; the hypothetical beat is enclosed in parentheses.
+
+ 
+
+ 
+
+( Aypothetical beats )
+
+This is better than 7.4a or 7.4b, in that the importance of the initial tonic
+is expressed. But in order to retain the tonic at the next step of reduction,
+the whole-note level, we must posit a hypothetical beat at this level
+too— three quarter-notes before the actual beginning of the piece, as in
+7.5b. (In the third measure of 7.5b, the entire cadence is retained, follow-
+ing the discussion in section 6.4.) The hypothetical beats in 7.5, unlike
+the extra structure we have posited in grouping overlaps and elisions and
+in metrical deletions, do not express any musical intuition; they are only
+there to provide a time-span for the structurally important anacrusis to
+
+occupy.
+
+In the solution we have adopted, expressed in segmentation rule 2, the
+upbeat belongs to an augmented time-span determined by the first beat at
+the half-note level, as shown in 7.6a. Since the upbeatis structurally more
+important than the other events in this time-span, the half-note-level
+reduction is 7.6b.
+
+ 
+
+ 
+
+Formalization of Time-Span Reduction
+

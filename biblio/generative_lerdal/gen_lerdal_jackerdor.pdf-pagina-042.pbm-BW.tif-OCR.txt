@@ -1,0 +1,57 @@
+38
+
+GWER 2 A piece constitutes a group.
+
+The third rule provides the possibility of embedding groups, evident
+in 3.1.
+
+GWER 3 A group may contain smaller groups.
+
+The next two rules state conditions on the embedding of groups within
+groups.
+
+GWER 4 Ifagroup G¡ contains part of a group G, it must contain all of
+Ga.
+
+This rule prohibits grouping analyses such as 3.2, in which groups
+intersect.
+
+3.2
+
+In these examples G¡ contains part of G but not all of it. On the other
+hand, all the groups in 3.1 satisfy GWER 4, resulting in an orderly em-
+bedding of groups.
+
+There are in fact cases in tonal music in which an experienced listener
+has intuitions that violate GWFR 4. Such grouping overlaps and elisions
+are inexpressible in the formal grammar given so far. However, since
+overlaps and elisions occur only under highly specific and limited condi-
+tions, it would be inappropriate simply to abandon GWFR 4 and permit
+unrestricted overlapping of groups. Instead overlaps and elisions receive
+special treatment within the formal grammar, involving transformational
+rules that alter structure. We turn to these phenomena 1n section 3.4.
+
+The second condition on embedding is perhaps less intuitively obvious
+than the other GWERs. It is, however, formally necessary for the deriva-
+tion of time-span reduction in chapter 7.
+
+GWER 5 If a group G; contains a smaller group G, then G¡ must be
+exhaustively partitioned into smaller groups.
+
+GWFR $ prohibits grouping structures like those in 3.3, in which part of
+G1 is contained neither in G nor in Gg.
+
+3.3
+
+a b
+
+…Cvzl , 693 , ,<7f , 73 ,
+
+NZ —[Ñ ——————.— NZl —| — —
+
+Note however that GWFR $ does not prohibit grouping structures like
+3.4, in which one subsidiary group of G¡ is further subdivided and the
+other is not. Such situations are common; one occurs in example 3.1.
+
+Chapter 3
+

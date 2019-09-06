@@ -1,0 +1,63 @@
+343
+
+transformarions change meaning. This is, however, an evasion; see Jackendoff
+1972, chapter $.
+
+3. The material in this subsection 1s treated in greater depth in Jackendoff
+(forthcoming).
+
+4. See for example Kiparsky 1977, 1979; Selkirk 1978, 1980; Vergnaud and
+Halle 1979; and the papers in Safir 1979.
+
+5. One difference, however, is thar the prosodic trees permit only one weak
+branch per node, whereas the musical trees sometimes permit more than one
+elaboration per node. We return to this difference later in this section; ¡t is
+immarerial to the discussion here.
+
+6. There are numerous exceptions to this principle, as shown by contrasts in
+English like or-che-stra versus or-ches-tral. A complete account of rules of syl-
+labification is as vet unavailable.
+
+7. The strucrtures in 12.14 are derived from the structure given in Selkirk's (1980)
+example 28b. In her alternative structure (28c), which is identical to Liberman
+and Prince's treatment, the inirial syllable is simply adjoined at the word level.
+Though this choice always makes a difference in segmentation, it will only make a
+difference in tree structure in the case of multifoot words such as Monongahela.
+In such a case the 28b structure will adjoin the inirial syllable to the foot -nonga-,
+whereas the 28c structure will adjoin it to the combination of the two feet
+-nonga- and -hela. We know of no empirical arguments for one or the other,
+beyond the musical parallel. Incidentally, Selkirk 1980 notes thar feer augmented
+by an initial unstressed syllable occur only at the beginning of a word, not
+word-internally, and argues that this fact should not have to be stipulated by the
+theory that derives such structures. However, it is exactly parallel to the musical
+case, where an augmented subgroup may occur only at the beginning of a group.
+The parallelism suggests thar the stipularion against which Selkirk inveighs is not
+so offensive after all.
+
+8. Selkirk raises the possibility that in fact the directionality of the English rule 1s
+only a preference rather than a necessity. This allows for the observed alternate
+stressing in complex words such as Ticonderoga, by means far too complex to
+describe here.
+
+9. Readers familiar with hierarchical phonology will notice that our tree does not
+contain category labels such as syllable and foot; these are present only in the
+segmentation. This separation of functions avoids a notational problem that
+arises in current conventional practice, where some nodes in the tree have only
+category labels, some have only s or 1, and some have both.
+
+10. This formularion has been designed to generalize to “upbear” syllables, which
+receive separate treatment in Selkirk's exposition. In Liberman and Prince's ac-
+count, the prominence contour of a foot is determined by the same rule that
+creates the segmentation; the two functions are nor distinguished.
+
+11. Prominence rule 2 is subject to a number of classes of exceptions, discussed at
+length by Liberman and Prince.
+
+12. We have nor discussed the constituency of the phonological phrase. Liberman
+and Prince, following Chomsky and Halle (1968), take it to be essentially identi-
+cal to nonlexical syntactic categories (NP, VP, etc.). However, Selkirk 1978 ar-
+gues that a more complex relationship is involved. For the examples here, the rwo
+views are indistinguishable.
+
+Notes to pp. 309-324
+

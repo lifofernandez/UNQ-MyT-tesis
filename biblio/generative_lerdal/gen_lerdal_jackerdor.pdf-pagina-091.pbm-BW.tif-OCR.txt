@@ -1,0 +1,58 @@
+4.3
+Further Metrical
+Preference Rules
+
+87
+
+pitch-events, so they are marked by MPR $a. The strongest application of
+MPR Sc (length of slur) is at beat 11, the beginning of the longest slur.
+Beat 11 is also the only place where MPRs Sa and Sc reinforce each other.
+A consistent pattern of articulation—two quarter notes in a row—be-
+gins at beats 11 and 27, so MPR 5d applies at those points. Pitch prolon-
+gations into the next beat are marked by MPR Se at beats 19, 23, and 27;
+again the harmonic change is marked at beat 27.
+
+In addition to the rule applications marked, MPR 1 (parallelism) re-
+quires that each pattern of two eighths followed by a quarter receive the
+same metrical structure. This requires that strong beats of the quarter-
+note level be spaced two quarter notes apart.
+
+In trying to find a half-note level that minimizes overall MPR viola-
+tions, we see that MPRs Sa and Sc alternate throughout much of the
+passage, superficially giving the appearance of a predicted ambiguity. But
+we saw in 4.33a that MPR $a overrides Sc in such an environment; hence
+rule violations are minimized if beats of the half-note level are placed
+where MPR $a applies. This fits the multiple applications of rules at beats
+11 and 27 and the bass attacks at 3, 11, 19, and 27, so that the half-note
+level shown is quite stable throughout.
+
+Next consider MPR applications at the half-note level. First, MPR 3
+applies straightforwardly to the melody, giving again the clusters of three
+adjacent applications separated by one beat. As before, the most favor-
+able analysis of this is to place strong beats on the endpoints of the
+clusters. Second, the bass attacks strengthen the application of MPR 3 at
+beats 3, 11, 19, and 27, further weighting the analysis toward the end-
+points of the clusters. Third, the harmonic change again triggers MPR Sf
+at beat 27. Fourth, parallelism again requires a duple pattern. Fifth, in the
+time-span reduction the beginning of the melody has been reduced to a
+sequence of half-note Ds by this level, so the pitch-repetition rule
+(MPR $e) applies at beat 3.
+
+At the whole-note level, the time-span repetition of D beginning at beat
+3 and the harmonic change at 27 are again relevant. But since parallelism
+requires the two halves of the passage to be the same metrically, this
+evidence is globally inconsistent, and one rule must give way. The deci-
+sion in favor of treating beats 11 and 27 as strong is favored by the
+relative strength of the harmonic rhythm rule and reinforced by factors
+discussed in the next subsection. We have thus successfully derived the
+desired metrical structure for this passage.
+
+This section discusses briefly four further metrical preference rules and
+the analysis of a more complex example.
+Effects of Bass, Cadence, Suspension, and Time-Span Reduction
+
+The first of the four rules deals specifically with polyphonic factors. In
+tonal music, the bass tends to be metrically more stable than the upper
+
+Metrical Structure
+

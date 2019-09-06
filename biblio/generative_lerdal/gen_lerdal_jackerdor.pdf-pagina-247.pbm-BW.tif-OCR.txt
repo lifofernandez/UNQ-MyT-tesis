@@ -1,0 +1,63 @@
+9.29
+
+N ———.——[],————r —————————]—]l
+
+1% theme
+group
+
+( time-span reduction )
+
+unstable left-branching weak prolongation. On the other hand, f the V in
+measure 8 is chosen first, measure 9 is attached as a right-branching
+prolongation, a more stable result overall. In other words, the relative
+weighting of prolongational connections favors making measure 8 a
+point of arrival for the first section, of which measure 9 is a continuation,
+rather than treating measure 8 as an anticipation of the second section.
+
+Though it would be interesting to pursue this example further, we are
+concerned for the moment only with the larger aspects of the form.
+However, it is worth noting that, when the additional branches are filled
+in, the tree will satisfy the normative form (with the parenthesized Classi-
+cal options in PRPR 6 omitted). Note that each section individually as
+well as the whole piece satisfies the structure, that neither section 1s a
+tonic prolongation, and that the prolongational beginning of the second
+section (the V in measure 9) is not directly connected to the prolonga-
+tional ending. These three considerations further illustrate the flexibility
+of normative structure.
+
+The antecedent-conseguent and binary forms contain most of the ele-
+ments necessary for constructing a prolongational skeleton for a move-
+mentin sonata-allegro form. Figure 9.29 presents a harmonic sketch for a
+typical example, with its grouping and time-span reduction. The double
+bar between the exposition and development is notated for convenience.?
+
+   
+ 
+
+Yy Y Yy y |y YI YI Y I
+27 theme development — 1% theme 2"4 theme
+group . growp grouvp
+
+expas£t¿on reca70¿tu/at¿0n
+
+_———_————————————————————————
+——__——————;————————————]
+
+N—————]]]——]———————_—Ñ————[” —..—.—]]——————————]———_————————
+
+d)I
+(I
+(B)I
+
+(a)
+
+243
+
+Yy Y |Y YI Y
+Yy Y |Y
+
+Ka KH
+H H HH
+
+Formalization of Prolongational Reduction
+

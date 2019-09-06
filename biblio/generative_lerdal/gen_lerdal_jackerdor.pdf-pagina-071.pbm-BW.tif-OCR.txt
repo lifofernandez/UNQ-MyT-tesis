@@ -1,0 +1,34 @@
+67
+
+Little comment on this example is necessary. The total repetition of
+phrases is of course the strongest form of parallelism. The smallest
+groups group by twos with adjacent groups of equal length; these inter-
+mediate groups again group by twos with groups of equal length. Fur-
+thermore, the intermediate-level boundaries are marked by both rests and
+greater duration between attack points, whereas the less important
+boundaries are marked only by the latter distinction, and to a lesser
+degree. Thus the rules of intensification, symmetry, and parallelism are
+all simultaneously satisfied by the grouping suggested by the local evi-
+dence; there is no ambiguity or vagueness. In addition, the grouping is
+maximally in phase with the meter, in the sense discussed in section 2.3,
+and this contributes to the stability of the analysis.
+
+Many folk songs and nursery rhymes also exhibit this sort of regularity
+in the application of grouping preference rules. Pieces of this sort are
+often thought of as having “stereotypical” grouping structure, which in
+terms of the present theory means maximal reinforcement of grouping
+preference rules. And here lies a danger for research. Some attempts at a
+generative description of music (such as Sundberg and Lindblom 1976)
+have treated such stereotypical grouping structures as basic and assumed
+they could be extended to more complex structures. Furthermore, be-
+cause the grouping is in phase with the meter, Sundberg and Lindblom
+make the same mistake as Komar 1971 (discussed in section 2.2): group-
+ing is confused with large-scale metrical structure. If the present theory is
+correct, however, the stereotypical structures are totally unrevealing,
+since they represent the confluence of a great number of interacting fac-
+tors whose individual effects therefore cannot be identified. It is essential
+to begin with more sophisticated examples in order to arrive at any
+notion of what is going on.
+
+Grouping Structure
+

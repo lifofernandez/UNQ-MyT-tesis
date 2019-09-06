@@ -1,0 +1,62 @@
+348
+
+MPR $ (Length) (p. 84)
+
+Prefer a metrical structure in which a relatively strong beat occurs at the
+
+inception of either
+
+a. a relatively long pitch-event,
+
+b. a relatively long duration of a dynamic,
+
+c. a relatively long slur,
+
+d. a relatively long pattern of articulation,
+
+e. a relatively long duration of a pitch in the relevant levels of the time-
+span reduction, or
+
+£. a relatively long duration of a harmony in the relevant levels of the
+time-span reduction (harmonic rhythm).
+
+MPR 6 (Bass) (p. 88)
+Prefer a metrically stable bass.
+
+MPER 7 (Cadence) (p. 88)
+
+Strongly prefer a metrical structure in which cadences are metrically
+stable; that is, strongly avoid violations of local preference rules within
+cadences.
+
+MPR $ (Suspension)* (p. 89)
+Strongly prefer a metrical structure in which a suspension is on a stronger
+beat than its resolution.
+
+MEPR 9 (Time-Span Interaction) (p. 90)
+Prefer a metrical analysis that minimizes conflict in the time-span
+reduction.
+
+MPR 10 (Binary Regularity) (p. 101)
+Prefer metrical structures in which at each level every other beatiis strong.
+
+Metrical Deletion (p. 104)
+Given a well-formed metrical structure M in which
+i. B,, B., and B3 are adjacent beats of M at level L;, and Byis also a beat
+at level L;,1,
+li. T¡ is the time-span from B, to B¿ and T; is the time-span from Bz to
+Bs, and
+tit. M is associated with an underlying grouping structure G in such a
+way that both T, and T, are related to a surface time-span T' by the
+grouping transformation performed on G of
+(a) left elision or
+(b) overlap,
+then a well-formed metrical structure M' can be formed from M and
+associated with the surface grouping structure by
+(a) deleting B¡ and all beats at all levels berween B, and Bs and associat-
+ing B, with the onset of T', or
+(b) deleting B, and all beats at all levels berween B, and Bs and associat-
+ing B, with the onset of T”.
+
+Rule Index
+

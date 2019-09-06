@@ -1,0 +1,51 @@
+322
+
+immediately contained in the same segment z of the next larger level, the
+branches corresponding to x and y are joined into a branch correspond-
+ing to z; one of the two constituent branches is labeled s (strong) or w
+(weak). If this process is carried out recursively, all the way to the largest
+levels of segmentation, the result is a well-formed tree of the sort illus-
+trated in 12.9 above, expressing the relative prominence of all the seg-
+ments of the phonological string.? This process parallels exactly the
+construction of a time-span tree.
+
+Itis worth noting that the binary relationships the two trees express are
+not strictly parallel. The relationship head versus elaboration in time-
+span reduction trees is a relationship between events in the musical sur-
+face; a branch in a tree represents a single event. For example, the
+uppermost branching in the tree for a piece stands for a relation between
+the piece's structural beginning and structural ending, not between its
+first and second halves. By contrast, the relationship strong versus weak
+in prosodic trees is a relationship between segments of the phonological
+segmentation; each branch in the tree represents a syllable, foot, or word.
+For example, the uppermost opposition of w and s in reconciliation
+(12.9) is a relationship between recon- and -ciliation. We will discuss
+below whether this disparity between the two theories is genuine, or
+whether a more complete parallelism can be obtained.
+
+So far we have simply constructed a set of possible prosodic trees
+corresponding to a particular segmentation. What is needed in addition is
+a set of rules of prominence to ascertain, for each branching in the tree,
+which branch is s and which 1.
+
+Prosodic Rules of Prominence
+
+Each of the layers in the prosodic hierarchy has a characteristic rule or set
+of rules for determining relations of prominence. Starting from the inner-
+most layer, the aggregation of syllables into feet, the rule for English is as
+follows (in present terms'0):
+
+Prominence Rule 1
+
+a. In a foot that immediately contains two syllables, the first syllable is
+strong.
+
+b. In a foot that immediately contains a foot and a syllable, the foot is
+strong.
+
+This rule results in the trees shown in 12.17 for flounce, modest, Pamela,
+attire, vanilla, and America (the segmentation is from 12.13 and 12.14).
+Recall that main stress goes on the syllable dominated only by ss.
+
+Chapter 12
+

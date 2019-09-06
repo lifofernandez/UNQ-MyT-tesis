@@ -1,0 +1,50 @@
+320
+
+For our present comparison, an interesting aspect of English foot for-
+mation 1s the behavior of unstressed syllables at the beginning of a word.
+In one proposed treatment of them, the structure of words like attire,
+vanilla, and America is as in 12.14 (though the mechanism for deriving
+this structure has been open to dispute—see Selkirk 1980).
+
+12.14
+
+attire vanilla America
+
+sy//ab!e level u i e
+foot level — — [
+_
+
+word level N —1 — 1_ —
+
+In 12.14 we find an unstressed initial syllable preceding a monosyllabic, a
+bisyllabic, and a trisyllabic foot. The initial syllable is not simply an odd
+syllable added at the beginning of the word, but is adjoined to the rest as
+the beginning of an extra foot level. For us this solution is particularly
+significant because of its parallel with the treatment of upbeats in time-
+span segmentation (see examples 6.4 and 6.5 and section 7.1). In each
+case a weak segment separated by a major boundary (a group boundary
+in music, a word boundary in language) from the preceding strong seg-
+ment is instead adjoined to the following segment. Hence, beyond the
+formal parallel of a layered hierarchy in both grammars, the segmenta-
+tion rules display an interesting substantive parallel.?
+
+At the next layer of the hierarchy the segmentation into words is
+obvious. We only have to note that compounds such as blackboard and
+labor union have two word levels, as shown in 12.15.
+
+12.15
+blackbaard labor vnion
+syilable level — m 1 LILI
+foot level L_m _ n
+word level L — — aa
+
+However, it remains to be shown how the feet of a multifoot word are
+structured. Selkirk, following Liberman and Prince, gathers the two
+rightmost feet into a segment, then gathers that with the next to the left,
+and so on until the left-hand boundary of the word is reached. For
+example, reconciliation, with three feet, receives the structure shown in
+12.16. (Selkirk”s notation does not accord the segment -ciliation the label
+“foot,” but there appears to be no harm in it.)
+
+Chapter 12
+

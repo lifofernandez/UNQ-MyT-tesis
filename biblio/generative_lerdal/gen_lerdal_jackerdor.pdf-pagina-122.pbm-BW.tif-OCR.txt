@@ -1,0 +1,41 @@
+118
+
+the local tonic) of their roots on the circle of fifths, conjunct linear con-
+nections are more stable than disjunct ones, and so forth.
+
+Rhythmic Criteria and Time-Span Reduction
+
+Granted all these criteria for relative pitch stability, we might now
+hypothesize that the listener seeks maximal stability among pitch rela-
+tions and mentally constructs pitch hierarchies (reductions) that express
+such stability, Thus, if a pitch-event were adjacent to and less stable than
+another event, it would automatically be subordinate to it. In other
+words, according to this hypothesis, structural importance would be
+equated with pitch stability.
+
+But is this hypothesis adequate for the construction of a coherent
+reduction? A glance at any tonal piece will reveal that it is not. For
+example, in the first phrase of Mozart's Sonata K. 331 (5.10),7 the most
+“stable” events are the four root-position tonic chords with C£ on top.
+Purely according to pitch criteria, they must attach equally, because they
+are identical; all other events, being less “stable,” must somehow be
+subordinate to them. Among other things, this means that the cadential
+dominant— even though it is the goal of the phrase—can do no better
+than to attach as a right branch to the closest root-position I chord, as a
+kind of afterthought to the phrase. The result is the partial tree in 5.10,
+which is intuitively so ludicrous that we might as well discontinue the
+exercise. Criteria of pitch stability may be necessary, but they are not
+sufficient for the construction of reductions.
+
+5.10
+
+ 
+
+What other criteria are needed? Intuitively, the structurally most impor-
+tant events in the phrase are its first and last events, the opening I and the
+cadential V; as described in section 2.4, these are the structural accents of
+the phrase.$ The intervening I chords are heard as comparatively local
+phenomena: the one on the third eighth of measure 1 is a mere repetition
+
+Chapter $
+

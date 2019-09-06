@@ -1,0 +1,58 @@
+94
+Prolongational
+Reduction
+Preference Rules
+
+220
+
+Notice that the endpoints of a prolongational region need not attach
+directly to one another. Again this 1s illustrated by the region (e4—es).
+
+Given this definition of a prolongational region, we turn to the ques-
+tion of how the prolongationally most important event in a region is
+chosen. (Henceforth, for convenience, when we refer to an arbitrary
+prolongational region (e;—e;) we will understand this to include the cases
+Where e; or e; is replaced by %.)
+
+In the above discussion of prolongational regions, we took for granted
+the operation of two separate processes: choosing the prolongationally
+most important event in a region (e;—e;), and determining whether that
+event is an elaboration of e; or of e;. These two problems are addressed
+by the prolongational reduction preference rules. As will be seen, some of
+the rules deal with only one problem or the other, and some deal with
+both.
+
+Influence of Time-Span Reduction
+
+We begin with two preference rules that establish the relation between
+prolongational reduction and time-span reduction. The first is an explicit
+statement of Prolongational Hypothesis 2, now localized to the choice of
+the most important event of a prolongational region:
+
+PRPR 1 (Time-Span Importance) In choosing the prolongationally most
+important event e, of a prolongational region (e;—e;), strongly prefer a
+choice in which e, 1s relatively time-span-important.
+
+Since PRPR 1 interacts with preferences concerning pitch stability in ways
+not to be described until the next subsection, we illustrate it here with
+examples in which pitch stability does not play a role.
+
+An obvious application of PRPR 1 is in choosing the prolongational
+head of a piece. If we regard the entire piece as a prolongational region
+(4—4t), PRPR 1 says to prefer a prolongational head that is relatively time-
+span-important—that is, the time-span head.
+
+Next, recall the impossibility of constructing a reduction of the first
+phrase of the Mozart A Major Sonata solely on the basis of pitch criteria
+(see example 5.10). There are four root-position tonic chords with C£ on
+top, any of which, on pitch criteria alone, might be prolongationally most
+important. However, PRPR 1 says that the time-span importance of the
+first chord in the piece establishes its prolongational importance; the
+relative time-span unimportance of the other three disqualifies them.
+
+A third illustration of PRPR 1 appears in 9.5 (a repetition of 8.8). In
+each case, the rule selects the I chord that is in a metrically stronger
+position, hence more important in time-span reduction (by TSRPR 1).
+
+Chapter 9
+

@@ -1,0 +1,64 @@
+Chapter 8
+
+Chapter 9
+
+340
+
+4. Some additional examples of transformation appear in the analysis of the
+Schumann song “Wehmur” in Lerdahl and Jackendoff 1977.
+
+5. One might wonder whether optional chords of dominant preparation might be
+retained in a time-span reduction along with rhe obligatory penult and final of full
+and deceptive cadences or with the obligatory V of half cadences. We have found
+that retention of the dominant preparation adds little to a time-span reduction's
+ability to convey the sense of a phrase. The importance of dominant preparation
+will be reflected in prolongational reduction. See sections 8.3 and 9.4.
+
+6. This rule differs from TSRPR 1, which considers only the metrical structure
+within one time-span at a time. This rule considers the overall relation of a
+reductional level to metrical structure, a more global consideration.
+
+7. On the other hand, occasions arise in which the cadential resolution 1s not at
+the very end of a group, but is prolonged to the end of the group. This occurs, for
+instance, at the end of the Chorale St. Antoni, discussed in section 8.5; the
+functional final cadence occurs in measures 22—23, and the final tonic is pro-
+longed through two V7/IV—-IV—_[ sequences to the end in measure 29. A much
+more extreme situation arises in the finale of Beethoven's Fifth Symphony, where
+the structural cadence for the entire movement occurs long before the end; the
+rest is a prolongation of the resolution. These exceptions are due to the influence
+of prolongational reduction. See section 9.6 for discussion.
+
+1. The following account of prolongational reduction differs from that in Lerdahl
+and Jackendoff 1977. We feel that the present version is a major improvement,
+but even so it remains less finished rhan the other three components. In section
+10.4 we outline two possible furure developments in prolongational reduction.
+
+2. Various writers have found patterns of tension and relaxation to be funda-
+mental to the nature of rhythm. For example, Sessions (1951, p. 84): “The
+principle of tension and relaxation is perhaps the most important single principle
+of musical rhythm, and its bearing on all questions of musical expression cannot
+be overestimated.” Also see Schachter 1976 (pp. 333—334). For a much different
+approach to tension and relaxation, see Hindemith's theory of “harmonic fluctu-
+ation” (1942, pp. 115—121).
+
+3. We originally adopted this formulation (Lerdahl and Jackendoff 1977, p. 140).
+
+4. Rhyrhmic factors might instead lead to a different analysis of 8.22, in which
+the Vhi would be embedded within a weak prolongation of i.
+
+$. The reduction in 8.39 agrees in essentials with Schenker's analysis of the piece
+(1935, figures 42,2 and 138,3). Our main disagreements— intuitive as well as
+technical — concern Schenker's elevation of the V in measure 11 (the bass) to the
+level of the Ursatz and his treatment of the melodic Eb in measure 15 as super-
+ordinarte within its local environment (he makes it a neighboring motion at the
+background). In both cases Schenker radically separates bass and melodic func-
+tions; we discuss this matter in section 10.4.
+
+1. In the course of numerous analyses we have encountered only one or two cases
+where one might conceivably want to choose an event 10 time-span levels down.
+Without more serious examination of a number of such cases, it is hard to
+determine whar motivates this extremely rare weakening of the Interacrion
+Principle.
+
+Notes to pp. 155—228
+

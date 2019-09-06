@@ -1,0 +1,44 @@
+122
+
+ 
+
+Time-span reduction cannot express the structural relationships
+sketched in 5.14 because it is constrained in its selection of significant
+events by the time-span segmentation established by the metrical and
+grouping analyses. It chooses single events over more or less equal time-
+spans, that is all. Thus, in 5.11, only one event (the I chord) can be
+selected within the span of the first half of measure 4, with the result that
+the syntactically essential ii* is assigned less structural importance than,
+say, the merely arpeggiated Ví in measure 2. And at the span of the
+measure, the I in measure 4, even though it is heard as a significant
+prolongation of the opening sonority, must give way to the cadential V,
+while in measures 2—3 neighboring events remain. If, as often happens,
+events of equivalent structural importance were to unfold at a regular
+rate, one per time-span, these particular difficulties would not emerge.
+But here—and this often happens, too—the structural action of the
+phrase is delayed until the fourth bar, where it precipitates all at once.
+Time-span reduction is not equipped to handle such situations.
+
+Example 5.14 also suggests a “psychological” interpretation that sheds
+more light on the limitations of time-span reduction. One might say that
+the phrase begins in relative repose, increases in tension (second half of
+measure 1 to the downbeat of measure 3), stretches the tension in a kind
+of dynamic reversal to the opening (downbeat of measure 3 to downbeat
+of measure 4), and then relaxes the tension (the rest of measure 4). It
+would be highly desirable for a reduction to express this kind of musical
+ebb and flow. Time-span reduction cannot do this, not only because in
+such cases as this it derives a sequence of events incompatible with such
+an interpretation (5.12 as opposed to 5.14), but because the kind of
+information it conveys, while essential, is couched in completely different
+terms. It says that particular pitch-events are heard in relation to a par-
+ticular beat, within a particular group, but it says nothing about how
+music flows across these segments.
+
+It is through such considerations as these that we have been led to the
+conception of two independent but interactive reductional components:
+time-span reduction and prolongational reduction. Recall that the Strong
+Reduction Hypothesis posits a hierarchy of events such that less impor-
+tant events are heard in a specified relationship to surrounding more
+
+Chapter 5
+

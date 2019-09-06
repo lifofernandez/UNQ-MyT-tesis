@@ -1,0 +1,45 @@
+246
+
+Here movements may differ or be ambiguous. Time-span segmentation
+(PRPR 2) favors the right-branching reading; prolongational importance
+(PRPR 4) favors left branching. However, a further consideration often
+resolves the ambiguity. The half-cadential V at the end of the develop-
+ment is usually heard within the diatonic pitch collection of the following
+tonic, Whereas the V at the beginning of the development is heard within
+the diatonic collection of the dominant key area. Hence, the half-caden-
+tial V forms a stronger prolongational connection with the following I,
+and attaches as a left branch.
+
+Either of two common variants in sonata movements also favors the
+left-branching reading, If the development ends with a full cadence that
+overlaps with the recapitulation, the resolution of the full cadence is very
+close in time-span segmentation to its V, overriding the connection to
+the beginning of the development. Likewise, ¡f the development begins
+(or the exposition ends) in an area other than V, the connection from
+there to the cadential dominant is less stable, so the left-branching pro-
+gression to I is again favored. Still, the structures of some developments
+favor a right-branching ending, as shown by the dashed branch in 9.32.
+
+Next we attach the structural boundaries of the exposition. The prob-
+lem here is where the beginning of the second theme-group should at-
+tach—as a progression away from the initial tonic (9.33a) or as an
+anticipation of the end of the exposition (9.33b).
+
+92.33
+a b
+// 7
+Z /
+Y
+1 YYYy wy 1 wy wwl
+1st theme — 274 theme 1s theme — 24 theme
+?POU/7 gf'0(/p '7Í'ÚUID l _9F'OUF
+exposction exposition ,
+
+Intuition favors 9.33b, so that the second theme-group in itself exhibits
+the basic form. For the rules to achieve this result, the conditions for
+prolongational stability must favor connection through common diatonic
+collection —even in the relatively unstable left-branching prolongation —
+over departure to a new key,
+
+Chapter 9
+

@@ -1,0 +1,29 @@
+156
+
+cadence, the dominant as well as the resolution to I or vi must be retained
+in order for the reduction to make musical sense. The resulting two-event
+sequence acts like a grammatical unit. To permit such a reduction to be
+well formed, the condition for selecting the head of a time-span must be
+enriched to allow a sequence of events forming a cadence to serve as the
+head.
+
+For convenience, we will call the last event of a cadence the final and
+the element preceding it the penult. In a full cadence the penult is V and
+the final is 1; in a deceptive cadence the penult is V and the final is vi ina
+half cadence there is no penult and the final is V.5
+
+Section 6.4 discussed various details of reductions involving cadences.
+It suffices here to elaborate a few technical points. Example 7.14 illus-
+trates the retention of the cadence in measures 7—8 of Mozart's K. 331.
+The full cadence, labeled [c], is retained in reducing to the measure level.
+
+7.14
+N
+N
+
+ 
+
+ 
+
+Chapter 7
+

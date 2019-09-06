@@ -1,0 +1,68 @@
+Time-Span
+Reduction
+
+349
+
+Segmentation Rule 1 (p. 146)
+Every group in a piece is a time-span in the time-span segmentation of the
+piece.
+
+Segmentation Rule 2 (p. 147)
+
+In underlying grouping structure,
+
+a. each beat B of the smallest metrical level determines a time-span Tr
+extending from B up to but not including the next beat of the smallest
+level,
+
+b. each beat B of metrical level L; determines a regular time-span Ts,
+which is the union (or sum) of the time-spans of all beats of level L;-,
+(the next smaller level) from B up to but not including
+
+(1) the next beat B' of level L;* or
+(ii) a group boundary,
+whichever comes sooner, and
+
+c. if a group boundary G intervenes between B and the preceding beat of
+the same level, B determines an augmented time-span Tz, which is the
+interval from G to the end of the regular time-span Ts.
+
+TSRWER 1 (p. 158)
+For every time-span T there is an event e (or a sequence of events e1e>)
+that is the head of T.
+
+TSRWER 2 (p. 158)
+If T does not contain any other time-span (that is, if T is at the smallest
+level of time-spans), then e is whatever event occurs in T.
+
+TSRWER 3 (p. 159)
+
+I£ T contains other time-spans, let 7;,..., T, be the (regular or augmented)
+
+time-spans immediately contained in T and let e ,...,e n be their respective
+
+heads. Then:
+
+a. (Ordinary Reduction) The head of T may be one of the events e ,...,en.
+
+b. (Fusion) If e1,...,e, are not separated by a group boundary (“locality”
+condition), the head of T may be the superimposition of two or more
+of € y...,E n
+
+c. (Transformation) If e1,...,e, are not separated by a group boundary,
+the head of T may be some mutually consonant combination of pitches
+chosen out of €e,...,en.*
+
+d. (Cadential Retention) The head of T may be a cadence whose final is
+e, (the head of T,—the last time-span immediately contained 1n 7)
+and whose penult, if there is one, is the head of a time-span im-
+mediately preceding T,, though not necessarily at the same level.*
+
+TSRWER 4 (p. 159)
+
+If a two-element cadence is directly subordinate to the head e of a time-
+span T, the final is directly subordinate to e and the penult is directly
+subordinate to the final.
+
+Rule Index
+

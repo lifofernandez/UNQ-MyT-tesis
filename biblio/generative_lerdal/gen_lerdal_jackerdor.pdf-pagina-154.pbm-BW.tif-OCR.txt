@@ -1,0 +1,58 @@
+150
+
+Note that the upbeat has disappeared from the rhythmic representation
+at this level, as in 7.4, but the structural importance of the upbeat has
+been expressed, as in 7.5. The reduction from 7.6b to the whole-note
+level is then 7.6c, a root-position tonic followed by a full cadence.
+
+Example 7.7 illustrates the application of segmentation rule 2 to a
+more complex example, measures 6-8 of the finale of Beethoven's First
+Symphony.
+
+7.7
+
+ 
+
+Mevel ¡ GE GE A EA E
+Pieves l AA
+[ A |
+
+» evel L..— a a a
+_ —ZJIH]
+
+J 1evel y * 1
+
+¿J 1evel L
+
+L e
+
+This passage is strongly out of phase, since the strongest beat, marked by
+the entrance of the accompaniment, falls at the beginning of measure 8.
+Moreover, the anacrusis is triply embedded. The first sixteenth is an
+anacrusis to the second two at the eighth-note level; the first three six-
+teenths form an anacrusis to the downbeat of measure 7 at the quarter-
+note level; and the first three sixteenths plus all of measure 7 form an
+anacrusis to the downbeat of measure 8 at the two-measure level. This
+triple embedding is reflected in the time-span segmentation by the pres-
+ence of three levels at which both a regular and an augmented time-span
+exist. It is an important test of our theory of rhythm that it can express
+this upbeat-within-upbeat intuition by elaboration of the technique used
+to describe ordinary upbeats.
+
+The time-span segmentation in 7.7 gives rise to the time-span reduc-
+tion in 7.8, given in tree form and in secondary notation. The inclusion of
+the initial G in the first augmented time-span of the eighth-note level
+makes it possible for this note to be the most important event at the
+beginning of this level and the next while still giving the reduction a
+rhythmically satisfying form.?
+
+A final comment on the segmentation rules: We surmise that they are
+universal, except for one interesting ¡diom-specific variation. In classical
+tonal music, the strong beat of a regular time-span falls at the beginning.
+This seems to be the normal case across idioms. However, in the gamelan
+idiom described in Becker and Becker 1979, it appears that the strong
+beat is at the end of each subgroup. The typical grouping, metrical, and
+subgrouping organization of this music is shown in 7.9,
+
+Chapter 7
+

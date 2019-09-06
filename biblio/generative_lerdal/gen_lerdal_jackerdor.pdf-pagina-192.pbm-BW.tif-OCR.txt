@@ -1,0 +1,56 @@
+8.3
+Prolongational
+Trees
+
+188
+
+starting from its largest, most important levels. If it were the other way
+around, the time-span importance of an event could not be evaluated at
+any particular stage of analysis.
+
+We do not argue that prolongational importance necessarily corre-
+sponds in a one-to-one relationship with time-span importance. Nor does
+time-span importance dictate the actual prolongational connections.
+Rather, time-span importance acts as the general regulator of events
+available for successive levels of prolongational analysis. From this input
+the optimal prolongational connections can be established.
+
+The close dependence of prolongational reduction on time-span reduc-
+tion constitutes a major claim of our theory. It asserts that the perceived
+patterns of tension and relaxation in pitch structure depend crucially on
+the hierarchy of structurally important events within time-spans as de-
+fined by meter and grouping. In other words, the listener's understanding
+of pitch connections in a piece is a function of how he segments its
+surface. This claim entails the unification of pitch and rhythm within one
+overarching theory.
+
+A detailed explanation of prolongational importance andiits relation to
+time-span importance presupposes an understanding of prolonga-
+tional domains, a full discussion of which is postponed until section 9.3.
+We have outlined this relationship here only in order to convey a frame-
+work within which prolongational trees can be understood intuitively.
+
+Our course in this section will be initially to consider the most global
+level of a piece, since prolongational reduction proceeds from global to
+local levels. From this immediately emerges the conception of the pro-
+longational basic form (corresponding to the Schenkerian Ursatz), which
+we then utilize to develop a prolongational structure for antecedent-
+consequent periods. Narrowing our focus further, we next investigate
+cadential preparations and some characteristic patterns within the single
+phrase. Then we show how the tree for a phrase can change, depending
+on whether the phrase is analyzed in isolation or as part of a larger
+context. Finally, we draw an important generalization about prolonga-
+tional trees.
+
+The Basic Form and the Antecedent-Consequent Period
+
+The most global levels of time-span reduction typically yield the structure
+shown in 8.13a. These events are the first to become available for prolon-
+gational analysis. As the prolongational tree in 8.13b shows, the opening
+[ attaches as a weak prolongation to the final T, after which the structural
+dominant attaches as a resolving left branch to the final I. This V must be
+a left branch because it is part of the cadence and because the final I is the
+dominating event in its environment at this stage of analysis.
+
+Chapter 8
+

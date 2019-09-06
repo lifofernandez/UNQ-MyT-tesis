@@ -1,0 +1,53 @@
+158
+
+on the third beat; the appoggiatura covering the first and second beats is
+eliminated. However, in measure $ there is a conflict. The B minor chord
+in the first half, originating as an anacrusis in the surface, is the structural
+beginning for the phrase, but the chord in the second half of the measure
+is the dominant (vii6) of the cadence. Neither can be eliminated at the
+whole-note level without losing the musical sense. In order to resolve this
+conflict, we permit the B minor chord to be the head of measure 5, but let
+measure 6 “borrow” the head of the second half of measure 5 for the
+sake of retaining the cadence. In this way, both halves of measure 5 are
+retained at the whole-note level.
+
+The general solution to the reduction of cadences, therefore, is to
+permit the retention of a dominant penult just in case it is the head of a
+time-span immediately preceding the time-span headed by the final. In a
+feminine cadence the penult will fall in a larger time-span with the final,
+but in a masculine cadence the penult will be “borrowed” from a preced-
+ing time-span.
+
+Example 7.15 also shows how a cadence is reduced out when it is
+directly subordinate to another event. The essential intuition is that the
+penult is heard most saliently in relation to its final. Thus when the
+cadence is about to be eliminated there is a preliminary step in which the
+penult is reduced out in favor of the final, followed by the ordinary
+reduction of the final itself. This special case of reduction must be incor-
+porated into the time-span reduction well-formedness rules in order to
+“undo” the effects of retaining two elements at once.
+
+Though the subordination of the dominant to the final is uncontro-
+versial in the case of a full cadence, one might question whether it is
+appropriate for a deceptive cadence, where the final is harmonically less
+stable than the penult. Since less stable events are in general subordinate
+to more stable ones (see section 7.3), one might want to reverse the
+dependency of the cadential elements here. However, such a reversal
+would lose the intuition that the vi of the deceptive cadence is perceived
+as the rhythmic goal of the phrase. We propose instead that the structural
+difference between full and deceptive cadences appears only in prolonga-
+tional reduction, where conditions of pitch stability and connection over-
+ride rhythmic considerations. Thus the musical character of a deceptive
+cadence arises from the disparity between its rhythmic and harmonic
+endings. (See section 9.4 for further discussion.)
+
+Final Statement of Time-Span Reduction Well-Formedness Rules
+
+TSRWER 1 For every time-span T, there is an event e (or a seguence of
+events e,e:) that is the bead of T.
+
+TSRWER 2 If T does not contain any other time-span (thatis, if Tis at
+the smallest level of time-spans), then e is whatever event occurs in T.
+
+Chapter 7
+

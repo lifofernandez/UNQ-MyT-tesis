@@ -1,0 +1,47 @@
+85
+
+second eighth of each group, where the harmony changes, and the quarter
+note is heard as syncopated. Hence MPR Sf has overridden MPR 5a here.
+
+4.34
+
+ 
+
+We will not work out all the combinations of relative strengths of rules
+here. Nor will we attempt to quantify rule strengths, for reasons dis-
+cussed in section 3.3. The reader should, however, be aware that relative
+intrinsic strength of preference rules plays an important role in deter-
+mining the most stable analysis.
+
+A Linguistic Parallel
+It should not be without interest that the last two metrical preference
+rules discussed (those for stress and length) are reminiscent of the princi-
+ples governing prosodic features in language. It is well known (see for
+example Trubetzkoy 1939, chapter IV.5) that there are a limited number
+of discrete ways in which languages mark the distinction berween strong
+and weak syllables. Some languages use stress (differentiation in inten-
+sity), others length, and others higher pitch as a mark of strength. Among
+other things, the opposition berween strong and weak often plays an im-
+portant role in the metrical structure of poetry, where linguistic material
+is fitted to an abstract metrical pattern (see Halle and Keyser 1971).
+That stress and length function as markers of metrical strength in
+music as well as in language can hardly be a coincidence. Rather it seems
+that we are dealing with a more general cognitive organization that has
+manifestations in both musical and linguistic structure. This lends the
+theory of metrical preference rules a significance beyond its usefulness for
+musical purposes. (In section 12.3 we discuss a related parallel of music
+and language in considerable detail.)
+
+An Example
+
+In section 2.2 we discussed some questions about the larger-level metrical
+structure of the opening of Mozart's G Minor Symphony. We now apply
+the metrical preference rules developed so far to derive the smaller levels
+of metrical structure—rhose levels not open to question. Again the ex-
+ample is given without bars and beams; beats at the eighth-note level are
+numbered for convenience. We treat the theme and bass line alone; we
+have omitted the beginning of the first measure and the viola accom-
+paniment as an exercise, in order to bring more rules into play.
+
+Metrical Structure
+

@@ -1,0 +1,55 @@
+74
+Structural Accents
+of Groups
+
+167
+
+connection, the choice of prolongational reduction will be conflicted. It
+seems conceivable, therefore, that the influence of linear and especially
+harmonic connection on time-span reduction should not be stated di-
+rectly in the TSRPRs, but rather it arises through the effect of time-span
+reduction on the stability of the prolongational reduction. This solution
+can be expressed in the theory by replacing TSRPRs 6a and 6b with the
+following rule:
+
+TSRPR 6 (Prolongational Stability) In choosing the head of a time-span
+T, prefer a choice that results in more stable choice of prolongational
+reduction.
+
+Note the similarity berween this and TSRPR 5. These rules encode the
+interdependence of the different components of musical cognition on
+each other. It is the feedback among the various components that makes
+it so difficult to isolate these principles.
+
+TSRPR 6 is crucially involved in the choice of fusion or transformation
+rather than ordinary reduction for a time-span. For example, in the Bach
+Cello Suite quoted in 7.10-—7.12, fusion is plausible in part because it
+results in a consistent multivoiced texture that follows principles of good
+voice leading and harmonic progression. (In addition, fusion is favored
+by relatively great distance berween the two lines and by relatively rapid
+alternation berween them; these factors are intuitively relevant, but we
+have for the moment not formalized them.) Similarly, in the passage from
+“O Haupt” quoted in 7.13, transformation is necessary because neither
+of the choices available through ordinary reduction produces a good
+progression in the next level of reduction. Thus, although we have no
+complete account of how fusion and transformation are chosen, TSRPR 6
+provides a starting point for such a study.
+
+Retention of Cadences
+
+The preference rules stated so far make two errors in their treatment of
+cadences. First, the rules provide no way to choose a two-element ca-
+dence as head of a time-span, since they all deal with ordinary reduction.
+Second, as pointed out in section 6.3, the rules of rhythmic and harmonic
+stability (TSRPRs 1 and 2) often lead to incorrect choices where half
+cadences are involved. For example, in measure 4 of K. 331 (see 7.20a),
+the rules so far say unequivocally that the I rather than the cadential V
+should be chosen as head for the measure. Both of these failings of the
+rules motivate an additional preference rule:
+
+TSRPR 7 (Cadential Retention, preliminary form) Of the possible
+choices for head of a time-span T, strongly prefer an event or pair of
+events that forms a cadence.
+
+Formalization of Time-Span Reduction
+

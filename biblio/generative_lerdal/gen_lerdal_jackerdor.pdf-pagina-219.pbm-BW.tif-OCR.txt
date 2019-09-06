@@ -1,0 +1,39 @@
+215
+
+PRWFR 4 (No Crossing Branches) If an event e; is a direct elaboration
+of an event e;, every event between e, and e; must be a direct elaboration
+of either e;, e;, Or some event berween them.
+
+All four rules should be at this point self-explanatory, with the possible
+exception of PRWFR 4. It says that if e; and e; form a closed part of the
+tree, by virtue of one branching directly off the other, then no event
+between them may be a branch of an event outside the region. The
+abstract tree in 9.3 illustrates this.
+
+92.3
+
+In this tree esis a direct elaboration of e,, so PRWFR 4 says that all events
+between them must be direct elaborations of either them or events be-
+tween them. Since e, is a direct elaboration of e,, and e is a direct
+elaboration of e, these two events satisfy the condition. However, e, is a
+direct elaboration of es, Which is not between e, and e;. Hence PRWER 4
+is violated and the tree is not well formed.
+
+It may be worth mentioning that these well-formedness rules can easily
+be modified for a purely melodic idiom such as Gregorian chant. In such
+a case, the definitions of prolongation would be stated in melodic rather
+than primarily harmonic terms. In the simplest situation, two events of
+the same pitch would count as a prolongation and two of different
+pitches would count as a progression. Intermediate relations, such as that
+between “primary” and “secondary” tones, might in addition be defined
+as weak prolongations. Other than these changes, the theory of prolon-
+gational trees could be carried over intact.
+
+As in the other components of the musical grammar, the well-formed-
+ness rules underdetermine the choice of a most stable analysis for a
+piece— they simply state the general properties of all possible analyses.
+We now develop the preference rules by which the most stable tree for a
+piece is constructed.
+
+Formalization of Prolongational Reduction
+

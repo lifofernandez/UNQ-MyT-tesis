@@ -1,0 +1,55 @@
+308
+
+with grammaticality, music theory is much more concerned with prefer-
+ence among a considerable number of competing well-formed (grammat-
+ical) structures. The closest analog to linguistic grammaticality in music
+theory is adherence to well-formedness rules. These rules resemble lin-
+guistic rules in that they either establish a branching or hierarchical struc-
+ture (like phrase-structure rules in syntax) or characterize permissible
+distortions of the branching structure (like transformations). This sug-
+gests that the bulk of a linguistic grammar consists of well-formedness
+rules—from phonology through syntax to semantics. Even the lexicon
+can be considered a part of the well-formedness rule component, in thatit
+establishes well-formed matchings berween phonological, syntactic, and
+semantic form at the terminal nodes of branching structures. The well-
+formedness rules for music, even considering all four components of the
+musical grammar, hardly approach the linguistic well-formedness rules in
+complexity. This reflects the much greater role of grammaticality in lan-
+guage than in music.
+
+The question thus arises as to whether linguistic theory contains any
+rule systems comparable to preference rules in music. It turns out that a
+number of phenomena discussed in the linguistic literature have proper-
+ties appropriate to such rules. We present three of these briefly.
+
+Relative Scope of Quantifiers
+
+Within the rules relating syntactic form to semantic representation, there
+is a subsystem that deals with establishing the correspondence berween
+the syntactic position of quantifier words such as every, all, some, and
+many and their scope in logical form. The effect of scope difference is
+illustrated in the following pair of sentences, discussed in many places in
+the linguistic literature. (Emphasizing two languages in example 12.1b
+aids interpretation.)
+
+12.1
+a. Every person in this room knows at least two languages.
+b. At least two languages are known by every person in this room.
+
+In 12.1a each person may know a different two languages, but in 12.1b
+two particular languages are known to everyone in the room. The differ-
+ence is notated formally in terms of relative embedding of quantifiers; the
+“logical forms” of 12.1a and 12.1b are (informally) 12.2a and 12.2b,
+
+respectively.
+
+12.2
+
+a. Every person x in this room is such that [there are two languages y and
+z such that [x knows at least y and z]].
+
+b. There are two languages y and z such that [every person x in this room
+is such that [x knows at least y and z]].
+
+Chapter 12
+

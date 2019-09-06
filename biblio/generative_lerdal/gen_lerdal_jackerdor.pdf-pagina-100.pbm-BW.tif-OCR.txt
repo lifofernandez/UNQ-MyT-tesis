@@ -1,0 +1,60 @@
+4.4
+Variations on
+the Metrical
+Well-Formedness
+
+Rules
+
+96
+
+second half together create an overall complexity in deriving the pre-
+ferred metrical interpretation, and this seems to reflect accurately the
+complexity that this passage presents to musical intuition.
+
+By contrast, the Mozart example 4.35 provides clear evidence for a
+metrical interpretation at every level and at nearly every point in the
+passage; applications of metrical rules are numerous and mutually rein-
+forcing. The nature of the derivation predicts that the passage will be
+heard as metrically straightforward, in accordance with intuition. Thus
+we have seen how the preference-rule formalism not only can derive a
+final analysis for a passage, but can also express finer intuitions about the
+degree of metrical complexity and the reasons it arises. This is one of the
+ways in which the theory bridges the gap between artistic and psycho-
+logical concerns, one of the principal goals of the present study.
+
+With one exception, to appear in the next section, this completes our
+discussion of metrical preference rules. To sum up: The preference rules
+decide which of the many possible well-formed metrical structures as-
+signable to a piece represents its intuitively preferred metrical interpre-
+tation. The rules of local detail—MPRs 3 (event), 4 (stress), and 5
+(length) —are supplemented by considerations having to do with stability
+of the bass (MPR 6), of cadences (MPR 7), and of suspensions (MPR 8). In
+addition, interaction with grouping structure (MPR 2) and time-span
+reduction (MPR 9) and the ubiquitous and powerful considerations of
+parallelism (MPR 1) affect the choice of metrical structure.
+
+There is reason to believe that much of this preference-rule system is
+not peculiar to classical Western tonal music, but is universal. The rules
+of local detail seem to us especially strong candidates. We should make
+clear what such a claim of universality means. Take the rule of local
+stress, for example. There are of course musical idioms in which local
+stresses do not appear; Renaissance choral music for instance can argu-
+ably be said not to have them. But we would feel fairly confident in
+conjecturing that there is no musical idiom employing stress in which it
+does not mark potential metrical strength. In this sense we can say that
+the preference rule for stress is always available to musical intuition; the
+differences berween idioms in this respect lie only in whether they ever
+give the rule opportunities to apply.
+
+We conclude this chapter by returning to metrical well-formedness
+rules, briefly discussing two topics: well-formedness rules for other met-
+rical traditions, and metrical irregularities.
+
+In section 2.2 we observed that, unlike the grouping well-formedness
+rules, which appear to be essentially universal across musical idioms, the
+metrical rules are in part idiom-specific. This section will illustrate some
+possible variants of the rules that lead to metrical idioms other than that
+of classical Western tonal music.
+
+Chapter 4
+

@@ -1,0 +1,40 @@
+11
+Music Theory as
+Psychology
+
+1
+Theoretical Perspective
+
+We take the goal of a theory of music to be a formal description of the
+musical intuitions of a listener who is experienced in a musical idiom. To
+explicate this assertion, let us begin with some general remarks about
+music theory.
+
+Music can be discussed in a number of ways. First, one can talk infor-
+mally about individual pieces of music, seeking to illuminate their in-
+teresting facets. This sort of explanation often can capture musical
+insights of considerable subtlety, despite—or sometimes because of—its
+unrigorous nature. Alternatively, one can attempt to create a systematic
+mode of description within which to discuss individual pieces. Here one
+addresses a musical idiom by means of an analytic method, be it as
+straightforward as classifying pieces by their forms or putting Roman
+numerals under chords, or as elaborate as constructing linear graphs. An
+analytic method is of value insofar as it enables one to express insights
+into particular pieces. The many different analytic methods in the litera-
+ture differ in large part because of the nature and scope of the insights
+they are intended to convey.
+
+At a further level of generality, one can seek to define the principles
+underlying an analytic system; this, in our view, constitutes a theory of
+music. Such a theory can be viewed as a hypothesis about how music or a
+particular musical idiom is organized, couched in terms of some set of
+theoretical constructs; one can have a theory of Roman numerals, or
+musical forms, or linear graphs.
+
+Given a theory of music, one can then inquire as to the status of its
+theoretical constructs. Medieval theorists justified their constructs partly
+on theological grounds. A number of theorists, such as Rameau and
+Hindemith, have based aspects of music theory on the physical principle
+of the overtone series. There have also been philosophical bases for music
+theory, for instance Hauptmann's use of Hegelian dialectic.
+

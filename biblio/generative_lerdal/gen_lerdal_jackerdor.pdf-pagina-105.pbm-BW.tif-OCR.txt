@@ -1,0 +1,55 @@
+101
+
+the preference for regularity, especially binary regularity, remains. Ap-
+parently there is a preference rule operating at these levels—the metrical
+counterpart of the grouping rule of symmetry (GPR 5$):
+
+MPR 10 (Binary Regularity) Prefer metrical structures in which at each
+level every other beat is strong.
+
+MPR 10 allows metrical irregularity, but, in the absence of other infor-
+mation, imposes duple meter. This seems to reflect musical intuition
+about hypermetrical structure. At smaller metrical levels, the more rigid
+requirements of MWFR 4 obscure the effects of MPR 10, since such levels
+will be all duple or all triple (that is, either completely obeying or com-
+pletely violating MPR 10).
+
+A second kind of metrical irregularity is the result not of irregular
+group lengths but of grouping overlaps and elisions. It comes in two
+varieties. The first gives the impression of a jarring metrical readjustment.
+An example is the passage from Haydn's Symphony no. 104 quoted in
+section 3.4 in connection with its grouping elision, repeated here as 4.47.
+
+Beneath the example appear the grouping and metrical structures from
+the half-note (tactus) level up. At the point of grouping elision, the metri-
+cal structure is distorted: a beat at the four-measure level occurs only
+three measures after the previous one. Such a metrical distortion com-
+monly occurs in conjunction with left elision in the grouping structure.
+
+The association with elision suggests that a part of the metrical struc-
+ture, in this case the time-span of a measure, has been deleted from an
+otherwise regular metrical structure, along with the elided pitch-events.?
+The alteration can be represented as in 4.48; the parenthesized beats on
+the left are deleted. In effect, the strong beat comes too soon.
+
+4.48
+¿E.(¿.).:.:.¡ :
+
+o
+0
+
+A second and more rare kind of metrical deletion gives the intuitive
+effect of a retrospective awareness that a metrical shift has taken place.
+An example occurs in the last seven measures of the Schumann song
+“Wehmut,” from Liederkrets, op. 39, shown in 4.49.10
+
+At the point of grouping overlap (not elision this time) the voice part
+must end on a weak beat of the dotted-half level; however, the same
+point must function as a strong beat of that level with respect to the piano
+postlude, and this does not become clear until the following measure. The
+effect in the analysis of the musical surface is a metrical structure con-
+taining two weak beats in a row at the measure level. Again the coales-
+cence of underlying pitch-events in the overlap suggests a corresponding
+
+Metrical Structure
+

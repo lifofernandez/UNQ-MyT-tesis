@@ -1,0 +1,52 @@
+6l
+
+When notating surface grouping structure, we designate grouping
+overlaps by overlapping slurs beneath the music, as in 3.32a. When
+notating underlying grouping structures, we join by a brace events that
+come to be overlapped in the surface, as in 3.32b.
+
+3.32
+a b
+— Ñ— — —
+e — —
+e, eo
+surface underlying
+
+The formal rule for elision is almost exactly identical to that of overlap.
+The only difference lies in the relationships of the boundary events e, e,
+and e'. For the more common left elision (3.26), e (the underlying event
+to be elided) is harmonically but not totally identical to e»; typically it is
+at a lower dynamic and has a smaller pitch range. The corresponding
+event in surface grouping structure, e', is identical to e. For right elision
+(3.28), the roles of e, and ey are reversed. The description of a grouping
+structure containing an elision thus contains in its underlying grouping
+structure a description of the intuitively elided event.
+
+Grouping Elision Given a well-formed underlying grouping structure G
+as described by GWFRs 1-5, containing two adjacent groups g, and £»
+such that
+£1 ends with event e,,
+22 begins with event e,, and
+(for left elision) e; is harmonically identical to e, and less than e, in
+dynamics and pitch range or
+(for right elision) e; is harmonically identical to e, and less than e, in
+dynamics and pitch range,
+a well-formed surface grouping structure G' may be formed that is iden-
+tical to G except that
+it contains one event e' where G had the sequence e¡,e»,
+(for left elision) e' = e»,
+(for right elision) e' = e,
+all groups ending with e, in G end with e' in G', and
+all groups beginning with e; in G begin with e' in G'.
+
+The rules for overlap and elision have the desired effect of expanding
+the class of well-formed grouping structures to include the observed
+counterexamples to GWEFR 4. In doing so, they express the musical intu-
+itions behind these counterexamples and they restrict the predicted range
+of counterexamples to three very specific related types.
+
+In addition, the separation of underlying and surface grouping struc-
+ture entailed by these rules will be advantageous in the description of the
+
+Grouping Structure
+

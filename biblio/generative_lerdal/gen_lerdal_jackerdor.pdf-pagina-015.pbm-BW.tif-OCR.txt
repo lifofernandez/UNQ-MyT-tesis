@@ -1,0 +1,30 @@
+11
+
+by adding a third rule type, transformational rules, to the musical gram-
+mar. The transformational rules apply certain distortions to the other-
+wise strictly hierarchical structures provided by the well-formedness
+rules. Although transformational rules have been central to linguistic
+theory, they play a relatively peripheral role in our theory of music at
+present,10
+
+Figure 1.1 summarizes the form of the theory. The rectangles stand for
+sets of rules, the ellipses and circles stand for inputs and outputs of rules,
+and the arrows indicate the direction of formal derivation. Overall, the
+system can be thought of as taking a given musical surface as input and
+producing the structure that the listener hears as output. The meaning of
+the intermediate steps will become clear as our exposition of the theory
+proceeds.
+
+In presenting the theory we discuss each component twice. First we
+present its analytic system, the conceptions and notations needed to ex-
+press intuitions relevant to that component. At the same time we deal
+with the interaction of that component with the others and relate our
+formulations to contrasting theoretical approaches. Then we present
+each component's formal grammar, the system of rules that assigns that
+component's contribution to the structural description of a piece. These
+chapters are followed by further illustrations of the analytic system and
+by remarks on various musical, psychological, and linguistic implications
+of the theory.
+
+Theoretical Perspective
+

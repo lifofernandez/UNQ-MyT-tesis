@@ -1,0 +1,31 @@
+104
+
+Metrical Deletion, second version Given a well-formed metrical struc-
+ture M in which
+i. B,, Bs, and B3 are adjacent beats of M at level L;, and Byis also a beat
+at level L;,,,
+il. T, is the time-span from B, to B; and Tz is the time-span from B to
+Bs, and
+ili. M is associated with an underlying grouping structure G in such a
+way that both T, and T; are related to a surface time-span T' by the
+grouping transformation performed on G of
+(a) left elision or
+(b) overlap,
+then a well-formed metrical structure M' can be formed from M and
+associated with the surface grouping structure by
+(a) deleting B, and all beats at all levels berween B, and B>,, and
+associating B, with the onset of T”, or
+(b) deleting B, and all beats at all levels berween B; and B:, and
+associating B, with the onset of T”.
+
+As in the case of grouping overlaps and elisions, we will not explore the
+preference-rule mechanisms involved in detecting the presence of metrical
+deletions. However, 1f they are linked as closely to grouping as we be-
+lieve, and if the presence of cadences is as crucial to grouping overlap and
+elision as has been suggested in section 3.4, then it becomes clearer how a
+powerful confluence of factors can accumulate in the musical surface to
+break the established pattern. We leave for future research the incor-
+poration of these observations into the formal system.
+
+Chapter 4
+

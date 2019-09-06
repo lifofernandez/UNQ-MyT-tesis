@@ -1,0 +1,40 @@
+239
+
+9.25
+
+ 
+
+ 
+
+with 9.25, it claims that the two major phrases of the piece do not exhibit
+normative structure. Thus there is some reason to prefer analysis 9.24
+over 9.25, despite its nonconformance to the basic form. However, as in
+the time-span reduction, the piece probably should be ultimately treated
+as ambiguous between the two readings, with some additional options in
+the treatment of details.
+
+An interesting feature of the Chopin A Major Prelude is that the mel-
+ody could have been harmonized throughout with V-I progressions.
+However, this possibility would have been unacceptable in the tonal
+idiom, because, under either interpretation, 9.24 or 9.25, there would be
+no final prepared cadence, and hence no full normative structure. The
+way that Chopin toys with this possibility and then deviates from it
+contributes to the charm of the piece.
+
+An even more decisive example of normative structure without basic
+form is the Brahms Intermezzo op. 76, no. 4. This piece begins on V and
+contains no occurrences of T at all until the arrival before the coda (mea-
+sure 45). Thus the prolongational beginning cannot possibly be I. More-
+over, there is no authentic cadence at the end; rather the bass descends
+chromatically to the prolongational ending, which is in turn prolonged
+by plagal cadences. Thus the piece is a major deviation from the Ursazz
+and the basic form. Nonetheless, it does display the geometry of norma-
+tive prolongational structure, as shown in the harmonic sketch (9.26). It
+is this structure that permits the piece to be heard as a coherent
+(though unusual) example of a standard form, not so different in fact
+from the Chorale St. Antoni. In particular, the “cadential” function of
+the final bII*S—I progression is inferred from its position in the normative
+structure.
+
+Formalization of Prolongational Reduction
+

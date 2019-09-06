@@ -1,0 +1,56 @@
+147
+
+The need to prevent such situations is one of the motivations for group-
+ing well-formedness rule 5 (“If a group G contains a smaller group G»,
+G1 must be exhaustively partitioned into smaller groups”).
+
+Though we will encounter no grouping overlaps until near the end of
+this chapter, their effect on time-span segmentation is best described here.
+Essentially, we want to say that an overlapped event has a function in
+both groups of which it is a member. We can most simply express this in
+the theory by stipulating that the time-span segmentation and reduc-
+tion are based on underlying group structure rather than the musical
+surface. In this way the overlapped event will correspond to two events in
+time-span reduction, one in the left group and one in the right.
+
+Section 6.1 also argued that time-span segmentation is determined by
+metrical structure at small levels and by the interaction of metrical and
+grouping structure at intermediate levels. It was shown there that when
+meter and grouping are out of phase, metrically determined time-spans
+cross over grouping boundaries. Such crossing would violate the require-
+ment for the time-span segmentation to form a strict hierarchy in the
+sense of section 2.1. We proposed to solve this problem by appealing to
+the distinction between afterbeats and upbeats. An afterbeat forms a
+rhythmic unit with the preceding strong beat. An upbeat (a weak beat
+such that a grouping boundary intervenes between it and the preceding
+strong beat) forms a rhythmic unit with the following strong beat.
+
+We formalize these considerations as follows.
+
+Segmentation Rule 2 In underlying grouping structure,
+
+a. each beat B of the smallest metrical level determines a time-span T;
+extending from B up to but not including the next beat of the smallest
+level,
+
+b. each beat B of metrical level L; determines a regular time-span T,
+which is the union (or sum) of the time-spans of all beats of level L;-,
+(the next smaller level) from B up to but not including
+(1) the next beat B' of level L; or
+(i1) a group boundary, whichever comes sooner, and
+
+c. if a group boundary G intervenes berween B and the preceding beat of
+the same level, B determines an augmented time-span Tz, which is the
+interval from G to the end of the regular time-span T.
+
+Segmentation Rule 2 produces the time-span segmentation shown in
+7.2 for the relevant portion of the finale theme of Beethoven's Ninth
+Symphony.
+
+In measure 13, the first beat of the half-note level determines two time-
+spans, marked u and x. The regular time-span w is assigned by rule 2b;
+the augmented time-span x, which includes the upbeat from measure 12,
+is assigned by rule 2c.
+
+Formalization of Time-Span Reduction
+

@@ -1,0 +1,56 @@
+xi
+
+however, that we have gone far enough to be able to present a coherent
+and convincing overall view.
+
+The book can be read from several perspectives. From the viewpoint of
+music theory as traditionally conceived it offers many technical innova-
+tions, not only in notation but also in the substance of rhythmic and
+reductional theory and the relation between the two. We feel that our
+approach has succeeded in clarifying a number of issues that have con-
+cerned recent tonal theory.
+
+We hope that this work will interest a wider circle of readers than the
+usual treatise on music theory. As we develop our rules of grammar, we
+often attempt to distinguish those aspects of the rules that are peculiar to
+classical Western tonal music from those aspects that are applicable to a
+wide range of musical idioms. Thus many parts of the theory can be
+tested in terms of musical idioms other than the one we are primarily
+concerned with here, providing a rich variety of questions for historical
+and ethnomusicological research.
+
+Beyond purely musical issues, the theory is intended as an investigation
+of a domain of human cognitive capacity. Thus it should be useful to
+linguists and psychologists, ¡f for no other purpose than as an example of
+the methodology of linguistics applied to a different domain. We believe
+that our generative theory of music can provide a model of how to
+construct a competence theory (in Chomsky's sense) without being crip-
+pled by a slavish adherence to standard linguistic formalisms. In some
+respects our theory has turned out more like certain contemporary work
+in the theory of vision than like linguistic theory.
+
+Our approach has led to the discovery of substantive as well as meth-
+odological connections among music, language, and vision. Some of
+these connections appear in the course of the theory's exposition (espe-
+cially in sections 3.2, 3.4, 4.2, and 7.2), but we have reserved for chapter
+12 a discussion of those connections that strike us as most significant.
+The matters treated there suggest that our theory is of more than
+peripheral interest to the cognitive sciences.
+
+The exposition of the book reflects the diversity of its audience. On
+occasion we elaborate fairly obvious musical points for the sake of
+nonspecialists; more often we go into technical issues more deeply than
+nonspecialists may care for. Readers should feel free to use the book as
+their interests dictate. Linguists and psychologists should probably read
+chapters 1, 3, 11, 12, and the beginning of chapter 5 first. Musicians may
+want to start with chapters 1, 2, 5, 6, 8, and 11. All readers should bear in
+mind that the heart of the theory resides in the chapters on formalization:
+3,4,7, and9.
+
+In the course of working out our ideas we have benefited greatly from
+the writings of Noam Chomsky, Edward T. Cone, Grosvenor Cooper
+and Leonard B. Meyer, Andrew Imbrie, Arthur J. Komar, David Lewin,
+Charles Rosen, Carl Schachter, Heinrich Schenker, Peter Westergaard,
+
+Preface
+

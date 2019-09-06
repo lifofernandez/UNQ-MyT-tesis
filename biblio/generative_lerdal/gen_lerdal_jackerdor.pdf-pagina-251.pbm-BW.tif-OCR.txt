@@ -1,0 +1,25 @@
+This refinement of the stability conditions is useful for other purposes
+as well, so it is not an arbitrary decision restricted to this case alone. For
+example, in a minuet whose trio is in a contrasting key, the trio intu-
+itively forms its own independent patterns of tension and relaxation,
+being heard as a unified insertion berween the minuet and the da capo. lf
+we weight stability of prolongational connection strongly in favor of
+maintaining diatonic collection, the desired result is obtained, as in 9.34.
+
+9.34
+l, y IX Y/]I yI yI
+minvet trio da eapo
+—
+92.35
+
+ 
+
+I Yy Y Yy Y YI YI YI
+4% theme 2 theme development — 1s theme — 274 theme
+9Í'DUP g/'0U¡p 3P00¡D grou¡p
+exposition recapitulation
+
+— r ———. Oe Ú—] — Ú;—]——];——]—]———]——]—]————]—;—]—]]
+
+247 Formalization of Prolongational Reduction
+

@@ -1,0 +1,52 @@
+223
+
+discussed in section 8.3. As pointed out there, one of the characteristics of
+the more sophisticated listener is his ability to overcome this pressure for
+a “bottom-up” analysis and to hear larger-scale patterns of tension and
+relaxation that cut across phrase boundaries. We now turn to the evi-
+dence such a listener uses for these patterns: the harmonic and melodic
+connections among events.
+
+Stability of Prolongational Connection
+We can state the preference rule for stability of connection in preliminary
+form as follows:
+
+PRPR 3 (Stability of Connection, preliminary form) Let e; be the pro-
+longationally most important event in a prolongational region (e;—e;).
+Prefer a prolongational reduction in which e; is an elaboration of that
+endpoint with which it forms the more stable prolongational connection.
+
+PRPR 3 conflicts with PRPR 2 if e; and ey fall in a group together but e;
+and e; form a more stable connection across a group boundary. Before
+exploring such conflicts we must refine this preliminary rule in two ways.
+First, the notion of stable prolongational connection must be clarified (We
+return to this in a moment). Second, the rule as stated addresses only the
+case in Which the most important event e, in a region has already been
+chosen; but numerous cases arise in which e; cannot be chosen on
+grounds of time-span importance alone (by PRPR 1). Consider 9.8, a
+typical antecedent-consequent pattern.
+
+   
+
+ 
+
+9.8
+Time-span redvction Prolongational reduction
+N /AX
+l YI Y I I vI Y I
+—| Ñq[)dcoo N————]—Ñ=——euod SS E
+antecedent consequent antecedert consequent
+
+The prolongational tree for the beginning and the final cadence is the
+“basic form” discussed in section 8.3. The next most time-span impor-
+tant events are the end of the antecedent and the beginning of the con-
+sequent. Because these two events are of equal time-span importance,
+PRPR 1 cannot choose which of them is e, for the region from the I to the
+V of the full cadence. Hence PRPR 3 as stated above cannot apply to
+establish any attachment.
+
+The solution to this difficulty is to restate PRPR 3 so it can affect the
+choice of e, as well as its attachment:
+
+Formalization of Prolongational Reduction
+

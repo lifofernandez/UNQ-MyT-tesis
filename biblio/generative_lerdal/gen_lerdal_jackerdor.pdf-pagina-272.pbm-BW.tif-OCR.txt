@@ -1,0 +1,42 @@
+268
+
+degree of detail comparable to level b in 10.13). Here the V at the endof
+the A section is a right-branching departure, and the V of the B section
+resolves— preceded by the embedded subdominant progressions in mea-
+sures 8-10—in a full cadence to measure 12.
+
+10.14
+
+ 
+
+ 
+
+ 
+
+On balance we feel that the strength of the V prolongation in measures
+5—11 favors 10.13 over 10.14. Moreover, the dramatic situation sup-
+ports this preference (this consideration is beyond the predictions of the
+rules). The hero greets the miller maid; she withdraws, and he fearfully
+mulls over the reasons for this action over a V prolongation, replete with
+ominous chromatic upper neighbors in the bass (measure S, measures
+8-10); then he resolves to make a new beginning (A'), but fatally fails to
+leave, in the form of a harmonically static tonic pedal (measures 12-19).
+Thus his first crisis of expectation (measures 4—6) is indeed the beginning
+of the end.
+
+This brings us finally to the odd harmonic rhythm of the global nor-
+mative structure in 10.13. Usually, as in the piano introduction to “Mor-
+gengruss,” the initial tonic prolongation covers a relatively long span
+compared with the left-branching relaxations at the final cadence. But in
+the song proper, the opposite holds: three bars of , one bar of ii“; but
+then seven bars of V, followed by eight bars of a I that only begins as ¡f
+going somewhere. The absence in the A' section of any subdominant
+function and of any bass-supported dominant (except in the piano echo)
+causes the tensing-relaxing branching conditions for normative structure
+to be found back near the beginning, in measures 2—6. Presumably the
+hero started with other intentions—either with a quick, resolving 1-
+i16-V-I, as “rehearsed” in the introduction, or with an antecedent-conse-
+quent period (measures 1-6 answered by a resolving parallel phrase).
+
+Chapter 10
+

@@ -1,0 +1,43 @@
+121
+
+Motivation for Prolongational Reduction
+
+It would be disappointing to stop at time-span reduction. Too many
+aspects of musical intuition, of exactly the kind one would want from a
+reduction, are not expressed by it. For instance, it is common for a group
+or phrase to begin with an event identical or almost identical to the event
+that ended the previous group or phrase; this is a major means for estab-
+lishing continuity across group boundaries. Characteristic examples are
+the beginning of Beethoven's Sonata op. 2, no. 3 (example 5.13a), in
+which the V carries across a group boundary, and the beginning of
+Mozart's G Minor Symphony (reduced to a harmonic and linear skeleton
+in 5,13b), in which the ii? carries across a group boundary.
+
+5.13
+
+ 
+
+ 
+
+Now it is obvious that the first group in 5.13a progresses from Ito V, and
+the second from V to l; likewise, the first group in 5.13b progresses
+from i to ii3, and the second from ii? through V* to i. These elementary
+perceptions are expressed in time-span reduction, since its function is to
+relate pitch structure at every level to the segmentation produced by
+meter and grouping. But it is equally obvious that the harmonic rhythm
+in both cases prolongs across group boundaries.?9 Time-span reduction
+fails to express this sense of continuity.
+
+For a related problem, return to the Mozart K, 331 phrase, There is a
+sense in which the opening tonic is prolonged, through lower-neighbor
+motion in measures 2—3, into measure 4, at which point the first real
+structural movement takes place, in three ways at once: contrapuntally,
+by the first independent motion of the outer voices (which until then are
+in parallel tenths); harmonically, through the ““cadential preparation”
+(the ¡i5 chord) to the cadential V; and melodically, by the underlying
+motion from the third to the second scale degree. The overall effect of the
+phrase is very much due to these three dimensions working in concert, as
+indicated in 5.14,
+
+Reductions
+

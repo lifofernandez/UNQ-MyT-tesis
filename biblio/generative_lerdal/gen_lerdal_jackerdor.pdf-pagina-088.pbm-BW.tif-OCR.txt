@@ -1,0 +1,63 @@
+84
+
+chapters 6 and7, the time-span reduction at the quarter-note level (given
+below the metrical structure) contains pitch repetitions that do produce
+the desired metrical structure, Hence metrical preference with respect to
+pitch repetition must be derived in this case from the time-span reduction
+of the proper level.
+
+Finally, the related phenomenon of harmonic rhythm produces strong
+cues for metrical structure. Harmonic rhythm can be regarded as the
+pattern of durations created by successive changes in harmony, not only
+at the musical surface but at underlying reductional levels. The relevance
+of harmonic rhythm to metrical structure can be incorporated into the
+present theory by treating duration of a harmony as still another kind of
+length in MPR $. As in the case of individual lines, the rule may invoke
+the time-span reduction in order to abstract away from nonharmonic
+tones and ornamental changes in harmony.
+
+Having noted all these generalizations of the notion of length, we now
+can state the final version of MPR 5.
+
+MPR $ (Length), final version Prefer a metrical structure in which a
+
+relatively strong beat occurs at the inception of either
+
+. a relatively long pitch-event,
+
+. a relatively long duration of a dynamic,
+
+. a relatively long slur,
+
+.a relatively long pattern of articulation,
+
+. a relatively long duration of a pitch in the relevant levels of the time-
+span reduction, or
+
+. a relatively long duration of a harmony in the relevant levels of the
+time-span reduction (harmonic rhythm),
+
+9 nA .
+
+-
+
+As in the case of preference rules for grouping, not all cases of MPR $
+are of the same intrinsic strength. For instance, example 4.33a presents a
+conflict between a prolonged pitch-event and a slur of the same length.
+The beat of the half-note level falls most naturally on the long note,
+indicating that MPR Sa overrides MPR Sc in this situation. (If a performer
+wants to project the strong beat on the E, he will typically accent it and
+both shorten and remove stress from the quarter-note D, affecting the
+application of preference rules.) Similarly, 4.33b places MPRs Sc and Se
+in conflict. Here it is unclear which rule should dominate.
+
+4.33
+
+ 
+
+The strongest case of MPR $ seems to be case f (harmonic rhythm). For
+example, the long note in 4.34a clearly attracts the strong beat; but given
+the harmonic context in 4.34b, the strong beat falls most naturally on the
+
+Chapter 4
+

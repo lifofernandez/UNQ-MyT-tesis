@@ -1,0 +1,34 @@
+4
+Metrical Structure
+
+This chapter is concerned with the information the listener uses to asso-
+ciate a metrical structure with a musical surface. As in the grouping
+component, the principles governing this association are divided into
+well-formedness rules and preference rules. The former define the set of
+possible metrical structures, and the latter model the criteria by which the
+listener chooses the most stable metrical structure for a given musical
+surface. We begin with well-formedness rules, then turn to preference
+rules. Sections 4.4 and 4.5 present further discussion of well-formedness
+rules.
+
+To review the formalism for metrical structure, recall that each row of
+dots below the music symbolizes a level of metrical structure. If a beat at
+a given level Liis also a beat at a larger level, we call it a strong beat of L;
+ifitis not, it is a weak beat of L. Example 4.1 illustrates the formalism.
+
+4.1
+
+».
+d . . .
+d
+
+1 2 34 5673833926 0k
+
+At the eighth-note level the beats at 2, 5, 8, and 11 are strong and all
+other beats are weak. In turn, at the dotted quarter-note level 2 and 8 are
+strong and 5 and 11 are weak. At the dotted half-note level 2 and 8 are
+beats; however, since no larger level of beats is present in this structure,
+the distinction strong-weak at this level is undefined. It is the interaction
+of different levels of beats (or the regular alteration of strong and weak
+beats at a given level) that produces the sensation of meter.
+

@@ -1,0 +1,54 @@
+137
+
+the head of the phrase. In the second phrase, by similar considerations,
+the c instead is the head; and so forth. This process continues cyclically
+from level to level. Finally, in 6.15d, the c dominates the b because the
+ending of a piece is usually more stable than its beginning.
+
+Pitch relations among bs and cs can reinforce or undermine this
+scheme. If, for instance, the b of the first phrase were far less stable than
+1ts c (think, for example, of the opening of Beethoven's Sonata op. 31, no.
+3), the c might emerge as the structurally most important event of the
+phrase and thus be retained at larger levels instead of the b. In such a
+case, pitch stability (the c) would override adjacency to a larger grouping
+boundary (the b). Since these cases are exceptional, however, we will not
+pursue them now; an example appears in section 7.4.
+
+Example 6.16 compresses the information conveyed in 6.15. As a con-
+venience, we give the subscript for only the largest level of grouping for
+which a b or a c functions.
+
+6.16
+
+la + aA + [eela + Ledia] 6 - Legal
+
+L____/——_——/
+N 48 ,
+
+At these levels right and left branchings no longer express pitch-meter
+relationships, but pitch-grouping relationships. The translation of 6.16
+into the “ball-throwing” representation of 6.17 should clarify this point.
+
+6.17
+
+-—— _
+.
+-
+
+-
+_
+_
+_
+
+P DS C
+y— — _¿ ,,,,,, xNX
+
+C4]%] — () L%] 20 [e/3]
+
+The arrows signify the arcs of tonal motion over which structural accents
+function. In any time-span tree, large-scale branchings connecting bs and
+es are always to be interpreted as arcs of tonal motion articulating group-
+ing structure,
+
+Time-Span Reduction
+

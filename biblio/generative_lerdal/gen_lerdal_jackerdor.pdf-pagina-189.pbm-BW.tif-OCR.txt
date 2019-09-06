@@ -1,0 +1,60 @@
+185
+
+beginning of the recapitulation is heard in the context of the opening, and
+hence must be subordinate to it. Thus all large-scale strong prolongations
+are right branches.
+
+Next consider the insertion of an event between two superordinate
+events. To take the general case, let y be an elaboration within the con-
+text x...2 (8.9).
+
+8.9
+
+1
+
+!
+!
+1
+
+1
+1
+Z
+
+.7tage/7: X Í
+Sfageh-—1: x yZ x y z yz X y X
+. e 7
+
+Schenkerian analysis does not necessarily specify y as an elaboration of
+either x or z; often it suffices that y is inserted between x and z ata
+subsequent level (8.9a). We, on the other hand, must specify either right
+or left subordination for all cases (8.9b). If we can intuitively justify this
+added formal requirement, prolongational reduction will have gained
+another dimension of structural meaning.
+
+To begin with, it should be understood that y is necessarily less conso-
+nant (in the broadest sense of this term) than x or z; if it were not, x or 2
+would be subordinate to it and hence could not already be attached in the
+tree at more global levels. Therefore, whether y becomes a right branch
+to x or a left branch to z, the pattern of tension and relaxation is thatofa
+tensing from x to y and a relaxing from y to z (8.9c). This fact suggests
+the following question: Does one experience y more as a tensing away
+from x, or more as a relaxing toward 2? Alternatively: Is y more closely
+related to x or to 2? These are at bottom the same question; it is a matter
+of perceptual relatedness, of closeness of connection. If in a given case we
+can distinguish the relative closeness of y to x andz, then we know which
+branching to assign.
+
+Let us consider some concrete examples. In monophony, intervallic
+distance is a significant factor in determining the branching of an inter-
+mediate subordinate event. In 8.10a the D connects more closely to (or
+tenses more in relation to) the previous C, and thus connects as a right
+branch; in 8.10b the F connects more closely (or relaxes more in relation
+to) the following E, and thus connects as a left branch. Once harmony is
+introduced, however, closeness is primarily a function of fundamental
+bass analysis and distance in terms of the circle of fifths. Therefore the
+intermediate event in 8.10cis a right branch and the intermediate event in
+8.10d is a left branch. Finally, even though the branching decisions in
+8.10a—8.10d are already fairly clear, intuition becomes still more definite
+
+Prolongational Reduction
+

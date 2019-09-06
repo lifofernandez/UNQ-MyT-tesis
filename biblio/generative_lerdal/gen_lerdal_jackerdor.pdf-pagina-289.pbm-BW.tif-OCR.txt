@@ -1,0 +1,53 @@
+285
+
+event at the appropriate time-span reductional level to the event at the
+structural downbeat.
+
+7. Prolongational reduction expresses one of the most basic rhythmic
+intuitions: the breathing in and out, the tensing and relaxing, inherent
+in the motion of pitch-events. This component places pitches in a
+dynamic relationship. The different kinds of branching signify relative
+degrees of tensing and relaxing. Normative structure supplies the
+minimal branching structure for the tensing-to-relaxing motion fun-
+damental to all tonal pieces.
+
+8. The events contained under a prolongational branching complex can
+be thought of as a prolongational grouping. Harmonic rhythm as
+traditionally conceived is a special, surface instance of the interaction
+of prolongational grouping with metrical structure. In this theory
+harmonic rhythm is the durational pattern of all levels of prolonga-
+tional grouping.
+
+9. Time-span reduction and prolongational reduction can be in a congru-
+ent or noncongruent relation to one another. Because time-span trees
+correlate with grouping structure (via the segmentation rules), congru-
+ence is best understood as the relationship berween events heard
+within grouping structure and events heard within prolongational
+groupings. The latter can cut across subphrase groupings, across
+phrases, and across global segmentations, producing varying degrees
+of noncongruence. Noncongruent relationships promote continuity
+over division.
+
+All of these features can, in a general sense, be termed “rhythmic.” Nor
+is the list complete. First, it has not included the nuances of individual
+preference rules and the ways they interact in a conflicting or reinforcing
+fashion. Second, it has not included the rhythmic patrerns at the musical
+surface: its patterns of attack points, durations, and rests; its patterns of
+pitch-rhythmic repetitions and parallelisms. These features are an input
+to the theory, not part of it. Yet these surface patterns themselves form
+rich rhythmic relationships with all the inferred aspects of rhythmic
+structure enumerated above, complicating the rhythmic picture still fur-
+ther. Third, the rhythmic effect of contour patterns has not been dis-
+cussed. Fourth, we have neglected the impact of timbral factors on
+rhythmic perception. No doubt there are other rhythmic features that we
+have not thought to mention here.3
+
+It must be emphasized that none of the rhythmic features discussed
+here is reducible to any other. One's intuitive understanding of, say, a
+particular musical “gesture” is a product of the minute interaction of
+these multifarious dimensions — their presence or absence, their conflict-
+ing or reinforcing structures. As Seymour Shifrin once remarked, “Cross-
+accentuation is the life-blood of rhythm.”
+
+Musical Universals and Related Issues
+

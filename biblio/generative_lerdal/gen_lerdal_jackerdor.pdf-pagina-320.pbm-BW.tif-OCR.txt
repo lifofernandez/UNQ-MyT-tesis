@@ -1,0 +1,49 @@
+316
+
+Which in turn was greater than [3 stress], and so forth. In addition, all
+numbered degrees were treated as greater in stress than [unstressed]. To
+employ this formalism in rules, elaborate conventions had to be devel-
+oped that had little to do with the linguistic insight they were intended to
+express. In the tree notation, by contrast, main stress falls on the syllable
+dominated only by ss in the tree (the designated terminal element), sub-
+sidiary stresses fall on syllables immediately dominated by s, and un-
+stressed syllables are all inmediately dominated by w. In reconciliation,
+for instance, the main stress falls on the penultimate syllable, subsidiary
+stresses fall on re- and -cil-, and the remaining syllables are unstressed; in
+contractual, only the single syllable -trac- is stressed. Thus the tree nota-
+tion represents relative stress as explicitly relational; that is, in terms of
+hierarchical oppositions of ss and uws. For many reasons this is clearly
+superior to the theory that assigns stress in terms of numerical values;
+and for once a major change in linguistic theory has not met with vocif-
+erous opposition.
+
+We can now make an initial comparison of time-span reduction and
+prosodic structure. Abstracting away from the musical and linguistic
+material at the botroms of the trees, let us examine the trees themselves.
+In both sorts of trees, each branch divides into branches that are classified
+according to a binary opposition. In the time-span-reduction tree, the
+opposition is head versus elaboration; in the prosodic tree, the opposi-
+tion is strong versus weak.* This similarity leads to the observation that
+the two tree notations are essentially notational variants. Taking the
+time-span reduction notion of head as parallel to the prosodic notion of
+strong, we can establish the equivalence of structures shown in 12.10.
+
+12.10
+
+NA AN
+
+Pr-osod¿c time-span Prosod¿c túnc-spm
+
+With this equivalence, we can convert a prosodic tree into time-span
+reduction notation by systematically substituting time-span configura-
+tions for the corresponding prosodic ones at each node in the tree; thatis,
+a right branching for an s-1 configuration and a left branching for a 1w-s,
+Alternatively, we can convert time-span reductions into prosodic nota-
+tion by reversing the process. Figure 12.11 is the time-span notation
+corresponding to the analyses of reconciliation and contractual given in
+12.9. It can readily be seen that Liberman and Prince's notion of desig-
+nated terminal element (that unit dominated only by ss in a tree) trans-
+lates into time-span notation as the head (that unit from which all others
+
+Chapter 12
+

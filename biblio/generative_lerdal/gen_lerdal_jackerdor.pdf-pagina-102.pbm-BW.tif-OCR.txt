@@ -1,0 +1,49 @@
+98
+
+v -7 » / , v 7 v /7 e ? 7
+
+ 
+
+Claude le Jeune's metrical experiment apparently did not form the
+basis of any larger tradition. However, another complex metrical tradi-
+tion, studied extensively in Singer 1974, is found in a large body of folk
+music from Macedonia and Bulgaria. Though this music has metrical
+regularity at the sixteenth-note and measure levels, the level of metrical
+structure with which dance steps are most closely correlated (the tactus)
+is irregular, consisting of units which Singer classifies as slow (S) and
+quick (Q); the S units are one and a half times the length of the Q units.
+Meter in this music is most easily represented as a repeating pattern of
+slows and quicks; for example, OOS (2+2+3). Singer quotes the dance
+tune “Racenitsa,” reproduced in part in 4.45, as a typical example of the
+
+O0S meter.
+
+4.45
+
+ 
+
+Singer points out that not all possible combinations of Ss and Os are
+possible meters in this metrical idiom; QOSS (2+3+3), for example,
+never appears. The meters that actually occur group into a number of
+families; Singer states well-formedness rules that express the generaliza-
+tions among these possible meters. Within the present theory, the Mace-
+donian metrical idiom would be described in part by replacing MWFR 4
+with Singer's rules. We will not take the space here to discuss the rules,
+but Singer's list of basic meters in example 4.46 gives some idea of the
+complexity involved. This example omits compound meters, which com-
+plicate the situation further.
+
+4.46
+
+55 00 5Q SQ QS QSQQ — SS
+Qa SQ — as — QAUSQQ - SUS
+QRAN SA — AAUS — AAYSAA - SQRES
+
+SA — QAYAS
+SQRRAQ — QANIAS
+
+D
+£
+
+Chapter 4
+

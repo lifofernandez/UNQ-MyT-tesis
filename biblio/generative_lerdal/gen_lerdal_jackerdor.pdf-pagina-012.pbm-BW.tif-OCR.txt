@@ -1,0 +1,52 @@
+14
+The Overall Form
+of the Theory
+
+importance depends on more elementary intuitions concerning the seg-
+mentation and rhythmic analysis of the musical surface; thus we offer a
+firmer foundation for the study of artistic questions. We consider our
+work to complement rather than compete with such study.
+
+Our interest in the musically mundane does not deter us from taking
+masterpieces of tonal music as the analytic focus for our inquiry. As will
+be seen, it is often easiest to motivate principles of the theory with in-
+vented examples that are, roughly, “musical prose.” But there are two
+reasons for then going on to grapple with existing works of art, one
+preferential and the other methodological. First, it is less rewarding to
+specify structural descriptions for normative but dull examples than for
+works of lasting interest. Second, if we were to restrict ourselves.to
+contrived examples, there would always be the danger, through excessive
+limitation of the possibilities in the interest of conceptual manageability,
+of oversimplifying and thereby establishing shallow or incorrect princi-
+ples with respect to music in general. Tonal masterpieces provide a rich
+data sample in which the possibilities of the idiom are revealed fully.8
+
+An artistic concern that we do not address here is the problem of
+musical affect—the interplay berween music and emotional responses.
+By treating music theory as primarily a psychological rather than a purely
+analytical enterprise, we at least place it in a territory where questions of
+affect may meaningfully be posed. But, like most contemporary music
+theorists, we have shied away from affect, for it is hard to say anything
+systematic beyond crude statements such as observing that loud and fast
+music tends to be exciting. To approach any of the subtleties of musical
+affect, we assume, requires a better understanding of musical structure.?
+In restricting ourselves to structural considerations, we do not mean to
+deny the importance of affect in one's experience of music. Rather we
+hope to provide a steppingstone toward a more interesting account of
+affect than can at present be envisioned.
+
+A comprehensive theory of music would account for the totality of the
+listener's musical intuitions. Such a goal is obviously premature. In the
+present study we will for the most part restrict ourselves to those compo-
+nents of musical intuition that are hierarchical in nature. We propose
+four such components, all of which enter into the structural description
+of a piece. As an initial overview we may say that grouping structure
+expresses a hierarchical segmentation of the piece into motives, phrases,
+and sections. Metrical structure expresses the intuition that the events of
+the piece are related to a regular alternation of strong and weak beats at a
+number of hierarchical levels. Time-span reduction assigns to the pitches
+of the piece a hierarchy of “structural importance” with respect to their
+position in grouping and metrical structure. Prolongational reduction
+
+Chapter 1
+

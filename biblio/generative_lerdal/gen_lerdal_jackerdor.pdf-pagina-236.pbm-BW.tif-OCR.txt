@@ -1,0 +1,53 @@
+232
+
+of the other. This is the structure that would have resulted if the 16 had
+been chosen ahead of the V* in 9.14. Instead we chose 9.18b—at the
+time, on linear grounds.
+
+But there is another reason not to prefer 9.18a: it implies that the
+second occurrence of the motive is part of the first, rather than a self-
+contained entity. PRPR 2 (congruence to time-span segmentation), which
+is especially effective at these small levels, addresses this difficulty, since
+9.18b is congruent to the time-span segmentation and 9.18a is not. This
+can be seen more clearly in these examples by comparing the time-span
+segmentation with the “prolongational grouping” (the domains defined
+by the extent of prolongational elaborations). Thus PRPR 2 has an impor-
+tant effect on the delineation of motivic structure in prolongational re-
+duction: it keeps motives prolongationally intact.
+
+This derivation has illustrated the typical way in which the PRPRs
+interact. The primary influences on prolongational structure are PRPRs 1
+and 3, with PRPRs 2, 4, and $ helping to decide otherwise indeterminate
+cases. What makes K. 331 unusual is the number of times the Interaction
+Principle has to be invoked, resulting in repeated prolongational subor-
+dination of the time-span-important “vi7.” Most pieces do not display
+such a disparity between time-span and prolongational importance, but
+to the extent that they do, itis as a result of the Interaction Principle, as in
+this example.
+
+An additional case where the Interaction Principle plays a role is in
+deriving the prolongational structure of deceptive cadences, illustrated in
+9.7. In a deceptive cadence, it is typically the case that the V forms a more
+stable prolongational connection with its surroundings than does the vi.
+Because the V is immediately subordinate to the vi in the time-span
+reduction, the Interaction Principle says that it should be chosen as e; in
+the relevant region, with the vi subordinate, as shown in 92.7. Hence
+deceptive cadences, unlike full cadences, display a reversal of pro-
+longational importance, with the dominant more important than the
+resolution.
+
+To sum up: the Interaction Principle states how the time-span reduc-
+tion regulates prolongational importance. In constructing a prolon-
+gational reduction, we can, for each prolongational region, simply search
+for the strongest prolongational connection possible among the events in
+the two largest levels of time-span reduction represented in the region.
+Events of less time-span importance need not be considered. In terms of
+musical cognition, this means that patterns of tension and relaxation are
+strongly organized by rhythmic articulation—an intuition that seems
+obvious, but to our knowledge has not previously been formulated ex-
+plicitly in the theoretical literature. The power of the Interaction Princi-
+ple in constraining possible prolongational reductions makes it a central
+part of our theory.
+
+Chapter 9
+

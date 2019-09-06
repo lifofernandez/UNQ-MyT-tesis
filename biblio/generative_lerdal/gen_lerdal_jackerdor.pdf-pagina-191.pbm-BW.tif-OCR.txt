@@ -1,0 +1,47 @@
+187
+
+section of an ABA form (8.12c). At these global levels right-branching
+neighboring motion is particularly obvious: one hears the contrasting
+section in relation to what has happened, not to what is yet to come. On
+the other hand, when elaborating a local prolongational anticipation, the
+result may be left-branching neighboring motion, as in 8.12d.
+
+8.12
+a b c d
+
+ 
+
+The factors determining right or left branching may, of course, conflict
+with one another—as, for instance, when melodic and harmonic influ-
+ences are in opposition. And more factors enter into right and left
+branching than we have so far discussed. What this account has estab-
+lished is that in all cases there are intuitions concerning right versus left
+branching, and consequently that mere “in-between-ness” is not a suf-
+ficient analytic concept.
+
+We must cover one other issue before building trees. What in general
+makes one event prolongationally more important than another? For
+example, how did it come about in 89 that y was lower in the tree than x
+or 2? Observe that this is in principle a different question than what we
+have just been addressing. Up to this point we have been concerned with
+the mode of connection among events already available for analysis.
+Now we ask why it is these events that are available in the first place.
+
+One might suppose that absolute criteria of pitch stability provide a
+hierarchical scale by which prolongational importance can be gauged.
+But, as we saw in section 5.4, this scale is a necessary but not sufficient
+condition for prolongational analysis. Rhythmic factors also play a vital
+role in the perception of prolongational relationships. Specifically,
+rhythmically unimportant events are heard as prolongationally relatively
+unimportant, and structural accents are heard as prolongationally rela-
+tively important, regardless of absolute criteria of pitch stability. These
+perceptions can be reflected in the prolongational tree if the prolonga-
+tional reduction derives not from the musical surface but from its asso-
+ciated time-span reduction, since, in addition to reflecting factors of pitch
+stability, the latter contains the requisite rhythmic information. The
+time-span importance of an event thus becomes a governing factor in
+determining its prolongational importance. From this it follows that,
+unlike the other components, the prolongational tree must be constructed
+
+Prolongational Reduction
+

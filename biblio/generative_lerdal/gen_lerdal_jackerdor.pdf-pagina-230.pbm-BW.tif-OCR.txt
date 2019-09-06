@@ -1,0 +1,47 @@
+226
+
+and the length rule in meter (MPR 5). Their behavior will be made clearer
+in the course of the derivations in this chapter and chapter 10.
+
+In addition to PRPR 3, there is a second principle that relates prolonga-
+tional attachment to prolongational connections. Section 8.2 motivated
+this principle in connection with passing and neighboring motions (ex-
+amples 8.11 and 8.12).
+
+PRPR 4 (Prolongational Importance) Let e; be the prolongationally
+most important event in a region (e;—e;). Prefer a prolongational reduc-
+tion in which ex is an elaboration of the prolongationally more important
+of the endpoints.
+
+This rule, like PRPR 2, affects only the attachment of ex, not the choice of
+ex, and like PRPR 2 it is a relatively weak principle in comparison to
+PRPRs 1 and 3 (the major factors in determining the details of prolonga-
+tional reduction).
+
+Example 8.12d, reproduced here as 9.10, is a case where PRPR 2
+conflicts with PRPR 4.
+
+9.10
+% T7
+
+The initial event and the neighboring motion are contained in a time-span
+that does not contain the downbeat, so PRPR 2 favors a right-branching
+construction. Insofar as our judgment of the structure of 9.10 is correct,
+PRPR 4 has overridden PRPR 2 here. The delicacy of the judgment may
+reflect a balance between the two rules.
+
+Parallelism
+
+As in the other components of the musical grammar, there is a preference
+rule for parallelism in prolongational reduction. Imagine an example in
+which the stability conditions are in conflict, creating an ambiguity be-
+tween right and left branching for a particular event. The parallelism rule
+says that no matter how the ambiguity is resolved, parallel passages must
+resolve it in the same way. Other things being equal, a motive should not
+have a different prolongational structure when it reappears.
+
+PRPR 5 (Parallelism) Prefer a prolongational reduction in which parallel
+passages receive parallel analyses.
+
+Chapter 9
+

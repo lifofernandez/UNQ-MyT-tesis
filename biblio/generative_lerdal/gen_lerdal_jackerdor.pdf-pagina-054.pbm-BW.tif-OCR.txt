@@ -1,0 +1,51 @@
+50
+
+ 
+
+— — —"i— — — N? N? Nn a?
+— —C] —]—Ñ—]— )|
+— |uo ME — ——Ú——————L——————]————————————
+
+— — — — — ?
+N—[—]—eo———.:——Ú—[_—]————e-——Á—
+
+In a case such as 3.21b, where there are six small groups, GPR $ cannot
+apply in the ideal fashion. The ideal can be achieved in the relation
+between the small and intermediate-level groups, or in the relation be-
+tween the intermediate-level and large groups, but not both. The result is
+an ambiguous intermediate-level grouping, shown as analyses ¿ and i in
+3.21b. In a real piece the ambiguity may be resolved by metrical or
+harmonic considerations, but then the result is not due solely to GPR 5. In
+general, it is the impossibility of fully satisfying GPR $ in ternary group-
+ing situations that makes such groupings somewhat less stable than bi-
+nary groupings.
+
+In the Mozart passage (example 3.19), GPR $ has effects of two sorts.
+First, it reinforces GPR 4 (the intensification rule) in marking transition
+10-11 as a larger-level boundary, since this divides the passage into two
+equal parts. Second, the resulting intermediate-level groups each contain
+three groups, the first two of which are two quarter notes in duration and
+the third four quarter notes. GPR $ therefore groups the first two together
+into a group four quarter notes in duration, producing the ideal subdivi-
+sion of all groups. (Note that GPR $ does not require all groups to be
+subdivided in the same way; it is irrelevant to GPR $ that the first and
+third four-quarter-note groups are subdivided but the second and fourth
+are not.)
+
+In addition to GPRs 4 and 5, a third very important principle is in-
+volved in the larger-level grouping of 3.19: the motivic parallelism of
+events 1-10 and 11-20. We can isolate the effects of this principle in
+passages such as those shown in example 3.22.
+
+3.22
+
+ 
+
+Other things being equal, 3.22a is most naturally grouped in threes and
+3.22b in fours. Since both examples have uniform motion, articulation,
+and dynamics, the grouping preference rules so far make no prediction at
+all about their grouping. Hence a further preference rule is necessary to
+describe these intuitions. We state it as GPR 6.
+
+Chapter 3
+

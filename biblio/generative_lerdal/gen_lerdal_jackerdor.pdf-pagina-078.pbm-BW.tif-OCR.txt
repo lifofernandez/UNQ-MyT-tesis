@@ -1,0 +1,47 @@
+4.2
+Metrical Preference
+Rules
+
+Finally, the choice of tactus is related to harmonic rhythm. A piece with
+frequent functional harmonic change is heard with a faster tactus than a
+piece with equal note values but less frequent harmonic change. Roughly,
+each beat of the tactus must have only a single functional harmony. This
+last intuition involves the rules of time-span and prolongational reduc-
+tion in a way not completely clear to us. We leave a formalization of the
+preference rules determining the tactus for future research.
+
+The revisions proposed in this section create a stratified rather than a
+uniform metrical structure. The tactus is the central and most prominent
+of the metrical levels, and is regular throughout. The levels immediately
+smaller and immediately larger than the tactus likewise tend to be regular
+and aurally prominent. As the structure extends to extremely small and
+large levels, metrical intuition tends to fade out. Irregularity and extra-
+metricality are tolerated at small levels; levels larger than one or two
+measures are often somewhat irregular, ¡f present at all,
+
+Having defined the possible metrical structures for tonal music, we turn
+to the problem of relating these structures to a presented musical surface.
+To make the problem clear, note that all three metrical structures as-
+signed to the beginning of the Mozart G Minor Symphony in example 4.9
+conform to the metrical well-formedness rules, but only the first describes
+real musical intuition. It is the task of the preference rules to select, out of
+the possible metrical structures, just those that the listener hears.
+
+This example, like succeeding ones in this chapter, is presented without
+bars and beams so as not to prejudice the preferred reading. Bars and
+beams are notational devices that convey preferred metrical structure to
+the performer, but they are not present in the musical surface (the se-
+quence of pitches and durations).
+
+ 
+
+74
+
+Parallelism and Connection with Grouping
+
+As we develop the metrical preference rules, it will be useful to investigate
+patterns that are to be repeated an indefinite number of times. The length
+of the pattern, three or four eighth notes, determines whether the metrical
+
+Chapter 4
+

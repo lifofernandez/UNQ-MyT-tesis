@@ -1,0 +1,63 @@
+3.5
+
+The Performer's
+Influence on
+Preferred Hearing
+
+63
+
+The performer of a piece of music, in choosing an interpretation, is in
+effect deciding how he hears the piece and how he wants it heard. Among
+the aspects of an interpretation will be a (largely unconscious) preferred
+analysis of the piece with respect to the grammatical dimensions ad-
+dressed by our theory. Because grouping structure is a crucial link
+between the musical surface and the more abstract time-span and pro-
+longational reductions, the perception of grouping is one of the more
+important variables the performer can manipulate in projecting a par-
+ticular conception of a piece.
+
+The principal influence the performer has on grouping perception is in
+his execution of local details, which affect the choice of small-level
+grouping boundaries through GPRs 2 and 3 (the local detail rules) and of
+larger boundaries through GPR 4 (the intensification rule). For example,
+consider the very beginning of the Mozart Sonata K. 331. In 3.33 1t 1s
+supplied with two possible groupings. (We favor grouping a, but group-
+ing b has not been without its advocates; see Meyer 1973.)
+
+3.33
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The musical surface is in conflict between these two groupings. Since the
+longest duration between attacks is after the quarter note, local detail
+favors grouping b. But maximal motivic parallelism favors grouping a.
+(If the piece began with an upbeat eighth, parallelism would favor b.) The
+variations that follow take advantage of the potentialities in this group-
+ing ambiguity, tipping the balance in favor of grouping b in variations 1,
+2, and $ and in favor of grouping a in variations 3, 4, and 6.
+
+A performer wishing to emphasize grouping a will sustain the quarter
+note all the way to the eighth and will shorten the eighth and diminish its
+volume. He thereby creates the most prominent break and change in
+dynamics at the bar line, enhancing the effects of GPRs 2 and 3 there. On
+the other hand, a performer who wishes to emphasize grouping b will
+shorten the quarter, leaving a slight pause after it, and sustain the eighth
+up to the next note. The effect of GPRs 2 and 3 is then relatively greater
+before the eighth and less after it.
+
+A second and less noticeable alteration the performer may make is a
+slight shift in the attack point of the eighth, playing it a little early for
+grouping a and a little late for grouping ». This slight change in attack-
+point distance also affects preferred grouping through its influence on
+GPR 2.
+
+Grouping Structure
+

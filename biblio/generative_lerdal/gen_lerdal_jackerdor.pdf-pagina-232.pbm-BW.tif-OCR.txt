@@ -1,0 +1,46 @@
+228
+
+9.12
+
+= —l
+
+This region contains eight events, from which we must choose an e; and
+attach it. PRPR 1 favors the most time-span-important events—the first
+V* and the “vi7.” PRPR 3, on the other hand, favors the I chord, since it
+forms a strong right-branching prolongation with the initial I. Thus the
+two rules are in conflict.
+
+In analyzing numerous examples of this sort of conflict, we have found
+that the following principle accounts for the vast majority of cases:
+
+Interaction Principle In order to make a sufficiently stable prolonga-
+tional connection, e, must be chosen from the events in the two most
+important levels of time-span reduction represented in (e;—e;).
+
+The Interaction Principle restricts the conditions under which PRPR 3 can
+override PRPR 1: no matter what stable prolongational connection can be
+made to the endpoints of a region, only those events in the highest two
+levels of time-span reduction represented in the region can be considered
+for ex. Thus the Interaction Principle is a more explicit version of Prolon-
+gational Hypothesis 2, which states the dependence of prolongational
+reduction on time-span reduction, and, through time-span reduction, on
+grouping and metrical structure.
+
+The Interaction Principle allows two levels of time-span reduction to
+be available for e, rather than only one level, because a degree of flexibil-
+ity must be allowed between time-span importance and prolongational
+importance. On the other hand, the use of two levels rather than three or
+more appears empirically to yield just the correct degree of looseness
+between the two reductions; it prevents unimportant detail from playing
+too great a role at any particular stage of prolongational analysis.!
+
+We return now to the conflict in 9.12. According to the Interaction
+Principle, the I chord may be chosen as ex, because it is only one time-
+span level less important than the V* or the “vi7.” (On the other hand, in
+the original K. 331 passage, the 1 chord on the third beat of measure 1 is
+two levels less important than the VS, and so cannot be considered a
+candidate for ex.) The tree resulting from the choice of the I is shown in
+9.13.
+
+Chapter 9
+

@@ -1,0 +1,61 @@
+310
+
+12.3
+
+Can you pass the salt?
+
+May I ask you to pass the salt?
+Would you mind passing the salt?
+
+Many principles of pragmatics appear to have the nature of preference
+rules. Grice 1975 presents a particularly clear case in which a number of
+“maxims” for conversation are stated as preferences on utterances of
+sentences; for example, “Make your contribution as informative as re-
+quired,” “Do not say what you believe to be false,” “Avoid ambiguity,”
+and “Be relevant.” Although these are stated as maxims for the speaker,
+they apply equally to the process of interpretation by the hearer, where
+they appear as preferences on how to construe the speaker's intended
+meaning. In this form, the four maxims just quoted can be stated as in
+12.4.
+
+12.4
+
+a. Prefer to assume that the speaker is telling you all he knows.
+
+b. Prefer to assume that the speaker believes what he intends to convey.
+c. Prefer to assume that the speaker has only one meaning in mind.
+
+d. Prefer to assume that the speaker is conveying something relevant.
+
+To these must be added the rule whose violation motivates the entire
+system:
+
+12.5
+Prefer to assume that what the speaker says is what he intends to convey.
+
+The inclusion of “prefer to assume” in all these principles is what
+makes them not necessary and sufficient conditions but preferences on
+interpretation.
+
+Grice works through a number of cases where the speaker violates
+maxims for special effects of various sorts (just as the composer brings
+about conflicts among preference rules to avoid clichés in music). The
+problem for the hearer is to decide what it is that the speaker intends,
+given the context. Just in case the overall demands of the situation call for
+rule 12.5 to be overridden, the hearer must construct a plausible intended
+message that is in some way related to what is said. Grice calls this
+construction a conversational implicature.
+
+Here are a few simple examples: An utterance of an ambiguous sen-
+tence presents the hearer with an apparent violation of rule 12.4c. The
+rule of relevance 12.4d suggests the proper choice of reading in most
+cases, and choosing only one reading (in partial violation of rule 12.5)
+permits rule 12.4c to be satisfied. On the other hand, in the case of a pun
+both readings are relevant, and 12.4c is abandoned in favor of complete
+satisfaction of 12.5, with humorous effect.
+
+Grice presents the case where the speaker says “X is a fine friend,”
+where the hearer knows, and the speaker knows that the hearer knows,
+
+Chapter 12
+

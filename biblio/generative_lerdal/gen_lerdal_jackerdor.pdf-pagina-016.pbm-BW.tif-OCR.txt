@@ -1,0 +1,36 @@
+2
+Introduction to Rhythmic Structure
+
+This chapter introduces those aspects of rhythmic structure inferred by
+the listener that do not directly involve pitch. A guiding principle
+throughout will be that rhythmic intuition must not be oversimplified. In
+our view, an adequate account of rhythm first of all requires the accurate
+identification of individual rhythmic dimensions. The richness of rhythm
+can then be seen as the product of their interaction.
+
+The first rhythmic distinction that must be made is between grouping
+and meter, When hearing a piece, the listener naturally organizes the
+sound signals into units such as motives, themes, phrases, periods,
+theme-groups, sections, and the piece itself. Performers try to breathe (or
+phrase) berween rather than within units. Our generic term for these
+units is group. At the same time, the listener instinctively infers a regular
+pattern of strong and weak beats to which he relates the actual musical
+sounds. The conductor waves his baton and the listener taps his foot at a
+particular level of beats. Generalizing conventional usage, our term for
+these patterns of beats is meter.
+
+Sections 2.1 and 2.2 present grouping structure and metrical structure
+as independent components of rhythmic organization and develop their
+analytic notations. Section 2.3 sketches how these two components inter-
+relate. Section 2.4 discusses the notion of “structural accent” and shows
+how it interacts with grouping and meter. Aspects of rhythm directly
+involving pitch structure will be dealt with in the chapters on time-span
+and prolongational reduction.
+
+Whatever intrinsic interest our formulations of grouping and meter
+may have, they are not merely ends in themselves. We originally devel-
+oped these formulations because no principled account of pitch reduction
+was possible without them. In this sense the purely rhythmic part of this
+book (chapters 2-4) is an extended preliminary to the reductional part
+(chapters 5-9).
+

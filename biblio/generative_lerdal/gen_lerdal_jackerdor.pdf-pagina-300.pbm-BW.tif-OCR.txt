@@ -1,0 +1,56 @@
+11.6
+
+Remarks on
+Contemporary
+Music
+
+296
+
+each addressing a different way of combining pitches. First, principles of
+melodic stability define the relative stability of intervals in the horizontal
+motion of a single voice. Second, principles of harmonic stability define
+the relative stability among possible vertical combinations of pitches.
+These two differ in various respects—most markedly in their treatment
+of the interval of the second, which is the most stable melodic motion but
+highly dissonant harmonically. Third, the horizontal and vertical dimen-
+sions combine in principles of harmonic progression (such as relatedness
+by the circle of fifths). Traditional theory has employed all three of these
+kinds of principles, usually without clearly distinguishing them. We too
+have made use of these principles in stating the preference rules for the
+two reductional components, without feeling obliged to spell them out in
+detail since they are so well known. Obviously a complete theory of the
+idiom would be as explicit in this area as we have been in others.
+
+Though open to wide variation, these three general characteristics are
+essential to any notion of tonality, no matter how broadly conceived.
+Their pervasiveness suggests that they form an important part of the
+cognitive organization with which listeners structure musical experience.
+However, the differences among tonal systems represent aspects of mu-
+sical structure that a listener must learn (for the most part unconsciously)
+in order to become “experienced.” At the same time, the fact that certain
+trends appear among simpler tonal systems (for example, the frequent
+use of small-ratio intervals as points of harmonic stability, and the preva-
+lence of some kinds of pentatonic scales over others) suggests the possi-
+bility of an innate system of preferences among tonal systems analogous
+to the principles of markedness in phonological systems of language pro-
+posed in Trubetzkoy 1939 and Jakobson 1941. These would not dictate
+the specifics of tonal systems, but would aid the learner in the selection of
+hypotheses about the tonal system he is trying to learn. In other words,
+one could regard the “inexperienced listener” as seeking a grammar to
+organize some corpus of musical surfaces that he hears; the markedness
+principles would guide him toward certain possibilities and away from
+others. We leave a more thorough investigation of this topic for future
+research.
+
+A limited amount of the world's music, particularly a great deal of
+twentieth-century art music, would appear to be an exception to the
+musical universals proposed in this chapter. Even where there is a tonal
+center, much contemporary music does not offer a coherent measure of
+relative pitch stability, much of it denies a tonal center altogether.
+Moreover, a regular metrical hierarchy is often not conveyed, even if the
+music is notated in traditional terms. Through extreme motivic “trans-
+formations” or even the avoidance of motivic content, much of this music
+withholds evidence for structural parallelism that would lead to any rich
+
+Chapter 11
+

@@ -1,0 +1,47 @@
+249
+
+almost all of the preference rules have been justified on the basis of
+readily audible characteristics of straightforward examples. The com-
+plexity of tonal music arises from the interaction of these individually
+fairly simple principles; in particular, many of the possibilities for musi-
+cal interest arise from conflicts among competing principles. Thus we
+have tried to show as completely as possible that each part of this com-
+plex whole is grounded in what the listener hears.
+
+Second, anyone who has thought about musical structure in any depth
+ought to expect it to be this complex. One constantly reads statements
+such as “. .. the interpretation of music—and this is what analysis
+should be—is an art requiring experience, understanding, and sensitiv-
+ity” (Cooper and Meyer 1960, p. 9). One is inclined to call an artifact
+or activity arf when one cannot consciously decompose or reproduce
+one's intuitions about it, and when one at the same time senses that these
+intuitions are complex and subtle. 1f the principles underlying musical
+intuition were simple and easily discovered, the sense of music as an art
+would hardly be so strong. Indeed, the complexity of the grammar pre-
+sented here is still only part of the story. We have explicitly left open
+some important aspects of musical structure, and have not even begun to
+approach the problem of musical affect, so crucial to artistic concerns.
+
+A third justification for the complexity of the grammaris its status as a
+theory of musical cognition—what the experienced listener knows that
+enables him to comprehend music (and, for that matter, what an experi-
+enced performer knows that enables him to make music comprehensi-
+ble). Many people find it hard to believe that mental operations could be
+so elaborate, especially since the structures they manipulate are so far
+removed from the musical surface. However, we find no difficulty in
+accepting a grammar of this complexity as a model of human knowledge.
+In the only other areas of human cognitive function where we are aware
+of theories whose scope is comparable to the present theory of music,
+namely visual perception and language, the principles governing mental
+function have been shown to be of commensurate complexity, In both of
+these areas one is, ¡f anything, even less consciously aware of the com-
+plexity of one's intuitions than in music. Unconscious processes of
+amazing complexity and subtlety are by no means incompatible with a
+conscious impression of great ease and fluidity, and with the sense that
+one learns these cognitive tasks by “just picking them up” from experi-
+ence with sufficient environmental stimulation. Our theory of music is no
+different from these other areas in this respect. We would have been
+surprised ¡f it had proved fundamentally simpler,.
+
+Formalization of Prolongational Reduction
+

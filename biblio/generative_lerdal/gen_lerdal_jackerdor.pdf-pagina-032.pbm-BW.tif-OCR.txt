@@ -1,0 +1,35 @@
+28
+
+2.14 (cont.)
+b c
+
+ 
+
+Now consider the proposition that beats do not possess inherent
+grouping. This means that a beat as such does not somehow belong more
+to the previous beat or more to the following beat; for instance, in 4/4 the
+fourth beat belongs no more to the third beat than to the following first
+beat. In metrical structure, purely considered, a >eat does not “belong” at
+all—rather, itis part of a pattern. A metrical pattern can begin anywhere
+and end anywhere, like wallpaper.
+
+But once metrical structure interacts with grouping structure, beats do
+group one way or the other. If a weak beat groups with the following
+stronger beat it is an upbeat; if a weak beat groups with the previous
+stronger beat it is an afterbeat. In the Haydn minuet (2.12) the third beat
+1s consistently heard as an upbeat because of the presence of a grouping
+boundary before it, whereas in the scherzo of Beethoven's Second Sym-
+phony (2.15) the third beat is consistently heard as an afterbeat because
+of the presence of a grouping boundary after it. This difference between
+the two passages is all the more salient because in other respects their
+grouping and metrical structures are almost identical.?
+
+ 
+
+Another example of how grouping and meter interact emerges ¡f we
+consider a simple V—I progression. If it occurs at the beginning or in the
+middle of a group it is not heard as a cadence, since a cadence by defini-
+tion articulates the end of a group. If the progression occurs at the end of
+
+Chapter 2
+

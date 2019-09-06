@@ -1,0 +1,53 @@
+305
+
+Having shown that the theory of musical grouping is an instance of
+Gestalt theory, what are we to make of this relationship? This question
+must be approached with a certain amount of care, in view of the present
+status of the Gestalt tradition: though its importance is widely acknowl-
+edged, it has hardly been prominent in the literature of the past quarter
+century. If we are to attach any significance to the similarity of musical
+grammar and the Gestalt theory of vision, it seems wise, if only for
+self-protection, to ask why Gestalt psychology has lost influence.
+
+The sociological (irrational) difficulties have already been largely over-
+come. One gets the impression that Gestalt theory could not withstand
+the powerful antimentalistic bias prevalent in American psychology dur-
+ing the 1940s and 1950s, and it seems to have been written out of
+existence by the more “scientific” behaviorist school. Similarly, in the
+psychology of music, Seashore's (1938) behaviorism was far more presti-
+gious than Mursell's (1937) Gestalt-influenced work. Now the shoe is on
+the other foot. The success of generative linguistics has played a large role
+in rekindling interest in mentalistic theories, while behaviorist psychol-
+ogy has been to a great extent discredited by arguments rather similar to
+those advanced 40-60 years ago by the Gestaltists. (Chomsky 1959
+seems to have been a significant turning point.) Thus the atmosphere is
+now more conducive to a sympathetic reading of Gestalt work than it has
+been in the past.
+
+More substantive difficulties with the Gestalt tradition arose from the
+problem of how to couch a mentalistic theory in a rigorous and explana-
+tory fashion. First, it was felt (perhaps partly in response to behavioristic
+arguments) that no mentalistic theory could be worthwhile without an
+account of its mechanism, and in this respect Gestalt theory, like all
+psychological theories past and present, was unquestionably deficient.
+Koffka compares the Law of Prágnanz to physical principles that mini-
+mize energy at boundaries berween substances. Kóhler 1940 tries to
+make this sort of analogy into a theory by claiming a direct correspon-
+dence between the stabilization of perceptual fields and the stabilization
+of electrical fields in the brain. But, as has been widely recognized, this
+physiological reduction is far too crude for the finely tuned observations
+it is meant to explain.
+
+Generative linguistics has again prepared the way for a resolution of
+the problem, by demonstrating the virtues of dividing a psychological
+theory into description of knowledge (competence model), description of
+mechanism (performance model), and physiological reduction. It has
+come to be widely accepted that a theory may address only competence
+(as much linguistic theory does) or only competence and performance (as
+many theories in psycholinguistics and artificial intelligence do), and still
+be of great explanatory value. Thus Gestalt theory may now be regarded
+as a theory of knowledge or of processing, which frees it of the stigma of
+its weak attempts at physiological explanation.!
+
+Psychological and Linguistic Connections
+

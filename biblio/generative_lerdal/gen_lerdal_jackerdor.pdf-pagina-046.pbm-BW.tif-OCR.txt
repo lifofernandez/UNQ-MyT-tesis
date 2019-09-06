@@ -1,0 +1,47 @@
+42
+
+square is moved still farther to the left, as in 3.12c, the principle of
+proximity exerts an even stronger effect and succeeds in overriding the
+principle of similarity; intuition now clearly groups it with the left group,
+though some conflict may still be sensed. Parallel musical examples ap-
+pear in 3.13.
+
+3.12
+
+a b
+00 ia 00 db
+000 DO
+
+3.13
+a b c
+
+Thus three important properties of the principles of grouping have
+emerged. First, intuitions about grouping are of variable strength, de-
+pending on the degree to which individual grouping principles apply.
+Second, different grouping principles can either reinforce each other (re-
+sulting in stronger judgments) or conflict (resulting in weak or ambiguous
+judgments). Third, one principle may override another when the intu-
+itions they would individually produce are in conflict. The formal system
+of preference rules for musical perception developed in this study pos-
+sesses these same properties. The term preference rule is chosen because
+the rules establish not inflexible decisions about structure, but relative
+preferences among a number of logically possible analyses; our hypothe-
+sis is that one hears a musical surface in terms of that analysis (or those
+analyses) that represent the highest degree of overall preference when all
+preference rules are taken into account. We will call such an analysis the
+“most highly preferred” or “most stable.”?
+
+We have illustrated the intuitions behind preference rules with ele-
+mentary visual examples as well as musical ones in order to show that the
+preference-rule formalism is not an arbitrary device invented solely to
+make musical analyses work out properly. Rather it is an empirical hy-
+pothesis about the nature of human perception. Cognitive systems that
+behave according to the characteristics of preference rules appear to be
+widespread in psychological theories. But the identification of preference
+rules as a distinctive and general form of mental representation seems to
+
+have gone unnoticed since the time of Wertheimer (whose work lacked
+the notion of a generative rule system). The introduction of preference
+
+Chapter 3
+

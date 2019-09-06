@@ -1,0 +1,57 @@
+324
+
+two words. (Segmentation and tree structure are shown only from the
+word level up in 12.19.)
+
+ 
+
+12.19
+7
+7AD N
+o P
+Rorschach — blot Rorschach ink blot
+L _ — — —a 1 y [ s s a s
+word teve! 1 —
+
+ 
+
+Notice that the rule specifies branching into two words, rather than just
+branching as in the previous rule. The reason for this is that the rule is not
+sensitive to the number of syllables or feet in the constituent words. For
+example, in both /abor day and labor union, main stress falls on labor,
+even though in the latter case union branches into two syllables. (None-
+theless, one can imagine generalizing prominence rules 2 and 3 into a
+single rule if proper attention is paid to stating limitations on the ability
+of rules to cross layers in the hierarchy.)
+
+Finally, the aggregation of words into phonological phrases 1s gov-
+erned by this rule from Liberman and Prince 1977:2?
+
+Prominence Rule 4 (Nuclear Stress) In a phonological phrase that im-
+mediately contains two phonological phrases or words, the second is
+strong.
+
+This rule accounts for the stress patterns of phrases like three red hats
+and Jobn ate Bill's peach (represented only from word level up in 12.20).
+
+12.20
+
+A ó s
+A
+w S S
+7
+T o
+three red hats John ate Buls peach
+word level E—-—-d -d E - a si A
+phon. phr. — — —
+sevel —
+
+At the level of phonological phrase there is also a prominence rule that
+bears a more patent resemblance to rules of musical structure than the
+four preceding rules. This is Liberman and Prince's rule of Iambic Rever-
+sal, also commonly called the Rhythm Rule. Its effect is to shift stress
+leftward in certain situations. For example, the words thirteen and Ten-
+nessee have strongest stress on the last syllable when spoken in isolation;
+
+Chapter 12
+

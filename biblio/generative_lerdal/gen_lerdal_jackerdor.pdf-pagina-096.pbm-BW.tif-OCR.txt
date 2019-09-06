@@ -1,0 +1,54 @@
+92
+
+different metrical structures (3/4 versus 6/8 and six possible positions for
+the downbeat) are viable possibilities for beats 1-24. As Rosen 1972
+points out (pp. 339-340), Haydn makes extensive use of this ambiguity
+throughout the movement. The second half of the passage intuitively
+rules out most of these possible analyses, but is itself full of metrical
+complexity due to syncopation and cross-accents. In the course of our
+analysis, we will show how the intuitive metrical complexity of the entire
+passage is reflected in the application of metrical preference rules.
+
+First consider the grouping. Parallelism and symmetry clearly establish
+the grouping of beats 1—24 into sixes. Because of the counterpoint, the
+grouping of the second half of the passage is somewhat more difficult to
+motivate. However, it seems reasonable that the motivic parallelism be-
+tween the first violin in the first four groups and the cello at 31-35 and
+37-40 establishes the grouping illustrated, although this is to some ex-
+tent in conflict with the grouping suggested by the inner parts between
+about 28 and 40.
+
+Beneath the eighth-note level of beats are marked the applications of
+the metrical preference rules at this level. From 1 to 24, metrical evidence
+at the eighth-note level is not highly differentiated. Since there are no
+regularities at either two-beat or three-beat intervals, it is not at all obvi-
+ous whether the six-note groups imply 3/4 or 6/8. Furthermore, though it
+1s clear that the harmony changes somewhere in each group, it is not clear
+where. In particular, the fact that each of the chords (6, 12, 18, and 24) is
+immediately preceded by one ofits pitches suggests that the chords them-
+selves are not the point of harmonic change. Hence no applications of the
+harmonic-change rule (MPR Sf) can be marked with any certainty at this
+level.
+
+The first solid indications of meter are the attacks of long notes at 28,
+30, and 36 and the clear harmonic changes at 30, 34, and 36, which
+establish a spacing of metrical evidence consistent with a 3/4 meter. (The
+harmony at 40 lasts only for a single eighth, so it does not constitute
+evidence for MPR Sf, which looks for the onset of a prolonged harmony.)
+
+Next, observe that in 40—48 the alternating quarter notes in the bass
+and the upper parts create a generally high level of metrical evidence on
+all beats. However, MPR 6 emphasizes the contribution of the bass,
+establishing a differentiation that again favors spacing strong beats two
+rather than three apart. Furthermore, the counterpoint sets up suspen-
+sions at 44 and 46, creating pressure from MPR 38 to place strong beats
+there.
+
+All of this metrical evidence is consistent with the well-formed metrical
+level shown as the quarter-note level in 4.40, and much more so than
+with any other choice. Thus the second half of the passage, rich in metri-
+cal evidence, forces the interpretation of the first half, which alone pro-
+vides only meager evidence for a metrical interpretation.
+
+Chapter 4
+

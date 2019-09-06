@@ -1,0 +1,27 @@
+260
+
+are mutually reinforcing. (Obviously, the prolongational tree could be
+carried out in more detail.)
+
+10.9
+
+ 
+
+Turning now to the Bach C Major Prelude, represented at the measure
+level in 10.10, we find that the uniform surface of the music yields an
+unusual paucity of evidence for the grouping and metrical analyses—and
+hence for time-span segmentation. But this does not mean that grouping
+and metrical issues of interest do not arise. Consider first the hypermetri-
+cal structure. The piece seems to begin in a hypermetrical 4/4, and clearly
+proceeds from measure 24 (the dominant arrival) to the end in the same
+fashion. Thus there must be either a “missing” measure or a hypermetri-
+cal adjustment between the beginning and measure 24. In the nineteenth
+century an added measure was widely accepted between measures 22 and
+23 (a.i5), presumably to rectify the irregularity in metrical periodicity (as
+well as to eliminate the diminished third in the bass line). Alternatively,
+one might hear hypermetrical 4/4 bars until measure 21, then a hyper-
+metrical 3/4 until measure 24. At the opposite extreme, Schenker 1932
+readjusts the hypermetrical 4/4 already at measure 4, because of the
+
+Chapter 10
+

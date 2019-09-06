@@ -1,0 +1,38 @@
+8.1
+
+Intuitions
+About Tension
+and Relaxation
+
+8
+Prolongational Reduction: The Analytic System
+
+As with time-span reduction, we divide the exposition of prolongational
+reduction into two parts. In this chapter we develop the meaning of and
+notation for prolongational trees, and gradually work our way toward a
+complete prolongational analysis; in chapter 9 we will develop the sys-
+tem of rules that assigns prolongational analyses.!
+
+In the grouping, metrical, and time-span components there is nothing
+that expresses the sense of tension and relaxation involved in the ongoing
+progress of music. To be sure, we have described local tensions arising
+from conflict of preference rules —for example, the rhythmic tension of
+syncopation. But the opposite of such tension is the absence of tension.
+The kind of tension we wish to address here is the more elastic sort whose
+opposite is relaxation—the incessant breathing in and out of music in
+response to the juxtaposition of pitch and rhythmic factors. We wish to
+be able to speak of points of relative tension and repose and the way
+music progresses from one to the other. This is the function of prolonga-
+tional reduction. By viewing prolongational reduction in this way, we are
+dealing not only with pitch reduction but with an essential aspect of
+musical rhythm, for tension and relaxation are rhythmic properties.?
+We conceive of tension and relaxation as relative terms defined with
+respect to particular events. For example, an arrival at an event such as
+the end of a phrase normally constitutes a point of relative relaxation;
+departure from this event normally constitutes the beginning of an in-
+crease in tension as the music progresses toward the next goal. An event
+such as the dominant of a full cadence gives the sense of being a step in an
+ongoing process of relaxation. Other events, such as the climax of a
+phrase, may give the sense of being at a stage of maximal tension.
+We would like to express such intuitions in an articulate and systematic
+

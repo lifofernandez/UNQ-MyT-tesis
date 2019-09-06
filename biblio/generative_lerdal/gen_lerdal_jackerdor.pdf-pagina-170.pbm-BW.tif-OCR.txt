@@ -1,0 +1,48 @@
+166
+
+The I presents a more stable melodic line, since it represents an unfold-
+ing of the tonic chord. The influence of linear connection in both 7.20
+and 7.21 can be stated as TSRPR 6a:
+
+TSRPR 6a (Linear Stability, preliminary version) In choosing the head of
+a time-span T, prefer a choice that results in more stable linear connec-
+tions with events in adjacent time-spans.
+
+The analysis of “O Haupt” in 7.17 also made implicit use of a second
+nonlocal influence. In the third quarter of the first measure there is a
+choice between a IV on the first eighth and a V$ on the second. Since the
+IVS is in strong metrical position and is intrinsically more consonant, the
+principles discussed so far would seem to favor it. But compare the two
+choices within the context of the reduction, in example 7.22. Example
+7.22a has the IV* and 7.22b the V$, marked by asterisks.
+
+7.22
+
+ 
+
+Example 7.22b is intuitively preferable, despite the apparent predictions
+of the rules mentioned above. What favors it? TSRPR 6a might select it
+because of the stepwise motion of the bass from the third to the fourth
+beat, and TSRPR 4 (parallelism) might pick out the parallelism between
+this stepwise bass motion and that in the first halves of the first and
+second measures (marked by braces in 7.22b). However, a further con-
+sideration is the greater stability of the V$-I progression in 7.22b over
+the IVé-L in 7.22a. This suggests TSRPR 6b:
+
+TSRPR 6b (Harmonic Progression, preliminary version) In choosing the
+head of a time-span T, prefer a choice that results in more stable har-
+monic connections with events in adjacent time-spans.
+
+We have left unspecified in TSRPRs 6a and 6b what constitutes a rela-
+tively stable linear or harmonic connection. To provide this information,
+the relative stability of various connections could be stipulated directly
+within the statement of the preference rules, But there is an alternative.
+Looking ahead to chapters 8 and , two primary factors affect the choice
+of prolongational reduction: time-span importance and stability of con-
+nection among events. Now if the events that are important in time-span
+reduction also form stable linear and harmonic connections, a highly
+reinforced choice of prolongational reduction is possible. On the other
+hand, if the time-span reduction does not follow the strongest possible
+
+Chapter 7
+

@@ -1,0 +1,40 @@
+191
+
+8.17
+
+ 
+
+Though 8.17a is plausible when the V leads texturally into the I, much
+more common is the sense of a syntactic break berween the half-cadential
+V and the opening I of the consequent. As a result, the V is felt primarily
+as a departure from the initial I. Thus the usual prolongational transla-
+tion of the time-span tree in 8.14a is the tree in 8.17b. This tree says that,
+within the basic form as described above, the initial I prolongs into its
+repetition at the opening of the consequent; and, within this prolonga-
+tion, the half-cadential V primarily tenses in relation to the initial 1.
+
+Cadential Preparation
+
+Now we will consider the single complete phrase as our analytic world.
+First we will discuss the events leading up to the cadence (“cadential
+preparation”), and then we will turn to the events in the phrase between
+the opening tonic and the cadential preparation.
+
+Before directly addressing cadential preparations, we need to interpo-
+late a few remarks about circle-of-fifths progressions. Generally, one
+wants to say that V is to l asii is to V and vi is to ii, and so on; each event
+in the sequence relates similarly to its adjacent events. Because V is less
+consonant than I (and 1i less consonant than V, and so on), a I-V pro-
+gression receives a right branch and a V-—I progression a left branch.
+Since these relationships apply sequentially, an ascending circle of fifths
+tends to result in a successively embedded right-branching structure
+(8.18a) and a descending circle of fifths in a successively embedded left-
+branching structure (8.18b).
+
+8.18
+a b
+
+ 
+
+Prolongational Reduction
+

@@ -1,0 +1,56 @@
+129
+
+there is an event for each span at the level in question. Diagrams 6.6c—
+6.6e complete the branching possibilities: ¡f event x dominates, y and z
+attach to it equally; and similarly if y or 2 dominates. (See section 12.3 on
+the possibility of restricting time-span trees to binary branching.)
+
+At local levels, as we have just seen, metrical structure determines
+time-span structure. Thus we can relate right and left branching to metri-
+cal structure in a musically significant way. In 6.7 two levels of metrical
+structure and time-span segmentation have been indicated, to produce,
+along with the two kinds of branching, four paradigmatic situations.
+
+6.7
+
+=3 » »
+
+Pitch- events) *
+
+   
+
+Metrical * . . . . . . .
+structur . . . ;
+Time- $ n — 4 — —y ka e — -d
+se_9mentatn —
+Downbeat Afterbeat Downbeat L2¿>
+dominates deminates dominates lominates
+erbeat downbeat u/=b¿a¿' downbeat
+
+Cases a and b pertain to afterbeats: in a, event y on the afterbeat is the
+less stable event, as in the case of a passing or neighboring tone or chord;
+in », event x on the downbeat is the less stable event, as in the case of a
+suspension or an appoggiatura tone or chord. Cases c and d pertain to
+upbeats: in c, event x on the upbeat is the less stable event; in d, event y
+on the downbeat is the less stable event. Viewed differently, the more
+stable events in a and c occur on strong beats, and those in b and d occur
+on weak beats. (These distinctions function for ternary branching as
+well.)
+
+Á time-span reduction of local levels of the first two phrases of Bach's
+chorale “O Haupt Voll Blut und Wunden” will illustrate these pitch-
+meter relationships. Example 6.8 presents the time-span segmentation.
+
+ 
+
+l_l…l__.lL__Jl__ll_l ;JL_JL_._.JL__IL__IL_JI___I I_II_ILJ
+
+L — M Za __ ai1
+| L ——————
+
+— — —[——————————]—]————]—_————]—Ñ—
+
+ 
+
+Time-Span Reduction
+

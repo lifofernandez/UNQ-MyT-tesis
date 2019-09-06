@@ -1,0 +1,56 @@
+224
+
+PRPR 3 (Prolongational Connection) In choosing the prolongationally
+most important event e, in a prolongational region (e;—e;), prefer an ex
+that attaches so as to form a maximally stable prolongational connection
+with one of the endpoints of the region.
+
+In applying this form of PRPR 3 to 9.8 we find that the most stable
+connection is of the intermediate I to the initial I, since this forms a right
+prolongation; 9.9a is the resulting tree. In turn, the V is now between two
+ls, so that PRPR 3 is indeterminate. Because of the grouping, however,
+PRPR 2 applies to attach the V to the initíal I, as in 9.9b. The preference
+rules have thus carried out the derivation discussed in detail in chapter 8
+(examples 8.14—8.17).
+
+9.9
+
+a b
+
+I vI YI l YI VI
+— — ññ Ne——] — ———————
+antecedent canseqyent antecedent con:e¿¿1¡ent
+
+Notice that the attachment of the intermediate T in 9.9a overrides PRPR 2,
+which would prefer attachment to the following V.
+
+Now we turn to refining the concept of stable prolongational connec-
+tion. Most of the relevant factors were mentioned in sections 8.1 and 8.2;
+we Will enumerate them here as a set of conditions to which PRPR 3
+refers.
+
+Stability Conditions for Prolongational Connection
+1. (Branching condition)
+
+a. Right strong prolongations are more stable than right weak prolon-
+gations, which in turn are more stable than right progressions.
+
+b. Left progressions are more stable than left weak prolongations,
+Which in turn are more stable than left strong prolongations.
+
+2. (Pitch-collection condition)
+A connection between two events 1s more stable if they involve or
+imply a common diatonic collection.
+
+3. (Melodic condition)
+
+a. (Distance) A connection between two events is melodically more sta-
+ble ¡f the interval between them is smaller (with the exception of the
+octave, Which is relatively stable).
+
+b. (Direction) An ascending melodic progression is most stable as a
+right-branching structure; a descending one is most stable as a left-
+branching structure.
+
+Chapter 9
+

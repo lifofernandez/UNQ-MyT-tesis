@@ -1,0 +1,59 @@
+12.2
+
+Preference Rules
+in Linguistic
+Theory
+
+307
+
+problems, describing a topological manifold in which geometrical dis-
+tance corresponds roughly to relative stability of prolongational connec-
+tion (that is, of harmonic and melodic relationship).
+
+The most highly detailed work on visual theory in this vein is that
+reported in Marr 1982. Marr divides the mapping from the presented
+visual field to visual structure into a number of steps, each of which is a
+mapping berween two discrete levels of structure. Each of the levels of
+structure he posits is defined explicitly, and the mappings between them
+are equally explicit, to the point where a meaningful computer simulation
+is possible. Although Marr's model does not extend all the way to the
+level of object recognition, those steps he has described are successful in
+accounting for many important properties of visual perception. Elements
+of this theory have been incorporated into subsequent work such as Ull-
+mann 1979 and Kosslyn 1980,
+
+In its overall form, Marr's theory is similar to our theory of music.
+Each level of visual structure is characterized by a set of principles analo-
+gous to well-formedness rules. Moreover, the mappings berween levels of
+visual structure rely on principles that operate exactly like our preference
+rules. Principles may reinforce each other or conflict; when there is con-
+flict, the outcome may be ambiguous or one principle may override the
+other, depending on their relative strengths of application.
+
+Thus, within modern theories of human visual information processing,
+many features of Gestalt theory have survived and many analogs to our
+music theory have emerged. Moreover, the mentalist and innatist posi-
+tion of Gestalt theory is quite in tune with contemporary work. For
+example, Shepard 1980 contains repeated references to our ability to
+perceive the world as we do in terms of the outcome of evolution shaping
+the innate nature of the visual system.
+
+What has not survived from Gestalt psychology is its attempt at physi-
+ological reduction. But when viewed as computational principles, the
+Gestalt laws of organization seem inevitably to play a role. Thus our
+appeal to principles of Gestalt psychology is not anachronistic. We have
+used them in a fashion compatible with modern work in visual theory.
+We have found it useful to refer to the earlier work, despite its lack of
+explicitness, because of its directness and clarity in addressing some of
+the more fundamental issues of psychological inquiry that are simply
+assumed by more recent work.
+
+As promised in chapter 1, the generative music theory developed here
+does not look much like generative linguistics. This section will point out
+certain formal relationships that are not immediately obvious.
+
+The difference in methodology between the two theories, mentioned in
+section 1.2, is symptomatic: whereas linguistic theory is highly concerned
+
+Psychological and Linguistic Connections
+

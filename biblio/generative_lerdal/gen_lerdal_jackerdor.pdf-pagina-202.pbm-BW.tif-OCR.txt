@@ -1,0 +1,54 @@
+198
+
+Rather, a tonal phrase or piece almost always begins in relative repose,
+builds toward tension, and relaxes into a resolving cadence (8.26d). This
+is the most essential way in which the idiom achieves the aesthetic effects
+of balance and closure (8.26a—8.26c would all give an “open-ended”
+effect).
+
+8.26
+a b c d
+t
+
+h
+
+We would like now to make explicit the minimal branching condition,
+which we will call normative prolongational structure, for this tensing-
+relaxing pattern in tonal music.
+
+First, it should be clear from the “global” treatment of the consequent
+phrase in 8.25c that the branches of the prolongationally most important
+events in a phrase or section need not necessarily attach directly. Whether
+or not they connect depends on their function in the overall context.
+Therefore, as suggested by 8.27a, such attachment is not a requirement
+for normative prolongational structure.
+
+r t r
+
+r
+— — —
+
+ 
+
+8.27
+a b
+¡' xx XX
+D
+c d
+
+/ Y
+/' N
+
+( normative prolongational structore )
+
+C
+
+Second, it was demonstrated above that a “subdominant” cadential
+preparation plus a full cadence produces a double left-branching progres-
+sion. Since this is the norm for closure in tonal music, let us provisionally
+stipulate that the relaxing part of normative structure demands the struc-
+ture in 8.27b. Finally, at least one significant right-branching progression
+is needed to provide sufficient tension to balance the relaxing pattern in
+
+Chapter 8
+

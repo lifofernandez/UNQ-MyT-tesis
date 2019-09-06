@@ -1,0 +1,61 @@
+318
+
+of subgroups intervening between two levels of groups. This layer-
+ing, though not stressed as such in chapters 6 and 7, is important for the
+comparison with prosodic structure.
+
+The well-formedness rules (section 7.2) make up the second sub-
+component of the grammar of time-span reduction. They determine a set
+of possible time-span reduction trees, such that every time-span has a
+head selected out of the heads of the time-spans it immediately contains.
+Third, the choice of head for each time-span is determined by the pref-
+erence rules (sections 7.3 and 7.4), which are sensitive to metrical,
+harmonic, voice-leading, and cadential properties of the events in the
+time-span.
+
+The version of hierarchical phonology most similar to the grammar of
+time-span reduction is that developed by Selkirk (1978, 1980). More
+than other approaches, Selkirk's makes clear the distinction between
+rules of segmentation, rules that build tree structures on the basis of the
+segmentation, and rules that determine relative prominence of sister
+branches in the trees (though these distinctions are implicit in all the
+other approaches). To bring out the parallelism with music, we will
+present a version of Selkirk's theory, slightly modified from her presenta-
+tion but preserving its essential insights.
+
+Although the pioneering study by Liberman and Prince (1977) makes
+use of the notions of syllable and foot, their formal role in the theory is
+left somewhat unclear. Selkirk, however, argues that syllables and feet
+must be explicitly marked as prosodic categories, and that these catego-
+ries play a role in the formal statement of various phonological processes.
+In addition, Selkirk argues for the existence of other, larger, prosodic
+categories of word, phonological phrase, intonational phrase, and ut-
+terance. The result is a segmentation of the phonological string into a
+complex hierarchy that corresponds only in part to syntactic structure.
+For example, 12.12 is the segmentation of the sentence In Pakistan, Tues-
+day is a holiday. The levels to the left identify the prosodic categories.
+
+12.12
+
+ 
+
+n Pa ki stan Tues day ís a ho li day
+syllable level u1 3 33 aA AA
+foot level y L o B 4 ed aSESIL
+wordlevel i Ad s — a
+
+hon. phr.
+F/eveíí) — — ——]: [ l —]]]]——
+nt. r
+L/2V5Í e ! —————————
+utterance
+
+1evel — —
+
+An important way in which this structure is unlike syntactic structure
+and like time-span segmentation is that, whereas in syntactic structure a
+category may recur inside one of its constituents (for instance, NP inside
+PP inside NP), this is impossible in the phonological segmentation.
+
+Chapter 12
+

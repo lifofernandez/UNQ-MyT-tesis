@@ -1,0 +1,51 @@
+assigns to the pitches a hierarchy that expresses harmonic and melodic
+tension and relaxation, continuity and progression.
+
+Other dimensions of musical structure—notably timbre, dynamics,
+and motivic-thematic processes—are not hierarchical in nature, and are
+not treated directly in the theory as it now stands. Yet these dimensions
+play an important role in the theory in that they make crucial contribu-
+tions to the principles that establish the hierarchical structure for a piece.
+The theory thus takes into account the influence of nonhierarchical di-
+mensions, even though it does not formalize them.
+
+We have found that a generative music theory, unlike a generative
+linguistic theory, must not only assign structural descriptions to a piece,
+but must also differentiate them along a scale of coherence, weighting
+them as more or less “preferred” interpretations (that is, claiming that
+the experienced listener is more likely to attribute some structures to the
+music than others). Thus the rules of the theory are divided into two
+distinct types: well-formedness rules, which specify the possible struc-
+tural descriptions, and preference rules, which designate out of the possi-
+ble structural descriptions those that correspond to experienced listeners”
+hearings of any particular piece. The preference rules, which do the major
+portion of the work of developing analyses within our theory, have no
+counterpart in standard linguistic theory; their presence is a prominent
+difference between the forms of the two theories (see section 12.2 for
+further discussion).
+
+The need for preference rules follows from the nature of intuitive
+judgments involved in motivating the theory. In a linguistic grammar,
+perhaps the most important distinction is grammaticality: whether or not
+a given string of words is a sentence in the language in question. A
+subsidiary distinction is ambiguity: whether a given string is assigned two
+or more structures with different meanings. In music, on the other hand,
+grammaticality per se plays a far less important role, since almost any
+passage of music is potentially vastly ambiguous—it is much easier to
+construe music in a multiplicity of ways. The reason for this is that music
+is not tied down to specific meanings and functions, as language is. In a
+sense, music is pure structure, to be “played with” within certain bounds.
+The interesting musical issues usually concern what is the most coherent
+or “preferred” way to hear a passage. Musical grammar must be able to
+express these preferences among interpretations, a function that is largely
+absent from generative linguistic theory. Generally, we expect the mu-
+sical grammar to yield clear-cut results where there are clear-cut intuitive
+judgments and weaker or ambiguous results where intuitions are less
+clear. A “preferred” structural description will tend to relate otherwise
+disparate intuitions and reveal regular structural patterns.
+
+Certain musical phenomena, such as elisions, require structures not
+expressible by the well-formedness rules. These structures are described
+
+Theoretical Perspective
+

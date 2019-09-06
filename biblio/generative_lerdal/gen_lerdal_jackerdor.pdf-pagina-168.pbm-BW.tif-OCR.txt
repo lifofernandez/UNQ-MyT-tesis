@@ -1,0 +1,46 @@
+164
+
+not to take the D rather than the B as most important in the second
+measure. More elaborate examples could be cited, but this simple case
+seems sufficient to make the point.
+
+TSRPR 4 (Parallelism) If two or more time-spans can be construed as
+
+motivically and/or rhythmically parallel, preferably assign them parallel
+heads.
+
+We next examine a point in K. 331 that appears to be a counter-
+example to the interaction of preference rules proposed so far. The time-
+span reduction of the first four measures proceeds straightforwardly to
+the dotted-quarter level (7.20a). At the next level, however, the intu-
+itively most important event in the third measure is the “vi7” rather than
+the V$; that is, the reduction from 7.20a should be 7.20b rather than
+7.20c.
+
+ 
+
+ 
+
+c
+
+harmonic | e¿ther> p- — .
+rhythm ) o - P F'——;F—F
+metrica! . . . .
+structure > - *
+
+In all other cases we have seen up to this point, harmonic stability has
+been sufficient to override metrical position. Yet in this case the highly
+unstable chord in strong metrical position has managed to override the
+more stable chord in weak metrical position. This suggests that one or
+more additional preference rules must apply here, adding strength to the
+analysis in 7.20b.
+
+We discern two principles at work in this example, having to do with
+harmonic rhythm and linear bass motion. Consider first harmonic
+rhythm. In 7.20b the harmony changes in every measure, whereas in
+7.20c it does not change in the third measure and it only changes by
+inversion in the fourth. In other words, the harmonic rhythm in 7.20c is
+syncopated with respect to the metrical structure. If the difference in
+
+Chapter 7
+

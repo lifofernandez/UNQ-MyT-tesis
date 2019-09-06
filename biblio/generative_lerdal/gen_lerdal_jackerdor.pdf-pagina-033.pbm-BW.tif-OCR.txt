@@ -1,0 +1,54 @@
+29
+
+a group it is heard as a full cadence—either “feminine” or “masculine,”
+depending on whether the V or the I is metrically more accented. If a
+grouping boundary intervenes between the two chords, the V does not
+resolve into the l; instead the V ends a group and is heard as a half
+cadence, and the lis heard as launching a new phrase. Metrical structure
+alone cannot account for these discriminations, precisely because it has
+no inherent grouping. Both components are needed.
+
+This completes our argument that the properties of grouping and meter
+must be kept separate. En route we have also shown that some funda-
+mental rhythmic features— patterns of metrical accentuation in group-
+ing, upbeats and afterbeats, aspects of cadences—emerge in a direct and
+natural way when the components interact. Now we need to generalize
+their interaction in terms of time-span structure.
+
+Although time-spans can be drawn from any beat to any other beat,
+the only time-spans that have relevance to perceived metrical structure
+are those drawn between successive beats at the same metrical level; these
+spans reflect the periodicity inherent in metrical structure. The hierarchy
+of such spans can be represented by brackets as shown in 2.16, where a
+bracket begins on a given beat and extends up to (but does not include)
+the next beat at that level.
+
+2.16
+ha a a
+L — 2 a i a
+
+Groups, of course, also take place over spans of time. But in this case,
+even though a group begins on a given beat and extends up to another
+beat (the norm in tonal music, in which even the smallest detail is almost
+always given a metrical position), there is no prior restriction that the
+group extend between beats at the same metrical level. A group can have
+any arbitrary length. If, however, a group does extend between beats at
+the same metrical level, and if the first beat in the group is its strongest
+beat, then the span produced by the group coincides with a metrical
+time-span. An instance of this common phenomenon appears in 2.17a,
+where the span for the third level of dots is coextensive with the smallest
+grouping span.
+
+2.17
+
+a
+
+lo o a A
+a 22 M Z N )a
+ME .A
+
+Nm————— ———]—————]——É——Ñ————F—;——z])
+Ne——]—];;——]—]]—]—]]——]Ú — s—C [———]
+
+Rhythmic Structure
+

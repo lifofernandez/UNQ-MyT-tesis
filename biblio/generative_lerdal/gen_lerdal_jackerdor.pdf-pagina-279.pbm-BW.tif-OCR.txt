@@ -1,0 +1,51 @@
+275
+
+“event,” in both its harmonic and melodic aspects, assumes a unique
+position in the overall hierarchy. In our theory harmonic criteria have
+generally (though not always) overridden melodic criteria when the two
+have been in conflict, because melodic features are for the most part
+heard within a harmonic context. But even if this approach succeeds in a
+wide variety of cases, it is a simplification of musical reality.
+
+Consider, for example, the progression shown in 10.20.
+
+10.20
+a b
+
+Melodic
+ana[ysis
+
+ 
+
+(I SY 1)
+
+Harmonia
+( bass )
+analysis
+
+ 
+
+Obviously the melody depends on the harmonic context: the sequence
+E—D-C is heard in C major (rather than, say, E minor or F major, in
+which it would receive differing reductional functions); the D is heard as
+passing between (and hence subordinate to) notes of the tonic triad. Our
+standard prolongational analysis appears in 10.20a. But the melody
+and the harmony are also heard somewhat differently. As illustrated in
+10.20b, the melodic D in the V chordis a prolongational repetition of the
+D in the 1i%, and the final Lis a prolongational repetition of the initial I.
+(Here the reader must get accustomed to reading trees upside-down.)
+Thus, ¡f separate but related trees are assigned to the melody and the
+harmony, each tree in 10.20b differs from the tree in 10.20a.
+Especially significant in 10.20b are the implications of the largest levels
+of branching. Most tonal pieces progress from the tonic to a more stable
+tonic; this is represented in 10.20a and in the melodic analysis in 10.20b.
+But in another sense most pieces are prolongational extensions of the
+initial tonic; this is represented in the harmonic analysis in 10.20b.
+
+2 l 7 8
+Consider also a typical deceptive cadence, V-vi or V-—vi. Here the mel-
+ody resolves to the tonic while the harmony tenses away from the tonic.
+In such cases, our single tree analysis has emphasized the motion toward
+
+Analyses
+

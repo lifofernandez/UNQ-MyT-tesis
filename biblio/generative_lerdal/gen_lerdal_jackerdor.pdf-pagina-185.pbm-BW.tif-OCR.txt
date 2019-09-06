@@ -1,0 +1,45 @@
+181
+
+ 
+
+neighbor within the context of a prolonged D. It is apparent that rhyth-
+mic as well as pitch factors affect intuitions about tension and relaxation.
+
+This brief survey has shown the possibility of speaking of intuitions
+about tension and relaxation in terms of superimposing simple patterns
+in a hierarchical fashion to produce more complex patterns. But the nota-
+tion of these patterns in 8.3 is already unwieldy. Before considering
+longer examples, we must develop an adequate notation.
+
+We begin by defining tension and relaxation in terms of right and left
+prolongational branching. As diagrammed in 8.4, a tensing motion will
+be represented by a right branch, a relaxing motion by a left branch.
+These are structural interpretations placed on the elaborational hierar-
+chies of prolongational trees. Henceforth we can dispense with the arrow
+notation.
+
+8.4
+
+A éd'l'€V5/1t¿'.' x y X y
+
+ 
+
+For both right and left branching we distinguish three possible kinds of
+connection between two events. First, a simple joining of branches (8.5a)
+signifies what we call a progression. This occurs when the harmonic roots
+of the two events are different. (If a single line is analyzed, branch-
+ing is decided largely on the basis of the implied harmony. Even the
+simplest tunes in Western tonal music involve harmonic implications.)
+
+8.5
+
+ 
+
+ 
+
+ 
+
+ 
+
+Prolongational Reduction
+

@@ -1,0 +1,48 @@
+184
+
+requirement was not a problem for time-span reduction, where the time-
+span segmentation always forced a decision one way or the other. The
+fluidity of analytic domains in prolongational reduction makes it an issue
+here.
+
+Consider equivalence first. In Schenkerian analysis one might wish to
+say that two identical events forming a prolongation are somehow the
+same event at a more background level of analysis. In the tree notation
+the two events would connect as a strong prolongation, but neither event
+would dominate the other by right or left branching.3 Thus there would
+be no progression toward tension or relaxation, but stasis. The intuitive
+justification for such a construction might be that at a certain level of
+abstraction one hears a hierarchy not of discrete events but of harmonic
+areas.
+
+However, this approach is inadequate. It goes against the grain of the
+theory as a whole, in which each event is taken in principle as “real” at all
+relevant levels of analysis. One may hear harmonic areas (these are in any
+case enclosed within a prolongation), but one also hears all the dis-
+tinctions among individual events, even those that are strongly pro-
+longed. It is impossible to hear absolute stasis, ¡f only because events take
+place in time and hence form rhythmic relationships that produce tensing
+or relaxing effects.
+
+Let us be more specific. At local levels, one has elementary intuitions
+about “prolongational anticipation” and “prolongational repetition.”
+For example, in 8.8a the first I chord is heard as an anticipation of the
+second 1, but in 8.8b the second I is heard as a repetition of the first. In
+terms of tension and relaxation, the anticipation (8.8a) relaxes into the
+following downbeat, whereas the repetition (8.8b) tenses in response to
+its surrounding stronger beats. Therefore, as the trees in 8.8 indicate,
+prolongational anticipation receives a left branch, prolongational repeti-
+tion a right branch.
+
+8.8
+
+ 
+
+At global levels, on the other hand, the concept of prolongational
+anticipation makes no sense. For example, the opening tonic in a
+sonata-form movement is never heard as an anticipation of its restate-
+ment at the beginning of the recapitulation; rather, the beginning of the
+recapitulation is heard as a prolongational repetition of the opening. The
+
+Chapter 8
+

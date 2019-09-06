@@ -1,0 +1,55 @@
+326
+
+music and language in this respect is that musical events are organized
+around a fixed and regular metrical structure that must be maintained
+throughout. In language, by contrast, the rhythm is flexible and is not
+required to conform to any particular pattern.
+
+Either of these practices may be altered. In recitative, fixed meter is
+abandoned by dropping MWEFR 3 (the spacing of strong beats two or
+three beats apart) and MWEFR 4 (the equal spacing of beats), and more
+flexible, speechlike rhythms appear. In poetry, a fixed metrical pattern is
+imposed to which the linguistic stresses correspond; in effect, a counter-
+part of MWERs 3 and 4 1s adopted (see Halle and Keyser 1971 and
+Kiparsky 1977 for discussion).
+
+Thus we can conclude that the relation of relative prominence to met-
+rical structure is substantially the same in music and language. The dif-
+ference between the relevant musical preference rules and the prosodic
+Rhythm Rule is a function largely of the different metrical practices of the
+two media.
+
+Some Discrepancies
+
+The last three subsections have shown that time-span reduction and pro-
+sodic structure are not just represented by equivalent tree notation; they
+are the products of grammars that carry out formally parallel operations
+on musical and phonological strings. In each case, the string is segmented
+into a layered hierarchy, in which each layer provides an exhaustive
+segmentation. A set of possible tree structures is defined in precisely
+parallel fashion over the segmentations, and preference rules or promi-
+nence rules determine which of the possible trees is the correct one.
+Furthermore, two substantive parallels have appeared: the treatment of
+augmented time-spans and augmented feet, with group boundaries and
+word boundaries playing equivalent roles; and the relationship of metri-
+cal structure to choices made by the prominence rules.
+
+Of course, the nature of the strings being segmented and most of the
+substance of the rules in the two theories are quite different. This only
+serves to make the formal parallels still more striking, particularly since
+the two theories were developed independently and were designed to
+account for radically different sorts of intuitions (though there has been
+interfertilization of the two theories with respect to the treatment of
+metrical structure). Before drawing further conclusions, however, we
+should consider some formal respects in which the two theories differ and
+discuss how the differences might be resolved.
+
+First, although the parallelism was first motivated by the equivalence
+of the tree notations, the two notations actually differ somewhat in ex-
+pressive power. Our discussion has shown the equivalence of prosodic
+trees to the plainest form of time-span trees, where only ordinary reduc-
+tion has taken place. But in section 7.2 we showed that there are three
+other relationships that can obtain between the head of a time-span and
+
+Chapter 12
+

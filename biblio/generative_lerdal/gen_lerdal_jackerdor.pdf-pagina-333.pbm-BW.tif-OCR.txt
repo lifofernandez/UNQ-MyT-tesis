@@ -1,0 +1,52 @@
+329
+
+virtue of being in the “strong” time-span 1—2 as opposed to the “weak”
+time-span 3-4. The same argument applies to time-span reduction:
+low-level elaborations of relatively important events are themselves no
+more important than equally low-level elaborations of less important
+events, In other words, strength relative to other time-spans inheres only
+in the head and not in the time-span as a whole. Thus it would be
+incorrect to change the interpretation of time-span trees to conform to
+phonological theory.
+
+On the other hand, it does make some sense to reinterpret prosodic
+structure in time-span reductional terms. When main stress is applied to a
+phrase on the basis of a prosodic tree, it is not spread over an entire
+strong constituent but is applied to the designated terminal element (the
+head) alone. Unstressed syllables are of equivalent strength whether they
+are in a relatively strong or a relatively weak constituent. Hence aspects
+of our argument against Cooper and Meyer's interpretation of metrical
+weight in music are germane here, which suggests that the musical in-
+terpretation of the hierarchical structures common to time-span and pro-
+sodic theory is the correct one.
+
+At first glance the notion that a phonological string has a reduction like
+a musical string may seem rather odd. For example, the tree for reconcili-
+ation (12.11) indicates a level of reduction of the form re—ci—a, one of
+the form re—a, and finally one consisting of the main stressed syllable a
+alone. This is hardly co1aprehensible in morphological, syntactic, or
+semantic terms. However, at the phonological level of linguistic repre-
+sentation, we are dealing not only with linguistic information but also
+with its perceptual and motor organization. It is not at all impossible to
+think of a prosodic reduction as determining the way a phonological
+string is perceived, say by identifying relatively strong syllables first. It
+could also affect the way a string is produced, say by treating the stronger
+syllables as the axes around which other speech movements are mar-
+shaled. If this is a plausible view, the parallelism between music and
+language is still deeper.
+
+General Implications
+
+No matter how the discrepancies just discussed are eventually resolved,
+the similarity berween the theory of time-span reduction and the theory
+of prosodic structure seems to us to be a much more significant paral-
+lelism between music and language than has ever, to our knowledge, been
+pointed out. Its persuasiveness arises from the point-by-point correspon-
+dence of abstract aspects of the proposed grammars, rather than from
+superficial analogies berween the two media. To see the force of the ar-
+gument, notice, by contrast, that similarities between syntactic and mu-
+sical structure — for example, those proposed by Bernstein (1976) —have
+not proved to be fruitful avenues of investigation. The differences be-
+
+Psychological and Linguistic Connections
+

@@ -1,0 +1,46 @@
+Grouping
+Structure
+
+Rule Index
+
+Note: Rules marked with an asterisk are idiom-specific. We believe the
+rest are universal.
+
+GWER 1 (p. 37)
+Any contiguous sequence of pitch-events, drum beats, or the like can
+constitute a group, and only contiguous sequences can constitute a
+
+group.
+GWER 2 (p. 38)
+
+A piece constitutes a group.
+
+GWER 3 (p. 38)
+
+A group may contain smaller groups.
+
+GWER 4 (p. 38)
+lf a group G contains part of a group Gx, it must contain all of Gz.
+
+GWER 5 (p. 38)
+If a group G; contains a smaller group G2, then G¡ must be exhaustively
+partitioned into smaller groups.
+
+GPR 1, alternative form (p. 43)
+Avoid analyses with very small groups—the smaller, the less prefer-
+able.
+
+GPR 2 (Proximity) (p. 45)
+
+Consider a seguence of four notes n,7,n37,4. All else being equal, the
+
+transition 7,—n3 may be heard as a group boundary if
+
+a. (Slur/Rest) the interval of time from the end of 1, to the beginning of ;
+is greater than that from the end of n to the beginning of 1, and that
+from the end of n to the beginning of n,, or if
+
+b. (Attack-Point) the interval of time berween the attack points of 1, and
+nzis greater than that berween the attack points of 1, and 1, and that
+between the attack points of 13 and n,.
+

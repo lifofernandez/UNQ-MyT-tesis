@@ -1,0 +1,47 @@
+16es
+
+harmonic rhythm is significant in choosing 7.20b over 7.20c—as we be-
+lieve it is—we might state a preference rule such as “Prefer a time-span
+reduction with harmonic changes on relatively strong beats.”
+
+But this formulation can be improved if we recall that there is a met-
+rical preference rule (MPR 5Sf) that addresses the effect of harmonic
+rhythm on metrical structure: “Prefer a metrical structure in which rela-
+tively strong beats are associated with the inception of relatively long
+durations of harmony in time-span reduction.” If the time-span reduc-
+tion of 7.20a were 7.20c, MPR Sf would create pressure for placing the
+strongest beat of the passage at the beginning of the second measure,
+conflicting with other metrical evidence. By contrast, reduction 7.20b
+creates no such pressure, because all the harmonies are of equal length.
+
+This suggests that the choice of 7.20b is influenced by the fact that
+it permits a less highly conflicted metrical analysis. In other words, in
+addition to a metrical preference rule that considers metrical effects on
+time-span reduction, there is a time-span reduction preference rule that
+considers time-span effects on metrical structure:
+
+TSRPR $ (Metrical Stability) In choosing the head of a time-span T,
+prefer a choice that results in more stable choice of metrical structure.
+
+Though the reasoning that leads to TSRPR $ is less direct than that
+involved in the preliminary formulation above, we find TSRPR 5 a more
+theoretically satisfying proposal, in that it claims that harmonic rhythm
+affects time-span reduction not according to an arbitrary additional prin-
+ciple but by means of the effect that time-span reduction is independently
+known to have on metrical structure. TSRPR 5 therefore creates one of
+the pressures that helps the strong metrical position of the “vi7” override
+its harmonic instability.
+
+The second factor involved in the choice of 7.20b is the stepwise mo-
+tion of the bass that emerges in 7.20b but not in 7.20c. Similar linear
+factors were used implicitly in the reduction of “O Haupt” in 7.17. For
+instance, in the first half of the first measure, there is a choice berween a
+IV on the first beat and a I5 on the second. Example 7.21 presents the two
+possibilities.
+
+7.21
+
+ 
+
+Formalization of Time-Span Reduction
+

@@ -1,0 +1,53 @@
+306
+
+The other stumbling block to Gestalt theory was a lack of formalism.
+Generative formalisms modeling mental representation had not yet been
+developed, so a physically based treatment was probably the only way
+available for going beyond the informality of most Gestalt theorizing.
+Needless to say, this too no longer presents a problem. Although the
+formalisms of transformational grammar do not lend themselves to the
+purposes of visual theory, certain recent work in psychology can be
+viewed as steps toward a generative theory of vision.
+
+Suppose we think of a theory of vision as a description of the viewer's
+ability to comprehend the presented visual field. Among the components
+of such a theory will be a theory of visual structure, an abstract organiza-
+tion that, like musical structure, is mentally generated but attributed to or
+projected onto the presented field. This structure is the visual world as
+perceived, that 1s, the terms in which visual experience presents itself to
+consciousness. The possibilities for visual structure will be described by
+principles analogous to musical well-formedness rules.
+
+In addition, the theory will need to describe the mapping berween the
+presented visual field and visual structure. In general, the presented evi-
+dence will underdetermine the choice of visual structure; that is, the
+visual field will in general be highly ambiguous. Therefore the mapping
+function will have to include a system of preferences that choose the most
+highly favored analysis or analyses for a presented visual field. The Ge-
+stalt laws of organization can be construed as informal statements of
+various aspects of this system of preferences.
+
+More recent work illustrates parts of such a theory. The detailed topo-
+logical constraints of Shiman (1975, 1978) are involved in the definition
+of a well-formed visual structure; they essentially guarantee the orderly
+decomposition of a field into regions by placing global conditions on the
+network of boundaries that establish the decomposition. By working
+through the mathematical consequences of the visual intuition that a
+boundary is “oriented” (that it belongs specifically to only one of the
+regions that it adjoins), Shiman derives, among other things, the possi-
+bility of certain classical visual figure-ground ambiguities and the impos-
+sibility of a three-dimensional interpretation for certain well-known
+“impossible figures.”
+
+The research cited in Shepard 1980 and the theory presented there are
+very close in spirit to the sketch of visual theory given above. Shepard
+states clearly the need for a theory of internal mental representation of
+the visual field upon which computations such as “mental rotations” can
+be performed. He further shows the necessity for a system of preferences
+because of the underdetermination of representation by the visual field.
+Shepard's approach is to derive preferred structures in terms of a metric
+over a topological manifold whose dimensions correspond, in our frame-
+work, to the domains of preference rules. He also alludes to musical
+
+Chapter 12
+

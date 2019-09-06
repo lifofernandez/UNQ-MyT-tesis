@@ -1,0 +1,26 @@
+6.1
+Time-Span
+Segmentation
+
+ 
+
+6
+Time-Span Reduction: The Analytic System
+
+In this chapter we discuss time-span segmentation and time-span tree
+structure in some detail and conclude with a complete time-span reduc-
+tion. The rules that assign analyses within this component are developed
+in chapter 7.
+
+Recall from section 5.4 that in time-span reduction the hierarchy of
+time-spans derives from the metrical and grouping components, and that
+a single structurally most important event is chosen as head for each
+time-span. Time-spans can thus be thought of as apprehended rhythmic
+units in terms of which pitch structure is heard. We will first explore the
+organization of these units,
+
+We begin with relatively global levels. Consider the finale theme of
+Beethoven's Ninth Symphony. We may say, unexceptionally, that it seg-
+ments into six 4-bar phrases, which group together on the basis of paral-
+lelism (A A'BA' BA') into the structure shown in example 6.1.
+

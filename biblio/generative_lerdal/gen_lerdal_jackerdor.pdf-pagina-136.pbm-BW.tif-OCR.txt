@@ -1,0 +1,29 @@
+132
+
+6.12
+
+phrase of the entire chorale, a suspension occurs at the equivalent place at
+that particular time-span level. Thus the one pitch-meter irregularity in
+the opening phrases yields a greater global regularity.)
+
+Example 6.12 compresses the information conveyed in 6.9-6.11. This
+is our normal format for time-span reduction.
+
+ 
+
+Here the letters labeling branchings signify not pitch-meter relationships
+(we assume acquaintance with these from now on), but reductional
+levels. Specifically, in the tree and at the left in the secondary notation, c
+stands for the eighth-note level, b for the quarter-note level, and a for the
+half-note level of this example. Beneath the actual music and above the
+secondary notation appear the grouping and metrical analyses. We omit
+the subgroup bracketing (with which we also henceforth assume ac-
+quaintance) because it does not constitute a separate component in the
+sense that grouping, meter, and the two kinds of reduction do.
+
+To carry the reduction of the chorale farther than level a in 6.12, we
+must first develop the treatment of cadences—rhe subject of section 6.4.
+A complete reduction will be presented in section 6.6.
+
+Chapter 6
+

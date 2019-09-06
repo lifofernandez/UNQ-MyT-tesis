@@ -1,0 +1,58 @@
+106
+
+31 separate pieces? It is because the listener relates them, more or less
+unconsciously in the process of listening, to an abstract, simplified struc-
+ture common to them all.
+
+Such relationships are needed not just for the analysis of written-out
+music. In any musical tradition that involves improvisation on a given
+subject (such as jazz or raga), the performer must actively employ knowil-
+edge of principles of ornamentation and variation to produce a coherent
+improvisation.
+
+In all these cases, the listener or performer has an intuitive under-
+standing of the relative structural importance of pitches. If a pitch is
+heard as ornamenting another pitch, it is felt as structurally less impor-
+tant than the other pitch—it is subordinate to the other pitch. In short,
+the pitch relations involved in these intuitions are hierarchical.
+
+Music theorists have of course been aware of these principles for hun-
+dreds of years. But it was especially the insight of the early twentieth
+century theorist Heinrich Schenker that the organization of an entire
+piece can be conceived of in terms of such principles, and that such
+organization provides explanations for many of the deeper and more
+abstract properties of tonal music. For present purposes, this insight
+might be phrased as follows:
+
+Reduction Hypothesis The listener attempts to organize all the pitch-
+events of a piece into a single coherent structure, such that they are heard
+in a hierarchy of relative importance.
+
+This hypothesis is central to Schenkerian analysis andits derivatives. (Itis
+emphatically not a claim of “implication-realization” theories, like that
+of Narmour 1977.) A consequence of the claimis that part of the analysis
+of a piece is a step-by-step simplification or reduction of the piece, where
+at each step less important events are omitted, leaving the structurally
+more important events as a sort of skeleton of the piece. In Schenkerian
+theory, the steps closest to the musical surface are called “foreground,”
+and successive steps lead in turn to “middleground” and “background”
+levels.
+
+Within our theory we have found it desirable to tighten the Reduction
+Hypothesis by adding the following conditions:
+
+a. Pitch-events are heard in a strict hierarchy (in the sense described in
+section 2.1).
+
+b. Structurally less important events are not heard simply as insertions,
+but in a specified relationship to surrounding more important events.
+
+We will use the term Strong Reduction Hypotbhesis to refer to this tighter
+version of reduction. Not all notions of reduction in the literature share
+these conditions.
+
+The Strong Reduction Hypothesis leaves three areas of freedom in
+fleshing out what constitutes a proper reduction of a piece: (1) what the
+
+Chapter 5
+

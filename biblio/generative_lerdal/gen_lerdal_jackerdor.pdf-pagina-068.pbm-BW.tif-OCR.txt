@@ -1,0 +1,59 @@
+3.6
+Two More
+Examples
+
+3.34
+
+These subtle variations in articulation are typical of the strategies used
+by performers to influence perceived grouping. However, it is important
+to emphasize that the performer's conscious awareness of these strategies
+often does not go beyond “phrasing it this way rather than that way”;
+thatis, in large part these strategies are learned and used unconsciously.
+In making explicit the effect of such strategies on musical cognition, we
+have suggested how our theory potentially addresses issues relevant to
+performance problems.
+
+In support of the claim that the rules of grouping are not style-specific, we
+analyze the grouping structure of the opening of Stravinsky's Three
+Pieces for Clarinet Solo (example 3.34) in terms of the rules developed
+here. As in the Mozart G Minor Symphony fragment, each note is num-
+bered for convenience in discussion, and applications of GPRs 2 and3 are
+marked at appropriate transitions. We assume that the breath mark is in
+effect an indication to the performer to produce a grouping boundary by
+means of one or both of the strategies just discussed: shortening the
+preceding note and leaving a space (which provides evidence for the
+slur/rest rule, GPR 2a), and perhaps lengthening the time berween attack
+points (which provides evidence for the attack-point rule, GPR 2b). In
+addition to rule applications, the example shows the smallest levels of
+grouping predicted by the rules.
+
+( Clarinet ¿n A)
+
+=52 sempre p e meolto tmngui//a
+4 5 6 7 8 91011142 132 1415161718 19 20 21 22234 25 % 27
+
+ 
+
+A A
+(da) (20) (2a) — () (3a) (d) — Á (4a) (40)
+() (3a) (2b) (3c) Cad) (2b)
+— H T c3a
+NANe , , A A
+
+64
+
+The dashed slurs in 3.34 require some explanation. Consider first tran-
+sition 2-3. Although there is weak evidence for a grouping boundary at
+this point due to the change in note values, one tends to hear events 1-4
+grouped together and to suppress the smaller groups. In section 3.3 we
+suggested an alternative version of GPR 1: “Avoid analyses with very
+small groups—the smaller, the less preferable.” This version of the rule
+would say that the weak evidence at transition 2-3 is insufficient to
+establish a group boundary there, because of the shortness of the result-
+ing groups.
+
+At transition 9-10 there is no local evidence to support a group bound-
+ary, but parallelism with transition 2-3 andits context would argue for a
+
+Chapter 3
+

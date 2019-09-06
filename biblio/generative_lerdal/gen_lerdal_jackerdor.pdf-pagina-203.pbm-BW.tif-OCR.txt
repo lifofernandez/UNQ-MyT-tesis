@@ -1,0 +1,49 @@
+199
+
+8.27b; this is shown in 8.27c. The resultant minimal branching for
+normative prolongational structure appears in 8.27d. Any phrase or sec-
+tion that meets this condition possesses a degree of completeness; any
+that does not sounds unbalanced or unfulfilled in terms of tension and
+relaxation.
+
+If, in addition, the prolongationally most important events in a given
+region attach directly as a strong or weak prolongation, the resultant tree
+combines normative structure with the basic form (8.28a). In other
+words, this tree shows the basic form elaborated so as to fulfill normative
+structure. Such a configuration feels more complete than either the basic
+form or normative structure alone, and typically appears at various levels
+of tonal structure from the phrase up to the entire piece.
+
+8.28
+a b
+
+C hasic form + normative structure ) — €basic form/normative structvre
+with reprise)
+
+A prevalent formal feature of the high Classical period (as opposed,
+say, to the Baroque binary form) is the reprise of opening material in the
+tonic. This causes an extra normative branch to be added to 8.28a, a
+prolongational repetition that connects to the opening above the depar-
+ture from the opening (8.28b). In the antecedent-conseguent period, this
+extra branch stands for the beginning of the conseguent; in ABA' ternary
+form, for the beginning of A'; in rounded binary form, for the beginning
+of the reprise; in sonata form, for the beginning of the recapitulation.
+(Note, incidentally, the similarity of 8.28b to the characteristic intra-
+phrasal branchings in 8.23, in which the tonic is in one way or another
+prolonged up to the cadential nucleus. This correspondence illuminates
+the frequently heard remark that the high Classical forms were based on
+the nature of the phrase.)
+
+A partial prolongational analysis of the beginning of “La ci darem la
+mano” from Mozart's Don Giovanni will illustrate these various struc-
+tures. The tree for the antecedent phrase alone is given in 8.29. Note that
+the branchings separate according to diatonic collection: the ii tenses off
+the 1, and the V$V—V and then the VIV all lead as a tonicizing motion to
+the cadential V. This tree thus displays a tensing-relaxing pattern, but
+falls just short of normative structure because the uppermost left branch
+attaches as a weak prolongation, not a progression; the cadence lacks a
+subdominant preparation. Since the phrase moves from I to V, there is no
+basic form.
+
+Prolongational Reduction
+

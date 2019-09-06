@@ -1,0 +1,55 @@
+289
+
+mally reinforce each other, within each component and across compo-
+nents, will be heard as “archetypal.” As more conflict appears among
+preference rules, the passage deviates more from archetypal form and is
+heard as musically more complex.
+
+Let us provisionally suggest some features of the archetypal phrase in
+terms of the components of our theory:
+
+1. Each larger-level group is divided into two groups of equal length.
+
+2. The larger levels of metrical structure are uniformly duple.
+
+3. The grouping and metrical structures are maximally in phase, in the
+sense described in section 2.3. This not only excludes all but the
+lowest-level upbeats, but also guarantees that the measure lengths of
+groups are in powers of 2.
+
+4. In the time-span reduction, the structural beginning of a phrase is its
+first event and is a tonic chord in root position; the cadence of the
+phrase is its last two events and is a tonic perfect cadence.
+
+5. The prolongational reduction yields a normative structure, in the sense
+described in sections 8.3 and 9.6.
+
+6. The time-span and prolongational reductions are congruent, in the
+sense described in section 5.4.
+
+These six properties of archetypal phrases maximally satisfy those prefer-
+ence rules that address the abstract structure of the phrase: grouping
+symmetry (GPR 5), binary metrical regularity (MPR 10), correlation of
+grouping and meter (MPR 2), choice of cadences and structural begin-
+nings (TSRPRs 7 and 8), prolongational normative structure (PRPR 6),
+and correlation of the two reductions (PRPRs 1 and 2). This list is not
+exhaustive; moreover, one could find “archetypal” patterns emerging
+from mutually reinforcing preference rules at levels both smaller and
+larger than the phrase. In short, archetypal patterns are not represented
+directly in the grammar, but emerge as ideally stable structural descrip-
+tions produced by the grammar.
+
+A further advantage of our approach to the issue of archetypes is thatiit
+relates at every point to more general musical and psychological issues,
+such as the relation of tonal music to other idioms, the distinction be-
+tween learned and innate aspects of musical idioms, and the relation of
+musical cognitive capacity to other cognitive capacities. A “deep struc-
+tural” approach to archetypes could in principle address these issues, but
+they are not a concern in the approaches we have seen; nor is it ar all
+obvious to us how they could naturally be integrated into the formal
+mechanisms these approaches imply. By contrast, the preference-rule
+formalism was motivated from the start (section 3.2) on psychological
+grounds.
+
+Musical Universals and Related Issues
+

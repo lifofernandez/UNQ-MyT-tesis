@@ -1,0 +1,58 @@
+12.1
+
+Gestalt Theory
+and Visual Form
+Perception
+
+303
+
+musical and linguistic structure. Recent work in phonology has proposed
+an analysis of the sound structure of language in terms of hierarchical
+structures that resemble time-span reductions. We will show how closely
+these phonological structures are formally related to time-span reduc-
+tions, then show that they are the result of largely analogous rule systems,
+even though the entities the rules manipulate are quite different.
+
+Recall the parallels berween visual and auditory grouping pointed out in
+section 3.2 and 3.4. That such parallels exist was observed by Wert-
+heimer (1923); Kóhler (1929) conjectured that they are a result of simi-
+lar physiological organization in the two domains. Lashley (1951) also
+argued that essentially similar mental representations serve for both spa-
+tially and temporally sequenced memory. However, none of these psy-
+chologists had much systematic to say about the structure of temporal
+organization per se, beyond the enumeration of a certain amount of
+highly suggestive evidence. Having developed a formal theory for one
+type of temporal organization, we are in a position to examine the paral-
+lelism more closely.
+
+Wertheimer 1923 presents examples almost exactly analogous to our
+illustrations of visual and musical grouping in section 3.2 (examples
+3.6-3.13), and suggests that three general characteristics are involved in
+these judgments: greater proximity and greater similarity enhance group-
+ing judgments, judgments are less certain when the principles come into
+conflict, and under certain conditions one principle can override the
+other. These are exactly the characteristics we have used to motivate the
+preference rule formalism. Similar observations with a considerable
+number of other principles occur throughout Koffka's (1935) discussion
+of shapes, the figure-ground opposition, and three-dimensionality. Wert-
+heimer and Koffka demonstrate the influence of such factors as sym-
+metry, the continuation of lines along regular curves, the ability of a
+pattern to enclose space, and even the viewer's intention. In general, they
+state their principles with the same degree of informality that we adopted
+in section 3.2; more formal rules like those of section 3.3 do not appear.
+
+The work of Wertheimer and Koffka demonstrates the fundamental
+claim of Gestalt psychology: that perception, like other mental activity, is
+a dynamic process of organization, in which all elements of the percep-
+tual field may be implicated in the organization of any particular part.
+They are at pains to point out and prove two crucial aspects of this claim.
+First, perception is not simply a product of what is in the environment:
+the viewer plays an active, though normally unconscious, part in deter-
+mining what he perceives. Second, the totality of the field as perceived
+cannot be built up piecemeal as a mere accumulation of the perception of
+its parts each taken in isolation.
+
+The general underlying principle that forms the basis of the Gestalt
+
+Psychological and Linguistic Connections
+

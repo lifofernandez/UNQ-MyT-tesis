@@ -1,0 +1,48 @@
+192
+
+A cadential preparation and a cadence together often produce a de-
+scending circle-of-fifths progression in terms of fundamental bass
+motion. Think of the typical i15-V-—1 cadential formula; this naturally
+receives an embedded left-branching structure (as in 8.18b). But not all
+cadential preparations relate to the V by fifth motion — for example, the
+IV in the equally typical IV-V-—I progression. Yet the ii and the IV
+function similarly in these progressions; the difference between the two
+lies in details of melodic voice leading, not in the harmony, where the
+essential fact in both is the bass motion from the fourth to the fifth scale
+degree.
+
+Clearly a generalization about cadential preparations is needed that
+includes both of these possibilities for cadential preparation and others as
+well. Traditional harmonic theory is relevant here, with its generalized
+conception of “subdominant function,” some realizations of which are
+listed in figure 8.19. In all these cases, the chief sense of the “sub-
+dominant”-to-dominant progression is one of the “subdominant” lead-
+ing and relaxing into the dominant. Therefore any “subdominant” must
+attach as a left branch to the following cadential dominant. And because
+the cadential V—I is also a left branch, the overall progression of “sub-
+dominant” to dominant to tonic must always take the form of a doubly
+embedded left-branching progression (8.19). This conclusion seems only
+proper, since a doubly embedded left-branching progression signifies the
+maximal decrease in tension among three adjacent events—just as one
+would expect at the end of a phrase.
+
+8.19
+Svbdomenant dominant tonic
+Jounction (Y arI'7) (7)
+
+cié, ¿¿oéjm)
+Vi, 2096,
+vil z , etc.)
+
+Variants on the configuration in 8.19 can weaken or strengthen the
+cadence. For example, cadences without cadential preparation are com-
+paratively weak (8.20a); cadences with triply embedded left branching
+tend to be very strong (8.20b,c). The cadential % increases the sense of
+resolution by adding, at a lower level (since it is a locally dissonant
+elaboration), a second left branch to the dominant (8.20d). Sometimes, as
+compensation, a suspension functionally replaces an absent sub-
+dominant preparation (8.20e) (see the cadential patterns in the Bach
+chorale “O Haupt” in section 6.6).
+
+Chapter 8
+

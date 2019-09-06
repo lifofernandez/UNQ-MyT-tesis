@@ -1,0 +1,57 @@
+284
+
+periodicity. A special metrical level is designated as the tactus. This
+level is the perceptually most salient metrical level; it is regular, and is
+usually ar a moderate tempo. At comparatively small and large levels,
+metrical irregularities of a limited kind can take place. One kind of
+irregularity, metrical deletion, occurs in connection with grouping
+overlap, andis treated by a corresponding transformational rule. The
+perception of meter fades at global levels.
+
+A group at a small or intermediate grouping level can have a strongest
+beat, around which other beats within the group “cluster” (this phe-
+nomenon is central to Cooper and Meyer 1960). Whether a weak beat
+within the group is heard as an upbeat or as an afterbeat is a function
+ofits position in the grouping structure. The time-span from an upbeat
+to its associated downbeat is an anacrusis. More generally, the listener
+hears as perceptually significant the interaction of grouping structure
+with the time-spans from beat to beat at each metrical level. When
+these two kinds of temporal articulation coincide, grouping and meter
+are ín phase; when they do not, grouping and meter are out of phase.
+Out-of-phase patterns can be slight or acute.
+
+. The listener hears pitch-events in the context of rhythmic units com-
+
+posed of a combination of metrical and grouping time-spans. The
+segmentation rules develop these rhythmic units in terms of metrical
+time-spans at small musical levels, of a combination of metrical and
+grouping time-spans at intermediate levels, and of grouping time-spans
+at large levels.
+
+.In a broad sense, the function of time-span reduction is to relate
+
+rhythmic structure and pitch structure to each other. It does this by
+assigning a hierarchy of structural importance to pitch-events within
+rhythmic units as defined by the segmentation rules. At small time-
+span reductional levels, right and left branchings convey the relation of
+structurally important events to metrical structure. The four pitch-
+meter paradigmatic situations of section 6.2 exhaust the relational
+possibilities of a head and ts direct elaboration(s) to strong and weak
+beats. At large levels (from the phrase up), right and left branchings
+signify the dominance and subordination of structural beginnings and
+structural endings (cadences) as they function within grouping struc-
+ture. Structural beginnings and cadences relate cyclically across groups
+at successive levels of global segmentation. These “arcs of tonal mo-
+tion” normally begin and end at or near the endpoints of the groups
+for which they function, and hence stand in accentual opposition to
+the periodicity of metrical structure. Such structural accents can occur
+at metrically strong or weak points.
+
+. A structural downbeat represents the instantaneous confluence of a
+
+grouping boundary (often in conjunction with an overlap), a hyper-
+metrical strong beat, and a structurally important event in time-span
+reduction. A structural anacrusis covers the span from the previous
+
+Chapter 11
+

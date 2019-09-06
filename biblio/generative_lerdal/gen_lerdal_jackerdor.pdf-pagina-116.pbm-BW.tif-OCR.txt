@@ -1,0 +1,57 @@
+5.3
+The Tree Notation
+for Reductions
+
+112
+
+Besides, it is not clear to us how such an approach would address cogni-
+tive issues.
+
+We have found it far preferable to reverse the generative process from
+elaboration to reduction. This allows us to begin not by trying to justify a
+prior model, but by directly investigating actual musical surfaces and
+seeing what reductional structures emerge. If the results turn out like
+Schenkerian analyses, fine; if not, that too is interesting. This strategy
+permits us to ask, “What reduction or reductions does an experienced
+listener infer from a given musical surface, and by what principles?” In
+our view, this is the central question about reductions.
+
+This strategy is consistent with our approach to rhythmic structure in
+chapters 2-4. It is also consistent with the methodology of generative
+linguistics, for, despite the term “generative,” the goal in linguistic theory
+is to find the rules that assign correct structures to sentences. Con-
+seguently the sentences as such in linguistic theorizing are usually taken
+as given (recall the discussion in section 1.2 on misconceptions about
+generative grammar). In addition, our strategy is amenable to experi-
+mental methods in cognitive psychology, in which subjects are typically
+given a “stimulus object” (such as the musical surface of an existing
+piece) to which they react under controlled conditions. We want our
+theory to be testable.
+
+This is not to preclude the possibility that a sophisticated alternative
+approach of constructing computational rules to “compose” pieces might
+not also be valuable. It is conceivable that such an enterprise could
+dovetail with our theoretical paradigm.
+
+To construct reductions one must have an adequate notation. Schen-
+kerian notation, though attractive, is not explicit enough; it typically
+combines a number of levels at one putative level (“background,” “mid-
+dieground,” or “foreground”), it often does not show what is an
+elaboration of what, and it utilizes too many signs (beams, slurs, quasi-
+durational values) to express similar relationships. The formal nature of
+our inquiry necessitates a completely unambiguous and efficient nota-
+tion, one that reflects in a precise way the hierarchical nature of reduc-
+tions. To this end it is convenient to borrow from linguistics the notion of
+a “tree” notation.
+
+The notion, however, cannot simply be transferred, because linguistic
+syntactic trees relate grammatical categories, which are absent in music.
+This basic fact is one of the crucial differences between language and
+music. All natural languages have nouns, verbs, adjectives, and the like.
+Linguistic trees represent is-a relations: a noun phrase followed by a verb
+phrase is a sentence, a verb followed by a noun phrase is a verb phrase,
+and so forth. There is no musical equivalent to this situation. Rather, the
+fundamental hierarchical relationship among pitch-events is that of one
+
+Chapter $
+

@@ -1,0 +1,53 @@
+103
+
+metrical deletion, this time of a time-span starting with a strong beat as
+shown in 4.50.
+
+4.50
+
+de. — (.' > —
+
+Examples 4.48 and 4.50 help show what these two kinds of metrical
+irregularity have in common. In a situation where two groups are joined
+by an overlap or elision, the right group seems invariably to begin with a
+strong metrical position in the underlying form. If the left group also ends
+with a strong metrical position, as in the Mozart Sonata K. 279 discussed
+in section 3.4, a well-formed regular metrical structure can be assigned to
+the musical surface without problem. If, however, the left group ends in a
+relatively weak metrical position, the conflict in the region of overlap
+must be resolved by deleting one or the other of the metrical functions. In
+4.47 the weak position has been deleted, in a manner consistent with the
+elision of the associated pitch-events; in 4.49 the strong position has been
+deleted.
+
+In formalizing a transformation rule for metrical deletion, it is not
+sufficient to delete the strong or weak beat itself. Notice in 4.48 and 4.50
+that a number of beats at a smaller metrical level have also been deleted
+to regularize the pattern. This will be included in the statement of the
+rule. The rule as stated here encompasses the two types of metrical dele-
+tion observed above.
+
+Metrical Deletion, first version From a well-formed metrical structure M
+
+as described by MWFRs 1—4, in which B 1, Bs, and B are adjacent beats
+
+at level L;, and Byis also a beat at level L;,, (thatis, a strong beat of level
+
+L:), another well-formed metrical structure M' can be created by deleting
+
+from M either
+
+a. B, and all beats at all levels between B, and Bs (deletion of weak
+position), or
+
+b. B, and all beats at all levels between B, and B; (deletion of strong
+position).
+
+It can be seen that cases a and b are deletions of the sort illustrated in
+examples 4.47 and 4.49 respectively.
+
+This version of the rule does not mention the connection with grouping
+elision and overlap. The rule can be made more specific as follows:
+
+Metrical Structure
+

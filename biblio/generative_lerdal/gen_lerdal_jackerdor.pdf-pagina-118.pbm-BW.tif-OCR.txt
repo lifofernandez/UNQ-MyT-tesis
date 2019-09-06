@@ -1,0 +1,44 @@
+114
+
+5.7
+
+a b C d
+w x >/ z ww x Y z w x Y z w X y z
+€ f g h
+w x y Z w X )' Z w x y z ww »X >/ Z
+
+would be tantamount to saying that an event (x in 5.7c) is an elaboration
+of two different events.5 The principle of adjacency means that events are
+heard in the context of their surrounding events at any given level of
+analysis, Hence, not only can branches not cross, but a sequence of events
+at any level must be exhaustively analyzed. This prohibits such analyses
+as 5,7d, in which y does not receive a branch. We emphasize here that
+“adjacency” does not necessarily mean adjacency on the musical surface;
+1, X, y, and z in 5.7 might well form a seguence at an underlying reduc-
+tional level, and hence might be far apart on the musical surface. Finally,
+the principle of recursion says that an indefinite number of events could
+be analyzed by means of these branchings, forming an indefinite number
+of reductional levels. This is what permits the Eroica as well as a Bach
+chorale phrase to be reduced.
+
+In contrast with 5,7a—5.7d, 5.7e—5.7h are well-formed trees. By way
+of example, 5.7e can be read as follows: x is an elaboration of w, and y is
+an elaboration of z; at the next larger level, z is an elaboration of w (thus
+y is recursively an elaboration of 1).
+
+As an illustration of the tree notation, example 5.8 repeats the reduc-
+tion of “O Haupt” given in 5.4, this time with the tree added above. (Of
+course, we have not yet stated the criteria that determine what branches
+from what.) The correspondence between the tree and the musical nota-
+tion should be clear: one can think of each musical level as representing a
+horizontal slice across the tree, showing only the events whose branches
+appear in that slice. The dashed lines across the tree in 5.8 illustrate this
+correspondence.
+
+One objection that might be raised against expressing reductions by
+means of these trees is that it might be thought arbitrary to have to attach
+a subordinate event—say, the neighboring chord in $.9—either to the
+preceding event (5.9a) or to the ensuing event (5.9b).
+
+Chapter $
+

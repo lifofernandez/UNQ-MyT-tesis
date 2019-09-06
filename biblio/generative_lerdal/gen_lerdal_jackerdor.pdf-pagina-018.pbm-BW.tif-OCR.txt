@@ -1,0 +1,56 @@
+14
+
+each other at level 2 and completely overlap a region at level 1, andatRk a
+boundary at level 3 overlaps a region at level 2.
+
+ 
+
+22
+
+a b
+
+Nc —[——e——].) l— — ———]——] —
+— — 2 N———d——Lo—]— e?
+
+N—— — ——[:íÑ.——. —;—]] ——z—————" 3—_—_/&__¡_____/
+
+Whereas k never happens in music, j is at least conceivable, and ¿
+occurs commonly (in the form of grouping overlaps and elisions). Thus
+musical grouping is not strictly hierarchical in the sense just described.
+However, the conditions under which overlaps and elisions are perceived
+are highly constrained. These cases require special treatment. For now we
+merely acknowledge their existence and notate them as at  where appro-
+priate.? We will return to them in section 3.4.
+
+Hierarchically correct grouping structures are illustrated in 2.3. The
+beginning of the scherzo of Beethoven's Sonata op. 2, no. 2 (2.3a) shows
+a typical, regular kind of grouping structure in classical music: a 4-bar
+antecedent phrase is balanced by a 4-bar consequent phrase; both
+phrases divide internally into 1+1+2 bars, and, at the next larger level,
+into 2+2 bars. By contrast, the opening of Beethoven's Eighth Symphony
+(2.3b) is an instance of a less symmetrical, more complex grouping
+structure: although there are regular 4-bar groups at the smallest level
+indicated, measures 5-12 group together (because of thematic paral-
+lelism) at the next larger level to counterbalance measures 1—4, and to
+produce at the still next larger level a 12-bar phrase. And there is a
+legitimate, indeed prototypical case of grouping overlap at measure 12
+in 2.3b: the event at the downbeat of measure 12 simultaneously ca-
+dences one group (or set of groups) and begins another group (or set of
+groups).
+
+Two further general points about musical groups are already implicit
+in this discussion of hierarchical organization. The first concerns the
+relation among subordinate and dominating groups. This relation does
+not differ from level to level or change in some substantive way at any
+particular level, but is essentially the same at all levels of musical struc-
+ture. For example, it never happens that one kind of overlap is allowed at
+one level but disallowed at another. Or, to put the marter rather differ-
+ently, any abstract grouping pattern could stand equally for local or
+global levels of musical structure. Thus the abstract grouping in 2.1—
+two groups enclosed within a larger one—occurs at three pairs of levels
+in 2.3a: at the 1- and 2-bar levels at the beginning of each phrase
+(1+1=2), at the 2- and 4-bar levels within each phrase (2+2=4), and at
+the 4- and 8-bar levels within the passage as a whole (4+4=8). Because
+
+Chapter 2
+

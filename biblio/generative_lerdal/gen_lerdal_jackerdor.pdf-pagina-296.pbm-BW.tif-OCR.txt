@@ -1,0 +1,49 @@
+292
+
+11.3
+g a
+
+This prediction is not correct. Except in the idiom of bugle calls, some-
+thing like 11.4 is more likely, according to the survey of folk-music
+idioms by Nettl (1973); this 1s also the pitch collection of the widespread
+children's “teasing chant.”
+
+11.4
+
+I——==
+
+Example 11.4 might be described as the fifth, sixth, and seventh par-
+tials of the hypothetical fundamental C. But such an explanation weak-
+ens the principle upon which the pentatonic scale is supposedly based,
+namely using the lowest overtones first. Thus the hypothesis of the pri-
+macy of the overtone series is not only somewhat incorrect in its predic-
+tion about the simplest pentatonic scale, but also seriously questionable
+with respect to tritonic scales.
+
+Moreover, the overtone series provides no direct account of versions of
+the pentatonic scale containing minor seconds, such as these two cited by
+Bernstein:
+
+ 
+
+Because the minor second appears in the overtone series only as the
+interval between the fourteenth and fifteenth overtones, one well might
+ask what happened to all the intervening intervals that are supposedly
+easier to hear.
+
+To make things still worse, there are musical idioms in which the
+overtone series seems to play no significant role at all. Rouget and
+Schwarz 1970 describes a Sudanese idiom whose scale divides the octave
+into seven equal intervals, each slightly smaller than a whole step; thus no
+intervals other than the unison and the octave are present from the over-
+tone series. The two-part music of the island of Krk in Yugoslavia“ in-
+cludes, besides the unison and the octave, only multiples of some interval
+smaller than the half-step, intervals completely foreign to Western ears.
+Yet both of these idioms unmistakably have a tonal center.
+
+Thus, beyond the octave, the fifth, and perhaps the major third, it 1s
+difficult to make any useful connection berween the overtone series and
+the universality of tonality. In a sense, this result is more significant than
+
+Chapter 11
+

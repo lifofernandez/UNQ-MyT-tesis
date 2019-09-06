@@ -1,0 +1,53 @@
+217
+
+But there are cases where even this is not so—for example, the slow
+movement of Bach's Fourth Brandenburg Concerto or Schumann's song
+“Im wunderschónen Monat Mai” from Dichterliebe—where the piece
+ends on a nontonic chord that leads into the next movement or song. In
+these exceptional cases, the point of maximal relaxation occurs before
+the end, and the very end is a departure from the head.
+
+Having chosen a prolongational head, we have created one or possibly
+two regions in Which a maximally important event must be determined:
+from the beginning to the head, and (if the head is not at the very end)
+from the head to the end. In continuing the construction of the tree, wWe
+must solve three problems: defining regions of rule application in the
+general case, finding the prolongationally most important event in a re-
+gion of rule application, and deciding whether this event is to be at-
+tached as a right branch to a preceding event or as a left branch to a
+following event. All of these problems were treated informally in chapter
+8; we take them up in more detail in the next subsection and the follow-
+ing two sections.
+
+Defining Regions of Rule Application
+
+To find the regions in terms of which prolongational stability is deter-
+mined, let us examine the abstract trees in 9.4. In these examples, e , e»,
+and so on stand for events in underlying grouping structure. They are
+numbered to reflect order of elaboration rather than temporal sequence.
+The symbol * stands for the boundary of the piece; for notational con-
+venience we think of each piece as preceded and followed by the abstract
+symbol %. Also, for the moment, the manner of attachment (strong or
+weak prolongation or progression) can be disregarded. Finally, in the
+following discussion we use the notation (e;—e;) to stand for the string of
+events between, but not including, e; and e;.
+
+Suppose that e, in 9.4a is the prolongational head, and that e, has been
+chosen, by whatever means, as the most important event in the region
+(H-—e ). Because there is no other place to attach it, e, must be a direct
+elaboration of e¡. The piece is now divided into three regions in which
+prolongational importance must be determined: (%-e»), (e:—e ), and
+(e1—%), as indicated by the curly brackets beneath 9.4a.
+
+Next, suppose that, by whatever means, a prolongationally most im-
+portant event e; is chosen in the region (*-—e>). As shown by the dotted
+lines in 9.4b, the geometry of the tree permits e; to be attached either to
+eg or to e¡. However, what happens if e; s attached to e ? Since branches
+may not cross, e3 must be attached higher than es, which indicates that it
+is prolongationally more important. But this contradicts the assumption
+that e, was originally chosen as the most important event in (4%-—e ). Thus
+e; can only be attached to e»; the other attachment violates the musical
+meaning of the tree structure.
+
+Formalization of Prolongational Reduction
+

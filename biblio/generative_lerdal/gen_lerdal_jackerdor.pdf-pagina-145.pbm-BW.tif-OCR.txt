@@ -1,0 +1,38 @@
+6.22
+
+ 
+
+[º4 ] ['º4] [ºs ]
+
+ 
+
+Second, to take a large class of instances, how are we to analyze pieces
+in the minor mode? Many passages in the minor mode move to III rather
+than V for the intermediate cadence (think, for example, of the main
+theme of the second movement of Beethoven's Seventh Symphony). This
+rules out parallel treatment across the two modes if the intermediate V is
+selected in the major mode as the structural dominant. Surely one would
+not want to assign opposing trees to structural accents in the minor and
+major modes, especially when they are otherwise formally parallel. By
+contrast, the final cadence in the minor mode cannot be a III-—i progres-
+sion. That the final cadence in the minor mode must be V-i points to the
+real location of the structural dominant in the major mode.
+
+A final argument against choosing an intermediate V as the structural
+dominant is that this would create an unfavorable prolongational reduc-
+tion. In the Mozart K. 331 passage, for example, it would suggest that
+the V in measure 4 prolongs across the repeat of the opening (measure
+5) to the V in measure 8 (6.23a) rather than that the opening I prolongs
+across the half cadence to the repeat of the opening (6.23b). It seems
+to us essential that the latter relationship obtain. (See section 8.3 for
+discussion.)
+
+6.23
+a b
+
+  
+
+Fr'a/a/lgd—¿¿m
+
+   
+

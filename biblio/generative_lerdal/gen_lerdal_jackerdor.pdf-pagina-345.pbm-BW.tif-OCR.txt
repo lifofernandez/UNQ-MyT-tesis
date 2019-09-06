@@ -1,0 +1,59 @@
+Chapter 10
+
+341
+
+2. We have shown here only one of two possible grouping structures for sonata
+form. The ambiguity concerns how the three groups consisting of exposition,
+development, and recapitulation are to be further grouped. The grouping in 9.29
+emphasizes the parallelism in endings between exposition and recapitulation, and
+is similar to the grouping of the binary form out of which sonata form in part
+grew historically (see Rosen 1980 on the origins of the sonata style). On the other
+hand, an emphasis on the parallelism berween the beginnings of the exposition
+and recapitulation would result in grouping the exposition and development
+together. Such a grouping seems more typical of late classical sonata forms, in
+which the development is balanced by a long coda to give four major sections
+grouped by twos: exposition-development and recapitulation-coda. In such forms
+the beginning of the recapitulation is usually a more dramatic point than in earlier
+sonata movements, emphasizing the major grouping boundary; also, the repeat of
+the exposition is often omitted, deemphasizing the group boundary berween it
+and the development. The interested reader can verify, however, that the first two
+steps in deriving the prolongational tree neutralize the grouping ambiguity: in
+either grouping the prolongational structure is the same.
+
+1. Andrew Imbrie has suggested this possibility (personal communication).
+
+2. In the secondary notation in 10.7 we have quartered the note values beginning
+at level g in order to show hypermetrical relations more clearly. This practice is
+convenient only where hypermetrical bears are quite regular.
+
+3. Along with these analyses should be mentioned the time-span reduction of
+Schumann's song “Wehmur” in Lerdahl and Jackendoff 1977, pp. 154—155
+(though now we would prefer an our-of-phase analysis with hypermetrical beats
+on the downbeats of odd, not even, measures). The prolongational reduction (pp.
+156-157), on the other hand, represents an earlier and less satisfactory version of
+that component, and should be disregarded.
+
+4. “Guten Morgen, schóne Múllerin!
+Wo steckst du gleich das Kópfchen hin,
+Als wár" dir was geschehen?
+Verdriesst dich denn mein Gruss so schwer?
+Verstórt dich denn mein Blick so sehr?
+So muss ich wieder gehen.”
+
+5. Lewin 1974 discusses these musical-poetic relationships at great length and
+with considerable insight. Aspects of our analysis duplicate Lewin's.
+
+6. Schenker wants to bring out linear-motivic relationships involving third spans:
+the ascending Ct—E and B—D in measures 1—2 elaborated into A—B—Ct in mea-
+sures 3—4, combined with the descending E —D-—C£ in measures 1—4 followed by
+D-Ctt—B in measure 4. Schachter (personal communication) has argued that this
+in itself is enough to favor Schenker's analysis. Such a proposal might be incorpo-
+rated into our theory by invoking another preference rule supporting prolonga-
+rional reductions that emphasize linear-motivic connections of a certain kind. In
+other words, it is a matter of weighting preference rules, involving once again the
+problematic issue of parallelism. We, on the other hand, have tried as much as
+possible to separate reductional and motivic structures; they are interactive, not
+equivalent, modes of organization.
+
+Notes to pp. 243—-276
+

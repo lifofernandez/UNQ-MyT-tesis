@@ -1,0 +1,51 @@
+73
+
+larger metrical levels, just as the original MWER 4 prohibited them at all
+levels. For instance, it says that the rhythm of example 4.7 (as in Bruck-
+ner's Eighth Symphony, first movement) is possible only with a half-note
+or larger tactus, not with a quarter-note tactus.
+
+4.7
+— -
+eereme e rtre --
+gactas d NNN
+
+o
+
+This prediction corresponds with the intuition that 4.7 is most likely
+“felt” in half-note metrical units. It also is borne out by the fact that, in
+the literature of tonal music, triplets in predominantly duple metrical
+environments are not uncommon at small metrical levels but are rare at
+large metrical levels.
+
+Which metrical level of a piece is heard as the tactus? The fact that
+there are often disputes about this indicates that a preference-rule mech-
+anism is at work. Although we cannot provide a full account of how the
+tactus is chosen, certain influences are fairly clear. The first is absolute
+speed: the tactus is invariably between about 40 and 160 beats per min-
+ute, and often close to the traditional Renaissance tactus of 70. (The
+relationship of this rate to the human pulse has often been noted, though
+an explanation of why there should be such a relation berween physio-
+logical and psychological rates is far less obvious than one might first
+think.) Second, the tactus cannot be too far away from the smallest
+metrical level: a succession of notes of short duration is generally an
+indication of a relatively fast tactus, unless the subdivisions are intro-
+duced gradually, as often happens in slow movements or variation
+movements. On the other hand, the tactus is usually not faster than the
+prevailing note values. Thus the radical change in note values during the
+first theme in the finale of Mozart's Jupiter Symphony (4.8) sets up a
+conflict in choice of tactus: the whole notes in measures 1-4 suggest a
+whole-note tactus, while the eighth and sixteenth notes in measures 6-8
+(plus the eighth-note accompaniment) suggest a faster tactus. The conflict
+is resolved by a compromise at the half-note level.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Metrical Structure
+

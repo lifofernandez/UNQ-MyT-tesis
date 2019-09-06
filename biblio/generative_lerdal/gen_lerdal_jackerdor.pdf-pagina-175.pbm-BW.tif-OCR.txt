@@ -1,0 +1,56 @@
+171
+
+case where pitch stability plays a minimal role, so that TSRPRs 7 and 8
+operate freely. Then we turn to a case where pitch stability conflicts with
+TSRPR 8 to create an asymmetrical large-scale tree.
+
+Example 7.25 gives the reduction of the last six measures of the Mo-
+zart K. 331 theme, from the measure level up. In measures 16 and 18, the
+full cadences satisfy conditions i and ii of TSRPR 7. The cadence in
+measure 16 forms the structural ending for the group consisting of mea-
+sures 13—16, and that in measure 18 forms the ending for groups 17-18,
+13-18, 9-18, and the entire theme. Thus all the conditions of TSRPR 7
+are met, and both cadences are retained in level f.
+
+Level e of 7.25 shows the heads of all the two-measure groups. We will
+examine them in order. In group 13-—14, TSRPR 2 (harmonic stability)
+favors the I in measure 13 over the V* in measure 14. Since the event
+selected here will be the b for groups 13-16 and 13-18, TSRPR $ also
+favors the 1, the earlier of the two events. In group 15—16, the cadence is
+chosen because of its stability as well as its function as the c for group
+13—16. In group 17-18, the head of the group will not form a b for a
+larger group, as required by the condition of TSRPR 8; hence TSRPR $
+does not apply here. On the other hand, the cadence does form the c for a
+number of larger groups, so TSRPR 7 applies to retain it.
+
+Level d 0f 7.25 shows the selection of head for the four-measure group
+13—16. The first and last chords of this time-span in line e are essentially
+identical, so TSRPR 2 does not choose between them. Moreover, the
+time-span is large enough that metrical considerations no longer play a
+role. Thus the choice is determined only by TSRPRs 7 and 8. The head of
+this time-span will form the b of the larger group 13-18, so the condition
+of TSRPR 8 is met, favoring the earlier 1. Since there is no larger group for
+which the head of this time-span will function as a c, condition iii of
+TSRPR 7 is not met, and this rule does not apply. Hence the cadence is
+reduced out.
+
+In level c, that of the head of the entire six-measure group, we find that
+the head of this time-span will function as the c for the second half of the
+theme. Hence condition iii of TSRPR 7 is met and the condition of
+TSRPR $ is not. As a result, the cadence is selected as head.
+
+Example 7.26 represents the largest levels of the entire theme (as in
+6.20). Levels c and d are the same as levels c and d in 7.25. The deri-
+vation of this analysis is straightforward, given what we have already
+seen in 7.25. There are no conflicts from other TSRPRs; thus, whenever a
+particular time-span falls at the beginning of a larger group, TSRPR 8
+applies and the first event in the time-span is chosen. Similarly, whenever
+a time-span falls at the end of a larger group, TSRPR 7 applies and the
+cadence is chosen. The result is the symmetrical tree in 7.26.
+
+The reduction from level b to level a constitutes a special case. Assume
+for the moment that these eighteen measures are the entire piece, so there
+are no further levels of reduction. Then neither event of level b will be a b
+
+Formalization of Time-Span Reduction
+

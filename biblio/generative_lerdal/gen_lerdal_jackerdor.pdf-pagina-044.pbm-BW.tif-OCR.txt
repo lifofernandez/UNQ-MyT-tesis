@@ -1,0 +1,53 @@
+40
+
+grouping intuitions result; when they conflict, the listener has ambiguous
+or vague intuitions.
+
+Some simple experiments comparing musical grouping with a visual
+analog suggest the general principles behind grouping preference rules.
+Intuitions about the visual grouping of collections of small shapes were
+explored in detail by psychologists of the Gestalt tradition such as Wert-
+heimer (1923), Kóhler (1929), and Koffka (1935). In 3.6a the left and
+middle circles group together and the right circle is perceived as separate;
+that is, the field is most naturally seen as two circles to the left of one
+circle. In 3.6b, on the other hand, the middle and right circles are seen as
+grouped together and the left circle is separate.
+
+3.6
+a b
+0 O O OO
+
+The principle behind this grouping obviously involves relative distance:
+the circles that are closer together tend to form a visual group. The
+grouping effect can be enhanced by exaggerating the difference of dis-
+tances, as in 3.7a; it can be weakened by reducing the disparity, as in
+3.7b. If the middie circle is equidistant from the outer circles, as in 3.7c,
+no particular grouping intuition emerges.
+
+3.7
+
+a b c
+
+00 O 0O0 0 O 00
+As Wertheimer 1923 observes, similar effects exist in the grouping of
+
+musical events. Consider the rhythms in 3.8.
+
+3.8
+c
+
+a b d e
+M p rO TO DT
+
+The perceptions about grouping for these five examples are auditory
+analogs to the visual perceptions in 3.6 and 3.7. The first two notes of
+3.8a group together (the example is heard as two notes followed by one
+note); the last two notes group together in 3.8b; the grouping of the first
+two is very strong in 3.8c and relatively weak in 3.8d; 3.8e has no
+particular perceived grouping. These examples make it evident that on
+a very elementary level the relative intervals of time between attack
+points of musical events make an important contribution to grouping
+perception.
+
+Chapter 3
+

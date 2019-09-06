@@ -1,0 +1,46 @@
+126
+
+metrical structure), but in the grouping it belongs to measure 13 (as an
+anticipation of the next phrase).
+
+ 
+
+Although such an interpretation may shed light on the unique tension of
+this moment in the theme, it will not do as a procedure for constructing
+reductions.The Strong Reduction Hypothesis requires that the Ft on the
+fourth beat of measure 12 cannot attach both ways at once. This moment
+is an isolated instance in this particular theme of a more general phenom-
+enon: grouping and meter that are out of phase (see section 2.3). The
+bracketing procedure outlined so far applies only to in-phase passages.
+
+The solution for out-of-phase passages lies in the strong intuitive no-
+tions of u«pbeat and afterbeat. As discussed in section 2.3, a weak beat is
+heard as an afterbeat to the immediately preceding strong beat unless a
+grouping boundary intervenes between the two. If a grouping boundary
+intervenes, the weak beat is associated as an upbeat with the immediately
+following strong beat. If we compare all the fourth beats in 6.3, we
+indeed find that those of measures 11, 13, and 14 are heard as afterbeats,
+but that this hearing is not possible for the fourth beat of measure 12
+because of the grouping articulation immediately to its left. Instead, the
+primary sense of the Ff on the fourth beat of measure 12 is that it belongs
+as an anacrusis to the succeeding phrase.
+
+The revised subgroup bracketing in 6.4 reflects these intuitions.
+
+6.4
+
+ 
+
+._. .
+a A GA A A
+- - - - - . -
+
+L - —
+__ a a 2 22 ] 21
+
+Measures unaffected by out-of-phase conditions, such as 11 and 14,
+receive subgroup bracketings as above. Any such bracketing we call a
+regular time-span. But in the out-of-phase region, the grouping structure
+
+Chapter 6
+

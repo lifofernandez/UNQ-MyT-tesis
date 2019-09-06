@@ -1,0 +1,59 @@
+92.3
+Prolongational
+Regions
+
+216
+
+General Considerations
+
+As in the case of the time-span reduction, the procedure for determining
+the most stable prolongational reduction involves constructing the tree
+piecemeal and finding the most important event in each of the many
+hierarchically related regions of the piece. The regions of application for
+time-span reduction were the time-spans, independently determined on
+the basis of the grouping and metrical structure. However, this is not the
+case for prolongational reduction; as was pointed out in sections 5.4
+and 8.3, it is characteristic of prolongational reduction that its regions
+cut across group boundaries. This means that the regions for rule appli-
+cation cannot be fixed in terms of information available from other com-
+ponents.
+
+Prolongational Hypothesis 1 suggests the overall principle by which
+regions of rule application are determined for the prolongational reduc-
+tion. This hypothesis implies that the function of an event in building or
+releasing tension depends on its relationship to surrounding events that
+are prolongationally more important: its role consists of a step in pro-
+gressing from one of these surrounding events to the other.
+
+This conclusion in turn leads to a radical difference between the con-
+struction of the prolongational tree and the other three components of
+the analysis. Whereas the grouping, metrical, and time-span structures
+were built from the smallest units up, culminating with the largest ele-
+ments of the structure, the prolongational structure must be constructed
+from the top down, starting with the head of the piece and dividing the
+piece into progressively smaller regions until all events are included. This
+method is necessary because the prolongational context in which an
+event e is heard depends on the position and relationships of events that
+are prolongationally more important than e.
+
+The Prolongational Head
+
+In order to construct the tree from the top down, we must start by finding
+the prolongational head of the piece. Prolongational Hypothesis 2 says
+that prolongational importance is in large part tied to time-span impor-
+tance. This suggests that we begin by identifying the prolongational head
+with the time-span head of the piece. In other words, the point of maxi-
+mal prolongational stability—the point of greatest relaxation—is that
+point in the piece that most strongly articulates the end of the largest
+group. (In the next section this claim will be incorporated into a prefer-
+ence rule, but for the moment let us just take it for granted.)
+
+The prolongational head is not necessarily the absolute end of the
+piece, since in some cases a coda may be subordinate in the time-span
+reduction to the full cadence that precedes it. This occurred in the Cho-
+rale St. Antoni, discussed in section 8.5. In such cases the end of the coda
+usually forms a strong prolongation with the prolongational head, so
+that the very end of the piece is equally a point of maximal relaxation.
+
+Chapter 9
+

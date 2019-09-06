@@ -1,0 +1,55 @@
+11.2
+Musical Innateness
+
+281
+
+form of the grammar; 3a is represented by the absence of well-formed-
+ness rules linking grouping and meter; 3b is a generalized statement of
+the time-span segmentation rules; 3c concerns certain aspects of time-
+span reduction preference rules; 3d concerns aspects of the prolon-
+gational reduction preference rules; 4 states a presupposition of the
+preference rules for both reductions; $ is represented rather directly by
+TSRPRs 7 and $ and indirectly by PRPR 6 (normative structure).
+
+One might wonder why we are so concerned with universals of musical
+grammar, particularly in the sense of “universal” defined at the beginning
+of this section. The reason is that universals of this sort are crucial to the
+question of the innateness of musical cognitive capacity, a topic to which
+we now turn.
+
+In outlining our goals for music theory in chapter 1, we distinguished two
+sorts of inquiry. The first was to describe the experienced listener's
+knowledge of a musical idiom by means of a musical grammar for the
+idiom; the second was to explicate the source of this knowledge. We
+argued there that, to the degree that the listener's knowledge is complex
+and abstract with respect to the musical surface, it becomes more difficult
+to explain his acquisition of this knowledge on the basis of simple gener-
+alization over presented musical surfaces (the “stimulus generalization”
+of empiricist psychology).
+
+Having developed a grammar of tonal music in considerable detail, we
+are now in a position to make the argument more pointed. If the rules
+we have proposed correspond at all closely to principles unconsciously
+known and used by the experienced listener, one must ask how the
+listener manages to learn them. And of all the possible organizations one
+could attribute to tonal music (including all the incorrect ones posited by
+us music theorists), why does the listener infer the ones he does? The only
+answer that we find defensible is that one does not have to learn the entire
+grammar from scratch. Rather, one has no choice about much of it; many
+aspects of the grammar are simply the only (or easiest) ways that one's
+mental abilities make available for organizing a musical signal.? In other
+words, much of the complexity of musical intuition is not learned, but is
+given by the inherent organization of the mind, itself determined by the
+human genetic inheritance.
+
+In trying to separate those aspects of musical intuition that are innately
+given from those that are learned, we have two independent sources of
+evidence. First, as just argued, it would appear implausible that someone
+could construct the entire grammar solely on the basis of presented mu-
+sical surfaces. In particular, those parts of the grammar that are especially
+remote from the surface evidence are strong candidates for innateness. It
+is unlikely, for instance, that one could infer from a number of un-
+analyzed musical surfaces even the existence of a prolongational compo-
+
+Musical Universals and Related Issues
+

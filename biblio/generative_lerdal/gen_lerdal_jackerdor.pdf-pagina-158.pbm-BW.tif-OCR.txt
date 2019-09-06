@@ -1,0 +1,63 @@
+We will represent the fusion of two events in the tree by joining their
+branches with a crossbar. Example 7.11 illustrates the reduction of 7.10
+by fusion, giving the lower branches of the resulting tree.
+
+7.11
+
+7
+7
+
+_
+_
+
+7
+
+) level reductcon
+
+ 
+
+Example 7.12 is the beginning of the same movement; its tree contains
+multiple levels of fusion, showing that each half-measure is heard as the
+arpeggiation of a chord. (The dissonant neighbor tones are eliminated by
+ordinary reduction at the eighth-note level.)*
+
+7.12
+
+redvetion at J /evel
+
+7
+
+ 
+
+   
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Fusion, unlike ordinary reduction, is limited to relatively local levels.
+Although one may hear long-range arpeggiation of.a chord, one does not
+fuse the elements into a single chord heard over the entire interval of
+time. The proper delimitation appears to be that events cannot be fused ¡f
+they are separated by a group boundary. This “locality” condition is
+provisionally incorporated into the well-formedness rules below. Its ef-
+fect is shown in the reduction in 7.12: each pair of half-measures is not
+fused into a single event at the whole-note level; rather, the second half-
+measure is treated as a repetition of the first that is eliminated by ordi-
+nary reduction. This follows from the locality condition, because each
+half-measure forms a group.
+
+Fusion in time-span reduction corresponds to the perceptual phe-
+nomenon of “auditory stream segregation,” where one hears two voices
+instead of a single oscillating one (Bregman and Campbell 1971). The
+fact that auditory stream segregation is not confined to musical inputs
+suggests that time-span reduction has some connection to nonmusical
+auditory perception. We see two opposing ways in which such a connec-
+
+154 Chapter 7
+

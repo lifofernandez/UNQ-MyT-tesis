@@ -1,0 +1,62 @@
+7.2
+Time-Span
+Reduction
+
+Well-Formedness
+Rules
+
+152
+
+The Reduction Hypothesis and the Tree Notation
+
+Chapters $5 and 6 have developed many of the ideas we need to state the
+well-formedness rules for time-span reduction. The most basic is that
+every time-span has a most important event, or head, selected from the
+pitch-events in it; the other pitch-events are said to be subordinate to the
+head.
+
+Chapter $ also presented what we called the Strong Reduction Hy-
+pothesis, namely that all the pitch-events of a piece can be organized into
+a single structure by hierarchical relationships of subordination. It is
+essential to this hypothesis that the relationship of subordination be tran-
+sitive; that is, if pitch-event x is subordinate to pitch-event y, and y is
+subordinate to , then x is subordinate to z. More intuitively, if a partic-
+ular event is the structurally most important event of some large time-
+span, then it must also be the structurally most important event of all
+smaller time-spans to which it belongs. Were this not the case, a strictly
+ordered hierarchy would be impossible; for example, an event could be
+subordinate to itself.
+
+In turn, the transitivity of subordination enables us to represent all
+levels of time-span reduction of a piece perspicuously in the tree notation
+introduced in chapter 5. Each pitch-event in the piece is connected to a
+branch of the tree; each branch but the longest terminates on another
+branch. Termination of a branch b, on another branch b, signifies that
+there is a step of time-span reduction in which the pitch-event e,
+connected to b, is eliminated in favor of the pitch-event e, connected to
+b>. In this situation we will say that e, is directly subordinate to e. In
+addition, because of the transitivity of subordination, e, is subordinate to
+all the pitch-events to which e; is subordinate; these can be found by
+tracing upward in the tree to the termination of branch b, on another
+branch b3, and so on to the top of the tree.
+
+Thus the tree notation is possible only if subordination is transitive. 1f
+the Strong Reduction Hypothesis turns out to be false, the notation for
+reduction will have to be modified accordingly. On the other hand, we
+find it difficult to envision a theory lacking the Strong Reduction Hy-
+pothesis that would be both sufficiently rich and sufficiently constrained
+to constitute a plausible account of musical cognition.
+
+We sum up this discussion by giving a preliminary statement of the
+well-formedness rules. One definition will make the rules clearer, We will
+say that a time-span T; immediately contains another time-span T; if T,
+contains T; and if there is no time-span Ty such that 7; contains Ty and T»
+contains T;. Informally, T; inmediately contains 7; when 7; is exactly one
+level smaller than 7;.
+
+Time-Span Reduction Well-Formedness Rules (preliminary version)
+TSRWER 1 For every time-span T, there is an event e that is the head of
+T; all other events in T are subordinate to e. .
+
+Chapter 7
+

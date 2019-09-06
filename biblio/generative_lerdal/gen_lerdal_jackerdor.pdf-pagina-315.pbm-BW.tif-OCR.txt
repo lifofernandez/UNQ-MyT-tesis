@@ -1,0 +1,58 @@
+311
+
+that the speaker dislikes X. Here, if rule 12.5 is obeyed, rule 12.4b 15
+violated. This interpretation—ethat the speaker is lying— might be ap-
+propriate f there were a third party in the conversation who was a friend
+of X and did not know the speaker's relation to X and whom the speaker
+did not wish to offend. Alternatively, the interpretation in which 12.4b is
+obeyed and 12.5 is violated is ironic: the speaker is saying just the oppo-
+site of what he means.
+
+The rules presented in 12.4 and 12.5 do not deal with utterances that
+are questions, such as 12.3. A rule must be introduced that addresses the
+speaker's sincerity in requests, parallel to 12.4b for declaratives. A rea-
+sonable first approximation is 12.6.
+
+12.6
+Prefer to assume the speaker needs what he requests.
+
+In 12.3, if the question is taken literally, in accordance with rule 12.5, the
+utterance is a request for information that the hearer can be fairly sure
+the speaker does not need, in violation of 12.6. The interpretation that
+does least violence to the literal reading of 12.3 but satisfies 12.6 is to
+read it as a request for the salt.
+
+The interaction of these rules is analogous to the interaction of musical
+preference rules. A major difference in Grice”s theory, though, is that it
+lacks a formal characterization of the set of structures out of which
+possible intended meanings are chosen; such a characterization would
+correspond to the well-formedness rules of music theory. In particular,
+when literal interpretation is abandoned, a new interpretation is chosen
+thatis close to the literal one according to a highly complex but unspeci-
+fied metric of closeness. Nonetheless, the similarity of Grice's pragmatic
+rules to preference rules for music points to a qualitative difference be-
+tween pragmatics and the bulk of semantics, syntax, and phonology. The
+example of musical grammar provides a precedent from another cogni-
+tive domain for maintaining the distinction berween pragmatic rules and
+other rule types in linguistic theory. Bach and Harnish (1979, chapter 8)
+develop a treatment of Gricean principles not unlike what we have pro-
+posed here.
+
+Word Meanings
+
+One of the fundamental problems foór a theory of word meaning is to
+explicate the intuitions behind a judgment that a given individual (thing
+or person) or a given category (class of things or persons) is or is not an
+instance of the category named by a given word. Where the category is
+named by a noun, these judgments take the form of assessing the truth of
+sentences of the forms given in 12.7.
+
+12.7
+
+a. That [pointing] is a y.
+
+b. X isay. [where X is a proper name or definite description]
+c. An xisay. [where x is a common noun]
+
+Psychological and Linguistic Connections
+

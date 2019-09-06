@@ -1,0 +1,52 @@
+116
+
+One might argue instead that subordinate events should appear simply in
+berween structurally more important events at the next smaller reduc-
+tional level, and therefore that a “network” notation (5.9c) is more ap-
+propriate. In response, we observe that the sheer geometry of networks
+creates insuperable notational difficulties once even a moderate number
+of events are considered together; network notation is simply impracti-
+cable for the analysis of real pieces. It would be preferable to allow, say,
+just right branching, and interpret that as signifying plain insertion (for
+example, to let 5,9a signify 5.9c). A more substantive reason for main-
+taining both right and left branching is that it enforces the generally
+pervasive intuition that subordinate events are elaborations of particular
+dominating events, not just elaborations within a certain context. If this
+restriction can be maintained for all cases, it represents a great advance
+from a systematic point of view. Furthermore, the geometrical possibility
+of right and left branching provides a significant opportunity for struc-
+tural interpretation. The task is to establish interpretations for these
+branchings that are both consistent and psychologically meaningful;
+these are discussed in chapters 6 and 8. As will be seen, the reductional
+components would be far less rich without these interpretations.
+
+A second objection to the use of tree notation is more critical. Inherent
+in the notation is that a specific branch leads to a specific pitch-event
+(where by pitch-event we mean any pitch or group of simultaneous
+pitches that has an independent attack point). Hence pitch structure is
+seen as a sequence of discrete events. This leads to an excessively vertical
+representation of musical experience; highly polyphonic music in par-
+ticular is slighted, and basic voice-leading techniques, such a central con-
+cern in Schenker's work, do not receive adequate treatment either. In
+response, we observe that this objection pertains not to the tree notation
+per se but to the very nature of hierarchical organizations, which by
+definition are made up of discrete elements or regions. The difficulty is
+not with the horizontal dimension as such, since the theory is as capable
+of providing structural descriptions for individual lines as it is for har-
+monic progressions. But in truly contrapuntal music there is an important
+sense in which each line should receive its own separate structural de-
+scription, Although it is possible in principle to extend the theory to
+simultaneous multiple descriptions, the formal complications would be
+so enormous that they would obscure the presentation of other, perhaps
+more fundamental aspects of musical structure. We reserve such an ex-
+tension for future research, (See section 10.4 for further discussion.)
+
+A related objection concerns the fact that Schenkers underlying
+voice-leading lines not only form counterpoints with each other, but also
+have motivic content. Our concentration on a single tree for all voices
+often shortchanges this aspect of musical structure. However, Schenker's
+mature thought combines two modes of pitch organization, the hierar-
+chical and the “linear-motivic” (for want of a better term). Since the
+
+Chapter $
+

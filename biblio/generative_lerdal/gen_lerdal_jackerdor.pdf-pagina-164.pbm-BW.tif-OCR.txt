@@ -1,0 +1,45 @@
+160
+
+ 
+
+ 
+
+Of the two choices presented below it, 7.16b is intuitively the more
+natural. Because the heads in 7.16b fall on beats at the quarter-note level
+and those in 7.16c fall on beats only at the eighth-note level, this example
+suggests the following preference rule:
+
+TSRPR 1 (Metrical Position) Of the possible choices for head of a time-
+span T, prefer a choice that is in a relatively strong metrical position.
+
+A second principle involves pitch stability. Section 6.2 discussed the
+treatment of local dissonances: an ordinary passing or neighboring tone
+1s subordinate to the preceding note, whereas a suspension or appoggia-
+tura is subordinate to its resolution. The principle behind these choices is
+that a consonant vertical configuration must be chosen as head in prefer-
+ence to a dissonant one, regardless of metrical weight. In the case of a
+passing tone, which falls in weak metrical position, this choice reinforces
+the preference of TSRPR 1 for strong metrical position. By contrast, an
+appoggiatura is in strong metrical position and its resolution is in a weak
+position; the resulting conflict berween harmonic and rhythmic principles
+is what creates the expressive force of the appoggiatura. This principle
+filters out most of the absolute dissonances in a musical surface within
+one or two stages of reduction. But an extension of the principle to
+include relative degrees of consonance and dissonance allows it to oper-
+ate at larger levels, and expands its application at smaller ones.
+
+If we are to state this principle fully, the theory must include a defini-
+tion of the relative degrees of consonance and dissonance of all possible
+vertical configurations. These are well known from traditional theory
+and will simply be assumed here. It only needs to be pointed out that
+there are two distinct measures of vertical consonance and dissonance.
+The first is the intrinsic consonance of the pitch-event itself. According to
+this criterion, major and minor triads in root position are the most stable,
+followed by their first inversions. The second inversion is dissonant, be-
+cause of the fourth between the bass and another part; likewise,
+seventh chords are dissonant and require resolution. But, in addition,
+a pitch-event has a stability relative to the local tonic, measured
+essentially in terms of closeness on the circle of fifths, with additional
+
+Chapter 7
+

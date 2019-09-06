@@ -1,0 +1,64 @@
+346
+
+GPR 3 (Change) (p. 46)
+
+Consider a seguence of four notes nnon3n4. All else being equal, the
+
+transition 7,—n; may be heard as a group boundary if
+
+a. (Register) the transition 1,—n; involves a greater intervallic distance
+than both 7,—n, and n;—n,, orif
+
+b. (Dynamics) the transition 1,—n involves a change in dynamics and
+11—n, and n3—n4 do not, orif
+
+c. (Articulation) the transition n,—n3 involves a change in articulation
+and 1,—n; and n3—n,4 do not, or ¡f
+
+d. (Length) n, and n are of different lengths and both pairs 11,7 and
+A3,14 do not differ in length.
+
+GPR 4 (Intensification) (p. 49)
+Where the effects picked out by GPRs 2 and 3 are relatively more pro-
+nounced, a larger-level group boundary may be placed.
+
+GPR 5 (Symmetry) (p. 49)
+Prefer grouping analyses that most closely approach the ideal subdivision
+of groups into two parts of equal length.
+
+GPR 6 (Parallelism) (p. 51)
+Where two or more segments of the music can be construed as parallel,
+they preferably form parallel parts of groups.
+
+GPR 7 (Time-Span and Prolongational Stability) (p. 52)
+Prefer a grouping structure that results in more stable time-span and/or
+prolongational reductions.
+
+Grouping Overlap (p. 60)
+Given a well-formed underlying grouping structure G as described by
+GWFRs 1-5, containing two adjacent groups g¡ and gs such that
+
+£1 ends with event e,
+
+£2 begins with event e,, and
+
+€1 = e,
+a well-formed surface grouping structure G' may be formed that is iden-
+tical to G except that
+
+it contains one event e' where G had the sequence e,e,
+
+e' = e = e»,
+
+all groups ending with e, in G end with e' in G', and
+
+all groups beginning with e, in G begin with e' in G'.
+
+Grouping Elision (p. 61)
+Given a well-formed underlying grouping structure G as described by
+GWERs 1-5, containing two adjacent groups g¡ and gs such that
+
+£1 ends with event e,
+
+Rule Index
+

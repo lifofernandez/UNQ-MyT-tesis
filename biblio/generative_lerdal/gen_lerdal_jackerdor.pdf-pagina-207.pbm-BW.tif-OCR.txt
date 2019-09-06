@@ -1,0 +1,42 @@
+8.5
+
+A Complete
+Prolongational
+Reduction
+
+203
+
+ 
+
+The secondary notation visually conveys the linear dimension of pro-
+longational reduction better than does the tree (a matter of appearance,
+not substance), and it easily conveys the “prolongational groupings”
+inherent in prolongational reduction. On the other hand, it does not
+distinguish between weak prolongation and progression. More impor-
+tant, it is less clear than the tree concerning domination and subordina-
+tion, and it says nothing about tension and relaxation.
+
+In closing the description of prolongational notation, we observe that
+there is no labeling of levels in either the prolongational tree or its sec-
+ondary notation. As discussed in section 6.2, such labeling is meaningful
+in time-span reduction only because time-spans tend to be fairly regular
+in duration. No such situation obtains in prolongational reduction. What
+counts here is the patterns of connection and subordination; these rela-
+tionships produce the patterns of tension and relaxation. The relative
+significance of an event is a function of its degree of embedding in the
+overall structure. For example, in 8.31b the vii5 in both phrases is deeply
+embedded, while the final ii5—V progression is directly subordinate to the
+most important event in the passage, the final I. The geometric height of a
+branch is immaterial.
+
+This section will present the prolongational reduction of a more extended
+excerpt, the Chorale St. Antoni (formerly attributed to Haydn) as ar-
+ranged by Brahms in his Haydn Variations, op. S56b (example 8.32). To
+put the analysis in context, we begin with the grouping, metrical, and
+time-span analyses of the theme (8.33). For convenience, the music in
+8.33 simplifies the registers from 8.32, and already represents the
+quarter-note level of time-span reduction plus only those events at the
+eighth-note level that form separate harmonies. In addition, the grouping
+
+Prolongational Reduction
+

@@ -1,0 +1,37 @@
+157
+
+Example 7.14 represents the retention of a feminine cadence. In reduc-
+ing to the dotted quarter-note level, the % at the beginning of measure 8 is
+eliminated in favor of the V. Hence in the tree the $ is connected by an
+ordinary branch to the V. In reducing to the measure level, because of the
+metrical structure of a feminine cadence, the penult and the final occupy a
+single time-span. Thus the cadence can be retained simply by refraining
+from eliminating the penult. Finally, in the next step of reduction, the
+head of measure 7 is subordinate to the entire cadence, so it is attached in
+the tree to both elements of the cadence with a small “egg shape.”
+
+The retention of a masculine cadence raises a slightly more difficult
+problem. Example 7.15 shows some steps in reducing measures 5—6 of
+“O Haupt.” Reduction to the half-note level proceeds as usual. At the
+whole-note level, the head of measure 6 is obviously the D major chord
+
+7.145
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Formalization of Time-Span Reduction
+

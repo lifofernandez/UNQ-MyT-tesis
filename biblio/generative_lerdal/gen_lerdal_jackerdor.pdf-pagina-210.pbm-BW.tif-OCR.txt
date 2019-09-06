@@ -1,0 +1,57 @@
+206
+
+overlap and associated metrical deletion at measure 23 are given in their
+underlying forms so as to facilitate the drawing of the tree.
+
+A few analytic remarks are needed for the grouping and metrical anal-
+yses in 8.33. An attractive feature of the theme is its characteristic 5-bar
+(3+2) phrasing, created by the motivic extension of measure 2 into mea-
+sure 3 (and similarly for measures 7-8 and 20—21). The most plausible
+metrical analysis is one that is in phase with this 3+2 grouping analysis,
+resulting in an irregular second row of dots for the first section (measures
+1-10) and, by parallelism, for the reprise (measures 19—23). At measure
+23 this interpretation requires the metrical deletion mentioned above.
+Equally plausible for the reprise, however, is the metrical interpretation
+placed in curly brackets; this more regular analysis follows “conserva-
+tively” from the 4+4 contrasting section (measures 11—18), and leads
+without complication into the coderta (measures 23—29). The choice is
+berween parallelism and simplicity. In the “conservative” reading, the
+cadential arrival at measure 23 is rhythmically especially satisfying be-
+cause it permits the S-bar phrase finally to be heard in a metrically
+periodic fashion.
+
+Turn now to the tree in 8.33. Because the time-spans in the piece are
+irregular and are more deeply embedded in its second half, the specific
+designations for levels d and e are somewhat arbitrary. We have not
+bothered to include branchings for events at levels smaller than level g.
+The rest should be self-explanatory. On the whole, this is one of those
+pieces where the time-span reduction is less valuable in itself than for its
+role as an input to the prolongational reduction.
+
+We will develop the prolongational reduction in stages from the time-
+span reduction. Levels a and b in 8.33 yield the prolongational basic
+form in 8.34a. At the next stage, level c in 8.33 offers one event for
+prolongational analysis, the V in measure 11. However, the I in measure
+19 appears at level d, only one level smaller than the V in measure 11;
+and this 1, the beginning of the reprise, makes the closest possible connec-
+tion with the opening I. Therefore, as shown in 8.34b, the Tin measure 19
+must be selected as a prolongational repetition of the opening I, to which
+the V in measure 11 then attaches as a departure. Though the tree in
+8.34b represents a longer passage of music, the prolongational situation
+is analogous to the standard antecedent-consequent structure shown in
+8.17b. If we then add the essential remaining element of the cadential
+nucleus for the final cadence, the “subdominant” ii5 in measure 22, the
+resultant tree in 8.34c satisfies normative structure as well (compare
+8.28b).
+
+The next available events appear at level e in 8.33. First, the full
+cadence in measures 9-10 prolongs the opening tonic (8.35a). (We have
+
+a . “ 1 . -
+indicated a weak prolongation here because the l in measure 10 is heard
+
+3
+within the context of a prolonged L.) Second, the V in measure 18 weakly
+
+Chapter 8
+

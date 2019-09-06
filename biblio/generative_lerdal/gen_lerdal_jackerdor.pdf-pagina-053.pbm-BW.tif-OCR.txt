@@ -1,0 +1,55 @@
+49
+
+However, consider again the analysis in grouping b of 3.5, which has
+all the low-level boundaries in the right place, but whose larger bound-
+aries are intuitively incorrect. GPRs 1—3 do not suffice to prefer 3.1 over
+grouping b of 3.5, since they deal only with placement of group bound-
+aries and not with the organization of larger-level groups. Further prefer-
+ence rules must be developed in the formal theory to express this aspect
+of the listener's intuition.
+
+Organization of Larger-Level Grouping
+
+Beyond the local detail rules, a number of different principles reinforce
+each other in the analysis of the larger-level groups in 3.1. The first of
+these depends on the fact that the largest time interval between attacks,
+and the only rest, are at transition 10—11, This transition is heard as a
+group boundary at the largest level internal to the passage. The most
+general form of this principle can be stated as GPR 4.
+
+GPR 4 (Intensification) Where the effects picked out by GPRs 2 and 3 are
+relatively more pronounced, a larger-level group boundary may be
+placed.
+
+A simple example that isolates the effects of GPR 4 from other preference
+rules is 3.20, which is heard with the indicated grouping.
+
+ 
+
+ 
+
+ 
+
+ 
+
+GPRs 2a and 2b (the slurfrest and attack-point rules) correctly mark all
+the group boundaries in 3.20, but they say nothing about the second level
+of grouping, consisting of three groups followed by two groups. GPR 4,
+however, takes note of the fact that there is a rest at the end of the third
+small group, strongly intensifying the effects of GPR 2 at that particular
+transition, It is this more strongly marked transition that is responsible
+for the second level of grouping.
+
+A second principle involved in the larger-level grouping of example 3.1
+is a general preference for symmetry in the grouping structure, indepen-
+dent of the musical content:
+
+GPR 5 (Symmetry) Prefer grouping analyses that most closely approach
+the ideal subdivision of groups into two parts of equal length.
+
+GPR $ is involved in the larger-level grouping of 3.21a in which the
+smaller groups are further grouped two and two rather than, say, one and
+three.
+
+Grouping Structure
+

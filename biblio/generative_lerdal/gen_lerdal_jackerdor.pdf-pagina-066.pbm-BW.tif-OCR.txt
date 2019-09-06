@@ -1,0 +1,51 @@
+62
+
+time-span reduction (chapter 7). The overlapped and elided events in all
+the passages cited above serve two different functions: as the end of a
+cadence in the left group and as the beginning of the right group. By
+stating the time-span reduction, which expresses these functions explic-
+itly, in terms of underlying grouping structure, we can separate these two
+functions cleanly.
+
+In looking for analogs of the overlap and elision rules in linguistic
+theory, two different parallels come to mind. First, with respect to their
+place in the formal description, they resemble syntactic transformations
+in linguistics, in that they increase the class of well-formed structures by
+applying certain optional distortions to underlying structures. However,
+in their substance they do not particularly resemble linguistic transfor-
+mations, in that the distortions they introduce do not include such things
+as movement of constituents (as in the passive or subject-auxiliary inver-
+sion transformations of English). Rather, their effects are most like those
+of highly local phonological rules that delete or assimilate material at
+word boundaries (for example, the process that results in the pronuncia-
+tion of only one slightly elongated d in the middle of the phrase dead
+duck).
+
+Having introduced a mechanism for the formal description of overlaps
+and elisions, we must ask what evidence in the musical surface leads the
+listener to hear them. Though we cannot at this point produce a detailed
+account of the preference-rule mechanisms involved in the perception of
+overlap and elision, the general outlines of a solution are fairly clear. In
+example 3.25, for instance, parallelism suggests that a group begins on
+the first beat of measure 3, but the local details suggest instead that a
+group ends after the first beat of measure 3. If a group boundary could be
+drawn after the V chord at the end of measure 2, the first group might be
+perceived as ending in a half cadence. But local detail, particularly the
+position of the V in the last eighth of the measure, does not support the
+perception of a half cadence. Hence there is strong pressure toward
+hearing the I at the beginning of measure 3 as the completion of a full
+cadence. The two desiderata, motivic parallelism and cadence, can be
+achieved simultaneously only if the groups overlap at the first beat of
+measure 3.
+
+This situation seems typical of overlaps and elisions: thematic consid-
+erations require the start of a new group at a point where local detail and
+cadential considerations strongly favor the continuation of an ongoing
+group. We leave for future research a formal characterization of these
+phenomena. Such a characterization clearly will involve not only group-
+ing structure but also metrical structure and time-span reduction. Some
+overlaps and elisions are accompanied by metrical irregularities; these
+will be discussed briefly in chapter 4.
+
+Chaprer 3
+

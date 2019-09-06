@@ -1,0 +1,46 @@
+120
+
+ 
+
+Jd Jl
+¡ S GE E a E
+Ea a£ EZE U i A
+[ C| | |
+Nemmt—— —
+_A AA
+— —————é];————]———[—r—————[———
+
+ 
+
+The problem now becomes simply to select the structurally most im-
+portant event in each time-span, in a cyclical fashion from level to level.
+This process is illustrated schematically in 5.12. (In the example, we have
+omitted the events below the dotted-quarter-note level. The vi? is given in
+quotes because it is hardly a chord in a normal sense; the labeling is for
+convenience.)
+
+5.12
+
+ 
+
+For each time-span in 5.12, a single event is chosen as the most impor-
+tant event, or head. For instance, in the span covering measure 2, the V*
+is chosen over the V3, and proceeds for consideration in the span covering
+measures 1—2; here it is less stable than the opening I, so it does not
+proceed to the next larger span; and so forth. As a result of this proce-
+dure, a particular time-span level produces a particular reductional level
+(the sequence of heads of the time-spans at that level).
+
+Note how the events marked 7 and 7 in 5.12, which were unhappily
+so prominent in $.10, have already disappeared at the half-measure level.
+This is a result of their having had to “compete” in an environment (the
+span of the half-measure) in which they “lost” to another event; they
+never had a chance to attach at larger levels. Thus meter and grouping
+have placed constraints on how the pitch structure is heard.
+
+Such in principle is time-span reduction.? When we develop it in the
+next chapter, we will explain more fully how it represents the interaction
+of pitch and rhythmic structure.
+
+Chapter $
+

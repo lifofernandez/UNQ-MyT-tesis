@@ -1,0 +1,26 @@
+277
+
+10.22
+
+ 
+
+ 
+
+whether they should derive directly from time-span reduction (which, in
+any case, will remain with a single-tree analysis, by virtue of the time-
+span segmentation). It would certainly make for a simpler theory if the
+latter possibility obtained.
+
+At issue, ultimately, is the perceptual status, in terms of tension and
+relaxation, of music viewed as a sequence of discrete events. Insofar as
+music is indeed heard this way, the prolongational component as devel-
+oped in chapters 8 and 9 would seem to stand up fairly well. Yet a special
+aspect of tonal musicis that the principles of harmonic (bass) motion and
+of melodic motion, though interactive, are distinct. A single-tree analysis
+must compromise these distinctions. The notion of a double-tree analysis
+offers the possibility for expressing in a rule-governed way both the
+interactive and the distinctive aspects of melodic and harmonic prolon-
+gational relationships.
+
+Analyses
+

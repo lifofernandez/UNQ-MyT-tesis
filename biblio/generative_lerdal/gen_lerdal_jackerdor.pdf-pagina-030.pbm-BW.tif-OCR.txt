@@ -1,0 +1,52 @@
+26
+
+essential not to confuse their respective properties. This admonition is all
+the more important because much recent theoretical writing has confused
+their properties in one way or another. Two points in particular need to
+be emphasized: groups do not receive metrical accent, and beats do not
+possess any inherent grouping. Let us amplify these points in turn.
+That groups do not receive metrical accent will be conveyed if we
+compare two rhythmic analyses of the opening of the minuet of Haydn's
+Symphony no. 104, the first (2.12) utilizing the notations proposed above
+and the second (2.13) taken from Cooper and Meyer 1960 (p. 140).
+
+2.12
+
+ 
+
+9%77 | __ 2 22$Q$£ o EE
+aralyses
+
+2.13
+
+ 
+    
+
+   
+
+_ s
+ÍLNJ__*¿ILV_—H¿IIU_—¿UIU_.:J|__V_ — M — Y1 — J
+2 — .A AA 22 Ye n =Z - A —
+EA
+5.
+
+Beneath the music in 2.12 appear the grouping and metrical structures
+heard by the listener. Considered independently, each structure is intui-
+tively straightforward and needs no further justification in the present
+context. What must be stressed 1s that, even though the two structures
+obviously interact, neither is intrinsically implicated in the other; thatis,
+they are formally (and visually) separate. By contrast, Cooper and Meyer
+(1960) are concerned from the start with patterns of accentuation within
+and across groups. Though this concern is laudable, it leads them to
+assign accent to groups as such. And, since groups have duration, the
+apparent result is that beats are given duration. In 2.13 these difficulties
+do not emerge immediately at level 1, which—notational differences
+aside—corresponds closely (until measure 7) to the smaller levels of
+grouping and metrical analysis in 2.12. But at level 2 in 2.13, each group
+of level 1 is marked strong or weak in its entirety. If metrical accent is
+intended (as it evidently was at level 1), this result is plainly wrong, since
+the second and third beats of each bar must all be equally weak regardless
+of metrical distinctions on the first beats. What is meant, we believe, is
+
+Chapter 2
+

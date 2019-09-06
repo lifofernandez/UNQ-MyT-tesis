@@ -1,0 +1,48 @@
+8.13
+
+a b
+Mor3a) 21 3or8) 2 1
+l V-1 I y-1
+( time-span recuction) ( prolongational reduction)
+
+Although the trees in 8.13 look similar, they have contrasting interpre-
+tations: 8.13a expresses the arc of tonal motion from the piece's struc-
+tural beginning to its cadence; 8.13b says first that the piece forms a
+relaxing prolongation of the tonic and second that the opening I tenses
+into the V, which in turn relaxes—more strongly than the previous
+tensing—into the final I.
+
+Tree 8.13b represents the prolongational basic form for a typical tonal
+piece. It is grammatically complete in the sense that it expresses both
+tonic prolongation and cadential resolution. This form appears not only
+for whole pieces but— when considered in isolation—also for subordi-
+nate grouping levels such as theme groups, periods, and phrases. Much of
+the unity of tonal music depends on this fact.
+
+Consequently, we can also consider 8.13b to represent the skeleton for
+a typical antecedent-conseguent period in “interruption form.” If the
+time-span analysis for the period yields the structure shown in 8.14a,
+then 8.14b 1s the prolongational basic form corresponding to levels a and
+b of 8.14a. The next events available for prolongational analysis are the
+half-cadential V and the opening I of the consequent (level c in 8.14a).
+Although the sheer geometry of the tree permits these two events to
+connect in a large number of ways, we will consider only a few represen-
+tative alternatives.
+
+8.14
+a b
+
+ 
+
+ 
+
+ 
+
+< ant. , < eons. — — — —
+, — _——[———;——
+( pro/ongat¿ana./)
+
+(time -span reduction) reduction)
+
+189 Prolongational Reduction
+

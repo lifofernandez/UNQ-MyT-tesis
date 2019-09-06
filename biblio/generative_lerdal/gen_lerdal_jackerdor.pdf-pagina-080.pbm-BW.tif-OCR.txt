@@ -1,0 +1,85 @@
+76
+
+4.13
+
+Fresto
+Veoheni
+
+  
+   
+  
+
+ 
+  
+
+A
+a
+
+TA
+r MUC-57 ACGAErE.T
+K! h AA E Y V
+V O P Y YWwOo —7y — e
+
+MPR 2 (Strong Beat Early) Weakly prefer a metrical structure in which
+the strongest beat in a group appears relatively early in the group.
+
+A place in real music where the effect of MPR 2 is evident is 4,13, the
+beginning of the coda of Beethoven's Leonore Overture no. 3 (measures
+514-525).
+
+ 
+ 
+   
+
+o
+RE .FE EAO SA EE U 27 V
+"ARC A Ju--nn4A'J'lv.ll]=-_-A'.2ll.---'ll.---. y- rY!
+S ? Yyw  —yYw _ Yl
+
+72 — .
+
+  
+ 
+ 
+
+At this point there is a new tempo, so there is no previous metrical
+evidence to guide the listener. One tends to hear strong beats at each
+upward leap — despite the fact that at the seventh group, marked here
+with an asterisk, the regularity begins to come at the unmetrical distance
+of seven notes.
+
+Inception of Events and Local Stress
+
+A further and more obvious source of metrical differentiation is the
+distinction berween beats occupied by the inception of pitch-events and
+those occupied by rests or continuations of pitch-events, In 4.14, for
+instance, strong beats at the eighth-note level occur much more naturally
+at the attack points of notes than between them: metrical structure i is
+preferred over metrical structure ¿i. (Structure íí is intuitively somewhat
+less unstable in 4,14a than in 4.14b, This difference will be accounted for
+below.)
+
+4.14
+
+a b
+
+AE re
+
+¿: I17 (preferred) L-_*:':':'(preferred)
+dey o -
+
+The preference for structure ¿ over structure ¿i is expressed in MPR 3,
+
+MPR 3 (Event) Prefer a metrical structure in which beats of level L; that
+coincide with the inception of pitch-events are strong beats of L;.
+
+It often happens that the attack pattern of a given musical surface is
+such that there is no way to satisfy MPR 3 fully. Example 4.15 is one such
+case. (Applications of MPR 3 are marked.)
+
+4.15
+
+5757573575%75757…
+
+Chapter 4
+

@@ -1,0 +1,49 @@
+criteria of relative structural importance are, (2) what relationships may
+obtain between more important and less important events, and (3) pre-
+cisely what musical intuitions are conveyed by the reduction as a result of
+1 and 2. We will develop two distinct conceptions of reduction within our
+theory that differ in just these respects.
+
+To convey an initial feeling for intuitions about structural importance,
+consider the suspension chain in 5.2a. If the resolutions are omitted or
+“reduced 0ut,” as in 5.2b, the sense of the passage is changed much more
+radically than if the suspensions are omitted, as in 5.2c. In other words,
+suspensions are heard as subordinate to, and hence as elaborations of,
+their resolutions.
+
+ 
+
+ 
+
+ 
+
+ 
+
+This sort of testing by omission is generally a useful guide for checking
+reductional intuitions. To give another example, suppose that we were
+listening to a recording of the scherzo of Beethoven's Sonata op. 10, no. 2
+(5.3), and that a speck of dust obliterated the sound of event m. The
+effect would be one of mild interruption. But if the cadence 7 were
+obliterated, the effect would be far more disconcerting, because n is
+structurally more important than ». In other words, it would change the
+sense of a phrase more if its goal —a cadence—were omitted than i¡f an
+event en route toward that goal were omitted.
+
+ 
+
+ 
+
+107
+
+Example 5.4 presents in preliminary form a complete reduction of the
+first phrase of the Bach chorale “O Haupt voll Blut und Wunden.” The
+first musical system represents the musical surface, and the systems below
+stand for successive steps of omitting relatively ornamental events. At the
+final step only the structurally most important event remains, in this
+analysis the initial D major chord. (Other plausible reductions of this
+passage are of course possible. Furthermore, note that in giving this
+preliminary reduction we have as yet specified neither our criteria for
+structural importance nor the relationships between important events
+
+Reductions
+

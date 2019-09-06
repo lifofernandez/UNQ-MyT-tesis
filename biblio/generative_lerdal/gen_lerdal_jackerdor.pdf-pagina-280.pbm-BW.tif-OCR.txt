@@ -1,0 +1,48 @@
+276
+
+harmonic instability. A double tree analysis would in addition show the
+melodic resolution, thus giving a fuller characterization of the deceptive
+cadence.
+
+Before we draw any theoretical conclusions from these examples, let us
+examine another familiar passage. Suppose one “prefers” Schenker's re-
+duction of the first phrase of K. 331 (Schenker 1925, 1935) to the ones
+offered in section 9.5 (see also the remarks in section 7.3 concerning the
+melodic primacy of Ct or E in measure 1). Schenker's is certainly a
+plausible reading; in our secondary notation it looks like 10.21.6
+
+10.21
+
+ 
+
+ 
+
+How could our theory generate 10.21? One might grant the promi-
+nence of the E due to its relative height (TSRPR 3), or, alternatively, fuse
+measure 1 (and measure 2) (TSRWFR 3b). But there are more serious
+difficulties: the bass (that is, the harmony) and the melody must receive
+contrasting structural descriptions. In measures 1—2, in the bass the first
+events dominate the second (A over Ctt, G over B), but in the melody the
+second events dominate the first (E over Ctt, D over B). In measure 4 two
+events in the melody (C£ and B) over the V must be structurally impor-
+tant, but the C is not harmonically well supported (a cadential $). (This
+particular situation is common in Schenkerian reduction, and has caused
+dissent; in its defense, it is not the melodic note in these cases that forms
+the dissonant fourth with the bass.) In short, to arrive at Schenker's
+analysis, one must assign related but different trees to the melodic and
+harmonic structures, as in 10.22.
+
+Preliminary investigation has indicated that in some passages the dis-
+crepancy between harmonic and melodic trees can be much greater than
+in 10.20b and 10.22. On the other hand, we feel that Schenker sometimes
+ascribes too great an independence to the outer voices (for example, in
+the first phrase of the Bach chorale “Ich bin's, ich sollte búissen” in
+Schenker 1932). The problem is to find the right balance—ro let the bass,
+which governs the harmony, control the connective possibilities in the
+melodic tree, yet allow a certain leeway for melodic notes to form their
+own connections. At this point we are unclear whether such double
+analyses should derive as a second stage of prolongational reduction
+from the single prolongational trees so far developed in the theory, or
+
+Chapter 10
+

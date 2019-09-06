@@ -1,0 +1,54 @@
+109
+
+and beat 1 of measure 2. Likewise (to take a more extreme case), perhaps
+the most striking moment in the first movement of Beethoven's Eroica
+Symphony is the dissonant climax in measures 276-279 (example 5.5).
+
+But in terms of structural importance, this event resolves into (i.e., is less
+stable than, and hence structurally less important than) the dominant of
+E minor in measures 280-283, which in turn is subordinate to the
+E minor chord at the beginning of measure 284. And, through a process
+we will not trace here, the ensuing E minor episode is relatively subordi-
+nate within the set of relationships emanating from the fact that the piece
+1s in Eb major. Thus the chord in measures 276-279, despite its conspic-
+uousness, would be deeply subordinate within a reduction of the whole
+movement. The tension of this moment is due in part to the disparity
+berween its surface salience and its reductional status.
+
+We do not deprecate the aural or analytic importance of salient events;
+it is Just that reductions are designed to capture other, grammatically
+more basic aspects of musical intuition. A salient event may or may not
+be reductionally important, It is within the context of the reductional
+hierarchy that salient events are integrated into one's hearing of a piece.
+
+Some readers may balk at extending the notion of reduction to “back-
+ground” levels—so that, for example, an Eb major triad is ultimately all
+thatis left of the first movement of the Eroica. Such an extension, it may
+be felt, is mechanical, abstract, and irrelevant to perception. There are
+two responses to this view. First, exactly where should a reduction stop?
+There is no natural place, for there is no point in the musical hierarchy
+where the principles of organization change in a fundamental way. Clas-
+sical theorists were aware of this when they derived sonata form from the
+structure of the phrase. Rosen 1972 (pp. 83-88) illustrates the point
+beautifully by showing how Haydn, in his G Minor Piano Trio, actually
+develops a miniature sonata form out of a period form. If a phrase can be
+reduced, so can the Eroica.
+
+Second, how would our reader feel if an E minor chord, derived from
+measures 284 ff. (see example 5.5), stood at the end of a reduction of the
+Eroica? Surely he would feel that the piece had been misrepresented. That
+solitary, reduced-out Eb major triad means something after all: it is a way
+of saying what key the piece is in—and, indeed, that it has a tonic at all.
+To be sure, at this level it is scarcely differentiated from Schumann's
+Rbenish Symphony, which is also in Ep. Butif a listener hears a piece as
+beginning and ending in the same key, he knows (however tacitly) a great
+deal about its global structure. There is nothing abstract or perceptually
+irrelevant about this. Nor does it deny the many important things that
+distinguish one piece from another; these emerge at more detailed levels
+of analysis.
+
+Granted human frailty and inattention, it is rare for a listener on a
+particular occasion to hear a reduction in its entirety from the smallest
+
+Reductions
+

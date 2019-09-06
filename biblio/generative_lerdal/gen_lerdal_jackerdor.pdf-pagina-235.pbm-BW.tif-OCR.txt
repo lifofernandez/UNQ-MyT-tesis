@@ -1,0 +1,62 @@
+231
+
+V* through the influence of PRPR 2. In either case, by parallelism with
+measure 1 (PRPR 5), the V3 finally attaches as a right branch to the preced-
+ing VS. Example 9.17 gives the complete tree for both possibilities, with
+9.17a deriving from branching a in 9.16 and 9.17b deriving from
+branching b.
+
+Both trees in 9.17 are musically meaningful. That in 9.17a captures the
+double neighboring motion in the voice leading of the phrase—the V*
+within a prolonged I and the “vi7” within a prolonged V“. On the other
+hand, that in 9.17b better represents the pattern of tension and relax-
+ation in the phrase, with the “vi7” and the second V* relaxing into the
+following I.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Now let us turn to our promised comment on motivic structure. Al-
+though the rule of parallelism (PRPR 5) creates parallel internal structure
+for parallel motives, it does not necessarily prevent a situation like 9.18a.
+
+9.18
+
+ 
+
+a b
+, — — ;_¡ Nr—$—————
+Prolongational grovping: ——————]d.
+Teme - span se_gmentat¿on: ——]]]]—]]] ! — —
+
+In this tree the two occurrences of the motive are internally parallel (in
+that the second half of each is subordinate to the first half), but the
+second occurrence is prolongationally an elaboration of an internal part
+
+Formalization of Prolongational Reduction
+

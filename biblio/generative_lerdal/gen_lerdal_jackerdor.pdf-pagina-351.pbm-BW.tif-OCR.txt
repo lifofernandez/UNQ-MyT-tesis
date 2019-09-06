@@ -1,0 +1,54 @@
+Metrical Structure
+
+347
+
+22 begins with event e, and
+(for left elision) e, is harmonically identical to e; and less than e, 1n
+dynamics and pitch range or
+(for right elision) e, is harmonically identical to e, and less than e, in
+dynamics and pitch range,
+a well-formed surface grouping structure G” may be formed that is iden-
+tical to G except that
+it contains one event e' where G had the sequence e¡e»,
+(for left elision) e' = e»,
+(for right elision) e' = e,
+all groups ending with e, in G end with e' in G', and
+all groups beginning with e; in G begin with e' in G'.
+
+MWER 1 (revised) (p. 72)
+Every attack point must be associated with a beat at the smallest metrical
+level present at that point in the piece.
+
+MWER 2 (revised) (p. 72)
+Every beat at a given level must also be a beat at all smaller levels present
+at that point in the piece.
+
+MWER 3* (p. 69)
+
+At each metrical level, strong beats are spaced either two or three beats
+apart.
+
+MWER 4 (revised)* (p. 72)
+
+The tactus and immediately larger metrical levels must consist of beats
+equally spaced throughout the piece. At subtactus metrical levels, weak
+beats must be equally spaced between the surrounding strong beats.
+
+MPR 1 (Parallelism) (p. 75)
+Where two or more groups or parts of groups can be construed as paral-
+lel, they preferably receive parallel metrical structure.
+
+MPR 2 (Strong Beat Early) (p. 76)
+Weakly prefer a metrical structure in which the strongest beat in a group
+appears relatively early in the group.
+
+MPR 3 (Event) (p. 76)
+Prefer a metrical structure in which beats of level L; that coincide with
+the inception of pitch-events are strong beats of L;.
+
+MPR 4 (Stress) (p. 79)
+Prefer a metrical structure in which beats of level L; that are stressed are
+strong beats of L;.
+
+Rule Index
+

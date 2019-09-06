@@ -1,0 +1,34 @@
+151
+
+ 
+
+7.8
+
+d kevel ---——-—--A----———
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+* » . e * * « e * e . e
+L e ye A J A ZAZ I
+
+In order to produce this segmentation, it suffices to change condition b of
+segmentation rule 2 to include in 7;z the preceding rather than the
+following time-span of the next smaller level. The possibility of such a
+mirror reversal of the usual situation will be of particular interest when
+time-span reduction is compared with phonological theory in section
+12.3.
+
+Given the rules for segmentation of the musical surface into time-
+spans, we now turn to a formal description of the possible time-span
+trees.
+
+Formalization of Time-Span Reduction
+

@@ -1,0 +1,47 @@
+240
+
+   
+
+9.26
+
+ 
+
+ 
+
+ 
+
+. Y7 . .. + .
+v Y.viV ea7 II 1I
+E 33 45
+A B E .
+
+Normative Structure and Musical Complexity
+
+Why should musical grammar include such a rule as PRPR 6? To convey
+the effect of the rule in a more general context, we observe that all the
+previous rules of time-span and prolongational reduction consider as
+maximally stable those structures in which virtually nothing happens. E
+piece were to consist entirely of tonic chords and full cadences, these
+other rules for pitch organization would be blissfully happy, since there
+would be little if any conflict in pitch stability. Obviously, from the point
+of view of musical interest, such a piece would be unsatisfactory; some-
+thing must happen. Consider, for example, what the Chopin A Major
+Prelude would sound like with V—I progressions throughout.
+
+But simply to say that music must deviate somehow from total regular-
+ity would leave the shape of pieces virtually unconstrained. PRPR 6
+addresses this problem. It requires that a piece have prolongational vari-
+ety, so that a passage of total stasis (except to confirm a phrase ending) is
+heard as unusual. But the rule further says that not just any variety is
+desirable; the variety must be manifested as structured patterns of ten-
+sion and relaxation. Since the constraint is stated in terms of types of
+connections among events, and since it is to an extent independent of
+surface rhythmic considerations, it leaves the composer free to satisfy it in
+innumerable interesting ways. And insofar as the rule applies to ca-
+denced groups hierarchically from the phrase level up to the entire piece,
+its multilayered effects create pressure toward a musical surface of con-
+siderable complexity—and toward a complexity that increases with the
+size of the piece.
+
+Chapter 9
+

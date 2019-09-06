@@ -1,0 +1,53 @@
+structure in terms of principles that account for simpler musical phenom-
+ena. The insights of an “artistic” approach can thus be incorporated into
+a larger and more explanatory framework.?
+
+We will now elaborate the notion of “the musical intuitions of the
+experienced listener.” By this we mean not just his conscious grasp of
+musical structure; an acculturated listener need never have studied music.
+Rather we are referring to the largely unconscious knowledge (the “mu-
+sical intuition”) that the listener brings to his hearing—a knowledge
+that enables him to organize and make coherent the surface patterns of
+pitch, attack, duration, intensity, timbre, and so forth. Such a listener is
+able to identify a previously unknown piece as an example of the idiom,
+to recognize elements of a piece as typical or anomalous, to identify a
+performer's error as possibly producing an “ungrammatical” configura-
+tion, to recognize various kinds of structural repetitions and variations,
+and, generally, to comprehend a piece within the idiom.
+
+A listener without sufficient exposure to an idiom will not be able to
+organize in any rich way the sounds he perceives. However, once he
+becomes familiar with the idiom, the kind of organization that he attrib-
+utes to a given piece will not be arbitrary but will be highly constrained in
+specific ways. In our view a theory of a musical idiom should characterize
+such organization in terms of an explicit formal musical grammar that
+models the listener's connection berween the presented musical surface of
+a piece and the structure he attributes to the piece. Such a grammar
+comprises a system of rules that assigns analyses to pieces. This contrasts
+with previous approaches, which have left it to the analyst's judgment to
+decide how to fit theoretical constructs to a particular piece.
+
+The “experienced listener” is meant as an idealization. Rarely do two
+people hear a given piece in precisely the same way or with the same
+degree of richness. Nonetheless, there is normally considerable agreement
+on what are the most natural ways to hear a piece. A theory of a musical
+idiom should be concerned above all with those musical judgments for
+Which there is substantial interpersonal agreement. But it also should
+characterize situations in which there are alternative interpretations, and
+it should have the scope to permit discussion of the relative merits of
+variant readings.
+
+The concept of the “experienced listener,” of course, is no more than a
+convenient delimitation. Occasionally we will refer to the intuitions of a
+less sophisticated listener, who uses the same principles as the experi-
+enced listener in organizing his hearing of music, but in a more limited
+way. In dealing with especially complex artistic issues, we will sometimes
+elevate the experienced listener to the status of a “perfect” listener—that
+privileged being whom the great composers and theorists presumably
+aspire to address.
+
+It is useful to make a second idealization about the listener's intuition.
+Instead of describing the listener's real-time mental processes, we will be
+
+Theoretical Perspective
+

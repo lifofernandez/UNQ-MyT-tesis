@@ -1,0 +1,55 @@
+297
+
+hierarchy of grouping structure. At bottom, all of these trends are mani-
+festations of a tendency to avoid repetition.
+
+We do not wish to address the cultural or aesthetic reasons for this
+tendency, nor do we want to make value judgments. But it is in the spirit
+of our inquiry to ask what the cognitive consequences of these kinds of
+organization are for the listener, assuming he is using the principles of
+musical cognition we have proposed.
+
+As pointed out in section 11.1, the absence of some kind of organiza-
+tion in the musical signal eliminates the influence of the relevant prefer-
+ence rules. Consider first the absence of a tonal center. In this case, none
+of the preference rules that refer to pitch stability will be applicable to the
+musical surface. As a result, the choice of important events in the time-
+span reduction will be constructed almost exclusively on rhythmic
+grounds. Pitch enters only through consideration of linear connections
+(TSRPR 6) and registral extremes (TSRPR 3). The absence of cadential
+formulas of some kind removes an important indicator of larger-scale
+time-span reductional structure.
+
+In the prolongational reduction, linear relationships are greatly weak-
+ened, with the partial exception of melodic or harmonic identities (strong
+prolongations). Thus the connection with time-span reduction (PRPRs 1
+and 2), itself determined mostly on rhythmic grounds, remains as the
+chief determinant of prolongational structure. In other words, the theory
+predicts that intuitions of tension and relaxation, which the prolonga-
+tional reduction is designed to express, are based less on pitch factors
+than on rhythmic, dynamic, and timbral considerations, and that large-
+scale pitch connections do not play a great role in the listener's com-
+prehension of the music.
+
+Suppose in addition that, as often happens, there is little evidence for a
+regular metrical structure. Then, as discussed in section 4.4, the metrical
+well-formedness rules fail to impose any extrinsic organization on the
+pattern of phenomenal accents in the musical surface. The resulting met-
+rical structure follows the irregularities of local detail and hence cannot
+be extended to any depth. (Recall from chapter 4 how the presumption of
+regularity was fundamental to the construction of a metrical hierarchy,
+especially for the larger levels of complicated examples.) An immediate
+consequence is that metrical tensions such as syncopation become hard to
+project. Furthermore, the mutual interaction of meter and time-span re-
+duction is weakened: not only are there fewer metrical distinctions avail-
+able to affect choice of time-span heads (through TSRPR 1), but, because
+of the absence of pitch stability, there are fewer time-span distinctions
+available to affect metrical choices (through MPR 9). Insofar as the time-
+span reduction 1s weakened by metrical irregularity, the prolongational
+reduction is weakened too.
+
+All these factors contribute to the weakening of grouping organization.
+Since the music in question usually avoids symmetry and overt repetition,
+
+Musical Universals and Related Issues
+

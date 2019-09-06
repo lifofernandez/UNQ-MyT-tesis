@@ -1,0 +1,58 @@
+changes to forte are preferably heard as stronger than the changes to
+piano, because the sudden forte functions as a local stress and triggers
+MPR 4.)
+
+4.24
+
+PORCPPPPCPPARA
+12 £ £ -E
+
+We can account for the fact that this is heard most naturally as 6/8, with
+strong beats at the changes in dynamic, by extending MPR $ so it counts
+the length of a particular dynamic as a kind of length indicative of metri-
+cal structure. Then MPR $ will apply at the changes ín dynamics in 4.24,
+setting up a preference in metrical structure. In other words, from the
+point of view of MPRs 4 and 5, example 4.24 behaves analogously to
+4.25,
+
+4.25
+
+>
+
+r
+
+—
+_
+—
+
+For a slightly more complex example consider 4.26, in which appli-
+cations of preference rules have been marked.
+
+4.26
+
+a b
+PEEPPORRRPRE SEERCECPRACO
+17: P ,í' z P í' P .í
+
+o Yoreferable
+o Y (fíW*//V
+Frfffrao/¿_)
+
+Equí va/.e lu - > - £:¿u/'r;a/ent. -
+to: to: > >
+f rf f f rf f
+
+The spacing of changes of intensity establishes a preferred quarter-note
+level: both passages in 4-26 are preferably in 3/4, with quarter-note beats
+on the changes of dynamics. However, the two passages differ in the
+factors determining where the strong beats of the quarter-note level lie.
+
+From the point of view of MPRs 4 and 5, the passages are equivalent to
+the durational patterns at the bottom of the example. In 4.26a the forte
+lasts longer than the piano, so MPR $ says that the onset of the forte
+should be relatively stronger. In addition, the stress perceived at the onset
+of the forte reinforces the impression of a strong beat. Hence structure ¿ is
+far more natural than structure ¿i. On the other hand, 4.26b has reversed
+
+Metrical Structure
+

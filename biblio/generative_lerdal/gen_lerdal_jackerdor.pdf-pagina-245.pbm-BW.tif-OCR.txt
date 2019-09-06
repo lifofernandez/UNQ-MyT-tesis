@@ -1,0 +1,53 @@
+9.7
+Binary Form
+and Sonata Form
+
+241
+
+On the other hand, the complexity the rule engenders is not just gratu-
+itous complication. Rather, because it is patterned in terms of levels of
+structure, it produces a higher degree of coherence. Each event has a
+specific and unique function in the whole, in a way that would not be true
+of either a uniform string of events such as V-I-V-—I-... or a random
+sequence. It may be inferred from other areas of cognition, such as vision
+and language (see Koffka 1935; Neisser 1967; Fodor, Bever, and Garretr
+1974), that this strong structuring of the parts into the whole enhances
+comprehension and memory.
+
+As additional illustrations of prolongational derivations, this section de-
+velops trees for the major structural points in binary-form and sonata-
+form movements.
+
+Figure 9.27 is a harmonic sketch of the larger levels of time-span
+reduction for a typical binary baroque dance form, Menuetto I of the
+Bach G Major Cello Suite.
+
+9.27
+
+a
+
+   
+
+(time-span reduction)
+
+ 
+
+ 
+
+I Yy- Yr N - I
+——di——
+m 7 8 9 18 B A
+
+In such a piece, there is no important recurrence of I berween the very
+beginning and the final cadence; thus there can be no large tonic prolon-
+gation inside of the basic form. The most time-span-important events
+within the basic form are the dominants in measures 8-9. How should
+these be attached? Superficially, one might think that they form a domi-
+nant prolongation to the final cadence, as in 9.28a. But such a structure
+would claim, counterintuitively, that the tension of the piece begins to
+defuse by the double bar (the midpoint of the piece). Moreover, in similar
+pieces in the minor mode, such as the sarabande of the C Minor Cello
+Suite, the point corresponding to measure 8 has the relative major instead
+
+Formalization of Prolongational Reduction
+

@@ -1,0 +1,64 @@
+352
+
+2. (Pitch-collection condition)*
+
+A connection between two events is more stable ¡f they involve or imply a
+common diatonic collection.
+
+3. (Melodic condition)
+
+a. (Distance) A connection between two events is melodically more sta-
+ble if the interval between them is smaller (with the exception of the
+octave, which is relatively stable).
+
+b. (Direction) An ascending melodic progression is most stable as a
+right-branching structure; a descending one is most stable as a left-
+branching structure.
+
+4. (Harmonic condition)*
+
+a. (Distance) A connection between two events is harmonically more
+stable if their roots are closer on the circle of fifths.
+
+b. (Direction) A progression thart ascends along the circle of fifths is
+most stable as a right-branching structure; one thar descends along
+the circe of fifths or produces a subdominant-to-dominant relation-
+ship 1s most stable as a left-branching structure.
+
+Interaction Principle (p. 228)
+
+In order to make a sufficiently stable prolongational connection, ey must
+be chosen from the events in the two most important levels of time-span
+reduction represented in (e;—e)).
+
+PRPR 4 (Prolongational Importance) (p. 226)
+
+Let ex be the prolongationally most important event in a region (e;—e;).
+Prefer a prolongational reduction in which e; is an elaboration of the
+prolongationally more important of the endpoints.
+
+PRPR 5 (Parallelism) (p. 226)
+Prefer a prolongational reduction in which parallel passages receive par-
+allel analyses.
+
+PRPR 6 (Normative Prolongational Structure)* (p. 234)
+
+A cadenced group preferably contains four (five) elements in its prolon-
+
+gational structure:
+
+a. a prolongational beginning,
+
+b. a prolongational ending consisting of one element of the cadence,
+
+(c. a right-branching prolongation as the most inportant direct elabora-
+tion of the prolongational beginning,)
+
+d.a right-branching progression as the (next) most important direct
+elaboration of the prolongational beginning,
+
+e. a left-branching “subdominant” progression as the most important
+elaboration of the first element of the cadence.
+
+Rule Index
+

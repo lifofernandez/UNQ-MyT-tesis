@@ -1,0 +1,57 @@
+3.3
+Grouping
+Preference Rules
+
+43
+
+rules as a rule type is an innovation in the present theory. (More discus-
+sion of this general point appears in chapter 12.)
+
+With this background, we turn to stating in some detail the preference
+rules for musical grouping.
+
+Two types of evidence in the musical surface are involved in determining
+what grouping is heard by an experienced listener. The first is local
+detail —the patterns of attack, articulation, dynamics, and registration
+that lead to perception of group boundaries. The second type of evidence
+involves more global considerations such as symmetry and motivic, the-
+matic, rhythmic, or harmonic parallelism. We explore these two types of
+evidence in turn.
+
+Local Detail Rules
+There are three principles of grouping that involve only local evidence.
+The first is quite simple.
+
+GPR 1 Strongly avoid groups containing a single event.
+
+Perhaps the descriptive intent of the rule would be clearer to some readers
+if the rule were stated as “Musical intuition strongly avoids choosing
+analyses in which there is a group containing a single event” or “One
+strongly tends not to hear single events as groups.” Readers who may be
+initially uncomfortable with our formulation may find such paraphrases
+helpful as they continue through the rules.
+
+The consequence of GPR 1 is that any single pitch-event in the normal
+flow of music will be grouped with one or more adjacent events. GPR 1 is
+overridden only ¡f a pitch-event is strongly isolated from the adjacent
+events, or if for some reason it functions motivically all by itself. Under
+the former of these conditions, GPR 1 is overridden by another of the
+rules of local detail, which we will state in a moment, Under the latter
+condition, GPR 1 is overridden by the preference rule of parallelism, to be
+stated as GPR 6. But the comparative rarity of clearly sensed single-note
+groups attests to the strength of GPR 1 as a factor in determining musical
+intuition. (An example of an isolated note functioning as a group is the
+fortissimo C$ in measure 17 of the finale of Beethoven's Eighth Sym-
+phony. An example of a single element functioning motivically occurs at
+measure 210 of the first movement of Beethoven's Fifth Symphony: ele-
+ments of the motive have been progressively deleted in the preceding
+measures, until at this point one event stands for the original motive.)
+
+An alternative formulation of GPR 1 is somewhat more general. Some
+evidence for it will appear in section 3.6.
+
+GPR 1, alternative form Avoid analyses with very small groups—the
+smaller, the less preferable.
+
+Grouping Structure
+

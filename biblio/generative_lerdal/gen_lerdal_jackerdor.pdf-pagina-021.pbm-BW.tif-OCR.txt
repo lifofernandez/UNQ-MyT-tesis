@@ -1,0 +1,56 @@
+2.2
+Metrical Structure
+
+17
+
+More generally, the web of motivic associations (and of textural and
+timbral associations as well) —let us call it associational structure—is a
+highly important dimension in the understanding of a piece. But this web
+is not hierarchical in the restricted sense described above, and it must not
+be confused with grouping structure. It is a different dimension of mu-
+sical structure, one that interacts with grouping structure. Because asso-
+ciational structure is not hierarchical, however, our theory at present has
+little to say about it. (See further remarks in section 11.4.)
+
+To sum up: Grouping structure is hierarchical in a nonoverlapping
+fashion (with the one exception mentioned above), it is recursive, and
+each group must be composed of contiguous elements. These conditions
+constitute a strong hypothesis about the nature of musical cognition with
+respect to grouping. As will be seen, they are all the more significant in
+that they also pertain to the other three components of the theory.
+
+Kinds of Accent
+
+Before discussing metrical structure (the regular, hierarchical pattern of
+beats to which the listener relates musical events), we must clarify the
+concept of accent. Vague use of this term, often in connection with meter,
+has caused much confusion. In our judgment it is essential to distinguish
+three kinds of accent: phenomenal, structural, and metrical. By phenom-
+enal accent We mean any event at the musical surface that gives emphasis
+or stress to a moment in the musical flow. Included in this category are
+attack points of pitch-events, local stresses such as sforzandi, sudden
+changes in dynamics or timbre, long notes, leaps to relatively high or low
+notes, harmonic changes, and so forth. By structural accent we mean an
+accent caused by the melodic/harmonic points of gravity in a phrase or
+section—especially by the cadence, the goal of tonal motion. By metrical
+accent We mean any beat thatis relatively strong in its metrical context.?
+
+Phenomenal, structural, and metrical accents relate in various ways.
+Section 2.4 deals with the interaction of structural and metrical accents,
+and chapter 4 is concerned in detail with the relation of phenomenal
+accent to metrical accent. Nonetheless, a general characterization of the
+latter relation is now in order, if only because it will help locate the
+conception of metrical structure in concrete experience.
+
+Phenomenal accent functions as a perceptual input to metrical ac-
+cent—cthat is, the moments of musical stress in the raw signal serve as
+“cues” from which the listener attempts to extrapolate a regular pattern
+of metrical accents. f there is little regularity to these cues, or if they
+conflict, the sense of metrical accent becomes attenuated or ambiguous. I£
+on the other hand the cues are regular and mutually supporting, the sense
+of metrical accent becomes definite and multileveled. Once a clear metri-
+cal pattern has been established, the listener renounces it only in the face
+of strongly contradicting evidence. Syncopation takes place where cues
+
+Rhythmic Structure
+

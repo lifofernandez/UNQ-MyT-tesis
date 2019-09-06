@@ -1,0 +1,41 @@
+5.1
+The Need for
+Reductions
+
+5
+Introduction to Reductions
+
+Although the concept of reduction is familiar in current musical analysis,
+we will review some elementary intuitions that justify the claim that a
+reduction represents something that one perceives in a piece of music.
+Besides aiding those readers not familiar with the notion, this discussion
+may help to ground it in ordinary experience and clarify what claims we
+are and are not making.
+
+An obvious observation about music is that some musical passages are
+heard as ornamented versions, or elaborations, of others. For instance,
+despite the surface differences in pitches and durations berween examples
+5.1a and 5.1b, from the finale theme of Beethoven's Pastoral Symphony,
+the listener has no difficulty in recognizing 5.1b as an elaboration of 5.1a.
+
+ 
+
+ 
+
+ 
+
+ 
+
+The inverse of elaboration also occurs, for example when a popular song
+is played in “stop time” to accompany a tap dancer. Despite the fact that
+the “stop time” version has fewer notes in it and the notes are in different
+rhythmic relationships, the listener readily accepts it as a version of the
+song.
+
+More complex is the situation where two or more passages are both
+heard as elaborations of an abstract structure that is never overtly stated.
+Bach's Goldberg Variations is a particularly magnificent example of this
+kind of organization. Why is the listener able to recognize, beneath the
+seemingly infinite variety of its musical surface, that the aria and 30
+variations are all variations of one another? Why do they not sound like
+

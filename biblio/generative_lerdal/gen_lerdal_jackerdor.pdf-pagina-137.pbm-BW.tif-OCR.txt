@@ -1,0 +1,54 @@
+6.3
+
+Time-Span Trees
+and Structural
+Accents
+
+133
+
+In closing this section we must caution that the formal theory resides
+only in the trees, not in the secondary notation, even though the latter is a
+close translation of the former. We retain both because the tree notation
+is unfamiliar, and because, as will become clearer in longer examples, the
+two notations serve somewhat different purposes. The tree gives a picture
+of all the levels in relation to one another; the notation below the music is
+useful in hearing any particular level.
+
+A further cautionary word is needed about the labeling of levels. This,
+too, is not part of the formal theory. It will turn out that the formal
+theory does not require that one branching at level 7 correspond strictly
+to another branching at level 7 in some other part of a piece. This
+restriction is not feasible because of the frequent irregularity of depth of
+embedding in the time-span segmentation, especially at global levels of
+analysis. Nonetheless, we keep the labeling of levels because in this kind
+of reduction it has a meaning— namely, that the time-spans partition a
+piece into approximately equal parts at any given level, and therefore the
+structurally most important event in one span can be ranked with an-
+other such event in another span of about the same length. No doubt
+music is perceived, to a degree, as progressing at an even rate of events
+from level to level. This is what the labeling of levels addresses.
+
+In section 2.4 we claimed that the structural accents of the phrase—its
+structural beginning (abbreviated b) andrits structural ending, or cadence
+(abbreviated c) —belong in a music theory not as part of metrical struc-
+ture but as part of time-span reduction. It is time to make good that
+claim. Again we begin schematically. We revive the analogy of section
+2.4: like a ball thrown and caught, the overarching elements of a phrase
+are its structural beginning and its cadence, In section 2.4 we dia-
+grammed this state of affairs as in 6.13a. Now we can be less impres-
+sionistic: the b and c of a phrase must emerge as its structurally most
+important events in the time-span reduction, in the form of either 6.13b
+or 6.13c, depending on whether the b dominates the c (6.13b) or vice
+versa (6.13c).
+
+6.13
+a b c
+
+S ” b e Á é)
+
+—ÑU . _ —É
+
+ 
+
+Time-Span Reduction
+

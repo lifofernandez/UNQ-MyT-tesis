@@ -1,0 +1,47 @@
+10.2
+
+Motivic Structure
+and Time-Span
+Reduction
+
+10.3
+
+grouping and meter. In other words, it takes a great deal to override
+MPR 1,
+
+In this section we illustrate some ways in which time-span reduction can
+be useful in illuminating motivic relationships.
+
+First consider the rondo theme from Beethoven's Pathétique Sonata,
+op. 13. As indicated by the dashed circles in 10.3, the phrase begins and
+ends with almost identical motivic material at the musical surface, Yet
+this obvious relationship is partially obscured because the main notes of
+the motive assume, respectively, virtually opposite reductional functions:
+the Eb on the downbeat of measure 1 is the structural beginning of the
+phrase, whereas the corresponding E in measure 7 is only part of an
+embellishing cadential 4; the D in measure 1 is a passing tone, whereas
+the corresponding D in measure 7 is part of the cadence for the entire
+phrase; the C on the downbeat of measure 3 is only part of an unfolding
+of the opening tonic chord, whereas the corresponding C in measure 8
+resolves the whole passage. In the tree of 10.3, parallel treatment of
+parallel passages (time-span reduction preference rule 4) must give way
+to the more global factors of the structural beginning and cadence
+(TSRPRs 7 and8). This conflict berween surface similitude and underlying
+function gives the theme much of its particular character,.
+
+ 
+
+ 
+
+ 
+
+253
+
+The opposite case—where reductionally parallel relationships reveal
+underlying motivic connections not readily apparent at the musical sur-
+face—is much more common in music of the Classical period (though
+notin that of the late nineteenth century). By way of illustration, consider
+the opening of the minuet of Beethoven's Sonata, op. 22 (example 10.4).
+
+Analyses
+

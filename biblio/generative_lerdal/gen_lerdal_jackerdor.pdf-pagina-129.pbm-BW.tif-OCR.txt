@@ -1,0 +1,38 @@
+125
+
+Furthermore, in the context of the whole movement, the theme is the first
+of a set of orchestral variations, preceded by an elaborate introduction;
+then all the foregoing is paired with an ensuing introduction and varia-
+tions, this time with voices; and so forth. All these formal articulations
+would be reflected in a grouping analysis of the entire movement. In brief,
+at intermediate and large levels the apprehended rhythmic units of a piece
+correspond to its grouping analysis. We therefore can assert that any
+group is a time-span.
+
+Considering now only the first phrase of the theme, we note that
+motivic parallelism divides the phrase into two smaller groups, as shown
+in 6.2a. Beneath this level, however, there is little in the music that
+permits the assigning of still smaller groupings. At these local levels we
+must turn to the metrical analysis in 6.2a for segmentation of the music
+into time-spans. Here intuition suggests that there is a rhythmic unit
+corresponding to each beat of each level of metrical structure, Example
+6.2b represents these rhythmic units in the form of what we call sub-
+group bracketing. Each bracket is associated with a particular beat,
+commencing at that beat and continuing up to but not including the next
+beat at the level in question.
+
+6.2
+
+ 
+
+In 6.2b the largest levels of subgroup bracketing, the 2- and 4-bar
+levels, are coextensive with the small grouping levels shown in 6.2a. In
+such cases, both meter and grouping support the intuition that these are
+rhythmic units. But what happens if the subgroup bracketing conflicts
+with the grouping, as in measures 12-13 and 20—21 of the theme?
+Example 6.3 interprets the span from the fourth beat of measure 12 to
+the downbeat of measure 13 in incompatible ways: in the subgroup
+bracketing the span belongs to measure 12 (by virtue of the regular
+
+Time-Span Reduction
+

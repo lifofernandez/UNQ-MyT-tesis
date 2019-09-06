@@ -1,0 +1,53 @@
+319
+
+Words, for example, may contain feet but may not be contained in them.
+Thus phonological segmentation is a hierarchy that is “layered” in the
+same sense as time-span segmentation.
+
+As in the case of the time-span categories subgroup and group, each of
+the phonological categories has a different principle of segmentation. The
+principle for segmentation into syllables is approximately as follows:
+Each language has a characteristic class of syllable onsets. For example,
+in English, syllables (hence words) can begin either with no consonant,
+with any single consonant, or with a variety of clusters such as st, tr, spl,
+etc. but not including zd, pk, etc. The basic principle in forming the
+syllabic segmentation is to set syllable boundaries so as to maximize the
+length of syllable onsets, in conformance with the principles of basic
+syllable composition of the language. So, for example, in Pakistan, a
+syllable boundary is placed before st, since it is an allowable syllable
+onset. However, in Tuesday, the medial cluster sd (phonetically 2d) is not
+a possible syllable onset of English, so the boundary is set between the
+two consonants.$ Syllable boundaries are of course set berween words as
+well.
+
+The principles for segmentation into feet vary among languages. Sel-
+kirk argues that French essentially has primarily monosyllabic feet.
+Vergnaud and Halle (1979), examining the literature on a wide variety of
+languages, find three other sorts of foot-formation rules: those establish-
+ing bisyllabic feet, those establishing trisyllabic feet, and those establish-
+ing feet of unlimited length (bounded by word boundaries or syllables of
+a specified type). English appears to have monosyllabic, bisyllabic, and
+trisyllabic feet, depending on the content of the syllables gathered up into
+a foot. The relevant factors are the tenseness of the syllable's vowel and
+the nature of the consonants, if any, at the end of the syllable. So far as is
+known, syllable types are not distinguished for prosodic purposes in any
+language by the nature of their initial consonant(s).
+
+Some examples are given in 12.13. Example 12.13a is a monosyllabic
+foot; 12.13b is a bisyllabic foot; 12.13c is a trisyllabic foot, which, like
+all trisyllabic feet in English, begins with a bisyllabic foot; 12.13d, by
+contrast with 12.13b,is a bisyllabic word consisting of two monosyllabic
+feet—the difference between this and 12.13b accounts for the fact that
+its second syllable bears secondary stress and that of 12.13b does not.
+
+12.13
+
+a b c d
+
+flounce modest Pamela gymnast
+syllable level — [ a a
+foot level X — — [ a
+word level v 1 — [ [
+
+Psychological and Linguistic Connections
+

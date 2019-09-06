@@ -1,0 +1,56 @@
+92.6
+
+Normative
+Prolongational
+Structure
+
+233
+
+Section 8.3 presented the notion of a normative (or preferred) overall
+prolongational structure for phrases and larger levels of grouping. The
+principle was stated as a preference for phrases that contain at least one
+significant right-branching progression (a departure, increasing tension)
+and a doubly embedded left-branching progression (a prepared cadence,
+relaxing the tension). The general structure is shown in 9.19.
+
+9.19
+
+[e]
+
+This section will state the principle more precisely and show how it
+affects the choice of prolongational structure in a number of cases.
+
+Statement of the Rule
+
+To arrive at a better understanding of this principle, we begin by asking
+two questions: To what groups does the preference for normative struc-
+ture apply? How is the normative configuration associated with the se-
+lected groups?
+
+To answer the first question we note that intuitions about “normal”
+tension and relaxation are not applicable to small groups such as the first
+measure of K. 331. Rather they apply to those groups that we designated
+in section 7.4 as cadenced groups: groups that at some level of time-span
+reduction are represented as a single event (the structural beginning)
+followed by a cadence (the structural ending). Recall that the smaller
+levels of cadenced groups correspond to the intuitive notion of phrase,
+the larger levels to sections, and the largest level to the entire piece. The
+rule of normative structure should apply to all these cadenced groups.
+
+Consider now the second and more difficult question. The intuition we
+are trying to express is that from the beginning to the end of a cadenced
+group there should be a tensing followed by a relaxation. Of course, by
+“beginning” we cannot mean the surface beginning, since, for example,
+events on upbeats usually do not feel like the point from which the
+tension starts. In fact, in large-scale cadenced groups, such as the exposi-
+tion of Beethoven's “Tempest” Sonata (see section 10.2), there may be a
+rather lengthy structural anacrusis before the point at which the norma-
+tive structure begins. Similarly, by “ending” we cannot mean surface
+ending, since, as we saw in the Chorale St. Antoni (section 8.5), the
+prolongational tension is defused seven measures before the end. Hence
+the rule describing normative structure must refer to some more abstract
+notion of beginning and ending events than that given by the musical
+surface.
+
+Formalization of Prolongational Reduction
+

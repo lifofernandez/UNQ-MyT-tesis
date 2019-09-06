@@ -1,0 +1,44 @@
+244
+
+Within the basic form, the most stable prolongational connection is the
+strong prolongation from the beginning to the start of the recapitulation;
+the Interaction Principle permits this to be chosen as the most important
+event in the region, as shown in 9.30. Thus the presence of the recapitula-
+tion results in a major difference in prolongational structure from the
+binary form; the central dominant is no longer the most important event
+in the interior of the piece, but is displaced by the tonic prolongation.
+
+92.30
+
+I .. yiy YI .... VI
+
+axf>os¿t¿on deve/o¡pmenú re cap¿fu/o.6¿an
+
+N————]|]]6]——
+N————]———;_——]————;——*———;o.——oÁ—
+
+The prolongation in 9.30 breaks the piece into two prolongational re-
+gions: the exposition and development together, and the recapitulation.
+In the region consisting of the exposition and development, we have a
+situation not unlike the binary form: the highest two levels of time-span
+reduction contain only Vs and V/Vs, so there is no prominent tonic
+prolongation. The most time-span-important events are the Vs surround-
+ing the double bar. How should they be attached? For the same intuitive
+and formal reasons as in the case of the central dominants in binary form,
+the beginning of the development should be a right branch off the end of
+the exposition. This leaves the two possibilities shown in 9.31. These are
+equally consistent with stable prolongational connection as stated so far
+(PRPR 3), but 9.31a is favored by time-span segmentation (PRPR 2) and
+the prolongational importance of the initial I (PRPR 4).
+
+In addition, the choice of 9.31a is reinforced by appeal to a distinction
+among the structural functions of the dominant, not previously incorpo-
+rated in the theory. As in the binary form, the Vs surrounding the double
+bar are tonicized Vs; other key areas (most notably III in movements in
+minor) can be substituted without changing the overall sense of the piece.
+By contrast, the V at the end of the development is a half-cadential V; the
+main substitution for it would be a full cadence whose resolution over-
+lapped with the recapitulation.
+
+Chapter 9
+

@@ -1,0 +1,59 @@
+5.4
+
+Preliminary
+Construction of
+Reductions
+
+117
+
+linear-motivic aspects of pitch structure cannot be given proper system-
+atic treatment without a theory of the hierarchical structures within
+which they are heard, we feel justified for now in concentrating on the
+hierarchical aspects.
+
+This emphasis denies neither the importance of the linear-motivic as-
+pects nor their influence on the hierarchical dimensions. Their influence is
+dealt with in the preference rules for reductions; that is, the linear-
+motivic is not part of reductions per se, but an input to reductions.
+Moreover, specific levels of reduction provide further material for
+linear-motivic analysis (see section 10.2 for examples). Thus the purely
+reductional approach, though one-sided, is not so one-sided as one might
+at first suppose. (Ultimately, one would also want an independent formal
+component for assigning linear-motivic structure. See the general discus-
+sion in section 11.4.)
+
+A final possible objection to the trees is not substantive but practical:
+they are too hard to read. In response, we can only say that their difficulty
+lies solely in their novelty. If we had been able to invent an equally
+efficient and accurate representation through traditional musical nota-
+tion, we would have done so, As it is, we will often supply a secondary
+and more traditional musical notation as an aid to reading the tree, as we
+did in 5.8 above.
+
+Now we are ready to explore what is needed to construct a reduction.
+First we will attempt a reduction based only on pitch criteria. The need
+for rhythmic criteria will lead us to the conception of time-span reduc-
+tion. This will prove to be only partly successful, so we will then develop
+the conception of prolongational reduction. All of this will be a mere
+sketch in preparation for the extensive discussions in chapters 6—9.
+
+In what follows, we can take as given the classical Western tonal pitch
+system— the major-minor scale system, the traditional classifications of
+consonance and dissonance, the triadic harmonic system with its roots
+and inversions, the circle-of-fifths system, and the principles of good
+voice-leading. Though all of these principles could and should be for-
+malized, they are largely idiom-specific, and are well understood infor-
+mally within the traditional disciplines of harmony and counterpoint.
+Nothing will be lost if we conveniently consider them to be an input to
+the theory of reductions.
+
+What is needed, in addition, is a scale of stability among pitch configu-
+rations, derived from the raw material of the given tonal system. Broadly,
+the relative stability of a pitch-event can be thought of in terms of its
+relative consonance or dissonance. For example, a local consonance is
+more stable than a local dissonance, a triad in root position is more stable
+than its inversions, the tonic is the most stable harmony, the relative
+stability of two chords is a factor of the relative closeness to the tonic (or
+
+Reductions
+

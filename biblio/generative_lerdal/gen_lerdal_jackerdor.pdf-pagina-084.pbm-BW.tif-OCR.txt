@@ -1,0 +1,55 @@
+80
+
+Length
+Next consider example 4.22, which differs from 4.16a only in that the
+second eighth note in each group has been lengthened into a quarter note.
+
+4.22
+r re
+. D C moSt Aprer'emb/e )
+
+ER ( intermediate )
+
+ccl Cleast preferable)
+
+Intuitions about 4,22 are interestingly different from those about 4.16a.
+Here structure ¿ is considerably more natural than structure ¿¿ (unless the
+eighth is stressed, invoking MPR 4), and both are far preferable to struc-
+ture úii, Similarly, in 4.23 the quarter note attracts the strong beat on
+both the quarter-note level (since structure ¿ is more natural than struc-
+ture 7í) and the half-note level (since structure ii is slightly more natural
+than structure i). Notice how these examples differ in preferred struc-
+ture from 4.16b and 4,17a, which have the same attack pattern but lack
+the long note.
+
+4.23
+
+- FAr FE SAF
+
+el
+
+* (preferable to ú )
+
+Ce _ (preferabie to ¿v )
+
+2y
+
+These examples suggest a fifth metrical preference rule,
+
+MPR $ (Length), first version Prefer a metrical structure in which rela-
+tively strong beats occur at the inception of notes of relatively long
+duration.
+
+According to this rule, the quarter notes in 4.14b, 4.22, and 4.23 receive
+an extra preference-rule marking, which the eighth notes followed by
+rests in 4.14a, 4.16a, and 4.16b lack. Thus the presence of quarter notes
+creates exactly the observed biases in metrical structure,
+
+This is only a first approximation to a far more interesting rule. The
+notion of length appears to generalize to a number of phenomena other
+than simply how long a particular pitch-event is sustained. For example,
+the alternation of forte and piano in 4.24 creates a preferred metrical
+structure in which strong beats occur on the changes. (In addition, the
+
+Chapter 4
+

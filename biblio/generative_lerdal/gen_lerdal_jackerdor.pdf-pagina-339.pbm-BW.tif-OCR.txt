@@ -1,0 +1,60 @@
+335
+
+hypotherical large-scale equal divisions to the local sense of metrical regularity is
+bound to be conceptually difficult and arbitrary. (See the discussion of “ar-
+chetvpes” in section 11.4.) Third, there is no a priorí reason why metrical struc-
+ture should behave like pitch structure with regard to “background” structures. It
+is topsy-turvy to develop an entire metrical theory from an assumprion —global
+“metrical” divisions—so remote from the listener's actual experience of a piece
+of music. A metrical theory should first of all be based on the immediate sensation
+of strong and weak bears.
+
+6. For example, Bruno Walter's performance (Columbia MS 6494) gives inter-
+pretation A; Leonard Bernstein's (Columbia MS 7029) gives interpretation B.
+Epstein (1978, pp. 68—70) develops a similar analysis of this passage in somewhat
+different terms.
+
+7. Bernstein (1976) artemprs such a model for this passage (with unconvincing
+resulets, as he notes).
+
+8. Contemporary theories of versification no longer rely on the crude caregories
+of traditional prosody; see Halle and Keyser 1971 and Kiparsky 1977. We have
+criticized Cooper and Meyer only in order to clarify theoretical issues. Their work
+on rhythm is seminal.
+
+9. There has been a tendency in some recent writing on rhythm (for example,
+Komar 1971; Westergaard 1975) to downplay grouping in favor of meter, by
+concentraring on the hierarchy of time-spans between bears and ignoring the
+hierarchy of time-spans produced by grouping structure. Ir should therefore be
+noted thar the elementary distinction just made berween upbear and afterbeat
+would be theoretically inexpressible without the interaction of grouping and
+merer.
+
+10. A grear deal has been written abour this issue. For instance, Riemann (1903)
+construes all groupings as end-accented; that is, as leading from an upbeat to a
+downbeat (as in hypothesis B). Cooper and Meyer's asserrion of discontinuity
+between hierarchical levels is an improvement: whereas local groupings may be
+etther beginning-accented (trochaic, etc.) or end-accented (iambic. etc.). phrases
+must be end-accented, because the cadence is the goal of the phrase. Thus they
+end up with a version of hypothesis B (Cooper and Meyer 1960, p. 61). On the
+other hand, writers as different as Tovey (1935) and Schenker (1935), by exten-
+sion from the hierarchy of bears within a measure, have inclined in most cases
+toward analyses of phrases as beginning-accented (hypothesis A). Cone 1968 (pp-
+26—31) 1s the most persuasive proponent of hypothesis C— though he goes on to
+accept the essentials of Cooper and Meyer's methodology, with all its arrendant
+problems. Westergaard 1975 (pp. 309 ff,), despite an improved notartion and a
+different terminology (his “first primary downbeat” corresponds to Cone's “ini-
+tial downbeat,” his “second primary downbeat” to Cone's “cadential down-
+beat”), also proposes a version of hypothesis C. Komar is caught berween a
+commitment to the identification of structural accent with metrical accent (hy-
+pothesis C) and a contrary commitment to equal metrical division, with a leaning
+toward hypothesis B over hypothesis A. Because his system of metrical generation
+does not otherwise allow for initial upbears (needed for hypothesis B), he is
+forced, implausibly, to postulate a nonexistent metrically strong measure, which
+then is erased by a subsequent operation (Komar 1971, p. 155). Morgan 1978
+provides a cogent critique of some previous approaches, bur ends up ignoring
+metrical accent and talking only abour structural accent. The most sensible dis-
+cussion on this and related issues thar we have seen in print is Schachter 1976.
+
+Notes to pp. 21—32
+

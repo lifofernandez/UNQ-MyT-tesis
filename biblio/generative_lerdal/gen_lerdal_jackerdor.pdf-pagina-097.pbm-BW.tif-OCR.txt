@@ -1,0 +1,54 @@
+93
+
+Turning to the derivation of the next metrical level, we see in 4.41 the
+application of MPRs to the quarter-note level. Only those applications of
+the length rule (MPR 5) that span more than a quarter-note's duration
+have been marked.
+
+First consider the second half of the passage, which is again richer in
+evidence. Since the dominants initiated at 30 and 36 are prolonged into
+the following quarter, these beats receive applications of MPR Sf. Simi-
+larly, the long notes beginning at 28, 30, and 36 extend into the next
+quarter and are marked by MPRs 5a and Se. The change from eighth-note
+to quarter-note motion in the bass at 40 is marked by MPR 5d (length of
+pattern of articulation).
+
+At beat 46 the situation is more complicated. Within the time-span
+46-47, the time-span reduction chooses the V chord as more important,
+since it is more consonant than the $ chord on beat 46. The V is then
+heard as prolonged into the next quarter, beat 48, since the pitch at 48 is
+consistent with that harmony. Hence beat 46 is marked for the inception
+of a prolonged harmony as well as for the repetition of the pitch Bp. In
+addition, beats 46-48 form a cadence, so MPR 7 applies in this area.
+
+Let us consider the implications of these rule applications for the
+choice of the next metrical level. Parallelism throughout the passage
+requires that strong beats at the quarter-note level be spaced three apart.
+Thus there are three possible placements for the next level of beats in the
+portion of the passage examined-so far: 26, 32, 38, and 44; 28, 34, 40,
+and 46; and 30, 36, 42, and 48. The first of these is readily eliminated.
+There are no applications of MPR 5 on any of these beats, and ap-
+plications of MPRs 3 and 6 are weak because they are always adjacent to
+another beat where these rules also apply.
+
+The second possibility is more promising. MPR $ applies on beats 28,
+40, and 48, and in the latter two of these it is not adjacent to another
+application. In addition, the beginning of the long-held treble B at 28
+favors this analysis, even more so because it is held so long. The change in
+articulation in the bass at 40 and the harmonic change at 46 also rein-
+force this analysis. Moreover, this analysis makes the correct predictions
+about relative metrical weight within the cadence at 46-48, so MPR 7
+(cadence) strongly favors it.
+
+Finally, the third possible analysis is favored by the strong applications
+of MPR 5 at 30 and 36. But it makes exactly the wrong prediction about
+the cadence at 46-48: the local metrical evidence strongly favors 46 as
+the strong beat, whereas this analysis places the strong beat on48. MPR 7
+therefore strongly disfavors this analysis. In sum, the metrical evidence
+for the second half of the passage favors the dotted-half metrical level
+shown in 4.41, though not without some uncertainty at points preceding
+the cadence. In particular, there 1s little direct evidence to override the
+strongly marked 30 and 36, which are therefore heard as cross-accents.
+
+Metrical Structure
+

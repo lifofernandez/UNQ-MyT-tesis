@@ -1,0 +1,51 @@
+adjective, preposition, noun phrase, and verb phrase. Finally, one should
+not be misled by the fact that both music and language deal with sound
+structure. There are no musical counterparts of such phonological pa-
+rameters as voicing, nasality, tongue height, and lip rounding. (See also
+section 11.4.)
+
+The fundamental concepts of musical structure must instead involve
+such factors as rhythmic and pitch organization, dynamic and timbral
+differentiation, and motivic-thematic processes. These factors and their
+interactions form intricate structures quite different from, but no less
+complex than, those of linguistic structure. Any deep parallels that might
+exist can be discussed meaningfully only after a music theory, in the sense
+defined in the preceding section, has been developed independently. If we
+have adopted some of the theoretical framework and methodology of
+linguistics, it is because this approach has suggested a fruitful way of
+thinking about music itself. If substantive parallels berween language and
+music emerge (as they do in sections 4.2 and 12.3), this is an unexpected
+bonus but not necessarily a desideratum.
+
+To help clarify in what sense our theory is modeled after linguistic
+methodology, we must mention some common misconceptions about
+generative-transformational grammar. The early work in the field, such
+as Chomsky 1957 and Lees 1960, took as its goal the description of “all
+and only” the sentences of a language, and many were led to think of a
+generative grammar as an algorithm to manufacture grammatical sen-
+tences. Under this interpretation, a musical grammar should be an al-
+gorithm that composes pieces of music.7
+
+There are three errors in this view. First, the sense of “generate” in the
+term “generative grammar” is not that of an electrical generator that
+produces electricity, but the mathematical sense, in which it means to
+describe a (usually infinite) set by finite formal means. Second, it was
+pointed out by Chomsky and Miller (1963), and it has been an unques-
+tioned assumption of actual research in linguistics, that what is really of
+interest in a generative grammar is the structure it assigns to sentences,
+not which strings of words are or are not grammatical sentences. The
+same holds for our theory of music. It is not intended to enumerate what
+pieces are possible, but to specify a structural description for any tonal
+piece; that is, the structure that the experienced listener infers in his
+hearing of the piece. A third error in the conception of a generative
+grammar as a sentence-spewing device is not evident from passing ac-
+quaintance with the early works of the generative school, but emerges as
+a prominent theme of Chomsky 1965, Lenneberg 1967, and subsequent
+work. Linguistic theory is not simply concerned with the analysis of a set
+of sentences; rather it considers itself a branch of psychology, concerned
+with making empirically verifiable claims about one complex aspect of
+human life: language. Similarly, our ultimate goal is an understanding of
+musical cognition, a psychological phenomenon.
+
+Chapter 1
+

@@ -1,0 +1,53 @@
+261
+
+formulaic extension of the tonic in measures 1—4 (measures 1 and 4 are
+in a sense equal). This, however, produces an idiosyncratically out-of-
+phase pattern with the grouping structure, which is clearly four bars long
+at the beginning; MPR 1 militates against this solution. We prefer to
+locate the change at measure 8, in conjunction with a combined grouping
+overlap and metrical deletion. Measures 5-6 and 7-8 form parallel
+groups, as do measures 8-11 and 16-19; thus, by GPR 6, measure 8
+functions in both directions. Also, since there is no essential harmonic
+motion from measure 8 to measure 9, it is plausible to think of measure
+8 as an unequivocal suspension, hence in a strong metrical position
+(MPR 8). The result is shown in 10,10.
+
+The larger grouping levels are difficult to determine. For example,
+should measures 5-11 belong to measures 1-4, or to measures 12-19,
+within the larger group of measures 1-19? Should measures 20—23 be-
+long to measures 1-—19 or to measures 20—35? In both cases, the issue has
+been decided by the resultant time-span and prolongational reductions
+(GPR 7). This is a good illustration of how interactive the individual
+components are—in short, how holistic musical perception is, hence how
+difficult it is to develop an algorithm for the derivation of structural
+descriptions.
+
+A few remarks are needed about the time-span reduction in 10.10.
+First, the arpeggiations have already been fused (time-span reduction
+well-formedness rule 3b) at the measure level. Second, we have interpo-
+lated a missing chord function (a 1i$) (TSRWEFR 3c) berween measures 21
+and 22, since the suspended E in measure 21 does not resolve to a D until
+measure 23, by which time the chord has changed. In our analysis, this
+underlying ii$ stands behind the entire subdominant passage (measures
+20—23). Third, we have taken the liberty in level b of the secondary
+notation of raising the structural V (measure 24) an octave, to bring it
+into the “obligatory register” of the piece as a whole. This operation
+would not be meaningful at smaller levels because of the descent to the
+lower octave in measures 6—19; the events at the lower octave must be
+eliminated first. Strictly, this operation is not part of the grammar. We
+have included it here, however, to show how octave transfers might
+eventually be incorporated into the theory not just in a general way but at
+specific reductional levels.
+
+The locus of analytic interest in the Bach C Major Prelude lies in its
+prolongational reduction (10.11). Beneath its multifarious branchings
+(which derive by a straightforward application of PRPRs 1 and 3), there is
+an underlying regularity: doubly or triply embedded left-branching pro-
+gressions contained within a (strong or weak) prolongation. As the
+brackets below the music in 10.11 show, every event except the opening
+tonic is implicated in or subsumed under such a structure, The beautiful
+coherence of the piece resides to a great extent in this abstract prolonga-
+tional feature.
+
+Analyses
+

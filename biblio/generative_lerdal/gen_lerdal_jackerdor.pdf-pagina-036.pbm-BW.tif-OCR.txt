@@ -1,0 +1,58 @@
+ 
+
+32
+
+and on cs, as in hypothesis C. But this solution is not feasible if one is to
+keep the notion of equidistant beats as a defining condition for meter; for
+when the next phrase starts, its b is closer to the previous c than each b is
+to the c within its own phrase, with the result that the dots at the larger
+metrical level are not equally spaced. In sum, hypotheses A and B do
+not satisfy the equation of structural and metrical accents, and hypothesis
+C does not satisfy the formal or intuitive requirements for metrical
+structure.19
+
+2.19
+
+Structural accents: ©/---© ©Í-—_N© ©"—“'© ©/4—_.©
+
+Measure : 1 2 344| 123461172346 3673
+
+IZ A
+
+Group¿n9 ana/y$zs :
+Hypothesis A Hypothes¿s B Hy,oothes¡s C
+
+Hypothesis C becomes all the more untenable if, as often happens, the
+terminating structural accent takes place later in the fourth bar than its
+first beat, The opening of Mozart's Sonata K. 331 provides a characteris-
+tic instance; if hypothesis C is followed, the resulting “metrical” structure
+becomes the pattern shown in 2.20.
+
+1
+E
+y H
+'
+
+,
+O
+N
+
+t
+
+Here the two smaller levels follow conventional metrical accentuation,
+and the third level of dots represents the initial and cadential structural
+accents. This third level not only is wildly irregular in the spacing be-
+tween beats, unlike the two smaller levels, but also makes the second
+beats of measures 4 and 8 stronger than their first beats. Surely this
+cannot be true; it creates havoc with the notion of meter. Hypothesis
+C—the equation of structural and metrical accents— must be rejected.
+
+This leaves hypotheses A and B. In both, structural accent can be
+regarded as a force independent of meter, expressing the rhythmic energy
+of pitch structure across grouping structure. A dogmatic preference for
+either hypothesis would distort the flexible nature of the situation; one or
+the other—or perhaps something more complicated— pertains in a given
+instance. In a broad sense, in-phase passages usually yield hypothesis A
+
+Chapter 2
+

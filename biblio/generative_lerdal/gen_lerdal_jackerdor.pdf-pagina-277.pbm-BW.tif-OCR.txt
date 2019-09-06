@@ -1,0 +1,60 @@
+10.4
+
+Possible
+Refinements
+
+in Prolongational
+Reduction
+
+273
+
+Furthermore, where 1s the prolongational head of this region, the Ft
+minor arrival in measure 123, to attach? Of the possibilities available
+from 10.18, it seems nonsensical to connect it as a departure from the
+F major chord (measure 106) or as a direct progression to the V at the
+end of the development (measure 138). Somewhat more plausible would
+be to attach it as a direct departure from the V ending the exposition
+(measure 89). Most plausible, by parallelism with the ensuing descending
+circle of fifths (measures 123-133), would be to attach it to the B minor
+chord in measure 125 (the dashed branch in 10.17); but this event is too
+local in the time-span reduction to be available for prolongational con-
+nection (PRPR 1).
+
+Thus the rules in their present state do not predict an intuitively ade-
+quate connection for this F$ minor complex. In a way this nonsolution
+seems fitting, since as a tonal region it is both near to and remote from the
+V prolongation within which it is embedded. It is near because it is the
+relative minor within the prolongation; it is remote because of the way it
+is approached. This ambiguity is reflected in the application of the rules.
+
+We discern two general ways in which the prolongational component
+might be further enhanced.
+
+First, it should be possible to incorporate underlying voice-leading
+features in a more satisfactory way. For example, in 10.15 the voice
+leading of the melody would seem to be an unstable version of a more
+stable structure. Specifically, the high C and B in measures 5 and 7 are
+registral displacements, and the melody as a whole is composed of two
+independent lines. If we fuse the F and the A in measure 1 (TSRWEFR 3b),
+understand the B on the fourth beat of measure 2 to carry over into the
+following downbeat (TSRWFR 3c), lower the C and the B in measures 5
+and 7 an octave (by an as yet unstated transformational rule), and invoke
+criteria about primary, subsidiary, and “contrapuntal” lines (single lines
+that form two or more linear structures), 10.15 converts into the coher-
+ent voice leading of the prolongational reduction in 10.19.
+
+At level b it is apparent that the C in measure $ is an upper neighbor to
+surrounding bs in measures 3 and 7. At level a the upper line emerges as a
+linear ascent from 5 to $, over the more basic 3—2—1 descent (the whole
+notes) in the middle voice.
+
+There are three reasons why we have not yet developed this aspect of
+pitch structure. First, we believe that principles of “coherent” voice
+leading depend to a great extent on the rhythmic and reductional factors
+already explicated in this book. To be sure, Schenker develops such prin-
+ciples in a (for the most part) intuitively satisfying way; but to give a
+rule-based account one must incorporate these other factors. We have
+only now reached the point where this is possible. Second, to make
+
+Analyses
+

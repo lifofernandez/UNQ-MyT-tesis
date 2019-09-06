@@ -1,0 +1,47 @@
+214
+
+An event e; is a direct elaboration of another event e; if e;s branch
+terminates on e;'s branch.
+
+An event e; is a recursive elaboration of another event e; if it is a direct
+elaboration of e; or if its branch leads upward through a sequence of
+direct elaborations to e;s branch.
+
+Figure 9.2 illustrates these terms with an abstract tree structure whose
+branches are numbered.
+
+9.2
+
+In 9.2, e; and e; are direct elaborations of e,, Which is in turn a direct
+elaboration of es. Hence e, and e are recursive elaborations of both e,
+and es. And e, Which is a direct elaboration of e3, is therefore a recursive
+elaboration of es, e 1, and es. On the other hand, e; is not a recursive
+elaboration of e,: it branches from es, Which does not branch from e.
+Similarly, e; is not a recursive elaboration of es.
+
+With these definitions, we can state the prolongational reduction
+well-formedness rules.
+
+PRWER 1 Thereis a single event in the underlying grouping structure of
+every piece that functions as prolongational head.
+
+PRWER 2 An event e; can be a direct elaboration of another event e; in
+
+any of the following ways:
+
+a. e, is a strong prolongation of e; if the roots, bass notes, and melodic
+notes of the two events are identical.
+
+b. e; is a weak prolongation of e; if the roots of the two events are identi-
+cal but the bass and/or melodic notes differ.
+
+C. e is a progression to or from e; if the harmonic roots of the two events
+are different.
+
+PRWER 3 Every event in the underlying grouping structure is either the
+prolongational head or a recursive elaboration of the prolongational
+
+head.
+
+Chapter 9
+

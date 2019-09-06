@@ -1,0 +1,54 @@
+6.2
+
+Time-Span Trees
+and Metrical
+Structure
+
+128
+
+Many passages are simply heard as irregular; in such cases it would be
+sheer speculation to choose one “regularized” version over another. A
+reliance on grouping structure, on the other hand, poses no such theoret-
+ical difficulties, because there is no requirement that groups be periodic.1
+
+To sum up: At the smallest levels, metrical structure is the only
+influence on the choice of time-spans, and the time-spans are regular in
+length. At some intermediate level, grouping boundaries may interrupt
+the regularity imposed by the metrical pattern, and the time-spans result
+from the interaction of meter and grouping. At still larger levels, the
+time-spans are totally determined by grouping structure, and metrical
+structure is irrelevant.
+
+Now let us begin to construct trees for sequences of pitch-events as they
+occur within the time-span segmentation. Figure 6.6 schematizes the gen-
+eral case: if events x and y are the most important events in time-spans a
+and b respectively, and if at the next larger level they are contained in
+time-span c, then either x dominates y (a right branch) (6.6a) or y domi-
+nates x (a left branch) (6.6b). This process continues recursively through
+the time-span segmentation until one event dominates the time-span of
+the entire piece.
+
+6.6
+
+a b
+n……;,…) /< )X
+reduction
+P¿tch—events) x Y x y
+Time-s A u P 2 P
+segmentatin f _ _E _ [
+
+c d e
+z) Á /tx ÁX
+reavcteon
+P¿tch-events) x y 2 x y z X Yy Z
+
+Time-span i AE aa L I LI
+segmrertation f ——Ad — —
+
+Sometimes the time-span segmentation includes three spans within the
+next larger span. This happens most frequently at local levels of pieces in
+triple meter, but can also occur at large levels if phrases or sections group
+together in threes. Such segmentation causes ternary branching when
+
+Chapter 6
+

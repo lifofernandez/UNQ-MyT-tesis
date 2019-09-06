@@ -1,0 +1,43 @@
+of this uniformity from level to level, we can assert that grouping struc-
+ture is recursive; that is, it can be elaborated indefinitely by the same
+rules.
+
+The second point follows from the nonoverlapping condition for
+hierarchical structures: nonadjacent units cannot group together at any
+particular level of analysis. To see what this means, consider the sequence
+in 2.4. On the basis of identity, one might wish to group all the as
+together and all the bs together (2.4a). Although such a grouping is
+conceivable in principle, it is not the kind of grouping structure intended
+here. Translated into the slur notation, 2.4a would yield the impermissi-
+ble overlaps in2.4b (in which, as a visual convenience, the as are grouped
+by dashed slurs and the bs by solid slurs). The correct grouping analysis
+of this sequence is instead 2.4c, which captures the larger repetition of the
+aab pattern.
+
+2.4
+
+a b c
+
+aabaab aab b aabaab
+¿:::,_¡¡__¡x_:;,,._¿ — —
+
+The Beethoven scherzo of 2.3 (repeated in 2.5) provides an approxi-
+mate analog to 2.4 if we consider it (plausibly enough) to consist of three
+motivic cells: the 16th-note arpeggio (a), the single chord (b), and the
+cadential figure (c). Linking these cells together produces some structure
+such as that indicated in 2.5. Although the listener undoubtedly makes
+such associations, they are not the grouping structure that he hears.
+Rather he hears the grouping in 2.3a, in which the motivic cells are
+related to their surrounding contexts and parallel motivic cells form par-
+allel parts of groups.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+

@@ -1,0 +1,49 @@
+168
+
+The term “strongly” in this rule is meant to indicate that this preference
+rule is sufficient to override the powerful combination of harmonic and
+metrical strength, as in measure 4 of K. 331.
+
+To state TSRPR 7 more carefully, we must work out the conditions
+under which an event or a pair of events in some level of time-span
+reduction functions as a cadence. First, the correct harmonic sequence
+must be present for a full, half, or deceptive cadence. Second, the final
+element must actually mark the end of a group. For example, in measures
+9-12 of the Chopin A Major Prelude (7.23), the sequence V —I cannot be
+heard as a cadence because of the Vhi following the I in the group.”
+
+7.23
+
+ 
+
+To refine this requirement, we observe that intuitively a cadence must
+be a cadence of something; a group that consisted only of the articulation
+of its ending would be unsatisfying. For instance, measures 1-—8 of the
+same prelude (7.24) consists of two V—I progressions. (For convenience,
+the reduction in 7.24 simplifies the voice leading to the essential soprano
+and bass lines.) The first of the V-I progressions, since it completely
+occupies the first four-measure group, is not really heard as a cadence.
+Therefore, only the V or the I may be retained at the next level. By
+contrast, the V —I progression in measures 5—8 is a cadence for the entire
+eight-measure group, and therefore should be retained as a whole in the
+reduction. As a result, the reduction at the four-measure level contains
+either the V or the l of the first group followed by the cadence. (The piece
+is genuinely ambiguous here between the reduction in 7.24 and that with
+an initial I instead. For a number of reasons, including parallelism with
+the second half, we find that the choice of V yields a more stable analysis
+overall. This piece is discussed further in section 9.6.)
+
+We can make the intuition about the first four measures of 7.24 more
+precise by introducing the notion of a cadenced group: a group that at
+some level of reduction reduces to two elements, the second of which is a
+cadence. The first of these elements is the structural beginning of the
+group, and the cadence is the structural ending. In section 6.3 we labeled
+these with the notations [b] and [c], followed by a subscript to indicate
+for which groups they were structural accents.
+
+Cadenced groups are to be contrasted with lower-level groups, which
+do not contain bs and cs. The smallest levels of cadenced groups cor-
+respond rather closely to the traditional notion of musical phrase.
+
+Chapter 7
+

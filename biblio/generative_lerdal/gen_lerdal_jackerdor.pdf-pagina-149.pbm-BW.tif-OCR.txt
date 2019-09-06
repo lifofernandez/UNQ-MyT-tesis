@@ -1,0 +1,38 @@
+145
+
+The chorale oscillates throughout between the tonic and its relative mi-
+nor. In fact, in its last, chromatic harmonization (just after Christ's death
+in the Passion story), this tonal relationship is virtually reversed, by
+means of the tentative beginning on the relative minor and the ineffable
+close on the dominant of the relative minor.
+
+A reduction such as 6.25 can be a valuable source for analytic insights,
+locating them within a coherent design. Consider for example level e, in
+which only the structural accents of each phrase remain. Here, as
+sketched in 6.26, the inner logic of the melody becomes manifest.
+
+6.26
+ml 3 5 7
+
+%E 9% £l 13g 5
+
+Every odd-numbered phrase returns to its structural origin via lower-
+neighbor motion; every even-numbered phrase progresses and resolves
+by descending stepwise a third. (The only exception, the last phrase, by
+not resolving to D but returning to F$, repeats the underlying structure of
+the opening phrase.) This melodic alternation is complemented and clari-
+fied by registral alternation from phrase to phrase. In the second half,
+however, the registers reverse from a low-high, low-high pattern to a
+high-low, high-low pattern, while the melodic alternation continues as
+before. This reversal highlights the symmetrical organization of the piece,
+in particular the obligatory nature of the repeat of the first two phrases.
+Not only does each even-numbered phrase answer the previous odd-
+numbered phrase, but the second half answers the first half.
+
+Such observations could of course be continued. The point to em-
+phasize here is that, although time-span reduction may not itself draw
+such connections, it does provide the framework for them. Without the
+framework the connections would not exist.
+
+Time-Span Reduction
+

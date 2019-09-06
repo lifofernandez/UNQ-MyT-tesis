@@ -1,0 +1,53 @@
+22
+
+untypically complex passage: the beginning of Mozart's G Minor Sym-
+phony. The metrical analysis of the first nine bars appears in 2.10.
+
+The cues in the music from the 8th-note level to the 2-bar level unam-
+biguously support the analysis given. For example, at the 2-bar level, the
+introductory bar, the down-up pattern of the bass notes, the motivic
+structure of the melody, and the harmonic rhythm all conspire to produce
+strong beats at the beginnings of odd-numbered bars. (Chapter 4 will
+develop this analysis in detail.) The case is quite otherwise at the next
+larger level, the 4-bar level. Should the beats at this level be placed at the
+beginnings of measures 1, 5, and9, or at those of measures 3 and 7? The
+cues in the music conflict. The harmonic rhythm supports the first in-
+terpretation, yet it seems inappropriate to hear the strongest beats in each
+4-bar theme-group (measure 2-5, 6—9) as occurring at the very end of
+those groups (the downbeats of measures 5 and 9). Rather, the opening
+motive seems to drive toward strong beats at the beginnings of measures
+3 and 7. We incline toward this second interpretation— this is the reason
+for the dots in parentheses at measures 3 and 7 in 2.10. But the real point
+is that this large level of metrical analysis is open to interpretation,
+whereas smaller levels are not.
+
+The problems of large-scale metrical analysis become more acute if we
+consider 2.11, a simplified version of the first 23 bars of Mozart's G
+Minor Symphony.
+
+First, observe that since measures 21—23 are parallel to measures 2-4, it
+is impossible even at the measure level to maintain a regular alternation
+of strong and weak beats; the strong beats at odd-numbered bars must at
+some point give way to strong beats at even-numbered bars. Let us inves-
+tigate where this point might be.
+
+In 2.11 we have indicated only two metrical levels, the measure level
+and the 2-measure level. The analysis of the first eight bars duplicates the
+analysis in 2.10, where the downbeats of the odd-numbered bars were
+stronger than those of the even-numbered bars. Whatever the case may
+be in measures 9-13, however, it is clear that the downbeats of measures
+14 and 16 are strong in relation to the downbeat of measure 15. The
+reasons for this are that the melody forms whatiis felt to be an appoggia-
+tura on D in measure 14, which resolves to C in measure 15, and that
+the harmonic rhythm moves decisively from measure 14 to measure 16.
+Once this new pattern of strong beats on the downbeats of even-num-
+bered bars has been established, it continues without serious complica-
+tion to the restatement of the theme at measures 21 ff. Where in measures
+9-13, then, has the metrical shift taken place?
+
+Imbrie 1973 makes a useful distinction between “conservative” and
+“radical” hearings of shifting metrical structures, In a conservative hear-
+ing the listener seeks to retain the previous pattern as long as possible
+
+Chapter 2
+

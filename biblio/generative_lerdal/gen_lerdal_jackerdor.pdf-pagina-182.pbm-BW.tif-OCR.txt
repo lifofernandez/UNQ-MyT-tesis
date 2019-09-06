@@ -1,0 +1,52 @@
+7.5
+Concluding
+Remarks
+
+178
+
+This completes the discussion of the time-span reduction preference
+rules, which take into account local rhythmic considerations (TSRPR 1),
+local harmonic considerations (TSRPR 2), local pitch extremes (TSRPR 3),
+parallelism (TSRPR 4), metrical and prolongational stability across time-
+spans (TSRPRs $ and 6), the presence of cadences (TSRPR 7), the impor-
+tance of early structural beginnings (TSRPR 8), and the overall structure
+of the piece (TSRPR 9).
+
+This chapter has gone a long way toward providing a principled ac-
+count of what the experienced listener must know in order to sense the
+relative structural importance of events in a musical surface. In partic-
+ular, the rules of time-span reduction provide the crucial link between
+local rhythmic and pitch detail and the notions of structural accent cru-
+cial to any theory of large-scale musical structure.
+
+We end the chapter with some speculation about musical universals.
+One important way in which musical idioms differ is in the principles of
+relative pitch stability. Here we have simply assumed the pitch principles
+of classical Western tonal music; the relation of these to other tonal
+systems will be discussed briefly in section 11.5. Insofar as the principles
+of pitch stability play a role in the preference rules for harmonic stability
+(TSRPR 2), linear progression (TSRPR 6), and retention of cadences
+(TSRPR 7), their influence on time-span reduction is pervasive. On the
+other hand, it seems possible that the preference rules themselves are
+universal— for example, that TSRPR 2 says to prefer harmonically stable
+events as head no matter how the idiom chooses to define harmonic
+stability.
+
+There is no problem extending the segmentation rules and the well-
+formedness rules to any idiom that is as highly structured in both
+grouping and meter as classical Western tonal music. (We did, however,
+mention one possible variant of the segmentation rules in section 7.1, in
+which regular subgroups include a weak beat preceding rather than fol-
+lowing a strong beat.) However, in an idiom where meter is largely
+absent, one could not necessarily build time-span structure up to the
+group level using meter as we have done here. Similarly, ¡f grouping in
+some idiom were not as strongly hierarchical as in classical Western tonal
+music, time-span segmentation as we have defined it might not be highly
+structured enough at larger levels to permit meaningful decisions about
+the relative global importance of events. However, even tentative conclu-
+sions about cross-idiom variation in time-span reduction require far
+deeper investigation than do grouping and meter, so we hesitate to specu-
+late further.
+
+Chapter 7
+

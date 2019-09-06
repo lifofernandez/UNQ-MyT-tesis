@@ -1,0 +1,61 @@
+77
+
+4.16
+
+a
+
+( E)
+3
+
+3
+
+The metrical well-formedness rules for tonal music require strong beats
+to be equally spaced. When attacks are not evenly spaced, the only solu-
+tion for the preference rules is to choose a structure that minimizes viola-
+tions of MPR 3. In 4.15 the points where MPR 3 is overridden are marked
+with asterisks. Berween points x and y, the metrical structure assigned is
+from the local point of view the less preferred one; it is identical to
+structure 7i in 4.14a. But this less preferred structure must be accepted in
+order to meet the requirement of metrical regularity. Hence this part of
+the passage is heard as syncopated. In general the phenomenon of synco-
+pation can be formally characterized as a situation in which the global
+demands of metrical well-formedness conflict with and override local
+preferences, The more severe and extended in time the conflict is, the
+more prominent the syncopation.
+
+Next observe that, when attacks occur on adjacent beats, MPR 3 ap-
+plies to both of them, saying that both should be heard as strong beats.
+But since the well-formedness rules do not permit two adjacent beats to
+be equally strong, one must give way to the other. Example 4.16, in
+Which applications of MPR 3 have been marked, illustrates this situation.
+The reader is cautioned to hear these examples without accents (local
+stresses), except where specifically marked, We will take up the effect of
+such accents shortly.
+
+b
+(X
+PIRRIRO7 PORISRETRRO?
+23 33 333 3933 333
+* 'fepi'$ng) Da X N * Cpreferreá)
+"EE J º'¿,¡', de EA l0S5 preferred)
+
+*ROOE * j(fesslprer"errtd)
+
+Where there are only two adjacent attacks, as in 4.16a, two equally
+stable structures exist: either the first attack is the strong beat, as in
+structure ¿, or the second is, as in structure úí, In either case MPR 3 is
+violated once in every three beats. (Violations are again marked with
+asterisks.) The third possible structure that conforms to the rule of par-
+allelism (MPR 1) places the strong beat on the rest, as in structure úí? in
+example 4.16a. Here there are two violations of MPR 3 in every three
+beats, and so the structure is predicted to be less stable than the other
+two, This prediction corresponds to the musical intuition that structures ¿
+and %í are about equally plausible, and that structure ¿ii is a less nat-
+ural way to hear the surface pattern of 4.16a in the absence of other
+information,?
+
+Next consider 4.16b, in which there are three adjacent attacks. A
+metrical structure that satisfies the well-formedness rules and the re-
+
+Metrical Structure
+

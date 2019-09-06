@@ -1,0 +1,52 @@
+19
+
+The two sequences differ, however, in a crucial respect: the dots in the
+first sequence are equidistant, but not those in the second. In other words,
+the time-spans between successive beats are equal in 2.6a but unequal in
+2.6b. Though a structure like 2.6b is conceivable in principle, it is not
+what one thinks of as metrical; indeed, it would not be heard as such. The
+term meter, after all, implies measuring—and 1t is difficult to measure
+something without a fixed interval or distance of measurement. Meter
+provides the means of such measurement for music; its function is to
+mark off the musical flow, insofar as possible, into equal time-spans. In
+short, metrical structure is inherently periodic. We therefore assert, as a
+first approximation, that beats must be equally spaced. This disqualifies
+the pattern of beats in 2.6b from being called metrical.
+
+Curiously, neither is the pattern of beats in 2.6a metrical in any strict
+sense. Fundamental to the idea of meter is the notion of periodic alterna-
+tion of strong and weak beats; in 2.6a no such distinction exists. For
+beats to be strong or weak there must exist a metrical hierarchy —two or
+more levels of beats.* The relationship of “strong beat” to “metrical
+level” is simply that, if a beat is felt to be strong at a particular level, it is
+also a beat at the next larger level. In 4/4 meter, for example, the first and
+third beats are felt to be stronger than the second and fourth beats, and
+are beats at the next larger level; the first beat is felt to be stronger than
+the third beat, and is a beat at the next larger level; and so forth. Trans-
+lated into the dot notation, these relationships appear as the structure in
+2.7a. At the smallest level of dots the first, second, third, and fourth beats
+are all beats; at the intermediate level there are beats under numbers 1
+and 3; and at the largest level there are beats only under number 1.
+
+2.7
+a b
+Beats 1 2 3 4 /
+
+...x
+[
+. N
+2
+..
+
+The pattern of metrical relations shown in 2.7a can also be represented
+by “poetic” accents, as shown in 2.7b (—” means “strong” and “—”
+means “weak”); but this traditional prosodic notation is inferior to the
+dot notation in three respects. First, it does not treat beats as points in
+time. Second, the distinction berween strong and weak beats is expressed
+by two intrinsically unrelated signs rather than by patterns made up of
+one sign. Third, by including strong and weak markings at each “level”
+(that is, by turning two levels into one), the prosodic notation obscures
+the true relationship between metrical level and strength of beat.
+
+Rhythmic Structure
+

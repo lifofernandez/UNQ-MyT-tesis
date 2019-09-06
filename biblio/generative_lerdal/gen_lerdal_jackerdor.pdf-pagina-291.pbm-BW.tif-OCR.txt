@@ -1,0 +1,52 @@
+287
+
+Second, we have restricted ourselves in this study to a formalization of
+the hierarchical aspects of musical structure. For the most part, the de-
+velopment of musical surface material is not a hierarchical phenomenon.
+For example, that motive A has been transformed into A', and A' into A”,
+does not mean that any of them has hierarchical priority over the others.
+Rather, they are a sequence of musical units that are perceived simply as
+being related to one another in certain ways. Insofar as there is a sense in
+which a hierarchical relation might exist among these motivic forms—if,
+for example, A' is heard for contextual reasons as more “basic” or
+“characteristic” than A—rhe resulting hierarchical description would
+not be of the kind that has been under consideration here, namely an
+exhaustive partitioning into hierarchical, nonoverlapping segments or
+elements.
+
+The discussion in section 3.3 suggests an alternative attack on the
+problem of motivic “transformation”: motivic relatedness counts as an
+instance of parallelism. There we advocated seeking a set of preference
+rules to pick out parallelisms. Such rules would take into account not
+only the obvious factors of surface pitch contour and rhythmic configu-
+ration, but also more contextual or global considerations, such as posi-
+tion of the motive in grouping structure, its metrical pattern, and its
+reductional structure. Intuitions about motivic relatedness display all the
+characteristics we have come to associate with phenomena governed by
+preference rules, in particular the gradations in judgment due to the
+interaction of diverse factors. Thus our theory provides a formal possi-
+bility for expressing motivic relatedness through preference rules, which
+circumvents the difficulties engendered by a more traditional “transfor-
+mational” approach.
+
+Another question that may arise in connection with our methodology
+concerns “deep structure” —a technical term that has been widely mis-
+understood. It should first be pointed out that the largest levels of our
+reductions are in no sense analogous to deep structures in linguistics.
+Rather, they are analogous to stages of phrase-structure analysis as rep-
+resented in linguistic trees. Thus the highest level in one of our reductions
+(always the tonic chord) roughly corresponds to “Sentence,” our second
+largest level (the “basic form” in prolongational reduction) roughly cor-
+responds to “Noun Phrase + Verb Phrase,” and so forth. However, as
+pointed out in section 5.3, musical trees represent elaborations rather
+than ¿s-a relations among grammatical categories, so even this analogy
+should not be pushed too far. (A more apt linguistic analogy to reduc-
+tional trees 1s discussed in section 12.3.)
+
+In a transformational generative grammar, “deep structure” refers to
+underlying phrase structures that have not been subjected to transforma-
+tions (in the technical sense). “Surface structure” refers to the constituent
+structure of actual linguistic expressions. Transformations convert deep
+
+Musical Universals and Related Issues
+

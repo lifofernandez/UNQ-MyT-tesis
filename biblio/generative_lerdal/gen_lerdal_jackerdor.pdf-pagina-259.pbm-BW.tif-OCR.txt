@@ -1,0 +1,47 @@
+10.6
+
+ 
+
+2355
+
+anacrusis simply moves to a more stable event on the downbeat (tree
+fragment a in 10.6).
+
+ 
+
+ 
+
+ 
+
+— 4 L a,
+— a aa (sim.)
+
+a? ) N nz————» —| Neampaarr? ecumaaa? Nocoumnamanaccmmzao a? nanm—— — ————— n ———
+Nc— — — — —
+N  TTUTAAÁÑh++ov4i] N _”;——]]]M—]—————];—]]
+
+ 
+
+In the second group, however, the event on the downbeat “resolves” to a
+more stable event on the second beat (TSRPR 2), producing a second left
+branch at the immediately smaller reductional level (tree fragment b).
+This pattern then continues in the third group, in which the motive is
+extended to produce a 2-bar group; the anacrusis to measure 3 itself
+becomes a left branch to the anacrusis to measure 4 (tree fragment c).
+(Note, incidentally, how inappropriate the cadence in measure 4 would
+be if there were no appoggiatura; this is because it must “rhyme” in the
+time-span reduction with measure 2.) Similar patterns-persist through-
+out the second phrase (tree fragments 4', b', and c”). In the third phrase,
+the pattern is expanded still further to encompass a 4-bar group (tree
+fragment d). In all these cases (except for tree fragment a), the underlying
+“gesture” is one of anacrusis to appoggiatura to resolution, with the
+anacrusis elaborated in a progressive fashion, In a sense, this abstract tree
+structure, together with its associated grouping and metrical structures, is
+the real “motive”—a rhythmic motive— beneath the surface variety of
+the music,.
+
+Now we turn to the beginning of Beethoven's “Tempest” Sonata, op.
+31, no, 2 (example 10.7), in which the same “linear motive” emerges
+
+Analyses
+

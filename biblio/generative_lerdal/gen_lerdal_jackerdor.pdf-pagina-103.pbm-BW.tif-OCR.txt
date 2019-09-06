@@ -1,0 +1,58 @@
+4.5
+
+Metrical
+Irregularities
+
+at Hypermeasure
+Levels
+
+99
+
+The point of our brief foray into other metrical idioms is that, in
+developing a theory of tonal music that addresses the issues of musical
+universals and acquisition of musical knowledge, one should construct
+formalisms that are adequate to express the facts of other idioms, and one
+should try to localize the similarities and differences between idioms in
+the statements of particular rules. In the cases presented here, the differ-
+ences lie in what corresponds in other idioms to MWERs 3 and 4. These
+differences in rules represent what one must learn about an idiom to
+become an experienced listener.
+
+As mentioned in section 4.1, tonal music often has from one to three
+levels of metrical structure that are larger than the level notated by bar
+lines, corresponding to regularities of two, four, and even eight measures.
+Except in the most banal music, these levels are commonly subject to a
+certain degree of irregularity. The metrical well-formedness rules pro-
+posed in section 4.1, however, require that a metrical level be unswerv-
+ingly regular throughout a piece or at least a major section of a piece.
+They are therefore incapable of allowing for irregularity in a metrical
+level except by abandoning that level altogether—which amounts to
+claiming that there is no regularity at all. This section will show how two
+important kinds of larger-level metrical irregularity can be incorporated
+into the theory. Both depend on the interaction of metrical structure and
+grouping. The first involves irregular-length groups, the second grouping
+overlap and elision.
+
+As will be seen more clearly in the discussion of time-span reduction,
+the segmentation of the musical surface forms a hierarchy whose levels
+can be divided roughly into three zones. At the smallest levels, metrical
+structure is responsible for most factors of segmentation; at the largest
+levels, grouping structure bears all the weight of segmentation. In be-
+tween lies a transitional zone in which grouping gradually takes over
+responsibility from metrical structure, as units of organization become
+larger and as metrical intuitions become more attenuated because of the
+long time intervals between beats. It is in this zone of musical organiza-
+tion that metrical irregularities appear in tonal music.
+
+In this transitional zone one hears metrical structure, but parallelism
+among groups of irregular length often forces metrical structures into
+irregularity above the measure level. The openings of the Mozart C Ma-
+jor Quintet K. 515 and the Chorale St. Antoni used in the Brahms
+“Haydn” Variations (see section 8.5) are well-known cases of five-
+measure phrases; examples of this sort are numerous. In order to make it
+possible for these phrases to receive a metrical analysis, MWER 4 must
+cease to enforce strict metrical regularity at more than two or three levels
+above the tactus (usually the one- or two-measure levels). Nonetheless,
+
+Metrical Structure
+

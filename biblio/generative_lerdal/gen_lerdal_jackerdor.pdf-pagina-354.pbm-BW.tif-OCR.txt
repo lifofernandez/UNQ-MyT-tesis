@@ -1,0 +1,63 @@
+350
+
+TSRPR 1 (Metrical Position) (p. 160)
+Of the possible choices for head of a time-span T, prefer a choice that 1s
+in a relatively strong metrical position.
+
+TSRER 2 (Local Harmony) (p. 161)
+
+Of the possible choices for head of a time-span T, prefer a choice that is
+a. relatively intrinsically consonant,
+
+b. relatively closely related to the local tonic.
+
+TSRPR 3 (Registral Extremes) (p. 162)
+
+Of the possible choices for head of a time-span T, weakly prefer a choice
+that has
+
+a. a higher melodic pitch,
+
+b. a lower bass pitch.
+
+TSRPR 4 (Parallelism) (p. 164)
+If two or more time-spans can be construed as motivically and/or rhyth-
+mically parallel, preferably assign them parallel heads.
+
+TSRPR $ (Metrical Stability) (p. 165)
+In choosing the head of a time-span T, prefer a choice that results in more
+stable choice of metrical structure.
+
+TSRPR 6 (Prolongational Stability) (p. 167)
+In choosing the head of a time-span T, prefer a choice that results in more
+stable choice of prolongational reduction.
+
+TSRPR 7 (Cadential Retention) (p. 170)
+
+If the following conditions obtain in a time-span T, then label the pro-
+
+gression as a cadence and strongly prefer to choose it as head:
+
+1. There is an event or sequence of two events (e,)e; forming the pro-
+
+gression for a full, half, or deceptive cadence.*
+
+il. The last element of this progression is at the end of T or is prolonged
+to the end of T.
+
+ili. There 1s a larger group G containing T for which the progression can
+function as a structural ending.
+
+TSRPR 8 (Structural Beginning) (p. 170)
+
+lf for a time-span T there is a larger group G containing T for which the
+head of T can function as the structural beginning, then prefer as head of
+T an event relatively close to the beginning of T (and hence to the begin-
+ning of G as well).
+
+TSRPR 9* (p. 174)
+In choosing the head of a piece, prefer the structural ending to the struc-
+tural beginning.
+
+Rule Index
+

@@ -1,0 +1,55 @@
+52
+
+18-—19, and that these group boundaries did not appear to correspond to
+intuition. Consider transition 8—9; 18-19 is treated similarly. GPR 6 is
+implicated in the suppression of this potential boundary by detecting the
+parallelism between the sequences of events at transitions 1-3, 4—6, and
+7—9. 1f a group boundary appeared at transition 8-—9, parallelism would
+require it at 2-3 and 5-6 as well. But this would in turn make notes 3
+and 6 form single-note groups, in violation of GPR 1. Hence the only way
+to preserve parallelism is to suppress the possible group boundary at 8-—9.
+Indirectly, then, GPR 6 overrides the slur/rest rule here.
+
+The parallelism rule is not only important in establishing intermediate-
+level groupings such as those in the brief examples examined here; it is
+also the major factor in all large-scale grouping. For example, it recog-
+nizes the parallelism between the exposition and the recapitulation of a
+sonata movement, and assigns them parallel groupings at a very large
+level, establishing major structural boundaries in the movement.
+
+Finally, a seventh preference rule for grouping is concerned primarily
+with influencing large-scale grouping. Different choices in sectionaliza-
+tion of a piece often result in interesting differences in the time-span and
+prolongational reductions, and often the choice cannot be made purely
+on the basis of grouping evidence. Rather, the choice of preferred group-
+ing must involve the relative stability of the resulting reductions, Without
+a full account of the reductions we obviously cannot motivate such a
+preference rule here, but we state it for completeness; it plays a role in
+several analyses in chapter 10.
+
+GPR 7 (Time-Span and Prolongational Stability) Prefer a grouping
+structure that results in more stable time-span and/or prolongational
+reductions.
+
+Having stated the system of GPRs, we conclude this section with a few
+remarks on the notion of parallelism mentioned in GPR 6 and on the
+nature of the formalism used in stating our rules. The grouping prefer-
+ence rules are applied to two other brief examples in section 3.6.
+
+Remarks on Parallelism
+
+The importance of parallelism in musical structure cannot be overesti-
+mated. The more parallelism one can detect, the more internally coherent
+an analysis becomes, and the less independent information must be pro-
+cessed and retained in hearing or remembering a piece. However, our
+formulation of GPR 6 still leaves a great deal to intuition in its use of the
+locution “parallel.”
+
+When two passages are identical they certainly count as parallel, but
+how different can they be before they are judged as no longer parallel?
+Among the factors involved in parallelism are similarity of rhythm, simi-
+larity of internal grouping, and similarity of pitch contour. Where one
+passage is an ornamented or simplified version of another, similarity of
+
+Chapter 3
+

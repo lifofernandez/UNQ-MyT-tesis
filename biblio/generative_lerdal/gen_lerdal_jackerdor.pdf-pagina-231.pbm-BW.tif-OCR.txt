@@ -1,0 +1,80 @@
+925
+The Interaction
+Principle
+
+227
+
+So far we have presented only one example in which PRPR 3 contributes
+to the choice of e,: the antecedent-consequent pattern in 9.8 and 9.9. In
+this example, PRPR 1 does not provide any preference between the inter-
+mediate V and I, so PRPR 3 alone decides between them. However, this
+example was chosen specifically to isolate the effects of PRPR 3. When we
+turn to more complex cases, the two rules interact profusely. Their inter-
+action is central to our theory of prolongational reduction.
+
+The Mozart K. 331 theme provides an especially good illustration of
+the interaction of PRPRs 1 and 3. Example 9.11 presents the time-span
+reduction for a harmonic sketch of the first four measures; for simplicity,
+let us assume that level e is the musical surface.
+
+9.11
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+In forming the prolongational reduction, let us assume that we have
+already attached the initial Tand the cadential V to form a prolongational
+region, as in 9.12. This is the antecedent portion of the tree derived in
+92.9b.
+
+Formalization of Prolongational Reduction
+

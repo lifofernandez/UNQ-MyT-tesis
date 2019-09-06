@@ -1,0 +1,53 @@
+structure must be triple or duple; it remains to find out which of the beats
+within the pattern are heard as strong. Since the starting point for the
+pattern sometimes affects judgments of metrical structure, optional notes
+have been added at the beginning in some examples to indicate alterna-
+tive starting points in cases where it might make a difference.
+
+The use of repeating patterns as evidence for metrical structure de-
+pends on the existence of a preference for metrical parallelism, which we
+state as MPR 1.
+
+MPR 1 (Parallelism) Where two or more groups or parts of groups
+can be construed as parallel, they preferably receive parallel metrical
+structure,
+
+MPR 1 accounts for the fact that example 4.10a is preferably heard with a
+metrical structure that repeats after four eighths, and 4.10b with a
+structure that repeats after six eighths. Where the strong beats fall in
+these patterns (and whether 4.10b is in 3/4 or 6/8) is still unclear.
+
+4.10
+b
+
+POSIECR TRAR — POROR EOO CARO
+
+Next consider a uniform sequence of equal-length notes of the same
+pitch, such as in 4.11. No beat is more metrically prominent than any
+other, and the sequence is totally vague metrically.
+
+ 
+
+ 
+
+As in grouping, differentiation is required to establish perceived structure.
+
+There is, however, a slight preference for hearing the starting point as
+strong in 4.11. The generalization under which this judgment falls is
+revealed more clearly by 4.12,
+
+4.12
+
+ 
+
+In this example one has a tendency to hear a strong beat on the A, though
+one can easily heariit elsewhere. This effect is conneeted with the fact that
+the downward leap after each D creates a succession of A-B-C-D se-
+quences as the most plausible grouping. If one deliberately hears a less
+favored grouping, such as B-C-D-A, the metrical structure is most nat-
+urally heard with the strong beat on B rather than on A. Thus there seems
+to be some connection between grouping and metrical structure besides
+the ubiquitous factor of parallelism:
+
+Metrical Structure
+

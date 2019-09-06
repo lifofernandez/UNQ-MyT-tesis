@@ -1,0 +1,60 @@
+234
+
+The appropriate events can be identified as the endpoints of the largest
+prolongational region entirely contained within a cadenced group. Let us
+call these events the prolongational beginning and prolongational ending
+of the group. They will usually, but not always, coincide with the struc-
+tural beginning and ending defined by the time-span reduction.
+
+It remains to specify the nature of normative structure. Observe that
+the double left branching in 9.19 is due to the fact that full cadences
+already have two events in them, one connected as a left branch to the
+other. Instead of literally specifying double left embedding, it is advan-
+tageous to require simply a cadential preparation, that 1s, one significant
+left branch attached to the designated cadence. This formulation general-
+izes to half cadences, where the normative prolongational ending is a V
+chord prepared by one previous significant event as its highest elabora-
+tion. This was the structure at the half cadence in measure 4 in K. 331 1n
+the previous section, for instance. Such a description of normative form
+also generalizes to phrases with deceptive cadences, in which the prolon-
+gational ending is the V rather than the vi. Here again, one significant left
+branch is the norm. In nearly all cases, the desired left branch is “sub-
+dominant” in function.
+
+Section 8.3 pointed out that for music of the Classical period, but not
+the Baroque, normative structure also includes a prolongation of the
+prolongational beginning, standing often for the beginning of a conse-
+quent or a reprise. In stating the rule for normative structure, we include
+this variant in parentheses. We now have the elements necessary for a
+statement of the rule.
+
+PRPR 6 (Normative Prolongational Structure) A cadenced group prefer-
+
+ably contains four (five) elements in its prolongational structure:
+
+a. a prolongational beginning,
+
+b. a prolongational ending consisting of one element of the cadence,
+
+(c. a right-branching prolongation as the most important direct elabora-
+tion of the prolongational beginning,)
+
+d. a right-branching progression as the (next) most important direct elab-
+oration of the prolongational beginning,
+
+e. a left-branching “subdominant” progression as the most important
+
+elaboration of the first element of the cadence.
+
+PRPR 6 is involved in the derivation of the “basic form” described in
+section 8.3. Consider a piece whose largest levels of time-span reduction
+are as in 9.20.
+
+9.20
+
+—
+
+[e]
+
+Chapter 9
+

@@ -1,0 +1,41 @@
+274
+
+10.19
+
+e
+Z e — = — Ze — « —— —
+
+ 
+
+ 
+
+changes in the music such as converting 10.15 into 10.19 would involve
+an extensive use of transformational rules (TSRWFRs 3b and 3c are in
+effect transformational rules). This is a direction we have so far avoided
+because of the difficulty in constraining the application of such rules.
+Moreover, it is dangerous in a theory of musical intuition to alter the
+musical surface too much in the pursuit of a coherent underlying model;
+one can lose touch with the actual music. We have found it method-
+ologically prudent to err in the direction of adhering to musical surfaces
+as the basis for assigning hierarchical descriptions. Third, it is hard to
+arrive at general principles for the determination of primary, subsidiary,
+and “contrapuntal” lines. This is obviously a significant area of musical
+intuition, and it plays a crucial role in the perception of underlying voice
+leading. We have not explored this area in any detail.
+
+Assuming that these problems can be overcome, we surmise that the
+assignment of “coherent” voice-leading structures will take place not as a
+last step in prolongational derivation, but at various stages of time-span
+and prolongational derivation. These transformational operations, of
+course, will apply only where cognitively meaningful. To the degree that
+such operations will be needed for a given musical passage, the listener's
+task of comprehending the musical signal will naturally be seen to be
+much more complicated.
+
+The second enhancement of the prolongational component concerns a
+partial separation of melodic from harmonic reductional function. As
+stated in section 5.3, a purely hierarchical approach to pitch structure
+demands that a piece be viewed as a sequence of discrete events. Each
+
+Chapter 10
+

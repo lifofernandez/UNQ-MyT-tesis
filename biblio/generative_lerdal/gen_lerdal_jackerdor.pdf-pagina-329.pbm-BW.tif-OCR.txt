@@ -1,0 +1,73 @@
+sy//able fevel
+foot level
+word level
+
+phon. / hr
+
+!evi
+
+metrical
+structure
+
+325
+
+but in the phrases ¿hirteen men and Tennessee aír their strongest stresses
+are on the initial syllable. Liberman and Prince explicate the rule in terms
+of a metrical structure not unlike the musical metrical structure described
+in chapters 2 and 4.
+
+The general idea behind the Rhythm Rule is that the stresses of a lin-
+guistic phrase form a hierarchical metrical pattern, with relatively heavy
+stresses corresponding to relatively strong beats and relatively weak
+stresses corresponding to relatively weak beats. The ideal metrical struc-
+ture is one in which relatively strong and relatively weak beats alternate;
+in particular, two relatively strong beats are preferably not adjacent to
+one another. Just such a situation arises in the juxtaposition of thirteen
+with men and Tennessee with aír: the strongest stress is on the second
+word, and the next strongest is on the final syllable of the first word. The
+Rhythm Rule alters this undesirable situation by reversing the largest 1w
+and s of the first word, thereby separating the second-strongest stress
+from the strongest by a relatively weak stress. Thus, instead of 12.21a
+and 12.21b (the tree structures one would expect given the stress patterns
+of the individual words), the Rhythm Rule yields the structures in 12.21c
+and 12.21d. Beneath the segmentation is the metrical structure (in our
+notation) assigned to the tree; the number of dots below a syllable is
+proportional to its relative prominence in the tree.
+
+12.21
+a b c d
+
+—
+
+ 
+
+ 
+
+w 8
+/XS -
+
+w
+w/x5 5/Xw
+
+ 
+
+w w _8 X
+f f i N
+thirteen men Tennessee a thirteen men Temessee air
+L au si 9 [ S [ S | S U E A al - E u /__ubsrl:
+| M | E D E | L A aa A E a alc a 1 — aal ly
+L — — N J L ——aMu ”ms LI ___ ad ..1 _ —.aL I
+[ L- —————— 1 [ _a
+
+HH
+metrical metrical
+clash clash
+
+The Rhythm Rule can therefore be thought of as a rule that makes
+prosodic structure conform more closely to an ideal metrical pattern.
+Despite the differences in formulation, there is a clear kinship between
+this rule and the rules relating metrical structure to time-span reduction
+(MPR 9, TSRPR 1, and especially TSRPR 5). The major difference between
+
+Psychological and Linguistic Connecrions
+

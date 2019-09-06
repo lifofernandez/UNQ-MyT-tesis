@@ -1,0 +1,52 @@
+288
+
+structures into surface structures. In our music theory the well-formed-
+ness rules describe hierarchical organizations that correspond roughly to
+linguistic phrase structure, and, as mentioned earlier in this section, the
+musical transformational rules are analogous to linguistic transforma-
+tions (though, as mentioned in section 3.4, the operations they perform
+more closely resemble phonological than syntactic transformations).
+Therefore, to the limited extent that musical transformational rules are
+necessary — such as for grouping overlaps and elisions, metrical deletions,
+and missing harmonic functions —our theory does embody a notion of
+“deep structure”; the transformations convert underlying disentangled
+overlaps and the like into the musical surface.
+
+For some, there might be an intuitive sense in which “deep structure”
+implies a representation of simple, normative, archetypal forms. While
+rejecting the applicability of the term in this sense, we agree that the study
+of archetypal patterns is a matter of serious interest. All experienced
+listeners intuitively apprehend a phrase, for example, as relatively normal
+or unusual.
+
+It might be supposed that an archetypal pattern is best systematized in
+terms of a deep structure (in the technical sense), which would then be
+converted by means of transformational rules into the musical surface.
+For example, a five-measure phrase might be seen as derived from a
+deep-structural four-measure phrase, a noncongruent phrase such as the
+opening of Mozart K. 331 might be seen as derived from a congruent
+phrase, and so forth. One can see versions of such derivations, in varying
+degrees of formality, in Schenker 1935, Komar 1971, Snell 1979, Keiler
+1978a, and Schachter 1980. Although such an approach seems initially
+plausible, we have found it impracticable both musically and formally.
+Musically, it is easy to conceive of rather simple irregularities such as
+five-measure phrases and harmonic substitutions as distortions from an
+archetypal form; but in dealing with a passage of any complexity or
+length it is hard to specify what archetype the music is a transformation
+of. This musical difficulty is reflected in a formal difficulty similar to the
+one concerning thematic transformations: in order to derive various sur-
+face structures from a deep structure, it would be necessary to admit an
+almost unconstrained class of permissible transformational derivations.
+Furthermore, there are the problems of positing a universe of archetypal
+forms, choosing the correct deep structure for any complex piece, and
+systematically specifying the derivation from archetype to musical sur-
+face for any given passage. None of the approaches cited above makes a
+serious attempt to solve this collection of formal difficulties.
+
+Rather than develop an archetypal deep structure, with its attendant
+problems, we propose (as hinted in section 3.6) that archetypal patterns
+emerge as a consequence of the preference rules for the four components
+of the musical grammar. A passage in which the preference rules maxi-
+
+Chapter 11
+

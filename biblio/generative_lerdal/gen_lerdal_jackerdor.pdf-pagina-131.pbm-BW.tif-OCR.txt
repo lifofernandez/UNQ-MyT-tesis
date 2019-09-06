@@ -1,0 +1,51 @@
+127
+
+forces alterations: the brackets at the half-note level and larger are trun-
+cated just to the left of the fourth beat of measure 12, and the corre-
+sponding brackets to the right of this beat are enlarged so as to include it
+as an upbeat. Any such enlarged bracketing we call an augmented time-
+span. In this way a unified time-span segmentation is achieved in a man-
+ner compatible with the criterion that a group is a time-span.
+
+In 6.4 an additional bracket is required at the half-note level at the
+beginning of measure 13: beats 1 and 2 are bracketed together within a
+regular time-span, since their relation is unmodified by the grouping
+boundary in measure 12, and then beat 4 of measure 12 is added to form
+the augmented time-span. Because the augmented time-span contains the
+regular time-span, this procedure grants a slight prominence to events on
+upbeats. This formal detail appears to mirror perceptual experience.
+
+Example 65 illustrates the subgroup bracketing for a thoroughly out-
+of-phase passage, the opening theme of Mozart's G Minor Symphony.
+The inner tension of this music is in part a product of the rhythmic
+conflict between the periodicity of the metrical structure (reinforced by
+the accompaniment) and the complexity of the time-spans resulting from
+such out-of-phase conditions.
+
+ 
+
+e e A N A i I I III
+
+y o h_ — y s [
+_ u — — 1 1llql12l_sli1 " -A
+
+Previous approaches to time-span reduction have been based exclu-
+sively on some metrical conception. We surmise that this has been so only
+because it has not been customary to develop grouping and meter as
+independent yet interactive components. In any case, we have just shown
+that a purely metrical approach to time-span segmentation is accurate
+only for in-phase passages.
+
+A second argument against an exclusively metrical conception of
+time-span reduction is that the perception of meter fades at large levels
+(as argued in section 2.2). Thus a reductional procedure based on large-
+scale metrical relations would have little basis in musical experience. A
+related argument concerns the fact that time-span segmentation is often
+irregular at intermediate levels because of surface irregularities in the
+music. An exclusively metrical conception would have to make these
+spans regular at an underlying level. This approach may be satisfactory
+for certain cases (essentially, for clear-cut extensions or contractions
+within an otherwise regular context), but in general it is problematic.
+
+Time-Span Reduction
+

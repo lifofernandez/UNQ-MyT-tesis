@@ -1,0 +1,58 @@
+10.2
+
+Largest metrical levels:
+
+252
+
+Measure
+
+Groups
+
+Form
+
+1 3 57394 3 1517 1 2 2325 27 29 % 33 35 37|
+
+o 10 , 8 » 10 , 10 ,
+A A 8 A"
+
+21—22 to the ensuing two bars instead of the previous two bars. The
+grouping structure of the B section thereby becomes identical to that of
+the A section (2+2+2+2+2=2+414=2+8=10), and likewise (GPR 6)
+for the reprise. In this light, the right hand in measures 29-—30 fills in the
+space, so to speak, that was left vacant in measures 1—2.
+
+In the metrical analysis in 10.1 and 10.2 we note some conflict con-
+cerning the placement of the largest level of beats: Should they occur on
+the downbeats of measures 1,5,9,... or on the downbeats of measures
+3,7,11,... ? Following Schachter 1980, we have chosen the second alter-
+native, even though it results in a cadential $ in a relatively weak metrical
+position (measure 5, etc.); mitigating factors are the more in-phase pat-
+tern (MPR 2) and the continuance of regularity (MPR 10) into the B
+section, where the strongest beats obviously take place on the downbeats
+of measures 19, 23, and 27. This regularity then persists—though again
+ambiguously —to the end of the piece.
+
+Under this interpretation, then, the metrical periodicity proceeds uni-
+formly throughout, despite irregularities in grouping structure. A subtle
+consequence of this analysis is that the motive rising to measure 17
+receives a different metrical interpretation in measure 23. More broadly,
+the large-scale metrical structure of the B section reverses that of the A
+section: the strongest beat is on the downbeat ofiits first bar instead of its
+third, and so on. (The A' section, because it lacks the two introductory
+bars and hence begins next to a strong beat, prepares the way for this
+change.) Finally, because the B section is 10 bars long, the grouping-
+meter relationship in the A” section automatically reverts to what it was
+at the beginning. Thus the larger grouping-meter parallelism is satisfied in
+the end, despite intervening divergences.
+
+It might be argued that in certain tonal pieces grouping and meter can
+become completely independent of one another, each going its own way,
+forming its own articulative structure, and occasionally converging with
+the other at a structural downbeat.! Although such structures are expres-
+sible within our analytic system, we have found no example more com-
+plex in this regard than this Schubert waltz. In a sense, it can happen here
+because the piece is a dance—there are enough conventional regularities
+to permit the perception of significant divergences in patterning between
+
+Chapter 10
+

@@ -1,0 +1,57 @@
+140
+
+structured on such principles will tend to reveal an Ursatz at the most
+
+global reductional level; it is not necessary to posit such a structure in
+
+advance. The Ursatz is an effect, not a cause, of tonal principles.
+
+From this it follows that reductions of tonally unstable pieces probably
+will not result in a stepwise melodic descent, or possibly even a I-V-I
+progression. Rather than make such cases conform somehow to an a
+priori conception, it is illuminating to see how they deviate from proto-
+typical cases. (An intriguing example in this respect will be discussed in
+section 9.6. For a general discussion of “models,” see section 11.4.)
+
+A related issue of interest to Schenkerian theory concerns the location
+of the structural dominant (the most important V in a piece or passage).
+It is obvious that a typical tonal piece begins and ends on the tonic. Less
+clear is where that crucial V occurs, particularly in the pervasive “inter-
+ruption” forms (which include, among others, the antecedent-consequent
+period and sonata form). Figure 6.21 diagrams the essentials of an inter-
+ruption form: the tonic moves to a half cadence (or possibly to a toniciz-
+ing cadence on V); then a reprise on the tonic leads to a completion of the
+interrupted half cadence by a full cadence. Is the structural dominant the
+V at the half cadence, or the V at the final cadence??
+
+6.21
+A .A nA
+3 2R 3 RA
+I—— Y I——V]
+
+N—— — —
+N——]—————[ÑÑ]¡——
+
+Because of the labeling of cadences and their relation to grouping
+structure, our theory asserts unequivocally that the structural dominant,
+in interruption form or any other tonal form, is the V at the full cadence
+that resolves the piece (or passage) as a whole. The tree shown in 6.22 for
+the structural accents of the opening eight bars of K. 331 will illustrate:
+the half cadence (measure 4) plays a role only in measures 1—4, but the
+final V functions cadentially for both measures 5-8 and measures 1-8.
+(If necessary, consult the ball-throwing representation 1n 6.17.)
+
+We offer the following general arguments in support of this position.
+First, the selection of the V in measure 4—or, more generally, any merely
+centrally located and salient dominant—would not reflect tonal princi-
+ples as a whole, since many passages or pieces do not have an available V
+at the equivalent place. For instance, where would one find the structural
+dominant in the entire 18-bar theme of K. 331 (6.20) if not in the final
+cadence? The most centrally located dominant, the V in measure 8,
+clearly resolves in measure 8. More plausible is the half-cadential V in
+measure 12; but this is too deeply embedded in the grouping structure,
+especially if the repeats are observed, to function for the theme as a
+whole. Thus the final V is the only satisfactory choice.
+
+Chapter 6
+

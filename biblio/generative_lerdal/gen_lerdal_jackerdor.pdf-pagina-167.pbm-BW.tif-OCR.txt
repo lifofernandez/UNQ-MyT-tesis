@@ -1,0 +1,43 @@
+163
+
+For cases where relatively low pitch of the bass has an influence, con-
+sider 7.19,
+
+7.19
+
+ 
+
+Example 7.19a, from the Mozart G Minor Symphony, brings back an
+Issue raised in section 4.3. There we argued that the low G in the bass
+reinforces the choice of metrical structure, because it is more important
+than the high G in the time-span reduction. TSRPR 3b brings about the
+desired distinction in importance. (If the high and low bass notes were
+exchanged in 7.19a, metrical perceptions would be affected.)
+
+Example 7.19b illustrates an octave drop of the bass beneath a 1$-V
+progression in a cadence. In the first half of the measure, the V7 on the
+second beat is chosen over the 14 by TSRPR 2a. However, the progression
+would be somewhat weaker ¡f the low G in the bass were on the first
+rather than the second beat. This suggests that the low G on the second
+beat helps the V7 overcome the strong metrical position of the 15. In fact,
+the bass line in 7.19b is a cliché of tonal music, but an upward leap of an
+octave rarely occurs. The reinforcing interaction of TSRPRs 2a and 3b,
+overriding TSRPR 1, demonstrates a principled basis for this disparity.
+
+Nonlocal Pitch Influences
+
+Time-span reduction preference rules 1-3 describe factors internal to a
+time-span that affect the choice of its head. We now turn to influences
+that involve material outside of the time-span as well. In general it is
+difficult to separate these principles, because of their constant interaction
+with local principles and with each other, so our motivation for them will
+be more suggestive than rigorous.
+
+The first of these principles is the inevitable rule of parallelism. For
+example, consider again the opening of K. 331 (7.18c). Suppose someone
+were, for whatever reason, to adopt the analysis in which the quarter-
+note E in the first measure is the structurally most important event. Then,
+because of the parallelism of the first two measures, it would be absurd
+
+Formalization of Time-Span Reduction
+

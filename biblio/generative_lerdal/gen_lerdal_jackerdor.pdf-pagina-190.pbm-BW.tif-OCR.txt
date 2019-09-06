@@ -1,0 +1,44 @@
+8.10
+
+=Y s
+
+186
+
+when chromatic inflections are introduced, as in 8.10e; here the in-
+termediate event belongs to the adjacent event that shares its diatonic
+
+collection.
+
+==
+
+fl (=)
+
+The decision for right or left branching is more problematic for passing
+motions within weak prolongations (thatis, within arpeggiations), where
+the surrounding events are melodically and harmonically equidistant
+from the passing event. Yet there is a sense in which the passing event
+tenses or relaxes (as the case may be) primarily in relation to the domi-
+nating event in the weak prolongation. For example, the V in 8.11a and
+8.11bis heard primarily in relation to the 1, not the 15, resulting in a right
+branch in 8.11a and a left branch in 8.11b. In the quasi- Ursatz in 8.11c,
+
+the tensing from I to V 1s less salient than the relaxing from V to I so the
+V connects to the Las a left branch.
+
+8.11
+a b c
+
+Intuition is weakest for neighboring motions within strong prolonga-
+tions, since the surrounding events are by definition identical in pitch
+structure. However, as argued above, right or left branching for strong
+prolongation can be decided from rhythmic factors. As a result, the rea-
+soning about passing motion applies in a weaker form to neighboring
+motion: the neighboring event tenses or relaxes more in relation to the
+dominating event in its environment. Now, because strong prolongation
+is almost always a right-branching structure, it follows that neighboring
+motion is typically a right branch. This holds true whether the neighbor-
+ing motion is a locally dissonant note (as in 8.12a), a neighboring chord
+(8.12b), or, say, a large-scale neighboring motion extending over the B
+
+Chapter 8
+

@@ -1,0 +1,45 @@
+235
+
+The prolongational head is naturally the final I. Next, the Interaction
+Principle allows either the initial I or the cadential V as the prolongation-
+ally next most important event. Of these, the V forms a better prolonga-
+tional connection, since a left-branching progression is more stable than a
+left-branching weak prolongation. But the resulting tree, 9.21a, does not
+conform to the normative structure. Moreover, the left-branching 1-V
+progression 1s highly unstable, since it is an ascending circle-of-fifths
+progression. The alternative, the “basic form” in 9.21b, allows the nor-
+mative structure to be satisfied.
+
+9.21
+a b
+
+Thus PRPR 6, acting in concert with PRPR 1, overrides the preference of
+PRPR 3 for a stronger prolongational connection at the highest level of
+branching.
+
+A second application of the normative structure rule is in establishing
+the prolongational ending of pieces such as the Chorale St. Antoni (dis-
+cussed in section 8.5). Following the full cadence ending in measure 23,
+this piece has seven measures of coda over a tonic pedal. PRPR 6 says that
+the final T of the coda cannot be the prolongational ending for the piece
+since it does not end a prepared cadence. As a result, the prolongational
+ending is pushed forward to the last full prepared cadence, and the coda
+material extends as a right prolongation from the tonic in measure 23. In
+turn, because of the strong preference for the prolongational head of the
+piece to be the time-span head as well (PRPR 1), there is pressure on the
+time-span reduction, through TSRPR 6 (“Prefer a time-span reduction
+that results in a stable prolongational reduction”), to choose measure 23
+as the time-span head also, overriding the usual time-span preference for
+placing structural endings at the very end. This is an important case of
+interaction between components.
+
+More generally, PRPR 6 favors a tree like 9.22 for a cadenced group
+that ends with a prepared cadence plus a number of V1 repetitions (for
+example, the exposition of the first movement of Beethoven's Fifth Sym-
+phony). This accords with the intuition that the first I defuses the major
+tension of the piece and the additional cadences are simply repetitions.
+(The repetitions may be further differentiated in prolongational impor-
+tance, but that does not affect the present point.)
+
+Formalization of Prolongational Reduction
+

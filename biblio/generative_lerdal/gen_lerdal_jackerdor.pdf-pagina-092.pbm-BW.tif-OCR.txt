@@ -1,0 +1,49 @@
+parts: when it plays isolated notes, they are usually strong beats; when it
+plays sustained notes, they are much less likely to be syncopated than an
+upper part is, and so forth. In other words, MPRs 3, 4, and 5 are given
+extra weight when they apply to the bass. We express this tendency as
+MPR 6; we have already alluded to its effects in the G Minor Symphony
+above, where the bass attacks create extra metrical prominence.
+
+MPR 6 (Bass) Prefer a metrically stable bass.*
+
+The next rule concerns the behavior of the metrical preference rules at
+cadences. It is generally the case in tonal music and in earlier idioms
+within Western music that metrical disruptions such as syncopations and
+cross-accents are extremely rare within cadences. In example 4.36 the
+fourth measure of the Mozart A Major Sonata has been changed to show
+what does not happen.
+
+ 
+
+4.37
+
+A
+CU D 2 UN Pis — TZ
+A
+
+88
+
+Of course, syncopations and cross-accents are common elsewhere, and
+the approach to a cadence is not infrequently marked by a metrical
+complexity such as a hemiola. An extreme case where the cadence is
+practically the only point of metrical stability in the phrase is 4.37, mea-
+sures 9-16 of the second movement of the Beethoven Sonata op. 110.
+
+ 
+
+ 
+
+It seems fairly clear that cadences are an important factor in fixing metri-
+cal as well as tonal structure. MPR 7 is a preliminary statement showing
+the place of this aspect of metrical structure in the present theory.
+
+MPR 7 (Cadence) Strongly prefer a metrical structure in which cadences
+are metrically stable; that is, strongly avoid violations of local preference
+rules within cadences.
+
+Note that MPR 7 does not dictate whether a cadence should fall into a
+metrical pattern of weak-strong (“masculine” cadence) or one of strong-
+
+Chapter 4
+

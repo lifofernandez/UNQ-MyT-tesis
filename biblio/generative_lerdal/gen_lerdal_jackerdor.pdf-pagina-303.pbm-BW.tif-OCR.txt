@@ -1,0 +1,54 @@
+299
+
+they do not, in any direct sense, create a large-scale hierarchy of impor-
+tance among these occurrences. In other words, these operations play a
+role more like motivic “transformations” than like reductions in or-
+ganizing a piece. Thus our hypothetical listener who uses serial principles
+to organize his hearing has little counterpart to the elaborational struc-
+tures of tonal music, either at local or at global levels.
+
+Granted that serialism is a vastly different kind of organization for
+Mmusic, as observed in Babbitt 1960, one could ask whether a human
+being could ever become the hypothetical listener we have posited. Could
+a listener, through experience, acquire serial principles in such a way as
+to be able to comprehend the serial structure of novel pieces in the idiom?
+We find little reason to believe this possible, inasmuch as no serial com-
+poser has this ability beyond a very limited extent. Most serial compos-
+ers, in fact, readily acknowledge the discrepancy berween compositional
+and perceptual organization; that is, they do not defend the necessity for
+our hypothetical serial listener. Ultimately this is not a matter of opinion
+or even a purely theoretical question; it is an empirical question, to be
+decided on psychological grounds. (See Meyer 1967, Ruwet 1972, and
+Dowling 1972 for a preliminary critique of the cognitive relevance of
+serial principles.)
+
+But if principles of serialism are not claimed to be cognitively relevant,
+this leaves open the question of what principles the listener actually uses
+when he hears serial music. We believe that among the most important
+principles he falls back on are the musical universals we have proposed;
+he fits the musical surface of a serial piece to structures described by these
+principles as best he can.
+
+In addition, it is possible that some of the concepts of recent atonal
+theory could be developed into a richer theory of how experienced listen-
+ers perceive atonal music. Writers such as Forte (1973) and Rahn (1980)
+have laid a systematic groundwork for atonal music (including serial
+music) roughly comparable to a formal description of the diatonic system
+for tonal music. A fundamental concept of such analysis is that of a sez, a
+collection of pitches analyzed as (or perceived as) belonging together.
+Sets, like the groups of the present theory, include collections of contigu-
+ous events, but they differ in that individual pitches rather than pitch
+simultaneities are taken as the smallest units. Thus, as an extreme case, a
+set may consist of two pitches chosen from one pitch-event plus three
+from the next pitch-event, while the other pitches in these pitch-events
+belong to different sets altogether.
+
+These approaches to atonal theory do not specify criteria for what
+constitutes a set in a given instance, that is, how an experienced listener
+segments a musical surface into its constituent sets. In order to flesh out a
+theory of atonal musical cognition, one would first have to develop
+well-formedness rules for possible segmentations. As suggested above,
+pitches could belong together if in some sense they were contiguous.
+
+Musical Universals and Related Issues
+

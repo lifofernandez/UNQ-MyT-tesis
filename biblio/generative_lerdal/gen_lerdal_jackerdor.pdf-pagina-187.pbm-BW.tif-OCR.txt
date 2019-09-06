@@ -1,0 +1,56 @@
+8.2
+
+Preliminaries
+
+to Prolongational
+Trees
+
+183
+
+place. Somewhat relaxing 1s the restatement of an event in a more conso-
+nant form (8.6e). The most relaxing kind of left branching is a progres-
+sion to a completely different and more consonant event (8.6f).
+
+It would be possible to devise still other kinds of right and left
+branchings than those just described, corresponding to the many grada-
+tions in tension and relaxation between events. Such a notational enrich-
+ment, however, would come at the cost of analytic inclusiveness. For
+example, one would like to be able to treat the configurations in 8.7,
+despite surface differences, as functioning similarly in terms of tension
+and relaxation.
+
+8.7
+
+ 
+
+ 
+
+Under the scheme just outlined, they are all left-branching progressions
+(as in 8.6f); greater specificity in branching connections would obscure
+what they have in common. We believe that the three kinds of connection
+introduced here, together with their right and left branchings, strike the
+right balance between diversity and generality. As will be seen shortly,
+the concatenation of these simple relationships will lead to more than
+enough complexity.
+
+The prolongational connections just discussed have been considered only
+for two isolated events. The Reduction Hypothesis demands that such
+connections be drawn for all the events in a piece. To do this we must
+have a conception of the successive stages, or domains, of analysis, in
+which events become available for connection. In time-span reduction
+this task was relatively straightforward, since the stages were defined by
+the time-span segmentation. In prolongational reduction, by contrast, the
+domains of analysis are less predetermined, and consequently are rather
+difficult to explain; moreover, they cannot be explained prior to the
+actual building of trees. It is therefore convenient to circumvent this
+problem for the moment and to turn to tree building as if the problem
+were already solved.
+
+Before we can proceed we must satisfy a further demand of the Strong
+Reduction Hypothesis, namely that events be analyzed in a strict hier-
+archy. In terms of the tree notation this means that all branchings must be
+either right or left; there can be no event that is either equivalent to
+another event or an insertion between two superordinate events. This
+
+Prolongational Reduction
+

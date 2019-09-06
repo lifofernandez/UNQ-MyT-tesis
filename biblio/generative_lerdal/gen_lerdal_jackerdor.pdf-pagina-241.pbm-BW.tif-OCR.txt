@@ -1,0 +1,45 @@
+237
+
+wider range of situations than the Ursatz. The modulating phrase just
+cited is a simple example. A more complex example appears in 9.24, a
+harmonic sketch of the Chopin A Major Prelude, part of whose time-
+span reduction was presented in 7.23 and 7.24. This is an entire piece
+that satisfies normative structure but is an instance of neither the basic
+form nor the Ursatz.
+
+9.24
+
+ 
+
+ 
+
+ 
+
+ 
+
+Y IYIYIiYVI
+
+We will first derive the prolongational tree in 9.24, then discuss the
+musical consequences of the analysis. We assume the time-span reduction
+given in example 7.24, in which the initial V is the structural beginning of
+the piece. (As mentioned there, another interpretation is possible in
+Which the first 1 chord is the structural beginning.)
+
+Since the initial V forms a stable progression to the prolongational
+head, the final 1, it is selected as the highest branch off the head. The next
+most time-span-important event is the V of the final cadence. In terms of
+prolongational connection alone, this could attach either as a prolonga-
+tion of the initial V or as a progression to the final L But time-span
+congruence (PRPR 2), prolongational importance of the endpoints (PRPR
+4), and above all the cadential structure stipulated by PRPR 6 favor the
+latter attachment. This yields a structure with the geometry of the basic
+form but not its specific harmonic content: it is V-V-I rather than
+I-V-—L
+
+The next attachment is the V in measures 9-10, which becomes a
+prolongation of the initial V. Within the region from this V to the end
+(the second phrase), the V/ii and the ii in measures 12-13 form a de-
+scending circle-of-fifths progression to the cadential V (PRPR 3) and so
+
+Formalization of Prolongational Reduction
+

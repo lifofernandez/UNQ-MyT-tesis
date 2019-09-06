@@ -1,0 +1,38 @@
+58
+
+in tonal music, especially in “developmental” pieces such as sonata-form
+movements, where they have a great deal to do with the sense of con-
+tinuity: overlaps at major group boundaries prevent the piece from
+reaching a point of rhythmic completion.
+
+In addition to true overlap, in which an event or sequence of events is
+shared by two adjoining groups, there is another overlap situation more
+accurately described as elision. Consider the opening of the allegro of the
+first movement of Haydn's Symphony no. 104 (example 3.26).
+
+The groups ending in measure 16 are interrupted by the new fortissimo
+group. One's sense is not that the downbeat of measure 16 is shared, as ¡f
+the group ending in measure 16 were heard as 3.27a; a more accurate
+description of the intuition is that the last event of 3.27b is elided by the
+fortissimo.
+
+ 
+
+A second and somewhat rarer type of elision occurs when a group
+ending forte obscures the beginning of a group starting piano, as in the
+ending of the first movement of Schubert's “Unfinished” Symphony (ex-
+ample 3.28).
+
+ 
+
+The pianissimo group is not heard as beginning with a fortissimo chord,
+but as beginning with an unheard pianissimo attack. We will refer to the
+two kinds of elisions exemplified in 3.26 and 3.28 as left elision and right
+elision respectively: part of the left group is elided in the former and part
+of the right group in the latter.
+
+In thinking about grouping overlaps, it is useful again to invoke a
+visual parallel. Consider 3.29a. It is most likely perceived as two abutting
+
+Chapter 3
+

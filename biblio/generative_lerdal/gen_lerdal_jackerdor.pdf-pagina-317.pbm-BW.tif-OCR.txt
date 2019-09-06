@@ -1,0 +1,52 @@
+313
+
+much as in the theory of musical structure. For example, there are no
+necessary and sufficient conditions for a portion of the musical surface to
+be judged a group. The grouping well-formedness conditions are neces-
+sary conditions on groups, but not sufficient, Each preference rule is an
+attribute that creates family resemblances among grouping structures,
+but since every preference rule can be overridden by the proper conflu-
+ence of circumstances, it is a sufficient condition only in the absence of
+conflicting evidence. Where preference rules come into conflict, dubious
+judgments of grouping result; where a great number of preference rules
+reinforce each other, a stereotypical grouping structure results. Thus the
+theory of preference rules accounts for the productivity of the system, the
+existence of family resemblances, the existence of dubious judgments,
+and the existence of stereotypical examples.
+
+To see how directly this result bears on a theory of word meanings,
+observe that the grammar of musical grouping presented in chapter 3 can
+be taken as a theory of the meaning of the term (musical) group. One
+would expect meanings of other words to be commensurately complex.
+In particular, it is plausible that the well-formedness conditions would at
+least fix the semantic field of a word. The preference rules would, among
+other things, carry out discriminations along dimensions of continuous
+variation. For example, color terms would presumably have well-
+formedness conditions identifying them as denoting colors; the exact
+discrimination among colors would be carried out by preference rules.
+On the other hand, some classes of terms might lack any interesting
+preference rules. Kinship terms, for instance (including terms of non-
+kinship like bachelor), seem to be such that well-formedness conditions
+on configurations of primitives such as male, female, descendant of, and
+spouse of largely suffice. Thus we would expect the balance between
+well-formedness and preference rules to differ from word to word, with
+well-formedness rules never entirely absent.3
+
+Other Phenomena
+We mention briefly three other areas in which the characteristics of pref-
+erence rules have been observed. One of these is phonetic perception.
+Liberman and Studdert-Kennedy (1977) speak of a “trading relation”
+among the acoustic cues that distinguish such phrases as gray ship, gray
+chip, great ship, and great chip. In particular, the duration of the silence
+after the vowel of the first word (between 0 and 100 milliseconds) and the
+duration of the fricative “sh” noise (berween 60 and 180 milli-
+seconds) must be evaluated in relation to each other in order to predict
+which phrase is heard. This behavior closely resembles the assignment of
+metrical weight in music, for example, where stress and length interact in
+similar fashion.
+
+Another area of grammar for which the notion of preference rules
+seems especially apposite is the statement of markedness conventions:
+
+Psychological and Linguistic Connections
+

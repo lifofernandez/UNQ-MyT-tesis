@@ -1,0 +1,53 @@
+266
+
+The second ambiguity in the grouping has to do with how a 3-part
+form (ABA'”) groups at the next larger level. There are three possibilities:
+ABA'=AB+A"=the piece, ABA'=A+BA"=the piece, or ABA'=the piece
+(no two-part division). The last possibility is the least interesting because
+it gives the least structure, so we will disregard it. That leaves AB+A' or
+A+BA'. The problem again concerns which segments are to be construed
+as parallel. In 10.12, are measure 1 and measure 12 parallel beginnings
+(in which case the form is AB+A/), or are measures 6—7 and measures
+16-19 parallel endings (in which case the form is A+BA')? (As discussed
+in note 2 to chapter 9, the same issue arises with sonata form, historically
+as well as analytically.) Here we have chosen AB+A”, largely because the
+B section (measures 8-11) strongly prolongs the V in measures 5—7
+(GPR 7). But the real point is the ambiguity itself. The rhyme scheme
+(aab/ccb) and the rhythmic patterns in the voice support the parallelism
+berween measures 6-7 and 16-19 (A+BA”), whereas the narrative
+structure of the first verse?—the forthright action of the first poetic line,
+three anxious questions in the second to fifth lines, followed by the ap-
+parent resolution of the sixth line— favors the grouping together of mea-
+sures 511 and the parallelism of measure 1 and measure 12 (AB+A”).
+Schubert has it both ways.5
+
+A consequence of the AB+A' grouping is that the final cadence (mea-
+sures 11-12) does not function in the time-span reduction (10.12) at any
+grouping level smaller than the piece itself. This seems intuitively correct,
+since when the I arrives in measure 12 it seems like the beginning of the
+reprise (A”), not the structural ending. This peculiar musical situation
+originates in the dramatic situation, which is best discussed after an
+examination of the prolongational reduction.
+
+Included with the prolongational tree in 10.13 are the hypermetrical
+structure and the AB+A' grouping levels. Bar lines are added at measure
+S and measure 12 to emphasize that these are the points of structural
+arrival (V and I, respectively); motivic detail (as well as the rhyme
+scheme) supports the association of these two moments. The tree brings
+out these connections by describing measures 5—11 as a V prolongation
+and measures 12-19 as a corresponding I prolongation. Thus, from the
+vantage of prolongational analysis, the final cadence actually begins at
+measure 5. For this assignment to be made, closeness of pitch connection
+(PRPR 3) (the strong right prolongation of the V in measures 5—11) must
+override time-span importance (PRPR 1), since the V in measure 11 is one
+level more important than the V in measure 6 in the time-span reduction.
+
+The difficulty with this analysis is that the V in measures 5—6 feels like
+a half cadence, not part of the final cadence. For the rules to predict this
+intuition, the alternative grouping A+BA' must be adopted to create a
+time-span reduction in which the Vs in measures 6 and 11 separate at the
+next smaller level. Then, with added support from PRPR 2 (congruence),
+PRPR 1 can override PRPR 3. The result appears in 10.14 (sketched at a
+
+Chapter 10
+

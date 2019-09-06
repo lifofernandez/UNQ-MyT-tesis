@@ -1,0 +1,51 @@
+72
+
+ 
+
+To accommodate this analysis, MWERs 1 and 2 must be slightly modified
+as follows:
+
+MWER 1 (revised) Every attack point must be associated with a beat at
+the smallest metrical level present at that point in the piece.
+
+MWER 2 (revised) Every beat at a given level must also be a beat at all
+smaller levels present at that point in the piece.
+
+This modification is still not quite enough to deal with the Brahms
+example (4.5), since the quarter-note tactus cannot be subdivided in a
+uniform way throughout the passage, as required by MWER 4. The intu-
+ition behind the tactus, however, is that its subdivision can be relatively
+free, whereas the alternation between strong and weak beats of the tactus
+is relatively fixed. This suggests that MWEFR 4 be weakened for subtactus
+levels. The revised version of MWER 4 is the point in the well-formedness
+rules where the tactus is explicitly mentioned:
+
+MWER 4 (revised) The tactus and immediately larger metrical levels
+must consist of beats equally spaced throughout the piece. At subtactus
+metrical levels, weak beats must be equally spaced between the sur-
+rounding strong beats.
+
+This revision makes the tactus the minimal metrical level that is required
+to be continuous (though there is nothing prohibiting smaller levels from
+being continuous too). It also permits the tactus to be subdivided into
+threes at one point and twos at another, as long as particular beats of the
+tactus are evenly subdivided.
+
+The quintuplet in example 4.5 still poses a problem, since MWER 3
+does not allow subdivisions into five, and since there is no possible inter-
+mediate metrical level with evenly spaced beats, as required by MWER 4.
+The correct solution here does not appear to be to allow subdivision into
+fives, since quintuplets are so rare in the metrical idiom we are consider-
+ing. Rather, there is a class of musical devices that do not receive metrical
+structure: grace notes, trills, turns, and the like. These extrametrical
+events normally are fast relative to the tactus. Intuition suggests they are
+exempt from the MWERs. The quintuplet in 4.5 appears to belong to this
+category, as do the lengthy ornamental flourishes of Chopin. A refine-
+ment to include extrametrical events is possible, but we will not pursue it
+here.
+
+It should be noted that the revised MWER 4, though it allows incom-
+mensurate subdivisions of the tactus level, prohibits them at immediately
+
+Chapter 4
+

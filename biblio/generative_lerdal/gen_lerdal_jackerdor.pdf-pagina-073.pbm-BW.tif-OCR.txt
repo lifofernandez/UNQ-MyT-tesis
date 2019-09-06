@@ -1,0 +1,56 @@
+41
+
+Metrical
+Well-Formedness
+Rules
+
+69
+
+This section first states a simple set of well-formedness rules for metrical
+structure in tonal music. It then points out a number of empirical prob-
+lems with these rules and suggests how to improve them.
+
+First approximation
+The first well-formedness rule establishes the relation of beats to attack
+points.
+
+MWER 1 Every attack point must be associated with a beat at the small-
+est level of metrical structure.
+
+The second rule establishes the relationship among metrical levels.
+
+MWER 2 Every beat at a given level must also be a beat at all smaller
+levels.
+
+Example 4.2a, in which not every note corresponds to a beat, illustrates
+a violation of MWER 1. Example 4.2b is a violation of MWER 2; the
+second beat on the largest level is not also a beat on the intermediate
+level.
+
+ 
+
+MWERs 1 and 2 are defining conditions for metrical structures and are
+universal. (However, see the next subsection for refinements.)
+
+The other MWFRs define the metrical regularities possible within a
+given musical idiom. Since metrical traditions differ, these MWERs are
+idiom-specific. Some other idioms are discussed in section 4.4. For classi-
+cal Western tonal music, the necessary rules are MWERs 3 and 4.
+
+MWER 3 At each metrical level, strong beats are spaced either two or
+three beats apart.
+
+MWER 4 Each metrical level must consist of equally spaced beats.
+
+MWER 3 prohibits analyses like 4.3a, in which strong beats on the
+smaller level are six beats apart. In order for the structure to be well-
+
+formed an intermediate level must be added, either as in 4.3b or as
+in 4,3c.
+
+4.3
+a
+(¿N! formed)
+
+Metrical Structure
+

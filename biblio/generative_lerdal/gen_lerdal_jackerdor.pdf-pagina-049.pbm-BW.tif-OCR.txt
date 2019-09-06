@@ -1,0 +1,51 @@
+45
+
+surrounded by two short notes, as in 3.14c. Thus the rule of proximity
+has two cases, designated as a and b in the following statement of
+GPR 2.
+
+GPR 2 (Proximity) Consider a seguence of four notes n ,712"13/,. All else
+
+being equal, the transition 7,—713 may be heard as a group boundary if
+
+a. (Slur/Rest) the interval of time from the end of n, to the beginning of n
+1s greater than that from the end of 7 to the beginning of ; and that
+from the end of n to the beginning of ,, or if
+
+b. (Attack-Point) the interval of time between the attack points of 1, and
+3 1s greater than that between the attack points of 7, and n and that
+between the attack points of 723 and 7,.
+
+It is important to see exactly what this rule says. It applies in 3.14 to
+mark a potential group boundary where the caret is marked. However, it
+does not apply in cases such as 3.15.
+
+3.15
+
+ 
+
+Consider 3.15a. There are two unslurred transitions, each of which might
+be thought to be a potential boundary. But since neither of these transi-
+tions is surrounded by slurred transitions, as GPR 2a requires, the con-
+ditions for the rule are not met and no potential group boundary is
+assigned. This consequence of the rule corresponds to the intuition that
+grouping in 3.15a is far less definite than in 3.14a, where GPR 2a genu-
+inely applies. Examples 3.15b and 3.15c are parallel illustrations of the
+nonapplication of GPR 2 when rests and long notes are involved.
+
+Another rule of local detail is a more complete version of the principle
+of similarity illustrated in the preceding section. Example 3.16 shows
+four cases of this principle; the first of these corresponds to the earlier
+examples of similarity.
+
+3.16
+
+ 
+
+As in 3.14, the distinctive transitions are heard between the third and
+fourth notes. What makes the transitions distinctive in these cases is
+change in (a) register, (b) dynamics, (c) pattern of articulation, and (d)
+length of notes, We state the rule in a fashion parallel to GPR 2:
+
+Grouping Structure
+

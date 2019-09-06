@@ -1,0 +1,50 @@
+41
+
+Examining simple visual perception again, we see that like shapes tend
+to be grouped together. In 3.9a the middle shape tends to form a group
+with the two left shapes, since they are all squares; in 3.9b the middle
+shape groups with the two right shapes, which are circles.
+
+3.9
+a b
+LIDdOoo LILIOOO
+
+Similarly, as Wertheimer points out, equally spaced notes will group by
+likeness of pitch. In 3.10a the middle note is grouped most naturally with
+the two left notes; in 3.10b with the two right notes (assuming all notes
+are played with the same articulation and stress and are free of contrary
+harmonic implications, since these factors can also affect grouping
+intuitions).
+
+3.10
+
+a b
+
+Considerably weaker effects are produced by making the middle note not
+identical in pitch to the outer pitches, but closer to one than the other, as
+
+in 3.11a and 3.11b. If the middle pitch is equidistant from the outer
+pitches, as in 3.11c, grouping intuitions are indeterminate.
+
+3.11
+a b c
+
+These examples have demonstrated two basic principles of visual and
+auditory grouping: groups are perceived in terms of the proximity and
+the similarity of the elements available to be grouped. In each case,
+greater disparity in the field produces stronger grouping intuitions and
+greater uniformity throughout the field produces weaker intuitions.
+
+Next consider fields in which both principles apply. In 3.12a the prin-
+ciples of proximity and similarity reinforce each other since the two
+circles are close together and the three squares are close together; the
+resulting grouping intuition is quite strong. In 3.12b, however, one of the
+squares is near the circles, so the principles of proximity and similarity
+are in conflict. The resulting intuition is ambiguous: one can see the
+middle square as part of either the left or the right group (it may even
+
+spontaneously switch, in a fashion familiar from other visually ambigu-
+ous configurations such as the well-known Necker cube). As the middle
+
+Grouping Structure
+

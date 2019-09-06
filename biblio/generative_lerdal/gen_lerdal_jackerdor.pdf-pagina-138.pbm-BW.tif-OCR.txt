@@ -1,0 +1,52 @@
+134
+
+Our first task is to see how the b and c dominate all other events in a
+phrase. There is no problem with the b: it results naturally from the
+reductional process; it is whatever emerges as the most stable event be-
+fore the cadence in a phrase. Often the b is the first event in a phrase, as in
+the Mozart K. 331 phrase (see example 5.12) or the first phrase of the
+Bach chorale; often it is the second or third event, as in the second phrase
+of the chorale (as suggested in example 6.12). More rarely it occurs in the
+middle of a phrase. The germane point is that a b is always heard as
+associated with a corresponding c; if a time-span lacks a c, then it lacks a
+b. A phrase can be characterized roughly as the smallest level of grouping
+in which there is a b andac.
+
+The treatment of cadences is more complicated, for two reasons. First,
+the half cadence or the deceptive cadence might not emerge simply on
+grounds of pitch stability as structurally important at the phrase level.
+Second, the full cadence and the deceptive cadence possess two members,
+joined together as a unit; in both, neither member would have remotely
+the same meaning if the other did not function with it. This suggests that
+in certain respects the two-membered cadence should be counted as one
+event.
+
+The Mozart K. 331 theme illustrates both points. One hears the first
+phrase as progressing from I to a half-cadential V and the second phrase
+as progressing from I to a V—I full cadence (6.14a). The tree should
+express this hearing. But unless the cadences are treated specially, the Lin
+measure 4 dominates the half cadence because its pitch structure is more
+“stable” (as discussed in section $.4); and the V in the full cadence
+already disappears at a local level because it has not been joined to the
+final I. The absurd result is sketched in the incomplete reduction in 6.14b.
+
+To avoid results such as 6.14b, we must regard cadences as signs, or
+conventional formulas, that mark and articulate the ends of groups from
+phrase levels to the most global levels of musical structure. In any well-
+established style, the repertory of cadences is very limited—for classical
+tonal music, only V—I, V, and V-vi, with occasional variants. (Because
+the plagal cadence is always an elaboration of the l in the full cadence, it
+need not be specified.) The theory can therefore “find” these signs when
+they occur at the ends of groups, and label them as functioning caden-
+tially for all the levels of grouping that terminate with them. The labeling
+retains cadences regardless of other reductional criteria, and unifies both
+elements of two-membered cadences.
+
+The need for such labeling of cadences can be approached in another
+way. If they were not labeled, global levels of reduction would simply
+calculate the duration of harmonic areas in a piece; that is, each large-
+level group would be reduced to just the tonic or local tonic. For exam-
+ple, the minuet and trio of Beethoven's Sonata op. 10, no. 3, would
+
+Chapter 6
+

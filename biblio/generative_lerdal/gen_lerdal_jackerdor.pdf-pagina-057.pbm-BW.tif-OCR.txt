@@ -1,0 +1,53 @@
+53
+
+relevant levels of the time-span reduction must also be invoked. Here
+knowledge of the idiom is often required to decide what counts as or-
+namentation and simplification. It appears that a set of preference rules
+for parallelism must be developed, the most highly reinforced case of
+which is identity. But we are not prepared to go beyond this, and we feel
+that our failure to flesh out the notion of parallelism is a serious gap in
+our attempt to formulate a fully explicit theory of musical understanding.
+For the present we must rely on intuitive judgments to deal with this area
+of analysis in which the theory cannot make predictions.
+
+The problem of parallelism, however, is not at all specific to music
+theory; it seems to be a special case of the much more general problem of
+how people recognize similarities of any sort—for example similarities
+among faces. This relation of the musical problem to the more general
+problem of psychology has two consequences. On one hand, we may take
+some comfort in the realization that our unsolved problem is really only
+one aspect of a larger and more basic unsolved problem. On the other
+hand, the hope of developing a solution to the musical problem in terms
+of the preference-rule formalism suggests that such a formalism may be
+more widely applicable in psychological theory.
+
+Remarks on Formalism
+
+Some readers may be puzzled by our assertion that grouping well-
+formedness rules 1-5 and grouping preference rules 1-7 constitute a
+formal theory of musical grouping. There are two respects in which our
+theory does not conform to the stereotype of a formal theory. First, the
+rules are couched in fairly ordinary English, not in a mathematical or
+quasimathematical language. Second, even ¡f the rules were translated
+into some sort of mathematical terms they would not be sufficient to
+provide a foolproof algorithm for constructing a grouping analysis from
+a given musical surface. This seems an appropriate place to defend our
+theory against such possible criticisms.
+
+The first criticism is rather easily disposed of. As we have said above,
+our interest is in stating as precisely as possible the factors leading to
+intuitive judgments. Mathematicization of the rules rather than precise
+statement in English is useful only insofar as it enables us to make more
+interesting or more precise predictions. Consider the grouping well-
+formedness rules, which together define a class of hierarchical grouping
+structures connected in a simple way to musical surfaces. One could
+presumably translate these rules into the mathematical language of set
+theory or network theory without difficulty. But no empirical content
+would be added by such a translation, since there are no particularly
+interesting theorems about sets or networks that bear on musical prob-
+lems. In fact, the adoption of such a formalism would only clutter our
+exposition with symbolic formulas that would obscure the argument.
+Hence we have chosen to state our rules in ordinary English, but with
+
+Grouping Structure
+

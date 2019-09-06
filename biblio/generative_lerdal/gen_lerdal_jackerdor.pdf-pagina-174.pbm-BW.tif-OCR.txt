@@ -1,0 +1,60 @@
+170
+
+Returning to the refinement of TSRPR 7, we can now stipulate that a
+progression counts as a cadence only ¡f it functions as structural ending
+for a group. More precisely, there must be a cadenced group G that has a
+reductional level consisting of one other event (the b) followed by the
+progression in question. If such a level does not exist in the reduction, an
+apparent cadential progression (such as the first V—I in 7.24) does not
+perform the function of articulating a group ending. This condition 1s
+global, in that it depends on the outcome of higher-level analysis.
+
+These considerations can be summed up in a final statement of the
+preference rule for cadences:
+
+TSRPR 7 (Cadential Retention) If the following conditions obtain in a
+
+time-span T, then label the progression as a cadence and strongly prefer
+
+to choose it as head:
+
+i. There 1s an event or sequence of two events (e1)e, forming the pro-
+
+gression for a full, half, or deceptive cadence.
+
+i. The last element of this progression is at the end of T or is prolonged
+to the end of T.
+
+ili. There is a larger group G containing T for which the progression can
+function as a structural ending.
+
+Retention of Structural Beginnings
+The articulation of structural beginnings of groups is in part symmetrical
+to the use of cadences at the ends of groups. But since there are no
+formulaic progressions to mark the beginnings of groups, a preference
+rule for structural beginnings need contain no condition analogous to
+condition ¡ of the cadence rule. Moreover, though the resolution of a
+cadence must be prolonged to the end of its group, a structural beginning
+may be preceded by contrasting material.
+
+However, groups in which the structural beginning is not near the
+actual beginning are felt as distinctly less stable. There seems to be a
+preference for the structural beginning to be near the beginning:
+
+TSRPR $ (Structural Beginning) If, for a time-span T, there is a larger
+group G containing T for which the head of T can function as structural
+beginning, then prefer as head of T an event relatively close to the begin-
+ning of T (and hence to the beginning of G as well).
+
+Note the parallelism between the condition in this rule and condition
+ili of the cadence rule above. They are both “top-down” conditions,
+concerning the function of the chosen event within the larger structure of
+the piece. It is these two rules that embody the importance of structural
+beginnings and endings of groups within the present theory of musical
+grammar.
+
+Examples To make the operation of TSRPRs 7 and 8 clearer, let us work
+through the larger levels of reduction for some examples. We begin with a
+
+Chapter 7
+

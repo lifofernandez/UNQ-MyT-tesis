@@ -1,0 +1,53 @@
+300
+
+Overlapping as well as vertical, horizontal, and diagonal configurations
+would have to be allowed. Then, out of these possible segmentations,
+preference rules would select sets actually heard by the experienced lis-
+tener. Here parallels to the grouping principles of proximity (GPR 2),
+similarity (GPR 3), and parallelism (GPR 6) would be relevant. Sets se-
+lected at the smallest level would then be related to one another, or
+combined into larger sets, according to principles of relatedness already
+partly developed in the atonal theoretical literature. There would un-
+doubtedly be interaction between choice of larger-scale sets and grouping
+structure as developed here.
+
+A further step might involve partial pitch hierarchies. By implication,
+current atonal set theory regards all pitches contained within a set as
+somehow equal. To the ear, however, this is not so. Even without a
+general scale of pitch stability, structural importance tends to be attrib-
+uted to events perceived as salient at the musical surface (for example,
+events that are loud in their contexts, or notes at registral extremes). In
+other words, structural importance in atonal music may be induced in
+large part from phenomenal accent. The most salient event in a set could
+thus be analyzed as its head. In turn, the heads of contiguous sets might
+go on to form sets at the next level. Unlike the events at the smallest level,
+these events would not have to be contiguous at the musical surface. Thus
+we would arrive at a kind of reduction of the piece, stated over set
+structure instead of time-span segmentation. But it is doubtful that such
+reductions could be carried very far.
+
+To pursue these ideas further would take us beyond the scope of this
+book. We have tried only to show how our approach might bear on
+atonal theory. Most theory about contemporary music has been occupied
+either with the description of compositional systems or with the sys-
+tematization of analytic procedures not directly related to the listener's
+understanding. Our approach emphasizes that there is a crucial distinc-
+tion between the principles by which a piece is composed and the prin-
+ciples by which it is heard (that is, those that permit the listener to
+construct a mental representation of the piece). As theorists, we are con-
+cerned only with the latter.
+
+The relevance of this distinction to the description of atonal and serial
+music pertains with equal or greater force to probabilistic methods of
+composition, to aleatoric methods, to serialism extended to the rhythmic
+dimension, or to any other procedures that do not directly engage the
+listener's ability to organize a musical surface. In each of these cases, the
+gulf berween compositional and perceptual principles is wide and deep:
+insofar as the listener's abilities are not engaged, he cannot infer a rich
+organization no matter how a piece has been composed or how densely
+packed its musical surface is. It is in this sense that an apparently simple
+Mozart sonata is more complex than many twentieth-century pieces that
+at first seem highly intricate.
+
+Chapter 11
+

@@ -1,0 +1,44 @@
+48
+
+In order to make clearer the application of the preference rules, we
+examine their application to 3.19. Consider first the seguence from notes
+2 to 5. The time between attack points of 2 and 3 is an eighth, and so is
+that between 4 and 5; that between 3 and 4 is a quarter. Therefore the
+conditions of the attack-point rule (GPR 2b) are met and a potential
+group boundary is marked at transition 3-4. Similar considerations
+motivate all the rule applications marked. On the other hand, one might
+be tempted to think that the slur/rest rule (GPR 2a) would mark a poten-
+tial boundary between 2 and 3. However, since there is no slur at transi-
+tion 3—4 either, the conditions for the rule are not met and no boundary
+is marked.
+
+Next observe that, with three exceptions, the potential group bound-
+aries marked by GPRs 2 and 3 in 3.19 correspond to the intuitively
+perceived group boundaries designated in 3.1 (repeated here).
+
+ 
+
+The exceptions are at transitions 8-9, 9-10, and 18-19, at which the
+rules mark potential boundaries but none are perceived. Transition 9-10
+is easily disposed of. Because GPR 1 strongly prefers that note 10 alone
+not form a group, a boundary must not be perceived at both 9-10 and
+10-11. Thus one of the rule applications must override the other. Exam-
+ple 3.18c showed a similar conflict between GPRs 2a and 3a. There the
+former rule overrode the latter, even with a relatively shorter rest. Hence
+GPR 2a should predominate here too. Further weight is put on transition
+10—11 by the attack-point rule, GPR 2b, so the application of GPR 3a at
+9-10 is easily overridden.
+
+Let us ignore transitions 8-9 and 18-19 for the moment. The remain-
+ing transitions marked by GPRs 2 and 3 are exactly the group boundaries
+of the lowest level of grouping in example 3.1: 3-4, 6-7, 10-11, 13-14,
+and 16-17. Thus the bizarre grouping analysis a in example 3.5 (re-
+peated here), though permitted by the well-formedness rules, 1s shown by
+GPRs 1-3 to be a highly nonpreferred grouping for the passage.
+
+12 3 456 78 9 10 11 12 13 /415/617 1819 20
+
+ 
+
+Chaprer 3
+

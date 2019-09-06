@@ -1,0 +1,58 @@
+6.6
+
+A Complete
+Time-Span
+Reduction
+
+142
+
+In this section we will present a time-span reduction of the chorale “O
+Haupt voll Blut und Wunden” from Bach's St. Matthew Passion. Exam-
+ple 6.24 gives one of Bach's harmonizations of the chorale; 6.25 supplies
+its time-span reduction. To avoid a thicket of branches, we have already
+reduced the music in 6.25 to the quarter-note level. The repeat has been
+written out for reasons that will be explained in a moment.
+
+Some details in the secondary notation in 6.25 require explanation.
+First, the events at global levels are notated merely in black note-heads
+because at these levels there are no longer any dots in the metrical analy-
+sis with which durational values could be associated. This is our equiv-
+alent to Schenker's dictum (1935, paragraph 21) that rhythm does not
+exist at background levels. The critical factor here is the fading of the
+perception of meter over large time-spans. Second, at local levels we do
+not displace an event metrically beyond an aurally plausible point (evi-
+dently the tactus is a factor in this regard). For example, the V in measure
+2 is heard as rhythmically delayed by the preceding ii$, so we place it
+beneath the ii£ at level f. But at level e it does not seem meaningful to say
+that the I in measure 2 has been delayed by the immediately preceding V,
+so we retain the original vertical alignment of the I. In any case, regard-
+less of whether an event is displaced, we give it the full durational value
+(at local levels) of the time-span for which it stands. By this notational
+compromise, readers may hear the various levels in the presented dura-
+tional values without being under the misapprehension that events
+“really” belong somewhere else.
+
+The reduction itself proceeds for the most part in a straightforward
+manner, but a few features deserve comment, First, observe that the
+functioning harmony at beat 3 of measure 11, a root-position E minor
+chord, is not in fact present at the musical surface because the suspension
+in the alto resolves only after the bass has changed. To reduce this pas-
+sage correctly, we have inserted this understood chord (by a transforma-
+tional rule that will be introduced in section 7.2) and treated it as head of
+the relevant time-span. Second, this same E minor chord is retained at
+levels e and d not because it is cadentially labeled—rhis phrase ends in a
+half cadence—but because itis structurally parallel to such labeling in all
+the other phrases. Third, the preference rules (developed in sections 7.3
+and 7.4) conflict as to whether the B minor chord in measure 8 or the
+D major chord in measure 10 dominates the phrase in measures 8-10
+(see level d). The former is next to a larger grouping boundary and is
+more stable within the harmonic context of measures 7—12; the latter is
+more stable within the context of the whole. We have made the B minor
+chord dominate in the tree, but have hinted at the alternative in the
+secondary notation.
+
+This conflict does not point to a deficiency in the rules, but represents a
+truly ambiguous musical situation that pertains to the piece as a whole.
+
+Chapter 6
+

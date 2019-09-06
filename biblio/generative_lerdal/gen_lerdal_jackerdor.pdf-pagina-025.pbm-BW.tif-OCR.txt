@@ -1,0 +1,52 @@
+21
+
+six metrical levels in a piece. The notated meter is usually a metrical level
+intermediate between the smallest and largest levels applicable to the
+piece.
+
+However, not all these levels of metrical structure are heard as equally
+prominent. The listener tends to focus primarily on one (or two) inter-
+mediate level(s) in which the beats pass by at a moderate rate. This is the
+level at which the conductor waves his baton, the listener taps his foot,
+and the dancer completes a shift in weight (see Singer 1974, p. 391).
+Adapting the Renaissance term, we call such a level the tactus. The
+regularities of metrical structure are most stringent at this level. As the
+listener progresses away by level from the tactus in either direction, the
+acuity of his metrical perception gradually fades; correspondingly,
+greater liberty in metrical structure becomes possible without disrupting
+his sense of musical flow. Thus at small levels triplets and duplets can
+easily alternate or superimpose, and at very small levels—imagine, say, a
+cascade of 32nd notes— metrical distinctions become academic. At large
+levels the patterns of phenomenal accentuation tend to become less dis-
+tinctive, blurring any potentially extrapolated metrical pattern. At very
+large levels metrical structure is heard in the context of grouping struc-
+ture, which is rarely regular at such levels; without regularity, the sense of
+meter is greatly weakened. Hence the listener's ability to hear global
+metrical distinctions tapers and finally dies out. Even though the dotsin a
+metrical analysis could theoretically be built up to the level of a whole
+piece, such an exercise becomes perceptually irrelevant except for short
+pieces. Metrical structure is a relatively local phenomenon.
+
+Problems of Large-Scale Metrical Structure
+It may be objected that the listener measures and marks off a piece at all
+levels, and that metrical structure therefore exists at all levels of a piece.
+For example, the listener marks off a sonata movement into three parts;
+the time-spans created by these divisions form the piece's basic propor-
+tions. In reply, we of course acknowledge such divisions and proportions;
+the question is whether these divisions are metrical, that is, whether the
+listener senses a regular alternation of strong and weak beats at these
+levels. Does he really hear the downbeat beginning a recapitulation as
+metrically stronger than the downbeat beginning the development, but
+metrically weaker than the downbeat beginning the exposition? We argue
+that he does not, and that what he hears instead at these levels is grouping
+structure together with patterns of thematic parallelism, cadential struc-
+ture, and harmonic prolongation. As will be seen, all these factors find
+their proper place in our theory as a whole, and together account for the
+sense of proportion and the perception of relative large-scale “arrival” in
+a piece.5
+
+To illustrate the difficulties involved in large-scale metrical analysis, let
+us see how far we can carry the intuition of metrical structure in a not
+
+Rhythmic Structure
+

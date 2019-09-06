@@ -1,0 +1,58 @@
+78
+
+4.17
+
+a
+
+(í)(E)E 7 $
+
+333
+
+3
+
+quirements of parallelism must have strong beats at the eighth-note level
+spaced two beats apart; the two possibilities are given as structures ¿ and
+di. Structure ¿ contains only one violation of MPR 3 per four beats;
+structure ¿ contains two. Therefore MPR 3 predicts, in conformance with
+intuition, that structure ¿ should be the more stable of the two.
+
+Because the regularity of 4.16b involves a span of four eighths, there is
+an additional metrical level to account for. Example 4.17a gives the two
+possible half-note levels for structure ¿ of 4.16b; example 4.17b gives
+them for structure úi.
+
+b
+PREN POCIERETEOOT
+33 323 . 333 3339 333
+»* , ; * -“Íua”y * ;g - * * * , ,f * Z(Fr'?f€rréd)
+X * preferres) . ,
+KO Uy la » )d (les prenre)
+* 7 * . * * . '
+
+In 4.17a every beat at the quarter-note level coincides with an attack,
+Hence either choice for the half-note level results in alternate violations
+of MPR 3 (marked by asterisks at the half-note level), and structures ¿ and
+ii are predicted to be commensurate in naturalness, In 4.17b, on the other
+hand, beats of the quarter-note level fall alternately on attacks and rests,
+Hence structure ¿, with half-note beats falling on attacks, produces no
+new violations of MPR 3; but structure z/, with half-note beats falling on
+rests, does produce further violations. The result is that structure ¿ is
+predicted to be more natural than structure úí,
+
+Having demonstrated the behavior of MPR 3 with respect to a number
+of rhythmic configurations, we now consider another source of metrical
+differentiation with similar properties: local stress (accent). By local
+stress we mean extra intensity on the attack of a pitch-event. We include
+as kinds of stress not only those marked by the signs > and A, but also
+those indicated by sf, rf, fp, and subito f. In a regular sequence of at-
+tacked notes, those with stress will preferably be heard as strong beats, In
+4.18, for instance, one most naturally hears structure 7; structure %í is
+heard as syncopation or cross-accent,
+
+4.18
+pebicho
+
+ci
+
+Chapter 4
+

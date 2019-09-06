@@ -1,0 +1,50 @@
+51
+
+GPR 6 (Parallelism) Where two or more segments of the music can be
+construed as parallel, they preferably form parallel parts of groups.
+
+The application of GPR 6 to 3.22 is obvious: the maximal parallelism is
+achieved if the “motive” is three notes long in 3.22a and four notes long
+in 3.22b.
+
+However, consider what happens if a contrary articulation is applied
+to 3.22a, as in 3.23.
+
+3.23
+
+ 
+
+One's intuition is that a grouping into threes is now relatively unnatural.
+The theory accounts for this as follows: the slur/rest rule places rather
+strong potential group boundaries in 3.23 after every fourth note, where
+the slurs are broken; thus each of the three-note segments so obvious in
+3.22a comes to have an internal group boundary in a different place.
+Since motivic parallelism requires (among other things) parallel internal
+grouping, 3.23 cannot be segmented into three-note parallel groups
+nearly as easily as 3.22a can. Thus GPR 6 either is overridden by the
+slur/rest rule or actually fails to apply.
+
+GPR 6 says specifically that parallel passages should be analyzed as
+forming parallel parts of groups rather than entire groups. Itis stated this
+way in order to deal with the common situation in which groups begin
+in parallel fashion and diverge somewhere in the middle, often in order
+for the second group to make a cadential formula. (More rarely, paral-
+lelism occurs at ends of groups.) A clear example is 3.24, the opening of
+Beethoven's Quartet op. 18, no. 1.
+
+ 
+
+GPR 6, reinforced by the slur/rest rule, analyzes the first four measures as
+two two-measure groups. The fifth measure resembles the first and third,
+but at that point the similarity ends. If GPR 6 demanded total parallelism
+it could not make use of the similarity of measures 1, 3, and 5. But as we
+have chosen to state the rule above, it can use this parallelism to help
+establish grouping.
+
+In the Mozart example (3.19), GPR 6 has two effects. First, it reinforces
+the intensification and symmetry rules in assigning the major grouping
+division at the middle of the passage. Second, recall that GPR 2a, the
+slur/rest rule, marks a possible group boundary at transitions 8-9 and
+
+Grouping Strucrure
+

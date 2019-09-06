@@ -1,0 +1,62 @@
+Chapter 6
+
+Chapter 7
+
+339
+
+8. Schenker's (1925, 1935) more complex solution for the first “evenr” is dis-
+cussed briefly in section 7.3 and more extensively in section 10.4, Such refine-
+ments may be disregarded at this stage of our presentation.
+
+2. The conception of time-span reduction is not new with us, though a number of
+refinements are totally our own. To our knowledge, the time-span approach to
+reduction has been developed, in various ways and to varying degrees, by Barnett
+(1972), Komar (1971), Lewin (1974), Schachter (1980), Westergaard (1975), and
+Yeston (1976). Our particular inspiration, for which we are most grateful, was
+Lewin's unpublished essay on Schubert's song “Morgengruss.”
+
+10. Schachter 1976 (pp. 330—334) also draws attention to this characteristic
+conflict in “groupings.”
+
+1. Lewin 1974, Komar 1971, and Schachter 1980 are examples of a metrical
+approach to time-span reduction. Schachter restrices his version of time-span re-
+duction (called “durarional reduction”) to relatively short and regular examples
+in order to avoid hypothetical constructions. None of these works addresses the
+question of out-of-phase passages.
+
+2. Schenker himself wavers on this issue. In Der freie Satz (figure 21; paragraph
+90) he advocates the interrupted V, but many of his graphs (such as the one of
+Bach's chorale “Ich bin's .. .” in Schenker 1932) prescribe the final V. Komar
+(1971), in keeping with his “background” metrical theory, appears to favor any
+salient V thar approximatrely bifurcates the passage in question (see the analysis in
+the appendix of Komar 1971 of the slow movement of Beethoven's Pathétique
+Sonata). Schachter (1976, pp. 290-298) argues eloquently against the necessary
+association of structurally important events with roughly equal time-spans; yer he
+concedes (1980, pp. 211—-214) that when a centrally located V is sufficiently
+prolonged near the musical surface, it might serve as the structura| dominant. We
+think this concession confuses surface salience with reducrional funcrion.
+
+1. Even in recitative and similar metrically unstructured music, the sequence of
+atrack points produces a minimal, possibly irregular, metrical level in terms of
+which time-spans can be defined. However, such music often has a less highly
+articulated hierarchy of time-spans than metrically more structured music.
+
+2. Example 7.8 contains several examples of a notarional abbreviation we have
+adopted. Where a particular beat determines both a regular and an augmented
+time-span, only the reduction of the latter 1s given in the secondary notation. On
+the other hand, the tree indicates the complete reduction. For example, the re-
+duction of the first three sixteenths takes place in two steps: the A and the B are
+reduced to B alone in the regular time-span marked 2w; then the G and the B are
+reduced to G alone in the augmented rime-span marked x. The branching in the
+tree reflects these two steps, bur the musical notarion shows only the ourcome of
+the second step.
+
+3. In the case of a melody accompanied by an Alberti bass, the bass undergoes
+fusion while the melody undergoes ordinary reduction. Although the intuitions
+are clear, we have not attempted to incorporate such situations into our theory,
+for the same reasons we avoided contrapuntal grouping structures: a formalism
+to represent independent structures for separate voices becomes much too0 cum-
+bersome to work with.
+
+Notes to pp. 118-154
+

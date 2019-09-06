@@ -1,0 +1,55 @@
+177
+
+The reduction of the preintroduction, however, follows different lines.
+First, return to the reduction of measure 1. Though measure 1 contains
+the correct sequence of chords to form a cadence, it is not the c for any
+larger group; so, as in measures 1—2 of the Chopin prelude in 7.24, the
+cadence cannot be retained as a whole. The head of the measure will form
+the b of group 1--2; thus TSRPR 38 applies, creating a preference for the
+first chord, a V7IV, as head. But this chord is less stable than the IV
+following it, on grounds of both intrinsic consonance (TSRPR 2) and
+harmonic connection to the next time-span (TSRPR 6). The combination
+of these two factors accounts for the choice of the IV in level e 0f 7.28.
+
+Next consider the reduction of the preintroduction from level e to level
+d. The head of group 1—2 will form a b for group 1-4, so TSRPR 8
+applies, choosing the IV in measure 1 over the deceptive cadence in
+measure 2. In addition, the IV is harmonically more stable than the vi,
+reinforcing this choice. In group 3-4 the V is chosen as head, on all
+possible grounds.
+
+In reducing from level d to level c, we first note that the head of group
+1-4 will function as the b for the entire introduction; hence TSRPR 8
+favors the IV chord. Moreover, since the head of this group will not form
+the c for a larger group, there is no pressure from TSRPR 7 to retain the V
+in a cadential role. On the other hand, the V is in a stronger metrical
+position and harmonically closer to the tonic, and it forms a more stable
+progression with the V7 following it in measure 5. These three factors
+appear to override TSRPR 8. Hence, as in the reduction of measure 1, the
+final event rather than the initial event is chosen as head.
+
+Finally, in reducing from level b to level a—finding the head of the
+entire introduction—we confront exactly the same situation: the V
+chord representing the preintroduction is less stable than the I represent-
+ing the cadence of the entire passage. Thus, despite the fact that TSRPR 8
+would prefer the V, the T is chosen as head.
+
+In the reduction as a whole, the picture emerges of a series of be-
+ginnings that turn out to be not structural beginnings but structural
+anacruses: first the initial V7/IV, then its resolution, then the V at the end
+of the preintroduction. The “real” beginning of the piece—the event to
+which all that precedes is subordinate—is the final I of the introduction,
+which overlaps with the first event of the allegro. This characteristic of
+the passage is revealed by the predominance of left branching in the tree.
+
+The introduction to Beethoven's Second Symphony presents an inter-
+esting contrast to the analysis just developed, in spite of their similar
+large-scale grouping structures. Because its first event is a tonic, there is
+never a harmonic reason to select anything else as the b, as there is in
+7.28. Hence TSRPR 8 consistently is reinforced by harmonic factors and
+can select the initial [ as the b of all the cadenced groups it belongs to. As
+a result, this introduction lacks the embedded structural anacruses found
+in the First Symphony.
+
+Formalization of Time-Span Reduction
+

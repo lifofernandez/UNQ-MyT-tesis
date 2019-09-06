@@ -1,0 +1,58 @@
+12.3
+
+A Deep Parallel
+Between Music
+and Language
+
+314
+
+conditions that establish preferred forms for rules of grammar but may
+be violated by particular grammars. Principles of markedness have been
+appealed to especially in phonology (see, for example, Trubetzkoy 1939;
+Chomsky and Halle 1968), but syntactic theory has also often made use
+of the characteristic marked-unmarked distinction. A more general form
+of markedness conventions is the evaluation metric for grammars, pro-
+posed by Chomsky (1965). The evaluation metric embodies a set of
+preferences that enable the child to choose a grammar from among nu-
+merous possibilities, where the choice is underdetermined by the linguis-
+tic evidence available to the child. It is a fundamental component of
+contemporary theories of generative grammar.
+
+Finally, the theory of parsing strategies — part of the study of linguistic
+performance—has frequently made use of heuristic strategies that make
+a “best guess” about the structure of a sentence being processed (see
+Kimball 1973; Wanner and Maratsos 1978; J. D. Fodor 1978). Again,
+preference-rule-like behavior is clearly observable, in the way that syn-
+tactic and semantic evidence interact to determine which of many poten-
+tial structures is to be selected.
+
+Thus, although the general notion of preference rules and the charac-
+teristics of preference-rule systems have not been recognized as such
+within linguistic theory, a number of linguistic phenomena do display the
+requisite properties. In general, generative linguistics, perhaps because of
+its historical roots in the theory of computability, has stressed only the
+contribution of well-formedness rules. By contrast, much research on
+vision has concentrated on the equivalent of preference rules. The theory
+of musical cognition developed here highlights the necessity for both
+types of rules, not only for music, but for language and vision as well.
+
+This section will show that the formalism developed in chapters 5—7 to
+express time-span reduction is a notational variant of a formalism in
+linguistics called prosodic structure. After demonstrating the relationship
+we will ask whether the relationship is an accident or whether it rests on a
+principled basis. In an effort to answer this question we will compare the
+theory of prosodic structure with the theory of time-span reduction. Our
+conclusion will be that these theories are closely related in form, though
+not in substance. The implications of this parallel for more gen-
+eral issues of cognition are discussed in the last part of this section.
+
+Prosodic Structure
+
+The theory of phonology has traditionally assumed that the sound pat-
+tern of language is determined simply in terms of the linear string of
+phonological segments (or phonemes). However, under this assumption
+(developed in greatest detail in Chomsky and Halle 1968) many phe-
+nomena of stress placement, stress subordination, vowel harmony (in
+
+Chapter 12
+

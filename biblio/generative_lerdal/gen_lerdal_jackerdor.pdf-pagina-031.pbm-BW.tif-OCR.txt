@@ -1,0 +1,48 @@
+27
+
+not that a given group is stronger or weaker than another group, but
+rather that the strongest beat in a given group is stronger or weaker than
+the strongest beat in another group. These relationships are represented
+accurately in 2.12.
+
+If level 2 in 2.13 was problematic, level 3 is doubly so. Here the
+“accent” covers measures 5—8, presumably because of the “cadential
+weight” at measure 8. Thus the sign “—”, which at level 1 stood for
+metrical accent, now signifies structural accent. Whether or not this
+structural accent should coincide with a large-scale metrical accent (we
+think not, for reasons discussed in the next section), it clearly does not
+spread over the 4-bar group.
+
+These (and other) difficulties in 2.13 derive from a common source.
+The methodology of Cooper and Meyer—an adaptation from traditional
+prosody —requires that any group contain exactly one strong accent and
+one or two weak accents, and any larger-level group must fill its accen-
+tual pattern by means of accents standing for exactly two or three
+smaller-level groups. Thus only two levels of metrical structure (“—” and
+“—”) can be represented within any group, regardless of the real metrical
+situation. Far more serious, however, is that this procedure thoroughly
+interweaves the properties of, and the analysis of, grouping and meter.
+Once these components are disentangled and analyzed separately, as in
+2.12, all these difficulties disappear.*
+
+To illustrate briefly the kind of analytic insight that can emerge from
+our proposed notation for grouping and meter, let us look again at the
+opening of Mozart's G Minor Symphony (2.14a), this time with both
+structures indicated. Examples 2.14b and 2.14c isolate fragments of the
+analysis for comparison. lt is significant that the metrical structure of the
+first wo-measure group (2.14c) is identical with that of the initial motive
+(2.14b), but at larger metrical levels. No doubt the theme as a whole
+sounds richer, more “logical,” because of this rhythmic relationship.
+
+2.14
+
+a
+rY
+--
+
+ 
+
+ 
+
+Rhythmic Structure
+
