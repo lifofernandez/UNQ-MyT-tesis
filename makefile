@@ -31,7 +31,6 @@ render:
 	make props
 	make comentarios
 	make tex 
-	make pdf
 	make pdf # quick fix: table of contents.
 	firefox output.pdf
 	

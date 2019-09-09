@@ -573,8 +573,8 @@ provee un criterio para proceder.
 En esta segunda sección
 se introduce el método de ejecución
 % diagramando la investigación
-que se pueden distinguir en tres etapas,
-una etapa preparatoria, dedicada a investigación, experimentación y pruebas,
+que se pueden distinguir/descomponer en tres etapas,
+una preparatoria, dedicada a investigación, experimentación y pruebas,
 que deviene en la fase de producción en si
 y culmina con un etapa de corrección
 y arreglo de errores y defectos.
@@ -608,40 +608,53 @@ se gráfica el mismo.
 % Descripción general de la investigación
 
 ## Análisis 
-% Un periodo preparatorio dedicado a investigación, experimentación y pruebas
 
-A partir de la inquietud inicial y del análisis de
-% el procedimiento posible complicación alguna
-% en gran medida, puede ser parametrizada[^ver_lerdahl]. pagina 36, capitulo 3, Groupig structur
+Ahora describe las experiencias tempranas 
+necesarias para evidenciar y comprobar
+que el proyecto en cierto modo fuese realizable
+y definir el camino a seguir.
 
-primeras concluciones 
+A partir de las inquietudes presentadas anteriormente,
+se propuso como primero objetivo establecer 
+un conjunto reducido de parámetros asociados a 
+propiedades básicas definir un grupo articulaciones
+(altura, duración, intensidad)
+que compongan un discurso musical austero y moderado. 
 
-Primero: elegir un formato de serialización,
-  premisa que sea legible y adoptado
+Como paso siguiente, 
+y luego un script sencillo que produzca secuencias 
+midi en base a esas definiciones.
 
-Luego: arma un script sencillo que a partir del analisis,
-el producto del parser
-codifique una secuencia de eventos midi
-un codificador midi
+
+
 
 ### Boceto de Sintaxis
-El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
-cada parte instrumental.
+
+Primero: elegir un formato de serialización,
+premisa que sea legible y adoptado
+
 
 % como unidad de sentido
-
 
 % flujos de manipulaciones complejas
 % Si bien estas razones son agnósticas a un fin,
 % representar (con cierto grado de arbitrariedad) 
 % información de significancia musical estudio,
 
+% El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
+% cada parte instrumental.
 
+% en gran medida, puede ser parametrizada[^ver_lerdahl]. pagina 36, capitulo 3, Groupig structur
+% [^ver_lerdahl]: @lerdahl Pagina 3: Capitulo 3, Grouping Structure
+% [^ver_lerdahl]: @lerdahl Pagina 36: Capitulo 3, Grouping Structure
 
-
-[^ver_lerdahl]: @lerdahl Pagina 3: Capitulo 3, Grouping Structure
-%[^ver_lerdahl]: @lerdahl Pagina 36: Capitulo 3, Grouping Structure
 ### Prototipo en Perl
+
+Luego: arma un script sencillo que a partir del analisis,
+el producto del parser
+codifique una secuencia de eventos midi
+un codificador midi
+
 
 ## Desarrollo 
 

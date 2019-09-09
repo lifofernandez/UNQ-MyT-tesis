@@ -221,9 +221,6 @@ hay que justificar la adompcion de midi
 sencillamente, es el unico estandar al dia y el unico q se proyecta a futuro.
 
 
-
-
-
 ## Motivación 
 
 
@@ -509,8 +506,8 @@ provee un criterio para proceder.
 
 En esta segunda sección
 se introduce el método de ejecución
-que se pueden distinguir en tres etapas,
-una etapa preparatoria, dedicada a investigación, experimentación y pruebas,
+que se pueden distinguir/descomponer en tres etapas,
+una preparatoria, dedicada a investigación, experimentación y pruebas,
 que deviene en la fase de producción en si
 y culmina con un etapa de corrección
 y arreglo de errores y defectos.
@@ -541,25 +538,42 @@ se gráfica el mismo.
 
 ## Análisis 
 
-A partir de la inquietud inicial y del análisis de
+Ahora describe las experiencias tempranas 
+necesarias para evidenciar y comprobar
+que el proyecto en cierto modo fuese realizable
+y definir el camino a seguir.
 
-El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
-cada parte instrumental.
+A partir de las inquietudes presentadas anteriormente,
+se propuso como primero objetivo establecer 
+un conjunto reducido de parámetros asociados a 
+propiedades básicas definir un grupo articulaciones
+(altura, duración, intensidad)
+que compongan un discurso musical austero y moderado. 
 
-primeras concluciones 
+Como paso siguiente, 
+y luego un script sencillo que produzca secuencias 
+midi en base a esas definiciones.
 
-primero: elegir un formato de serialización,
-  premisa que sea legible y adoptado
-
-luego: arma un script sencillo que a partir del analisis, el producto del parser
-codifique una secuencia de eventos midi
-un codificador midi
 
 
 
 ### Boceto de Sintaxis
 
+Primero: elegir un formato de serialización,
+premisa que sea legible y adoptado
+
+
+
+
+
+
 ### Prototipo en Perl
+
+Luego: arma un script sencillo que a partir del analisis,
+el producto del parser
+codifique una secuencia de eventos midi
+un codificador midi
+
 
 ## Desarrollo 
 
