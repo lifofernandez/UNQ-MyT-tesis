@@ -609,23 +609,24 @@ se gráfica el mismo.
 
 ## Análisis 
 
-Ahora describe las experiencias tempranas 
+Ahora se describen las experiencias tempranas 
 necesarias para evidenciar y comprobar
 que el proyecto en cierto modo fuese realizable
 y definir el camino a seguir.
 
+% Primero se comenta el proceso de establecer un bocabulario d
+
 A partir de las inquietudes presentadas anteriormente,
 se propuso como primero objetivo establecer 
 un conjunto reducido de parámetros asociados a 
-propiedades básicas definir un grupo articulaciones
-(altura, duración, intensidad)
+propiedades básicas necesarias para definir un grupo articulaciones
+(altura, duración, intensidad, etc)
 que compongan un discurso musical austero y moderado. 
 
-Como paso siguiente, 
-y luego un script sencillo que produzca secuencias 
+Yo como acción consecuente, 
+confeccionar un luego un rutina de procesos 
+que produzca secuencias 
 midi en base a esas definiciones.
-
-
 
 
 ### Boceto de Sintaxis
