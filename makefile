@@ -1,6 +1,6 @@
 install:
 	sudo pacman -S \
-	pandoc pandoc-citeproc \
+	pandoc pandoc-citeproc pandoc-crossref \
 	texlive-core texlive-music pygmentize 
 	pip install pygments jinja2 yaml
 	
@@ -19,6 +19,8 @@ tex:
 	--toc --toc-depth=3 --number-sections \
 	-o output.tex
 
+#revisar por quer no anda -V colorlinks \
+
 pdf:
 	xelatex \
 	-interaction=batchmode \
@@ -31,6 +33,7 @@ render:
 	make props
 	make comentarios
 	make tex 
+	make pdf
 	make pdf # quick fix: table of contents.
 	firefox output.pdf
 	
@@ -46,3 +49,6 @@ cuenta_palabras:
 	
 # -s --csl=vendor/apa-annotated-bibliography.csl \
 
+#	--filter=pandoc-crossref \
+#	-V links-as-notes \
+# 	-V linkcolor:blue \

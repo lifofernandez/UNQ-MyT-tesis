@@ -22,6 +22,7 @@
 
   # estructurada como árbol de análisis
   # para interfaz de linea de comandos
+
 ---
 \newpage
 
@@ -101,6 +102,7 @@ como medio ingreso de instrucciones
 en escenarios generales.
 
 ### ¿Por qué Texto Plano?
+\label{sec:porque_texto_plano}
 
 > "...our base material isn't wood or iron, it's knowledge. [...].
 > And we believe that the best format for storing knowledge persistently is plain
@@ -138,7 +140,7 @@ ajuste.
 Es sencillo agregar, actualizar o modificar datos de testeo sin
 la necesidad de emplear o desarrollar herramientas especiales para ello.
 
-**Liviano.**
+**Liviano.** 
 Determinante cuando los recursos de sistema son limitados como por ejemplo
 almacenamiento escaso, velocidad de computo restringida o conexiones lentas.
 
@@ -213,12 +215,81 @@ como los que implica este estudio.
 
 ### MIDI (Interface Digital para Instrumentos Musicales) 
 
-En relacion directa con la produccion musical y 
-mas especifico todavia a la preproduccion, 
-al registro de una organización de articulaciones 
-que luego es orquestada, grabada, tocada, etc.
-hay que justificar la adompcion de midi
-sencillamente, es el unico estandar al dia y el unico q se proyecta a futuro.
+
+En relación directa con este proyecto, en cárter especifico
+a la producción musical y 
+En su mayoría, las justificaciones
+\hyperref[sec:porque_texto_plano]{texto plano} 
+se aplican la adopción del MIDI
+formato MIDI
+como contenedor de secuencias de mensajes de control.
+
+una contra, no es humano leible
+
+un facto clave:
+Todavía a la
+sencillamente, es el único estandar al dia y el unico q se proyecta a futuro.
+
+**Permite que diferentes piezas de hardware y software trabajen juntas.**
+MIDI es la "interfaz digital de instrumentos musicales". Fue diseñado
+principalmente para conectar diferentes piezas de hardware juntas.
+Los códigos de sincronización MIDI también permiten que
+diferentes programas de software comunicarse juntos y trabajar como uno solo,
+permitiendo que su software de grabación comience reproducción de hardware
+externo, así como otros programas de software, por ejemplo, un Aplicación de la
+máquina de tambor. Este es solo un ejemplo de cómo el uso de MIDI tiene ha sido
+extendido
+
+**Permite reproducir y grabar música usando una amplia variedad de
+controladores.**
+MIDI separa el sonido del instrumento que está tocando, lo que le permite use
+una variedad de controladores para hacer música.
+
+En En comparación, los archivos MIDI eran rápidos,
+pequeños y apropiados.
+
+**MIDI ha sido extendido.**
+En 1991, el estándar MIDI se extendió para convertirse en el estándar MIDI
+general. 
+El cambio principal fue estandarizar 128 parches, de modo que los
+instrumentos en uno el teclado coincidiría con los de otro exactamente. Esto
+hizo que MIDI fuera más útil: los archivos MIDI estándar podrían intercambiarse
+entre usuarios, y ahora muchos miles (¿millones?) están disponibles en línea.
+Con el tiempo, General MIDI se extendió a los "estándares" GS y XG por Roland y
+Yamaha respectivamente, quienes agregaron instrumentos y efectos adicionales a
+el estandar.
+
+**Secuenciación MIDI.**
+La secuencia MIDI no es lo mismo que grabar sonidos.
+Un secuenciador registra
+qué se tocaron notas, qué tan fuerte o rápido fueron golpeados y cuánto tiempo
+se mantuvieron.  Es el equivalente moderno de un rollo de pianola. Para
+escuchar la música sonada, tú necesita un instrumento para reproducir lo que se
+grabó.
+
+**es flexible.**
+1. Con la secuencia MIDI, no tienes que decidir sobre los sonidos antes de
+   grabar.
+   Después de haber grabado su pieza, es muy sencillo cambiar el suena
+   a algo completamente diferente.
+
+2. Si el momento de tocar es un poco descuidado, puede cuantificar una pista o
+   región para que juegue perfectamente en el tiempo.
+
+3. Si hay errores menores en tu juego, o cambias de opinión sobre el tiempo o
+   el tono de una nota, puede hacer ajustes con el mouse sin tener que volver a
+grabar la pista.
+
+**Reproduce fuentes de sonido.**
+
+**Facilita la notación.**
+Finalmente, porque un archivo MIDI estándar contiene el tono y la duración de
+cada tenga en cuenta que es relativamente fácil para un programa de software
+mostrar esto como estándar notación musical.
+Muchos programas de secuenciación y
+grabación digital son capaces de mostrar música de esta manera, o puede usar
+una aplicación de notación dedicada si te tomas en serio la impresión de
+partituras profesionalmente.
 
 
 ## Motivación 
@@ -229,6 +300,7 @@ un contexto y proveer recursos para un
 procedimiento rudimental pero a la vez ágil y flexible de
 elaboración discursos musicales unificando
 la planificación de obra con la secuenciación MIDI.
+
 
 Ademas pretende exponer las ventajas de la Interfaz de Linea de Comandos para
 operar sistemas informáticos a la comunidad de artistas, teóricos e
@@ -538,23 +610,23 @@ se gráfica el mismo.
 
 ## Análisis 
 
-Ahora describe las experiencias tempranas 
+Ahora se describen las experiencias tempranas 
 necesarias para evidenciar y comprobar
 que el proyecto en cierto modo fuese realizable
 y definir el camino a seguir.
 
+
 A partir de las inquietudes presentadas anteriormente,
 se propuso como primero objetivo establecer 
 un conjunto reducido de parámetros asociados a 
-propiedades básicas definir un grupo articulaciones
-(altura, duración, intensidad)
+propiedades básicas necesarias para definir un grupo articulaciones
+(altura, duración, intensidad, etc)
 que compongan un discurso musical austero y moderado. 
 
-Como paso siguiente, 
-y luego un script sencillo que produzca secuencias 
+Yo como acción consecuente, 
+confeccionar un luego un rutina de procesos 
+que produzca secuencias 
 midi en base a esas definiciones.
-
-
 
 
 ### Boceto de Sintaxis
