@@ -333,12 +333,16 @@ $endif$
 }
 
 %\usepackage[pdftex,pagebackref=true]{hyperref}
-%\usepackage{hyperref}
-%\hypersetup{
-%    colorlinks = true,
-%    linkbordercolor = {red},
-%}
-
+\usepackage{hyperref}
+%\usepackage[dvipsnames]{xcolor}
+%\usepackage{sectsty}
+\hypersetup{
+  colorlinks = true,
+  linkcolor  = blue,
+  citecolor  = blue,
+  urlcolor   = blue,
+  breaklinks = true
+}
 \begin{document}
 
 %\setlength{leftmargin}{0pt}
