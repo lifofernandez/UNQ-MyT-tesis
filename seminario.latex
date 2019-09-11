@@ -339,8 +339,8 @@ $endif$
 \hypersetup{
   colorlinks = true,
   linkcolor  = blue,
-  citecolor  = blue,
-  urlcolor   = blue,
+  citecolor  = red,
+  urlcolor   = green,
   breaklinks = true
 }
 \begin{document}
