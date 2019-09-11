@@ -19,10 +19,8 @@
     Contextualiza, un conjunto de utilidades
     cuyo fin es producir
     secuencias musicales en el estándar MIDI.
-
   # estructurada como árbol de análisis
   # para interfaz de linea de comandos
-
 ---
 \newpage
 
@@ -118,11 +116,10 @@ la codificación binaria de datos [^ver_hunt]
 o cualquier otro tipo de operación que opaque 
 la relación con lo representado 
 
-**Conveniente.**
-Potencialmente cualquier herramienta de computo puede operar
-información almacenada en texto plano.
 
 **Mínimo Común Denominador.**
+Potencialmente cualquier herramienta de computo puede operar
+información almacenada en texto plano.
 Soportado en múltiples plataformas,
 cada sistema operativo cuenta con al menos un editor de texto todos
 compatibles hasta la codificación. 
@@ -189,7 +186,7 @@ reutilizar estos guiones en diferentes escenarios y agentes diversos.
 
 **Encadenado**
 La posibilidad de componer 
-complejas rutinas de manipulación
+rutinas complejas de manipulación
 concatenando resultados con procesos. [^ver_raymond]
 
 **Acceso remoto.**
@@ -216,15 +213,29 @@ como los que implica este estudio.
 ### MIDI (Interface Digital para Instrumentos Musicales) 
 
 
-En relación directa con este proyecto, en cárter especifico
-a la producción musical y 
-En su mayoría, las justificaciones
-\hyperref[sec:porque_texto_plano]{texto plano} 
-se aplican la adopción del MIDI
-formato MIDI
-como contenedor de secuencias de mensajes de control.
+De cárter especifico a la producción musical y
+en relación directa con este proyecto
+es pertinente acreditar la adopción del formato MIDI
+como salida, como producto de la cadena procesos.
 
-una contra, no es humano leible
+En gran mayoría,
+\hyperref[sec:porque_texto_plano]{
+las justificaciones
+al formato de texto plano
+} 
+se aplican
+para este estándar también.
+**Mínimo Común Denominador.**
+**Liviano.** 
+**Seguro contra toda obsolescencia (o compatible con el avance).**
+
+Es liviano, 
+
+Quizás la desventajas mas importantes
+de este formato de archivos MIDI es que
+no puede ser interpretado a simple vista. 
+Es necesario herramientas especificas
+para poder manipular la informacion contenida.
 
 un facto clave:
 Todavía a la
