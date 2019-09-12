@@ -234,9 +234,9 @@ como producto de la cadena procesos.
 Se adjudican como virtudes al protocolo MIDI
 la cualidad de ser y proyectarse
 ampliamente adoptado,
-apoyado por la industria, 
-y soportado en la mayoria de los entornos.
-cualidades que soportan
+soportado en la mayoría de los entornos,
+y apoyado por la industria, 
+lo que fundamenta 
 la compatibilidad de la secuencias de control a producir.
 
 Este estandar comparte algunas 
