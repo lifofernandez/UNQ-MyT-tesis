@@ -207,44 +207,43 @@ Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 \bigskip
 
 Si bien estas razones son de carácter general,
-las mismas aplican a propósitos particulares
-como los que implica este estudio.
+las mismas aplican al propósito particular
+que implica este estudio.
 
 ### MIDI (Interface Digital para Instrumentos Musicales) 
 
 De carácter especifico a la producción musical,
-en relacion directa a este proyecto
-es menester acreditar la adopción del formato MIDI
-como producto de la cadena procesos.
+en relación directa a este proyecto
+es menester acreditar la adopción de un formato en particular
+para codificar el resultado de la cadena procesos.
 
 
 
-Se adjudican como virtudes al protocolo MIDI
-la cualidad de ser y proyectarse
+El animo de
+satisfacer las condiciones para
+conseguir la compatibilidad
+de las secuencias de control a producir
+con el estándar MIDI 
+es fundamentado por 
+las virtudes de
+ser y proyectarse
 ampliamente adoptado,
-apoyado por la industria, 
-y soportado en la mayoria de los entornos.
-cualidades que soportan
-la compatibilidad de la secuencias de control a producir.
+soportado en la mayoría de los entornos
+y apoyado por la industria.
 
-Este estandar comparte algunas 
+Si bien es liviano y se planea compatible a futuro
 \hyperref[sec:porque_texto_plano]{
-justificaciones con formato de texto 
+como el formato de texto simple
 } 
-como por ejemplo 
-que es liviano y que se planea compatible a futuro.
-
-Por otro lado, una desventaja mayor
-del empleo de un sistema de codificación 
-radica en
-no poder interetar la informacion contenida a simple vista,
-lo que resulta en depender de herramientas especificas para
+, una deficiencia 
+del empleo de cualquier sistema de codificación 
+es intrínseco a 
+la dificultad que impone
+para interpretar a simple vista
+la información codificada,
+ofuscación que resulta en la dependencia
+de herramientas especificas para
 cualquier manipulación.
-
-
-
-
-
 
 ## Motivación 
 
