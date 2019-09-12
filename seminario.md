@@ -211,103 +211,112 @@ Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 \bigskip
 
 Si bien estas razones son de carácter general,
-las mismas aplican a propósitos específicos
+las mismas aplican a propósitos particulares
 como los que implica este estudio.
 
 ### MIDI (Interface Digital para Instrumentos Musicales) 
 
-% ToDo: REFORMULAR ESTOO %%
+De carácter especifico a la producción musical,
+en relacion directa a este proyecto
+es menester acreditar la adopción del formato MIDI
+como producto de la cadena procesos.
 
-De cárter especifico a la producción musical y
-en relación directa con este proyecto
-es pertinente acreditar la adopción del formato MIDI
-como salida, como producto de la cadena procesos.
+% Sin reseñar alternativas
 
-En gran mayoría,
+% La razón
+% que justifica
+% la compatibilidad de la secuencias de control a producir
+% con el protocolo MIDI
+% se adjudica a que es y proyecta ser ampliamente adoptado,
+% apoyado por la industria, 
+% y soportado en la mayoria de los entornos.
+
+Se adjudican como virtudes al protocolo MIDI
+la cualidad de ser y proyectarse
+ampliamente adoptado,
+apoyado por la industria, 
+y soportado en la mayoria de los entornos.
+cualidades que soportan
+la compatibilidad de la secuencias de control a producir.
+
+Este estandar comparte algunas 
 \hyperref[sec:porque_texto_plano]{
-las justificaciones
-al formato de texto plano
+justificaciones con formato de texto 
 } 
-se aplican
-para este estándar también.
-%Como contenedor de secuencias de mensajes de control.
-**Mínimo Común Denominador.**
-**Liviano.** 
-**Seguro contra toda obsolescencia (o compatible con el avance).**
+como por ejemplo 
+que es liviano y que se planea compatible a futuro.
 
-Es liviano, 
+Por otro lado, una desventaja mayor
+del empleo de un sistema de codificación 
+radica en
+no poder interetar la informacion contenida a simple vista,
+lo que resulta en depender de herramientas especificas para
+cualquier manipulación.
 
-Quizás la desventajas mas importantes
-de este formato de archivos MIDI es que
-no puede ser interpretado a simple vista. 
-Es necesario herramientas especificas
-para poder manipular la informacion contenida.
-% no es humano leible
 
-un facto clave:
-Todavía a la
-sencillamente, es el único estandar al dia y el unico q se proyecta a futuro.
+% para manipular la informacion que contienen.
 
-**Permite que diferentes piezas de hardware y software trabajen juntas.**
-MIDI es la "interfaz digital de instrumentos musicales". Fue diseñado
-principalmente para conectar diferentes piezas de hardware juntas.
-Los códigos de sincronización MIDI también permiten que
-diferentes programas de software comunicarse juntos y trabajar como uno solo,
-permitiendo que su software de grabación comience reproducción de hardware
-externo, así como otros programas de software, por ejemplo, un Aplicación de la
-máquina de tambor. Este es solo un ejemplo de cómo el uso de MIDI tiene ha sido
-extendido
 
-**Permite reproducir y grabar música usando una amplia variedad de
-controladores.**
-MIDI separa el sonido del instrumento que está tocando, lo que le permite use
-una variedad de controladores para hacer música.
-
-En En comparación, los archivos MIDI eran rápidos,
-pequeños y apropiados.
-
-**MIDI ha sido extendido.**
-En 1991, el estándar MIDI se extendió para convertirse en el estándar MIDI
-general. 
-El cambio principal fue estandarizar 128 parches, de modo que los
-instrumentos en uno el teclado coincidiría con los de otro exactamente. Esto
-hizo que MIDI fuera más útil: los archivos MIDI estándar podrían intercambiarse
-entre usuarios, y ahora muchos miles (¿millones?) están disponibles en línea.
-Con el tiempo, General MIDI se extendió a los "estándares" GS y XG por Roland y
-Yamaha respectivamente, quienes agregaron instrumentos y efectos adicionales a
-el estandar.
-
-**Secuenciación MIDI.**
-La secuencia MIDI no es lo mismo que grabar sonidos.
-Un secuenciador registra
-qué se tocaron notas, qué tan fuerte o rápido fueron golpeados y cuánto tiempo
-se mantuvieron.  Es el equivalente moderno de un rollo de pianola. Para
-escuchar la música sonada, tú necesita un instrumento para reproducir lo que se
-grabó.
-
-**es flexible.**
-1. Con la secuencia MIDI, no tienes que decidir sobre los sonidos antes de
-   grabar.
-   Después de haber grabado su pieza, es muy sencillo cambiar el suena
-   a algo completamente diferente.
-
-2. Si el momento de tocar es un poco descuidado, puede cuantificar una pista o
-   región para que juegue perfectamente en el tiempo.
-
-3. Si hay errores menores en tu juego, o cambias de opinión sobre el tiempo o
-   el tono de una nota, puede hacer ajustes con el mouse sin tener que volver a
-grabar la pista.
-
-**Reproduce fuentes de sonido.**
-
-**Facilita la notación.**
-Finalmente, porque un archivo MIDI estándar contiene el tono y la duración de
-cada tenga en cuenta que es relativamente fácil para un programa de software
-mostrar esto como estándar notación musical.
-Muchos programas de secuenciación y
-grabación digital son capaces de mostrar música de esta manera, o puede usar
-una aplicación de notación dedicada si te tomas en serio la impresión de
-partituras profesionalmente.
+%**Permite que diferentes piezas de hardware y software trabajen juntas.**
+%MIDI es la "interfaz digital de instrumentos musicales". Fue diseñado
+%principalmente para conectar diferentes piezas de hardware juntas.
+%Los códigos de sincronización MIDI también permiten que
+%diferentes programas de software comunicarse juntos y trabajar como uno solo,
+%permitiendo que su software de grabación comience reproducción de hardware
+%externo, así como otros programas de software, por ejemplo, un Aplicación de la
+%máquina de tambor. Este es solo un ejemplo de cómo el uso de MIDI tiene ha sido
+%extendido
+%
+%**Permite reproducir y grabar música usando una amplia variedad de
+%controladores.**
+%MIDI separa el sonido del instrumento que está tocando, lo que le permite use
+%una variedad de controladores para hacer música.
+%
+%En En comparación, los archivos MIDI eran rápidos,
+%pequeños y apropiados.
+%
+%**MIDI ha sido extendido.**
+%En 1991, el estándar MIDI se extendió para convertirse en el estándar MIDI
+%general. 
+%El cambio principal fue estandarizar 128 parches, de modo que los
+%instrumentos en uno el teclado coincidiría con los de otro exactamente. Esto
+%hizo que MIDI fuera más útil: los archivos MIDI estándar podrían intercambiarse
+%entre usuarios, y ahora muchos miles (¿millones?) están disponibles en línea.
+%Con el tiempo, General MIDI se extendió a los "estándares" GS y XG por Roland y
+%Yamaha respectivamente, quienes agregaron instrumentos y efectos adicionales a
+%el estandar.
+%
+%**Secuenciación MIDI.**
+%La secuencia MIDI no es lo mismo que grabar sonidos.
+%Un secuenciador registra
+%qué se tocaron notas, qué tan fuerte o rápido fueron golpeados y cuánto tiempo
+%se mantuvieron.  Es el equivalente moderno de un rollo de pianola. Para
+%escuchar la música sonada, tú necesita un instrumento para reproducir lo que se
+%grabó.
+%
+%**es flexible.**
+%1. Con la secuencia MIDI, no tienes que decidir sobre los sonidos antes de
+%   grabar.
+%   Después de haber grabado su pieza, es muy sencillo cambiar el suena
+%   a algo completamente diferente.
+%
+%2. Si el momento de tocar es un poco descuidado, puede cuantificar una pista o
+%   región para que juegue perfectamente en el tiempo.
+%
+%3. Si hay errores menores en tu juego, o cambias de opinión sobre el tiempo o
+%   el tono de una nota, puede hacer ajustes con el mouse sin tener que volver a
+%grabar la pista.
+%
+%**Reproduce fuentes de sonido.**
+%
+%**Facilita la notación.**
+%Finalmente, porque un archivo MIDI estándar contiene el tono y la duración de
+%cada tenga en cuenta que es relativamente fácil para un programa de software
+%mostrar esto como estándar notación musical.
+%Muchos programas de secuenciación y
+%grabación digital son capaces de mostrar música de esta manera, o puede usar
+%una aplicación de notación dedicada si te tomas en serio la impresión de
+%partituras profesionalmente.
 
 
 ## Motivación 

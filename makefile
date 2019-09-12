@@ -47,6 +47,9 @@ cuenta_palabras:
 	grep -v '1'
 
 	
+tesauro:
+	w3m -dump http://www.google.com/search?q="sinonimo $(BUSCAR)" | grep $(BUSCAR)
+	
 # -s --csl=vendor/apa-annotated-bibliography.csl \
 
 #	--filter=pandoc-crossref \
