@@ -39,11 +39,12 @@ contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 Acompaña esta propuesta
 un entorno de herramientas, 
 para interprete de línea de comandos.
-Siendo otro aporte importante del actual desarrollo
+Es otro aporte importante del actual desarrollo
 esta cadena de procesos que consume 
 información suscrita a dicha representación;
 derivando esta manipulación en la producción de
-secuencias de mensajes en el estándar MIDI.
+secuencias de mensajes en el
+\hyperref[sec:porque_midi]{formato MIDI estándar}.
 
 La primera parte de este escrito esta dedicada a
 justificar el objeto de estudio,
@@ -90,17 +91,13 @@ las necesidades que denotan la pertinencia de este estudio,
 aludiendo a requerimientos externos a satisfacer.
 
 Para concluir esta introducción
-se tratan proyectos similares con cierta relevancia a este proyecto.
+se tratan trabajos semejantes de cierta relevancia a este proyecto.
 
 ## Justificación 
 
-En este apartado se repasan
-las ventajas principales 
-del registro de información
-con enunciados textuales 
-y del empleo del lenguaje 
-como medio ingreso de instrucciones
-en escenarios generales.
+En este apartado se repasan las ventajas principales del registro de
+información con enunciados textuales y del empleo del lenguaje como medio
+de entrada de instrucciones en escenarios generales.
 
 ### ¿Por qué Texto Plano?
 \label{sec:porque_texto_plano}
@@ -114,18 +111,16 @@ en escenarios generales.
 \bigskip
 
 Se listan las virtudes del texto plano y legible
-en contraste a
-la codificación binaria de datos [^ver_hunt]
+en contraste a la codificación binaria de datos [^ver_hunt]
 o cualquier otro tipo de operación que opaque 
 la relación con lo representado 
-
 
 **Mínimo Común Denominador.**
 Potencialmente cualquier herramienta de computo puede operar
 información almacenada en texto plano.
-Soportado en múltiples plataformas,
+Es soportado en múltiples plataformas,
 cada sistema operativo cuenta con al menos un editor de texto todos
-compatibles hasta la codificación. 
+compatibles hasta la codificación de caracteres. 
 
 **Fácil de manipular.** 
 Procesar cadenas de caracteres es de los trabajos mas rudimentales que pueden
@@ -210,78 +205,55 @@ Sub-apartado: Basics of the Unix Philosophy (pp. 34-50)
 
 \bigskip
 
-Si bien estas razones son de carácter general,
+Siendo estas razones de carácter general,
 las mismas aplican al propósito particular
 que implica este estudio.
 
-### MIDI (Interface Digital para Instrumentos Musicales) 
+% ### MIDI (Interface Digital para Instrumentos Musicales) 
+### Interface Digital para Instrumentos Musicales
+\label{sec:porque_midi}
 
 De carácter especifico a la producción musical,
 en relación directa a este proyecto
 es menester acreditar la adopción de un formato en particular
 para codificar el resultado de la cadena procesos.
 
-% La razón
-% que justifica
-% la compatibilidad de la secuencias de control a producir
-% con el protocolo MIDI
-% se adjudica a que es y proyecta ser ampliamente adoptado,
-% apoyado por la industria, 
-% y soportado en la mayoría de los entornos.
-
-% Se adjudican como virtudes al protocolo MIDI
-% las cualidades de ser y proyectarse
-% ampliamente adoptado,
-% soportado en la mayoría de los entornos
-% y apoyado por la industria, 
-% estas fundamentan
-% el animo de conseguir compatibilidad 
-% pen la secuencias de control a producir.
-
-El animo de
-% satisfacer los requerimientos para
-satisfacer las condiciones para
-conseguir la compatibilidad
-de las secuencias de control a producir
-con el estándar MIDI 
-es fundamentado por 
-% sus cualidades que se adjudican como
-las virtudes de
-ser y proyectarse
-ampliamente adoptado,
+El animo por que las secuencias de control a producir
+satisfagan las condiciones requeridas para
+alcanzar compatibilidad con el formato MIDI estándar[^ver_midi],
+está fundamentado por sus virtudes de
+ser y proyectarse ampliamente adoptado,
 soportado en la mayoría de los entornos
-y apoyado por la industria.
+y apoyado por la industria.[^ver_penfold]
 
-Si bien es liviano y se planea compatible a futuro
-\hyperref[sec:porque_texto_plano]{
-como el formato de texto simple
-} 
-%, un contratiempo
-, una deficiencia 
-del empleo de cualquier sistema de codificación 
-% radica en 
-es intrínseco a 
-%la imposibilidad
-la dificultad que impone
+Si bien es liviano y se planea compatible a futuro,
+cualidades que comparte 
+\hyperref[sec:porque_texto_plano]{con el formato de texto llano},
+de igual modo es pertinente señalar
+la desventaja que significa
+el empleo de cualquier sistema de codificación,
+intrínseca a la dificultad que impone
 para interpretar a simple vista
-la información codificada,
+la información cifrada,
 ofuscación que resulta en la dependencia
 de herramientas especificas para
 cualquier manipulación.
 
+[^ver_penfold]: @penfold
+[^ver_midi]: @midi
+
 ## Motivación 
 
-% Necesidades / Requerimientos
+% Necesidades
+% Requerimientos
 
-Este proyecto plantea la necesidad de establecer
-un contexto y proveer recursos para un
-procedimiento rudimental pero a la vez ágil y flexible de
-elaboración discursos musicales unificando
-la planificación de obra con la secuenciación MIDI.
-
+Este proyecto plantea la necesidad de establecer un contexto y proveer recursos
+para un procedimiento rudimental pero a la vez ágil y flexible de elaboración
+discursos musicales unificando la planificación de obra con la secuenciación
+MIDI.
 
 Ademas pretende exponer las ventajas de la Interfaz de Linea de Comandos para
-operar sistemas informáticos a la comunidad de artistas, teóricos e
+operar herramientas informáticas a la comunidad de artistas, teóricos e
 investigadores.
 
 Promover la adopción de prácticas consolidadas y formatos abiertos para
@@ -297,8 +269,9 @@ Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
 ## Antecedentes 
 
 A continuación se describen algunos desarrollos que vinculan representación y
-manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como ejemplo
-de un marco de programación basada en una sintaxis declarativa se cosideró Flocking.
+manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como
+ejemplo de un marco de programación basada en una sintaxis declarativa se
+cosideró Flocking.
 
 % http://strasheela.sourceforge.net/strasheela/doc/
 % https://www.researchgate.net/publication/265736511_Debugging_Constraint_Models_with_Metamodels_and_Metaknowledge_II
@@ -616,30 +589,31 @@ provee un criterio para proceder.
 # Metodología
 
 En esta segunda sección
-se introduce el método de ejecución
+se introduce el método de ejecución 
 % diagramando la investigación
-que se pueden distinguir/descomponer en tres etapas,
+en  el que se pueden distinguir tres etapas,
 una preparatoria, dedicada a investigación, experimentación y pruebas,
-que deviene en la fase de producción en si
-y culmina con un etapa de corrección
-y arreglo de errores y defectos.
+la cual deviene en la fase de producción en si
+y culmina con un etapa de retoques, depuración de errores y defectos.
 
-Se aprovecha
-% la ocasión
+Se aprovecha 
+%este apartado 
 para reseñar las herramientas preexistentes elegidas,
 se mencionan aquellas que fueron consideradas pero 
 descartadas luego de algunos ensayos
-y otras periféricas 
-vinculadas a la tarea accesoria.
+y otras periféricas vinculadas a la tarea accesoria.
 
-## Procedimiento
+% ## Procedimiento
 
 % Gráfico opcional se puede explicar antes 
 % y saltar derecho a la descripción de las etapas
+
 Antes de exponer el proceso de trabajo consecuente,
-en ánimo de presentarlo abarcable y facilitar su comprensión,
+con intensión de presentarlo abarcable y facilitar su comprensión,
 se gráfica el mismo.
 
+\bigskip
+\bigskip
 \bigskip
 
 \begin{center}
@@ -647,136 +621,168 @@ se gráfica el mismo.
 \input{metodologia}
 
 \end{center}
+\newpage
 
-\bigskip
+## Preliminares 
 
-% Descripción general de la investigación
+Ahora se describen las primeras experiencias necesarias para evidenciar y
+comprobar que el proyecto fuese en parte realizable y ayudar a definir el
+camino a seguir.
 
-## Análisis 
+A partir de las inquietudes presentadas, se propuso como objetivo inicial
+establecer una lista de parámetros que asocien valores a propiedades
+musicales básicas (altura, duración, intensidad, etc) necesarias para definir
+el conjunto articulaciones constituyentes de un discurso musical, en
+determinado sentido rudimental, austero y moderado.
+Archivando esta lista de parámetros como recursos
+informáticos.
 
-Ahora se describen las experiencias tempranas 
-necesarias para evidenciar y comprobar
-que el proyecto en cierto modo fuese realizable
-y definir el camino a seguir.
+Acorde a esto se hilvanó una rutina de procesos, compuesta por un interprete
+[^ver_interprete], un analizador sintáctico [^ver_parser] y un codificador
+digital [^ver_coder] entre otras herramientas, que a partir de valores emita
+flujos de mensajes.
 
-% Primero se comenta el proceso de establecer un bocabulario d
-
-A partir de las inquietudes presentadas anteriormente,
-se propuso como primero objetivo establecer 
-un conjunto reducido de parámetros asociados a 
-propiedades básicas necesarias para definir un grupo articulaciones
-(altura, duración, intensidad, etc)
-que compongan un discurso musical austero y moderado. 
-
-Yo como acción consecuente, 
-confeccionar un luego un rutina de procesos 
-que produzca secuencias 
-midi en base a esas definiciones.
-
+[^ver_interprete]: @interprete
+[^ver_parser]: @parser
+[^ver_coder]: @coder
 
 ### Boceto de Sintaxis
 
-Primero: elegir un formato de serialización,
-premisa que sea legible y adoptado
+El método para seriliazar información,
+jerarquizar y distinguir propiedades de
+valores, se basa en el formato YAML [^ver_yaml].
+Después evaluar y cuestionar este estándar
+enfrentandolo con alternativas,
+se concluyo en que cumple con las
+condiciones y que es idóneo para la actividad.
 
+Multiples implementaciones del mismo en la mayoría de los entornos vigentes[^ver_matrix],
+aseguran la independencia de la información serializada con este sistema.
+% la cual podrá ser consumida en diferentes escenarios.
+Se le adjudica alta legibilidad[^ver_noyaml]. Goza de cierta madurez,
+por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
+
+[^ver_yaml]: @yaml
+[^ver_matrix]: @matrix
+[^ver_noyaml]: @noyaml
+[^ver_yaml1.2]: @yaml1.2
 
 % como unidad de sentido
-
 % flujos de manipulaciones complejas
 % Si bien estas razones son agnósticas a un fin,
 % representar (con cierto grado de arbitrariedad) 
 % información de significancia musical estudio,
-
-% El estándar YAML [^ver_yaml] como opción para serializar las definiciones de
-% cada parte instrumental.
-
-% en gran medida, puede ser parametrizada[^ver_lerdahl]. pagina 36, capitulo 3, Groupig structur
+% en gran medida, puede ser parametrizada[^ver_lerdahl].
 % [^ver_lerdahl]: @lerdahl Pagina 3: Capitulo 3, Grouping Structure
 % [^ver_lerdahl]: @lerdahl Pagina 36: Capitulo 3, Grouping Structure
 
-### Prototipo en Perl
+### Prototipo
 
-Luego: arma un script sencillo que a partir del analisis,
-el producto del parser
-codifique una secuencia de eventos midi
-un codificador midi
+% Luego: arma un script sencillo que a partir del analisis,
+% el producto del parser
+% codifique una secuencia de eventos midi
+% un codificador midi
 
+Se esbozo un guion de instrucciones acotadas a 
+componer cadena de eventos 
+a partir de  la interpretación, análisis sintáctico, 
+mapeo y asignación de valores.
 
-## Desarrollo 
+Este primer prototipo,
+que confirmó la viabilidad de la aplicación pretendida,
+fue desarrollado en Perl [^ver_perl],
+lenguaje que luego de ciertas consideraciones
+se desestimó por Python [^ver_python]
+debido a mayor adopción en la producción académica.
+
+[^ver_perl]: @perl
+[^ver_python]: @python
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+## Entorno
 
 ### Sintaxis
+
+#### Gramática
+se explica relaciones y jerarquia
   
 #### Vocabulario 
   
-#### Gramática
+se explica las palabras elegidas
+
+### Desarrollo
+
   
-### Contexto
-  
-#### Evaluación de Herramientas Antecedentes
-     
-##### Parseo YAML
-Análisis  Gramático
-Relaciones Jerarquías
+% #### Hilvanado de entorno
+% #### Desarrollo aplicación
+%Sobre el desarrollo 
+%Se detalla en profundidad
+%la parte central del todo el procedimiento
+%de la propuesta
+%El entorno de producción musical que se pretende establecer
+%estará principalmente integrando por:
 
-pyyaml
-
-##### Manipulación MIDI
-Codificación en el Estandar MIDI
-midiUTIL
-  
-#### Desarrollo aplicación
-
-% explicar que se van a discutir las herramientas
-% usadas
-
-Sobre el desarrollo 
-Se detalla en profundidad
-la parte central del todo el procedimiento
-de la propuesta
-El entorno de producción musical que se pretende establecer
-estará principalmente integrando por:
-
-Sobre el desarrollo 
-Uso 
 
 Python
 La rutina de instrucciones principales será interpretada en el lenguaje
 Python[^ver_python] (en su ultima versión estable). 
+
 Esta pieza de software estará basada en otros dos desarrollos: el módulo
 "_pyyaml_" [^ver_pyyaml] para analizar la información serializada, en
 combinación con la librería "MIDIutil" [^ver_midiutil] que asistirá en las
 tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
 Estandar_" [^ver_standarlib],
-%mientras que la documentación se generará con "_sphinx_" [^ver_sphinx].
 
-#### Hilvanado de entorno
+% mientras que la documentación se generará con "_sphinx_" [^ver_sphinx].
+  
+% #### Evaluación de Herramientas Antecedentes
+     
+#### Parser YAML
+Análisis  Gramático
+Relaciones Jerarquías
 
-Otras herramientas
+pyyaml
+
+
+
+
+#### Codificación MIDI
+Codificación en el Estandar MIDI
+midiUTIL
+
+% ## Post
+% 
+% ### Optimizar
+% 
+% ### Formateo
+%  
+% ### Documentación
+% 
+% ### Devel notes
+
+#### Otras herramientas
+
 como conseguir el código.
+
 Instalación
+
 El editor de texto preferido para toda la actividad será VIM [^ver_vim];
 durante el desarrollo las versiones se controlarán con el sistema GIT
 [^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
 provisto por algún servicio del tipo GitLab.
 
-## Post
 
-### Optimizar
+% explicar que se van a discutir las herramientas
+% usadas
 
-### Formateo
- 
-### Documentación
-
-### Devel notes
-
-[^ver_yaml]: @yaml
 [^ver_python]: @python
 [^ver_pyyaml]: @pyyaml
 [^ver_midiutil]: @midiutil
 [^ver_standarlib]: @standarlib
 [^ver_vim]: @vim
 [^ver_git]: @git
-%[^ver_sphinx]: @sphinx
+% [^ver_sphinx]: @sphinx
 
 
 \newpage
@@ -795,9 +801,11 @@ provisto por algún servicio del tipo GitLab.
 % Demostracion
 
 ## Lenguaje formal
-%## Gramática 
+
+% ## Gramática 
 
 ### Estructura gramatical
+
 % representación de relaciones jerárquicas
 
 referir a Metodología, YAML >
@@ -818,27 +826,39 @@ Explicar q se va a describir cada palabra elegida para representar cada
 propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor de facto que se
 asigna
 
+#### Propiedades de Articulaciones
+
+Parametros por defecto para todas sas unidades,
+pueden ser sobrescritos.
+
+Variego "talea" [^ver_variego]
+
+\input{props_articulaciones.tex}
+
+[^ver_variego]:@variego : Talea y Serialismo
+\newpage
+
+#### Propiedades de Unidad
+
+
+Parametros por defecto de  unidades,
+pueden ser sobrescritos.
+
+\input{props_unidad.tex}
+
 #### Propiedades de Pista 
 
 Los parametros generales de cada pista son tres: el rotulo, la paleta de
 unidades disponibles y el primer nivel de la forma musical.  A partir del
 primer nivel estructural, las unidades se organizan entre ellas.
 
+% Music Notations and the Representation of Musical Structure and Knowledge.
+Sequences And Trees [^ver_pope]
+
 \input{props_pista.tex}
 
-#### Propiedades de Unidad
-Parametros por defecto para todas sas unidades,
-pueden ser sobrescritos.
 
-\input{props_unidad.tex}
-
-\newpage
-
-#### Propiedades de Articulaciones
-Parametros por defecto para todas sas unidades,
-pueden ser sobrescritos.
-
-\input{props_articulaciones.tex}
+[^ver_pope]: @pope 
 
 \newpage
 
