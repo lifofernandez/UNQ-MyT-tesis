@@ -24,6 +24,8 @@
 ---
 \newpage
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 # Resumen 
 
 El presente trabajo propone
@@ -63,7 +65,7 @@ y se despliegan el resultado de algunos ejemplos a modo de demostración.
 
 Para concluir
 se proyectan algunas aplicaciones posibles 
-%con un animo ambicioso 
+%de animo ambicioso 
 en diferentes escenarios
 (trabajo colaborativo en simultaneo y a distancia, programación en vivo)
 y varias disciplinas (Inteligencia artificial,
@@ -78,6 +80,8 @@ desarrollados para la implementación.
 [^ver_combs]: @coombs 
 
 \newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 # Introducción
 
@@ -579,38 +583,27 @@ disponibles para su manipulación por otros programas.
 
 \bigskip
 
-Si bien la recopilación expuesta no agota
-la lista de posibles referentes pertinentes a analizar
-y otros aparecerán mientras se vuelven relevantes,
+Si bien la recopilación expuesta no agota la lista de posibles referentes
+pertinentes a analizar y otros aparecerán mientras se vuelven relevantes,
 provee un criterio para proceder.
 
 \newpage
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 # Metodología
 
-En esta segunda sección
-se introduce el método de ejecución 
-% diagramando la investigación
-en  el que se pueden distinguir tres etapas,
-una preparatoria, dedicada a investigación, experimentación y pruebas,
-la cual deviene en la fase de producción en si
-y culmina con un etapa de retoques, depuración de errores y defectos.
+En esta segunda sección se introduce el procedimiento de ejecución en el que se
+pueden distinguir tres etapas, una preparatoria, dedicada a investigación,
+experimentación y pruebas, deviene la fase de producción en si y
+culmina con un etapa de retoques, depuración de errores y defectos.
 
-Se aprovecha 
-%este apartado 
-para reseñar las herramientas preexistentes elegidas,
-se mencionan aquellas que fueron consideradas pero 
-descartadas luego de algunos ensayos
-y otras periféricas vinculadas a la tarea accesoria.
+Se aprovecha para reseñar las herramientas preexistentes elegidas, se mencionan
+aquellas que fueron consideradas pero descartadas luego de algunos ensayos y
+otras periféricas vinculadas a la tarea accesoria.
 
-% ## Procedimiento
-
-% Gráfico opcional se puede explicar antes 
-% y saltar derecho a la descripción de las etapas
-
-Antes de exponer el proceso de trabajo consecuente,
-con intensión de presentarlo abarcable y facilitar su comprensión,
-se gráfica el mismo.
+Antes de exponer el método de trabajo consecuente, con intensión de
+presentarlo abarcable y facilitar su comprensión, se gráfica el mismo.
 
 \bigskip
 \bigskip
@@ -621,26 +614,26 @@ se gráfica el mismo.
 \input{metodologia}
 
 \end{center}
+
 \newpage
 
 ## Preliminares 
 
-Ahora se describen las primeras experiencias necesarias para evidenciar y
+Ahora se explican las experiencias tempranas necesarias para evidenciar y
 comprobar que el proyecto fuese en parte realizable y ayudar a definir el
 camino a seguir.
 
 A partir de las inquietudes presentadas, se propuso como objetivo inicial
-establecer una lista de parámetros que asocien valores a propiedades
-musicales básicas (altura, duración, intensidad, etc) necesarias para definir
-el conjunto articulaciones constituyentes de un discurso musical, en
-determinado sentido rudimental, austero y moderado.
-Archivando esta lista de parámetros como recursos
-informáticos.
+establecer una lista de parámetros que asocien valores a propiedades musicales
+elementales (altura, duración, intensidad, etc) necesarias para definir el
+conjunto articulaciones constituyentes de un discurso musical, en determinado
+sentido rudimental, austero y moderado. Archivando esta lista de parámetros
+como recursos informáticos.
 
 Acorde a esto se hilvanó una rutina de procesos, compuesta por un interprete
 [^ver_interprete], un analizador sintáctico [^ver_parser] y un codificador
 digital [^ver_coder] entre otras herramientas, que a partir de valores emita
-flujos de mensajes.
+un flujo de mensajes.
 
 [^ver_interprete]: @interprete
 [^ver_parser]: @parser
@@ -648,25 +641,22 @@ flujos de mensajes.
 
 ### Boceto de Sintaxis
 
-El método para seriliazar información,
-jerarquizar y distinguir propiedades de
-valores, se basa en el formato YAML [^ver_yaml].
-Después evaluar y cuestionar este estándar
-enfrentandolo con alternativas,
-se concluyo en que cumple con las
+El método para seriliazar información, jerarquizar y distinguir propiedades de
+valores, se basa en el formato YAML [^ver_yaml]. Después evaluar y cuestionar
+este estándar enfrentandolo con alternativas, se concluyo en que cumple con las
 condiciones y que es idóneo para la actividad.
 
-Multiples implementaciones del mismo en la mayoría de los entornos vigentes[^ver_matrix],
-aseguran la independencia de la información serializada con este sistema.
-% la cual podrá ser consumida en diferentes escenarios.
-Se le adjudica alta legibilidad[^ver_noyaml]. Goza de cierta madurez,
-por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
+Multiples implementaciones del mismo en la mayoría de los entornos
+vigentes[^ver_matrix], aseguran la independencia de la información serializada
+con este sistema.  Se le adjudica alta legibilidad[^ver_noyaml]. Goza de cierta
+madurez, por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
 
 [^ver_yaml]: @yaml
 [^ver_matrix]: @matrix
 [^ver_noyaml]: @noyaml
 [^ver_yaml1.2]: @yaml1.2
 
+% la cual podrá ser consumida en diferentes escenarios.
 % como unidad de sentido
 % flujos de manipulaciones complejas
 % Si bien estas razones son agnósticas a un fin,
@@ -683,17 +673,14 @@ por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
 % codifique una secuencia de eventos midi
 % un codificador midi
 
-Se esbozo un guion de instrucciones acotadas a 
-componer cadena de eventos 
-a partir de  la interpretación, análisis sintáctico, 
-mapeo y asignación de valores.
+Se esbozo un guion de instrucciones acotadas a componer cadenas de eventos a
+partir de  la interpretación, análisis sintáctico, mapeo y asignación de
+valores.
 
-Este primer prototipo,
-que confirmó la viabilidad de la aplicación pretendida,
-fue desarrollado en Perl [^ver_perl],
-lenguaje que luego de ciertas consideraciones
-se desestimó por Python [^ver_python]
-debido a mayor adopción en la producción académica.
+Este prototipo, que confirmó la viabilidad de la aplicación pretendida,
+fue desarrollado en Perl [^ver_perl], lenguaje que luego de ciertas
+consideraciones se desestimó por Python [^ver_python] debido a mayor adopción
+la producción académica.
 
 [^ver_perl]: @perl
 [^ver_python]: @python
@@ -702,37 +689,48 @@ debido a mayor adopción en la producción académica.
 
 ## Entorno
 
+A partir de estas comprobaciones los pasos siguientes fueron: extender el
+léxico admitido para cubrir una mayor cantidad de propiedades musicales
+se negoció con la imposibilidad de dar soporte a todas las aplicaciones musicales
+posibilidades en un cierto aspecto circunstanciales y arbitrarias,
+proponiendo
+un sistema de "enchufes" que permiten sacar y manipular valores por fuera de
+la secuencia proveida el cual se describirá mas adelante.
+
+Establecer relaciones de jerarquía y sucesión, que gestionen la
+herencia de propiedades entre segmentos musicales subordinados y consecutivos.
+
+
 ### Sintaxis
 
+El lenguaje específico de dominio
+
 #### Gramática
-se explica relaciones y jerarquia
+Se explica relaciones y jerarquía
   
 #### Vocabulario 
-  
-se explica las palabras elegidas
+Se explica las palabras elegidas
 
 ### Desarrollo
-
-  
 % #### Hilvanado de entorno
 % #### Desarrollo aplicación
-%Sobre el desarrollo 
-%Se detalla en profundidad
-%la parte central del todo el procedimiento
-%de la propuesta
-%El entorno de producción musical que se pretende establecer
-%estará principalmente integrando por:
+% Sobre el desarrollo 
+% Se detalla en profundidad
+% la parte central del todo el procedimiento
+% de la propuesta
+% El entorno de producción musical que se pretende establecer
+% estará principalmente integrando por:
 
 
 Python
 La rutina de instrucciones principales será interpretada en el lenguaje
 Python[^ver_python] (en su ultima versión estable). 
 
-Esta pieza de software estará basada en otros dos desarrollos: el módulo
-"_pyyaml_" [^ver_pyyaml] para analizar la información serializada, en
-combinación con la librería "MIDIutil" [^ver_midiutil] que asistirá en las
-tareas de musicología. Ademas se incorporan algunos módulos de la "_Librería
-Estandar_" [^ver_standarlib],
+Esta pieza de software estará basada en otros dos desarrollos:
+el módulo "_pyyaml_" [^ver_pyyaml] para analizar la información serializada,
+en combinación con la librería "MIDIutil" [^ver_midiutil] que asistirá en las
+tareas de musicología.
+Ademas se incorporan algunos módulos de la "_Librería Estandar_" [^ver_standarlib],
 
 % mientras que la documentación se generará con "_sphinx_" [^ver_sphinx].
   
@@ -741,10 +739,7 @@ Estandar_" [^ver_standarlib],
 #### Parser YAML
 Análisis  Gramático
 Relaciones Jerarquías
-
 pyyaml
-
-
 
 
 #### Codificación MIDI
