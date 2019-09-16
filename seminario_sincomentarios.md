@@ -390,6 +390,7 @@ la música o etnomusicología, mientras que los teóricos y los musicólogos
 histioriadores han sido mas lentos para reconocer el potencial del sistema. 
 
 
+#### CLI vs GUI
 
 Humdrum u otros sistemas como él ofrecen los recursos para una marcar un
 paradigma para la investigación musical.  
@@ -531,8 +532,7 @@ Se aprovecha para reseñar las herramientas preexistentes elegidas, se mencionan
 aquellas que fueron consideradas pero descartadas luego de algunos ensayos y
 otras periféricas vinculadas a la tarea accesoria.
 
-
-Antes de exponer el proceso de trabajo consecuente, con intensión de
+Antes de exponer el método de trabajo consecuente, con intensión de
 presentarlo abarcable y facilitar su comprensión, se gráfica el mismo.
 
 \bigskip
@@ -557,7 +557,7 @@ A partir de las inquietudes presentadas, se propuso como objetivo inicial
 establecer una lista de parámetros que asocien valores a propiedades musicales
 elementales (altura, duración, intensidad, etc) necesarias para definir el
 conjunto articulaciones constituyentes de un discurso musical, en determinado
-sentido rudimental, austero y moderado.  Archivando esta lista de parámetros
+sentido rudimental, austero y moderado. Archivando esta lista de parámetros
 como recursos informáticos.
 
 Acorde a esto se hilvanó una rutina de procesos, compuesta por un interprete
@@ -571,7 +571,7 @@ un flujo de mensajes.
 
 ### Boceto de Sintaxis
 
-El método para seriliazar información, jerarquizar y distinguir propiedades de
+El método para discretizar información, jerarquizar y distinguir propiedades de
 valores, se basa en el formato YAML [^ver_yaml]. Después evaluar y cuestionar
 este estándar enfrentandolo con alternativas, se concluyo en que cumple con las
 condiciones y que es idóneo para la actividad.
@@ -589,10 +589,9 @@ madurez, por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
 
 ### Prototipo
 
-
-Se esbozo un guion de instrucciones acotadas a componer cadenas de eventos a
-partir de  la interpretación, análisis sintáctico, mapeo y asignación de
-valores.
+Se esbozó un guion de instrucciones acotadas a componer cadenas de eventos a
+partir de la interpretación, análisis sintáctico, proyección (mapeo) y
+asignación de valores.
 
 Este prototipo, que confirmó la viabilidad de la aplicación pretendida,
 fue desarrollado en Perl [^ver_perl], lenguaje que luego de ciertas
@@ -605,9 +604,42 @@ la producción académica.
 
 ## Entorno
 
-### Sintaxis
 
-#### Gramática
+En este apartado se distinguen los pasos seguidos a estas comprobaciones
+
+* Extender el léxico admitido con el propósito de cubrir una cantidad mayor de
+  propiedades musicales; Establecer relaciones de sucesión y jerarquía, que
+sirvan para gestionar la herencia de propiedades entre segmentos musicales
+subordinados y consecutivos.
+
+* Desarrollar una herramienta informática que,
+entre otras cosas
+sea capaz de
+consumir ficheros,
+interpretar series de registros 
+manipular valores
+traducirlos a articulaciones
+empaquetar secuencias
+escribir archivos
+
+###  Gramática
+
+La propuesta de lenguaje específico de dominio, que 
+
+
+Negociando con la noción inabarcable
+que significa dar soporte a cada aspecto musical esperado,
+siendo imposible anticipar todos las aplicaciones estipuladas
+en determinado sentido arbitrarias y/o circunstanciales,
+se propone un sistema de complementos de usuarios que
+habilita la salida y entrada de valores para su manipulación,
+externa a la rutina provista.
+Si bien en el uso, este sistema se mostró prometedor,
+su naturaleza no excede el carácter experimental
+y es menesteroso de promover mejoras y consideraciones adicionales.
+
+
+#### Sintaxis
 Se explica relaciones y jerarquía
   
 #### Vocabulario 

@@ -436,7 +436,7 @@ la música o etnomusicología, mientras que los teóricos y los musicólogos
 histioriadores han sido mas lentos para reconocer el potencial del sistema. 
 
 
-% #### CLI vs GUI
+#### CLI vs GUI
 
 Humdrum u otros sistemas como él ofrecen los recursos para una marcar un
 paradigma para la investigación musical.  
@@ -641,7 +641,7 @@ un flujo de mensajes.
 
 ### Boceto de Sintaxis
 
-El método para seriliazar información, jerarquizar y distinguir propiedades de
+El método para discretizar información, jerarquizar y distinguir propiedades de
 valores, se basa en el formato YAML [^ver_yaml]. Después evaluar y cuestionar
 este estándar enfrentandolo con alternativas, se concluyo en que cumple con las
 condiciones y que es idóneo para la actividad.
@@ -668,14 +668,9 @@ madurez, por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
 
 ### Prototipo
 
-% Luego: arma un script sencillo que a partir del analisis,
-% el producto del parser
-% codifique una secuencia de eventos midi
-% un codificador midi
-
-Se esbozo un guion de instrucciones acotadas a componer cadenas de eventos a
-partir de  la interpretación, análisis sintáctico, mapeo y asignación de
-valores.
+Se esbozó un guion de instrucciones acotadas a componer cadenas de eventos a
+partir de la interpretación, análisis sintáctico, proyección (mapeo) y
+asignación de valores.
 
 Este prototipo, que confirmó la viabilidad de la aplicación pretendida,
 fue desarrollado en Perl [^ver_perl], lenguaje que luego de ciertas
@@ -689,23 +684,47 @@ la producción académica.
 
 ## Entorno
 
-A partir de estas comprobaciones los pasos siguientes fueron: extender el
-léxico admitido para cubrir una mayor cantidad de propiedades musicales
-se negoció con la imposibilidad de dar soporte a todas las aplicaciones musicales
-posibilidades en un cierto aspecto circunstanciales y arbitrarias,
-proponiendo
-un sistema de "enchufes" que permiten sacar y manipular valores por fuera de
-la secuencia proveida el cual se describirá mas adelante.
+% sintaxis para representar información discreta como una serie de registros en
+% un archivo de computadora.
 
-Establecer relaciones de jerarquía y sucesión, que gestionen la
-herencia de propiedades entre segmentos musicales subordinados y consecutivos.
+En este apartado se distinguen los pasos seguidos a estas comprobaciones
 
+* Extender el léxico admitido con el propósito de cubrir una cantidad mayor de
+  propiedades musicales; Establecer relaciones de sucesión y jerarquía, que
+sirvan para gestionar la herencia de propiedades entre segmentos musicales
+subordinados y consecutivos.
 
-### Sintaxis
+* Desarrollar una herramienta informática que,
+entre otras cosas
+sea capaz de
+consumir ficheros,
+interpretar series de registros 
+manipular valores
+traducirlos a articulaciones
+empaquetar secuencias
+escribir archivos
 
-El lenguaje específico de dominio
+###  Gramática
 
-#### Gramática
+La propuesta de lenguaje específico de dominio, que 
+
+% los registros MuseData servirían
+% como archivos de origen para generar
+
+Negociando con la noción inabarcable
+que significa dar soporte a cada aspecto musical esperado,
+siendo imposible anticipar todos las aplicaciones estipuladas
+en determinado sentido arbitrarias y/o circunstanciales,
+se propone un sistema de complementos de usuarios que
+habilita la salida y entrada de valores para su manipulación,
+externa a la rutina provista.
+Si bien en el uso, este sistema se mostró prometedor,
+su naturaleza no excede el carácter experimental
+y es menesteroso de promover mejoras y consideraciones adicionales.
+
+% El mismo se describirá a detalle mas adelante.
+
+#### Sintaxis
 Se explica relaciones y jerarquía
   
 #### Vocabulario 
