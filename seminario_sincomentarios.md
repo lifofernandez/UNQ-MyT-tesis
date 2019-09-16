@@ -30,50 +30,41 @@
 El presente trabajo propone
 un contexto de producción musical puramente textual.
 
-Son el producto de esta investigación 
-un marco de patrones y relaciones gramaticales
-que posibilitan la representación sintáctica de
-información con significado musical;
-un léxico y una sintaxis que definen estructuras musicales
+Son el producto de esta investigación un marco de patrones y relaciones
+gramaticales que posibilitan la representación sintáctica de información con
+significado musical; un léxico y una sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
-Acompaña esta propuesta
-un entorno de herramientas, 
-para interprete de línea de comandos.
-Es otro aporte importante del actual desarrollo
-esta cadena de procesos que consume 
-información suscrita a dicha representación;
-derivando esta manipulación en la producción de
-secuencias de mensajes en el
-\hyperref[sec:porque_midi]{formato MIDI estándar}.
+Acompaña esta propuesta un entorno de herramientas, para interprete de línea de
+comandos para interprete de línea de comandos [^ver_interprete].  Es otro
+aporte importante del actual desarrollo esta cadena de procesos que consume
+información suscrita a dicha representación; derivando esta manipulación en la
+producción de secuencias de mensajes en el formato MIDI estándar.
 
-La primera parte de este escrito esta dedicada a
-justificar el objeto de estudio,
-presentar los motivos de las interrogantes,
-plantear la necesidad alternativas,
-también se discuten antecedentes en codificación textual de información musical.
+La primera parte de este escrito esta dedicada a justificar el objeto de
+estudio, presentar los motivos de las interrogantes, plantear la necesidad
+alternativas, también se discuten antecedentes en codificación textual de
+información musical.
 
-En la segunda sección se describe el método de ejecución, 
-detallando el procedimiento de desarrollo.
+En la segunda sección se describe el método de ejecución, detallando el
+procedimiento de desarrollo.
 
-La parte central de este trabajo versa sobre
-el vocabulario y relaciones que conforman la gramática propuesta,
-se explica como dicha representación habilita que la semántica musical
-pueda ser materia prima de esta serie de procesos
-y se despliegan el resultado de algunos ejemplos a modo de demostración.
+La parte central de este trabajo versa sobre el vocabulario y relaciones que
+conforman la gramática propuesta, se explica como dicha representación habilita
+que la semántica musical pueda ser materia prima de esta serie de procesos y se
+despliegan el resultado de algunos ejemplos a modo de demostración.
 
-Para concluir
-se proyectan algunas aplicaciones posibles 
-en diferentes escenarios
-(trabajo colaborativo en simultaneo y a distancia, programación en vivo)
-y varias disciplinas (Inteligencia artificial,
-modelo condicional restringido
-archivología).
+Para concluir se proyectan algunas aplicaciones posibles en diferentes
+escenarios (trabajo colaborativo en simultaneo y a distancia, programación en
+vivo) y varias disciplinas (Inteligencia artificial, modelo condicional
+restringido archivología).
+
 
 Completando el aspecto técnico de este trabajo se incluyen los módulos
 desarrollados para la implementación.
 
 [^ver_combs]: @coombs 
+[^ver_interprete]: @interprete
 
 \newpage
 
@@ -98,7 +89,7 @@ En este apartado se repasan las ventajas principales del registro de
 información con enunciados textuales y del empleo del lenguaje como medio
 de entrada de instrucciones en escenarios generales.
 
-### ¿Por qué Texto Plano?
+### Texto Llano
 \label{sec:porque_texto_plano}
 
 > "...our base material isn't wood or iron, it's knowledge. [...].
@@ -146,7 +137,7 @@ creados.[^ver_leek]
 [^ver_hunt]: @hunt Capítulo 3: Basic Tools (pp. 72-99).
 [^ver_leek]: @leek
 
-### ¿Por qué Interfaz de Linea de Comandos?
+### Interprete de Comandos
 
 Se argumenta la conveniencia
 de prescindir de representaciones gráficas
@@ -210,34 +201,31 @@ que implica este estudio.
 ### Interface Digital para Instrumentos Musicales
 \label{sec:porque_midi}
 
-De carácter especifico a la producción musical,
-en relación directa a este proyecto
-es menester acreditar la adopción de un formato en particular
-para codificar el resultado de la cadena procesos.
+De carácter especifico a la producción musical, en relación directa a este
+proyecto es menester acreditar la adopción de un formato en particular para
+codificar la capa que describe y gestiona la performance entre dispositivos
+[^ver_haus].
 
-El animo por que las secuencias de control a producir
-satisfagan las condiciones requeridas para
-alcanzar compatibilidad con el formato MIDI estándar[^ver_midi],
-está fundamentado por sus virtudes de
-ser y proyectarse ampliamente adoptado,
-soportado en la mayoría de los entornos
-y apoyado por la industria.[^ver_penfold]
 
-Si bien es liviano y se planea compatible a futuro,
-cualidades que comparte 
-\hyperref[sec:porque_texto_plano]{con el formato de texto llano},
-de igual modo es pertinente señalar
-la desventaja que significa
-el empleo de cualquier sistema de codificación,
-intrínseca a la dificultad que impone
-para interpretar a simple vista
-la información cifrada,
-ofuscación que resulta en la dependencia
-de herramientas especificas para
-cualquier manipulación.
+El animo por que las secuencias de control a producir satisfagan las
+condiciones requeridas para alcanzar compatibilidad con el formato MIDI
+estándar[^ver_midi], está fundamentado por sus virtudes de ser y proyectarse
+ampliamente adoptado, soportado en la mayoría de los entornos y apoyado por la
+industria.[^ver_penfold]
+
+Si bien es ágil y se planea compatible a futuro, cualidades que comparte
+\hyperref[sec:porque_texto_plano]{con el formato de texto llano}, es ineludible
+la desventaja que significa el empleo de cualquier sistema de
+codificación[^ver_transporte], intrínseca a la dificultad que impone para
+interpretar a simple vista la información cifrada, ofuscación que resulta en la
+dependencia de herramientas especificas para cualquier manipulación.
 
 [^ver_penfold]: @penfold
 [^ver_midi]: @midi
+[^ver_haus]: @haus
+[^ver_transporte]: Cifrado imperativo para un trasporte ágil y certero.
+
+
 
 ## Motivación 
 
@@ -528,7 +516,7 @@ pueden distinguir tres etapas, una preparatoria, dedicada a investigación,
 experimentación y pruebas, deviene la fase de producción en si y
 culmina con un etapa de retoques, depuración de errores y defectos.
 
-Se aprovecha para reseñar las herramientas preexistentes elegidas, se mencionan
+Se aprovecha para reseñar herramientas preexistentes elegidas, se mencionan
 aquellas que fueron consideradas pero descartadas luego de algunos ensayos y
 otras periféricas vinculadas a la tarea accesoria.
 
@@ -560,20 +548,18 @@ conjunto articulaciones constituyentes de un discurso musical, en determinado
 sentido rudimental, austero y moderado. Archivando esta lista de parámetros
 como recursos informáticos.
 
-Acorde a esto se hilvanó una rutina de procesos, compuesta por un interprete
-[^ver_interprete], un analizador sintáctico [^ver_parser] y un codificador
-digital [^ver_coder] entre otras herramientas, que a partir de valores emita
-un flujo de mensajes.
+Acorde a esto se hilvanó una rutina de procesos, compuesta por un interprete ,
+un analizador sintáctico [^ver_parser] y un codificador digital [^ver_coder]
+entre otras herramientas, que a partir de valores emita un flujo de mensajes.
 
-[^ver_interprete]: @interprete
 [^ver_parser]: @parser
 [^ver_coder]: @coder
 
-### Boceto de Sintaxis
+### Boceto de Gramática
 
 El método para discretizar información, jerarquizar y distinguir propiedades de
 valores, se basa en el formato YAML [^ver_yaml]. Después evaluar y cuestionar
-este estándar enfrentandolo con alternativas, se concluyo en que cumple con las
+este estándar enfrentandolo con alternativas, se concluye que cumple con las
 condiciones y que es idóneo para la actividad.
 
 Multiples implementaciones del mismo en la mayoría de los entornos
@@ -589,7 +575,7 @@ madurez, por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
 
 ### Prototipo
 
-Se esbozó un guion de instrucciones acotadas a componer cadenas de eventos a
+Se esbozó un guion de instrucciones acotado a componer cadenas de eventos a
 partir de la interpretación, análisis sintáctico, proyección (mapeo) y
 asignación de valores.
 
@@ -604,27 +590,30 @@ la producción académica.
 
 ## Entorno
 
-
-En este apartado se distinguen los pasos seguidos a estas comprobaciones
+En este apartado se distinguen los pasos seguidos a las comprobaciones.
 
 * Extender el léxico admitido con el propósito de cubrir una cantidad mayor de
-  propiedades musicales; Establecer relaciones de sucesión y jerarquía, que
+  propiedades musicales; establecer relaciones de sucesión y jerarquía, que
 sirvan para gestionar la herencia de propiedades entre segmentos musicales
 subordinados y consecutivos.
 
-* Desarrollar una herramienta informática que,
-entre otras cosas
-sea capaz de
-consumir ficheros,
-interpretar series de registros 
-manipular valores
-traducirlos a articulaciones
-empaquetar secuencias
-escribir archivos
+* Escalar el prototipo a una herramienta informática que, sea capaz de consumir
+  ficheros, interpretar series de registros, manipular valores, derivarlos en
+articulaciones, empaquetar secuencias y escribir, entre otras
+aptitudes.
 
 ###  Gramática
 
+
 La propuesta de lenguaje específico de dominio, que 
+
+
+#### Sintaxis
+
+
+Se explica relaciones y jerarquía
+  
+#### Vocabulario 
 
 
 Negociando con la noción inabarcable
@@ -636,14 +625,8 @@ habilita la salida y entrada de valores para su manipulación,
 externa a la rutina provista.
 Si bien en el uso, este sistema se mostró prometedor,
 su naturaleza no excede el carácter experimental
-y es menesteroso de promover mejoras y consideraciones adicionales.
+y es menesteroso promover mejoras y consideraciones adicionales.
 
-
-#### Sintaxis
-Se explica relaciones y jerarquía
-  
-#### Vocabulario 
-Se explica las palabras elegidas
 
 ### Desarrollo
 
@@ -661,7 +644,7 @@ Ademas se incorporan algunos módulos de la "_Librería Estandar_" [^ver_standar
   
      
 #### Parser YAML
-Análisis  Gramático
+Análisis  Sintactico
 Relaciones Jerarquías
 pyyaml
 
@@ -684,7 +667,6 @@ provisto por algún servicio del tipo GitLab.
 
 
 
-[^ver_python]: @python
 [^ver_pyyaml]: @pyyaml
 [^ver_midiutil]: @midiutil
 [^ver_standarlib]: @standarlib
