@@ -135,7 +135,9 @@ la necesidad de emplear o desarrollar herramientas especiales para ello.
 Determinante cuando los recursos de sistema son limitados como por ejemplo
 almacenamiento escaso, velocidad de computo restringida o conexiones lentas.
 
-**Seguro contra toda obsolescencia (o compatible con el avance).**
+%**Seguro contra toda obsolescencia (o compatible con el avance).**
+% Preservable, protegido, amparado ante la obsolescencia
+**Seguro contra la obsolescencia, o compatible con el avance.**
 Los archivos de datos en formatos legibles y autodescriptivos perduran por
 sobre otros formatos aun cuando caduquen las aplicaciones con las hayan sido
 creados.[^ver_leek] 
@@ -206,7 +208,7 @@ las mismas aplican al propósito particular
 que implica este estudio.
 
 % ### MIDI (Interface Digital para Instrumentos Musicales) 
-### Interface Digital para Instrumentos Musicales
+### Interface Digital para Instrumentos Musicales (MIDI)
 \label{sec:porque_midi}
 
 De carácter especifico a la producción musical, en relación directa a este
@@ -214,7 +216,7 @@ proyecto es menester acreditar la adopción de un formato en particular para
 codificar la capa que describe y gestiona la performance entre dispositivos
 [^ver_haus].
 
-%el resultado de la cadena procesos.
+% el resultado de la cadena procesos.
 % Describe una
 % performance: Computer-based descriptions and executions of music
 % Descripción y ejecución musical basada en computadora
@@ -659,7 +661,7 @@ madurez, por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
 
 ### Prototipo
 
-Se esbozó un guion de instrucciones acotado a componer cadenas de eventos a
+Se esbozó un guión de instrucciones acotado a componer cadenas de eventos a
 partir de la interpretación, análisis sintáctico, proyección (mapeo) y
 asignación de valores.
 
@@ -677,47 +679,65 @@ la producción académica.
 
 En este apartado se distinguen los pasos seguidos a las comprobaciones.
 
-* Extender el léxico admitido con el propósito de cubrir una cantidad mayor de
-  propiedades musicales; establecer relaciones de sucesión y jerarquía, que
-sirvan para gestionar la herencia de propiedades entre segmentos musicales
-subordinados y consecutivos.
+* Establecer relaciones de sucesión y jerarquía, que gestionen 
+  herencia de propiedades entre segmentos musicales subordinados o
+consecutivos. Extender el léxico admitido con el propósito de cubrir una
+cantidad mayor de propiedades musicales.
 
 * Escalar el prototipo a una herramienta informática que, sea capaz de consumir
   ficheros, interpretar series de registros, manipular valores, derivarlos en
-articulaciones, empaquetar secuencias y escribir, entre otras
-aptitudes.
+articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
 
 ###  Gramática
 
-% sintaxis para representar información discreta como una serie de registros en
-% un archivo de computadora.
+Se describe como se definió el lenguaje formal el 
+componente principal.
 
-La propuesta de lenguaje específico de dominio, que 
-%personlizado Custom Definicion
 
+El primer esfuerzo se concentro
+% Antes de el primer paso fue concebir una estructura lógica que
+en definir la organicion principal de las partes musicales.
+La discriminación inicial de la información ocurre a nivel de fichero,
+cada archivo contiene los datos necesarios para definir un estrato de pieza, 
+ademas de algunas propiedades generales (bpm, tonal key) que afectan a la 
+todos los canales y terminan en el meta track 16. [^ver_limite16]
+
+En que medida un unidad pueda referir a otra y suceder propiedades, 
+la unidad
+
+Dicho esto se pasa a explicar como se organiza los unidades internamente 
+y las
+
+[^ver_limite16]: 16 sera el limite impuesto por el estándar MIDI
 
 #### Sintaxis
 
+
+% un archivo de computadora.
+
+% De lenguaje específico de dominio que definición recursos personalizado
+
 % yaml jerarquia
 % yaml referencia
-
 Se explica relaciones y jerarquía
+
   
 #### Vocabulario 
 
-% Se explica las palabras elegidas
+El vocabulario se organiza el 3 niveles,
+* Propiedades de Articulación, que son aquellas que representan de articulaciones
+* Propiedades de Unidad, que son las que afectan a toda la unidad, el segmento musical y/o
+conjunto de unidades 
+* Propiedades de pista, son generales y tienen q ver con toda parte.
 
-Negociando con la noción inabarcable
-que significa dar soporte a cada aspecto musical esperado,
-siendo imposible anticipar todos las aplicaciones estipuladas
-en determinado sentido arbitrarias y/o circunstanciales,
-se propone un sistema de complementos de usuarios que
-habilita la salida y entrada de valores para su manipulación,
-externa a la rutina provista.
-Si bien en el uso, este sistema se mostró prometedor,
-su naturaleza no excede el carácter experimental
-y es menesteroso promover mejoras y consideraciones adicionales.
 
+Negociando con la noción inabarcable que significa dar soporte a cada aspecto
+musical esperado, siendo imposible anticipar todos las aplicaciones estipuladas
+en determinado sentido arbitrarias y/o circunstanciales, se propone un sistema
+de complementos de usuarios que habilita la salida y entrada de valores para su
+manipulación, externa a la rutina provista.  Si bien en el uso, este sistema se
+mostró prometedor, su naturaleza no excede el carácter experimental y es
+menesteroso promover mejoras y consideraciones adicionales.
 % El mismo se describirá a detalle mas adelante.
 
 ### Desarrollo
