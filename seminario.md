@@ -677,57 +677,68 @@ la producción académica.
 
 ## Entorno
 
-En este apartado se distinguen los pasos seguidos a las comprobaciones.
+Dentro las acciones posteriores a las comprobaciones,
+aunque influenciados entre si,
+se pueden distinguir dos agrupamientos:
 
 * Establecer relaciones de sucesión y jerarquía, que gestionen 
   herencia de propiedades entre segmentos musicales subordinados o
-consecutivos. Extender el léxico admitido con el propósito de cubrir una
+consecutivos y extender el léxico admitido con el propósito de cubrir una
 cantidad mayor de propiedades musicales.
 
-* Escalar el prototipo a una herramienta informática que, sea capaz de consumir
+* Escalar el prototipo a una herramienta informática que: sea capaz de consumir
   ficheros, interpretar series de registros, manipular valores, derivarlos en
 articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
 
 ###  Gramática
 
-Se describe como se definió el lenguaje formal el 
-componente principal.
-
-
-El primer esfuerzo se concentro
+Para establecer el lenguaje formal,
+componente principal de este estudio,
+el primer esfuerzo se centró
 % Antes de el primer paso fue concebir una estructura lógica que
-en definir la organicion principal de las partes musicales.
-La discriminación inicial de la información ocurre a nivel de fichero,
-cada archivo contiene los datos necesarios para definir un estrato de pieza, 
-ademas de algunas propiedades generales (bpm, tonal key) que afectan a la 
-todos los canales y terminan en el meta track 16. [^ver_limite16]
+en definir la organización de las propiedades de las partes musicales.
+
+La discriminación de la información comienza a nivel de archivo,
+cada fichero contiene los datos necesarios para definir un estrato en la pieza
+[^ver_limite16],
+además de propiedades generales (tempo, armadura de clave) que afectaran a
+a la pieza, a todas las partes y que terminan alojados en el meta canal #16.
+% en otras palabras cada archivo es un canal.
+
+[^ver_limite16]: 16 canales es el limite impuesto por el estándar MIDI a los archivos.
+% en una implementacion de stream, este limitacion dependeria del entorno.
+
+#### Sintaxis
+
+Obteniendo así recursos que canalizan la información de cada parte,
+esta información esta basada en YAML.
+% Explicar  yaml
 
 En que medida un unidad pueda referir a otra y suceder propiedades, 
 la unidad
 
-Dicho esto se pasa a explicar como se organiza los unidades internamente 
-y las
-
-[^ver_limite16]: 16 sera el limite impuesto por el estándar MIDI
-
-#### Sintaxis
-
+% Dicho esto se pasa a explicar como se organiza los unidades internamente 
+% y las
 
 % un archivo de computadora.
 
-% De lenguaje específico de dominio que definición recursos personalizado
+% YAML jerarquia
+% YAML referencia
 
-% yaml jerarquia
-% yaml referencia
 Se explica relaciones y jerarquía
 
   
 #### Vocabulario 
 
+%de lenguaje específico de dominio[^ver_dsl]
+
 El vocabulario se organiza el 3 niveles,
+
 * Propiedades de Articulación, que son aquellas que representan de articulaciones
-* Propiedades de Unidad, que son las que afectan a toda la unidad, el segmento musical y/o
-conjunto de unidades 
+
+* Propiedades de Unidad, que son las que afectan a toda la unidad,
+el segmento musical y/o conjunto de unidades 
+
 * Propiedades de pista, son generales y tienen q ver con toda parte.
 
 
@@ -739,6 +750,7 @@ manipulación, externa a la rutina provista.  Si bien en el uso, este sistema se
 mostró prometedor, su naturaleza no excede el carácter experimental y es
 menesteroso promover mejoras y consideraciones adicionales.
 % El mismo se describirá a detalle mas adelante.
+[^ver_dsl]: @dsl
 
 ### Desarrollo
 % #### Hilvanado de entorno
