@@ -206,7 +206,6 @@ proyecto es menester acreditar la adopción de un formato en particular para
 codificar la capa que describe y gestiona la performance entre dispositivos
 [^ver_haus].
 
-
 El animo por que las secuencias de control a producir satisfagan las
 condiciones requeridas para alcanzar compatibilidad con el formato MIDI
 estándar[^ver_midi], está fundamentado por sus virtudes de ser y proyectarse
@@ -220,10 +219,12 @@ codificación[^ver_transporte], intrínseca a la dificultad que impone para
 interpretar a simple vista la información cifrada, ofuscación que resulta en la
 dependencia de herramientas especificas para cualquier manipulación.
 
+
+
 [^ver_penfold]: @penfold
 [^ver_midi]: @midi
 [^ver_haus]: @haus
-[^ver_transporte]: Cifrado imperativo para un trasporte ágil y certero.
+[^ver_transporte]: Cifrado condicionante para el trasporte.
 
 
 
@@ -558,14 +559,16 @@ entre otras herramientas, que a partir de valores emita un flujo de mensajes.
 ### Boceto de Gramática
 
 El método para discretizar información, jerarquizar y distinguir propiedades de
-valores, se basa en el formato YAML [^ver_yaml]. Después evaluar y cuestionar
-este estándar enfrentandolo con alternativas, se concluye que cumple con las
+valores, se basa en el formato YAML [^ver_yaml].
+Luego de considerar 
+este estándar y enfrentarlo con alternativas, se concluye que cumple con las
 condiciones y que es idóneo para la actividad.
 
 Multiples implementaciones del mismo en la mayoría de los entornos
 vigentes[^ver_matrix], aseguran la independencia de la información serializada
-con este sistema.  Se le adjudica alta legibilidad[^ver_noyaml]. Goza de cierta
-madurez, por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
+en este sistema.
+Se le adjudica alta legibilidad[^ver_noyaml].
+Goza de cierta madurez, por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2].
 
 [^ver_yaml]: @yaml
 [^ver_matrix]: @matrix
@@ -581,7 +584,7 @@ asignación de valores.
 
 Este prototipo, que confirmó la viabilidad de la aplicación pretendida,
 fue desarrollado en Perl [^ver_perl], lenguaje que luego de ciertas
-consideraciones se desestimó por Python [^ver_python] debido a mayor adopción
+consideraciones se desestimó por Python[^ver_python] debido a mayor adopción
 la producción académica.
 
 [^ver_perl]: @perl
@@ -590,7 +593,7 @@ la producción académica.
 
 ## Entorno
 
-Dentro las acciones posteriores a las comprobaciones,
+En las actividades posteriores a las comprobaciones,
 aunque influenciados entre si,
 se pueden distinguir dos agrupamientos:
 
@@ -605,39 +608,61 @@ articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
 
 ###  Gramática
 
-Al establecer este lenguaje formal,
-el primer esfuerzo se concentró
+Al establecer este lenguaje formal, el primer esfuerzo se concentró
 en definir la organización de las propiedades de cada parte musical,
 conseguir una estructura lógica que ordene un discurso multi-parte.
-La discriminación de la información comienza a nivel de archivo,
-cada fichero contiene los datos relativos a cada estratos en la pieza,
 
+La discriminación de la información comienza a nivel de archivo,
+cada fichero contiene los datos relativos a estratos individuales en la pieza.
 Obteniendo así recursos que canalizan la información de cada parte,
 junto con determinadas de propiedades generales
 (tempo, armadura de clave, metro, letras, etc)
 que si bien pueden alojarse en una definición de canal,
-afectaran a a la pieza, a todas las partes y que terminan meta eventos.
-[^ver_limite16];
-dicho esto se continua exponiendo primer como esta sintaxis se organiza
-y a continuación algunas consideraciones acerca de el léxico admitido.
+son meta eventos afectaran a total de la pieza.
+[^ver_imposiciones]
 
-[^ver_limite16]: La limitación de 16 canales, 
-y el alcance global de algunas propiedades son 
-impuesto por el estándar MIDI.
+Dicho esto se continua con la organización interna de los archivos
+y algunas consideraciones acerca de el léxico acuñado.
 
+[^ver_imposiciones]: La limitación canales
+y el carácter global de algunas propiedades son 
+algunas de las imposiciones del el estándar MIDI.
 
 #### Sintaxis
 
 
+
+
+
+Dentro de cada definición de canal, es el reinado de YAML.
+Las principales principios a considerar consideradodf¡wefwe,
+
+Caracteres con un tratamiento especial son:
+
+* Los dos puntos ":" denotan la proyección de un valor.
+
+* El guión "-" indica la entrada de un bloque de secuencia. 
+
+* En el estilo de bloques de YAML, la estructura esta determinada por la indentación.
+
+* Por fuera de la indentación y contexto de escalar, los espacios en blanco son la separación simbólica.
+
+Algunos caracteres de indicación y estructuras básicas principales,
+para mas información sobre otras estructuras referir a la especificación 
+del formato. [^ver_yaml2].
+
+Presentado de este modo austero,
+puede llegar parecer mas intimidante de lo que en realidad es, 
+en los ejemplos que despliegan en el capitulo siguiente se puede ver que
+con algunas consideraciones, con reglas sencillas se consigue 
+mucha expresividad sin sacrificar la legibilidad.
+
 En que medida un unidad pueda referir a otra y suceder propiedades, 
 la unidad
+ 
+[^ver_yaml2]:@yaml Apartado 5.3: Caracteres de Indicación
+y Capitulo 6: Estructuras Básicas.
 
-
-
-
-Se explican relaciones y jerarquía
-
-  
 #### Vocabulario 
 
 
@@ -649,7 +674,6 @@ El vocabulario se organiza el 3 niveles,
 el segmento musical y/o conjunto de unidades 
 
 * Propiedades de pista, son generales y tienen q ver con toda parte.
-
 
 Negociando con la noción inabarcable que significa dar soporte a cada aspecto
 musical esperado, siendo imposible anticipar todos las aplicaciones estipuladas
@@ -663,9 +687,11 @@ menesteroso promover mejoras y consideraciones adicionales.
 ### Desarrollo
 
 
+
+
 Python
 La rutina de instrucciones principales será interpretada en el lenguaje
-Python[^ver_python] (en su ultima versión estable). 
+Python[^ver_python2] (en su ultima versión estable). 
 
 Esta pieza de software estará basada en otros dos desarrollos:
 el módulo "_pyyaml_" [^ver_pyyaml] para analizar la información serializada,
@@ -699,6 +725,7 @@ provisto por algún servicio del tipo GitLab.
 
 
 
+[^ver_python2]: @python
 [^ver_pyyaml]: @pyyaml
 [^ver_midiutil]: @midiutil
 [^ver_standarlib]: @standarlib
@@ -732,6 +759,9 @@ Describir Referencia y recurrencia en YAML
 
 ### Vocabulario
 
+admitido
+
+en una especie de glosario
 Explicar q se va a describir cada palabra elegida para representar cada
 propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor de facto que se
 asigna
@@ -965,3 +995,4 @@ y varias disciplinas (IA, machine learning).
 
 \newpage
 
+ 

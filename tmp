@@ -314,3 +314,5 @@ View Mobile Site
  
 [wikiabarIc] Counter-Strike [wikiabarIc] EndgameHonest [wikiabarIc] UpsideDown
  
+Outside indentation and scalar content, YAML uses white space characters for separation between tokens within a line. Note thatsuch white space may safely include tab characters
+nside scalar content, each line begins with a non-content line prefix. This prefix always includes the indentation. For flow scalarstyles it additionally includes all leading white space, which may contain tab characters
