@@ -605,19 +605,20 @@ articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
 
 ###  Gramática
 
-Para establecer este lenguaje formal,
+Al establecer este lenguaje formal,
 el primer esfuerzo se concentró
 en definir la organización de las propiedades de cada parte musical,
 conseguir una estructura lógica que ordene un discurso multi-parte.
 La discriminación de la información comienza a nivel de archivo,
 cada fichero contiene los datos relativos a cada estratos en la pieza,
-así como también determinadas de propiedades generales (tempo, armadura de clave, metro, letras, etc)
-que si bien pueden alojarse en una definición de canal, afectaran a
-a la pieza, a todas las partes y que terminan meta eventos, alojados en un canal extra. 
-[^ver_limite16].
 
-Estableciendo así recursos que canalizan la información de cada parte,
-dado esto se continua exponiendo primer como esta sintaxis se organiza
+Obteniendo así recursos que canalizan la información de cada parte,
+junto con determinadas de propiedades generales
+(tempo, armadura de clave, metro, letras, etc)
+que si bien pueden alojarse en una definición de canal,
+afectaran a a la pieza, a todas las partes y que terminan meta eventos.
+[^ver_limite16];
+dicho esto se continua exponiendo primer como esta sintaxis se organiza
 y a continuación algunas consideraciones acerca de el léxico admitido.
 
 [^ver_limite16]: La limitación de 16 canales, 
@@ -626,7 +627,6 @@ impuesto por el estándar MIDI.
 
 
 #### Sintaxis
-
 
 
 En que medida un unidad pueda referir a otra y suceder propiedades, 
@@ -655,7 +655,7 @@ Negociando con la noción inabarcable que significa dar soporte a cada aspecto
 musical esperado, siendo imposible anticipar todos las aplicaciones estipuladas
 en determinado sentido arbitrarias y/o circunstanciales, se propone un sistema
 de complementos de usuarios que habilita la salida y entrada de valores para su
-manipulación, externa a la rutina provista.  Si bien en el uso, este sistema se
+manipulación, externa a la rutina provista. Si bien en el uso este sistema se
 mostró prometedor, su naturaleza no excede el carácter experimental y es
 menesteroso promover mejoras y consideraciones adicionales.
 [^ver_dsl]: @dsl
