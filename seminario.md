@@ -692,26 +692,31 @@ articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
 
 ###  Gramática
 
-Para establecer el lenguaje formal,
-componente principal de este estudio,
-el primer esfuerzo se centró
-% Antes de el primer paso fue concebir una estructura lógica que
-en definir la organización de las propiedades de las partes musicales.
-
+Para establecer este lenguaje formal,
+el primer esfuerzo se concentró
+en definir la organización de las propiedades de cada parte musical,
+conseguir una estructura lógica que ordene un discurso multi-parte.
 La discriminación de la información comienza a nivel de archivo,
-cada fichero contiene los datos necesarios para definir un estrato en la pieza
-[^ver_limite16],
-además de propiedades generales (tempo, armadura de clave) que afectaran a
-a la pieza, a todas las partes y que terminan alojados en el meta canal #16.
-% en otras palabras cada archivo es un canal.
+cada fichero contiene los datos relativos a cada estratos en la pieza,
+así como también determinadas de propiedades generales (tempo, armadura de clave, metro, letras, etc)
+que si bien pueden alojarse en una definición de canal, afectaran a
+a la pieza, a todas las partes y que terminan meta eventos, alojados en un canal extra. 
+[^ver_limite16].
 
-[^ver_limite16]: 16 canales es el limite impuesto por el estándar MIDI a los archivos.
+Estableciendo así recursos que canalizan la información de cada parte,
+% esta información esta basada en YAML, 
+dado esto se continua exponiendo primer como esta sintaxis se organiza
+y a continuación algunas consideraciones acerca de el léxico admitido.
+
+[^ver_limite16]: La limitación de 16 canales, 
+y el alcance global de algunas propiedades son 
+impuesto por el estándar MIDI.
+
 % en una implementacion de stream, este limitacion dependeria del entorno.
 
 #### Sintaxis
 
-Obteniendo así recursos que canalizan la información de cada parte,
-esta información esta basada en YAML.
+
 % Explicar  yaml
 
 En que medida un unidad pueda referir a otra y suceder propiedades, 
@@ -725,7 +730,7 @@ la unidad
 % YAML jerarquia
 % YAML referencia
 
-Se explica relaciones y jerarquía
+Se explican relaciones y jerarquía
 
   
 #### Vocabulario 
