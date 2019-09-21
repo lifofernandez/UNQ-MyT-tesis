@@ -298,7 +298,7 @@ codificaciones. El archivo MuseData está diseñado para soportar aplicaciones d
 sonido, gráficos y análisis. Los formatos derivados de las codificaciones
 musicales de MuseData que se distribución son: MIDI1, MIDI+ y Humdrum.
 
-[^ver_selfridge]: @selfridge
+[^ver_selfridge]: @selfridge Capitulo 27: MuseData: Multipurpose Representation
 
 #### Organización de archivos MuseData 
 
@@ -685,7 +685,8 @@ la producción académica.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-## Entorno
+## Desarrollo
+%## Desarrollo del Entorno
 
 En las actividades posteriores a las comprobaciones,
 aunque influenciados entre si,
@@ -708,19 +709,21 @@ conseguir una estructura lógica que ordene un discurso multi-parte.
 
 La discriminación de la información comienza a nivel de archivo,
 cada fichero contiene los datos relativos a estratos individuales en la pieza.
-Obteniendo así recursos que canalizan la información de cada parte,
+Obteniendo así recursos que canalizan la información de cada parte
 junto con determinadas de propiedades generales
-(tempo, armadura de clave, metro, letras, etc)
+(tempo, armadura de clave, metro, letras, etc),
 que si bien pueden alojarse en una definición de canal,
-son meta eventos afectaran a total de la pieza.
+son meta eventos [^ver_selfridge2] afectaran a total de la pieza.
 [^ver_imposiciones]
 
 Dicho esto se continua con la organización interna de los archivos
 y algunas consideraciones acerca de el léxico acuñado.
 
-[^ver_imposiciones]: La limitación canales
-y el carácter global de algunas propiedades son 
-algunas de las imposiciones del el estándar MIDI.
+[^ver_imposiciones]: Limitación cantidad de canales y el carácter global de
+  algunas propiedades son algunas de las imposiciones del el estándar MIDI.
+
+[^ver_selfridge2]: @selfridge Capitulo 3: MIDI Extensions for Musical Notation
+  (1): NoTAMIDI Meta-Events
 
 #### Sintaxis
 
@@ -745,8 +748,11 @@ algunas de las imposiciones del el estándar MIDI.
 % Se explican relaciones y jerarquía
 
 % indication caracters
+
 Dentro de cada definición de canal, es el reinado de YAML.
-Las principales principios a considerar consideradodf¡wefwe,
+
+Se reseñan los caracteres de indicación y estructuras básicas,
+en cierto aspecto principales, son:
 
 Caracteres con un tratamiento especial son:
 
@@ -754,29 +760,29 @@ Caracteres con un tratamiento especial son:
 
 * El guión "-" indica la entrada de un bloque de secuencia. 
 
-* En el estilo de bloques de YAML, la estructura esta determinada por la indentación.
+* En el estilo de bloques de YAML
+ la estructura esta determinada por la indentación.
 
 * Por fuera de la indentación y contexto de escalar, los espacios en blanco son la separación simbólica.
 
-Algunos caracteres de indicación y estructuras básicas principales,
-para mas información sobre otras estructuras referir a la especificación 
-del formato. [^ver_yaml2].
-
-Presentado de este modo austero,
+Presentado tan este modo austero,
 puede llegar parecer mas intimidante de lo que en realidad es, 
 en los ejemplos que despliegan en el capitulo siguiente se puede ver que
 con algunas consideraciones, con reglas sencillas se consigue 
 mucha expresividad sin sacrificar la legibilidad.
 
-En que medida un unidad pueda referir a otra y suceder propiedades, 
-la unidad
+Para mas información sobre otras estructuras referir a la especificación 
+del formato. [^ver_yaml2].
+
+%En que medida un unidad pueda referir a otra y suceder propiedades, 
+%la unidad
  
 [^ver_yaml2]:@yaml Apartado 5.3: Caracteres de Indicación
 y Capitulo 6: Estructuras Básicas.
 
 #### Vocabulario 
 
-%especie de lenguaje específico de dominio[^ver_dsl]
+Especie de lenguaje específico de dominio[^ver_dsl]
 
 El vocabulario se organiza el 3 niveles,
 
@@ -787,21 +793,22 @@ el segmento musical y/o conjunto de unidades
 
 * Propiedades de pista, son generales y tienen q ver con toda parte.
 
-Negociando con la noción inabarcable que significa dar soporte a cada aspecto
+Para negociar con la noción inabarcable que significa dar soporte a cada aspecto
 musical esperado, siendo imposible anticipar todos las aplicaciones estipuladas
 en determinado sentido arbitrarias y/o circunstanciales, se propone un sistema
-de complementos de usuarios que habilita la salida y entrada de valores para su
-manipulación, externa a la rutina provista. Si bien en el uso este sistema se
+de complementos de usuarios que habilita la salida y entrada de valores, para su
+manipulación externa a la rutina provista. Si bien en el uso este sistema se
 mostró prometedor, su naturaleza no excede el carácter experimental y es
 menesteroso promover mejoras y consideraciones adicionales.
-% El mismo se describirá a detalle mas adelante.
+% El mismo se detalla mas adelante.
 [^ver_dsl]: @dsl
 
-### Desarrollo
+### Entorno / Ecosistema / Implementacion / Aplicacion
 
 % #### Hilvanado de entorno
 
 % #### Desarrollo aplicación
+
 % Sobre el desarrollo 
 % Se detalla en profundidad
 % la parte central del todo el procedimiento
@@ -825,14 +832,19 @@ Ademas se incorporan algunos módulos de la "_Librería Estandar_" [^ver_standar
 % #### Evaluación de Herramientas Antecedentes
      
 #### Parser YAML
-Análisis  Sintactico
-Relaciones Jerarquías
+
+Análisis  Sintáctico
+Relaciones Jerarquía
 pyyaml
 
 
 #### Codificación MIDI
-Codificación en el Estandar MIDI
+
 midiUTIL
+Codificación en el Estandar MIDI
+Explicar que se cubrieron todas las clases de la libreria
+
+
 
 % ## Post
 % 
@@ -846,9 +858,10 @@ midiUTIL
 
 #### Otras herramientas
 
-como conseguir el código.
-
-Instalación
+% Explicar que se van a discutir las herramientas
+% Usadas
+% Como conseguir el código.
+% Instalación
 
 El editor de texto preferido para toda la actividad será VIM [^ver_vim];
 durante el desarrollo las versiones se controlarán con el sistema GIT
@@ -856,8 +869,6 @@ durante el desarrollo las versiones se controlarán con el sistema GIT
 provisto por algún servicio del tipo GitLab.
 
 
-% explicar que se van a discutir las herramientas
-% usadas
 
 [^ver_python2]: @python
 [^ver_pyyaml]: @pyyaml
@@ -906,6 +917,7 @@ Describir Referencia y recurrencia en YAML
 ### Vocabulario
 
 admitido
+fundamentar español
 
 en una especie de glosario
 Explicar q se va a describir cada palabra elegida para representar cada
@@ -914,7 +926,7 @@ asigna
 
 #### Propiedades de Articulaciones
 
-Parametros por defecto para todas sas unidades,
+Parametros por defecto para todas las unidades,
 pueden ser sobrescritos.
 
 Variego "talea" [^ver_variego]
@@ -1168,6 +1180,5 @@ y varias disciplinas (IA, machine learning).
 % [^ver_gnu]: @gnu
 
 
-\newpage
 
  
