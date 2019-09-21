@@ -503,8 +503,9 @@ disponibles para su manipulación por otros programas.
 
 \bigskip
 
-Si bien la recopilación expuesta no agota la lista de posibles referentes
-pertinentes a analizar y otros aparecerán mientras se vuelven relevantes,
+Si bien la recopilación expuesta no agota la lista de referentes
+pertinentes
+y surgirán otros que cobraran relevancia,
 provee un criterio para proceder.
 
 \newpage
@@ -583,15 +584,15 @@ partir de la interpretación, análisis sintáctico, proyección (mapeo) y
 asignación de valores.
 
 Este prototipo, que confirmó la viabilidad de la aplicación pretendida,
-fue desarrollado en Perl [^ver_perl], lenguaje que luego de ciertas
-consideraciones se desestimó por Python[^ver_python] debido a mayor adopción
-la producción académica.
+fue desarrollado en Perl [^ver_perl], lenguaje que luego de algunas 
+consideraciones se desestimó por Python[^ver_python] debido principalmente
+a mayor adopción en la producción académica.
 
 [^ver_perl]: @perl
 [^ver_python]: @python
 
 
-## Entorno
+## Desarrollo
 
 En las actividades posteriores a las comprobaciones,
 aunque influenciados entre si,
@@ -624,7 +625,7 @@ son meta eventos [^ver_selfridge2] afectaran a total de la pieza.
 Dicho esto se continua con la organización interna de los archivos
 y algunas consideraciones acerca de el léxico acuñado.
 
-[^ver_imposiciones]: Limitación cantidad de canales y el carácter global de
+[^ver_imposiciones]: Limitación en cantidad de canales y el carácter global de
   algunas propiedades son algunas de las imposiciones del el estándar MIDI.
 
 [^ver_selfridge2]: @selfridge Capitulo 3: MIDI Extensions for Musical Notation
@@ -633,34 +634,33 @@ y algunas consideraciones acerca de el léxico acuñado.
 #### Sintaxis
 
 
+Dentro de cada definición de canal, YAML es el que rige.
+Se reseñan los principales caracteres de indicación
+y estructuras básicas.
 
 
+En el estilo de bloques de YAML, similar al de Python, la estructura esta
+determinada por la indentación. En términos generales indentación se define
+como los espacios en blanco al comienzo de la linea.
+Por fuera de la indentación y del contexto escalar,
+YAML destina los espacios en blanco para
+separar entre símbolos.
+
+Otros caracteres de indicación,
+reservados y con tratamiento especial son
+los dos puntos ":" que denotan la proyección de un valor y 
+el guión "-" que indica un bloque de secuencia. 
 
 
-Dentro de cada definición de canal, es el reinado de YAML.
-
-Se reseñan los caracteres de indicación y estructuras básicas,
-en cierto aspecto principales, son:
-
-Caracteres con un tratamiento especial son:
-
-* Los dos puntos ":" denotan la proyección de un valor.
-
-* El guión "-" indica la entrada de un bloque de secuencia. 
-
-* En el estilo de bloques de YAML
- la estructura esta determinada por la indentación.
-
-* Por fuera de la indentación y contexto de escalar, los espacios en blanco son la separación simbólica.
-
-Presentado tan este modo austero,
-puede llegar parecer mas intimidante de lo que en realidad es, 
-en los ejemplos que despliegan en el capitulo siguiente se puede ver que
-con algunas consideraciones, con reglas sencillas se consigue 
-mucha expresividad sin sacrificar la legibilidad.
-
-Para mas información sobre otras estructuras referir a la especificación 
-del formato. [^ver_yaml2].
+Presentado así de este modo austero aparenta intimidar,
+pero se aprecia en los ejemplos
+desplegados en el capitulo siguiente, 
+que con algunas reglas sencillas
+este lenguaje de marcado
+consigue mucha expresividad sin sacrificar legibilidad.
+Para mas información acerca de otras estructuras
+y el tratamiento especial caracteres reservados,
+referirse a la especificación del formato[^ver_yaml2].
 
  
 [^ver_yaml2]:@yaml Apartado 5.3: Caracteres de Indicación
@@ -688,7 +688,7 @@ mostró prometedor, su naturaleza no excede el carácter experimental y es
 menesteroso promover mejoras y consideraciones adicionales.
 [^ver_dsl]: @dsl
 
-### Desarrollo
+### Entorno / Ecosistema / Implementacion / Aplicacion
 
 
 
@@ -730,8 +730,6 @@ durante el desarrollo las versiones se controlarán con el sistema GIT
 [^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
 provisto por algún servicio del tipo GitLab.
 
-
-
 [^ver_python2]: @python
 [^ver_pyyaml]: @pyyaml
 [^ver_midiutil]: @midiutil
@@ -752,7 +750,8 @@ provisto por algún servicio del tipo GitLab.
 ### Estructura gramatical
 
 
-referir a Metodología, YAML >
+
+
 La estructura principal la sintaxis gramatical de cada pista se basa en el
 formato de serialización de datos YAML[^ver_yaml] el cual delimta entre clave y
 valor con el cáracter ":" (dos puntos), mientras que la indentacion representa
