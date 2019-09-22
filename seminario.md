@@ -756,12 +756,12 @@ del nodo como *alias*
 son invocados con el simbolo "\*" asterisco.
 
 Quizás esta presentación austera
-pueda suscitar intimidación aparente,
+provoque una intimidación aparente,
 como se aprecia en los ejemplos
 desplegados en el capitulo siguiente, 
 con reglas sencillas
 este lenguaje de marcado
-consigue mucha expresividad,
+consigue expresividad,
 sin dejar de ser flexible
 o sacrificando su legibilidad característica.
 Para mas información acerca de otras estructuras
