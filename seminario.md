@@ -597,7 +597,7 @@ provee un criterio para proceder.
 
 # Metodología
 
-En esta segunda sección se introduce el procedimiento de ejecución en el que se
+En este segundo capitulo se introduce el procedimiento de ejecución en el que se
 pueden distinguir tres etapas, una preparatoria, dedicada a investigación,
 experimentación y pruebas, deviene la fase de producción en si y
 culmina con un etapa de retoques, depuración de errores y defectos.
@@ -712,13 +712,13 @@ conseguir una estructura lógica que ordene un discurso multi-parte.
 La discriminación de la información comienza a nivel de archivo,
 cada fichero contiene los datos relativos a estratos individuales en la pieza.
 Obteniendo así recursos que canalizan la información de cada parte
-junto con determinadas de propiedades generales
+junto con determinadas propiedades generales
 (tempo, armadura de clave, metro, letras, etc),
 que si bien pueden alojarse en una definición de canal,
-son meta eventos [^ver_selfridge2] afectaran a total de la pieza.
+son meta eventos [^ver_selfridge2] que afectaran a total de la pieza.
 [^ver_imposiciones]
 
-Dicho esto se continua con la organización interna de los archivos
+Dicho esto se continua con la organización interna de los documentos
 y algunas consideraciones acerca de el léxico acuñado.
 
 [^ver_imposiciones]: Limitación en cantidad de canales y el carácter global de
@@ -729,23 +729,11 @@ y algunas consideraciones acerca de el léxico acuñado.
 
 #### Sintaxis
 
-% YAML jerarquia
-
 Dentro de cada definición de canal, YAML es el que rige.
-Se reseñan los principales caracteres de indicación
+Si bien el vocabulario aceptado es propio de este proyecto,
+todas las interpretaciones son gestionadas por dicho lenguaje.
+Se reseñan los principales indicadores reservados
 y estructuras básicas.
-
-% Indication caracters
-% In YAML block styles, structure is determined by indentation.
-% In general, indentation is defined as a zero or more space characters
-% at the start of a line.
-% Outside indentation and scalar content, YAML uses white space characters for
-% separation between tokens within a line. Note that such white space may safely
-% include tab characters
-% Inside scalar content, each line begins with a
-% non-content line prefix. This prefix always includes the indentation. For flow
-% scalar styles it additionally includes all leading white space, which may
-% contain tab characters
 
 En el estilo de bloques de YAML, similar al de Python, la estructura esta
 determinada por la indentación. En términos generales indentación se define
@@ -754,23 +742,31 @@ Por fuera de la indentación y del contexto escalar,
 YAML destina los espacios en blanco para
 separar entre símbolos.
 
-Otros caracteres de indicación,
-reservados y con tratamiento especial son
-los dos puntos ":" que denotan la proyección de un valor y 
+Dentro de la lista de indicadores de reservados
+que es pertinente señalar están
+los dos puntos ":" denotan la proyección de un valor y 
 el guión "-" que indica un bloque de secuencia. 
 
-% YAML referencia & <<
+Marca el nodo para referencia futura,
+el símbolo "&" ampersand. 
+Nodos *anclas* disponibles a
+inclusiones adicionales.
+Apariciones subsecuentes
+del nodo como *alias*
+son invocados con el simbolo "\*" asterisco.
 
-Presentado así de este modo austero aparenta intimidar,
-pero se aprecia en los ejemplos
+Quizás esta presentación austera
+pueda suscitar intimidación aparente,
+como se aprecia en los ejemplos
 desplegados en el capitulo siguiente, 
-que con algunas reglas sencillas
+con reglas sencillas
 este lenguaje de marcado
-consigue mucha expresividad sin sacrificar legibilidad.
+consigue mucha expresividad,
+sin dejar de ser flexible
+o sacrificando su legibilidad característica.
 Para mas información acerca de otras estructuras
 y el tratamiento especial caracteres reservados,
 referirse a la especificación del formato[^ver_yaml2].
-
  
 [^ver_yaml2]:@yaml Apartado 5.3: Caracteres de Indicación
 y Capitulo 6: Estructuras Básicas.
@@ -778,6 +774,7 @@ y Capitulo 6: Estructuras Básicas.
 #### Vocabulario 
 
 Especie de lenguaje específico de dominio[^ver_dsl]
+Español
 
 El vocabulario se organiza el 3 niveles,
 
