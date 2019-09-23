@@ -721,7 +721,7 @@ son meta eventos [^ver_selfridge2] que afectaran a total de la pieza.
 Dicho esto se continua con la organización interna de los documentos
 y algunas consideraciones acerca de el léxico acuñado.
 
-[^ver_imposiciones]: Limitación en cantidad de canales y el carácter global de
+[^ver_imposiciones]: La limitación en cantidad de canales y el carácter global de
   algunas propiedades son algunas de las imposiciones del el estándar MIDI.
 
 [^ver_selfridge2]: @selfridge Capitulo 3: MIDI Extensions for Musical Notation
@@ -752,14 +752,17 @@ lenguaje de marcado consigue plena legibilidad, sin dejar de ser flexible ni exp
 Para mas información acerca de otras estructuras y el tratamiento especial
 caracteres reservados, referirse a la especificación del formato[^ver_yaml2].
  
-[^ver_yaml2]:@yaml Apartado 5.3: Caracteres de Indicación
-y Capitulo 6: Estructuras Básicas.
+[^ver_yaml2]:@yaml Apartado 5.3: Indicator Characters
+y Capitulo 6: Basic Structures.
 
 #### Vocabulario 
 
-Lenguaje específico de dominio[^ver_dsl].
-
-Español
+Con intensión de favorecer a la comunidad hispanoparlante
+el léxico integral del lenguaje específico de dominio[^ver_dsl]
+esta compuesto por 
+vocablos del diccionario español, salvo contadas excepciones.
+% linkear a BPMs
+% En la sección consecutiva se despliega el mismo.
 
 Para negociar con la noción inabarcable que significa dar soporte a cada aspecto
 musical esperado, siendo imposible anticipar todos las aplicaciones estipuladas
@@ -769,48 +772,35 @@ manipulación externa a la rutina provista. Si bien en el uso este sistema se
 mostró prometedor, su naturaleza no excede el carácter experimental y es
 menesteroso promover mejoras y consideraciones adicionales.
 
+Los términos componentes el léxico y el sistema de complementos
+son detallados en el primer apartado del capitulo siguiente.
+
 [^ver_dsl]: @dsl
 
-### Entorno / Ecosistema / Implementacion / Aplicacion
-
-% #### Hilvanado de entorno
-
-% #### Desarrollo aplicación
-
-% Sobre el desarrollo 
-% Se detalla en profundidad
-% la parte central del todo el procedimiento
-% de la propuesta
-% El entorno de producción musical que se pretende establecer
-% estará principalmente integrando por:
-
-
-Python
-La rutina de instrucciones principales será interpretada en el lenguaje
-Python[^ver_python2] (en su ultima versión estable). 
-
-Esta pieza de software estará basada en otros dos desarrollos:
-el módulo "_pyyaml_" [^ver_pyyaml] para analizar la información serializada,
-en combinación con la librería "MIDIutil" [^ver_midiutil] que asistirá en las
-tareas de musicología.
-Ademas se incorporan algunos módulos de la "_Librería Estandar_" [^ver_standarlib],
-
-% mientras que la documentación se generará con "_sphinx_" [^ver_sphinx].
-  
+### Entorno 
+% Ecosistema / Implementacion / Aplicacion
 % #### Evaluación de Herramientas Antecedentes
-     
-#### Parser YAML
+
+Tanto las abstracciones desarrolladas, así como también la rutina de
+instrucciones principales, esta escritas para el interprete _Python
+3_[^ver_python2]. Ademas de incorporar al entorno varios módulos de la
+"Librería Estándar" [^ver_standarlib], esta pieza de software está apoyada en
+otros dos complementos, el paquete "pyyaml" [^ver_pyyaml] para asistir con el
+análisis sintáctico, en combinación con la librería "MIDIutil" [^ver_midiutil]
+encargado de la codificación.
+
+#### Analizador Sintáctico 
 
 Análisis  Sintáctico
 Relaciones Jerarquía
 pyyaml
 
-
-#### Codificación MIDI
+#### Codificación de Salida 
 
 midiUTIL
 Codificación en el Estandar MIDI
 Explicar que se cubrieron todas las clases de la libreria
+% interface, helper, sccafolding, andamiaje
 
 
 
@@ -849,6 +839,13 @@ provisto por algún servicio del tipo GitLab.
 
 # Resultados
 
+
+% Sobre el desarrollo 
+% Se detalla en profundidad
+% la parte central del todo el procedimiento
+% de la propuesta
+% El entorno de producción musical que se pretende establecer
+% estará principalmente integrando por:
 % La parte central de este trabajo versa sobre
 % el vocabulario y relaciones que conforman la gramática propuesta,
 % se explica como dicha representación habilita que la información musical
