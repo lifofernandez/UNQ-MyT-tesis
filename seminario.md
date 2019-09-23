@@ -37,11 +37,12 @@ significado musical; un léxico y una sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
 Acompaña esta propuesta un entorno de herramientas, para interprete de línea de
-comandos para interprete de línea de comandos [^ver_interprete].  Es otro
-aporte importante del actual desarrollo esta cadena de procesos que consume
-información suscrita a dicha representación; derivando esta manipulación en la
-producción de secuencias de mensajes en el formato MIDI estándar.
-%\hyperref[sec:porque_midi]{formato MIDI estándar}.
+comandos [^ver_interprete]. Es otro aporte importante del actual desarrollo
+esta cadena de procesos que consume información suscrita a dicha
+representación; derivando esta manipulación en la producción de secuencias de
+mensajes en el formato MIDI estándar. 
+%\hyperref[sec:porque_midi]{formato MIDI
+estándar}.
 
 La primera parte de este escrito esta dedicada a justificar el objeto de
 estudio, presentar los motivos de las interrogantes, plantear la necesidad
@@ -623,16 +624,15 @@ presentarlo abarcable y facilitar su comprensión, se gráfica el mismo.
 
 ## Preliminares 
 
-Ahora se explican las experiencias tempranas necesarias para evidenciar y
-comprobar que el proyecto fuese en parte realizable y ayudar a definir el
-camino a seguir.
+Se explican las experiencias tempranas necesarias para evidenciar y
+comprobar que la hipótesis formulada fuese al menos abarcable y
+fundamentar los pasos siguientes.
 
 A partir de las inquietudes presentadas, se propuso como objetivo inicial
 establecer una lista de parámetros que asocien valores a propiedades musicales
 elementales (altura, duración, intensidad, etc) necesarias para definir el
 conjunto articulaciones constituyentes de un discurso musical, en determinado
-sentido rudimental, austero y moderado. Archivando esta lista de parámetros
-como recursos informáticos.
+sentido rudimental, austero y moderado.
 
 Acorde a esto se hilvanó una rutina de procesos, compuesta por un interprete ,
 un analizador sintáctico [^ver_parser] y un codificador digital [^ver_coder]
@@ -700,7 +700,7 @@ consecutivos y extender el léxico admitido con el propósito de cubrir una
 cantidad mayor de propiedades musicales.
 
 * Escalar el prototipo a una herramienta informática que: sea capaz de consumir
-  ficheros, interpretar series de registros, manipular valores, derivarlos en
+  recursos informáticos, interpretar series de registros, manipular valores, derivarlos en
 articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
 
 ###  Gramática
@@ -729,61 +729,37 @@ y algunas consideraciones acerca de el léxico acuñado.
 
 #### Sintaxis
 
-Dentro de cada definición de canal, YAML es el que rige.
-Si bien el vocabulario aceptado es propio de este proyecto,
-todas las interpretaciones son gestionadas por dicho lenguaje.
-Se reseñan los principales indicadores reservados
-y estructuras básicas.
+Las definiciones de canal son regidas por YAML. Si bien el vocabulario
+aceptado es propio de este proyecto, todas las interpretaciones son gestionadas
+por dicho lenguaje.  Se reseñan los principales indicadores reservados y
+estructuras básicas.
 
 En el estilo de bloques de YAML, similar al de Python, la estructura esta
 determinada por la indentación. En términos generales indentación se define
-como los espacios en blanco al comienzo de la linea.
-Por fuera de la indentación y del contexto escalar,
-YAML destina los espacios en blanco para
+como los espacios en blanco al comienzo de la linea. Por fuera de la
+indentación y del contexto escalar, YAML destina los espacios en blanco para
 separar entre símbolos.
 
-Dentro de la lista de indicadores de reservados
-que es pertinente señalar están
-los dos puntos ":" denotan la proyección de un valor y 
-el guión "-" que indica un bloque de secuencia. 
+Los indicadores reservados pertinentes señalar son: los dos puntos ":" denotan
+la proyección de un valor, el guión "-" que indica un bloque de secuencia,
+*Ancla* el nodo para referencia futura el símbolo "&" ampersand, habilitado así
+% nodos disponibles para inclusiones adicionales del mismo, cuyas apariciones
+subsecuentes como *alias* son invocados con el simbolo "\*" asterisco.
 
-Marca el nodo para referencia futura,
-el símbolo "&" ampersand. 
-Nodos *anclas* disponibles a
-inclusiones adicionales.
-Apariciones subsecuentes
-del nodo como *alias*
-son invocados con el simbolo "\*" asterisco.
-
-Quizás esta presentación austera
-provoque una intimidación aparente,
-como se aprecia en los ejemplos
-desplegados en el capitulo siguiente, 
-con reglas sencillas
-este lenguaje de marcado
-logra expresividad,
-sin dejar de ser flexible
-o sacrificando su legibilidad característica.
-Para mas información acerca de otras estructuras
-y el tratamiento especial caracteres reservados,
-referirse a la especificación del formato[^ver_yaml2].
+Quizás esta presentación austera aparenta intimidar, como se aprecia en los
+ejemplos desplegados en el capitulo siguiente, con algunas reglas sencillas este
+lenguaje de marcado consigue plena legibilidad, sin dejar de ser flexible ni expresivo.
+Para mas información acerca de otras estructuras y el tratamiento especial
+caracteres reservados, referirse a la especificación del formato[^ver_yaml2].
  
 [^ver_yaml2]:@yaml Apartado 5.3: Caracteres de Indicación
 y Capitulo 6: Estructuras Básicas.
 
 #### Vocabulario 
 
-Especie de lenguaje específico de dominio[^ver_dsl]
+Lenguaje específico de dominio[^ver_dsl].
+
 Español
-
-El vocabulario se organiza el 3 niveles,
-
-* Propiedades de Articulación, que son aquellas que representan de articulaciones
-
-* Propiedades de Unidad, que son las que afectan a toda la unidad,
-el segmento musical y/o conjunto de unidades 
-
-* Propiedades de pista, son generales y tienen q ver con toda parte.
 
 Para negociar con la noción inabarcable que significa dar soporte a cada aspecto
 musical esperado, siendo imposible anticipar todos las aplicaciones estipuladas
@@ -792,7 +768,7 @@ de complementos de usuarios que habilita la salida y entrada de valores, para su
 manipulación externa a la rutina provista. Si bien en el uso este sistema se
 mostró prometedor, su naturaleza no excede el carácter experimental y es
 menesteroso promover mejoras y consideraciones adicionales.
-% El mismo se detalla mas adelante.
+
 [^ver_dsl]: @dsl
 
 ### Entorno / Ecosistema / Implementacion / Aplicacion
@@ -890,8 +866,8 @@ provisto por algún servicio del tipo GitLab.
 
 ### Estructura gramatical
 
-%En que medida un unidad pueda referir a otra y suceder propiedades, 
-%la unidad
+% En que medida un unidad pueda referir a otra y suceder propiedades, 
+% la unidad
 
 % representación de relaciones jerárquicas
 
@@ -910,8 +886,17 @@ Describir Referencia y recurrencia en YAML
 
 ### Vocabulario
 
+
+% El vocabulario se organiza el 3 niveles,
+% 
+% * Propiedades de Articulación, que son aquellas que representan de articulaciones
+% 
+% * Propiedades de Unidad, que son las que afectan a toda la unidad,
+% el segmento musical y/o conjunto de unidades 
+% 
+% * Propiedades de pista, son generales y tienen q ver con toda parte.
+
 admitido
-fundamentar español
 
 en una especie de glosario
 Explicar q se va a describir cada palabra elegida para representar cada
