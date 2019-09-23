@@ -613,7 +613,7 @@ Al establecer este lenguaje formal, el primer esfuerzo se concentró
 en definir la organización de las propiedades de cada parte musical,
 conseguir una estructura lógica que ordene un discurso multi-parte.
 
-La discriminación de la información comienza a nivel de archivo,
+La discriminación de los datos comienza a nivel de archivo,
 cada fichero contiene los datos relativos a estratos individuales en la pieza.
 Obteniendo así recursos que canalizan la información de cada parte
 junto con determinadas propiedades generales
@@ -660,12 +660,12 @@ del nodo como *alias*
 son invocados con el simbolo "\*" asterisco.
 
 Quizás esta presentación austera
-pueda suscitar intimidación aparente,
+provoque una intimidación aparente,
 como se aprecia en los ejemplos
 desplegados en el capitulo siguiente, 
 con reglas sencillas
 este lenguaje de marcado
-consigue mucha expresividad,
+logra expresividad,
 sin dejar de ser flexible
 o sacrificando su legibilidad característica.
 Para mas información acerca de otras estructuras
