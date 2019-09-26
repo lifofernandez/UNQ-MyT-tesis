@@ -343,6 +343,8 @@ $endif$
   urlcolor   = green,
   breaklinks = true
 }
+
+\usepackage[spanish]{babel}
 \begin{document}
 
 %\setlength{leftmargin}{0pt}

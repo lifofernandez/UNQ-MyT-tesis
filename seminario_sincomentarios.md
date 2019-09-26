@@ -684,18 +684,19 @@ Tanto las abstracciones desarrolladas, así como también la rutina de
 instrucciones principales, esta escritas para el interprete _Python
 3_[^ver_python2]. Ademas de incorporar al entorno varios módulos de la
 "Librería Estándar" [^ver_standarlib] esta pieza de software está apoyada en
-otros dos complementos, el marco de trabajo "pyyaml" [^ver_pyyaml] para asistir con el
-análisis sintáctico, en combinación con la librería "MIDIutil" [^ver_midiutil]
-encargada de la codificación.
+otros dos complementos, el marco de trabajo "PyYAML" [^ver_pyyaml] para asistir
+con el análisis sintáctico, en combinación con la librería "MIDIutil"
+[^ver_midiutil] encargada de la codificación.
 
-Con el mismo ánimo 
-\hyperref[sec:espaniol]{
-que se sostuvo
-para componer el vocabulario 
-}
-el guion de acciones hace uso intensivo de idioma español.
-Este caso es en cierto aspecto cuestionable dado que hay sentencias
-predefinidas impuestas por el entorno.
+En el mismo ánimo \hyperref[sec:espaniol]{con el que se compuso el
+vocabulario}, el guion de acciones hace uso intensivo de idioma español. Esta
+decision es en cierto aspecto cuestionable siendo mayoritarias las sentencias
+predefinidas en ingles impuestas por el entorno.
+
+[^ver_python2]: @python
+[^ver_pyyaml]: @pyyaml
+[^ver_midiutil]: @midiutil
+[^ver_standarlib]: @standarlib
 
 #### Analizador Sintáctico 
 
@@ -721,11 +722,10 @@ En la presentación oficial del entorno dice:
 #### Codificación de Salida 
 
 La cadena de procesos finaliza cuando la lista articulaciones resultante,
-hasta esta instancia abstracciones en memoria, es secuenciada eventos y
-codificada ficheros en el formato MIDI.
+hasta esta instancia abstracciones en memoria, es secuenciada en eventos y
+codificada y registrada en ficheros.
 
-
-MIDIUtil es una biblioteca que posibilita escribir piezas multi-parte en
+MIDIUtil es una biblioteca que posibilita generar piezas multi-parte en
 formato MIDI 1 y 2 desde rutinas de Python. Posee abstracciones que permite
 crear y escribir estos archivos con mínimo esfuerzo.
 
@@ -733,27 +733,32 @@ El autor escusa implementar selectivamente algunos de los aspectos más útiles 
 comunes de la especificación MIDI, argumentando tratarse de un gran documento
 en expansión a lo largo de décadas. A pesar de ser incompleta, las propiedades
 cubiertas fueron suficientes para este proyecto y sirvió como marco
-el objetivo de dar soporte a las abstracciones implementadas en la librería.
-
-
-Nota:En la referencia de clases de la librería hay una lista de todas
-https://midiutil.readthedocs.io/en/1.2.1/class.html
+el objetivo de dar soporte a todo aspecto comprendido por la librería.
 
 
 #### Otras herramientas
 
+Para concluir el relato de método se mencionan dos herramientas
+accesorias de las cuales se hizo uso intensivo, tanto en el desarrollo de la
+investigación, como así también en la producción de este documento.
 
-El editor de texto preferido para toda la actividad será VIM [^ver_vim];
-durante el desarrollo las versiones se controlarán con el sistema GIT
-[^ver_git] y el repositorio del proyecto se almacenará en un espacio online 
-provisto por algún servicio del tipo GitLab.
+Siendo este proyecto texto-centrista, el entorno no está completo sin un editor
+de texto apropiado[^ver_texto]. Para conseguir fluidez y consistencia la
+herramienta empleada para esta actividad tiene que poder operar según el
+contexto, manipular bloques, disponer de macros sencillos y configurables.
+Para estos asuntos se confió en Vim[^ver_vim].
 
-[^ver_python2]: @python
-[^ver_pyyaml]: @pyyaml
-[^ver_midiutil]: @midiutil
-[^ver_standarlib]: @standarlib
-[^ver_vim]: @vim
-[^ver_git]: @git
+El progreso y el respaldo en linea, fue agilizado por el sistema de control de
+versiones GIT [^ver_git]. Es con esta herramienta, que desde [este
+repositorio](https://github.com/lifofernandez/testesis) se puede _clonar_ el
+desarrollo, junto con las instrucciones para su instalación y uso.
+
+Pese a que se comprenden estos temas en dominio del usuario,
+no podemos dejar de reconocer y recomendar el empleo de las mismas.
+
+[^ver_texto]: @moolenaar
+[^ver_vim]: @oualline
+[^ver_git]: @torvalds
 
 
 \newpage
