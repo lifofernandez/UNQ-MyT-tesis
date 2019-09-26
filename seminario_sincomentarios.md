@@ -27,8 +27,8 @@
 
 # Resumen 
 
-El presente trabajo propone
-un contexto de producción musical puramente textual.
+El presente trabajo propone un contexto de producción musical puramente
+textual.
 
 Son el producto de esta investigación un marco de patrones y relaciones
 gramaticales que posibilitan la representación sintáctica de información con
@@ -40,7 +40,7 @@ comandos [^ver_interprete]. Es otro aporte importante del actual desarrollo
 esta cadena de procesos que consume información suscrita a dicha
 representación; derivando esta manipulación en la producción de secuencias de
 mensajes en el formato MIDI estándar. 
-estándar}.
+
 
 La primera parte de este escrito esta dedicada a justificar el objeto de
 estudio, presentar los motivos de las interrogantes, plantear la necesidad
@@ -61,8 +61,8 @@ vivo) y varias disciplinas (Inteligencia artificial, modelo condicional
 restringido archivología).
 
 
-Completando el aspecto técnico de este trabajo se incluyen los módulos
-desarrollados para la implementación.
+Completando el aspecto técnico de este trabajo se incluyen el código
+de los módulos desarrollados para la implementación.
 
 [^ver_combs]: @coombs 
 [^ver_interprete]: @interprete
@@ -514,17 +514,17 @@ provee un criterio para proceder.
 
 # Metodología
 
-En este segundo capitulo se introduce el procedimiento de ejecución en el que se
-pueden distinguir tres etapas, una preparatoria, dedicada a investigación,
-experimentación y pruebas, deviene la fase de producción en si y
-culmina con un etapa de retoques, depuración de errores y defectos.
+En este segundo capitulo se introduce el procedimiento de ejecución en el que
+se pueden distinguir tres etapas, una preparatoria, dedicada a investigación,
+experimentación y pruebas, deviene la fase de producción en si y culmina con un
+etapa de retoques, depuración de errores y defectos.
 
 Se aprovecha para reseñar herramientas preexistentes elegidas, se mencionan
 aquellas que fueron consideradas pero descartadas luego de algunos ensayos y
 otras periféricas vinculadas a la tarea accesoria.
 
-Antes de exponer el método de trabajo consecuente, con intensión de
-presentarlo abarcable y facilitar su comprensión, se gráfica el mismo.
+Antes de exponer el método de trabajo consecuente, con intensión de presentarlo
+abarcable y facilitar su comprensión, se gráfica el mismo.
 
 \bigskip
 \bigskip
@@ -560,9 +560,8 @@ entre otras herramientas, que a partir de valores emita un flujo de mensajes.
 ### Boceto de Gramática
 
 El método para discretizar información, jerarquizar y distinguir propiedades de
-valores, se basa en el formato YAML [^ver_yaml].
-Luego de considerar 
-este estándar y enfrentarlo con alternativas, se concluye que cumple con las
+valores, se basa en el formato YAML [^ver_yaml].  Luego de considerar este
+estándar y enfrentarlo con alternativas, se concluye que cumple con las
 condiciones y que es idóneo para la actividad.
 
 Multiples implementaciones del mismo en la mayoría de los entornos
@@ -594,9 +593,8 @@ a mayor adopción en la producción académica.
 
 ## Desarrollo
 
-En las actividades posteriores a las comprobaciones,
-aunque influenciados entre si,
-se pueden distinguir dos agrupamientos:
+En las actividades posteriores a las comprobaciones, aunque influenciados entre
+si, se pueden distinguir dos agrupamientos:
 
 * Establecer relaciones de sucesión y jerarquía, que gestionen 
   herencia de propiedades entre segmentos musicales subordinados o
@@ -660,10 +658,12 @@ y Capitulo 6: Basic Structures.
 
 #### Vocabulario 
 
-Con intensión de favorecer a la comunidad hispanoparlante
-el léxico que integra este lenguaje específico de dominio[^ver_dsl]
-esta compuesto por 
-vocablos del diccionario español, salvo contadas excepciones.
+Con intensión de favorecer a la comunidad hispanoparlante el léxico que integra
+este lenguaje específico de dominio[^ver_dsl] esta compuesto, salvo contadas
+excepciones, por vocablos del diccionario español.
+De todos modos, son sencillas las modificaciones requeridas
+para habilitar la comprensión de términos equivalentes (en diferentes idiomas).
+\label{sec:espaniol}
 
 Para negociar con la noción inabarcable que significa dar soporte a cada aspecto
 musical esperado, siendo imposible anticipar todos las aplicaciones estipuladas
@@ -673,7 +673,7 @@ manipulación externa a la rutina provista. Si bien en el uso este sistema se
 mostró prometedor, su naturaleza no excede el carácter experimental y es
 menesteroso promover mejoras y consideraciones adicionales.
 
-Los términos componentes el léxico y el sistema de complementos
+Los componentes del léxico y el sistema de complementos
 son detallados en el primer apartado del capitulo siguiente.
 
 [^ver_dsl]: @dsl
@@ -687,6 +687,15 @@ instrucciones principales, esta escritas para el interprete _Python
 otros dos complementos, el marco de trabajo "pyyaml" [^ver_pyyaml] para asistir con el
 análisis sintáctico, en combinación con la librería "MIDIutil" [^ver_midiutil]
 encargada de la codificación.
+
+Con el mismo ánimo 
+\hyperref[sec:espaniol]{
+que se sostuvo
+para componer el vocabulario 
+}
+el guion de acciones hace uso intensivo de idioma español.
+Este caso es en cierto aspecto cuestionable dado que hay sentencias
+predefinidas impuestas por el entorno.
 
 #### Analizador Sintáctico 
 
@@ -715,8 +724,20 @@ La cadena de procesos finaliza cuando la lista articulaciones resultante,
 hasta esta instancia abstracciones en memoria, es secuenciada eventos y
 codificada ficheros en el formato MIDI.
 
-midiUTIL
 
+MIDIUtil es una biblioteca que posibilita escribir piezas multi-parte en
+formato MIDI 1 y 2 desde rutinas de Python. Posee abstracciones que permite
+crear y escribir estos archivos con mínimo esfuerzo.
+
+El autor escusa implementar selectivamente algunos de los aspectos más útiles y
+comunes de la especificación MIDI, argumentando tratarse de un gran documento
+en expansión a lo largo de décadas. A pesar de ser incompleta, las propiedades
+cubiertas fueron suficientes para este proyecto y sirvió como marco
+el objetivo de dar soporte a las abstracciones implementadas en la librería.
+
+
+Nota:En la referencia de clases de la librería hay una lista de todas
+https://midiutil.readthedocs.io/en/1.2.1/class.html
 
 
 #### Otras herramientas

@@ -42,8 +42,7 @@ esta cadena de procesos que consume información suscrita a dicha
 representación; derivando esta manipulación en la producción de secuencias de
 mensajes en el formato MIDI estándar. 
 
-%\hyperref[sec:porque_midi]{formato MIDI
-estándar}.
+%\hyperref[sec:porque_midi]{formato MIDI estándar}.
 
 La primera parte de este escrito esta dedicada a justificar el objeto de
 estudio, presentar los motivos de las interrogantes, plantear la necesidad
