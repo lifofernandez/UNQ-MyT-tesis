@@ -599,7 +599,7 @@ provee un criterio para proceder.
 
 # Metodología
 
-En este segundo capitulo se introduce el procedimiento de ejecución en el que
+En este capitulo se introduce el procedimiento de ejecución en el que
 se pueden distinguir tres etapas, una preparatoria, dedicada a investigación,
 experimentación y pruebas, deviene la fase de producción en si y culmina con un
 etapa de retoques, depuración de errores y defectos.
