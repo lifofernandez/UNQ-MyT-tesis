@@ -635,7 +635,7 @@ y algunas consideraciones acerca de el léxico acuñado.
 
 Las definiciones de canal son regidas por YAML. Si bien el vocabulario
 aceptado es propio de este proyecto, todas las interpretaciones son gestionadas
-por dicho lenguaje.  Se reseñan los principales indicadores reservados y
+por dicho lenguaje. Se reseñan los principales indicadores reservados y
 estructuras básicas.
 
 En el estilo de bloques de YAML, similar al de Python, la estructura esta
@@ -661,7 +661,7 @@ y Capitulo 6: Basic Structures.
 #### Vocabulario 
 
 Con intensión de favorecer a la comunidad hispanoparlante
-el léxico integral del lenguaje específico de dominio[^ver_dsl]
+el léxico que integra este lenguaje específico de dominio[^ver_dsl]
 esta compuesto por 
 vocablos del diccionario español, salvo contadas excepciones.
 
@@ -683,23 +683,39 @@ son detallados en el primer apartado del capitulo siguiente.
 Tanto las abstracciones desarrolladas, así como también la rutina de
 instrucciones principales, esta escritas para el interprete _Python
 3_[^ver_python2]. Ademas de incorporar al entorno varios módulos de la
-"Librería Estándar" [^ver_standarlib], esta pieza de software está apoyada en
-otros dos complementos, el paquete "pyyaml" [^ver_pyyaml] para asistir con el
+"Librería Estándar" [^ver_standarlib] esta pieza de software está apoyada en
+otros dos complementos, el marco de trabajo "pyyaml" [^ver_pyyaml] para asistir con el
 análisis sintáctico, en combinación con la librería "MIDIutil" [^ver_midiutil]
-encargado de la codificación.
+encargada de la codificación.
 
 #### Analizador Sintáctico 
 
-Análisis  Sintáctico
-Relaciones Jerarquía
-pyyaml
+El primer proceso en la rutina es el de consumir información subscrita,
+interpretarla y habilitarla para su manipulación posterior. Se confía esta
+tarea al analizador sintáctico _PyYAML_.
+
+En la presentación oficial del entorno dice:
+
+* Ser completamente capaz de analizar YAML en su version 1.1, comprendiendo
+  todos los ejemplos de dicha especificación.
+
+* Implementar un algoritmo referente gracias a su sencillez.
+
+* Soportar la codificación de caracteres Unicode en la entrada y la salida.
+
+* Analizar y emitir eventos de bajo nivel, con la posibilidad alternativa de
+  emplear la librería de sistema LibYAML.
+
+* Poseer una interface de programación de alto nivel sencilla para objetos nativos
+  Python. Con soporte para todos los tipos de datos de la especificación.
 
 #### Codificación de Salida 
 
-midiUTIL
-Codificación en el Estandar MIDI
-Explicar que se cubrieron todas las clases de la libreria
+La cadena de procesos finaliza cuando la lista articulaciones resultante,
+hasta esta instancia abstracciones en memoria, es secuenciada eventos y
+codificada ficheros en el formato MIDI.
 
+midiUTIL
 
 
 
@@ -725,7 +741,6 @@ provisto por algún servicio del tipo GitLab.
 
 
 
-
 ## Lenguaje formal
 
 
@@ -746,7 +761,7 @@ Describir Referencia y recurrencia en YAML
 <<: \*base (Para que otra pista herede estas propiedades)
 
 ### Vocabulario
-
+/lexico/glosario/terminos/
 
 
 admitido
@@ -771,7 +786,7 @@ Variego "talea" [^ver_variego]
 #### Propiedades de Unidad
 
 
-Parametros por defecto de  unidades,
+Parametros por defecto de unidades,
 pueden ser sobrescritos.
 
 \input{props_unidad.tex}
