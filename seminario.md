@@ -188,7 +188,7 @@ La posibilidad de componer
 rutinas complejas de manipulación
 concatenando resultados con procesos. [^ver_raymond]
 
-**Acceso remoto.**
+**Gestión remota.**
 Mas allá del protocolo en el que se base la negociación local/remoto la
 interfaz de linea de comandos es la herramienta de facto para administrar un sistema a
 distancia.  
@@ -841,7 +841,7 @@ Para concluir el relato de método se mencionan dos herramientas
 accesorias de las cuales se hizo uso intensivo, tanto en el desarrollo de la
 investigación, como así también en la producción de este documento.
 
-Siendo este proyecto texto-centrista, el entorno no está completo sin un editor
+Siendo este proyecto texto-centrista, el ecosistema está incompleto sin un editor
 de texto apropiado[^ver_texto]. Para conseguir fluidez y consistencia la
 herramienta empleada para esta actividad tiene que poder operar según el
 contexto, manipular bloques, disponer de macros sencillos y configurables.
