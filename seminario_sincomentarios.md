@@ -130,6 +130,7 @@ la necesidad de emplear o desarrollar herramientas especiales para ello.
 Determinante cuando los recursos de sistema son limitados como por ejemplo
 almacenamiento escaso, velocidad de computo restringida o conexiones lentas.
 
+
 **Seguro contra la obsolescencia, o compatible con el avance.**
 Los archivos de datos en formatos legibles y autodescriptivos perduran por
 sobre otros formatos aun cuando caduquen las aplicaciones con las hayan sido

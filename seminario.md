@@ -139,6 +139,7 @@ almacenamiento escaso, velocidad de computo restringida o conexiones lentas.
 
 %**Seguro contra toda obsolescencia (o compatible con el avance).**
 % Preservable, protegido, amparado ante la obsolescencia
+
 **Seguro contra la obsolescencia, o compatible con el avance.**
 Los archivos de datos en formatos legibles y autodescriptivos perduran por
 sobre otros formatos aun cuando caduquen las aplicaciones con las hayan sido
