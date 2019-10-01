@@ -776,19 +776,11 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 
 
-La estructura principal la sintaxis gramatical de cada pista se basa en el
-formato de serialización de datos YAML[^ver_yaml] el cual delimta entre clave y
-valor con el cáracter ":" (dos puntos), mientras que la indentacion representa
-jerarquias, relacion de pertenecia entre parametros.
 
-Multiples ficheros .yaml equivalen a multiples pistas en el resultado MIDI.
-
-Describir Referencia y recurrencia en YAML 
-
-<<: \*base (Para que otra pista herede estas propiedades)
 
 ### Vocabulario
 /lexico/glosario/terminos/
+
 
 
 admitido
@@ -808,10 +800,8 @@ Variego "talea" [^ver_variego]
 \input{props_articulaciones.tex}
 
 [^ver_variego]:@variego : Talea y Serialismo
-\newpage
 
 #### Propiedades de Unidad
-
 
 Parametros por defecto de unidades,
 pueden ser sobrescritos.
@@ -830,8 +820,6 @@ Sequences And Trees [^ver_pope]
 
 
 [^ver_pope]: @pope 
-
-\newpage
 
 ## Implementación
 

@@ -891,32 +891,31 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 % En que medida un unidad pueda referir a otra y suceder propiedades, 
 % la unidad
 
-% representación de relaciones jerárquicas
+% Explicar que ya se expuso las relaciones de refernecia 
+% anclas y alias yaml 
+% referir a Metodología, YAML >
 
-%referir a Metodología, YAML >
+% ahora se explica las de jerarquia
+% unidades:
 
-La estructura principal la sintaxis gramatical de cada pista se basa en el
-formato de serialización de datos YAML[^ver_yaml] el cual delimta entre clave y
-valor con el cáracter ":" (dos puntos), mientras que la indentacion representa
-jerarquias, relacion de pertenecia entre parametros.
 
-Multiples ficheros .yaml equivalen a multiples pistas en el resultado MIDI.
-
-Describir Referencia y recurrencia en YAML 
-
-<<: \*base (Para que otra pista herede estas propiedades)
 
 ### Vocabulario
+
 /lexico/glosario/terminos/
 
-% El vocabulario se organiza el 3 niveles,
-% 
-% * Propiedades de Articulación, que son aquellas que representan de articulaciones
-% 
-% * Propiedades de Unidad, que son las que afectan a toda la unidad,
-% el segmento musical y/o conjunto de unidades 
+% El vocabulario se organiza el 2 niveles:
 % 
 % * Propiedades de pista, son generales y tienen q ver con toda parte.
+% 
+% Declaradas en el mismo nivel, pero operan a otro nivel
+% propiedades pisan a la de la unidad referida
+% 
+% ** Propiedades de Unidad, que son las que afectan a toda la unidad,
+% el segmento musical y/o conjunto de unidades 
+
+% ** Propiedades de Articulación, que son aquellas que representan de articulaciones
+% 
 
 admitido
 
@@ -925,9 +924,32 @@ Explicar q se va a describir cada palabra elegida para representar cada
 propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor de facto que se
 asigna
 
-#### Propiedades de Articulaciones
+#### Propiedades de Pista 
 
-Parametros por defecto para todas las unidades,
+Los parametros generales de cada pista son tres:
+* el rotulo, la paleta de
+unidades disponibles y
+el primer nivel de la del arbol de secuencias. 
+A partir del
+primer nivel estructural, las unidades se organizan entre ellas.
+
+% Music Notations and the Representation of Musical Structure and Knowledge.
+% Sequences And Trees [^ver_pope]
+
+\input{props_pista.tex}
+
+%[^ver_pope]: @pope 
+
+#### Propiedades de Unidad
+
+Parametros por defecto de unidades,
+pueden ser sobrescritos.
+
+\input{props_unidad.tex}
+
+##### Propiedades de Articulaciones
+
+%  Parametros por defecto para todas las unidades,
 pueden ser sobrescritos.
 
 Variego "talea" [^ver_variego]
@@ -936,31 +958,7 @@ Variego "talea" [^ver_variego]
 \input{props_articulaciones.tex}
 
 [^ver_variego]:@variego : Talea y Serialismo
-\newpage
 
-#### Propiedades de Unidad
-
-
-Parametros por defecto de unidades,
-pueden ser sobrescritos.
-
-\input{props_unidad.tex}
-
-#### Propiedades de Pista 
-
-Los parametros generales de cada pista son tres: el rotulo, la paleta de
-unidades disponibles y el primer nivel de la forma musical.  A partir del
-primer nivel estructural, las unidades se organizan entre ellas.
-
-% Music Notations and the Representation of Musical Structure and Knowledge.
-Sequences And Trees [^ver_pope]
-
-\input{props_pista.tex}
-
-
-[^ver_pope]: @pope 
-
-\newpage
 
 ## Implementación
 
@@ -1037,10 +1035,19 @@ pista como flujo de eventos agrupados en segmentos agrupados en secciones
 ### Secciones de pricipales del desarrollo
 Explicacion de los bloques de codigo mas representativos 
 
+
 #### Modulo "Secuencia" 
 Loop principal que toma unidades previamente analizadas y llena lista de eventos.
 
-#### Clase Pista
+##### pista
+##### secunecia
+##### seccion
+##### elemento
+##### segmento
+##### articulacion
+##### complementos
+
+%#### Clase Pista
 
 Clase Pista a partir de cada defefinicion de canal (.yml)
 
@@ -1183,3 +1190,4 @@ y varias disciplinas (IA, machine learning).
 
 
  
+
