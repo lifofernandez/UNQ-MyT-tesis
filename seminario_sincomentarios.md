@@ -754,7 +754,7 @@ versiones GIT [^ver_git]. Es con esta herramienta, que desde [este
 repositorio](https://github.com/lifofernandez/testesis) se puede _clonar_ el
 desarrollo, junto con las instrucciones para su instalación y uso.
 
-Pese a que se comprenden estos temas en dominio del usuario,
+Pese a que se comprenden estos temas en el dominio de usuario,
 no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 [^ver_texto]: @moolenaar
@@ -768,8 +768,13 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 
 
-## Lenguaje formal
 
+
+
+
+
+
+## Lenguaje formal
 
 ### Estructura gramatical
 
@@ -777,29 +782,25 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 
 
-
 ### Vocabulario
+
 /lexico/glosario/terminos/
 
 
 
-admitido
 
-en una especie de glosario
-Explicar q se va a describir cada palabra elegida para representar cada
-propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor de facto que se
-asigna
+#### Propiedades de Pista 
 
-#### Propiedades de Articulaciones
+Los parametros generales de cada pista son tres:
+* el rotulo, la paleta de
+unidades disponibles y
+el primer nivel de la del arbol de secuencias. 
+A partir del
+primer nivel estructural, las unidades se organizan entre ellas.
 
-Parametros por defecto para todas las unidades,
-pueden ser sobrescritos.
 
-Variego "talea" [^ver_variego]
+\input{props_pista.tex}
 
-\input{props_articulaciones.tex}
-
-[^ver_variego]:@variego : Talea y Serialismo
 
 #### Propiedades de Unidad
 
@@ -808,18 +809,16 @@ pueden ser sobrescritos.
 
 \input{props_unidad.tex}
 
-#### Propiedades de Pista 
+##### Propiedades de Articulaciones
 
-Los parametros generales de cada pista son tres: el rotulo, la paleta de
-unidades disponibles y el primer nivel de la forma musical.  A partir del
-primer nivel estructural, las unidades se organizan entre ellas.
+pueden ser sobrescritos.
 
-Sequences And Trees [^ver_pope]
+Variego "talea" [^ver_variego]
 
-\input{props_pista.tex}
+\input{props_articulaciones.tex}
 
+[^ver_variego]:@variego : Talea y Serialismo
 
-[^ver_pope]: @pope 
 
 ## Implementación
 
@@ -896,10 +895,18 @@ pista como flujo de eventos agrupados en segmentos agrupados en secciones
 ### Secciones de pricipales del desarrollo
 Explicacion de los bloques de codigo mas representativos 
 
+
 #### Modulo "Secuencia" 
 Loop principal que toma unidades previamente analizadas y llena lista de eventos.
 
-#### Clase Pista
+##### pista
+##### secunecia
+##### seccion
+##### elemento
+##### segmento
+##### articulacion
+##### complementos
+
 
 Clase Pista a partir de cada defefinicion de canal (.yml)
 
@@ -1015,3 +1022,4 @@ y varias disciplinas (IA, machine learning).
 
 
  
+

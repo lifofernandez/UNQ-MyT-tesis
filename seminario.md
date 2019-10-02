@@ -853,7 +853,7 @@ versiones GIT [^ver_git]. Es con esta herramienta, que desde [este
 repositorio](https://github.com/lifofernandez/testesis) se puede _clonar_ el
 desarrollo, junto con las instrucciones para su instalación y uso.
 
-Pese a que se comprenden estos temas en dominio del usuario,
+Pese a que se comprenden estos temas en el dominio de usuario,
 no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 [^ver_texto]: @moolenaar
@@ -865,27 +865,29 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 # Resultados
 
-% Sobre el desarrollo 
+% Sobre la producción
+
 % Se detalla en profundidad
-% la parte central del todo el procedimiento
 % de la propuesta
-% El entorno de producción musical que se pretende establecer
-% estará principalmente integrando por:
-% La parte central de este trabajo versa sobre
+
+% El entorno de producción musical que se establecer
+% principalmente integrando por:
+
+% Gramatica
 % el vocabulario y relaciones que conforman la gramática propuesta,
-% se explica como dicha representación habilita que la información musical
 % pueda ser la materia prima de esta serie de procesos
+
+% Aplicacion
+% se explica como dicha representación habilita que la información musical
+
+% Demostracion
 % y se despliegan el resultado de algunos ejemplos como demostración.
 
-% Introduccion a los temas discutidos en cada sub sección
-% Gramatica
-% Aplicacion
-% Demostracion
+
 
 ## Lenguaje formal
 
 % ## Gramática 
-
 ### Estructura gramatical
 
 % En que medida un unidad pueda referir a otra y suceder propiedades, 
@@ -897,7 +899,7 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 % ahora se explica las de jerarquia
 % unidades:
-
+% relacion unidades forma
 
 
 ### Vocabulario
@@ -917,12 +919,12 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 % ** Propiedades de Articulación, que son aquellas que representan de articulaciones
 % 
 
-admitido
-
-en una especie de glosario
-Explicar q se va a describir cada palabra elegida para representar cada
-propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor de facto que se
-asigna
+% admitido
+% 
+% en una especie de glosario
+% Explicar q se va a describir cada palabra elegida para representar cada
+% propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor de facto que se
+% asigna
 
 #### Propiedades de Pista 
 
