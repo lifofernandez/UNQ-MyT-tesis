@@ -873,14 +873,14 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 % El entorno de producción musical que se establecer
 % principalmente integrando por:
 
-% Gramatica
+% Gramática
 % el vocabulario y relaciones que conforman la gramática propuesta,
 % pueda ser la materia prima de esta serie de procesos
 
-% Aplicacion
+% Aplicación
 % se explica como dicha representación habilita que la información musical
 
-% Demostracion
+% Demostración
 % y se despliegan el resultado de algunos ejemplos como demostración.
 
 
