@@ -615,7 +615,7 @@ conseguir una estructura lógica que ordene un discurso multi-parte.
 La discriminación de los datos comienza a nivel de archivo,
 cada fichero contiene los datos relativos a estratos individuales en la pieza.
 Obteniendo así recursos que canalizan la información de cada parte
-junto con determinadas propiedades generales
+junto con determinadas propiedades globales
 (tempo, armadura de clave, metro, letras, etc),
 que si bien pueden alojarse en una definición de canal,
 son meta eventos [^ver_selfridge2] que afectaran a total de la pieza.
@@ -630,7 +630,8 @@ y algunas consideraciones acerca de el léxico acuñado.
 [^ver_selfridge2]: @selfridge Capitulo 3: MIDI Extensions for Musical Notation
   (1): NoTAMIDI Meta-Events
 
-#### Sintaxis
+#### Sintaxis YAML
+\label{sec:sintaxis}
 
 Las definiciones de canal son regidas por YAML. Si bien el vocabulario
 aceptado es propio de este proyecto, todas las interpretaciones son gestionadas
@@ -776,13 +777,22 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 ## Lenguaje formal
 
+Ademas
+\hyperref[sec:sintaxis]{
+de la estructura y relaciones propuestas por
+el protocolo de turno}
+se exponen
+las reglas particulares que se establecieron entre
+términos y valores,
+como se afectan cada uno y que resultado dan
+
 ### Estructura gramatical
 
 
 
 
 
-### Vocabulario
+### Léxico
 
 /lexico/glosario/terminos/
 
@@ -811,6 +821,7 @@ pueden ser sobrescritos.
 
 ##### Propiedades de Articulaciones
 
+subcategoria de parametros de unidad?
 pueden ser sobrescritos.
 
 Variego "talea" [^ver_variego]
@@ -893,6 +904,7 @@ pista como flujo de eventos agrupados en segmentos agrupados en secciones
 
 
 ### Secciones de pricipales del desarrollo
+
 Explicacion de los bloques de codigo mas representativos 
 
 
@@ -900,13 +912,6 @@ Explicacion de los bloques de codigo mas representativos
 Loop principal que toma unidades previamente analizadas y llena lista de eventos.
 
 ##### pista
-##### secunecia
-##### seccion
-##### elemento
-##### segmento
-##### articulacion
-##### complementos
-
 
 Clase Pista a partir de cada defefinicion de canal (.yml)
 
@@ -930,8 +935,14 @@ Si la unidad altual NO tiene unidades
 	finalmente mezcla el resultado con los defaults 
 	la secuencia
 hace secuencia de eventos
+##### secunecia
+##### seccion
+##### elemento
+##### segmento
+##### articulacion
+##### complementos
 
-\newpage
+
 
 
 ## Demostraciones
