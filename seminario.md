@@ -900,7 +900,7 @@ que junto con la sintaxis completa esta gramática.
 ### Sintaxis
 
 Cada parte musical distribuye la información en multiples niveles.
-Primero se distinguen las propiedades globales
+Se distinguen las propiedades globales
 que afectan a la totalidad de la pista.
 Sin entrar en detalles estas son:
 nombre de canal,
@@ -908,30 +908,42 @@ forma de primer grado
 y paleta de unidades musicales disponibles. [^ver_grela]
 
 En un siguiente nivel las propiedades se
-subordinan a los segmentos musicales.
-Siendo un conjunto extenso, de todas ellas
-la que nos ocupa acá es la forma, 
+subordinan a las unidades.
+Siendo un conjunto extenso,
+%de todas ellas
+la que concierne acá es la forma, 
 del mismo modo que ocurre a nivel macro,
-la forma en cada segmento puede referir unidades.
+_forma_ en cada unidad refiere a otras unidades.
 
-%Music Notations and the Representation of Musical Structure and Knowledge.
-%Sequences And Trees [^ver_pope]
+Entonces un secuencia de segmentos musicales
+de primer grado que es relativa a la pista,
+desde ahí
+las unidades se organizan entre ellas hasta alcanzar
+al ultimo grado,
+Resultando en una organización de árbol [^ver_pope].
 
-Acá está distinción entre unidades, las que invocan a otras unidades y las
-que no, estás últimas serían las que en efecto, suenan.
+Relacionado a estas relaciones 
+es la distinción entre unidadess
+determinante.
+Las que no invocan a otras unidades 
+son las que van devenir en 
+conjuntos de articulaciones
+las que en efecto suenan.
 
-Es así q si una unidad, refiere a otra está hereda las propiedades del
-referente. Las propiedades del padre pisan a las del hijo.  Y el conjunto de
-alturas resultante será a partir de la combinación de las propiedades de ambas.
+% Si unidad tiene declarada la propiedad forma, es ahí donde el programa va a
+% buscar referidos, y así recursivamente hasta alcanzar en el nivel micro,
+% aquél q no tenga unidades hijas, entonces está instancia es secuenciada, las
+% propiedades son combinadas en el conjunto de  articulaciones resultantes.
 
-Si unidad tiene declarada la propiedad forma, es ahí donde el programa va a
-buscar  descendientes, y así recursivamente hasta alcanzar en el nivel micro,
-aquél q no tenga unidades hijas, entonces está instancia es secuenciada, las
-propiedades son combinadas en el conjunto de  articulaciones resultantes.
+Otro tema previo a los detalles de cada termino,
+es la herencia de propiedaes.
+Una unidad invocada hereda propiedades del referente.
+Las propiedades del padre pisan a las del hijo.
+El resultante será a partir de la combinación de las propiedades de ambas.
 
 [^ver_grela]: @grela Se adopta la terminología _unidad_  y _grado_ propuesta.
-[^ver_pope]: @pope 
-
+[^ver_pope]: @pope Designing Musical Notations, Sequences And Trees.
+%Music Notations and the Representation of Musical Structure and Knowledge.
 
 ### Léxico
 
@@ -978,7 +990,7 @@ pueden ser sobrescritos.
 
 \input{props_unidad.tex}
 
-##### Propiedades de Articulaciones
+##### Articulaciones
 
 %  Parametros por defecto para todas las unidades,
 subcategoria de parametros de unidad?
