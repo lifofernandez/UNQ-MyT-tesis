@@ -886,29 +886,51 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 
 
-## Lenguaje formal
+## Lenguaje formal / gramática
 
-Ademas
-\hyperref[sec:sintaxis]{
-de la estructura y relaciones propuestas por
-el protocolo de turno}
-se exponen
-las reglas particulares que se establecieron entre
-términos y valores,
-como se afectan cada uno y que resultado dan
+Sobre
+\hyperref[sec:sintaxis]{la estructura sentada por el protocolo optado}
+opera otro juego de reglas coyuntural a este desarrollo
+que gobierna la combinatoria entre los constituyentes 
+con procesos y valores.
+Luego del desarrollo de estos principios
+se expone a modo de glosario el vocabulario concebido
+que junto con la sintaxis completa esta gramática.
 
-### Estructura gramatical
+### Sintaxis
 
-% En que medida un unidad pueda referir a otra y suceder propiedades, 
-% la unidad
+Cada parte musical distribuye la información en multiples niveles.
+Primero se distinguen las propiedades globales
+que afectan a la totalidad de la pista.
+Sin entrar en detalles estas son:
+nombre de canal,
+forma de primer grado
+y paleta de unidades musicales disponibles. [^ver_grela]
 
-% Explicar que ya se expuso las relaciones de refernecia 
-% anclas y alias yaml 
-% referir a Metodología, YAML >
+En un siguiente nivel las propiedades se
+subordinan a los segmentos musicales.
+Siendo un conjunto extenso, de todas ellas
+la que nos ocupa acá es la forma, 
+del mismo modo que ocurre a nivel macro,
+la forma en cada segmento puede referir unidades.
 
-% ahora se explica las de jerarquia
-% unidades:
-% relacion unidades forma
+%Music Notations and the Representation of Musical Structure and Knowledge.
+%Sequences And Trees [^ver_pope]
+
+Acá está distinción entre unidades, las que invocan a otras unidades y las
+que no, estás últimas serían las que en efecto, suenan.
+
+Es así q si una unidad, refiere a otra está hereda las propiedades del
+referente. Las propiedades del padre pisan a las del hijo.  Y el conjunto de
+alturas resultante será a partir de la combinación de las propiedades de ambas.
+
+Si unidad tiene declarada la propiedad forma, es ahí donde el programa va a
+buscar  descendientes, y así recursivamente hasta alcanzar en el nivel micro,
+aquél q no tenga unidades hijas, entonces está instancia es secuenciada, las
+propiedades son combinadas en el conjunto de  articulaciones resultantes.
+
+[^ver_grela]: @grela Se adopta la terminología _unidad_  y _grado_ propuesta.
+[^ver_pope]: @pope 
 
 
 ### Léxico
@@ -938,18 +960,16 @@ como se afectan cada uno y que resultado dan
 #### Propiedades de Pista 
 
 Los parametros generales de cada pista son tres:
-* el rotulo, la paleta de
-unidades disponibles y
+* el rotulo,
+la paleta de unidades disponibles y %En los elementos paleta de unidades (ref: Aguilar)
 el primer nivel de la del arbol de secuencias. 
+
 A partir del
 primer nivel estructural, las unidades se organizan entre ellas.
 
-% Music Notations and the Representation of Musical Structure and Knowledge.
-% Sequences And Trees [^ver_pope]
 
 \input{props_pista.tex}
 
-%[^ver_pope]: @pope 
 
 #### Propiedades de Unidad
 
@@ -1198,8 +1218,4 @@ y varias disciplinas (IA, machine learning).
 % [^ver_penfold]: @penfold 
 % [^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
 % [^ver_gnu]: @gnu
-
-
-
- 
 
