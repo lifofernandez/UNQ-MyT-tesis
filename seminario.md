@@ -820,7 +820,7 @@ En la presentación oficial del entorno dice:
 #### Codificación de Salida 
 
 La cadena de procesos finaliza cuando la lista articulaciones resultante,
-hasta esta instancia abstracciones en memoria, es secuenciada en eventos y
+hasta esta instancia abstracciones en memoria, es secuenciada en eventos,
 codificada y registrada en ficheros.
 
 MIDIUtil es una biblioteca que posibilita generar piezas multi-parte en
@@ -890,56 +890,61 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 Sobre
 \hyperref[sec:sintaxis]{la estructura sentada por el protocolo optado}
-opera otro juego de reglas coyuntural a este desarrollo
-que gobierna la combinatoria entre los constituyentes 
-con procesos y valores.
+opera otro juego de reglas coyuntural a este desarrollo,
+que gobierna la combinatoria entre constituyentes.
+%con procesos y valores.
 Luego del desarrollo de estos principios
 se expone a modo de glosario el vocabulario concebido
 que junto con la sintaxis completa esta gramática.
 
 ### Sintaxis
 
-Cada parte musical distribuye la información en multiples niveles.
+Cada parte organiza
+el discurso musical en multiples niveles.
 Se distinguen las propiedades globales
 que afectan a la totalidad de la pista.
-Sin entrar en detalles estas son:
-nombre de canal,
-forma de primer grado
-y paleta de unidades musicales disponibles. [^ver_grela]
+%Sin entrar en detalles estas son:
+Dejando los detalles para la siguiente parte, estas son tres:
+el \texttt{nombre} de la pista,
+la paleta de \texttt{unidades} musicales disponibles,
+y la \texttt{forma}, secuencia de unidades de primer grado. [^ver_grela]
 
-En un siguiente nivel las propiedades se
-subordinan a las unidades.
-Siendo un conjunto extenso,
-%de todas ellas
-la que concierne acá es la forma, 
-del mismo modo que ocurre a nivel macro,
-_forma_ en cada unidad refiere a otras unidades.
+% agregar complementos
 
-Entonces un secuencia de segmentos musicales
+%Mientras que
+En un siguiente nivel
+definen la organización
+las propiedades particulares de cada unidad.
+Siendo este un conjunto extenso,
+en asuntos constitutivos 
+se destaca la \texttt{forma}, 
+y en semejanza a lo que ocurre a nivel macro,
+aquí también 
+\texttt{forma} es una lista ordenada de unidades.
+
+La ausencia de esta propiedad
+indica que ninguna otra unidad es invocada
+y que por lo tanto se ejecuta el segmento.
+%conjuntos de articulaciones
+%las que en efecto suenan.
+
+Entonces existe
+un secuencia de secciones musicales
 de primer grado que es relativa a la pista,
-desde ahí
-las unidades se organizan entre ellas hasta alcanzar
-al ultimo grado,
-Resultando en una organización de árbol [^ver_pope].
+desde ahí las unidades se refieren entre ellas hasta alcanzar
+segmentos de ultimo grado,
+resultando en una organización de árbol[^ver_pope].
 
-Relacionado a estas relaciones 
-es la distinción entre unidadess
-determinante.
-Las que no invocan a otras unidades 
-son las que van devenir en 
-conjuntos de articulaciones
-las que en efecto suenan.
-
+%Relacionado
 % Si unidad tiene declarada la propiedad forma, es ahí donde el programa va a
 % buscar referidos, y así recursivamente hasta alcanzar en el nivel micro,
 % aquél q no tenga unidades hijas, entonces está instancia es secuenciada, las
 % propiedades son combinadas en el conjunto de  articulaciones resultantes.
 
-Otro tema previo a los detalles de cada termino,
-es la herencia de propiedaes.
+Otro tema previo a la descripción de cada término,
+es la herencia de propiedades.
 Una unidad invocada hereda propiedades del referente.
-Las propiedades del padre pisan a las del hijo.
-El resultante será a partir de la combinación de las propiedades de ambas.
+Las propiedades del padre sobre escriben a las del hijo.
 
 [^ver_grela]: @grela Se adopta la terminología _unidad_  y _grado_ propuesta.
 [^ver_pope]: @pope Designing Musical Notations, Sequences And Trees.
