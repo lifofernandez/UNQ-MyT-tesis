@@ -787,32 +787,32 @@ que junto con la sintaxis completa esta gramática.
 
 ### Sintaxis
 
-Cada parte organiza el discurso musical en multiples niveles.  Se distinguen
-las propiedades globales que afectan a la totalidad de la pista. 
-Dejando detalles para la siguiente parte, las propiedades generales son
-el \texttt{nombre} de la pista, la paleta de \texttt{unidades} musicales
-disponibles, y la \texttt{forma}, secuencia de unidades de primer
-grados[^ver_grela] y los \texttt{complementos} de usuario.  
+El discurso musical de cada parte se organiza en dos niveles. Se distinguen
+las propiedades globales que afectan a la totalidad de la pista de las que en
+un siguiente domino, definen cualidades particulares a cada unidad
+musical[^ver_grela].
 
-En un siguiente nivel definen la organización las propiedades particulares de
-cada unidad.  Siendo este un conjunto extenso, en asuntos constitutivos se
-destaca la \texttt{forma}, y semejante a lo que ocurre a nivel macro, aquí
-también \texttt{forma} es una lista ordenada de unidades.
+De la lista dispuesta en el próximo apartado, en cuestiones constitutivas se
+destaca el término \texttt{forma}. Este indica la organización de unidades y
+recibe el mismo tratamiento a nivel macro que a nivel micro, en ambos casos
+\texttt{forma} representa una lista ordenada de elementos declarados
+disponibles en la paleta de \texttt{unidades}.
 
-La ausencia de este atributo indica que ninguna otra unidad es invocada y que
-por lo tanto se ejecuta el segmento.
+Si el elemento carece de este atributo ninguna otra unidad es invocada, por lo
+tanto se ejecuta el segmento.
 
 Entonces existe un secuencia de secciones musicales de primer grado que es
 relativa a la pista, de ahí en adelante las unidades se refieren entre ellas
 hasta alcanzar segmentos de ultimo grado, resultando una organización de
 árbol[^ver_pope].
 
-Relacionado y previo a la descripción del vocabulario aceptado, es la sucesión
-de propiedades. La unidad invocada hereda las cualidades del referente, los
-atributos de este sobre-escriben las propiedades sel referido.
+Previo a la descripción del vocabulario aceptado y relacionada a esta
+organización es la gestión de herencia entre unidades, la sucesión de
+propiedades.  Unidades invocadas heredan las cualidades del referente, que
+sobrescribe propiedades de los referidos.
 
-
-[^ver_grela]: @grela Se adopta la terminología _unidad_  y _grado_.
+[^ver_grela]: @grela Se adopta la terminología _unidad_ para referir 
+  elementos musicales y _grado_ para denotar el alcance de dicho agrupamiento.
 [^ver_pope]: @pope Designing Musical Notations, Sequences And Trees.
 
 ### Léxico
@@ -827,8 +827,17 @@ Se presentan en linea el término que identifica, el tipo de dato que se espera,
 el valor asignado por defecto, luego una breve descripción y por ultimo un
 ejemplo.
 
+\newpage
+
 #### Propiedades de Pista 
 
+Los parámetros generales de cada pista son cuatro:
+El \texttt{nombre} de la pista
+es el rotulo soportado por el estándar MIDI que
+identifica este estrato en la pieza,
+la paleta de \texttt{unidades} disponibles,
+la \texttt{forma} indica la secuencia de unidades de primer grado
+y los \texttt{complementos} de usuario.  
 
 \input{props_pista.tex}
 

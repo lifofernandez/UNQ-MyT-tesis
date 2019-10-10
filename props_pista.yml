@@ -1,22 +1,22 @@
 nombre:
-   tipo: 'cadena de carcteres'
-   defacto: 'empty'
+   tipo: 'cadena de caracteres'
+   defacto: '<empty>'
    descripcion: 'Titulo de la pista'
    ejemplo: |
-     nombre: 'Piano'
+     nombre: 'Feliz Cumpleaños'
 complementos:
-   tipo: 'cadena de carcteres'
-   defacto: '< empty >'
-   descripcion: 'Ubicación de fichero con modulo de usuario.'
+   tipo: 'cadena de caracteres'
+   defacto: 'None'
+   descripcion: 'Ubicación de modulo con métodos de usuario.'
    ejemplo: |
      complementos: 'enchufes.py'
 forma:
    tipo: 'lista de cadenas de caracteres'
-   defacto: 'TO DO'
+   defacto: '[ None ]'
    descripcion: |
      Macro estructura de la pista.
-     Lista de unidades a ser sequenciadas.
-     Corresponde a un elemento de la paleta.
+     Lista de unidades a ser secuenciadas.
+     Cada elemento corresponde a uno de la paleta de unidades.
    ejemplo: | 
      forma: [
        'espera',
@@ -25,11 +25,9 @@ forma:
      ]
 unidades:
    tipo: 'diccionario'
-   defacto: 'TO DO'
+   defacto: '[ None ]'
    descripcion: |
-     Paleta de estructuras para secuenciar. En dos tipos de unidades,
-     las que defininen las estructuras minimas y las que invocan otras
-     unidades ademas de sobrescribir o no alguno de sus parametros.
+     Esta es la paleta de unidades disponibles y sus propiedades.
    ejemplo: | 
      unidades: 
        base: &base 
@@ -83,12 +81,6 @@ unidades:
        A``: 
          forma: [ 'a```', 'b`' ] 
        estrofa: 
-         forma: [
-           'A',
-           'A`',
-         ]
+         forma: [ 'A', 'A`' ]
        estribo: 
-         forma: [
-           'B',
-           'A``',
-         ]
+         forma: [ 'B', 'A``' ]

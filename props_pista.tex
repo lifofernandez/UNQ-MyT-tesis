@@ -5,14 +5,14 @@
 
   \item [\texttt{complementos}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(cadena de carcteres)}
+	    \textsf{(cadena de caracteres)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{< empty >}
+      default: \texttt{None}
     \end{minipage}
     \vskip.2\baselineskip
-    Ubicación de fichero con modulo de usuario.
+    Ubicación de modulo con métodos de usuario.
 \begin{minted}{yaml}
 complementos: 'enchufes.py'
 
@@ -24,12 +24,12 @@ complementos: 'enchufes.py'
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{TO DO}
+      default: \texttt{[ None ]}
     \end{minipage}
     \vskip.2\baselineskip
     Macro estructura de la pista.
-Lista de unidades a ser sequenciadas.
-Corresponde a un elemento de la paleta.
+Lista de unidades a ser secuenciadas.
+Cada elemento corresponde a uno de la paleta de unidades.
 
 \begin{minted}{yaml}
 forma: [
@@ -42,16 +42,16 @@ forma: [
 
   \item [\texttt{nombre}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(cadena de carcteres)}
+	    \textsf{(cadena de caracteres)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{empty}
+      default: \texttt{<empty>}
     \end{minipage}
     \vskip.2\baselineskip
     Titulo de la pista
 \begin{minted}{yaml}
-nombre: 'Piano'
+nombre: 'Feliz Cumpleaños'
 
 \end{minted}
 
@@ -61,12 +61,10 @@ nombre: 'Piano'
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{TO DO}
+      default: \texttt{[ None ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Paleta de estructuras para secuenciar. En dos tipos de unidades,
-las que defininen las estructuras minimas y las que invocan otras
-unidades ademas de sobrescribir o no alguno de sus parametros.
+    Esta es la paleta de unidades disponibles y sus propiedades.
 
 \begin{minted}{yaml}
 unidades: 
@@ -121,15 +119,9 @@ unidades:
   A``: 
     forma: [ 'a```', 'b`' ] 
   estrofa: 
-    forma: [
-      'A',
-      'A`',
-    ]
+    forma: [ 'A', 'A`' ]
   estribo: 
-    forma: [
-      'B',
-      'A``',
-    ]
+    forma: [ 'B', 'A``' ]
 
 \end{minted}
 
