@@ -38,6 +38,7 @@ clean:
 # 	xdotool key --clearmodifiers ctrl+r
 # 	xdotool windowactivate $(CURRENT_WID)
 
+
 render: 
 	make props
 	make comentarios

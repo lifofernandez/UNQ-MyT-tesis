@@ -28,9 +28,15 @@ propiedades = [
 ]
 
 for p in propiedades:
-  prop = yaml.load( open( p + '.yml', 'r' ), Loader = yaml.FullLoader ) 
+  prop = yaml.load(
+    open( p + '.yml', 'r' ), 
+    Loader = yaml.FullLoader
+  ) 
+  ordenado = {};
+  for k in sorted(prop):
+    ordenado[k] = prop[k]
   with open( p + '.tex', "w" ) as tex:
-    tex.write( template.render( PROPS = prop ) )
+    tex.write( template.render( PROPS = ordenado ) )
 
 # PROPS_PISTA  = yaml.load( open( 'props_pista.yml', 'r' ) ) 
 # with open( 'props_pista.tex', "w" ) as tex:

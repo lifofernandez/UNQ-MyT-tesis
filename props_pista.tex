@@ -3,21 +3,6 @@
 \setlength{\parskip}{1pt}
 \begin{itemize}
 
-  \item [\texttt{nombre}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(cadena de carcteres)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{empty}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Titulo de la pista
-\begin{minted}{yaml}
-nombre: 'Piano'
-
-\end{minted}
-
   \item [\texttt{complementos}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(cadena de carcteres)}
@@ -48,11 +33,25 @@ Corresponde a un elemento de la paleta.
 
 \begin{minted}{yaml}
 forma: [
-  'intro',
+  'espera',
   'estrofa',
   'estribo',
-  'coda',
 ]
+
+\end{minted}
+
+  \item [\texttt{nombre}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(cadena de carcteres)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{empty}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Titulo de la pista
+\begin{minted}{yaml}
+nombre: 'Piano'
 
 \end{minted}
 
@@ -70,77 +69,67 @@ las que defininen las estructuras minimas y las que invocan otras
 unidades ademas de sobrescribir o no alguno de sus parametros.
 
 \begin{minted}{yaml}
-unidades:
-    base: &base 
-      clave:
-      alteraciones: -2
-      modo: 1
-      registracion:  [ 
-          -12,-10, -9, -7, -5, -3, -2,
-            0,  2,  3,  5,  7,  9, 10,
-           12, 14, 15, 17, 19, 21, 22,
-           24
-      ]
-      alturas:  [ 1, 3, 5, 8 ] 
-      voces: 
-        - [ 8, 6 ] 
-        - [ 5 ] 
-        - [ 3 ]
-      transportar: 60 # C
-      transponer: 0
-      duraciones: [ 1 ]
-      bpm: 62
-      metro: 4/4
-      desplazar: 0
-      reiterar: 0
-      dinamicas: [ 1, .5, .4 ]
-      canal: 3
-      programa: 103
-      controladores: [ 70:80, 70:90, 71:120 ]
-    a: &a 
-      <<: *base
-      metro: 2/4
-      alturas: [ 1, 3,0, 5, 7, 8 ]
-      duraciones: [ 1, .5, .5, 1, 1 ]
-    b: &b 
-      <<: *base
-      metro: 6/8
-      duraciones: [ .5 ]
-      alturas: [ 1, 2 ]
-      voces: 0
-      revertir: [ 'duraciones', 'dinamicas' ]
-      transponer: 3
-      clave: 
-        alteraciones: 2
-        modo: 1 
-      fluctuacion: 
-        min: .1
-        max: .4 
-      desplazar: -1
-    b^: 
-      <<: *b
-      dinamicas: [ .5, .1 ]
-      revertir: [ 'alturas' ]
-    # Unidad de unidades ( UoUs )
-    # Propiedades sobrescriben a las de las unidades referidas 
-    A: 
-      unidades: [ 'a', 'b' ] 
-      reiterar: 3
-    B: &B 
-      metro: 9/8
-      unidades: [ 'a' , 'b^' ]
-      desplazar: -0.75
-    B^: 
-      <<: *B
-      voces: 0 
-      bmp: 89
-      unidades: [ 'b', 'a' ] 
-      dinamicas: [ 1 ]
-    estrofa: 
-      unidades: [ 'A', 'B', 'B^' ]
-    coro: 
-      bpm: 100
-      unidades: [ 'B', 'B^', 'a' ]
+unidades: 
+  base: &base 
+    registracion: [ 
+      -12, -10, -8, -7, -5, -3, -1,
+        0,   2,  4,  5,  7,  9, 11,
+       12,  14, 15, 17, 19, 21, 23,
+       24
+    ]
+    alturas: [ 1 ] 
+    transportar: 72 
+    duraciones: [ 1.5 ]
+    BPMs: [ 60 ]
+    metro: 3/4
+    dinamicas: [ 1 ]
+    canal: 0
+  espera:
+    <<: *base
+    dinamicas: [ 0 ] 
+    duraciones: [ 2 ]
+  a: &a 
+    <<: *base
+    alturas: [ 5, 5, 6, 5 ] 
+    duraciones: [ .75, .25, 1, 1 ]
+    letras: [ 'Que', 'los', 'cum', 'plas,' ]
+  b: &b 
+    <<: *base
+    alturas: [ 8, 7 ] 
+    duraciones: [ 1, 2 ]
+    letras: [ 'fe', 'liz.' ]
+  b`: 
+    <<: *b
+    transponer: 1
+  a`: 
+    <<: *a
+    alturas: [ 5, 5, 12, 10 ] 
+  a``: 
+    <<: *a
+    alturas: [ 8, 8, 7, 6 ] 
+    letras: [ 'que', 'los', 'cum', 'plas,' ]
+  a```: 
+    <<: *a
+    alturas: [ 11, 11, 10, 8 ] 
+    letras: [ 'que', 'los', 'cum', 'plas,' ]
+  A: 
+    forma: [ 'a', 'b' ] 
+  A`: 
+    forma: [ 'a' , 'b`' ]
+  B: 
+    forma: [ 'a`', 'a``' ] 
+  A``: 
+    forma: [ 'a```', 'b`' ] 
+  estrofa: 
+    forma: [
+      'A',
+      'A`',
+    ]
+  estribo: 
+    forma: [
+      'B',
+      'A``',
+    ]
 
 \end{minted}
 

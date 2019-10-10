@@ -3,18 +3,21 @@
 \setlength{\parskip}{1pt}
 \begin{itemize}
 
-  \item [\texttt{forma}] 
+  \item [\texttt{canal}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(lista)}
+	    \textsf{(número entero)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{None}
+      default: \texttt{1}
     \end{minipage}
     \vskip.2\baselineskip
-    Estructura de la Unidad
+    Canal MIDI 
+Número de Canal MIDI.
+
 \begin{minted}{yaml}
-forma: ['A', 'B']
+canal: 3
+    
 
 \end{minted}
 
@@ -42,81 +45,6 @@ clave:
 
 \end{minted}
 
-  \item [\texttt{registracion}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(lista de enteros)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{[ 1 ]}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Registración fija.
-Secuencia de intervalos a ser recorrida por el punteros de altura.
-
-\begin{minted}{yaml}
-registracion: [ 
-  -12,-10, -9, -7, -5, -3, -2,
-    0,  2,  3,  5,  7,  9, 10,
-   12, 14, 15, 17, 19, 21, 22,
-   24
-]
-
-\end{minted}
-
-  \item [\texttt{transportar}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{0}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Transportar
-Ajuste de alturas.
-Semitonos
-
-\begin{minted}{yaml}
-transportar: 60 # C
-
-\end{minted}
-
-  \item [\texttt{transponer}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{()}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{0}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Transponer puntero de registracion
-Ajuste de alturas pero dentro del set registracion.
-
-\begin{minted}{yaml}
-transponer: 1
-
-\end{minted}
-
-  \item [\texttt{metro}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(cadena de caracteres)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{4/4}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Clave de compás
-Clave de metrica.
-representando una fracción (numerador / denominador).
-
-\begin{minted}{yaml}
-metro: 4/4
-
-\end{minted}
-
   \item [\texttt{desplazar}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(número decimal)}
@@ -133,24 +61,6 @@ anticipar 2 pulsos o ".5" demorar medio pulso
 
 \begin{minted}{yaml}
 desplazar: -2
-
-\end{minted}
-
-  \item [\texttt{reiterar}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{1}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Repeticiones Catidad de veces q se toca esta unidad.  Reiterarse a si
-misma, no es trasferible, no se hereda, caso contrario se reterarian
-los referidos.
-
-\begin{minted}{yaml}
-reiterar: 3
 
 \end{minted}
 
@@ -190,6 +100,79 @@ fluctuacion:
 
 \end{minted}
 
+  \item [\texttt{forma}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Estructura de la Unidad
+\begin{minted}{yaml}
+forma: ['A', 'B']
+
+\end{minted}
+
+  \item [\texttt{metro}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(cadena de caracteres)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{4/4}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Clave de compás
+Clave de metrica.
+representando una fracción (numerador / denominador).
+
+\begin{minted}{yaml}
+metro: 4/4
+
+\end{minted}
+
+  \item [\texttt{registracion}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de enteros)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{[ 1 ]}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Registración fija.
+Secuencia de intervalos a ser recorrida por el punteros de altura.
+
+\begin{minted}{yaml}
+registracion: [ 
+  -12,-10, -9, -7, -5, -3, -2,
+    0,  2,  3,  5,  7,  9, 10,
+   12, 14, 15, 17, 19, 21, 22,
+   24
+]
+
+\end{minted}
+
+  \item [\texttt{reiterar}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{1}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Repeticiones Catidad de veces q se toca esta unidad.  Reiterarse a si
+misma, no es trasferible, no se hereda, caso contrario se reterarian
+los referidos.
+
+\begin{minted}{yaml}
+reiterar: 3
+
+\end{minted}
+
   \item [\texttt{revertir}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(lista de cadenas de caracteres)}
@@ -208,21 +191,38 @@ revertir: [ 'duraciones', 'dinamicas' ]
 
 \end{minted}
 
-  \item [\texttt{canal}] 
+  \item [\texttt{transponer}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{()}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Transponer puntero de registracion
+Ajuste de alturas pero dentro del set registracion.
+
+\begin{minted}{yaml}
+transponer: 1
+
+\end{minted}
+
+  \item [\texttt{transportar}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(número entero)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{1}
+      default: \texttt{0}
     \end{minipage}
     \vskip.2\baselineskip
-    Canal MIDI 
-Número de Canal MIDI.
+    Transportar
+Ajuste de alturas.
+Semitonos
 
 \begin{minted}{yaml}
-canal: 3
-    
+transportar: 60 # C
 
 \end{minted}
 

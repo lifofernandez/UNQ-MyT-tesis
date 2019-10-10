@@ -886,7 +886,7 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 
 
-## Lenguaje formal / gramática
+## Gramática
 
 Sobre
 \hyperref[sec:sintaxis]{la estructura sentada por el protocolo optado}
@@ -894,99 +894,59 @@ opera otro juego de reglas coyuntural a este desarrollo,
 que gobierna la combinatoria entre constituyentes.
 %con procesos y valores.
 Luego del desarrollo de estos principios
-se expone a modo de glosario el vocabulario concebido
+se expone el vocabulario concebido
 que junto con la sintaxis completa esta gramática.
 
 ### Sintaxis
 
-Cada parte organiza
-el discurso musical en multiples niveles.
-Se distinguen las propiedades globales
-que afectan a la totalidad de la pista.
-%Sin entrar en detalles estas son:
-Dejando los detalles para la siguiente parte, estas son tres:
-el \texttt{nombre} de la pista,
-la paleta de \texttt{unidades} musicales disponibles,
-y la \texttt{forma}, secuencia de unidades de primer grado. [^ver_grela]
+Cada parte organiza el discurso musical en multiples niveles.  Se distinguen
+las propiedades globales que afectan a la totalidad de la pista. 
+Dejando detalles para la siguiente parte, las propiedades generales son
+el \texttt{nombre} de la pista, la paleta de \texttt{unidades} musicales
+disponibles, y la \texttt{forma}, secuencia de unidades de primer
+grados[^ver_grela] y los \texttt{complementos} de usuario.  
 
-% agregar complementos
+En un siguiente nivel definen la organización las propiedades particulares de
+cada unidad.  Siendo este un conjunto extenso, en asuntos constitutivos se
+destaca la \texttt{forma}, y semejante a lo que ocurre a nivel macro, aquí
+también \texttt{forma} es una lista ordenada de unidades.
 
-%Mientras que
-En un siguiente nivel
-definen la organización
-las propiedades particulares de cada unidad.
-Siendo este un conjunto extenso,
-en asuntos constitutivos 
-se destaca la \texttt{forma}, 
-y en semejanza a lo que ocurre a nivel macro,
-aquí también 
-\texttt{forma} es una lista ordenada de unidades.
+La ausencia de este atributo indica que ninguna otra unidad es invocada y que
+por lo tanto se ejecuta el segmento.
 
-La ausencia de esta propiedad
-indica que ninguna otra unidad es invocada
-y que por lo tanto se ejecuta el segmento.
-%conjuntos de articulaciones
-%las que en efecto suenan.
+Entonces existe un secuencia de secciones musicales de primer grado que es
+relativa a la pista, de ahí en adelante las unidades se refieren entre ellas
+hasta alcanzar segmentos de ultimo grado, resultando una organización de
+árbol[^ver_pope].
 
-Entonces existe
-un secuencia de secciones musicales
-de primer grado que es relativa a la pista,
-desde ahí las unidades se refieren entre ellas hasta alcanzar
-segmentos de ultimo grado,
-resultando en una organización de árbol[^ver_pope].
+Relacionado y previo a la descripción del vocabulario aceptado, es la sucesión
+de propiedades. La unidad invocada hereda las cualidades del referente, los
+atributos de este sobre-escriben las propiedades sel referido.
 
-%Relacionado
-% Si unidad tiene declarada la propiedad forma, es ahí donde el programa va a
-% buscar referidos, y así recursivamente hasta alcanzar en el nivel micro,
-% aquél q no tenga unidades hijas, entonces está instancia es secuenciada, las
-% propiedades son combinadas en el conjunto de  articulaciones resultantes.
 
-Otro tema previo a la descripción de cada término,
-es la herencia de propiedades.
-Una unidad invocada hereda propiedades del referente.
-Las propiedades del padre sobre escriben a las del hijo.
-
-[^ver_grela]: @grela Se adopta la terminología _unidad_  y _grado_ propuesta.
+[^ver_grela]: @grela Se adopta la terminología _unidad_  y _grado_.
 [^ver_pope]: @pope Designing Musical Notations, Sequences And Trees.
-%Music Notations and the Representation of Musical Structure and Knowledge.
 
 ### Léxico
 
-/lexico/glosario/terminos/
+A modo de glosario, se describe el léxico acuñado aprovechando la distinción
+expuesta anteriormente entre propiedades generales a la pista y particulares a
+las unidades.
 
-% El vocabulario se organiza el 2 niveles:
-% 
-% * Propiedades de pista, son generales y tienen q ver con toda parte.
-% 
-% Declaradas en el mismo nivel, pero operan a otro nivel
-% propiedades pisan a la de la unidad referida
-% 
-% ** Propiedades de Unidad, que son las que afectan a toda la unidad,
-% el segmento musical y/o conjunto de unidades 
-
-% ** Propiedades de Articulación, que son aquellas que representan de articulaciones
-% 
-
-% admitido
-% 
-% en una especie de glosario
-% Explicar q se va a describir cada palabra elegida para representar cada
-% propiedad, etiqueta, el tipo de dato q es, un ejemplo y el valor de facto que se
-% asigna
+Para detallar como opera cada término en cada en caso evitando redundancias, se
+organiza la información repitiendo la misma estructura para cada uno de ellos.
+Se presentan en linea el término que identifica, el tipo de dato que se espera,
+el valor asignado por defecto, luego una breve descripción y por ultimo un
+ejemplo.
 
 #### Propiedades de Pista 
 
-Los parametros generales de cada pista son tres:
-* el rotulo,
-la paleta de unidades disponibles y %En los elementos paleta de unidades (ref: Aguilar)
-el primer nivel de la del arbol de secuencias. 
-
-A partir del
-primer nivel estructural, las unidades se organizan entre ellas.
-
+% Los parametros generales de cada pista son tres:
+% * el rotulo,
+% la paleta de unidades disponibles y
+% el primer nivel de la del arbol de secuencias. 
 
 \input{props_pista.tex}
-
 
 #### Propiedades de Unidad
 

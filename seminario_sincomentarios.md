@@ -775,78 +775,62 @@ no podemos dejar de reconocer y recomendar el empleo de las mismas.
 
 
 
-## Lenguaje formal / gramática
+## Gramática
 
 Sobre
 \hyperref[sec:sintaxis]{la estructura sentada por el protocolo optado}
 opera otro juego de reglas coyuntural a este desarrollo,
 que gobierna la combinatoria entre constituyentes.
 Luego del desarrollo de estos principios
-se expone a modo de glosario el vocabulario concebido
+se expone el vocabulario concebido
 que junto con la sintaxis completa esta gramática.
 
 ### Sintaxis
 
-Cada parte organiza
-el discurso musical en multiples niveles.
-Se distinguen las propiedades globales
-que afectan a la totalidad de la pista.
-Dejando los detalles para la siguiente parte, estas son tres:
-el \texttt{nombre} de la pista,
-la paleta de \texttt{unidades} musicales disponibles,
-y la \texttt{forma}, secuencia de unidades de primer grado. [^ver_grela]
+Cada parte organiza el discurso musical en multiples niveles.  Se distinguen
+las propiedades globales que afectan a la totalidad de la pista. 
+Dejando detalles para la siguiente parte, las propiedades generales son
+el \texttt{nombre} de la pista, la paleta de \texttt{unidades} musicales
+disponibles, y la \texttt{forma}, secuencia de unidades de primer
+grados[^ver_grela] y los \texttt{complementos} de usuario.  
+
+En un siguiente nivel definen la organización las propiedades particulares de
+cada unidad.  Siendo este un conjunto extenso, en asuntos constitutivos se
+destaca la \texttt{forma}, y semejante a lo que ocurre a nivel macro, aquí
+también \texttt{forma} es una lista ordenada de unidades.
+
+La ausencia de este atributo indica que ninguna otra unidad es invocada y que
+por lo tanto se ejecuta el segmento.
+
+Entonces existe un secuencia de secciones musicales de primer grado que es
+relativa a la pista, de ahí en adelante las unidades se refieren entre ellas
+hasta alcanzar segmentos de ultimo grado, resultando una organización de
+árbol[^ver_pope].
+
+Relacionado y previo a la descripción del vocabulario aceptado, es la sucesión
+de propiedades. La unidad invocada hereda las cualidades del referente, los
+atributos de este sobre-escriben las propiedades sel referido.
 
 
-En un siguiente nivel
-definen la organización
-las propiedades particulares de cada unidad.
-Siendo este un conjunto extenso,
-en asuntos constitutivos 
-se destaca la \texttt{forma}, 
-y en semejanza a lo que ocurre a nivel macro,
-aquí también 
-\texttt{forma} es una lista ordenada de unidades.
-
-La ausencia de esta propiedad
-indica que ninguna otra unidad es invocada
-y que por lo tanto se ejecuta el segmento.
-
-Entonces existe
-un secuencia de secciones musicales
-de primer grado que es relativa a la pista,
-desde ahí las unidades se refieren entre ellas hasta alcanzar
-segmentos de ultimo grado,
-resultando en una organización de árbol[^ver_pope].
-
-
-Otro tema previo a la descripción de cada término,
-es la herencia de propiedades.
-Una unidad invocada hereda propiedades del referente.
-Las propiedades del padre sobre escriben a las del hijo.
-
-[^ver_grela]: @grela Se adopta la terminología _unidad_  y _grado_ propuesta.
+[^ver_grela]: @grela Se adopta la terminología _unidad_  y _grado_.
 [^ver_pope]: @pope Designing Musical Notations, Sequences And Trees.
 
 ### Léxico
 
-/lexico/glosario/terminos/
+A modo de glosario, se describe el léxico acuñado aprovechando la distinción
+expuesta anteriormente entre propiedades generales a la pista y particulares a
+las unidades.
 
-
-
+Para detallar como opera cada término en cada en caso evitando redundancias, se
+organiza la información repitiendo la misma estructura para cada uno de ellos.
+Se presentan en linea el término que identifica, el tipo de dato que se espera,
+el valor asignado por defecto, luego una breve descripción y por ultimo un
+ejemplo.
 
 #### Propiedades de Pista 
 
-Los parametros generales de cada pista son tres:
-* el rotulo,
-la paleta de unidades disponibles y %En los elementos paleta de unidades (ref: Aguilar)
-el primer nivel de la del arbol de secuencias. 
-
-A partir del
-primer nivel estructural, las unidades se organizan entre ellas.
-
 
 \input{props_pista.tex}
-
 
 #### Propiedades de Unidad
 
