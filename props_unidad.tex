@@ -14,16 +14,15 @@
       default: \texttt{0}
     \end{minipage}
     \vskip.2\baselineskip
-    Armadura de clave.
-Cantidad de alteraciones en la armadura de clave.
-Los números positivos representan sostenidos mientras que los se
-refiere a bemoles con números negativos.  -2 = Bb, -1 = F, 0 = C, 1 =
-G, 2 = D, modo: 0 (mayor) 
-(referir midi util doc, key signature)
+    Cantidad de alteraciones en la armadura de clave.
+
+Los números positivos representan sostenidos,
+mientras que se refiere a bemoles con números negativos.
+% (referir midi util doc, key signature)
 
 }
 \begin{minted}{yaml}
-alteraciones: -2
+alteraciones: -2 # Bb
 
 \end{minted}
   \vbox{
@@ -36,8 +35,7 @@ alteraciones: -2
       default: \texttt{1}
     \end{minipage}
     \vskip.2\baselineskip
-    Canal MIDI 
-Número de Canal MIDI.
+    Número de Canal MIDI.
 
 }
 \begin{minted}{yaml}
@@ -48,14 +46,18 @@ canal: 3
   \vbox{
   \item [\texttt{forma}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(lista)}
+	    \textsf{(lista de cadenas de caracteres)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{None}
+      default: \texttt{[ None ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Estructura de la Unidad
+    Estructura de la unidad.
+Lista de unidades referidas a ser secuenciadas.
+
+Cada elemento corresponde a un miembro de la paleta de unidades.
+
 }
 \begin{minted}{yaml}
 forma: ['A', 'B']
@@ -72,7 +74,8 @@ forma: ['A', 'B']
     \end{minipage}
     \vskip.2\baselineskip
     Clave de compás.
-Representando: numerador / denominador.
+
+Cantidad de pulsos por compás sobre la relación de subdivisión.
 
 }
 \begin{minted}{yaml}
@@ -89,11 +92,13 @@ metro: 4/4
       default: \texttt{0}
     \end{minipage}
     \vskip.2\baselineskip
-    Modo de la escala. 0 = Mayor ó 1 = Menor.
+    Modo de la escala.
+
+El número 0 indica que se trata de una escala mayor, mientras que el 1 representa tonalidad menor.
 
 }
 \begin{minted}{yaml}
-modo: 1 
+modo: 1 # menor
 
 \end{minted}
   \vbox{
@@ -106,7 +111,7 @@ modo: 1
       default: \texttt{[ 1 ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Secuencia de intervalos a ser recorrida por el puntero de altura.
+    Conjunto de intervalos a ser indexados por el puntero de altura.
 
 }
 \begin{minted}{yaml}
@@ -128,32 +133,14 @@ registracion: [
       default: \texttt{1}
     \end{minipage}
     \vskip.2\baselineskip
-    Repeticiones, Catidad de veces q se toca esta unidad. 
-Esta propiedad no es transferible, no se sucede.
-Caso contrario se reiteraran los referidos.
+    Repeticiones, cantidad de veces q se toca esta unidad. 
+
+Esta propiedad no es transferible, no se sucede
+(de lo contrario se reiteraran los referidos).
 
 }
 \begin{minted}{yaml}
 reiterar: 3
-
-\end{minted}
-  \vbox{
-  \item [\texttt{revertir}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(lista de cadenas de caracteres)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{[none]}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Sentido de las listas 
-Revierte parametros del tipo lista.
-Deben corresponderse a la etiqueta de otro parametro del tipo lista.
-
-}
-\begin{minted}{yaml}
-revertir: [ 'duraciones', 'dinamicas' ]
 
 \end{minted}
   \vbox{
@@ -166,8 +153,9 @@ revertir: [ 'duraciones', 'dinamicas' ]
       default: \texttt{0}
     \end{minipage}
     \vskip.2\baselineskip
-    Transponer puntero de registracion
-Ajuste de alturas pero dentro del set registracion.
+    Transponer puntero de intervalo.
+
+Ajuste de alturas, pero dentro de la registración.
 
 }
 \begin{minted}{yaml}
@@ -184,9 +172,7 @@ transponer: 1
       default: \texttt{0}
     \end{minipage}
     \vskip.2\baselineskip
-    Transportar
-Ajuste de alturas.
-Semitonos
+    Ajuste de alturas en semitonos.
 
 }
 \begin{minted}{yaml}

@@ -1,3 +1,15 @@
+#    # Propiedades de Articulacion 
+#    'BPMs'         : [ 60 ],
+#    'programas'    : [ None ],
+#    'duraciones'   : [ 1 ],
+#    'dinamicas'    : [ 1 ],
+#    'registracion' : [ 1 ],
+#    'alturas'      : [ 1 ],
+#    'letras'       : [ None ], 
+#    'tonos'        : [ 0 ],
+#    'voces'        : None,
+#    'controles'    : None,
+
 alturas:
   tipo: 'lista de números enteros'
   defacto: '[1]'

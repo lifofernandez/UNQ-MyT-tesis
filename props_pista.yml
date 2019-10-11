@@ -16,7 +16,7 @@ forma:
    descripcion: |
      Macro estructura de la pista.
      Lista de unidades a ser secuenciadas.
-     Cada elemento corresponde a uno de la paleta de unidades.
+     Cada elemento corresponde a un miembro de la paleta de unidades.
    ejemplo: | 
      forma: [
        'espera',

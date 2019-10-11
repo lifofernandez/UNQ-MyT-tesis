@@ -1,36 +1,66 @@
+#    # Props. que NO refieren a Canal especifico
+#    # ¿a Meta track?  Igualmente midiutil las manda a canal 16...
+#    'metro'             : '4/4',
+#    'alteraciones'      : 0, 
+#    'modo'              : 0,
+#
+#    'afinacionNota'     : None,
+#    'afinacionBanco'    : None,
+#    'afinacionPrograma' : None,
+#    'sysEx'             : None,
+#    'uniSysEx'          : None,
+#
+#    # Propiedades de Segmento 
+#    'canal'    : 0,
+#    'revertir' : None,
+#    'NRPN'     : None,
+#    'RPN'      : None,
+#
+#
+#    # Procesos de Segmento
+#    'transportar' : 0,
+#    'transponer'  : 0,
+#    'reiterar'    : 1,
+#
+
 forma:
-  tipo: 'lista'
-  defacto: None
-  descripcion: 'Estructura de la Unidad'
-  ejemplo: | 
-    forma: ['A', 'B']
+   tipo: 'lista de cadenas de caracteres'
+   defacto: '[ None ]'
+   descripcion: |
+     Estructura de la unidad.
+     Lista de unidades referidas a ser secuenciadas.
+
+     Cada elemento corresponde a un miembro de la paleta de unidades.
+   ejemplo: | 
+     forma: ['A', 'B']
 
 alteraciones:
   tipo: 'Número Entero'
   defacto: '0'
   descripcion: |
-    Armadura de clave.
     Cantidad de alteraciones en la armadura de clave.
-    Los números positivos representan sostenidos mientras que los se
-    refiere a bemoles con números negativos.  -2 = Bb, -1 = F, 0 = C, 1 =
-    G, 2 = D, modo: 0 (mayor) 
-    (referir midi util doc, key signature)
+
+    Los números positivos representan sostenidos,
+    mientras que se refiere a bemoles con números negativos.
+    % (referir midi util doc, key signature)
   ejemplo: | 
-    alteraciones: -2
+    alteraciones: -2 # Bb
 
 modo:
   tipo: 'Número Entero'
   defacto: '0'
   descripcion: |
-    Modo de la escala. 0 = Mayor ó 1 = Menor.
+    Modo de la escala.
+    
+    El número 0 indica que se trata de una escala mayor, mientras que el 1 representa tonalidad menor.
   ejemplo: | 
-    modo: 1 
+    modo: 1 # menor
 
 registracion:
   tipo: 'lista de enteros'
   defacto: '[ 1 ]'
   descripcion: |
-   Secuencia de intervalos a ser recorrida por el puntero de altura.
+   Conjunto de intervalos a ser indexados por el puntero de altura.
   ejemplo: | 
     registracion: [ 
       -12,-10, -9, -7, -5, -3, -2,
@@ -43,9 +73,7 @@ transportar:
   tipo: 'número entero'
   defacto: 0
   descripcion: |
-    Transportar
-    Ajuste de alturas.
-    Semitonos
+    Ajuste de alturas en semitonos.
   ejemplo: | 
     transportar: 60 # C
 
@@ -53,8 +81,9 @@ transponer:
   defacto: 'número entero'
   defacto: 0 
   descripcion: |
-    Transponer puntero de registracion
-    Ajuste de alturas pero dentro del set registracion.
+    Transponer puntero de intervalo.
+
+    Ajuste de alturas, pero dentro de la registración.
   ejemplo: | 
     transponer: 1
 
@@ -63,77 +92,42 @@ metro:
   defacto: '4/4'
   descripcion: |
     Clave de compás.
-    Representando: numerador / denominador.
+   
+    Cantidad de pulsos por compás sobre la relación de subdivisión.
   ejemplo: | 
     metro: 4/4
-
-# desplazar:
-#   tipo: 'número decimal'
-#   defacto: '0'
-#   descripcion: |
-#     Ajuste temporal Desfazage temporal del momento en el que
-#     originalmente comienza la unidad.  offset : + / - offset con la
-#     "posicion" original 0 es que donde debe acontecer originalmente "-2"
-#     anticipar 2 pulsos o ".5" demorar medio pulso
-#   ejemplo: | 
-#     desplazar: -2
 
 reiterar:
   tipo: 'número entero'
   defacto: 1
   descripcion: |
-    Repeticiones, Catidad de veces q se toca esta unidad. 
-    Esta propiedad no es transferible, no se sucede.
-    Caso contrario se reiteraran los referidos.
+    Repeticiones, cantidad de veces q se toca esta unidad. 
+
+    Esta propiedad no es transferible, no se sucede
+    (de lo contrario se reiteraran los referidos).
   ejemplo: | 
     reiterar: 3
 
-# dinamicas:
-#   tipo: 'lista de números decimales'
-#   defacto: '[ 1 ]'
+# revertir:
+#   tipo: 'lista de cadenas de caracteres'
+#   defacto: '[none]'
 #   descripcion: |
-#     Dinámica
-#     Lista ordenada de dinámicas.
+#     Sentido de las listas 
+#     Revierte parámetros del tipo lista.
+#     Deben corresponderse a la etiqueta de otro parámetro.
 #   ejemplo: | 
-#     dinamicas: [ 1, .5, .4 ]
-
-#fluctuacion:
-#  tipo: 'dicionario'
-#  defacto: 'min:1, max:1'
-#  descripcion: |
-#    Fluctuación
-#    fluctuciones dinámicas.
-#  ejemplo: | 
-#    fluctuacion:
-#      min: .3
-#      max: .7
-
-revertir:
-  tipo: 'lista de cadenas de caracteres'
-  defacto: '[none]'
-  descripcion: |
-    Sentido de las listas 
-    Revierte parametros del tipo lista.
-    Deben corresponderse a la etiqueta de otro parametro del tipo lista.
-  ejemplo: | 
-    revertir: [ 'duraciones', 'dinamicas' ]
+#    revertir: [ 'duraciones', 'dinamicas' ]
 
 canal:
   tipo: 'número entero'
   defacto: 1
   descripcion: |
-    Canal MIDI 
     Número de Canal MIDI.
   ejemplo: | 
     canal: 3
         
-#etiqueta:
-#  tipo: ''
-#  defacto: 'TO DO'
-#  descripcion: |
-#  ejemplo: | 
-
-
+### TO DO ####
+#
 #afinacionNota: !!map
 #  # Actualizar afinacion MIDI en tiempo real
 #  afinaciones: !!seq [ [69, 50],[79,60]]
@@ -198,3 +192,31 @@ canal:
 #  playload:  !!binary ''
 #  canal: !!int 14
 #  tiempoReal: !!bool False
+
+
+
+
+### DEPRECREATED ####
+#
+# desplazar:
+#
+#   tipo: 'número decimal'
+#   defacto: '0'
+#   descripcion: |
+#     Ajuste temporal Desfazage temporal del momento en el que
+#     originalmente comienza la unidad.  offset : + / - offset con la
+#     "posicion" original 0 es que donde debe acontecer originalmente "-2"
+#     anticipar 2 pulsos o ".5" demorar medio pulso
+#   ejemplo: | 
+#     desplazar: -2
+
+#fluctuacion:
+#  tipo: 'dicionario'
+#  defacto: 'min:1, max:1'
+#  descripcion: |
+#    Fluctuación
+#    fluctuciones dinámicas.
+#  ejemplo: | 
+#    fluctuacion:
+#      min: .3
+#      max: .7
