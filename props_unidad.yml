@@ -4,27 +4,33 @@ forma:
   descripcion: 'Estructura de la Unidad'
   ejemplo: | 
     forma: ['A', 'B']
-clave:
-  tipo: 'diccionario'
-  defacto: 'alteraciones:0, modo: 0'
+
+alteraciones:
+  tipo: 'Número Entero'
+  defacto: '0'
   descripcion: |
-    Armadura de clave
-    Catidad de alteraciones en la armadura de clave y modo de la escala.
-    Los numeros positivos representan sotenidos mientras que los se
+    Armadura de clave.
+    Cantidad de alteraciones en la armadura de clave.
+    Los números positivos representan sostenidos mientras que los se
     refiere a bemoles con números negativos.  -2 = Bb, -1 = F, 0 = C, 1 =
     G, 2 = D, modo: 0 (mayor) 
-    Modo de la escala, 0 = Mayor o 1 = Menor
     (referir midi util doc, key signature)
   ejemplo: | 
-    clave:
-      alteraciones: -2
-      modo: 1 
+    alteraciones: -2
+
+modo:
+  tipo: 'Número Entero'
+  defacto: '0'
+  descripcion: |
+    Modo de la escala. 0 = Mayor ó 1 = Menor.
+  ejemplo: | 
+    modo: 1 
+
 registracion:
   tipo: 'lista de enteros'
   defacto: '[ 1 ]'
   descripcion: |
-   Registración fija.
-   Secuencia de intervalos a ser recorrida por el punteros de altura.
+   Secuencia de intervalos a ser recorrida por el puntero de altura.
   ejemplo: | 
     registracion: [ 
       -12,-10, -9, -7, -5, -3, -2,
@@ -32,6 +38,7 @@ registracion:
        12, 14, 15, 17, 19, 21, 22,
        24
     ]
+
 transportar:
   tipo: 'número entero'
   defacto: 0
@@ -41,6 +48,7 @@ transportar:
     Semitonos
   ejemplo: | 
     transportar: 60 # C
+
 transponer:
   defacto: 'número entero'
   defacto: 0 
@@ -49,52 +57,57 @@ transponer:
     Ajuste de alturas pero dentro del set registracion.
   ejemplo: | 
     transponer: 1
+
 metro:
   tipo: 'cadena de caracteres'
   defacto: '4/4'
   descripcion: |
-    Clave de compás
-    Clave de metrica.
-    representando una fracción (numerador / denominador).
+    Clave de compás.
+    Representando: numerador / denominador.
   ejemplo: | 
     metro: 4/4
-desplazar:
-  tipo: 'número decimal'
-  defacto: '0'
-  descripcion: |
-    Ajuste temporal Desfazage temporal del momento en el que
-    originalmente comienza la unidad.  offset : + / - offset con la
-    "posicion" original 0 es que donde debe acontecer originalmente "-2"
-    anticipar 2 pulsos o ".5" demorar medio pulso
-  ejemplo: | 
-    desplazar: -2
+
+# desplazar:
+#   tipo: 'número decimal'
+#   defacto: '0'
+#   descripcion: |
+#     Ajuste temporal Desfazage temporal del momento en el que
+#     originalmente comienza la unidad.  offset : + / - offset con la
+#     "posicion" original 0 es que donde debe acontecer originalmente "-2"
+#     anticipar 2 pulsos o ".5" demorar medio pulso
+#   ejemplo: | 
+#     desplazar: -2
+
 reiterar:
   tipo: 'número entero'
   defacto: 1
   descripcion: |
-    Repeticiones Catidad de veces q se toca esta unidad.  Reiterarse a si
-    misma, no es trasferible, no se hereda, caso contrario se reterarian
-    los referidos.
+    Repeticiones, Catidad de veces q se toca esta unidad. 
+    Esta propiedad no es transferible, no se sucede.
+    Caso contrario se reiteraran los referidos.
   ejemplo: | 
     reiterar: 3
-dinamicas:
-  tipo: 'lista de números decimales'
-  defacto: '[ 1 ]'
-  descripcion: |
-    Dinámica
-    Lista ordenada de dinámicas.
-  ejemplo: | 
-    dinamicas: [ 1, .5, .4 ]
-fluctuacion:
-  tipo: 'dicionario'
-  defacto: 'min:1, max:1'
-  descripcion: |
-    Fluctuación
-    fluctuciones dinámicas.
-  ejemplo: | 
-    fluctuacion:
-      min: .3
-      max: .7
+
+# dinamicas:
+#   tipo: 'lista de números decimales'
+#   defacto: '[ 1 ]'
+#   descripcion: |
+#     Dinámica
+#     Lista ordenada de dinámicas.
+#   ejemplo: | 
+#     dinamicas: [ 1, .5, .4 ]
+
+#fluctuacion:
+#  tipo: 'dicionario'
+#  defacto: 'min:1, max:1'
+#  descripcion: |
+#    Fluctuación
+#    fluctuciones dinámicas.
+#  ejemplo: | 
+#    fluctuacion:
+#      min: .3
+#      max: .7
+
 revertir:
   tipo: 'lista de cadenas de caracteres'
   defacto: '[none]'
@@ -104,6 +117,7 @@ revertir:
     Deben corresponderse a la etiqueta de otro parametro del tipo lista.
   ejemplo: | 
     revertir: [ 'duraciones', 'dinamicas' ]
+
 canal:
   tipo: 'número entero'
   defacto: 1

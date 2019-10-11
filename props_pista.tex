@@ -1,8 +1,10 @@
 \bigskip
 \setlist[itemize]{leftmargin=0pt}
 \setlength{\parskip}{1pt}
+
 \begin{itemize}
 
+  \vbox{
   \item [\texttt{complementos}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(cadena de caracteres)}
@@ -13,11 +15,12 @@
     \end{minipage}
     \vskip.2\baselineskip
     Ubicación de modulo con métodos de usuario.
+}
 \begin{minted}{yaml}
 complementos: 'enchufes.py'
 
 \end{minted}
-
+  \vbox{
   \item [\texttt{forma}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(lista de cadenas de caracteres)}
@@ -31,6 +34,7 @@ complementos: 'enchufes.py'
 Lista de unidades a ser secuenciadas.
 Cada elemento corresponde a uno de la paleta de unidades.
 
+}
 \begin{minted}{yaml}
 forma: [
   'espera',
@@ -39,7 +43,7 @@ forma: [
 ]
 
 \end{minted}
-
+  \vbox{
   \item [\texttt{nombre}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(cadena de caracteres)}
@@ -50,11 +54,12 @@ forma: [
     \end{minipage}
     \vskip.2\baselineskip
     Titulo de la pista
+}
 \begin{minted}{yaml}
 nombre: 'Feliz Cumpleaños'
 
 \end{minted}
-
+  \vbox{
   \item [\texttt{unidades}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(diccionario)}
@@ -66,6 +71,7 @@ nombre: 'Feliz Cumpleaños'
     \vskip.2\baselineskip
     Esta es la paleta de unidades disponibles y sus propiedades.
 
+}
 \begin{minted}{yaml}
 unidades: 
   base: &base 
@@ -125,7 +131,7 @@ unidades:
 
 \end{minted}
 
-
 \end{itemize}
+
 \setlist[itemize]{leftmargin=11pt}
 \setlength{\parskip}{6pt plus 2pt minus 1pt}

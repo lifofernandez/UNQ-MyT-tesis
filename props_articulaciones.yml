@@ -34,7 +34,7 @@ BPMs:
     Pulso 
     Tempo, Pulsos Por Minuto.
   ejemplo: | 
-    bpm: 62
+    BPMs: [62]
 dinamicas:
   tipo: 'lista de números decimales'
   defacto: '[ 1 ]'

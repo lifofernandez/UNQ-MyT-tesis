@@ -1,8 +1,32 @@
 \bigskip
 \setlist[itemize]{leftmargin=0pt}
 \setlength{\parskip}{1pt}
+
 \begin{itemize}
 
+  \vbox{
+  \item [\texttt{alteraciones}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(Número Entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Armadura de clave.
+Cantidad de alteraciones en la armadura de clave.
+Los números positivos representan sostenidos mientras que los se
+refiere a bemoles con números negativos.  -2 = Bb, -1 = F, 0 = C, 1 =
+G, 2 = D, modo: 0 (mayor) 
+(referir midi util doc, key signature)
+
+}
+\begin{minted}{yaml}
+alteraciones: -2
+
+\end{minted}
+  \vbox{
   \item [\texttt{canal}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(número entero)}
@@ -15,91 +39,13 @@
     Canal MIDI 
 Número de Canal MIDI.
 
+}
 \begin{minted}{yaml}
 canal: 3
     
 
 \end{minted}
-
-  \item [\texttt{clave}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(diccionario)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{alteraciones:0, modo: 0}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Armadura de clave
-Catidad de alteraciones en la armadura de clave y modo de la escala.
-Los numeros positivos representan sotenidos mientras que los se
-refiere a bemoles con números negativos.  -2 = Bb, -1 = F, 0 = C, 1 =
-G, 2 = D, modo: 0 (mayor) 
-Modo de la escala, 0 = Mayor o 1 = Menor
-(referir midi util doc, key signature)
-
-\begin{minted}{yaml}
-clave:
-  alteraciones: -2
-  modo: 1 
-
-\end{minted}
-
-  \item [\texttt{desplazar}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número decimal)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{0}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Ajuste temporal Desfazage temporal del momento en el que
-originalmente comienza la unidad.  offset : + / - offset con la
-"posicion" original 0 es que donde debe acontecer originalmente "-2"
-anticipar 2 pulsos o ".5" demorar medio pulso
-
-\begin{minted}{yaml}
-desplazar: -2
-
-\end{minted}
-
-  \item [\texttt{dinamicas}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(lista de números decimales)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{[ 1 ]}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Dinámica
-Lista ordenada de dinámicas.
-
-\begin{minted}{yaml}
-dinamicas: [ 1, .5, .4 ]
-
-\end{minted}
-
-  \item [\texttt{fluctuacion}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(dicionario)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{min:1, max:1}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Fluctuación
-fluctuciones dinámicas.
-
-\begin{minted}{yaml}
-fluctuacion:
-  min: .3
-  max: .7
-
-\end{minted}
-
+  \vbox{
   \item [\texttt{forma}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(lista)}
@@ -110,11 +56,12 @@ fluctuacion:
     \end{minipage}
     \vskip.2\baselineskip
     Estructura de la Unidad
+}
 \begin{minted}{yaml}
 forma: ['A', 'B']
 
 \end{minted}
-
+  \vbox{
   \item [\texttt{metro}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(cadena de caracteres)}
@@ -124,15 +71,32 @@ forma: ['A', 'B']
       default: \texttt{4/4}
     \end{minipage}
     \vskip.2\baselineskip
-    Clave de compás
-Clave de metrica.
-representando una fracción (numerador / denominador).
+    Clave de compás.
+Representando: numerador / denominador.
 
+}
 \begin{minted}{yaml}
 metro: 4/4
 
 \end{minted}
+  \vbox{
+  \item [\texttt{modo}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(Número Entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Modo de la escala. 0 = Mayor ó 1 = Menor.
 
+}
+\begin{minted}{yaml}
+modo: 1 
+
+\end{minted}
+  \vbox{
   \item [\texttt{registracion}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(lista de enteros)}
@@ -142,9 +106,9 @@ metro: 4/4
       default: \texttt{[ 1 ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Registración fija.
-Secuencia de intervalos a ser recorrida por el punteros de altura.
+    Secuencia de intervalos a ser recorrida por el puntero de altura.
 
+}
 \begin{minted}{yaml}
 registracion: [ 
   -12,-10, -9, -7, -5, -3, -2,
@@ -154,7 +118,7 @@ registracion: [
 ]
 
 \end{minted}
-
+  \vbox{
   \item [\texttt{reiterar}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(número entero)}
@@ -164,15 +128,16 @@ registracion: [
       default: \texttt{1}
     \end{minipage}
     \vskip.2\baselineskip
-    Repeticiones Catidad de veces q se toca esta unidad.  Reiterarse a si
-misma, no es trasferible, no se hereda, caso contrario se reterarian
-los referidos.
+    Repeticiones, Catidad de veces q se toca esta unidad. 
+Esta propiedad no es transferible, no se sucede.
+Caso contrario se reiteraran los referidos.
 
+}
 \begin{minted}{yaml}
 reiterar: 3
 
 \end{minted}
-
+  \vbox{
   \item [\texttt{revertir}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(lista de cadenas de caracteres)}
@@ -186,11 +151,12 @@ reiterar: 3
 Revierte parametros del tipo lista.
 Deben corresponderse a la etiqueta de otro parametro del tipo lista.
 
+}
 \begin{minted}{yaml}
 revertir: [ 'duraciones', 'dinamicas' ]
 
 \end{minted}
-
+  \vbox{
   \item [\texttt{transponer}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{()}
@@ -203,11 +169,12 @@ revertir: [ 'duraciones', 'dinamicas' ]
     Transponer puntero de registracion
 Ajuste de alturas pero dentro del set registracion.
 
+}
 \begin{minted}{yaml}
 transponer: 1
 
 \end{minted}
-
+  \vbox{
   \item [\texttt{transportar}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(número entero)}
@@ -221,12 +188,13 @@ transponer: 1
 Ajuste de alturas.
 Semitonos
 
+}
 \begin{minted}{yaml}
 transportar: 60 # C
 
 \end{minted}
 
-
 \end{itemize}
+
 \setlist[itemize]{leftmargin=11pt}
 \setlength{\parskip}{6pt plus 2pt minus 1pt}
