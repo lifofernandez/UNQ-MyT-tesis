@@ -7,7 +7,7 @@
   \vbox{
   \item [\texttt{alteraciones}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(Número Entero)}
+	    \textsf{(número entero)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
@@ -16,14 +16,13 @@
     \vskip.2\baselineskip
     Cantidad de alteraciones en la armadura de clave.
 
-Los números positivos representan sostenidos,
-mientras que se refiere a bemoles con números negativos.
+Números positivos representan sostenidos y
+números negativos indican la cantidad bemoles.
 % (referir midi util doc, key signature)
 
 }
 \begin{minted}{yaml}
 alteraciones: -2 # Bb
-
 \end{minted}
   \vbox{
   \item [\texttt{canal}] 
@@ -36,12 +35,9 @@ alteraciones: -2 # Bb
     \end{minipage}
     \vskip.2\baselineskip
     Número de Canal MIDI.
-
 }
 \begin{minted}{yaml}
 canal: 3
-    
-
 \end{minted}
   \vbox{
   \item [\texttt{forma}] 
@@ -61,7 +57,6 @@ Cada elemento corresponde a un miembro de la paleta de unidades.
 }
 \begin{minted}{yaml}
 forma: ['A', 'B']
-
 \end{minted}
   \vbox{
   \item [\texttt{metro}] 
@@ -74,18 +69,14 @@ forma: ['A', 'B']
     \end{minipage}
     \vskip.2\baselineskip
     Clave de compás.
-
-Cantidad de pulsos por compás sobre la relación de subdivisión.
-
 }
 \begin{minted}{yaml}
 metro: 4/4
-
 \end{minted}
   \vbox{
   \item [\texttt{modo}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(Número Entero)}
+	    \textsf{(número entero)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
@@ -99,7 +90,6 @@ El número 0 indica que se trata de una escala mayor, mientras que el 1 represen
 }
 \begin{minted}{yaml}
 modo: 1 # menor
-
 \end{minted}
   \vbox{
   \item [\texttt{registracion}] 
@@ -111,8 +101,7 @@ modo: 1 # menor
       default: \texttt{[ 1 ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Conjunto de intervalos a ser indexados por el puntero de altura.
-
+    Conjunto de intervalos a ser indexados por el puntero de \texttt{alturas}.
 }
 \begin{minted}{yaml}
 registracion: [ 
@@ -141,12 +130,11 @@ Esta propiedad no es transferible, no se sucede
 }
 \begin{minted}{yaml}
 reiterar: 3
-
 \end{minted}
   \vbox{
   \item [\texttt{transponer}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{()}
+	    \textsf{(número entero)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
@@ -155,12 +143,11 @@ reiterar: 3
     \vskip.2\baselineskip
     Transponer puntero de intervalo.
 
-Ajuste de alturas, pero dentro de la registración.
+Ajuste de alturas, pero dentro de la \texttt{registracion} fija.
 
 }
 \begin{minted}{yaml}
-transponer: 1
-
+transponer: 3
 \end{minted}
   \vbox{
   \item [\texttt{transportar}] 
@@ -172,12 +159,10 @@ transponer: 1
       default: \texttt{0}
     \end{minipage}
     \vskip.2\baselineskip
-    Ajuste de alturas en semitonos.
-
+    Ajuste de alturas en semitonos
 }
 \begin{minted}{yaml}
 transportar: 60 # C
-
 \end{minted}
 
 \end{itemize}

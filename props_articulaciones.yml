@@ -1,4 +1,3 @@
-
 alturas:
   tipo: 'lista de números enteros'
   defacto: '[1]'
@@ -67,5 +66,5 @@ letras:
   tipo: 'lista de cadenas de caracteres'
   defacto: '[ None ]' 
   descripcion: 'Texto. Versos o anotaciones.'
-  ejemplo: "tonos: [ 'Hola', 'mundo.' ]"
+  ejemplo: "letras: [ 'Hola', 'mundo.' ]"
 
