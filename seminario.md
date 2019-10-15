@@ -989,10 +989,10 @@ para cada constituyente.
 \nopagebreak[4]
 
 Si bien no se distingue otra jerarquía, las siguientes propiedades actúan a
-nivel de articulación. Se subscriben a unidades pero en vez de modificar al 
+nivel de articulación, se subscriben a unidades pero en vez de modificar al
 segmento como conjunto, resultan en un valor por cada articulación.  
 
-Comparten la cualidad de esperar listas de valores.  El proceso combinatorio al
+Comparten la cualidad de esperar listas de valores y el proceso combinatorio al
 que se someten es similar al empleado en la técnica compositiva del motete
 isorrítmico[^ver_variego], difiriendo en que el procedimiento no se limita a
 duraciones y alturas, abarca otras propiedades.
@@ -1001,7 +1001,7 @@ La cantidad de articulaciones producidas es equivalente al número de miembros
 en la serie mas extensa, se reiteran secuencialemente patrones mas cortos
 alineandose, hasta completar el total de articulaciones.
 
-Es pertinente resaltar la combinatoria que resulta indexando los valores en le
+Es pertinente señalar la combinatoria que resulta indexando los valores de la
 serie de \texttt{alturas} como punteros en el conjunto intervalos de
 \texttt{registración} fija.
 

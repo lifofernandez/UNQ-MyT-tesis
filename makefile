@@ -25,6 +25,9 @@ pdf:
 	xelatex \
 	-interaction=batchmode \
 	-shell-escape output.tex
+verbose:
+	xelatex \
+	-shell-escape output.tex
 	
 clean: 
 	rm _minted-output* -r

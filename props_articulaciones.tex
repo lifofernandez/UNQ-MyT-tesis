@@ -7,19 +7,17 @@
   \vbox{
   \item [\texttt{BPMs}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
+	    \textsf{(lista de números enteros)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{60}
+      default: \texttt{[ 60 ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Pulso 
-Tempo, Pulsos Por Minuto.
-
+    Pulsos por minuto.
 }
 \begin{minted}{yaml}
-BPMs: [62]
+BPMs: [ 75, 65, 70 ]
 
 \end{minted}
   \vbox{
@@ -32,13 +30,13 @@ BPMs: [62]
       default: \texttt{[1]}
     \end{minipage}
     \vskip.2\baselineskip
-    Punteros del set de registracion.
-Cada elemento equivale a el numero de intervalo.
+    Punteros de intervalo.
+
+Cada miembro es un índice de intervalo en el conjunto: \texttt{registracion}.
 
 }
 \begin{minted}{yaml}
-alturas: [ 1, 3, 5, 8 ] 
-
+alturas: [ 1, 3, 5, 8 ]
 \end{minted}
   \vbox{
   \item [\texttt{controles}] 
@@ -50,9 +48,7 @@ alturas: [ 1, 3, 5, 8 ]
       default: \texttt{None}
     \end{minipage}
     \vskip.2\baselineskip
-    Cambios de control
-Secuencia de pares número controlador y valor a asignar.
-
+    Cambios de control. Secuencia de pares, número controlador y valor a asignar.
 }
 \begin{minted}{yaml}
 controles:
@@ -71,13 +67,10 @@ controles:
       default: \texttt{[ 1 ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Dinámica
-Lista ordenada de dinámicas.
-
+    Lista ordenada de dinámicas. Factores de 127.
 }
 \begin{minted}{yaml}
 dinamicas: [ 1, .5, .4 ]
-
 \end{minted}
   \vbox{
   \item [\texttt{duraciones}] 
@@ -89,46 +82,70 @@ dinamicas: [ 1, .5, .4 ]
       default: \texttt{[ 1 ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Duracion
-Lista ordenada de duraciones.
-
+    Largo de articulaciones, lista de factores relativos al de pulso.
 }
 \begin{minted}{yaml}
 duraciones: [ 1, .5, .5, 1, 1 ]
-
 \end{minted}
   \vbox{
-  \item [\texttt{programas}] 
+  \item [\texttt{letras}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
+	    \textsf{(lista de cadenas de caracteres)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{1}
+      default: \texttt{[ None ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Instrumento MIDI 
-Número de Instrumento MIDI en el banco actual.\newline
-
+    Texto. Versos o anotaciones.
 }
 \begin{minted}{yaml}
-programa: 103
-
+tonos: [ 'Hola', 'mundo.' ]
 \end{minted}
   \vbox{
-  \item [\texttt{voces}] 
+  \item [\texttt{programas}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(lista de números enteros)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{TO DO}
+      default: \texttt{[ None ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Superposicion de altura
-Apilamiento de alturas.
-Lista de listas, cada voz es un lista que modifica intervalo.
-voz + altura = numero de intervalo.
+    Lista de números de instrumento MIDI en el banco actual.
+}
+\begin{minted}{yaml}
+programas: [ 25 ] # Guitarra en banco GM
+\end{minted}
+  \vbox{
+  \item [\texttt{tonos}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de enteros)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{[ 0 ]}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Curva de entonaciones (pitch-bends).
+}
+\begin{minted}{yaml}
+tonos: [ 666, -777, 0 ]
+\end{minted}
+  \vbox{
+  \item [\texttt{voces}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de listas de números enteros)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Superposición de alturas.
+Apilamiento de voces dentro de la \texttt{registracion} fija.
+
+Lista de listas, cada miembro es una voz y cada voz es un lista de enteros que se añade al puntero de intervalo.
 
 }
 \begin{minted}{yaml}

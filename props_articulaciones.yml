@@ -1,88 +1,71 @@
-#    # Propiedades de Articulacion 
-#    'BPMs'         : [ 60 ],
-#    'programas'    : [ None ],
-#    'duraciones'   : [ 1 ],
-#    'dinamicas'    : [ 1 ],
-#    'registracion' : [ 1 ],
-#    'alturas'      : [ 1 ],
-#    'letras'       : [ None ], 
-#    'tonos'        : [ 0 ],
-#    'voces'        : None,
-#    'controles'    : None,
 
 alturas:
   tipo: 'lista de números enteros'
   defacto: '[1]'
   descripcion: |
-    Punteros del set de registracion.
-    Cada elemento equivale a el numero de intervalo.
-  ejemplo: | 
-    alturas: [ 1, 3, 5, 8 ] 
+    Punteros de intervalo.
+
+    Cada miembro es un índice de intervalo en el conjunto: \texttt{registracion}.
+  ejemplo: 'alturas: [ 1, 3, 5, 8 ]'
+
 voces:
-  tipo: 'lista de números enteros'
-  defacto: 'TO DO'
+  tipo: 'lista de listas de números enteros'
+  defacto: 'None'
   descripcion: |
-    Superposicion de altura
-    Apilamiento de alturas.
-    Lista de listas, cada voz es un lista que modifica intervalo.
-    voz + altura = numero de intervalo.
+    Superposición de alturas.
+    Apilamiento de voces dentro de la \texttt{registracion} fija.
+
+    Lista de listas, cada miembro es una voz y cada voz es un lista de enteros que se añade al puntero de intervalo.
   ejemplo: | 
     voces:
        - [ 8, 6 ] 
        - [ 5 ] 
        - [ 3 ]
+
+BPMs:
+  tipo: 'lista de números enteros'
+  defacto: '[ 60 ]'
+  descripcion: 'Pulsos por minuto.'
+  ejemplo: | 
+    BPMs: [ 75, 65, 70 ]
+
 duraciones:
   tipo: 'lista de números decimales'
   defacto: '[ 1 ]'
-  descripcion: |
-    Duracion
-    Lista ordenada de duraciones.
-  ejemplo: | 
-   duraciones: [ 1, .5, .5, 1, 1 ]
-BPMs:
-  tipo: 'número entero'
-  defacto: 60 
-  descripcion: |
-    Pulso 
-    Tempo, Pulsos Por Minuto.
-  ejemplo: | 
-    BPMs: [62]
+  descripcion: 'Largo de articulaciones, lista de factores relativos al de pulso.'
+  ejemplo: 'duraciones: [ 1, .5, .5, 1, 1 ]'
+
 dinamicas:
   tipo: 'lista de números decimales'
   defacto: '[ 1 ]'
-  descripcion: |
-    Dinámica
-    Lista ordenada de dinámicas.
-  ejemplo: | 
-    dinamicas: [ 1, .5, .4 ]
+  descripcion: 'Lista ordenada de dinámicas. Factores de 127.'
+  ejemplo: 'dinamicas: [ 1, .5, .4 ]'
+
 programas:
-  tipo: 'número entero'
-  defacto: 1 
-  descripcion: |
-    Instrumento MIDI 
-    Número de Instrumento MIDI en el banco actual.\newline
-  ejemplo: | 
-    programa: 103
+  tipo: 'lista de números enteros'
+  defacto: '[ None ]'
+  descripcion: 'Lista de números de instrumento MIDI en el banco actual.'
+  ejemplo: 'programas: [ 25 ] # Guitarra en banco GM'
+
 controles:
   tipo: 'lista de listas de pares'
   defacto: 'None' 
-  descripcion: |
-    Cambios de control
-    Secuencia de pares número controlador y valor a asignar.
+  descripcion: 'Cambios de control. Secuencia de pares, número controlador y valor a asignar.'
   ejemplo: | 
     controles:
       - [ 70 : 80,  71 : 90, 72 : 100 ]
       - [ 33 : 121, 51 : 120 ]
       - [ 10 : 80,  11 : 90, 12 : 100, 13 : 100 ]
 
-#tonos: !!seq
-#  # Curva de entonaciones (Pitch-bend / Pitch-wheel)
-#  [ 666, 777 ]
-#
+tonos: 
+  tipo: 'lista de enteros'
+  defacto: '[ 0 ]' 
+  descripcion: 'Curva de entonaciones (pitch-bends).'
+  ejemplo: 'tonos: [ 666, -777, 0 ]'
 
+letras: 
+  tipo: 'lista de cadenas de caracteres'
+  defacto: '[ None ]' 
+  descripcion: 'Texto. Versos o anotaciones.'
+  ejemplo: "tonos: [ 'Hola', 'mundo.' ]"
 
-#etiqueta:
-#  tipo: ''
-#  defacto: 'TO DO'
-#  descripcion: |
-#  ejemplo: | 
