@@ -91,24 +91,24 @@ canal:
         
 ### TO DO ####
 #
-#afinacionNota: !!map
+#afinacionNota: 
 #  # Actualizar afinacion MIDI en tiempo real
-#  afinaciones: !!seq [ [69, 50],[79,60]]
-#  canalSysEx: !!int 127
-#  tiempoReal: !!bool true
-#  programa: !!int 0
+#  afinaciones: [ [69, 50],[79,60]]
+#  canalSysEx: 127
+#  tiempoReal: true
+#  programa: 0
 #
-#afinacionBanco: !!map
+#afinacionBanco: 
 #  # Actualizar afinacion banco MIDI
-#  banco: !!int 0
-#  ordenar: !!bool false
+#  banco: 0
+#  ordenar: false
 #
-#afinacionPrograma: !!map
+#afinacionPrograma: 
 #  # Actualizar afinacion Programa MIDI
-#  programa: !!int 0
-#  ordenar: !!bool false
+#  programa: 0
+#  ordenar: false
 #
-#NRPN: !!map
+#NRPN: 
 #  # Numero de Parametro No Registrado 
 #  # NRPN (Non Registered Parameter Number)
 #  # https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.makeNRPNCall
@@ -119,18 +119,18 @@ canal:
 #    # The Most significant byte of the controller.
 #    # In common usage this will usually be 0
 #    0
-#  control_lsb: !!int
+#  control_lsb: 
 #    # The Least significant Byte for the controller message.
 #    # For example, for a fine-tuning change this would be 01.
 #    3
-#  data_msb: !!int
+#  data_msb: 
 #    # The Most Significant Byte of the controller’s parameter.
 #    0
-#  data_lsb: !!int
+#  data_lsb: 
 #    # The Least Significant Byte of the controller’s parameter.
 #    # If not needed this should be set to None
 #    1
-#  ordenar: !!bool
+#  ordenar: 
 #    # Order the control events in time. 
 #    False
 #
@@ -138,23 +138,23 @@ canal:
 #  # https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
 #  # http://www.andrelouis.com/qws/art/art009.htm
 #
-#RPN: !!map
+#RPN: 
 #  control_msb: 0
 #  control_lsb: 32
 #  data_msb: 2 
 #  data_lsb: 9
 #  ordenar: True
 #
-#sysEx: !!map
+#sysEx: 
 #  fabricante: 0
 #  playload:  !!binary ''
 #
-#uniSysEx: !!map
-#  codigo: !!int 0
-#  subCodigo: !!int 0
-#  playload:  !!binary ''
-#  canal: !!int 14
-#  tiempoReal: !!bool False
+#uniSysEx: 
+#  codigo: 0
+#  subCodigo: 0
+#  playload:  ''
+#  canal: 14
+#  tiempoReal: False
 
 
 
