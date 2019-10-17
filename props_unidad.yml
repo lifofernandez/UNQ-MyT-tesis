@@ -86,35 +86,69 @@ reiterar:
 canal:
   tipo: 'número entero'
   defacto: 1
-  descripcion: 'Número de Canal MIDI.'
+  descripcion: 'Número de Canal.'
   ejemplo: 'canal: 3'
         
 ### TO DO ####
-#
-#afinacionNota: 
-#  # Actualizar afinacion MIDI en tiempo real
-#  afinaciones: [ [69, 50],[79,60]]
-#  canalSysEx: 127
-#  tiempoReal: true
-#  programa: 0
-#
-#afinacionBanco: 
-#  # Actualizar afinacion banco MIDI
-#  banco: 0
-#  ordenar: false
-#
-#afinacionPrograma: 
-#  # Actualizar afinacion Programa MIDI
-#  programa: 0
-#  ordenar: false
-#
-#NRPN: 
-#  # Numero de Parametro No Registrado 
+
+afinacionNota: 
+  tipo: 'diccionario'
+  defacto: 'None'
+  descripcion: 'Afinación  de nota.'
+  ejemplo: |
+    afinacionNota: 
+      afinaciones: [ [ 69, 50 ], [ 79, 60 ] ]
+      canalSysEx: 127
+      tiempoReal: true
+      programa: 0
+
+afinacionBanco: 
+  tipo: 'diccionario'
+  defacto: 'None'
+  descripcion: 'Afinación banco.'
+  ejemplo: |
+    afinacionBanco: 
+      banco: 0
+      ordenar: false
+
+afinacionPrograma: 
+  tipo: 'diccionario'
+  defacto: 'None'
+  descripcion: 'Afinacion Programa.'
+  ejemplo: |
+    afinacionPrograma: 
+      programa: 0
+      ordenar: false
+
+RPN: 
+  tipo: 'diccionario'
+  defacto: 'None'
+  descripcion: 'Realizar llamada a parámetro numerado registrado.'
+  ejemplo: |
+    RPN: 
+      control_msb: 0
+      control_lsb: 32
+      data_msb: 2 
+      data_lsb: 9
+      ordenar: True
+
+NRPN: 
+  tipo: 'diccionario'
+  defacto: 'None'
+  descripcion: 'Realizar llamada a parámetro numerado no registrado.'
+  ejemplo: |
+    NRPN: 
+      control_msb: 0
+      control_lsb: 32
+      data_msb: 2 
+      data_lsb: 9
+      ordenar: True
+      
 #  # NRPN (Non Registered Parameter Number)
 #  # https://midiutil.readthedocs.io/en/1.2.1/class.html#midiutil.MidiFile.MIDIFile.makeNRPNCall
 #  # http://www.philrees.co.uk/nrpnq.htm
 #  # https://en.wikipedia.org/wiki/NRPN
-#
+
 #  control_msb: !!int
 #    # The Most significant byte of the controller.
 #    # In common usage this will usually be 0
@@ -137,24 +171,27 @@ canal:
 #  # alternar bancos MIDI através de NPRN
 #  # https://www.mutools.com/info/docs/mulab/using-bank-select-and-prog-changes.html
 #  # http://www.andrelouis.com/qws/art/art009.htm
-#
-#RPN: 
-#  control_msb: 0
-#  control_lsb: 32
-#  data_msb: 2 
-#  data_lsb: 9
-#  ordenar: True
-#
-#sysEx: 
-#  fabricante: 0
-#  playload:  !!binary ''
-#
-#uniSysEx: 
-#  codigo: 0
-#  subCodigo: 0
-#  playload:  ''
-#  canal: 14
-#  tiempoReal: False
+
+sysEx: 
+  tipo: 'diccionario'
+  defacto: 'None'
+  descripcion: 'Agregar un evento de sistema exclusivo.'
+  ejemplo: |
+    sysEx: 
+      fabricante: 0
+      playload:  !!binary ''
+
+uniSysEx: 
+  tipo: 'diccionario'
+  defacto: 'None'
+  descripcion: 'Agregar un evento de sistema exclusivo universal.'
+  ejemplo: |
+    uniSysEx: 
+      codigo: 0
+      subCodigo: 0
+      playload:  ''
+      canal: 14
+      tiempoReal: False
 
 
 

@@ -69,25 +69,20 @@ nombre: 'Feliz Cumpleaños'
       default: \texttt{[ None ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Esta es la paleta de unidades disponibles y sus propiedades.
-
+    Paleta de unidades disponibles, con respectivas sus propiedades.
 }
 \begin{minted}{yaml}
 unidades: 
   base: &base 
+    transportar: 72 
     registracion: [ 
       -12, -10, -8, -7, -5, -3, -1,
         0,   2,  4,  5,  7,  9, 11,
        12,  14, 15, 17, 19, 21, 23,
        24
     ]
-    alturas: [ 1 ] 
-    transportar: 72 
-    duraciones: [ 1.5 ]
-    BPMs: [ 60 ]
     metro: 3/4
-    dinamicas: [ 1 ]
-    canal: 0
+    duraciones: [ 1.5 ]
   espera:
     <<: *base
     dinamicas: [ 0 ] 

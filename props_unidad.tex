@@ -5,6 +5,62 @@
 \begin{itemize}
 
   \vbox{
+  \item [\texttt{afinacionBanco}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Afinación banco MIDI
+}
+\begin{minted}{yaml}
+afinacionBanco: 
+  banco: 0
+  ordenar: false
+
+\end{minted}
+  \vbox{
+  \item [\texttt{afinacionNota}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Afinación  de nota MIDI 
+}
+\begin{minted}{yaml}
+afinacionNota: 
+  afinaciones: [ [ 69, 50 ], [ 79, 60 ] ]
+  canalSysEx: 127
+  tiempoReal: true
+  programa: 0
+
+\end{minted}
+  \vbox{
+  \item [\texttt{afinacionPrograma}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Afinacion Programa MIDI
+}
+\begin{minted}{yaml}
+afinacionPrograma: 
+  programa: 0
+  ordenar: false
+
+\end{minted}
+  \vbox{
   \item [\texttt{alteraciones}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(número entero)}
@@ -92,6 +148,28 @@ El número 0 indica que se trata de una escala mayor, mientras que el 1 represen
 modo: 1 # menor
 \end{minted}
   \vbox{
+  \item [\texttt{NRPN}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Realizar llamada a parámetro numerado no registrado.
+}
+\begin{minted}{yaml}
+NRPN: 
+  control_msb: 0
+  control_lsb: 32
+  data_msb: 2 
+  data_lsb: 9
+  ordenar: True
+  
+
+\end{minted}
+  \vbox{
   \item [\texttt{registracion}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(lista de enteros)}
@@ -132,6 +210,45 @@ Esta propiedad no es transferible, no se sucede
 reiterar: 3
 \end{minted}
   \vbox{
+  \item [\texttt{RPN}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Realizar llamada a parámetro numerado registrado.
+}
+\begin{minted}{yaml}
+RPN: 
+  control_msb: 0
+  control_lsb: 32
+  data_msb: 2 
+  data_lsb: 9
+  ordenar: True
+
+\end{minted}
+  \vbox{
+  \item [\texttt{sysEx}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Agregar un evento de sistema exclusivo.
+}
+\begin{minted}{yaml}
+sysEx: 
+  fabricante: 0
+  playload:  !!binary ''
+
+\end{minted}
+  \vbox{
   \item [\texttt{transponer}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(número entero)}
@@ -163,6 +280,27 @@ transponer: 3
 }
 \begin{minted}{yaml}
 transportar: 60 # C
+\end{minted}
+  \vbox{
+  \item [\texttt{uniSysEx}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    Agregar un evento de sistema exclusivo universal.
+}
+\begin{minted}{yaml}
+uniSysEx: 
+  codigo: 0
+  subCodigo: 0
+  playload:  ''
+  canal: 14
+  tiempoReal: False
+
 \end{minted}
 
 \end{itemize}

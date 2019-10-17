@@ -33,7 +33,7 @@ for p in propiedades:
     Loader = yaml.FullLoader
   ) 
   ordenado = {};
-  for k in sorted(prop):
+  for k in sorted(prop, key=str.lower):
     ordenado[k] = prop[k]
   with open( p + '.tex', "w" ) as tex:
     tex.write( template.render( PROPS = ordenado ) )
