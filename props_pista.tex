@@ -5,45 +5,6 @@
 \begin{itemize}
 
   \vbox{
-  \item [\texttt{complementos}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(cadena de caracteres)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{None}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Ubicación de modulo con métodos de usuario.
-}
-\begin{minted}{yaml}
-complementos: 'enchufes.py'
-
-\end{minted}
-  \vbox{
-  \item [\texttt{forma}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(lista de cadenas de caracteres)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{[ None ]}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Macro estructura de la pista.
-Lista de unidades a ser secuenciadas.
-Cada elemento corresponde a un miembro de la paleta de unidades.
-
-}
-\begin{minted}{yaml}
-forma: [
-  'espera',
-  'estrofa',
-  'estribo',
-]
-
-\end{minted}
-  \vbox{
   \item [\texttt{nombre}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(cadena de caracteres)}
@@ -53,7 +14,7 @@ forma: [
       default: \texttt{<empty>}
     \end{minipage}
     \vskip.2\baselineskip
-    Titulo de la pista
+    \small{ Titulo de la pista. }
 }
 \begin{minted}{yaml}
 nombre: 'Feliz Cumpleaños'
@@ -69,60 +30,61 @@ nombre: 'Feliz Cumpleaños'
       default: \texttt{[ None ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Paleta de unidades disponibles, con respectivas sus propiedades.
+    \small{ Paleta de unidades disponibles (con sus propiedades respectivas) para ser invocadas en \texttt{forma}. }
 }
 \begin{minted}{yaml}
 unidades: 
   base: &base 
     transportar: 72 
-    registracion: [ 
-      -12, -10, -8, -7, -5, -3, -1,
-        0,   2,  4,  5,  7,  9, 11,
-       12,  14, 15, 17, 19, 21, 23,
-       24
-    ]
+    registracion: [ 0, 2, 4, 5, 7, 9, 11, 12 ]
     metro: 3/4
-    duraciones: [ 1.5 ]
-  espera:
-    <<: *base
-    dinamicas: [ 0 ] 
-    duraciones: [ 2 ]
   a: &a 
     <<: *base
     alturas: [ 5, 5, 6, 5 ] 
     duraciones: [ .75, .25, 1, 1 ]
-    letras: [ 'Que', 'los', 'cum', 'plas,' ]
   b: &b 
     <<: *base
     alturas: [ 8, 7 ] 
     duraciones: [ 1, 2 ]
-    letras: [ 'fe', 'liz.' ]
-  b`: 
-    <<: *b
-    transponer: 1
-  a`: 
-    <<: *a
-    alturas: [ 5, 5, 12, 10 ] 
-  a``: 
-    <<: *a
-    alturas: [ 8, 8, 7, 6 ] 
-    letras: [ 'que', 'los', 'cum', 'plas,' ]
-  a```: 
-    <<: *a
-    alturas: [ 11, 11, 10, 8 ] 
-    letras: [ 'que', 'los', 'cum', 'plas,' ]
-  A: 
+  motivoA: 
     forma: [ 'a', 'b' ] 
-  A`: 
-    forma: [ 'a' , 'b`' ]
-  B: 
-    forma: [ 'a`', 'a``' ] 
-  A``: 
-    forma: [ 'a```', 'b`' ] 
-  estrofa: 
-    forma: [ 'A', 'A`' ]
-  estribo: 
-    forma: [ 'B', 'A``' ]
+  motivoB: 
+    forma: [ 'b', 'b' ] 
+
+\end{minted}
+  \vbox{
+  \item [\texttt{forma}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de cadenas de caracteres)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{[ None ]}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Macro estructura de la pista.
+Lista de unidades a ser secuenciadas,
+cada elemento corresponde a un miembro de la paleta de \texttt{unidades}.
+ }
+}
+\begin{minted}{yaml}
+forma: [ 'motivoA', 'motivoB' ]
+
+\end{minted}
+  \vbox{
+  \item [\texttt{complementos}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(cadena de caracteres)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Ubicación de módulo con métodos de usuario. }
+}
+\begin{minted}{yaml}
+complementos: 'enchufes.py'
 
 \end{minted}
 

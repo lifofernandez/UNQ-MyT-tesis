@@ -853,11 +853,14 @@ El autor escusa implementar selectivamente algunos de los aspectos más útiles 
 comunes de la especificación MIDI, argumentando tratarse de un gran documento
 en expansión a lo largo de décadas. A pesar de ser incompleta, las propiedades
 cubiertas fueron suficientes para este proyecto y sirvió como marco
-el objetivo de dar soporte a todo aspecto comprendido por la librería.
+el objetivo de dar soporte a todo aspecto comprendido por la librería[^ver_midiutil2].
 
 % interface, helper, andamiaje
 % Nota: En la referencia de clases de la librería hay una lista de todas
 % https://midiutil.readthedocs.io/en/1.2.1/class.html
+
+[^ver_midiutil2]: @midiutil para mayor información consultar documentación de
+  la librería.
 
 #### Otras herramientas
 \nopagebreak[4]
@@ -925,7 +928,7 @@ un siguiente domino, definen cualidades particulares a cada unidad
 musical[^ver_grela].
 
 De la lista dispuesta en el próximo apartado, en cuestiones constitutivas se
-destaca el término \texttt{forma}. Este indica la organización de unidades y
+destaca el término \texttt{forma}[^ver_mono]. Este indica la organización de unidades y
 recibe el mismo tratamiento a nivel macro que a nivel micro, en ambos casos
 \texttt{forma} representa una lista ordenada de elementos declarados
 disponibles en la paleta de \texttt{unidades}.
@@ -945,22 +948,24 @@ sobrescribe propiedades de los referidos.
 
 [^ver_grela]: @grela Se adopta la terminología _unidad_ para referir 
   elementos musicales y _grado_ para denotar el alcance de dicho agrupamiento.
+
 [^ver_pope]: @pope Designing Musical Notations, Sequences And Trees.
+
+[^ver_mono]: Se utiliza fuente tipográfica \texttt{monoespaciada} para resaltar
+  el vocabulario propio de este proyecto.
 
 ### Léxico
 \nopagebreak[4]
 
-A modo de glosario, se describe el léxico acuñado aprovechando la distinción
+A modo de referencia, se describe el léxico acuñado aprovechando la distinción
 expuesta anteriormente entre propiedades generales a la pista y particulares a
 las unidades.
 
-Para detallar como opera cada término en cada en caso evitando redundancias, se
+Para detallar como opera cada término evitando redundancias, se
 organiza la información repitiendo la misma estructura para cada uno de ellos.
-Se presentan en linea el término que identifica, el tipo de dato que se espera,
+Se presentan en linea: el término que identifica la propiedad, el tipo de dato que se espera,
 el valor asignado por defecto, luego una breve descripción y por ultimo un
 ejemplo.
-
-% \newpage
 
 #### Propiedades de Pista 
 \nopagebreak[4]
@@ -968,32 +973,34 @@ ejemplo.
 Los parámetros generales de cada pista son cuatro:
 El \texttt{nombre} de la pista
 define el rotulo soportado por el estándar MIDI que
-identifica este estrato en la pieza,
+identifica dicha parte en la pieza,
 la paleta de \texttt{unidades} disponibles,
 la \texttt{forma} indica la secuencia de unidades de primer grado
 y los \texttt{complementos} de usuario.  
 
-\input{props_pista.tex}
+\input{ props_pista.tex }
 
 #### Propiedades de Unidad
 \nopagebreak[4]
-En el diccionario de unidades de la pista,
-cada entrada representa una unidad disponible
+
+En el diccionario de unidades de la pista
+cada entrada representa una unidad disponible,
 que a su vez aloja sus cualidades.
 Esta es la lista de términos aceptados como propiedades
-para cada constituyente.
+de cada constituyente.
 
-\input{props_unidad.tex}
+\input{ props_unidad.tex }
 
 ##### Articulaciones
 \nopagebreak[4]
 
-Si bien no se distingue otra jerarquía, las siguientes propiedades actúan a
-nivel de articulación, se subscriben a unidades pero en vez de modificar al
-segmento como conjunto, resultan en un valor por cada articulación.  
+Si bien estructuralmente no se distingue otra jerarquía, las siguientes
+propiedades actúan a nivel de articulación, se subscriben a unidades pero en
+vez de modificar al segmento como conjunto, resultan en un valor por cada
+articulación.  
 
 Comparten la cualidad de esperar listas de valores y el proceso combinatorio al
-que se someten es similar al empleado en la técnica compositiva del motete
+cual son sujetas es similar al empleado en la técnica compositiva del motete
 isorrítmico[^ver_variego], difiriendo en que el procedimiento no se limita a
 duraciones y alturas, abarca otras propiedades.
 
@@ -1007,7 +1014,7 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 
 % allen [^ver_allen]
 
-\input{props_articulaciones.tex}
+\input{ props_articulaciones.tex }
 
 [^ver_variego]:@variego 
 
@@ -1015,26 +1022,34 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 ## Implementación
 \nopagebreak[4]
 
-Introduccion a la subseccion
+Estructura de aplicación
 
-Aplicación y entorno de secuenciación
+main rutine:
+Despues de leer arOchivos YAML desde argumentos posicionales 
+y analizados sintacticamente
+son pasadas al modulo "secuencia"
 
-Lee archivos YAML como argumentos posicionales 
-crea "pistas" a partir de ellos
+* Secuencia
 
-SECUENCIA
- recibe todos las deiniciones
- 
- PISTA
-  COMPLEMENTOS
- 
- ELEMENTO
-  SECCIÓN (sin articulaciones)
-  SEGMENTO (con articulaciones)
- 
- ARTICULACIÓN
+    Recibe definiciones como _objetos_ del entorno
+    después de ser analizados sintácticamente
+    genera un objeto del clase  "pistas" por cada uno de ellos
 
-EVENTOS
+    * Pista
+
+      * Elemento
+
+      * Sección (sin articulaciones)
+
+      * Segmento (con articulaciones)
+
+        * Articulación
+
+   * Complementos
+
+   después de que procesar las pistas
+   combina en una sola secuencia de todos los eventos resultantes 
+   para pasar al codificador
 
 esplicar estructura
 pista como flujo de eventos agrupados en segmentos agrupados en secciones

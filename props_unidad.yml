@@ -189,7 +189,7 @@ uniSysEx:
     uniSysEx: 
       codigo: 0
       subCodigo: 0
-      playload:  ''
+      playload:  !!binary ''
       canal: 14
       tiempoReal: False
 

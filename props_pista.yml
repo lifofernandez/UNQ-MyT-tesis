@@ -1,81 +1,47 @@
 nombre:
    tipo: 'cadena de caracteres'
    defacto: '<empty>'
-   descripcion: 'Titulo de la pista'
+   descripcion: 'Titulo de la pista.'
    ejemplo: |
      nombre: 'Feliz Cumpleaños'
-complementos:
-   tipo: 'cadena de caracteres'
-   defacto: 'None'
-   descripcion: 'Ubicación de modulo con métodos de usuario.'
-   ejemplo: |
-     complementos: 'enchufes.py'
+
+
+unidades:
+   tipo: 'diccionario'
+   defacto: '[ None ]'
+   descripcion: 'Paleta de unidades disponibles (con sus propiedades respectivas) para ser invocadas en \texttt{forma}.'
+   ejemplo: | 
+     unidades: 
+       base: &base 
+         transportar: 72 
+         registracion: [ 0, 2, 4, 5, 7, 9, 11, 12 ]
+         metro: 3/4
+       a: &a 
+         <<: *base
+         alturas: [ 5, 5, 6, 5 ] 
+         duraciones: [ .75, .25, 1, 1 ]
+       b: &b 
+         <<: *base
+         alturas: [ 8, 7 ] 
+         duraciones: [ 1, 2 ]
+       motivoA: 
+         forma: [ 'a', 'b' ] 
+       motivoB: 
+         forma: [ 'b', 'b' ] 
+
 forma:
    tipo: 'lista de cadenas de caracteres'
    defacto: '[ None ]'
    descripcion: |
      Macro estructura de la pista.
-     Lista de unidades a ser secuenciadas.
-     Cada elemento corresponde a un miembro de la paleta de unidades.
+     Lista de unidades a ser secuenciadas,
+     cada elemento corresponde a un miembro de la paleta de \texttt{unidades}.
    ejemplo: | 
-     forma: [
-       'espera',
-       'estrofa',
-       'estribo',
-     ]
-unidades:
-   tipo: 'diccionario'
-   defacto: '[ None ]'
-   descripcion: 'Paleta de unidades disponibles, con respectivas sus propiedades.'
-   ejemplo: | 
-     unidades: 
-       base: &base 
-         transportar: 72 
-         registracion: [ 
-           -12, -10, -8, -7, -5, -3, -1,
-             0,   2,  4,  5,  7,  9, 11,
-            12,  14, 15, 17, 19, 21, 23,
-            24
-         ]
-         metro: 3/4
-         duraciones: [ 1.5 ]
-       espera:
-         <<: *base
-         dinamicas: [ 0 ] 
-         duraciones: [ 2 ]
-       a: &a 
-         <<: *base
-         alturas: [ 5, 5, 6, 5 ] 
-         duraciones: [ .75, .25, 1, 1 ]
-         letras: [ 'Que', 'los', 'cum', 'plas,' ]
-       b: &b 
-         <<: *base
-         alturas: [ 8, 7 ] 
-         duraciones: [ 1, 2 ]
-         letras: [ 'fe', 'liz.' ]
-       b`: 
-         <<: *b
-         transponer: 1
-       a`: 
-         <<: *a
-         alturas: [ 5, 5, 12, 10 ] 
-       a``: 
-         <<: *a
-         alturas: [ 8, 8, 7, 6 ] 
-         letras: [ 'que', 'los', 'cum', 'plas,' ]
-       a```: 
-         <<: *a
-         alturas: [ 11, 11, 10, 8 ] 
-         letras: [ 'que', 'los', 'cum', 'plas,' ]
-       A: 
-         forma: [ 'a', 'b' ] 
-       A`: 
-         forma: [ 'a' , 'b`' ]
-       B: 
-         forma: [ 'a`', 'a``' ] 
-       A``: 
-         forma: [ 'a```', 'b`' ] 
-       estrofa: 
-         forma: [ 'A', 'A`' ]
-       estribo: 
-         forma: [ 'B', 'A``' ]
+     forma: [ 'motivoA', 'motivoB' ]
+
+complementos:
+   tipo: 'cadena de caracteres'
+   defacto: 'None'
+   descripcion: 'Ubicación de módulo con métodos de usuario.'
+   ejemplo: |
+     complementos: 'enchufes.py'

@@ -5,22 +5,164 @@
 \begin{itemize}
 
   \vbox{
-  \item [\texttt{afinacionBanco}] 
+  \item [\texttt{forma}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(diccionario)}
+	    \textsf{(lista de cadenas de caracteres)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{None}
+      default: \texttt{[ None ]}
     \end{minipage}
     \vskip.2\baselineskip
-    Afinación banco MIDI
+    \small{ Estructura de la unidad.
+Lista de unidades referidas a ser secuenciadas.
+
+Cada elemento corresponde a un miembro de la paleta de unidades.
+ }
 }
 \begin{minted}{yaml}
-afinacionBanco: 
-  banco: 0
-  ordenar: false
+forma: ['A', 'B']
+\end{minted}
+  \vbox{
+  \item [\texttt{alteraciones}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Cantidad de alteraciones en la armadura de clave.
 
+Números positivos representan sostenidos y
+números negativos indican la cantidad bemoles.
+% (referir midi util doc, key signature)
+ }
+}
+\begin{minted}{yaml}
+alteraciones: -2 # Bb
+\end{minted}
+  \vbox{
+  \item [\texttt{modo}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Modo de la escala.
+
+El número 0 indica que se trata de una escala mayor, mientras que el 1 representa tonalidad menor.
+ }
+}
+\begin{minted}{yaml}
+modo: 1 # menor
+\end{minted}
+  \vbox{
+  \item [\texttt{registracion}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(lista de enteros)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{[ 1 ]}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Conjunto de intervalos a ser indexados por el puntero de \texttt{alturas}. }
+}
+\begin{minted}{yaml}
+registracion: [ 
+  -12,-10, -9, -7, -5, -3, -2,
+    0,  2,  3,  5,  7,  9, 10,
+   12, 14, 15, 17, 19, 21, 22,
+   24
+]
+
+\end{minted}
+  \vbox{
+  \item [\texttt{transportar}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Ajuste de alturas en semitonos }
+}
+\begin{minted}{yaml}
+transportar: 60 # C
+\end{minted}
+  \vbox{
+  \item [\texttt{transponer}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{0}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Transponer puntero de intervalo.
+
+Ajuste de alturas, pero dentro de la \texttt{registracion} fija.
+ }
+}
+\begin{minted}{yaml}
+transponer: 3
+\end{minted}
+  \vbox{
+  \item [\texttt{metro}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(cadena de caracteres)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{4/4}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Clave de compás. }
+}
+\begin{minted}{yaml}
+metro: 4/4
+\end{minted}
+  \vbox{
+  \item [\texttt{reiterar}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{1}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Repeticiones, cantidad de veces q se toca esta unidad. 
+
+Esta propiedad no es transferible, no se sucede
+(de lo contrario se reiteraran los referidos).
+ }
+}
+\begin{minted}{yaml}
+reiterar: 3
+\end{minted}
+  \vbox{
+  \item [\texttt{canal}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(número entero)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{1}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Número de Canal. }
+}
+\begin{minted}{yaml}
+canal: 3
 \end{minted}
   \vbox{
   \item [\texttt{afinacionNota}] 
@@ -32,7 +174,7 @@ afinacionBanco:
       default: \texttt{None}
     \end{minipage}
     \vskip.2\baselineskip
-    Afinación  de nota MIDI 
+    \small{ Afinación  de nota. }
 }
 \begin{minted}{yaml}
 afinacionNota: 
@@ -40,6 +182,24 @@ afinacionNota:
   canalSysEx: 127
   tiempoReal: true
   programa: 0
+
+\end{minted}
+  \vbox{
+  \item [\texttt{afinacionBanco}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ Afinación banco. }
+}
+\begin{minted}{yaml}
+afinacionBanco: 
+  banco: 0
+  ordenar: false
 
 \end{minted}
   \vbox{
@@ -52,7 +212,7 @@ afinacionNota:
       default: \texttt{None}
     \end{minipage}
     \vskip.2\baselineskip
-    Afinacion Programa MIDI
+    \small{ Afinacion Programa. }
 }
 \begin{minted}{yaml}
 afinacionPrograma: 
@@ -61,91 +221,25 @@ afinacionPrograma:
 
 \end{minted}
   \vbox{
-  \item [\texttt{alteraciones}] 
+  \item [\texttt{RPN}] 
     \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
+	    \textsf{(diccionario)}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{0}
+      default: \texttt{None}
     \end{minipage}
     \vskip.2\baselineskip
-    Cantidad de alteraciones en la armadura de clave.
-
-Números positivos representan sostenidos y
-números negativos indican la cantidad bemoles.
-% (referir midi util doc, key signature)
-
+    \small{ Realizar llamada a parámetro numerado registrado. }
 }
 \begin{minted}{yaml}
-alteraciones: -2 # Bb
-\end{minted}
-  \vbox{
-  \item [\texttt{canal}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{1}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Número de Canal MIDI.
-}
-\begin{minted}{yaml}
-canal: 3
-\end{minted}
-  \vbox{
-  \item [\texttt{forma}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(lista de cadenas de caracteres)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{[ None ]}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Estructura de la unidad.
-Lista de unidades referidas a ser secuenciadas.
+RPN: 
+  control_msb: 0
+  control_lsb: 32
+  data_msb: 2 
+  data_lsb: 9
+  ordenar: True
 
-Cada elemento corresponde a un miembro de la paleta de unidades.
-
-}
-\begin{minted}{yaml}
-forma: ['A', 'B']
-\end{minted}
-  \vbox{
-  \item [\texttt{metro}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(cadena de caracteres)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{4/4}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Clave de compás.
-}
-\begin{minted}{yaml}
-metro: 4/4
-\end{minted}
-  \vbox{
-  \item [\texttt{modo}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{0}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Modo de la escala.
-
-El número 0 indica que se trata de una escala mayor, mientras que el 1 representa tonalidad menor.
-
-}
-\begin{minted}{yaml}
-modo: 1 # menor
 \end{minted}
   \vbox{
   \item [\texttt{NRPN}] 
@@ -157,7 +251,7 @@ modo: 1 # menor
       default: \texttt{None}
     \end{minipage}
     \vskip.2\baselineskip
-    Realizar llamada a parámetro numerado no registrado.
+    \small{ Realizar llamada a parámetro numerado no registrado. }
 }
 \begin{minted}{yaml}
 NRPN: 
@@ -170,67 +264,6 @@ NRPN:
 
 \end{minted}
   \vbox{
-  \item [\texttt{registracion}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(lista de enteros)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{[ 1 ]}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Conjunto de intervalos a ser indexados por el puntero de \texttt{alturas}.
-}
-\begin{minted}{yaml}
-registracion: [ 
-  -12,-10, -9, -7, -5, -3, -2,
-    0,  2,  3,  5,  7,  9, 10,
-   12, 14, 15, 17, 19, 21, 22,
-   24
-]
-
-\end{minted}
-  \vbox{
-  \item [\texttt{reiterar}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{1}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Repeticiones, cantidad de veces q se toca esta unidad. 
-
-Esta propiedad no es transferible, no se sucede
-(de lo contrario se reiteraran los referidos).
-
-}
-\begin{minted}{yaml}
-reiterar: 3
-\end{minted}
-  \vbox{
-  \item [\texttt{RPN}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(diccionario)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{None}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Realizar llamada a parámetro numerado registrado.
-}
-\begin{minted}{yaml}
-RPN: 
-  control_msb: 0
-  control_lsb: 32
-  data_msb: 2 
-  data_lsb: 9
-  ordenar: True
-
-\end{minted}
-  \vbox{
   \item [\texttt{sysEx}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(diccionario)}
@@ -240,46 +273,13 @@ RPN:
       default: \texttt{None}
     \end{minipage}
     \vskip.2\baselineskip
-    Agregar un evento de sistema exclusivo.
+    \small{ Agregar un evento de sistema exclusivo. }
 }
 \begin{minted}{yaml}
 sysEx: 
   fabricante: 0
   playload:  !!binary ''
 
-\end{minted}
-  \vbox{
-  \item [\texttt{transponer}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{0}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Transponer puntero de intervalo.
-
-Ajuste de alturas, pero dentro de la \texttt{registracion} fija.
-
-}
-\begin{minted}{yaml}
-transponer: 3
-\end{minted}
-  \vbox{
-  \item [\texttt{transportar}] 
-    \begin{minipage}[t]{6cm}\flushleft
-	    \textsf{(número entero)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{6cm}\flushright
-      default: \texttt{0}
-    \end{minipage}
-    \vskip.2\baselineskip
-    Ajuste de alturas en semitonos
-}
-\begin{minted}{yaml}
-transportar: 60 # C
 \end{minted}
   \vbox{
   \item [\texttt{uniSysEx}] 
@@ -291,13 +291,13 @@ transportar: 60 # C
       default: \texttt{None}
     \end{minipage}
     \vskip.2\baselineskip
-    Agregar un evento de sistema exclusivo universal.
+    \small{ Agregar un evento de sistema exclusivo universal. }
 }
 \begin{minted}{yaml}
 uniSysEx: 
   codigo: 0
   subCodigo: 0
-  playload:  ''
+  playload:  !!binary ''
   canal: 14
   tiempoReal: False
 
