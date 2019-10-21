@@ -640,7 +640,7 @@ y algunas consideraciones acerca de el léxico acuñado.
 \nopagebreak[4]
 \label{sec:sintaxis}
 
-Las definiciones de canal son regidas por YAML. Si bien el vocabulario
+Las definiciones de pista son regidas por YAML. Si bien el vocabulario
 aceptado es propio de este proyecto, todas las interpretaciones son gestionadas
 por dicho lenguaje. Se reseñan los principales indicadores reservados y
 estructuras básicas.
@@ -901,32 +901,67 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 
 Estructura de aplicación
 
-main rutine:
-Despues de leer arOchivos YAML desde argumentos posicionales 
+se describe las acciones principales de cada 
+nivel/estrato/parte/abstraccion/
+del la aplicacion
+
+En la rutina principal:
+Después de leer archivos YAML desde argumentos posicionales 
 y analizados sintacticamente
-son pasadas al modulo "secuencia"
+pasa al modulo "secuencia"
 
 * Secuencia
 
-    Recibe definiciones como _objetos_ del entorno
-    después de ser analizados sintácticamente
-    genera un objeto del clase  "pistas" por cada uno de ellos
+    Recibe definiciones como como _objetos_ de entorno
+    Pasa cada nodo por el constructor de la clase 
+    Crea un objeto clase "pistas" por cada nodo YAML
 
     * Pista
 
+      primero asigna propiedades a 
+        a partir de las keys and values 
+
+      la accion principal de este clase es recorrer la macro estructura
+      itrando recursivamente, discriminando entre elementos
+      que refiere a otros (seccion) 
+      y los  no refieren a ningun otro elemento (segmento)
+
+      al mismo tiempo que gestiona la suceccion de propiedades entre referente y referidos
+      
       * Elemento
+
+          La unica justificacion de esta metaclase
+          ademas de evitar redundancias es
+          habilitar una capa superior de conteo y agrupaminto de secciones y segmentos
+          for verbose output
 
       * Sección (sin articulaciones)
 
+          Esta instancia es un fragmento musical sin articulaciones per se 
+          Directamente vinculadas a ella
+          Es un grupo de otras secciones y/o segmentos, pero no articulaciones
+
       * Segmento (con articulaciones)
+          
+          En contra partida, esta constructor representa grupo de articulaciones
 
-        * Articulación
+          * Articulación
+	    estos son notas musicales, el resultado de los mecanismos entre propiedades
 
-   * Complementos
+
+      * Complementos
+	estos son complementos de usuario
+        
 
    después de que procesar las pistas
-   combina en una sola secuencia de todos los eventos resultantes 
-   para pasar al codificador
+   toma cada pista 
+   combina en una sola secuencia de metodos
+     todos los segmentos y articulaciones 
+     (no son eventos midi todavia, son metodos de la libreria midi util)
+
+de vuelta en la rutina principales, main loop
+convierte esta lista de métodos de la librería
+a eventos eventos midi 
 
 esplicar estructura
 pista como flujo de eventos agrupados en segmentos agrupados en secciones

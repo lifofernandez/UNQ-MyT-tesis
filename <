@@ -1044,37 +1044,22 @@ pasa al modulo "secuencia"
       primero asigna propiedades a 
         a partir de las keys and values 
 
-      la accion principal de este clase es recorrer la macro estructura
-      itrando recursivamente, discriminando entre elementos
+      la accion principa de este clase es recorrer la forma
+      recursivamente, discriminando entre elementos
       que refiere a otros (seccion) 
       y los  no refieren a ningun otro elemento (segmento)
 
-      al mismo tiempo que gestiona la suceccion de propiedades entre referente y referidos
+      al mismo tiempo que gestionar la suceccion de propiedades entre referente y referidos
       
       * Elemento
 
-          La unica justificacion de esta metaclase
-          ademas de evitar redundancias es
-          habilitar una capa superior de conteo y agrupaminto de secciones y segmentos
-          for verbose output
-
       * Sección (sin articulaciones)
 
-          Esta instancia es un fragmento musical sin articulaciones per se 
-          Directamente vinculadas a ella
-          Es un grupo de otras secciones y/o segmentos, pero no articulaciones
-
       * Segmento (con articulaciones)
-          
-          En contra partida, esta constructor representa grupo de articulaciones
 
           * Articulación
-	    estos son notas musicales, el resultado de los mecanismos entre propiedades
-
 
       * Complementos
-	estos son complementos de usuario
-        
 
    después de que procesar las pistas
    toma cada pista 

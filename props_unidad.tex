@@ -302,6 +302,33 @@ uniSysEx:
   tiempoReal: False
 
 \end{minted}
+  \vbox{
+  \item [\texttt{metodo_complementos}] 
+    \begin{minipage}[t]{6cm}\flushleft
+	    \textsf{(diccionario)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{6cm}\flushright
+      default: \texttt{None}
+    \end{minipage}
+    \vskip.2\baselineskip
+    \small{ El procedimiento para invocar métodos declarados como \texttt{complementos} de usuario
+es declarar su nombre respectivo
+y subordinar a este las propiedades que se quieran alterar
+pasando como valores los argumentos que espera esta rutina.
+ }
+}
+\begin{minted}{yaml}
+unidades: 
+  a: 
+    alturas: [ 5, 5, 6, 5 ] 
+    fluctuar: # nombre del método
+      dinamicas: .5 # propiedad : argumentos 
+      duraciones: .3 # propiedad : argumentos 
+    desplazar: # nombre del método 
+      duraciones:  .25 # propiedad : argumentos 
+
+\end{minted}
 
 \end{itemize}
 
