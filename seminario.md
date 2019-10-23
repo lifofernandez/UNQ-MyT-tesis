@@ -1035,58 +1035,78 @@ pasa al modulo "secuencia"
 
 * Secuencia
 
-    Recibe definiciones como como _objetos_ de entorno
+    Recibe definiciones como _objetos_ de entorno
     Pasa cada nodo por el constructor de la clase 
     Crea un objeto clase "pistas" por cada nodo YAML
 
     * Pista
 
-      primero asigna propiedades a 
+        primero
+        asigna propiedades a 
         a partir de las keys and values 
 
-      la accion principal de este clase es recorrer la macro estructura
-      itrando recursivamente, discriminando entre elementos
-      que refiere a otros (seccion) 
-      y los  no refieren a ningun otro elemento (segmento)
+        la accion principal de este clase es recorrer la macro estructura
+        itrando recursivamente,
+        discriminar elementos que refiere a otros (seccion) 
+        y los no refieren a ningun otro elemento (segmento)
 
-      al mismo tiempo que gestiona la suceccion de propiedades entre referente y referidos
-      
-      * Elemento
-
-          La unica justificacion de esta metaclase
-          ademas de evitar redundancias es
-          habilitar una capa superior de conteo y agrupaminto de secciones y segmentos
-          for verbose output
-
-      * Sección (sin articulaciones)
-
-          Esta instancia es un fragmento musical sin articulaciones per se 
-          Directamente vinculadas a ella
-          Es un grupo de otras secciones y/o segmentos, pero no articulaciones
-
-      * Segmento (con articulaciones)
-          
-          En contra partida, esta constructor representa grupo de articulaciones
-
-          * Articulación
-	    estos son notas musicales, el resultado de los mecanismos entre propiedades
-
-
-      * Complementos
-	estos son complementos de usuario
+        al mismo tiempo que gestiona la suceccion de propiedades entre referente y referidos
         
+        * Elemento
 
-   después de que procesar las pistas
+            ademas de evitar redundancias es
+            La unica justificacion de esta metaclase
+            habilitar una capa superior de conteo y agrupaminto de secciones y segmentos
+            para salida detallada 
+
+        * Sección (sin articulaciones)
+
+            Esta instancia es un fragmento musical
+            sin articulaciones directamente vinculadas per se
+            Es un grupo de otras secciones y/o segmentos
+            pero no articulaciones
+
+        * Segmento (con articulaciones)
+            
+            En contra partida,
+            todos los mecanismos que producen grupos de articulaciones
+
+            prepara determinados valores para uso posterior/exterior/diferido
+            alinea secuencialmente patranones dispares
+            de propiedades del tipo lista
+            analiza cambios de valores en realcion a segmentos precedentes
+            gestion de alturas
+            invoca el constructor de articulaciones
+            y pasa el resultado de estas combinaciones como argumentos
+
+            * Articulación
+                esta es la abstraccion de
+                pronunciamientos/acontesimientos musicales
+                per se
+                % producto de los mecanismos 
+                manipula prepara determinados valores para uso posterior/exterior/diferido
+                analiza cambios de valores en realcion a articulaciones precedentes
+
+        * Complementos
+            busca en la ubicacion declarada 
+            el archivo con metodos de usuario
+	    dispone rutinas contenidos en dicho modulo
+            relativo a la pista 
+            habilitandoles como procesos para manipular propiedades 
+          
+   Después de que procesar cada pista
    toma cada pista 
-   combina en una sola secuencia de metodos
-     todos los segmentos y articulaciones 
+   combina en una sola secuencia
+     todos los segmentos y articulaciones resultantes
+     como llamadas a métodos del codificador MIDI
      (no son eventos midi todavia, son metodos de la libreria midi util)
 
-de vuelta en la rutina principales, main loop
-convierte esta lista de métodos de la librería
+De vuelta en la rutina principales, main loop
+convierte esta secuencia de rutinas
+de la librería
 a eventos eventos midi 
 
-esplicar estructura
+explicar estructura
 pista como flujo de eventos agrupados en segmentos agrupados en secciones
 
 ### Diagrama de arquitectura

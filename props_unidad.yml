@@ -193,14 +193,14 @@ uniSysEx:
       canal: 14
       tiempoReal: False
 
-metodo_complementos: 
+metodo-usuario: 
   tipo: 'diccionario'
   defacto: 'None'
   descripcion: |
     El procedimiento para invocar métodos declarados como \texttt{complementos} de usuario
-    es declarar su nombre respectivo
-    y subordinar a este las propiedades que se quieran alterar
-    pasando como valores los argumentos que espera esta rutina.
+    es mediante su respectivo nombre,
+    subordinando a este las propiedades de unidad que se quieran manipular y
+    pasar como valores los argumentos que espera esta rutina.
   ejemplo: |
     unidades: 
       a: 
