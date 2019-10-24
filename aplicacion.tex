@@ -1,0 +1,51 @@
+\begin{tikzpicture}[
+  node distance = 2cm,
+  auto
+]
+
+\tikzstyle{circulo} = [
+	ellipse, 
+	draw, 
+    %fill=red!20, 
+	minimum height=4em,
+	text centered, 
+	node distance=3cm,
+    font=\bfseries
+]
+
+\tikzstyle{block} = [
+	rectangle, 
+	draw, 
+	%fill=blue!20, 
+	text width=7em, 
+	text centered, 
+	minimum height=4em,
+	node distance=3cm,
+]
+
+\tikzstyle{line} = [
+	draw,
+	-latex',
+]
+
+\node [circulo] (yaml) { Definiciones YAML};
+\node [circulo, below of=yaml] (pista) { Pistas };
+\node [block, right of=pista] (secuencia) { Secuencia };
+
+\node [circulo, below of=pista] (unidad) { Unidades };
+\node [block, below of=secuencia] (segmento) { Segmentos};
+\node [block, below of=segmento] (articulacion) { Articulaciones };
+
+\node [circulo, right of=articulacion ] (evento) { Eventos };
+\node [circulo, below of=evento] (midi) { MIDI };
+
+\path [line] (yaml) -- (pista) -- (unidad);
+\path [line] (secuencia) -- (segmento) -- (articulacion);
+\path [line] (evento) -- (midi);
+
+\draw[densely dotted] (pista) -- (secuencia);
+\draw[densely dotted] (unidad) -- (segmento);
+\draw[densely dotted] (articulacion) -- (evento);
+
+\end{tikzpicture}
+     

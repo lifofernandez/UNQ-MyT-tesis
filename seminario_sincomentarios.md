@@ -877,7 +877,7 @@ propiedades actúan a nivel de articulación, se subscriben a unidades pero en
 vez de modificar al segmento como conjunto, resultan en un valor por cada
 articulación.  
 
-Comparten la cualidad de esperar listas de valores y el proceso combinatorio al
+Comparten la cualidad de esperar listas de valores y proceso combinatorio al
 cual son sujetas es similar al empleado en la técnica compositiva del motete
 isorrítmico[^ver_variego], difiriendo en que el procedimiento no se limita a
 duraciones y alturas, abarca otras propiedades.
@@ -905,187 +905,121 @@ se describe las acciones principales de cada
 nivel/estrato/parte/abstraccion/
 del la aplicacion
 
+
+Explicar estructura pista como flujo de eventos agrupados en segmentos
+agrupados en secciones
+
+### Diagrama 
+
+Antes de exponer el método de trabajo consecuente, con intensión de
+presentarlo abarcable y facilitar su comprensión, se gráfica el mismo.
+
+\bigskip
+\bigskip
+\bigskip
+
+\begin{center}
+
+\input{aplicacion}
+
+\end{center}
+
+\newpage
+
+
+### Aplicación
+
+De el nivel de secuencia hasta el de articulación.
+
 En la rutina principal:
 Después de leer archivos YAML desde argumentos posicionales 
 y analizados sintacticamente
 pasa al modulo "secuencia"
-
-* Secuencia
-
-    Recibe definiciones como _objetos_ de entorno
-    Pasa cada nodo por el constructor de la clase 
-    Crea un objeto clase "pistas" por cada nodo YAML
-
-    * Pista
-
-        primero
-        asigna propiedades a 
-        a partir de las keys and values 
-
-        la accion principal de este clase es recorrer la macro estructura
-        itrando recursivamente,
-        discriminar elementos que refiere a otros (seccion) 
-        y los no refieren a ningun otro elemento (segmento)
-
-        al mismo tiempo que gestiona la suceccion de propiedades entre referente y referidos
-        
-        * Elemento
-
-            ademas de evitar redundancias es
-            La unica justificacion de esta metaclase
-            habilitar una capa superior de conteo y agrupaminto de secciones y segmentos
-            para salida detallada 
-
-        * Sección (sin articulaciones)
-
-            Esta instancia es un fragmento musical
-            sin articulaciones directamente vinculadas per se
-            Es un grupo de otras secciones y/o segmentos
-            pero no articulaciones
-
-        * Segmento (con articulaciones)
-            
-            En contra partida,
-            todos los mecanismos que producen grupos de articulaciones
-
-            prepara determinados valores para uso posterior/exterior/diferido
-            alinea secuencialmente patranones dispares
-            de propiedades del tipo lista
-            analiza cambios de valores en realcion a segmentos precedentes
-            gestion de alturas
-            invoca el constructor de articulaciones
-            y pasa el resultado de estas combinaciones como argumentos
-
-            * Articulación
-                esta es la abstraccion de
-                pronunciamientos/acontesimientos musicales
-                per se
-                % producto de los mecanismos 
-                manipula prepara determinados valores para uso posterior/exterior/diferido
-                analiza cambios de valores en realcion a articulaciones precedentes
-
-        * Complementos
-            busca en la ubicacion declarada 
-            el archivo con metodos de usuario
-	    dispone rutinas contenidos en dicho modulo
-            relativo a la pista 
-            habilitandoles como procesos para manipular propiedades 
-          
-   Después de que procesar cada pista
-   toma cada pista 
-   combina en una sola secuencia
-     todos los segmentos y articulaciones resultantes
-     como llamadas a métodos del codificador MIDI
-     (no son eventos midi todavia, son metodos de la libreria midi util)
 
 De vuelta en la rutina principales, main loop
 convierte esta secuencia de rutinas
 de la librería
 a eventos eventos midi 
 
-explicar estructura
-pista como flujo de eventos agrupados en segmentos agrupados en secciones
-
-### Diagrama de arquitectura
-
-\begin{center}
-
-    \begin{tikzpicture}[
-      node distance = 2cm,
-      auto
-    ]
-
-    \tikzstyle{circulo} = [
-    	ellipse, 
-    	draw, 
-        %fill=red!20, 
-    	minimum height=4em,
-    	text centered, 
-    	node distance=3cm,
-	font=\bfseries
-    ]
-
-    \tikzstyle{block} = [
-    	rectangle, 
-    	draw, 
-    	%fill=blue!20, 
-    	text width=7em, 
-    	text centered, 
-    	minimum height=4em,
-    	node distance=3cm,
-    ]
-
-    \tikzstyle{line} = [
-    	draw,
-    	-latex',
-    ]
-
-    \node [circulo] (yaml) { Definiciones YAML};
-    \node [circulo, below of=yaml] (pista) { Pistas };
-    \node [block, right of=pista] (secuencia) { Secuencia };
-
-    \node [circulo, below of=pista] (unidad) { Unidades };
-    \node [block, below of=secuencia] (segmento) { Segmentos};
-    \node [block, below of=segmento] (articulacion) { Articulaciones };
-
-    \node [circulo, right of=articulacion ] (evento) { Eventos };
-    \node [circulo, below of=evento] (midi) { MIDI };
-
-    \path [line] (yaml) -- (pista) -- (unidad);
-    \path [line] (secuencia) -- (segmento) -- (articulacion);
-    \path [line] (evento) -- (midi);
-
-    \draw[densely dotted] (pista) -- (secuencia);
-    \draw[densely dotted] (unidad) -- (segmento);
-    \draw[densely dotted] (articulacion) -- (evento);
-
-    \end{tikzpicture}
-     
-\end{center}
-
-\newpage
-
-
-### Secciones de pricipales del desarrollo
-
-Explicacion de los bloques de codigo mas representativos 
-
 
 #### Modulo "Secuencia" 
-Loop principal que toma unidades previamente analizadas y llena lista de eventos.
 
-##### pista
+Loop principal que toma unidades previamente analizadas y llena lista de
+eventos.
 
-Clase Pista a partir de cada defefinicion de canal (.yml)
+Recibe definiciones como _objetos_ de entorno
+Pasa cada nodo por el constructor de la clase 
+Crea un objeto clase "pistas" por cada nodo 
 
-tienen un nombre
-parametros defaults de unidadad llamados "base"
-tiene una lista de unidades que se llama "macroforma"
-a partir de esta lista de busca en la paleta de unidades 
+Después de que procesar 
+toma cada pista 
+combina en una sola flujo de llamadas
+todos los segmentos y articulaciones resultantes
+como llamadas a métodos del codificador MIDI
+(no son eventos midi todavia, son metodos de la libreria midi util)
 
 
-a su vez cada unidad puede tener una lista de unidades a la que invoca
-arma un arbol de registros con las relaciones entre unidades
-arma una "sucecion" o "herencia" de parametros
 
-repite la unidad (con sus hijas) segun parametro reiteracion
-agrega a los registros
+##### Pista
 
-Si la unidad actual tiene unidades
-	sobrescribe los parametros de la unidad "hija" con los sucesion
-	recursivamene busca hasta encontrar una sin unidades HIJAS
-Si la unidad altual NO tiene unidades
-	finalmente mezcla el resultado con los defaults 
-	la secuencia
-hace secuencia de eventos
-##### secunecia
-##### seccion
-##### elemento
-##### segmento
-##### articulacion
-##### complementos
+primero
+asigna propiedades a 
+a partir de las keys and values 
+
+la accion principal de este clase es recorrer la macro estructura
+itrando recursivamente,
+discriminar elementos que refieren a otros (seccion) 
+de los no refieren a ningun otro elemento (segmento)
+
+al mismo tiempo que gestiona la suceccion de propiedades entre referente
+y referidos
+
+##### Elemento
+
+La unica justificacion de esta metaclase ademas de ahorrar redundancias
+es habilitar una capa superior de conteo y agrupaminto de secciones y
+segmentos para salida detallada 
+
+##### Sección
+
+Esta instancia es un fragmento musical
+sin articulaciones directamente vinculadas per se
+Es un grupo de otras secciones y/o segmentos
+pero no articulaciones
+
+##### Segmento
+
+En contra partida, este constructor
+todos los mecanismos que producen grupos de articulaciones
+
+prepara determinados valores para uso posterior/exterior/diferido
+alinea secuencialmente patranones dispares
+de propiedades del tipo lista
+analiza cambios de valores en realcion a segmentos precedentes
+gestion de alturas
+invoca el constructor de articulaciones
+y pasa el resultado de estas combinaciones como argumentos
+
+##### Articulacion
+
+esta es la abstraccion de
+pronunciamientos musicales
+per se
+manipula prepara determinados valores para uso posterior/exterior/diferido
+analiza cambios de valores en realcion a articulaciones precedentes
+
+##### Complementos
+
+busca en la ubicacion declarada 
+el archivo con metodos de usuario
+dispone rutinas contenidos en dicho modulo
+relativo a la pista 
+habilitandoles como procesos para manipular propiedades 
+
+
 
 ## Demostraciones
+
 Explicación de que ejemplo o demostración se va a discutir en cada sección.
 
 ### Melodia Simple
