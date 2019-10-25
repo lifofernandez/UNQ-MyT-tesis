@@ -895,24 +895,35 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 
 [^ver_variego]:@variego 
 
-
 ## Implementación
 \nopagebreak[4]
 
-Estructura de aplicación
+En esta sección se diagrama el flujo de procesos,
+se describe la estructura de la aplicación 
+detallando las funciones principales de cada componente
+y como están conectados entre ellos.
 
-se describe las acciones principales de cada 
-nivel/estrato/parte/abstraccion/
-del la aplicacion
+El paso inicial
+en la rutina principal:
+es recibir,
+desde argumentos posicionales[^ver_rossum],
+definiciones de pista serialiazadas, 
+analizarlas sintacticamente
+y entregar este producto al modulo "Secuencia"
+que, después de varias manipulaciones,
+genera
+una lista ordenada de llamadas
+a diversas funciones 
+para  operar el codificador
+que finalmente emite
+una secuencia de mensajes MIDI.
 
 
-Explicar estructura pista como flujo de eventos agrupados en segmentos
-agrupados en secciones
-
-### Diagrama 
-
-Antes de exponer el método de trabajo consecuente, con intensión de
-presentarlo abarcable y facilitar su comprensión, se gráfica el mismo.
+Antes de la descripción de cada capa de abstracción,
+se gráfica la cadena de procesos
+con intensión de
+presentarla
+abarcable y facilitar su comprensión.
 
 \bigskip
 \bigskip
@@ -927,67 +938,59 @@ presentarlo abarcable y facilitar su comprensión, se gráfica el mismo.
 \newpage
 
 
-### Aplicación
+Se describen estos mecanismos
+desde el
+nivel de abstracción superior _Secuencia_,
+alcanzando
+la capa mas profunda, 
+comprendida como
+_Articulación_.
 
-De el nivel de secuencia hasta el de articulación.
+[^ver_rossum]: @rossum 10.3: Command Line Arguments
 
-En la rutina principal:
-Después de leer archivos YAML desde argumentos posicionales 
-y analizados sintacticamente
-pasa al modulo "secuencia"
+### Modulo: Secuencia
 
-De vuelta en la rutina principales, main loop
-convierte esta secuencia de rutinas
-de la librería
-a eventos eventos midi 
-
-
-#### Modulo "Secuencia" 
-
-Loop principal que toma unidades previamente analizadas y llena lista de
-eventos.
 
 Recibe definiciones como _objetos_ de entorno
 Pasa cada nodo por el constructor de la clase 
 Crea un objeto clase "pistas" por cada nodo 
 
 Después de que procesar 
-toma cada pista 
-combina en una sola flujo de llamadas
+cada Pista 
+
+Combina en una solo flujo de llamadas
+llamadas a diferentes métodos del codificador MIDI
 todos los segmentos y articulaciones resultantes
-como llamadas a métodos del codificador MIDI
 (no son eventos midi todavia, son metodos de la libreria midi util)
 
-
-
-##### Pista
+#### Pistas
 
 primero
 asigna propiedades a 
 a partir de las keys and values 
 
-la accion principal de este clase es recorrer la macro estructura
-itrando recursivamente,
+la acción principal de este clase es recorrer la macro estructura
+iterar recursivamente,
 discriminar elementos que refieren a otros (seccion) 
 de los no refieren a ningun otro elemento (segmento)
 
 al mismo tiempo que gestiona la suceccion de propiedades entre referente
 y referidos
 
-##### Elemento
+#### Elementos
 
 La unica justificacion de esta metaclase ademas de ahorrar redundancias
 es habilitar una capa superior de conteo y agrupaminto de secciones y
 segmentos para salida detallada 
 
-##### Sección
+#### Secciones
 
 Esta instancia es un fragmento musical
 sin articulaciones directamente vinculadas per se
 Es un grupo de otras secciones y/o segmentos
 pero no articulaciones
 
-##### Segmento
+#### Segmentos
 
 En contra partida, este constructor
 todos los mecanismos que producen grupos de articulaciones
@@ -1000,7 +1003,7 @@ gestion de alturas
 invoca el constructor de articulaciones
 y pasa el resultado de estas combinaciones como argumentos
 
-##### Articulacion
+#### Articulaciones
 
 esta es la abstraccion de
 pronunciamientos musicales
@@ -1008,7 +1011,7 @@ per se
 manipula prepara determinados valores para uso posterior/exterior/diferido
 analiza cambios de valores en realcion a articulaciones precedentes
 
-##### Complementos
+#### Complementos
 
 busca en la ubicacion declarada 
 el archivo con metodos de usuario
