@@ -22,8 +22,6 @@
   # estructurada como árbol de análisis
   # para interfaz de linea de comandos
 ---
-\newpage
-
 
 # Resumen 
 \nopagebreak[4]
@@ -67,8 +65,6 @@ de los módulos desarrollados para la implementación.
 
 [^ver_combs]: @coombs 
 [^ver_interprete]: @interprete
-
-\newpage
 
 
 # Introducción
@@ -529,7 +525,6 @@ Si bien la recopilación expuesta no agota la lista de referentes
 pertinentes y surgirán otros que cobraran relevancia,
 provee un criterio para proceder.
 
-\newpage
 # Metodología
 \nopagebreak[4]
 
@@ -546,7 +541,7 @@ otras periféricas vinculadas a la tarea accesoria.
 ## Preliminares 
 \nopagebreak[4]
 
-Se explican las experiencias tempranas necesarias para evidenciar y
+Se explican experiencias tempranas necesarias para evidenciar y
 comprobar que la hipótesis formulada fuese al menos abarcable y
 fundamentar los pasos siguientes.
 
@@ -571,7 +566,7 @@ valores, se basa en el formato YAML [^ver_yaml].  Luego de considerar este
 estándar y enfrentarlo con alternativas, se concluye que cumple con las
 condiciones y que es idóneo para la actividad.
 
-Multiples implementaciones del mismo en la mayoría de los entornos
+Implementaciones del mismo en la mayoría de los entornos
 vigentes[^ver_matrix], aseguran la independencia de la información serializada
 en este sistema.
 Se le adjudica alta legibilidad[^ver_noyaml].
@@ -599,6 +594,7 @@ a mayor adopción en la producción académica.
 
 ## Desarrollo
 \nopagebreak[4]
+
 En las actividades posteriores a las comprobaciones, aunque influenciados entre
 si, se pueden distinguir dos agrupamientos:
 
@@ -771,14 +767,13 @@ repositorio](https://github.com/lifofernandez/testesis) se puede _clonar_ el
 desarrollo, junto con las instrucciones para su instalación y uso.
 
 Pese a que se comprenden estos temas en el dominio de usuario,
-no podemos dejar de reconocer y recomendar el empleo de las mismas.
+se reconoce la ventaja y se sugiere el empleo de este tipo de herramientas.
 
 [^ver_texto]: @moolenaar
 [^ver_vim]: @oualline
 [^ver_git]: @torvalds
 
 
-\newpage
 # Resultados
 \nopagebreak[4]
 
@@ -898,72 +893,57 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 ## Implementación
 \nopagebreak[4]
 
-En esta sección se diagrama el flujo de procesos,
-se describe la estructura de la aplicación 
-detallando las funciones principales de cada componente
-y como están conectados entre ellos.
+En esta apartado se diagrama el flujo de procesos, se expone la estructura de
+la aplicación, detallando las funciones principales de cada componente y como
+están conectados entre ellos.
 
-El paso inicial
-en la rutina principal:
-es recibir,
-desde argumentos posicionales[^ver_rossum],
-definiciones de pista serialiazadas, 
-analizarlas sintacticamente
-y entregar este producto al modulo "Secuencia"
-que, después de varias manipulaciones,
-genera
-una lista ordenada de llamadas
-a diversas funciones 
-para  operar el codificador
-que finalmente emite
-una secuencia de mensajes MIDI.
+Antes de la descripción de cada capa de abstracción, se gráfica la cadena de
+procesos con intensión de presentarla abarcable y facilitar su comprensión.
 
-
-Antes de la descripción de cada capa de abstracción,
-se gráfica la cadena de procesos
-con intensión de
-presentarla
-abarcable y facilitar su comprensión.
-
-\bigskip
-\bigskip
-\bigskip
 
 \begin{center}
-
 \input{aplicacion}
-
 \end{center}
 
-\newpage
+La rutina principal comienza leyendo, desde argumentos
+posicionales, definiciones de pista. Después de analizadas
+sintacticamente se entregan como diccionarios reunidos en un
+lista al modulo _Secuencia_ [^ver_rossum].
 
+Después de manipulaciones internas, dicho modulo produce una lista ordenada de
+llamadas a diversas funciones que operan el codificador, el cual concluye el
+programa emitiendo una secuencia de mensajes MIDI.
 
-Se describen estos mecanismos
-desde el
-nivel de abstracción superior _Secuencia_,
-alcanzando
-la capa mas profunda, 
-comprendida como
-_Articulación_.
+[^ver_rossum]: @rossum 10.3: Command Line Arguments, 5.5: Dictionaries,
+  3.1.3: Lists, 9: Classes.
 
-[^ver_rossum]: @rossum 10.3: Command Line Arguments
+A continuación se expone el trazado de mecanismos internos, desde el nivel de
+abstracción superior _Secuencia_, alcanzando la capa _Articulación_ comprendida
+como la mas profunda.
 
-### Modulo: Secuencia
+### Módulo: Secuencia
 
+Recibe un lista,
+en el cual cada entrada 
+corresponde una definición de parte.
 
-Recibe definiciones como _objetos_ de entorno
-Pasa cada nodo por el constructor de la clase 
-Crea un objeto clase "pistas" por cada nodo 
+Por cada nodo por el constructor
+de la clase
+"pistas"
 
 Después de que procesar 
+Obtenineod un boje
 cada Pista 
 
-Combina en una solo flujo de llamadas
-llamadas a diferentes métodos del codificador MIDI
+Combina 
 todos los segmentos y articulaciones resultantes
-(no son eventos midi todavia, son metodos de la libreria midi util)
+n una solo flujo de llamadas
+llamadas a diferentes métodos del codificador MIDI
+(no son eventos midi todavía, son métodos de la librería midi útil)
 
-#### Pistas
+Código: \hyperref[sec:codigo_secuencia]{Apéndice 6.1}.
+
+#### Pista
 
 primero
 asigna propiedades a 
@@ -977,20 +957,36 @@ de los no refieren a ningun otro elemento (segmento)
 al mismo tiempo que gestiona la suceccion de propiedades entre referente
 y referidos
 
-#### Elementos
+Código: \hyperref[sec:codigo_pista]{Apéndice 6.2}.
+
+#### Complemento
+
+busca en la ubicacion declarada 
+el archivo con metodos de usuario
+dispone rutinas contenidos en dicho modulo
+relativo a la pista 
+habilitandoles como procesos para manipular propiedades 
+
+Código: \hyperref[sec:codigo_complementos]{Apéndice 6.3}.
+
+#### Elemento
 
 La unica justificacion de esta metaclase ademas de ahorrar redundancias
 es habilitar una capa superior de conteo y agrupaminto de secciones y
 segmentos para salida detallada 
 
-#### Secciones
+Código: \hyperref[sec:codigo_elemento]{Apéndice 6.4}.
+
+#### Seccione
 
 Esta instancia es un fragmento musical
 sin articulaciones directamente vinculadas per se
 Es un grupo de otras secciones y/o segmentos
 pero no articulaciones
 
-#### Segmentos
+Código: \hyperref[sec:codigo_seccion]{Apéndice 6.5}.
+
+#### Segmento
 
 En contra partida, este constructor
 todos los mecanismos que producen grupos de articulaciones
@@ -1003,7 +999,9 @@ gestion de alturas
 invoca el constructor de articulaciones
 y pasa el resultado de estas combinaciones como argumentos
 
-#### Articulaciones
+Código: \hyperref[sec:codigo_segmento]{Apéndice 6.6}.
+
+#### Articulacione
 
 esta es la abstraccion de
 pronunciamientos musicales
@@ -1011,15 +1009,7 @@ per se
 manipula prepara determinados valores para uso posterior/exterior/diferido
 analiza cambios de valores en realcion a articulaciones precedentes
 
-#### Complementos
-
-busca en la ubicacion declarada 
-el archivo con metodos de usuario
-dispone rutinas contenidos en dicho modulo
-relativo a la pista 
-habilitandoles como procesos para manipular propiedades 
-
-
+Código: \hyperref[sec:codigo_articulacion]{Apéndice 6.7}.
 
 ## Demostraciones
 
@@ -1062,7 +1052,6 @@ Capturas
 ploteos
 
 
-\newpage
 # Concluciones
 
 aplicaciones posibles 
@@ -1071,35 +1060,42 @@ en diferentes escenarios
 y varias disciplinas (IA, machine learning).
 
 
-\newpage
 # Apéndice
 
 ## Secuencia
+\label{sec:codigo_secuencia}
 \inputminted{python}{secuencia/__init__.py}
 \newpage
 
 ## Pista
+\label{sec:codigo_pista}
 \inputminted{python}{secuencia/pista.py}
 \newpage
 
+## Complementos
+\label{sec:codigo_complementos}
+\inputminted{python}{secuencia/complementos.py}
+
 ## Elemento
+\label{sec:codigo_elemento}
 \inputminted{python}{secuencia/elemento.py}
 \newpage
 
 ## Sección
+\label{sec:codigo_seccion}
 \inputminted{python}{secuencia/seccion.py}
 \newpage
 
 ## Segmento
+\label{sec:codigo_segmento}
 \inputminted{python}{secuencia/segmento.py}
 \newpage
 
 ## Articulación
+\label{sec:codigo_articulacion}
 \inputminted{python}{secuencia/articulacion.py}
 \newpage
 
-## Complementos
-\inputminted{python}{secuencia/complementos.py}
 
 
 \newpage
