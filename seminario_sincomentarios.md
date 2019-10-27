@@ -777,11 +777,18 @@ se reconoce la ventaja y se sugiere el empleo de este tipo de herramientas.
 # Resultados
 \nopagebreak[4]
 
+Se dedicada esta sección a detallar en profundidad los preceptos y
+constituyentes de la gramática propuesta, también se explica el proceso al cual
+el programa desarrollado somete información a manipulaciones para generar
+secuencias de control.
 
-
-
-
-
+Concluyendo se expone la entrada en formato YAML y
+la visualización en partitura del archivo MIDI que dicha entrada produce
+para tres ejemplos:
+una melodía sencilla,
+un pieza con multiples partes y
+una pieza cuyas propiedaes están integradas por 
+series de patrones de duración no equivalentes.
 
 ## Gramática
 \nopagebreak[4]
@@ -971,15 +978,16 @@ Código: \hyperref[sec:codigo_complementos]{Apéndice 6.3}.
 
 #### Elemento
 
-La unica justificacion de esta metaclase ademas de ahorrar redundancias
-es habilitar una capa superior de conteo y agrupaminto de secciones y
-segmentos para salida detallada 
+La única justificación de esta meta-clase ademas de ahorrar redundancias
+es habilitar una capa superior de conteo y agrupamiento entre _Secciones_ y
+_Segmentos_ para salida detallada 
 
 Código: \hyperref[sec:codigo_elemento]{Apéndice 6.4}.
 
 #### Seccione
 
-Esta instancia es un fragmento musical
+Esta instancia
+puede ser explicada como un fragmento musical
 sin articulaciones directamente vinculadas per se
 Es un grupo de otras secciones y/o segmentos
 pero no articulaciones
@@ -1024,10 +1032,8 @@ Código
 #### Partitura
 Captura
 
-#### Gráfico
-ploteo
 
-### Multiples Canales
+### Multiples Pistas
 Descripcion
 
 #### YAML
@@ -1036,8 +1042,6 @@ Códigos
 #### Partitura
 Capturas
 
-#### Gráfico
-ploteos
 
 ### Polimetría
 Paterns con duraciones no equivalentes
@@ -1048,8 +1052,6 @@ Códigos
 #### Partitura
 Capturas
 
-#### Gráfico
-ploteos
 
 
 # Concluciones
