@@ -898,8 +898,8 @@ para tres ejemplos:
 una melodía sencilla,
 un pieza con multiples partes y
 % por último
-una pieza cuyas propiedaes están integradas por 
-series de patrones de duración no equivalentes.
+una pieza cuyas propiedades están integradas por 
+series de patrones de duración no equivalente.
 
 ## Gramática
 \nopagebreak[4]
@@ -952,7 +952,7 @@ A modo de referencia, se describe el léxico acuñado aprovechando la distinció
 expuesta anteriormente entre propiedades generales a la pista y particulares a
 las unidades.
 
-Para detallar como opera cada término evitando redundancias, se
+Para detallar cada término evitando redundancias, se
 organiza la información repitiendo la misma estructura para cada uno de ellos.
 Se presentan en linea: el término que identifica la propiedad, el tipo de dato que se espera,
 el valor asignado por defecto, luego una breve descripción y por ultimo un
@@ -1033,9 +1033,9 @@ posicionales, definiciones de pista. Después de analizadas
 sintacticamente se entregan como diccionarios reunidos en un
 lista al modulo _Secuencia_ [^ver_rossum].
 
-Después de manipulaciones internas, dicho modulo produce una lista ordenada de
-llamadas a diversas funciones que operan el codificador, el cual concluye el
-programa emitiendo una secuencia de mensajes MIDI.
+El producto de dicha manipulación es una lista ordenada de llamadas a diversas
+funciones que operan el codificador, el cual concluye el programa emitiendo una
+secuencia de mensajes MIDI.
 
 [^ver_rossum]: @rossum 10.3: Command Line Arguments, 5.5: Dictionaries,
   3.1.3: Lists, 9: Classes.
