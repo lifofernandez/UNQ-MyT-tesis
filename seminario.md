@@ -1046,15 +1046,15 @@ como la mas profunda.
 
 ### Módulo: Secuencia
 
-Recibe un lista,
-en el cual cada entrada 
-corresponde una definición de parte.
+Recorre la información que recibe como pistas,
+previamente analizadas sintaticamente,
+invocando el
+constructor de la clase _Pista_ para cada entrada.
 
-Por cada nodo por el constructor
-de la clase
-"pistas"
-
-Después de que procesar 
+Después de que son consolidadas como objetos,
+esta rutina itera nuevamente 
+analizándolas en busca de cambios de parámetros de segmentos y articulaciones
+para llenar la lista de llamadas a la 
 Obtenineod un boje
 cada Pista 
 
