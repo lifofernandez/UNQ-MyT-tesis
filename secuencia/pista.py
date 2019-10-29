@@ -1,27 +1,36 @@
+import os
 from argumentos import Excepcion
+from .complemento import Complemento
 from .seccion  import Seccion
 from .segmento import Segmento
 
 class Pista:
   """
   Clase para cada definicion de a partir de archivos .yml
-  PISTA > Secciones > Segmentos > Articulaciones
+  Secuencia > PISTA > Secciones > Segmentos > Articulaciones
   """
   cantidad = 0 
+
+  defactos = {
+    'nombre'       : '',
+    'unidades'     : [ None ],
+    'forma'        : [ None ],
+    'complementos' : None,
+  }
 
   def __str__( self ):
     o  = 'PISTA ' + str( self.numero) + ': '+ str( self.nombre  )
     return o
 
-  def verbose( self, verbose = 0 ):
-    if verbose > 0:
+  def verbose( self, verbosidad = 0 ):
+    if verbosidad > 0:
       o = str( self ) + ' '
       o = str( self ) + ' '
-      o +=  '#' * ( 60 - len( o ))
-      if verbose > 1:
-        o += '\nELEM\t#\torden\tnivel\trecur\tnombre\n'
+      o +=  '#' * ( 70 - len( o ) )
+      if verbosidad > 1:
+        o += '\nELEM\tid\t#\tNIVEL\tRECUR\tNOMBRE\n'
         for e in self.elementos:
-          o += e.verbose( verbose ) 
+          o += e.verbose( verbosidad ) 
           o += '\n'
       return o
 
@@ -30,18 +39,31 @@ class Pista:
     nombre,
     paleta,
     forma,
-    secuencia
+    secuencia,
+    ubicacion_complementos,
   ):
     self.nombre     = nombre
     self.paleta     = paleta
     self.forma      = forma 
     self.secuencia  = secuencia
+    self.uc = ubicacion_complementos 
     self.numero     = Pista.cantidad 
     Pista.cantidad += 1
 
     self.secciones  = []
     self.segmentos  = []
     self.seccionar( self.forma )
+
+  @property
+  def complemento( self ):
+    ubicacion = self.uc
+    c = None 
+    if ubicacion and os.path.exists( ubicacion ):
+      # TODO Tirar excepción
+      # and p not in Complemento.registro:
+      Complemento.registro.append( ubicacion )
+      c = Complemento( ubicacion )
+    return c
 
   @property
   def elementos( self ):

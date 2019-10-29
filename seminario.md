@@ -1038,66 +1038,58 @@ A continuación se expone el trazado de mecanismos internos, desde el nivel de
 abstracción superior _Secuencia_, alcanzando la capa _Articulación_ comprendida
 como la mas profunda.
 
-### Módulo: Secuencia
+### Secuencia
+
+Después que la información recibida es consolidada como objetos de clase
+_Pista_, estos son analizados en busca de cambios de parámetros en segmentos y
+articulaciones para reunir dichos pronunciamientos en un único
+flujo de instrucciones[^ver_codigo].
 
 % Recorre
 % invocando el constructor de la clase _Pista_ para cada entrada.
-% en esta instancia 
-
-Después consolidar la información recibida como objetos de la clase _Pista_,
-estos son analizados en busca de cambios de parámetros en segmentos y
-articulaciones para componer, a partir de dichos pronunciamientos, un único
-flujo de instrucciones que espera el codificador MIDI.
-
 % (no son eventos midi todavía, son métodos de la librería midi útil)
 
-Código: \hyperref[sec:codigo_secuencia]{Apéndice 6.1}.
+[^ver_codigo]: El extracto de código correspondiente a cada constructor
+se encuentran en 
+\hyperref[sec:codigo_secuencia]{Apéndice 6.1: Secuencia},
+\hyperref[sec:codigo_pista]{Apéndice 6.2: Pista},
+\hyperref[sec:codigo_complemento]{Apéndice 6.3: Complemento},
+\hyperref[sec:codigo_elemento]{Apéndice 6.4: Elemento},
+\hyperref[sec:codigo_seccion]{Apéndice 6.5 : Sección},
+\hyperref[sec:codigo_segmento]{Apéndice 6.6: Segmento} y 
+\hyperref[sec:codigo_articulacion]{Apéndice 6.7: Articulación}
+respectivamente.
 
 #### Pista
 
-% Primero
-% se autoasigna propiedades a 
-% a partir de las keys and values 
+Este módulo es responsable por el devenir del las partes musicales.
+Desde el nivel macro organiza la estructura de cada instancia, discriminando entre
+elementos que refieren a otros, los cuales son clasificados como _Sección_, de
+los no refieren a ningún otro elemento a los que consolida como _Segmento_. Al
+mismo tiempo gestiona la sucesión de propiedades entre referente y referido.
 
-La acción principal de este
-instancia
-% clase
-es recorrer la macro estructura
-discriminar elementos que refieren a otros (sección)
-de los no refieren a ningún otro elemento (segmento)
-
-al mismo tiempo que gestiona la sucección de propiedades entre referente
-y referidos
-
-Código: \hyperref[sec:codigo_pista]{Apéndice 6.2}.
+Resuelve el conjunto de propiedades resultantes de cada elemento y los dispone
+consecutivamente para ser consumidos en el nivel de abstracción superior.
 
 #### Complemento
 
-busca en la ubicacion declarada 
-el archivo con metodos de usuario
-dispone rutinas contenidos en dicho modulo
-relativo a la pista 
-habilitandoles como procesos para manipular propiedades 
-
-Código: \hyperref[sec:codigo_complementos]{Apéndice 6.3}.
+Busca en la ubicación declarada el fichero con métodos de usuario, habilita las
+rutinas contenidas en dicho modulo como procesos para manipular propiedades de
+cualquier elemento de la parte.
 
 #### Elemento
 
-La única justificación de esta meta-clase ademas de ahorrar redundancias
-es habilitar una capa superior de conteo y agrupamiento entre _Secciones_ y
-_Segmentos_ para salida detallada 
+La única justificación de esta meta clase, ademas de ahorrar alguna
+redundancia, es permitir una capa superior de conteo y agrupamiento entre
+_Secciones_ y _Segmentos_ para salida detallada.
 
-Código: \hyperref[sec:codigo_elemento]{Apéndice 6.4}.
+#### Sección
 
-#### Seccione
+Esta abstracción es un fragmento musical
+sin articulaciones vinculadas per se.
+Es un conjunto de secciones y/o segmentos
+pero no articulaciones.
 
-Esta instancia
-puede ser explicada como un fragmento musical
-sin articulaciones directamente vinculadas per se
-Es un grupo de otras secciones y/o segmentos
-pero no articulaciones
-
-Código: \hyperref[sec:codigo_seccion]{Apéndice 6.5}.
 
 #### Segmento
 
@@ -1112,8 +1104,6 @@ gestion de alturas
 invoca el constructor de articulaciones
 y pasa el resultado de estas combinaciones como argumentos
 
-Código: \hyperref[sec:codigo_segmento]{Apéndice 6.6}.
-
 #### Articulación
 
 Esta es la abstracción de
@@ -1125,7 +1115,6 @@ cada evento musical
 manipula prepara determinados valores para uso posterior/exterior/diferido
 analiza cambios de valores en relación a articulaciones precedentes
 
-Código: \hyperref[sec:codigo_articulacion]{Apéndice 6.7}.
 
 ## Demostraciones
 
@@ -1197,9 +1186,9 @@ y varias disciplinas (IA, machine learning).
 \inputminted{python}{secuencia/pista.py}
 \newpage
 
-## Complementos
-\label{sec:codigo_complementos}
-\inputminted{python}{secuencia/complementos.py}
+## Complemento
+\label{sec:codigo_complemento}
+\inputminted{python}{secuencia/complemento.py}
 
 ## Elemento
 \label{sec:codigo_elemento}
@@ -1220,7 +1209,6 @@ y varias disciplinas (IA, machine learning).
 \label{sec:codigo_articulacion}
 \inputminted{python}{secuencia/articulacion.py}
 \newpage
-
 
 
 \newpage

@@ -1,42 +1,34 @@
-import os
+#import os
+#from .complementos import Complemento
 from .pista import Pista
-from .complementos import Complemento
 
 class Secuencia:
 
   def __init__( 
       self,
       defs,
-      verbose = False,
-      copyright = False 
+      args
     ):
     self.defs = defs 
     self.pistas = []
-    self.verbose = verbose
-    self.copyright = copyright
+    self.verbose = args.verbose
+    self.copyright = args.copyright
+
     
     for d in defs:
+      r = {
+        **Pista.defactos,
+        **d
+      }
+
       pista = Pista(
-        nombre    = d[ 'nombre' ],
-        paleta    = d[ 'unidades' ],
-        forma     = d[ 'forma' ],
+        nombre     = r[ 'nombre' ],
+        paleta     = r[ 'unidades' ],
+        forma      = r[ 'forma' ],
+        ubicacion_complementos = r[ 'complementos' ],
         secuencia = self,
       )
       self.pistas.append( pista )
-
-  @property
-  def complementos( self ):
-    complementos = []
-    for d in self.defs:
-      if 'complementos' in d:
-       p = d[ 'complementos' ] 
-       if os.path.exists( p ):
-         # TODO Tirar execpcion
-         #and p not in Complemento.registro:
-         Complemento.registro.append( p )
-         c = Complemento( p )
-         complementos.append( c )
-    return complementos
 
   @property
   def eventos( self ):
@@ -60,6 +52,7 @@ class Secuencia:
         delta,
         pista.nombre
       ])
+
       if self.copyright:
         EVENTOS.append([
           'addCopyright',
@@ -233,15 +226,18 @@ class Secuencia:
             voces = articulacion.acorde 
     
           for voz in voces:
-            EVENTOS.append([
-              'addNote',
-              track, 
-              canal, 
-              voz, 
-              delta, 
-              articulacion.duracion, 
-              articulacion.dinamica
-            ])
+            if articulacion.dinamica:
+              EVENTOS.append([
+                'addNote',
+                track, 
+                canal, 
+                voz, 
+                delta, 
+                articulacion.duracion, 
+                articulacion.dinamica
+              ])
+            #else:
+            #  print('eo')
     
           if articulacion.controles:
             """ Agregar cambios de control """

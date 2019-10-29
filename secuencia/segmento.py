@@ -1,7 +1,7 @@
 import math
 from .elemento import Elemento
 from .articulacion import Articulacion
-from .complementos import Complemento
+from .complemento import Complemento
 
 
 class Segmento( Elemento ):
@@ -19,8 +19,7 @@ class Segmento( Elemento ):
     'NRPN'     : None,
     'RPN'      : None,
 
-    # Props. que NO refieren a Canal especifico
-    # ¿a Meta track?  Igualmente midiutil las manda a canal 16...
+    # Props. que NO refieren a Meta Canal
     'metro'             : '4/4',
     'alteraciones'      : 0, 
     'modo'              : 0,
@@ -49,14 +48,14 @@ class Segmento( Elemento ):
 
   }
 
-  def verbose( self, verbose = 0 ):
-    o = self.tipo + ' '
+  def verbose( self, vebosidad = 0 ):
+    o = self.tipo + ''
     o += str( self.numero_segmento) + '\t' 
     o += str( self ) + ' '
-    o += '-' * ( 18 - (len( self.nombre ) + self.nivel))
-    if verbose > 2:
-      o += '\nARTICULACIONES\n'
-      o += '#\tord\tbpm\tdur\tdin\talt\tltr\tton\tctrs\n' 
+    o += '-' * ( 28 - (len( self.nombre ) + self.nivel))
+    if vebosidad > 2:
+      o +=  '\n' + ('.' * 70 )  
+      o += '\n\tORD\tBPM\tDUR\tDIN\tALT\tLTR\tTON\tCTR\n' 
       for a in self.articulaciones:
         o += str( a )
     return o
@@ -83,12 +82,13 @@ class Segmento( Elemento ):
     self.numero_segmento = Segmento.cantidad 
     Segmento.cantidad += 1
     self.tipo = 'SGMT'
-    self.props = {
-        **Segmento.defactos,
-        **propiedades 
-    }
-    """ PRE PROCESO DE SEGMENTO """
 
+    self.props = {
+      **Segmento.defactos,
+      **propiedades 
+    }
+
+    """ PRE PROCESO DE SEGMENTO """
     """ Cambia el sentido de los parametros de
     articulacion """
     self.revertir = self.props[ 'revertir' ]
@@ -115,6 +115,7 @@ class Segmento( Elemento ):
     self.NRPN              = self.props[ 'NRPN' ]
     self.RPN               = self.props[ 'RPN' ]
     self.registracion      = self.props[ 'registracion' ]
+
     self.programas         = self.props[ 'programas' ]
     self.duraciones        = self.props[ 'duraciones' ]
     self.BPMs              = self.props[ 'BPMs' ]
@@ -132,18 +133,19 @@ class Segmento( Elemento ):
     """ COMPLEMENTOS
         Pasar propiedades por metodos de usuario
     """
-    for complemento in self.pista.secuencia.complementos:
-       for metodo in dir( complemento.modulo ):
-         if metodo in self.props:
-           for clave in self.props[ metodo ]:
-             original = getattr( self, clave )
-             argumentos = self.props[ metodo ][ clave ]
-             #print( metodo, ':', clave, argumentos )
-             modificado = getattr(
-                complemento.modulo, 
-                metodo,
-             )( original, argumentos )
-             setattr( self, clave, modificado )
+    #for complemento in self.pista.complemento:
+    if self.pista.complemento:
+      for metodo in dir( self.pista.complemento.modulo ):
+        if metodo in self.props:
+          for clave in self.props[ metodo ]:
+            original = getattr( self, clave )
+            argumentos = self.props[ metodo ][ clave ]
+            # print( metodo, ':', clave, argumentos )
+            modificado = getattr(
+               self.pista.complemento.modulo, 
+               metodo,
+            )( original, argumentos )
+            setattr( self, clave, modificado )
 
 
   @property
@@ -202,10 +204,10 @@ class Segmento( Elemento ):
     """ Evaluar que propiedad lista es el que mas valores tiene.  """
     self.ganador_voces = [ 0 ]
     if self.voces:
-      self.ganador_voces = max( self.voces, key = len) 
+      self.ganador_voces = max( self.voces, key = len ) 
     self.ganador_capas = [ 0 ]
     if self.capas:
-      self.ganador_capas = max( self.capas , key = len) 
+      self.ganador_capas = max( self.capas , key = len ) 
 
     candidatos = [ 
       self.dinamicas,
@@ -218,7 +220,7 @@ class Segmento( Elemento ):
       self.ganador_voces,
       self.ganador_capas,
     ]
-    return  max( candidatos, key = len )
+    return max( candidatos, key = len )
 
   @property
   def cantidad_pasos( self ):
@@ -246,7 +248,7 @@ class Segmento( Elemento ):
       if self.voces:
         for v in self.voces:
           voz = ( 
-            altura + ( v[ paso % len( v ) ] ) - 1 
+            altura + ( v[ paso % len( v ) ] )  
           ) + self.transponer
           acorde += [ 
             self.transportar + 
@@ -263,6 +265,7 @@ class Segmento( Elemento ):
          orden     = paso,
          bpm       = self.BPMs[ paso % len( self.BPMs ) ],
          programa  = self.programas[ paso % len( self.programas ) ],
+         # TODO advertir si lista de duraciones vacias
          duracion  = self.duraciones[ paso % len( self.duraciones ) ],
          dinamica  = self.dinamicas[ paso % len( self.dinamicas ) ],
          nota      = nota,
