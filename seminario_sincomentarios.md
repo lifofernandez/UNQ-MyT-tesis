@@ -777,26 +777,21 @@ se reconoce la ventaja y se sugiere el empleo de este tipo de herramientas.
 # Resultados
 \nopagebreak[4]
 
-Se dedicada esta sección a detallar en profundidad los preceptos y
-constituyentes de la gramática propuesta, también se explica el proceso al cual
-el programa desarrollado somete información a manipulaciones para generar
-secuencias de control.
+Se dedicada esta sección a detallar en profundidad el sistema propuesto.
+Comenzando por los constituyentes y preceptos, seguido los procesos de los
+cuales estos son objeto.
 
-Concluyendo se expone la entrada en formato YAML y
-la visualización en partitura del archivo MIDI que dicha entrada produce
-para tres ejemplos:
-una melodía sencilla,
-un pieza con multiples partes y
-una pieza cuyas propiedades están integradas por 
-series de patrones de duración no equivalente.
+Concluyendo se expone la entrada, en formato YAML y la salida, representada en
+formato de partitura, de tres ejemplos: una melodía sencilla, un pieza con
+multiples partes y una discurso cuyos patrones son de duración no equivalente.
 
 ## Gramática
 \nopagebreak[4]
 
 Sobre \hyperref[sec:sintaxis]{la estructura sentada por el protocolo optado}
-opera otro juego de reglas coyuntural a este desarrollo que gobierna la
-combinatoria entre constituyentes. Luego del desarrollo de estos principios se
-expone el vocabulario concebido que junto con la sintaxis completa esta
+opera otro juego de reglas propio a este desarrollo que gobierna la
+combinatoria entre constituyentes. Luego de exponer estos principios se
+presenta el vocabulario concebido, que junto con la sintaxis completa esta
 gramática.
 
 ### Sintaxis
@@ -930,38 +925,25 @@ como la mas profunda.
 
 ### Módulo: Secuencia
 
-Recibe un lista,
-en el cual cada entrada 
-corresponde una definición de parte.
 
-Por cada nodo por el constructor
-de la clase
-"pistas"
+Después consolidar la información recibida como objetos de la clase _Pista_,
+estos son analizados en busca de cambios de parámetros en segmentos y
+articulaciones para componer, a partir de dichos pronunciamientos, un único
+flujo de instrucciones que espera el codificador MIDI.
 
-Después de que procesar 
-Obtenineod un boje
-cada Pista 
-
-Combina 
-todos los segmentos y articulaciones resultantes
-n una solo flujo de llamadas
-llamadas a diferentes métodos del codificador MIDI
-(no son eventos midi todavía, son métodos de la librería midi útil)
 
 Código: \hyperref[sec:codigo_secuencia]{Apéndice 6.1}.
 
 #### Pista
 
-primero
-asigna propiedades a 
-a partir de las keys and values 
 
-la acción principal de este clase es recorrer la macro estructura
-iterar recursivamente,
-discriminar elementos que refieren a otros (seccion) 
-de los no refieren a ningun otro elemento (segmento)
+La acción principal de este
+instancia
+es recorrer la macro estructura
+discriminar elementos que refieren a otros (sección)
+de los no refieren a ningún otro elemento (segmento)
 
-al mismo tiempo que gestiona la suceccion de propiedades entre referente
+al mismo tiempo que gestiona la sucección de propiedades entre referente
 y referidos
 
 Código: \hyperref[sec:codigo_pista]{Apéndice 6.2}.
@@ -1009,13 +991,14 @@ y pasa el resultado de estas combinaciones como argumentos
 
 Código: \hyperref[sec:codigo_segmento]{Apéndice 6.6}.
 
-#### Articulacione
+#### Articulación
 
-esta es la abstraccion de
-pronunciamientos musicales
-per se
+Esta es la abstracción de
+pronunciamientos
+sonoros o no, 
+cada evento musical
 manipula prepara determinados valores para uso posterior/exterior/diferido
-analiza cambios de valores en realcion a articulaciones precedentes
+analiza cambios de valores en relación a articulaciones precedentes
 
 Código: \hyperref[sec:codigo_articulacion]{Apéndice 6.7}.
 
