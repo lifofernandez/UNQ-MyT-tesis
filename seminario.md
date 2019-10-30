@@ -1062,10 +1062,10 @@ respectivamente.
 
 #### Pista
 
-Este módulo es responsable por el devenir del las partes musicales.
-Desde el nivel macro organiza la estructura de cada instancia, discriminando entre
-elementos que refieren a otros, los cuales son clasificados como _Sección_, de
-los no refieren a ningún otro elemento a los que consolida como _Segmento_. Al
+Este módulo es responsable por el devenir del las partes musicales. Desde el
+nivel macro organiza la estructura de cada instancia, discriminando entre
+elementos que refieren a otros, que son clasificados como _Sección_, de los que
+no refieren a ningún otro elemento, a los que consolida como _Segmento_. Al
 mismo tiempo gestiona la sucesión de propiedades entre referente y referido.
 
 Resuelve el conjunto de propiedades resultantes de cada elemento y los dispone
@@ -1073,35 +1073,43 @@ consecutivamente para ser consumidos en el nivel de abstracción superior.
 
 #### Complemento
 
-Busca en la ubicación declarada el fichero con métodos de usuario, habilita las
-rutinas contenidas en dicho modulo como procesos para manipular propiedades de
-cualquier elemento de la parte.
+Importa rutinas en el módulo usuario (declarado en
+\hyperlink{complementos}{\texttt{complementos} de la pista}) como procesos
+capaces de manipular propiedades de cualquier elemento de la _Pista_.
+
+Posteriormente cada _Segmento_ comparará si alguno de estos
+\hyperlink{metodos_usuario}{métodos de usuario} se corresponde con cierta clave
+en sus propiedades.
 
 #### Elemento
 
-La única justificación de esta meta clase, ademas de ahorrar alguna
-redundancia, es permitir una capa superior de conteo y agrupamiento entre
-_Secciones_ y _Segmentos_ para salida detallada.
+Justifica esta meta clase, ademas de ahorrar alguna redundancia, la noción de
+una capa superior de agrupamiento y registro entre _Secciones_ y _Segmentos_
+con finalidades analíticas, permite una salida detallada.
 
 #### Sección
 
-Esta abstracción es un fragmento musical
-sin articulaciones vinculadas per se.
-Es un conjunto de secciones y/o segmentos
-pero no articulaciones.
+Esta abstracción es un conjunto de _Secciones_ y/o _Segmentos_.
+Un agrupamiento de elementos, pero sin articulaciones vinculadas directamente.
 
+Sin tener un correlato "sonoro" esta abstracción,
+este elemento es empleado a nivel lógico para
+registrar relaciones de referencia.
 
 #### Segmento
 
-En contra partida, este constructor
-todos los mecanismos que producen grupos de articulaciones
+En contra partida, esta clase de objetos representa un grupo de articulaciones.
 
-prepara determinados valores para uso posterior/exterior/diferido
-alinea secuencialmente patranones dispares
+Todos los mecanismos que producen
+Prepara determinados valores para uso posterior/exterior/diferido
+
+Alinea secuencial-mente patrones dispares
 de propiedades del tipo lista
-analiza cambios de valores en realcion a segmentos precedentes
-gestion de alturas
-invoca el constructor de articulaciones
+
+Analiza cambios de valores en relación a segmentos precedentes
+gestión de alturas
+
+Invoca el constructor de articulaciones
 y pasa el resultado de estas combinaciones como argumentos
 
 #### Articulación

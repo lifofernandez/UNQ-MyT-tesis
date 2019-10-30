@@ -42,6 +42,6 @@ forma:
 complementos:
    tipo: 'cadena de caracteres'
    defacto: 'None'
-   descripcion: 'Ubicación de módulo con métodos de usuario.'
+   descripcion: ' \hypertarget{complementos}{}Ubicación de módulo con métodos de usuario.'
    ejemplo: |
      complementos: 'enchufes.py'
