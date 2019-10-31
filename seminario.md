@@ -1116,6 +1116,8 @@ Esta capa corresponde a pronunciamientos en el discurso.
 Es el producto de mecanismos superiores y la materia prima interpretada en la
 _Secuencia_ final asignando una llamada al codificador por cada instancia.
 
+% http://www.texample.net/tikz/examples/timing-diagram/
+
 
 ## Demostraciones
 
