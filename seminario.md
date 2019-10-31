@@ -1106,20 +1106,15 @@ Es responsable de administrar \texttt{complementos}, distinguir actualizaciones
 de valor entre instancias y la gestiona alturas, trasponiendo el puntero dentro
 el set de registración y trasportando la nota resultante.
 
-Completa secuencialmente patrones dispares alineandolos en relación a lista con
-mayor a la cantidad de miembros.  Invoca una instancia de _Articulacion_ por
+Completa secuencialmente patrones dispares alineándolos en relación a lista con
+mayor a la cantidad de miembros. Invoca una instancia de _Articulacion_ por
 cada resultante de esta combinatoria.
 
 #### Articulación
 
-Esta es la abstracción de
-pronunciamientos
-sonoros o no, 
-cada evento musical
-% per se
-% producto de los mecanismos 
-manipula prepara determinados valores para uso posterior/exterior/diferido
-analiza cambios de valores en relación a articulaciones precedentes
+Esta capa corresponde a pronunciamientos en el discurso.
+Es el producto de mecanismos superiores y la materia prima interpretada en la
+_Secuencia_ final asignando una llamada al codificador por cada instancia.
 
 
 ## Demostraciones
