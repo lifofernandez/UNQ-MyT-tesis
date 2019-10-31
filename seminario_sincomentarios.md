@@ -652,11 +652,12 @@ la proyección de un valor, el guión "-" que indica un bloque de secuencia,
 *Ancla* el nodo para referencia futura el símbolo "&" ampersand, habilitado así
 subsecuentes como *alias* son invocados con el simbolo "\*" asterisco.
 
-Quizás esta presentación austera aparenta intimidar, como se aprecia en los
-ejemplos desplegados en el capitulo siguiente, con algunas reglas sencillas este
-lenguaje de marcado consigue plena legibilidad, sin dejar de ser flexible ni expresivo.
-Para mas información acerca de otras estructuras y el tratamiento especial
-caracteres reservados, referirse a la especificación del formato[^ver_yaml2].
+Quizás esta presentación austera suscite una intimidación aparente, como se
+aprecia en los ejemplos desplegados en el capitulo siguiente, con algunas
+reglas sencillas este lenguaje de marcado consigue plena legibilidad, sin dejar
+de ser flexible ni expresivo. Para mas información acerca de otras estructuras
+y el tratamiento especial caracteres reservados, referirse a la especificación
+del formato[^ver_yaml2].
  
 [^ver_yaml2]:@yaml Apartado 5.3: Indicator Characters
 y Capitulo 6: Basic Structures.
@@ -953,7 +954,7 @@ mismo tiempo gestiona la sucesión de propiedades entre referente y referido.
 Resuelve el conjunto de propiedades resultantes de cada elemento y los dispone
 consecutivamente para ser consumidos en el nivel de abstracción superior.
 
-##### Complemento
+#### Complemento
 
 Importa rutinas en el módulo usuario (declarado en
 \hyperlink{complementos}{\texttt{complementos} de la pista}) como procesos
@@ -966,40 +967,32 @@ delegando a la rutina de usuario la manipulación de los valores
 de la propiedad subordinada.
 
 
-##### Elemento
+#### Elemento
 
 Justifica esta meta clase la noción de una capa superior de agrupamiento y
 registro. Ademas de ahorrar alguna redundancia, habilita información de
 capacidad analítica en la salida verbal.
 
-##### Sección
+#### Sección
 
 Representa conjuntos de _Secciones_ y/o _Segmentos_. Es un grupo de
 elementos que, sin vincular articulaciones directamente y sin incidir en el
 discurso resultante, a nivel lógico conserva relaciones de referencia.
 
-###### Segmento
+#### Segmento
 
-En contra partida, esta clase reúne _Articulaciones_.
+En contra partida, esta clase reúne los mecanismos para preparar y producir
+_Articulaciones_.
 
-contiene 
-mecanismos
-que producen
+Es responsable de administrar \texttt{complementos}, distinguir actualizaciones
+de valor entre instancias y la gestiona alturas, trasponiendo el puntero dentro
+el set de registración y trasportando la nota resultante.
 
-Busca \texttt{complementos}.
+Completa secuencialmente patrones dispares alineandolos en relación a lista con
+mayor a la cantidad de miembros.  Invoca una instancia de _Articulacion_ por
+cada resultante de esta combinatoria.
 
-Prepara determinados valores para uso posterior/exterior/diferido
-
-Alinea secuencial-mente patrones dispares
-en propiedades del tipo lista
-
-Analiza cambios de valores en relación a segmentos precedentes
-gestión de alturas
-
-Invoca el constructor de articulaciones
-y pasa el resultado de estas combinaciones como argumentos
-
-##### Articulación
+#### Articulación
 
 Esta es la abstracción de
 pronunciamientos
