@@ -1071,40 +1071,45 @@ mismo tiempo gestiona la sucesión de propiedades entre referente y referido.
 Resuelve el conjunto de propiedades resultantes de cada elemento y los dispone
 consecutivamente para ser consumidos en el nivel de abstracción superior.
 
-#### Complemento
+##### Complemento
 
 Importa rutinas en el módulo usuario (declarado en
 \hyperlink{complementos}{\texttt{complementos} de la pista}) como procesos
 capaces de manipular propiedades de cualquier elemento de la _Pista_.
 
-Posteriormente cada _Segmento_ comparará si alguno de estos
-\hyperlink{metodos_usuario}{métodos de usuario} se corresponde con cierta clave
-en sus propiedades.
+Posteriormente cada _Segmento_ busca coincidencia entre 
+cada
+\hyperlink{metodos_usuario}{método de usuario} y clave en sus propiedades,
+delegando a la rutina de usuario la manipulación de los valores
+de la propiedad subordinada.
 
-#### Elemento
 
-Justifica esta meta clase, ademas de ahorrar alguna redundancia, la noción de
-una capa superior de agrupamiento y registro entre _Secciones_ y _Segmentos_
-con finalidades analíticas, permite una salida detallada.
+##### Elemento
 
-#### Sección
+Justifica esta meta clase la noción de una capa superior de agrupamiento y
+registro. Ademas de ahorrar alguna redundancia, habilita información de
+capacidad analítica en la salida verbal.
 
-Esta abstracción es un conjunto de _Secciones_ y/o _Segmentos_.
-Un agrupamiento de elementos, pero sin articulaciones vinculadas directamente.
+##### Sección
 
-Sin tener un correlato "sonoro" esta abstracción,
-este elemento es empleado a nivel lógico para
-registrar relaciones de referencia.
+Representa conjuntos de _Secciones_ y/o _Segmentos_. Es un grupo de
+elementos que, sin vincular articulaciones directamente y sin incidir en el
+discurso resultante, a nivel lógico conserva relaciones de referencia.
 
-#### Segmento
+###### Segmento
 
-En contra partida, esta clase de objetos representa un grupo de articulaciones.
+En contra partida, esta clase reúne _Articulaciones_.
 
-Todos los mecanismos que producen
+contiene 
+mecanismos
+que producen
+
+Busca \texttt{complementos}.
+
 Prepara determinados valores para uso posterior/exterior/diferido
 
 Alinea secuencial-mente patrones dispares
-de propiedades del tipo lista
+en propiedades del tipo lista
 
 Analiza cambios de valores en relación a segmentos precedentes
 gestión de alturas
@@ -1112,7 +1117,7 @@ gestión de alturas
 Invoca el constructor de articulaciones
 y pasa el resultado de estas combinaciones como argumentos
 
-#### Articulación
+##### Articulación
 
 Esta es la abstracción de
 pronunciamientos
