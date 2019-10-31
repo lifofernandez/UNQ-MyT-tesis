@@ -1019,6 +1019,7 @@ procesos con intensión de presentarla abarcable y facilitar su comprensión.
 % \bigskip
 % \bigskip
 
+% http://www.texample.net/tikz/examples/android/
 \begin{center}
 \input{aplicacion}
 \end{center}
