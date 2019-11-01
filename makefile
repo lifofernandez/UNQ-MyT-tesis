@@ -25,7 +25,7 @@ pdf:
 	xelatex \
 	-interaction=batchmode \
 	-shell-escape output.tex
-verbose:
+verb:
 	xelatex \
 	-shell-escape output.tex
 	
@@ -42,11 +42,19 @@ clean:
 # 	xdotool windowactivate $(CURRENT_WID)
 
 
-render: 
+render --silent: 
 	make props
 	make comentarios
 	make tex 
 	make pdf
+	make pdf # quick fix: table of contents.
+	firefox output.pdf
+
+verbose: 
+	make props
+	make comentarios
+	make tex 
+	make verb
 	make pdf # quick fix: table of contents.
 	firefox output.pdf
 	

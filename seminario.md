@@ -922,15 +922,15 @@ disponibles en la paleta de \texttt{unidades}.
 Si el elemento carece de este atributo ninguna otra unidad es invocada, por lo
 tanto se ejecuta el segmento.
 
-Entonces existe un secuencia de secciones musicales de primer grado que es
+Existe un secuencia de secciones musicales de primer grado que es
 relativa a la pista, de ahí en adelante las unidades se refieren entre ellas
 hasta alcanzar segmentos de ultimo grado, resultando una organización de
 árbol[^ver_pope].
 
-Previo a la descripción del vocabulario aceptado y relacionada a esta
+Previo a la descripción del vocabulario aceptado, relacionada a esta
 organización es la gestión de herencia entre unidades, la sucesión de
-propiedades.  Unidades invocadas heredan las cualidades del referente, que
-sobrescribe propiedades de los referidos.
+propiedades. Unidades invocadas heredan las cualidades del referente, este 
+sobrescribe propiedades en los referidos.
 
 [^ver_grela]: @grela Se adopta la terminología _unidad_ para referir 
   elementos musicales y _grado_ para denotar el alcance de dicho agrupamiento.
@@ -973,7 +973,7 @@ En el diccionario de unidades de la pista
 cada entrada representa una unidad disponible,
 que a su vez aloja sus cualidades.
 Esta es la lista de términos aceptados como propiedades
-de cada constituyente.
+para cada unidad.
 
 \input{ props_unidad.tex }
 
@@ -1042,10 +1042,10 @@ como la mas profunda.
 
 ### Secuencia
 
-Después que la información recibida es consolidada como objetos de clase
-_Pista_, estos son analizados en busca de cambios de parámetros en segmentos y
-articulaciones para reunir dichos pronunciamientos en un único
-flujo de instrucciones[^ver_codigo].
+Después que la información es recibida y consolidada como objetos de clase
+_Pista_, el programa recorre articulaciones y cambios de parámetros entre los
+elementos cada nodo, reuniendo cada pronunciamientos en un único flujo de
+instrucciones[^ver_codigo].
 
 % Recorre
 % invocando el constructor de la clase _Pista_ para cada entrada.
@@ -1067,9 +1067,9 @@ respectivamente.
 Este módulo es responsable por el devenir del las partes musicales. Desde el
 nivel macro organiza la estructura de cada instancia, discriminando entre
 elementos que refieren a otros, que son clasificados como _Sección_, de los que
-no refieren a ningún otro elemento, a los que consolida como _Segmento_. Al
-mismo tiempo gestiona la sucesión de propiedades entre referente y referido.
+no refieren a ningún otro elemento, a los que consolida como _Segmento_.
 
+Al mismo tiempo gestiona la sucesión de propiedades entre referente y referido.  
 Resuelve el conjunto de propiedades resultantes de cada elemento y los dispone
 consecutivamente para ser consumidos en el nivel de abstracción superior.
 
@@ -1096,7 +1096,7 @@ capacidad analítica en la salida verbal.
 
 Representa conjuntos de _Secciones_ y/o _Segmentos_. Es un grupo de
 elementos que, sin vincular articulaciones directamente y sin incidir en el
-discurso resultante, a nivel lógico conserva relaciones de referencia.
+discurso resultante, a nivel lógico mantiene relaciones de referencia.
 
 #### Segmento
 
@@ -1111,13 +1111,14 @@ Completa secuencialmente patrones dispares alineándolos en relación a lista co
 mayor a la cantidad de miembros. Invoca una instancia de _Articulacion_ por
 cada resultante de esta combinatoria.
 
+% http://www.texample.net/tikz/examples/timing-diagram/
+
 #### Articulación
 
 Esta capa corresponde a pronunciamientos en el discurso.
 Es el producto de mecanismos superiores y la materia prima interpretada en la
 _Secuencia_ final asignando una llamada al codificador por cada instancia.
 
-% http://www.texample.net/tikz/examples/timing-diagram/
 
 
 ## Demostraciones
