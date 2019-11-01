@@ -16,7 +16,7 @@ tex:
        	--template=seminario \
 	-s --csl=vendor/iso690-author-date-es.csl \
 	--filter=pandoc-citeproc \
-	--toc --toc-depth=3 --number-sections \
+	--toc --toc-depth=4 --number-sections \
 	-o output.tex
 
 #revisar por quer no anda -V colorlinks \

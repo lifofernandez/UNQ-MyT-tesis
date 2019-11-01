@@ -964,7 +964,7 @@ la paleta de \texttt{unidades} disponibles,
 la \texttt{forma} indica la secuencia de unidades de primer grado
 y los \texttt{complementos} de usuario.  
 
-\input{ props_pista.tex }
+\input{props_pista}
 
 #### Propiedades de Unidad
 \nopagebreak[4]
@@ -975,9 +975,9 @@ que a su vez aloja sus cualidades.
 Esta es la lista de términos aceptados como propiedades
 para cada unidad.
 
-\input{ props_unidad.tex }
+\input{props_unidad}
 
-##### Articulaciones
+#### Articulaciones
 \nopagebreak[4]
 
 Si bien estructuralmente no se distingue otra jerarquía, las siguientes
@@ -1000,7 +1000,7 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 
 % allen [^ver_allen]
 
-\input{ props_articulaciones.tex }
+\input{props_articulaciones}
 
 [^ver_variego]:@variego 
 
@@ -1020,6 +1020,7 @@ procesos con intensión de presentarla abarcable y facilitar su comprensión.
 % \bigskip
 
 % http://www.texample.net/tikz/examples/android/
+
 \begin{center}
 \input{aplicacion}
 \end{center}

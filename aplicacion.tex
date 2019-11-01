@@ -1,51 +1,135 @@
-\begin{tikzpicture}[
-  node distance = 2cm,
-  auto
-]
-
-\tikzstyle{circulo} = [
-	ellipse, 
-	draw, 
-    %fill=red!20, 
-	minimum height=4em,
-	text centered, 
-	node distance=3cm,
-    font=\bfseries
-]
-
-\tikzstyle{block} = [
-	rectangle, 
-	draw, 
-	%fill=blue!20, 
-	text width=7em, 
-	text centered, 
-	minimum height=4em,
-	node distance=3cm,
-]
-
-\tikzstyle{line} = [
-	draw,
-	-latex',
-]
-
-\node [circulo] (yaml) { Definiciones YAML};
-\node [circulo, below of=yaml] (pista) { Pistas };
-\node [block, right of=pista] (secuencia) { Secuencia };
-
-\node [circulo, below of=pista] (unidad) { Unidades };
-\node [block, below of=secuencia] (segmento) { Segmentos};
-\node [block, below of=segmento] (articulacion) { Articulaciones };
-
-\node [circulo, right of=articulacion ] (evento) { Eventos };
-\node [circulo, below of=evento] (midi) { MIDI };
-
-\path [line] (yaml) -- (pista) -- (unidad);
-\path [line] (secuencia) -- (segmento) -- (articulacion);
-\path [line] (evento) -- (midi);
-
-\draw[densely dotted] (pista) -- (secuencia);
-\draw[densely dotted] (unidad) -- (segmento);
-\draw[densely dotted] (articulacion) -- (evento);
-
-\end{tikzpicture}
+% \begin{tikzpicture}[
+%   node distance = 2cm,
+%   auto
+% ]
+% 
+% \tikzstyle{circulo} = [
+% 	ellipse, 
+% 	draw, 
+%     %fill=red!20, 
+% 	minimum height=4em,
+% 	text centered, 
+% 	node distance=3cm,
+%     font=\bfseries
+% ]
+% 
+% \tikzstyle{block} = [
+% 	rectangle, 
+% 	draw, 
+% 	%fill=blue!20, 
+% 	text width=7em, 
+% 	text centered, 
+% 	minimum height=4em,
+% 	node distance=3cm,
+% ]
+% 
+% \tikzstyle{line} = [
+% 	draw,
+% 	-latex',
+% ]
+% 
+% \node [circulo] (yaml) { Definiciones YAML};
+% \node [circulo, below of=yaml] (pista) { Pistas };
+% \node [block, right of=pista] (secuencia) { Secuencia };
+% 
+% \node [circulo, below of=pista] (unidad) { Unidades };
+% \node [block, below of=secuencia] (segmento) { Segmentos};
+% \node [block, below of=segmento] (articulacion) { Articulaciones };
+% 
+% \node [circulo, right of=articulacion ] (evento) { Eventos };
+% \node [circulo, below of=evento] (midi) { MIDI };
+% 
+% \path [line] (yaml) -- (pista) -- (unidad);
+% \path [line] (secuencia) -- (segmento) -- (articulacion);
+% \path [line] (evento) -- (midi);
+% 
+% \draw[densely dotted] (pista) -- (secuencia);
+% \draw[densely dotted] (unidad) -- (segmento);
+% \draw[densely dotted] (articulacion) -- (evento);
+% 
+% \end{tikzpicture}
      
+% Define block styles
+    
+\begin{tikzpicture}[
+    	%node distance = 2cm and 10cm,
+    	auto
+    ]
+\begin{scope}[
+    	node distance = 1cm
+    ]
+
+    \tikzstyle{decision} = [
+	diamond,
+	draw,
+	fill=blue!20, 
+        text width=4.5em,
+	text badly centered,
+	node distance=3cm,
+	inner sep=0pt
+     ]
+
+    \tikzstyle{block} = [
+	rectangle,
+	draw,
+	fill=blue!20, 
+	text centered,
+	rounded corners,
+	%text width=8em, 
+	text centered, 
+	%minimum height=4em,
+	%node distance=2cm and 1cm,
+     ]
+
+    \tikzstyle{line} = [draw, -latex']
+    \tikzstyle{cloud} = [
+	draw,
+	ellipse,
+	fill=red!20,
+	text width=8em, 
+	text centered, 
+	minimum height=4em,
+	node distance=3cm,
+    ]
+
+    % Place nodes
+    \node [block] (secuencia) {\small Secuencia};
+
+
+    \node [block, below of=secuencia] (pista) {\small Pistas};
+    \node [block, below right=0.25cm and 0.5cm of pista ] (complementos) {\small Complementos};
+
+    \node [block, below of=pista] (seccion) {\small Secciones};
+    \node [block, below of=seccion] (segmento) {\small Segmentos};
+    \node [block, below of=segmento] (articulacion) {\small Articulaciones};
+
+    \node [block, above left=0.25cm and 0.5cm of secuencia] (yaml) {\small YAML};
+    \node [block, below of=yaml] (defs) {\small Definiciones};
+    \node [block, below left=0.25cm and 0.5cm of seccion] (unidad) {\small Unidades};
+
+    \node [block, above right=0.25cm and 0.5cm of articulacion] (codi) {\small Codificador};
+    \node [block, below of=codi] (midi) {\small MIDI};
+
+    %\node [cloud, right of=init] (expert) {expert};
+    %\node [cloud, right of=init] (system) {system};
+
+    % \node [block, below of=init] (identify) {identify candidate models};
+    % \node [block, below of=identify] (evaluate) {evaluate candidate models};
+    % \node [block, left of=evaluate, node distance=3cm] (update) {update model};
+    % \node [decision, below of=evaluate] (decide) {is best candidate better?};
+    % \node [block, below of=decide, node distance=3cm] (stop) {stop};
+
+    % Draw edges
+    %\path [line] (init) -- (identify);
+    %\path [line] (identify) -- (evaluate);
+    %\path [line] (evaluate) -- (decide);
+    %\path [line] (decide) -| node [near start, color=black] {yes} (update);
+    %\path [line] (update) |- (identify);
+    %\path [line] (decide) -- node [, color=black ]{no}(stop);
+    %\path [line,dashed] (expert) -- (init);
+    %\path [line,dashed] (system) -- (init);
+    %\path [line,dashed] (system) |- (evaluate);
+
+\end{scope}
+\end{tikzpicture}
+

@@ -347,14 +347,14 @@ $endif$
 \usepackage[spanish]{babel}
 
 
-%\newcommand{\sectionbreak}{\clearpage}
+\newcommand{\sectionbreak}{\clearpage}
 
 % \widowpenalties 1 10000
 % \raggedbottom
-\usepackage{placeins} 
-\usepackage{flafter}  
-\usepackage[all]{nowidow}
-\widowpenalty=10000
+% \usepackage{placeins} 
+% \usepackage{flafter}  
+% \usepackage[all]{nowidow}
+% \widowpenalty=10000
 
 \begin{document}
 

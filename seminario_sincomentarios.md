@@ -854,7 +854,7 @@ la paleta de \texttt{unidades} disponibles,
 la \texttt{forma} indica la secuencia de unidades de primer grado
 y los \texttt{complementos} de usuario.  
 
-\input{ props_pista.tex }
+\input{props_pista}
 
 #### Propiedades de Unidad
 \nopagebreak[4]
@@ -865,9 +865,9 @@ que a su vez aloja sus cualidades.
 Esta es la lista de términos aceptados como propiedades
 para cada unidad.
 
-\input{ props_unidad.tex }
+\input{props_unidad}
 
-##### Articulaciones
+#### Articulaciones
 \nopagebreak[4]
 
 Si bien estructuralmente no se distingue otra jerarquía, las siguientes
@@ -889,7 +889,7 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 \texttt{registración} fija.
 
 
-\input{ props_articulaciones.tex }
+\input{props_articulaciones}
 
 [^ver_variego]:@variego 
 
@@ -902,6 +902,7 @@ están conectados entre ellos.
 
 Antes de la descripción de cada capa de abstracción, se gráfica la cadena de
 procesos con intensión de presentarla abarcable y facilitar su comprensión.
+
 
 
 \begin{center}
