@@ -53,10 +53,11 @@
     
 \begin{tikzpicture}[
     	%node distance = 2cm and 10cm,
+    	node distance=1.5cm,
     	auto
     ]
 \begin{scope}[
-    	node distance = 1cm
+    	node distance=1.5cm
     ]
 
     \tikzstyle{decision} = [
@@ -65,19 +66,19 @@
 	fill=blue!20, 
         text width=4.5em,
 	text badly centered,
-	node distance=3cm,
+	node distance=2cm,
 	inner sep=0pt
      ]
 
     \tikzstyle{block} = [
 	rectangle,
 	draw,
-	fill=blue!20, 
+	%fill=blue!20, 
 	text centered,
 	rounded corners,
-	%text width=8em, 
+	text width=2.5cm, 
 	text centered, 
-	%minimum height=4em,
+	minimum height=1cm,
 	%node distance=2cm and 1cm,
      ]
 
@@ -91,24 +92,36 @@
 	minimum height=4em,
 	node distance=3cm,
     ]
+    \tikzstyle{title} = [
+       %font=\fontsize{6}{6} \color{black!50} \ttfamily
+       fill=red!20,
+    ]
+    \tikzstyle{typetag} = [
+       %font=\fontsize{6}{6} \color{black!50} \ttfamily
+       fill=blue!20,
+       anchor=west,
+       rectangle,
+       draw=black!50,
+       font=\scriptsize\ttfamily,
+    ]
 
     % Place nodes
-    \node [block] (secuencia) {\small Secuencia};
+    % \node [block] (secuencia) {\small Secuencia};
 
 
-    \node [block, below of=secuencia] (pista) {\small Pistas};
-    \node [block, below right=0.25cm and 0.5cm of pista ] (complementos) {\small Complementos};
+    % \node [block, below of=secuencia] (pista) {\small Pistas};
+    % \node [block, below right=0.25cm and 1.5cm of pista ] (complementos) {\small Complementos};
 
-    \node [block, below of=pista] (seccion) {\small Secciones};
-    \node [block, below of=seccion] (segmento) {\small Segmentos};
-    \node [block, below of=segmento] (articulacion) {\small Articulaciones};
+    % \node [block, below of=pista] (seccion) {\small Secciones};
+    % \node [block, below of=seccion] (segmento) {\small Segmentos};
+    % \node [block, below of=segmento] (articulacion) {\small Articulaciones};
 
-    \node [block, above left=0.25cm and 0.5cm of secuencia] (yaml) {\small YAML};
-    \node [block, below of=yaml] (defs) {\small Definiciones};
-    \node [block, below left=0.25cm and 0.5cm of seccion] (unidad) {\small Unidades};
+    % \node [block, above left = 0.25cm and 1.5cm of secuencia] (yaml) {\small YAML};
+    % \node [block, below = 1.5cm of yaml] (defs) {\small Definiciones};
+    % \node [block, below left = 0.25cm and 1.5cm of seccion] (unidad) {\small Unidades};
 
-    \node [block, above right=0.25cm and 0.5cm of articulacion] (codi) {\small Codificador};
-    \node [block, below of=codi] (midi) {\small MIDI};
+    % \node [block, above right=0.25cm and 1.5cm of articulacion] (codi) {\small Codificador};
+    % \node [block, below of=codi] (midi) {\small MIDI};
 
     %\node [cloud, right of=init] (expert) {expert};
     %\node [cloud, right of=init] (system) {system};
@@ -130,6 +143,49 @@
     %\path [line,dashed] (system) -- (init);
     %\path [line,dashed] (system) |- (evaluate);
 
+    \node (unidad) [title] { Unidad };
+    \node (seccion) [below=of unidad.west, typetag, xshift=2mm] { Seccion };
+
+    \node (seg) [title] { Segmento };
+    \node (articulacion) [below=of seg.west, typetag] { Articulacion };
+    \node (segmento) [draw=black!50, fit={ (seg) (articulacion) } ] {};
+
+    \node [draw=black!50, fit={ (unidad) (seccion) (segmento) } ] {};
+
+
 \end{scope}
 \end{tikzpicture}
+
+
+
+
+
+\begin{tikzpicture}[
+  node distance=7mm,
+  title/.style={ font=\fontsize{6}{6} \color{black!50} \ttfamily },
+  typetag/.style={
+    rectangle,
+    draw=black!50,
+    font=\scriptsize\ttfamily,
+    anchor=west
+  }
+]
+
+  \node (decomp) [title] { Decomposition };
+
+  \node (di) [below=of decomp.west, typetag, xshift=2mm] { Independent };
+  \node (dr) [below=of di.west, typetag] { Reduction };
+  \node (dnc) [below=of dr.west, typetag] { DivideAndConquer };
+
+  \node [draw=black!50, fit={(decomp) (di) (dr) (dnc)}] {};
+
+  \node (dep) at (3cm, 0) [title] { Dependency };
+
+  \node (da) [below=of dep.west, typetag, xshift=2mm] { Atomic };
+  \node (dr) [below=of da.west, typetag] { Range };
+
+  \node [draw=black!50, fit={(dep) (dr) (da)}] {};
+\end{tikzpicture}
+
+%(inner sep, should probably be adjusted a bit)
 

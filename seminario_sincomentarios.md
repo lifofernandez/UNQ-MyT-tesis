@@ -746,8 +746,7 @@ cubiertas fueron suficientes para este proyecto y sirvió como marco
 el objetivo de dar soporte a todo aspecto comprendido por la librería[^ver_midiutil2].
 
 
-[^ver_midiutil2]: @midiutil para mayor información consultar documentación de
-  la librería.
+[^ver_midiutil2]: @midiutil.
 
 #### Otras herramientas
 \nopagebreak[4]
@@ -938,7 +937,7 @@ se encuentran en
 \hyperref[sec:codigo_secuencia]{Apéndice 6.1: Secuencia},
 \hyperref[sec:codigo_pista]{Apéndice 6.2: Pista},
 \hyperref[sec:codigo_complemento]{Apéndice 6.3: Complemento},
-\hyperref[sec:codigo_elemento]{Apéndice 6.4: Elemento},
+\hyperref[sec:codigo_elemento]{Apéndice 6.4: Unidad},
 \hyperref[sec:codigo_seccion]{Apéndice 6.5 : Sección},
 \hyperref[sec:codigo_segmento]{Apéndice 6.6: Segmento} y 
 \hyperref[sec:codigo_articulacion]{Apéndice 6.7: Articulación}
@@ -961,14 +960,13 @@ Importa rutinas en el módulo usuario (declarado en
 \hyperlink{complementos}{\texttt{complementos} de la pista}) como procesos
 capaces de manipular propiedades de cualquier elemento de la _Pista_.
 
-Posteriormente cada _Segmento_ busca coincidencia entre 
-cada
-\hyperlink{metodos_usuario}{método de usuario} y clave en sus propiedades,
+En concordancia cada _Segmento_ busca coincidencia entre 
+cada \hyperlink{metodos_usuario}{método de usuario} y clave en sus propiedades,
 delegando a la rutina de usuario la manipulación de los valores
 de la propiedad subordinada.
 
 
-#### Elemento
+#### Unidad
 
 Justifica esta meta clase la noción de una capa superior de agrupamiento y
 registro. Ademas de ahorrar alguna redundancia, habilita información de
@@ -999,8 +997,6 @@ cada resultante de esta combinatoria.
 Esta capa corresponde a pronunciamientos en el discurso.
 Es el producto de mecanismos superiores y la materia prima interpretada en la
 _Secuencia_ final asignando una llamada al codificador por cada instancia.
-
-
 
 ## Demostraciones
 
@@ -1061,7 +1057,7 @@ y varias disciplinas (IA, machine learning).
 \label{sec:codigo_complemento}
 \inputminted{python}{secuencia/complemento.py}
 
-## Elemento
+## Unidad
 \label{sec:codigo_elemento}
 \inputminted{python}{secuencia/elemento.py}
 \newpage

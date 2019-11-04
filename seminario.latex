@@ -303,6 +303,8 @@ $endif$
   decorations.markings,
   decorations.pathreplacing,
   decorations.pathmorphing,
+  positioning,
+  fit,
 }
 
 \tikzset{ >=stealth',
