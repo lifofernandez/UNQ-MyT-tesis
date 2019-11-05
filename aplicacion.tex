@@ -51,141 +51,305 @@
      
 % Define block styles
     
-\begin{tikzpicture}[
-    	%node distance = 2cm and 10cm,
-    	node distance=1.5cm,
-    	auto
-    ]
-\begin{scope}[
-    	node distance=1.5cm
-    ]
-
-    \tikzstyle{decision} = [
-	diamond,
-	draw,
-	fill=blue!20, 
-        text width=4.5em,
-	text badly centered,
-	node distance=2cm,
-	inner sep=0pt
-     ]
-
-    \tikzstyle{block} = [
-	rectangle,
-	draw,
-	%fill=blue!20, 
-	text centered,
-	rounded corners,
-	text width=2.5cm, 
-	text centered, 
-	minimum height=1cm,
-	%node distance=2cm and 1cm,
-     ]
-
-    \tikzstyle{line} = [draw, -latex']
-    \tikzstyle{cloud} = [
-	draw,
-	ellipse,
-	fill=red!20,
-	text width=8em, 
-	text centered, 
-	minimum height=4em,
-	node distance=3cm,
-    ]
-    \tikzstyle{title} = [
-       %font=\fontsize{6}{6} \color{black!50} \ttfamily
-       fill=red!20,
-    ]
-    \tikzstyle{typetag} = [
-       %font=\fontsize{6}{6} \color{black!50} \ttfamily
-       fill=blue!20,
-       anchor=west,
-       rectangle,
-       draw=black!50,
-       font=\scriptsize\ttfamily,
-    ]
-
-    % Place nodes
-    % \node [block] (secuencia) {\small Secuencia};
-
-
-    % \node [block, below of=secuencia] (pista) {\small Pistas};
-    % \node [block, below right=0.25cm and 1.5cm of pista ] (complementos) {\small Complementos};
-
-    % \node [block, below of=pista] (seccion) {\small Secciones};
-    % \node [block, below of=seccion] (segmento) {\small Segmentos};
-    % \node [block, below of=segmento] (articulacion) {\small Articulaciones};
-
-    % \node [block, above left = 0.25cm and 1.5cm of secuencia] (yaml) {\small YAML};
-    % \node [block, below = 1.5cm of yaml] (defs) {\small Definiciones};
-    % \node [block, below left = 0.25cm and 1.5cm of seccion] (unidad) {\small Unidades};
-
-    % \node [block, above right=0.25cm and 1.5cm of articulacion] (codi) {\small Codificador};
-    % \node [block, below of=codi] (midi) {\small MIDI};
-
-    %\node [cloud, right of=init] (expert) {expert};
-    %\node [cloud, right of=init] (system) {system};
-
-    % \node [block, below of=init] (identify) {identify candidate models};
-    % \node [block, below of=identify] (evaluate) {evaluate candidate models};
-    % \node [block, left of=evaluate, node distance=3cm] (update) {update model};
-    % \node [decision, below of=evaluate] (decide) {is best candidate better?};
-    % \node [block, below of=decide, node distance=3cm] (stop) {stop};
-
-    % Draw edges
-    %\path [line] (init) -- (identify);
-    %\path [line] (identify) -- (evaluate);
-    %\path [line] (evaluate) -- (decide);
-    %\path [line] (decide) -| node [near start, color=black] {yes} (update);
-    %\path [line] (update) |- (identify);
-    %\path [line] (decide) -- node [, color=black ]{no}(stop);
-    %\path [line,dashed] (expert) -- (init);
-    %\path [line,dashed] (system) -- (init);
-    %\path [line,dashed] (system) |- (evaluate);
-
-    \node (unidad) [title] { Unidad };
-    \node (seccion) [below=of unidad.west, typetag, xshift=2mm] { Seccion };
-
-    \node (seg) [title] { Segmento };
-    \node (articulacion) [below=of seg.west, typetag] { Articulacion };
-    \node (segmento) [draw=black!50, fit={ (seg) (articulacion) } ] {};
-
-    \node [draw=black!50, fit={ (unidad) (seccion) (segmento) } ] {};
-
-
-\end{scope}
-\end{tikzpicture}
-
-
-
-
-
-\begin{tikzpicture}[
-  node distance=7mm,
-  title/.style={ font=\fontsize{6}{6} \color{black!50} \ttfamily },
-  typetag/.style={
-    rectangle,
-    draw=black!50,
-    font=\scriptsize\ttfamily,
-    anchor=west
-  }
-]
-
-  \node (decomp) [title] { Decomposition };
-
-  \node (di) [below=of decomp.west, typetag, xshift=2mm] { Independent };
-  \node (dr) [below=of di.west, typetag] { Reduction };
-  \node (dnc) [below=of dr.west, typetag] { DivideAndConquer };
-
-  \node [draw=black!50, fit={(decomp) (di) (dr) (dnc)}] {};
-
-  \node (dep) at (3cm, 0) [title] { Dependency };
-
-  \node (da) [below=of dep.west, typetag, xshift=2mm] { Atomic };
-  \node (dr) [below=of da.west, typetag] { Range };
-
-  \node [draw=black!50, fit={(dep) (dr) (da)}] {};
-\end{tikzpicture}
+%\begin{tikzpicture}[
+%    	%node distance = 2cm and 10cm,
+%    	node distance=1.5cm,
+%    	auto
+%    ]
+%\begin{scope}[
+%    	node distance=1.5cm
+%    ]
+%
+%    \tikzstyle{decision} = [
+%	diamond,
+%	draw,
+%	fill=blue!20, 
+%        text width=4.5em,
+%	text badly centered,
+%	node distance=2cm,
+%	inner sep=0pt
+%     ]
+%
+%    \tikzstyle{block} = [
+%	rectangle,
+%	draw,
+%	%fill=blue!20, 
+%	text centered,
+%	rounded corners,
+%	text width=2.5cm, 
+%	text centered, 
+%	minimum height=1cm,
+%	%node distance=2cm and 1cm,
+%     ]
+%
+%    \tikzstyle{line} = [draw, -latex']
+%    \tikzstyle{cloud} = [
+%	draw,
+%	ellipse,
+%	fill=red!20,
+%	text width=8em, 
+%	text centered, 
+%	minimum height=4em,
+%	node distance=3cm,
+%    ]
+%    \tikzstyle{title} = [
+%       %font=\fontsize{6}{6} \color{black!50} \ttfamily
+%       fill=red!20,
+%    ]
+%    \tikzstyle{typetag} = [
+%       %font=\fontsize{6}{6} \color{black!50} \ttfamily
+%       fill=blue!20,
+%       anchor=west,
+%       rectangle,
+%       draw=black!50,
+%       font=\scriptsize\ttfamily,
+%    ]
+%
+%    % Place nodes
+%    % \node [block] (secuencia) {\small Secuencia};
+%
+%
+%    % \node [block, below of=secuencia] (pista) {\small Pistas};
+%    % \node [block, below right=0.25cm and 1.5cm of pista ] (complementos) {\small Complementos};
+%
+%    % \node [block, below of=pista] (seccion) {\small Secciones};
+%    % \node [block, below of=seccion] (segmento) {\small Segmentos};
+%    % \node [block, below of=segmento] (articulacion) {\small Articulaciones};
+%
+%    % \node [block, above left = 0.25cm and 1.5cm of secuencia] (yaml) {\small YAML};
+%    % \node [block, below = 1.5cm of yaml] (defs) {\small Definiciones};
+%    % \node [block, below left = 0.25cm and 1.5cm of seccion] (unidad) {\small Unidades};
+%
+%    % \node [block, above right=0.25cm and 1.5cm of articulacion] (codi) {\small Codificador};
+%    % \node [block, below of=codi] (midi) {\small MIDI};
+%
+%    %\node [cloud, right of=init] (expert) {expert};
+%    %\node [cloud, right of=init] (system) {system};
+%
+%    % \node [block, below of=init] (identify) {identify candidate models};
+%    % \node [block, below of=identify] (evaluate) {evaluate candidate models};
+%    % \node [block, left of=evaluate, node distance=3cm] (update) {update model};
+%    % \node [decision, below of=evaluate] (decide) {is best candidate better?};
+%    % \node [block, below of=decide, node distance=3cm] (stop) {stop};
+%
+%    % Draw edges
+%    %\path [line] (init) -- (identify);
+%    %\path [line] (identify) -- (evaluate);
+%    %\path [line] (evaluate) -- (decide);
+%    %\path [line] (decide) -| node [near start, color=black] {yes} (update);
+%    %\path [line] (update) |- (identify);
+%    %\path [line] (decide) -- node [, color=black ]{no}(stop);
+%    %\path [line,dashed] (expert) -- (init);
+%    %\path [line,dashed] (system) -- (init);
+%    %\path [line,dashed] (system) |- (evaluate);
+%
+%    \node (unidad) [title] { Unidad };
+%    \node (seccion) [below=of unidad.west, typetag, xshift=2mm] { Seccion };
+%
+%    \node (seg) [title] { Segmento };
+%    \node (articulacion) [below=of seg.west, typetag] { Articulacion };
+%    \node (segmento) [draw=black!50, fit={ (seg) (articulacion) } ] {};
+%
+%    \node [draw=black!50, fit={ (unidad) (seccion) (segmento) } ] {};
+%
+%
+%\end{scope}
+%\end{tikzpicture}
+%
+%
+%
+%
+%
+%\begin{tikzpicture}[
+%  node distance=7mm,
+%  title/.style={ font=\fontsize{6}{6} \color{black!50} \ttfamily },
+%  typetag/.style={
+%    rectangle,
+%    draw=black!50,
+%    font=\scriptsize\ttfamily,
+%    anchor=west
+%  }
+%]
+%
+%  \node (decomp) [title] { Decomposition };
+%
+%  \node (di) [below=of decomp.west, typetag, xshift=2mm] { Independent };
+%  \node (dr) [below=of di.west, typetag] { Reduction };
+%  \node (dnc) [below=of dr.west, typetag] { DivideAndConquer };
+%
+%  \node [draw=black!50, fit={(decomp) (di) (dr) (dnc)}] {};
+%
+%  \node (dep) at (3cm, 0) [title] { Dependency };
+%
+%  \node (da) [below=of dep.west, typetag, xshift=2mm] { Atomic };
+%  \node (dr) [below=of da.west, typetag] { Range };
+%
+%  \node [draw=black!50, fit={(dep) (dr) (da)}] {};
+%\end{tikzpicture}
 
 %(inner sep, should probably be adjusted a bit)
+
+
+
+
+%\begin{tikzpicture}[remember picture,
+%  simulator engine/.style={%
+%      thick,
+%      fill=blue!10,
+%      draw=black!75,
+%      rounded corners,
+%      inner ysep=4pt,
+%      inner xsep=4pt
+%  },
+%  empty simulator engine/.style={%
+%      fill=black!10,
+%      rounded corners,
+%      inner ysep=20pt,
+%      inner xsep=5pt
+%  },
+%  topology/.style={%
+%      general shadow={%
+%        shadow scale=1,
+%        shadow xshift=0.75ex,
+%        shadow yshift=0.75ex,
+%        opacity=0.75,
+%        fill=black!50,
+%        every shadow
+%      },
+%      rounded corners,
+%      thick,
+%      draw=blue!90,
+%      fill=blue!35,
+%      thick,
+%      inner ysep=2pt,
+%      inner xsep=2pt
+%  },
+%  empty topology/.style={%
+%      fill=blue!10,
+%      inner ysep=0pt,
+%      inner xsep=0pt
+%  },
+%  neuron/.style={%
+%      general shadow={%
+%        shadow scale=1,
+%        shadow xshift=0.5ex,
+%        shadow yshift=0.5ex,
+%        opacity=0.75,
+%        fill=black!50,
+%        every shadow
+%      },
+%      thick,
+%      fill=blue!10,
+%      draw=blue!75,
+%      rounded corners,
+%      inner ysep=2pt,
+%      inner xsep=2pt,
+%      minimum width=0.5cm
+%  },
+%  empty neuron/.style={%
+%      fill=blue!35,
+%      inner sep=0pt,
+%      minimum width=0.05cm
+%  },
+%  synapse/.style={%
+%      general shadow={%
+%        shadow scale=1,
+%        shadow xshift=0.5ex,
+%        shadow yshift=0.5ex,
+%        opacity=0.75,
+%        fill=black!50,
+%        every shadow
+%      },
+%      draw=red!75,
+%      thick,
+%      fill=red!20,
+%      rounded corners,
+%      inner ysep=3pt,
+%      inner xsep=3pt,
+%      minimum width=0.5cm
+%  },
+%  empty synapse/.style={%
+%      draw=blue!10,
+%      rounded corners,
+%      inner sep=1pt
+%  }
+%  ]
+%    \begin{tikzpicture}
+%
+%      \node[empty topology] (simulatorEngine-label) {Simulator Engine};
+%
+%      \node[topology,below=0.3cm of simulatorEngine-label,xshift=-4.3cm] (topology1) {%
+%
+%        \begin{tikzpicture}
+%          \node[empty neuron] (topology1-label) { Topology };
+%          \node [neuron,below=0.3cm of topology1-label,xshift=-1.6cm] (neuron1-1)  {
+%              \begin{tikzpicture}
+%                  \node [empty synapse] (synapse1-1-label) { pep };
+%                  \node [synapse,below=0.3cm of synapse1-1-label] (synapse1-1-0) { pep };
+%                  \node [synapse,below=0.1cm of synapse1-1-0] (synapse1-1-1) { pep };
+%                  \node [synapse,below=0.1cm of synapse1-1-1] (synapse1-1-2) { pep };
+%                  \node [empty synapse,below=0.1cm of synapse1-1-2] (synapse1-1-e) {\vdots};
+%                  \node [synapse,below=0.1cm of synapse1-1-e] (synapse1-1-n) { pep };
+%              \end{tikzpicture}
+%          };
+%        \end{tikzpicture}
+%      };
+%
+%    \end{tikzpicture}
+%
+%\end{tikzpicture}
+
+
+
+
+
+\begin{figure}[!htb]
+  \centering
+  \begin{tikzpicture} [
+      title/.style={font=\fontsize{18}{18}\color{black!45},align=center,on grid},
+      capt/.style={font=\fontsize{18}{18}\color{black!45},node distance=10em,anchor=west},
+      firm/.style={rectangle, draw, fill=blue!23, rounded corners, minimum width=6em,minimum height=3em,fill opacity=0.5},
+      industry/.style={rectangle, draw, fill=green!23, rounded corners, minimum width=9cm,minimum height=1.5cm,on grid,fill opacity=0.3},
+      region/.style={rectangle, draw, fill=red!23, rounded corners, minimum height=2em,fill opacity=0.3},
+    ]
+    % industry and region boxes
+    \node(IT)[industry]{};
+    \node(Ph)[industry,below=2cm of IT]{};
+
+    % place coordinates for later use
+    \coordinate(r1c1)at($(IT.west)!.2!(IT.east)$);
+    \coordinate(r1c2)at($(IT.west)!.5!(IT.east)$);
+    \coordinate(r1c3)at($(IT.west)!.85!(IT.east)$);
+
+    \coordinate(r2c1)at($(Ph.west)!.2!(Ph.east)$);
+    \coordinate(r2c2)at($(Ph.west)!.5!(Ph.east)$);
+    \coordinate(r2c3)at($(Ph.west)!.85!(Ph.east)$);
+
+    % firm boxes
+    \node(f1)[firm] at(r1c2){};
+    \node(f2)[firm] at(r2c2){};
+    \node(f3)[firm] at(r1c3){};
+    \node(f4)[firm] at(r2c3){};
+
+    % Place nodes
+    \node[title] at (r1c1){IT Services};
+    \node[title] at (r2c1){Pharmaceutical};
+
+    \node[title] at (r1c2){Infosys \\ WiPro};
+    \node[title] at (r2c2){Ranbaxy \\ Cipla};
+
+    \node[title] at (r1c3){Cap \\ Tsystems};
+    \node[title] at (r2c3){Novartis \\ GSK};
+
+    \node(IND)[title,yshift=1.2cm] at (r1c2) {India};
+    \node(EUR)[title,yshift=1.2cm] at (r1c3) {Europe};
+
+    % region boxes
+    \begin{scope}[on background layer]
+      \node[region,fit=(IND) (f2)]{};
+      \node[region,fit=(EUR) (f4)]{};
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Clients graph}
+\end{figure}
 

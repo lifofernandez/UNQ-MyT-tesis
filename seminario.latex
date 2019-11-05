@@ -305,6 +305,9 @@ $endif$
   decorations.pathmorphing,
   positioning,
   fit,
+  backgrounds,
+  petri,
+  shadows,
 }
 
 \tikzset{ >=stealth',
@@ -333,9 +336,12 @@ $endif$
   tuborg/.style={decorate},
   tubnode/.style={midway, right=2pt},
 }
+\renewcommand{\figurename}{Figure}
 
 %\usepackage[pdftex,pagebackref=true]{hyperref}
+
 \usepackage{hyperref}
+
 %\usepackage[dvipsnames]{xcolor}
 %\usepackage{sectsty}
 \hypersetup{
