@@ -902,11 +902,16 @@ están conectados entre ellos.
 Antes de la descripción de cada capa de abstracción, se gráfica la cadena de
 procesos con intensión de presentarla abarcable y facilitar su comprensión.
 
+\bigskip
 
 
-\begin{center}
+
 \input{aplicacion}
-\end{center}
+
+
+\bigskip
+\bigskip
+
 
 La rutina principal comienza leyendo, desde argumentos
 posicionales, definiciones de pista. Después de analizadas

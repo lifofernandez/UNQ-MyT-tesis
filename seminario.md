@@ -1014,15 +1014,19 @@ están conectados entre ellos.
 Antes de la descripción de cada capa de abstracción, se gráfica la cadena de
 procesos con intensión de presentarla abarcable y facilitar su comprensión.
 
-% \bigskip
-% \bigskip
-% \bigskip
+\bigskip
 
 % http://www.texample.net/tikz/examples/android/
 
-\begin{center}
+%\begin{center}
+
 \input{aplicacion}
-\end{center}
+
+%\end{center}
+
+\bigskip
+\bigskip
+
 
 La rutina principal comienza leyendo, desde argumentos
 posicionales, definiciones de pista. Después de analizadas

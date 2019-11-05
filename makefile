@@ -42,13 +42,13 @@ clean:
 # 	xdotool windowactivate $(CURRENT_WID)
 
 
-render --silent: 
+render: 
 	make props
 	make comentarios
 	make tex 
 	make pdf
 	make pdf # quick fix: table of contents.
-	firefox output.pdf
+	#firefox output.pdf
 
 verbose: 
 	make props

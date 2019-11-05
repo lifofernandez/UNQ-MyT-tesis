@@ -160,32 +160,33 @@
 %
 %
 %
-%\begin{tikzpicture}[
-%  node distance=7mm,
-%  title/.style={ font=\fontsize{6}{6} \color{black!50} \ttfamily },
-%  typetag/.style={
-%    rectangle,
-%    draw=black!50,
-%    font=\scriptsize\ttfamily,
-%    anchor=west
-%  }
-%]
-%
-%  \node (decomp) [title] { Decomposition };
-%
-%  \node (di) [below=of decomp.west, typetag, xshift=2mm] { Independent };
-%  \node (dr) [below=of di.west, typetag] { Reduction };
-%  \node (dnc) [below=of dr.west, typetag] { DivideAndConquer };
-%
-%  \node [draw=black!50, fit={(decomp) (di) (dr) (dnc)}] {};
-%
-%  \node (dep) at (3cm, 0) [title] { Dependency };
-%
-%  \node (da) [below=of dep.west, typetag, xshift=2mm] { Atomic };
-%  \node (dr) [below=of da.west, typetag] { Range };
-%
-%  \node [draw=black!50, fit={(dep) (dr) (da)}] {};
-%\end{tikzpicture}
+
+\begin{tikzpicture}[
+  node distance=7mm,
+  title/.style={ font=\fontsize{6}{6} \color{black!50} \ttfamily },
+  typetag/.style={
+    rectangle,
+    draw=black!50,
+    font=\scriptsize\ttfamily,
+    anchor=west
+  }
+]
+
+  \node (decomp) [title] { Decomposition };
+
+  \node (di) [below=of decomp.west, typetag, xshift=2mm] { Independent };
+  \node (dr) [below=of di.west, typetag] { Reduction };
+  \node (dnc) [below=of dr.west, typetag] { DivideAndConquer };
+
+  \node [draw=black!50, fit={(decomp) (di) (dr) (dnc)}] {};
+
+  \node (dep) at (3cm, 0) [title] { Dependency };
+
+  \node (da) [below=of dep.west, typetag, xshift=2mm] { Atomic };
+  \node (dr) [below=of da.west, typetag] { Range };
+
+  \node [draw=black!50, fit={(dep) (dr) (da)}] {};
+\end{tikzpicture}
 
 %(inner sep, should probably be adjusted a bit)
 
@@ -300,56 +301,53 @@
 %\end{tikzpicture}
 
 
-
-
-
-\begin{figure}[!htb]
-  \centering
-  \begin{tikzpicture} [
-      title/.style={font=\fontsize{18}{18}\color{black!45},align=center,on grid},
-      capt/.style={font=\fontsize{18}{18}\color{black!45},node distance=10em,anchor=west},
-      firm/.style={rectangle, draw, fill=blue!23, rounded corners, minimum width=6em,minimum height=3em,fill opacity=0.5},
-      industry/.style={rectangle, draw, fill=green!23, rounded corners, minimum width=9cm,minimum height=1.5cm,on grid,fill opacity=0.3},
-      region/.style={rectangle, draw, fill=red!23, rounded corners, minimum height=2em,fill opacity=0.3},
-    ]
-    % industry and region boxes
-    \node(IT)[industry]{};
-    \node(Ph)[industry,below=2cm of IT]{};
-
-    % place coordinates for later use
-    \coordinate(r1c1)at($(IT.west)!.2!(IT.east)$);
-    \coordinate(r1c2)at($(IT.west)!.5!(IT.east)$);
-    \coordinate(r1c3)at($(IT.west)!.85!(IT.east)$);
-
-    \coordinate(r2c1)at($(Ph.west)!.2!(Ph.east)$);
-    \coordinate(r2c2)at($(Ph.west)!.5!(Ph.east)$);
-    \coordinate(r2c3)at($(Ph.west)!.85!(Ph.east)$);
-
-    % firm boxes
-    \node(f1)[firm] at(r1c2){};
-    \node(f2)[firm] at(r2c2){};
-    \node(f3)[firm] at(r1c3){};
-    \node(f4)[firm] at(r2c3){};
-
-    % Place nodes
-    \node[title] at (r1c1){IT Services};
-    \node[title] at (r2c1){Pharmaceutical};
-
-    \node[title] at (r1c2){Infosys \\ WiPro};
-    \node[title] at (r2c2){Ranbaxy \\ Cipla};
-
-    \node[title] at (r1c3){Cap \\ Tsystems};
-    \node[title] at (r2c3){Novartis \\ GSK};
-
-    \node(IND)[title,yshift=1.2cm] at (r1c2) {India};
-    \node(EUR)[title,yshift=1.2cm] at (r1c3) {Europe};
-
-    % region boxes
-    \begin{scope}[on background layer]
-      \node[region,fit=(IND) (f2)]{};
-      \node[region,fit=(EUR) (f4)]{};
-    \end{scope}
-  \end{tikzpicture}
-  \caption{Clients graph}
-\end{figure}
+%\begin{figure}[!htb]
+%  \centering
+%  \begin{tikzpicture} [
+%      title/.style={font=\fontsize{18}{18}\color{black!45},align=center,on grid},
+%      capt/.style={font=\fontsize{18}{18}\color{black!45},node distance=10em,anchor=west},
+%      firm/.style={rectangle, draw, fill=blue!23, rounded corners, minimum width=6em,minimum height=3em,fill opacity=0.5},
+%      industry/.style={rectangle, draw, fill=green!23, rounded corners, minimum width=9cm,minimum height=1.5cm,on grid,fill opacity=0.3},
+%      region/.style={rectangle, draw, fill=red!23, rounded corners, minimum height=2em,fill opacity=0.3},
+%    ]
+%    % industry and region boxes
+%    \node(IT)[industry]{};
+%    \node(Ph)[industry,below=2cm of IT]{};
+%
+%    % place coordinates for later use
+%    \coordinate(r1c1)at($(IT.west)!.2!(IT.east)$);
+%    \coordinate(r1c2)at($(IT.west)!.5!(IT.east)$);
+%    \coordinate(r1c3)at($(IT.west)!.85!(IT.east)$);
+%
+%    \coordinate(r2c1)at($(Ph.west)!.2!(Ph.east)$);
+%    \coordinate(r2c2)at($(Ph.west)!.5!(Ph.east)$);
+%    \coordinate(r2c3)at($(Ph.west)!.85!(Ph.east)$);
+%
+%    % firm boxes
+%    \node(f1)[firm] at(r1c2){};
+%    \node(f2)[firm] at(r2c2){};
+%    \node(f3)[firm] at(r1c3){};
+%    \node(f4)[firm] at(r2c3){};
+%
+%    % Place nodes
+%    \node[title] at (r1c1){IT Services};
+%    \node[title] at (r2c1){Pharmaceutical};
+%
+%    \node[title] at (r1c2){Infosys \\ WiPro};
+%    \node[title] at (r2c2){Ranbaxy \\ Cipla};
+%
+%    \node[title] at (r1c3){Cap \\ Tsystems};
+%    \node[title] at (r2c3){Novartis \\ GSK};
+%
+%    \node(IND)[title,yshift=1.2cm] at (r1c2) {India};
+%    \node(EUR)[title,yshift=1.2cm] at (r1c3) {Europe};
+%
+%    % region boxes
+%    \begin{scope}[on background layer]
+%      \node[region,fit=(IND) (f2)]{};
+%      \node[region,fit=(EUR) (f4)]{};
+%    \end{scope}
+%  \end{tikzpicture}
+%  \caption{Clients graph}
+%\end{figure}
 
