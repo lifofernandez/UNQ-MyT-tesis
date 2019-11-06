@@ -1003,88 +1003,52 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 
 [^ver_variego]:@variego 
 
+\newpage
 %## Aplicación
 ## Implementación
-\nopagebreak[4]
+% \nopagebreak[4]
 
 En esta apartado se diagrama el flujo de procesos, se expone la estructura de
 la aplicación, detallando las funciones principales de cada componente y como
 están conectados entre ellos.
 
-Antes de la descripción de cada capa de abstracción,
-con intensión de
-% presentar
-% amigable y
-% abarcable y
-facilitar su comprensión,
-se gráfica la cadena de procesos de la rutina superior y seguido
-representación un caso de
-agrupamienetos y relaciones entre instancias
-centrales. 
+Antes de la descripción de cada capa de abstracción, con intensión de facilitar
+su comprensión y de carácter introductorio, se esqumatiza la cadena de procesos
+de la rutina superior, agrupamienetos y relaciones entre abstracciones
+internas. 
 
 \bigskip
-\begin{center}
+
 \begin{verbatim}
-
-%\small{      \      |        |          |      secciones +-----------------------+-----+     +-----+            /      }
-%\small{      \      |        | unidades |                                                                       /      }
-%\small{      \  def | pista  |          |      segmentos S           S           S     S     S       |          /      }
-%\small{      \      |        |                                                                       | Llamadas /      }
-%\small{      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      }
-%\small{ YAML \ ================================================================================================ / MIDI }   
-%\small{      \      |        |          |      secciones +---------------------- +----       +------            /      }      
-%\small{      \      |        | unidades |                                                                       /      }     
-%\small{      \  def | pista  |          |      segmentos S           S           S     S     S       |          /      } 
-%\small{      \      |        |                                                                       |          /      } 
-%\small{      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      } 
-
-
-
-
-
-
-
-
-
-
-
-      \      |        |          |      secciones +-----------            +-----------                   /      
-      \      |        | unidades |                                                                       /      
-      \  def | pista  |          |      segmentos S           S           S     S     S       |          /      
-      \      |        |                                                                       | Llamadas /      
-      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      
- YAML \ ================================================================================================ / MIDI 
-      \      |        |          |      secciones                  +---------- +-------------            /      
-      \      |        | unidades |                                                                       /      
-      \  def | pista  |          |      segmentos S   S    S       S     S     S      S       |          /      
-      \      |        |                                                                       | Llamadas /      
-      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      
-
-
-
-
-
-
-
-
-
-
-
+   YAML     / parser       | Secuencia      | codificador \ MIDI 
+   archivos / definiciones | Pistas         | tracks      \
+   -------- / ------------ | -------------- | ----------- \ 
+            /     Unidades = Secciones      |             \      
+            /     Unidades = Segmentos      = llamadas    \      
+            /              | Articulaciones = llamadas    \      
+   -------- / ------------ | -------------- | ----------- \ 
 \end{verbatim}
-\end{center}
+
 \bigskip
+
+%     \ parser | secuencia                                                                          codificador /
+%     \        |           |          |      secciones +-----------            +-----------                     /      
+%     \        |           | unidades |                                                                         /      
+%     \   def  |    pista  |          |      segmentos S           S           S     S     S       |            /      
+%     \        |           |                                                                       | llamadas   /      
+%     \        |           |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |            /      
+% YAML\   ==== | ============================================================================================== / MIDI 
+%     \        |           |          |      secciones                  +---------- +-------------              /      
+%     \        |           | unidades |                                                                         /      
+%     \   def  |    pista  |          |      segmentos S   S    S       S     S     S      S       |            /      
+%     \        |           |                                                                       | llamadas   /      
+%     \        |           |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |            /      
+
 
 % http://www.texample.net/tikz/examples/android/
-
 %\begin{center}
-
-\input{table}
-
+%\input{table}
 %\end{center}
-
-\bigskip
-\bigskip
-
 
 La rutina principal comienza leyendo, desde argumentos
 posicionales, definiciones de pista. Después de analizadas

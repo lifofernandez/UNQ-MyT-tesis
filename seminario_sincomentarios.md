@@ -892,69 +892,33 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 
 [^ver_variego]:@variego 
 
+\newpage
 ## Implementación
-\nopagebreak[4]
 
 En esta apartado se diagrama el flujo de procesos, se expone la estructura de
 la aplicación, detallando las funciones principales de cada componente y como
 están conectados entre ellos.
 
-Antes de la descripción de cada capa de abstracción,
-con intensión de
-facilitar su comprensión,
-se gráfica la cadena de procesos de la rutina superior y seguido
-representación un caso de
-agrupamienetos y relaciones entre instancias
-centrales. 
+Antes de la descripción de cada capa de abstracción, con intensión de facilitar
+su comprensión y de carácter introductorio, se esqumatiza la cadena de procesos
+de la rutina superior, agrupamienetos y relaciones entre abstracciones
+internas. 
 
 \bigskip
-\begin{center}
+
 \begin{verbatim}
-
-
-
-
-
-
-
-
-
-
-
-
-      \      |        |          |      secciones +-----------            +-----------                   /      
-      \      |        | unidades |                                                                       /      
-      \  def | pista  |          |      segmentos S           S           S     S     S       |          /      
-      \      |        |                                                                       | Llamadas /      
-      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      
- YAML \ ================================================================================================ / MIDI 
-      \      |        |          |      secciones                  +---------- +-------------            /      
-      \      |        | unidades |                                                                       /      
-      \  def | pista  |          |      segmentos S   S    S       S     S     S      S       |          /      
-      \      |        |                                                                       | Llamadas /      
-      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      
-
-
-
-
-
-
-
-
-
-
-
+   YAML     / parser       | Secuencia      | codificador \ MIDI 
+   archivos / definiciones | Pistas         | tracks      \
+   -------- / ------------ | -------------- | ----------- \ 
+            /     Unidades = Secciones      |             \      
+            /     Unidades = Segmentos      = llamadas    \      
+            /              | Articulaciones = llamadas    \      
+   -------- / ------------ | -------------- | ----------- \ 
 \end{verbatim}
-\end{center}
-\bigskip
-
-
-
-\input{table}
-
 
 \bigskip
-\bigskip
+
+
 
 
 La rutina principal comienza leyendo, desde argumentos

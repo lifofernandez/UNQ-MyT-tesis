@@ -263,6 +263,7 @@ $endif$
 
 \usepackage{minted}
 
+
 \setminted[yaml]{
 	framesep=2mm,
 	baselinestretch=1.2,
