@@ -899,14 +899,19 @@ En esta apartado se diagrama el flujo de procesos, se expone la estructura de
 la aplicación, detallando las funciones principales de cada componente y como
 están conectados entre ellos.
 
-Antes de la descripción de cada capa de abstracción, se gráfica la cadena de
-procesos con intensión de presentarla abarcable y facilitar su comprensión.
+Antes de la descripción de cada capa de abstracción,
+con intensión de
+facilitar su comprensión,
+se gráfica la cadena de procesos de la rutina superior y seguido
+representación un caso de
+agrupamienetos y relaciones entre instancias
+centrales. 
 
 \bigskip
 
 
 
-\input{aplicacion}
+\input{table}
 
 
 \bigskip

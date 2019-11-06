@@ -1,0 +1,127 @@
+\begin{tikzpicture}[node distance =0pt and 0.5cm]
+
+\matrix[table] (mat11) 
+{
+|[fill=redi]| & & & \\
+|[fill=bluev]| & & & \\
+|[fill=redi]| & |[fill=redi]| & |[fill=redi]| & |[fill=redi]| \\
+};
+\matrix[table,right=of mat11] (mat12) 
+{
+|[fill=orangei]| & |[fill=yellowii]| & |[fill=blueii]| & |[fill=blueiii]| \\
+& |[fill=blueii]| & |[fill=greeni]| & |[fill=blueiv]| \\
+|[fill=redi]| & |[fill=redi]| & |[fill=redi]| & |[fill=redi]| \\
+};
+\matrix[table,right=of mat12] (mat13) 
+{
+|[fill=orangei]| &  |[fill=blueii]| & |[fill=blueiii]| \\
+& |[fill=blueii]| & |[fill=greeni]| & |[fill=blueiv]| \\
+|[fill=redi]| & |[fill=redi]| & |[fill=redi]| & |[fill=redi]| \\
+};
+
+% \matrix[table,below=of mat11] (mat21) 
+% {
+% |[fill=redi]| & & & \\
+% |[fill=redi]| & & & \\
+% |[fill=yellowi]| & & & \\
+% |[fill=yellowi]| & & & \\
+% };
+% \matrix[table,below=of mat12] (mat22) 
+% {
+% |[fill=bluev!95]| & & |[fill=yellowii]| & |[fill=orangei!80]| \\
+% & |[fill=yellowii]| & |[fill=bluev!80]| & |[fill=blueiii]| \\
+% |[fill=redii]| & |[fill=blueiii!80]| & & |[fill=bluev]| \\
+% |[fill=bluev]| & & |[fill=blueiii!80]| & |[fill=bluev]| \\
+% };
+% 
+% \matrix[table,below=of mat21] (mat31) 
+% {
+% |[fill=redi]| & & & \\
+% |[fill=bluei]| & & & \\
+% };
+% \matrix[table,below=of mat22] (mat32) 
+% {
+% |[fill=bluev]| & & |[fill=redii]| & |[fill=redii!90!black]| \\
+% |[fill=redii!90]| & |[fill=redii!75!black]| & |[fill=bluev]| & |[fill=bluev!80!black]| \\
+% };
+
+\SlText{11-1-1}{Fibroadenoma [xx]}
+\SlText{11-1-2}{Simple Cyst}
+%\SlText{11-1-3}{Complex Cyst}
+\SlText{11-1-4}{Papilloma}
+
+\SlText{12-1-1}{CDI}
+%\SlText{12-1-2}{CLI}
+\SlText{12-1-3}{Pista}
+\SlText{12-1-4}{Unidad}
+
+\RowTitle{11}{Pistas};
+\CellText{11-1-1}{Secciones};
+\CellText{11-2-1}{Segmentos};
+\CellText{11-3-1}{Articulaciones};
+
+%\RowTitle{21}{Mass shape};
+%\CellText{21-1-1}{Oval};
+%\CellText{21-2-1}{Round};
+%\CellText{21-3-1}{Irregular};
+%
+%\RowTitle{31}{Mass orientation};
+%\CellText{21-4-1}{Lobular};
+%\CellText{31-1-1}{Parallel to skin};
+%\CellText{31-2-1}{Non-parallel to skin};
+
+\end{tikzpicture}
+
+\begin{tikzpicture}[
+    auto,
+    node distance = 2cm,
+    font=\small,
+    anchor=east,
+    every node/.style={
+	inner sep=0pt,
+	rectangle,
+	minimum height=2.5em,
+	text centered
+    },
+    comp/.style={
+	draw,
+	text width=2.5cm,
+	fill=blue!10
+    },
+    %comp/.style={draw,very thick,text width=2.5cm,fill=blue!10},
+    crit/.style={
+	draw,
+	text width=2cm
+     },
+]
+\matrix (m) [
+   ampersand replacement=\&,
+   %column sep=1.5mm,
+   %column sep=1.5mm,
+   %row sep=3mm
+]
+{
+\node (A) [comp] {Category\\One}; \&
+\node [crit] {Attribute\\One}; \&
+\node [crit] {Attribute\\Two}; \&
+\\
+\node [comp] {Category\\Two}; \&
+\node [crit] {Attribute\\Three}; \&
+\node [crit] {Attribute\\Four};
+\\
+\node (C) [comp] {Category\\Three}; \&
+\node [crit] {Attribute\\Five}; \&
+\node [crit] {Attribute\\Six}; \&
+\node [crit] {Attribute\\Seven};
+\\
+\node (D) [comp,text width=4cm] {Category\\Four}; \&
+\node [crit] {Attribute\\Eight}; \&
+\node [crit] {Attribute\\Nine}; \&
+\node [crit] {Attribute\\Ten}; \&
+\\
+};
+
+\draw[comp] (D.west |- A.north) coordinate (aux1) rectangle ($(C.south west) - (0mm,0mm)$) coordinate (aux2) {};
+\node[anchor=center, rotate=90] (X) at ($(aux1)!.5!(aux2)$) {Master one};
+
+\end{tikzpicture}
