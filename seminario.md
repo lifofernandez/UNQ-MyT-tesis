@@ -1023,6 +1023,56 @@ agrupamienetos y relaciones entre instancias
 centrales. 
 
 \bigskip
+\begin{center}
+\begin{verbatim}
+
+%\small{      \      |        |          |      secciones +-----------------------+-----+     +-----+            /      }
+%\small{      \      |        | unidades |                                                                       /      }
+%\small{      \  def | pista  |          |      segmentos S           S           S     S     S       |          /      }
+%\small{      \      |        |                                                                       | Llamadas /      }
+%\small{      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      }
+%\small{ YAML \ ================================================================================================ / MIDI }   
+%\small{      \      |        |          |      secciones +---------------------- +----       +------            /      }      
+%\small{      \      |        | unidades |                                                                       /      }     
+%\small{      \  def | pista  |          |      segmentos S           S           S     S     S       |          /      } 
+%\small{      \      |        |                                                                       |          /      } 
+%\small{      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      } 
+
+
+
+
+
+
+
+
+
+
+
+      \      |        |          |      secciones +-----------            +-----------                   /      
+      \      |        | unidades |                                                                       /      
+      \  def | pista  |          |      segmentos S           S           S     S     S       |          /      
+      \      |        |                                                                       | Llamadas /      
+      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      
+ YAML \ ================================================================================================ / MIDI 
+      \      |        |          |      secciones                  +---------- +-------------            /      
+      \      |        | unidades |                                                                       /      
+      \  def | pista  |          |      segmentos S   S    S       S     S     S      S       |          /      
+      \      |        |                                                                       | Llamadas /      
+      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      
+
+
+
+
+
+
+
+
+
+
+
+\end{verbatim}
+\end{center}
+\bigskip
 
 % http://www.texample.net/tikz/examples/android/
 

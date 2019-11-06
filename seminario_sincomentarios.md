@@ -908,6 +908,45 @@ agrupamienetos y relaciones entre instancias
 centrales. 
 
 \bigskip
+\begin{center}
+\begin{verbatim}
+
+
+
+
+
+
+
+
+
+
+
+
+      \      |        |          |      secciones +-----------            +-----------                   /      
+      \      |        | unidades |                                                                       /      
+      \  def | pista  |          |      segmentos S           S           S     S     S       |          /      
+      \      |        |                                                                       | Llamadas /      
+      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      
+ YAML \ ================================================================================================ / MIDI 
+      \      |        |          |      secciones                  +---------- +-------------            /      
+      \      |        | unidades |                                                                       /      
+      \  def | pista  |          |      segmentos S   S    S       S     S     S      S       |          /      
+      \      |        |                                                                       | Llamadas /      
+      \      |        |            articulaciones A A A A A A A A A A A A A A A A A A A A A A |          /      
+
+
+
+
+
+
+
+
+
+
+
+\end{verbatim}
+\end{center}
+\bigskip
 
 
 
