@@ -5,24 +5,24 @@ install:
 	pip install pygments jinja2 yaml
 	
 comentarios:
-	cat seminario.md | grep -v '^%' > seminario_sincomentarios.md
+	@cat seminario.md | grep -v '^%' > seminario_sincomentarios.md
 
 props:
-	python propiedades.py
+	@python propiedades.py
 
 tex:
-	pandoc \
+	@pandoc \
 	seminario_sincomentarios.md \
        	--template=seminario \
 	-s --csl=vendor/iso690-author-date-es.csl \
 	--filter=pandoc-citeproc \
 	--toc --toc-depth=4 --number-sections \
 	-o output.tex
-
-#revisar por quer no anda -V colorlinks \
+	
+# -V colorlinks \ #revisar por que no anda
 
 pdf:
-	xelatex \
+	@xelatex \
 	-interaction=batchmode \
 	-shell-escape output.tex
 verb:
@@ -30,25 +30,16 @@ verb:
 	-shell-escape output.tex
 	
 clean: 
-	rm _minted-output* -r
-	rm output.* 
-
-# CURRENT_WID := $(shell xdotool getwindowfocus)
-# WID := $(shell xdotool search --name "Mozilla Firefox")
-# 
-# reload:
-# 	xdotool windowactivate $(WID)
-# 	xdotool key --clearmodifiers ctrl+r
-# 	xdotool windowactivate $(CURRENT_WID)
+	-@rm _minted-output* -r 2>/dev/null || true
+	-@rm output.* 2>/dev/null || true
 
 
 render: 
-	make props
-	make comentarios
-	make tex 
-	make pdf
-	make pdf # quick fix: table of contents.
-# firefox output.pdf
+	@make props
+	@make comentarios
+	@make tex 
+	@make pdf # quick fix: table of contents.
+	@make pdf
 
 verbose: 
 	make props
@@ -79,5 +70,13 @@ tesauro:
 #	-V links-as-notes \
 # 	-V linkcolor:blue \
  
+
+# CURRENT_WID := $(shell xdotool getwindowfocus)
+# WID := $(shell xdotool search --name "Mozilla Firefox")
+# 
+# reload:
+# 	xdotool windowactivate $(WID)
+# 	xdotool key --clearmodifiers ctrl+r
+# 	xdotool windowactivate $(CURRENT_WID)
 
  

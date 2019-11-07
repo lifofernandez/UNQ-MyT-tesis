@@ -382,6 +382,7 @@ El énfasis está en **asistido**:
 Apreciación de todo el potencial de Humdrum es definitivamente a partir de la
 experiencia. En palabras de David Huron:
 
+\hypertarget{experiencia}{}
 > Cualquier conjunto de herramientas requiere el desarrollo de una experiencia
 > concomitante, y Humdrum Toolkit no es una excepción. Espero que la inversión
 > de el tiempo requerido para aprender a usar Humdrum será más que compensado
@@ -393,6 +394,7 @@ histioriadores han sido mas lentos para reconocer el potencial del sistema.
 
 
 #### CLI vs GUI
+\label{sec:CLIvsGUI}
 \nopagebreak[4]
 
 Humdrum u otros sistemas como él ofrecen los recursos para una marcar un
@@ -633,8 +635,8 @@ y algunas consideraciones acerca de el léxico acuñado.
   (1): NoTAMIDI Meta-Events
 
 #### Formato YAML
-\nopagebreak[4]
 \label{sec:sintaxis}
+\nopagebreak[4]
 
 Las definiciones de pista son regidas por YAML. Si bien el vocabulario
 aceptado es propio de este proyecto, todas las interpretaciones son gestionadas
@@ -725,7 +727,7 @@ En la presentación oficial del entorno dice:
 * Analizar y emitir eventos de bajo nivel, con la posibilidad alternativa de
   emplear la librería de sistema LibYAML.
 
-* Poseer una interface de programación de alto nivel sencilla para objetos nativos
+* Poseer una interfaz de programación de alto nivel sencilla para objetos nativos
   Python. Con soporte para todos los tipos de datos de la especificación.
 
 #### Codificación de Salida 
@@ -899,26 +901,24 @@ En esta apartado se diagrama el flujo de procesos, se expone la estructura de
 la aplicación, detallando las funciones principales de cada componente y como
 están conectados entre ellos.
 
-Antes de la descripción de cada capa de abstracción, con intensión de facilitar
-su comprensión y de carácter introductorio, se esqumatiza la cadena de procesos
-de la rutina superior, agrupamienetos y relaciones entre abstracciones
-internas. 
+Antes de la descripción de cada capa de abstracción,
+con intensión de facilitar la comprensión,
+se presenta un esquema de la cadena de procesos
+de la rutina superior y relaciones internas. 
 
 \bigskip
 
 \begin{verbatim}
-   YAML     / parser       | Secuencia      | codificador \ MIDI 
-   archivos / definiciones | Pistas         | tracks      \
-   -------- / ------------ | -------------- | ----------- \ 
-            /     Unidades = Secciones      |             \      
-            /     Unidades = Segmentos      = llamadas    \      
-            /              | Articulaciones = llamadas    \      
-   -------- / ------------ | -------------- | ----------- \ 
+   YAML     \ parser       | Secuencia      | codificador / MIDI 
+   archivos \ definiciones | Pistas         | tracks      /
+   -------- \ ------------ | -------------- | ----------- / 
+            \     Unidades = Secciones      |             /      
+            \     Unidades = Segmentos      = llamadas    /      
+            \              | Articulaciones = llamadas    /      
+   -------- \ ------------ | -------------- | ----------- / 
 \end{verbatim}
 
 \bigskip
-
-
 
 
 La rutina principal comienza leyendo, desde argumentos
@@ -1035,23 +1035,73 @@ Códigos
 Capturas
 
 
-### Polimetría
-Paterns con duraciones no equivalentes
-
-#### YAML
-Códigos
-
-#### Partitura
-Capturas
-
 
 
 # Concluciones
 
-aplicaciones posibles 
-en diferentes escenarios 
-(online, archivología, livecodig)
-y varias disciplinas (IA, machine learning).
+
+
+
+Negociar con la carencia de una representación gráfica del discurso y la
+imposibilidad de manipulaciones mediante interfaces de entrada espaciales
+aportan un grado de abstracción que puede provocar cierta reticencia, valida y
+\hyperlink{experiencia}{reconocida en el estudio de los referentes}, a la cual
+el desarrollo de este proyecto no escapa.
+
+El vinculo entre un sistema y el usuario 
+es radicalmente definido por su interfaz,
+cualquiera, ya sea gráfica,
+Aunque de aparenta ser mas intuitivo
+no escapa al requerimiento 
+necesita de un ejercicio, 
+
+en este caso
+ventajas significante
+compensa
+el ejercicio requerido
+Podriamos colgar
+ \hyperref[sec:CLIvsGUI]{
+a esta defininicion
+} 
+
+Para nuevos usuarios de la terminal la compensacion es doble
+y no se limita a esta aplicacion, sino a cualquiera que pueda ser operada 
+por terminal.
+
+
+* Secuenciación avanzada,
+consiguinedo sincronía entre
+series de notas y mensajes de control
+
+
+* En el capo de la musicología y teoría
+Describir musicales preexistentes
+presupone un analisis y estudio discursivo 
+
+
+* Composición/ Planificación
+En areas como la composicion, mas espcificamente en la planificacion de obra
+tener el discurso definido del modo propuesto
+vuelve el proceso de prueba y comparacion A/B muy sencillo
+maleable
+puediendo generar variaciones de una misma estructura 
+
+* Archivología
+
+* IA / Machine Lerning
+
+* LiveCoding
+
+* online secuencing / trabajo colaborativo en tiempo real y a distancia 
+
+Extensiones, agregados y mejoras
+
+* Atajos de registraciones
+
+* Atajos de patrones
+
+* Mejoras en la interfaz de complementos de usuarios
+
 
 
 # Apéndice
@@ -1093,7 +1143,6 @@ y varias disciplinas (IA, machine learning).
 
 \newpage
 # Bibliografía
-
 
 
 
