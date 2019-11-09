@@ -79,6 +79,7 @@ Para concluir esta introducción se tratan trabajos semejantes de cierta
 relevancia a este proyecto.
 
 ## Justificación 
+\label{sec:justi}
 
 En este apartado se repasan las ventajas principales del registro de
 información con enunciados textuales y del empleo del lenguaje como medio
@@ -1127,56 +1128,54 @@ Capturas
 % histioriadores han sido mas lentos para reconocer el potencial del sistema. 
 
 
-Negociar con la carencia de una representación gráfica del discurso y la
-imposibilidad de manipulaciones mediante interfaces de entrada espaciales
-aportan un grado de abstracción que puede provocar cierta reticencia, valida y
-\hyperlink{experiencia}{reconocida en el estudio de los referentes}, a la cual
-el desarrollo de este proyecto no escapa.
-
 %Entender y sacar provecho de un sistema,
-El vinculo entre un sistema y el usuario 
-es radicalmente definido por su interfaz,
-% con un sistema de la manera propuesta
-cualquiera, ya sea gráfica,
-Aunque de aparenta ser mas intuitivo
-no escapa al requerimiento 
-necesita de un ejercicio, 
+%El vinculo entre un sistema y el usuario 
+%es radicalmente definido por su interfaz,
 
-en este caso
-ventajas significante
-compensa
-el ejercicio requerido
-Podriamos colgar
- \hyperref[sec:CLIvsGUI]{
-a esta defininicion
-} 
+%cualquiera, ya sea gráfica,
+%Aunque de aparenta ser mas intuitivo
+%no escapa al requerimiento 
+%necesita de un ejercicio, 
 
-Para nuevos usuarios de la terminal la compensacion es doble
-y no se limita a esta aplicacion, sino a cualquiera que pueda ser operada 
-por terminal.
+%  \hyperref[sec:CLIvsGUI]{
+% a esta defininicion
+% } 
 
-% Posibles aplicaciones
+Lidiar con un sistema de producción musical carente de una representación
+gráfica del discurso, sumando a la incapacidad de manipulaciones mediante
+interfaces de entrada espaciales aportan un grado de abstracción al proceso que
+puede provocar cierta reticencia, valida y \hyperlink{experiencia}{reconocida
+previamente en el estudio del marco referencial}, a la cual la aplicación de
+este proyecto no está exento.
 
-* Secuenciación avanzada,
-consiguinedo sincronía entre
-series de notas y mensajes de control
+Pero esta oposición se ve compensada por la promesa de ventajas
+significantes, \hyperref[sec:justi]{que de carácter general fueron repasadas
+anteriormente}, en un escenario especifico a la producción, manipulación y
+archivo de información musical, se destacan:
 
+% comparación A/B maleable
 
-* En el capo de la musicología y teoría
-Describir musicales preexistentes
-presupone un analisis y estudio discursivo 
+Agiliza el proceso compositivo, desde la planificación de obra.  El ejercicio
+de registrar el discurso del modo propuesto facilita la propagación de
+actualizaciones, agregados Y variaciones a lo largo de toda la estructura, así
+como también es provechosa partes aisladas la capacidad de mezclar entre
+diferentes piezas.
 
+% describir musicales preexistentes
+% presupone un análisis y estudio discursivo 
+% bases de datos
 
-* Composición/ Planificación
-En areas como la composicion, mas espcificamente en la planificacion de obra
-tener el discurso definido del modo propuesto
-vuelve el proceso de prueba y comparacion A/B muy sencillo
-maleable
-puediendo generar variaciones de una misma estructura 
+La secuenciación avanzada, consiguiendo considerable nivel de
+detalle en el control y sincronía entre eventos.
 
-* Archivología
+En el campo de la musicología y trabajo teórico Corpus de definiciones de
+pieza, de información analítica de obras.
 
-% Potenciales aplicaciones
+Ventajas justificantes que no fomentan la mayoría de las interfaces gráficas de
+usuario.
+
+% #### Potenciales aplicaciones
+
 * IA / Machine Lerning
 
 %https://en.wikipedia.org/wiki/Constrained_conditional_model
