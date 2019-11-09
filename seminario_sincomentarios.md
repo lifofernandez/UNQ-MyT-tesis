@@ -23,7 +23,6 @@
   # para interfaz de linea de comandos
 ---
 
-
 # Resumen 
 
 El presente trabajo propone un contexto de producción musical puramente
@@ -34,8 +33,8 @@ gramaticales que posibilitan la representación sintáctica de información con
 significado musical; un léxico y una sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
-Acompaña esta propuesta un entorno de herramientas, para interprete de línea de
-comandos [^ver_interprete]. Es otro aporte importante del actual desarrollo
+Acompaña esta propuesta un entorno de herramientas para Intérprete de
+Comandos[^ver_interprete]. Es otro aporte importante del actual desarrollo
 esta cadena de procesos que consume información suscrita a dicha
 representación; derivando esta manipulación en la producción de secuencias de
 mensajes en el formato MIDI estándar. 
@@ -52,7 +51,7 @@ procedimiento de desarrollo.
 La parte central de este trabajo versa sobre el vocabulario y relaciones que
 conforman la gramática propuesta, se explica como dicha representación habilita
 que la semántica musical pueda ser materia prima de esta serie de procesos y se
-despliegan el resultado de algunos ejemplos a modo de demostración.
+despliega el resultado de algunos ejemplos a modo de demostración.
 
 Para concluir se proyectan algunas aplicaciones posibles en diferentes
 escenarios (trabajo colaborativo en simultaneo y a distancia, programación en
@@ -66,20 +65,17 @@ de los módulos desarrollados para la implementación.
 [^ver_combs]: @coombs 
 [^ver_interprete]: @interprete
 
-
 # Introducción
 
-En esta sección inaugural se enmarca la investigación,
-argumentando la constricción principal,
-la adopción de un sistema de escritura
-como contenedor instrucciones y medio de interacción.
+En esta sección inaugural se enmarca la investigación, argumentando la
+constricción principal, la adopción de un sistema de escritura como contenedor
+de instrucciones y medio de interacción.
 
-Seguido se repasan
-las necesidades que denotan la pertinencia de este estudio,
+Seguido se repasan las necesidades que denotan la pertinencia de este estudio,
 aludiendo a requerimientos externos a satisfacer.
 
-Para concluir esta introducción
-se tratan trabajos semejantes de cierta relevancia a este proyecto.
+Para concluir esta introducción se tratan trabajos semejantes de cierta
+relevancia a este proyecto.
 
 ## Justificación 
 
@@ -98,17 +94,15 @@ de entrada de instrucciones en escenarios generales.
 
 \bigskip
 
-Se listan las virtudes del texto plano y legible
-en contraste a la codificación binaria de datos [^ver_hunt]
-o cualquier otro tipo de operación que opaque 
-la relación con lo representado 
+Se listan las virtudes del texto plano y legible en contraste a la codificación
+binaria de datos [^ver_hunt] o cualquier otro tipo de operación que opaque la
+relación con lo representado 
 
 **Mínimo Común Denominador.**
-Potencialmente cualquier herramienta de computo puede operar
-información almacenada en texto plano.
-Es soportado en múltiples plataformas,
-cada sistema operativo cuenta con al menos un editor de texto todos
-compatibles hasta la codificación de caracteres. 
+Potencialmente cualquier herramienta de computo puede operar información
+almacenada en texto plano.  Es soportado en múltiples plataformas, cada sistema
+operativo cuenta con al menos un editor de texto todos compatibles hasta la
+codificación de caracteres. 
 
 **Fácil de manipular.** 
 Procesar cadenas de caracteres es de los trabajos mas rudimentales que pueden
@@ -130,18 +124,16 @@ almacenamiento escaso, velocidad de computo restringida o conexiones lentas.
 
 **Seguro contra la obsolescencia, o compatible con el avance.**
 Los archivos de datos en formatos legibles y autodescriptivos perduran por
-sobre otros formatos aun cuando caduquen las aplicaciones con las hayan sido
-creados.[^ver_leek] 
+sobre otros formatos aun cuando caduquen las aplicaciones que las hayan
+creado.[^ver_leek] 
 
 [^ver_hunt]: @hunt Capítulo 3: Basic Tools (pp. 72-99).
 [^ver_leek]: @leek
 
-### Interprete de Comandos
+### Intérprete de Comandos
 
-Se argumenta la conveniencia
-de prescindir de representaciones gráficas
-como canal de interacción con herramientas
-informáticas.
+Se argumenta la conveniencia de prescindir de representaciones gráficas como
+canal de interacción con herramientas informáticas.
 
 **Estado operativo de un ordenador inicial.** 
 Eventualmente todos los sistemas operativos permiten ser 
@@ -151,14 +143,12 @@ utilizados a través de este acceso previo al gerente de escritorio.
 No depender de un agente de ventanas interviniendo entre el usuario y el
 sistema libra una cantidad considerable de recursos.  
 
-**Una interfaz para diferentes aplicaciones.**
-La estructura esperada de las instrucciones en esta interfaz
-*aplicación - argumento - recurso* (su analogía *verbo - adverbio - sujeto*)
-persiste para cualquier pieza de software.
-Dicha recurrencia elimina el ejercicio que significa un operar 
-distinto para cada aplicación,
-favoreciendo un accionar semejante en contextos y
-circunstancias diferentes.
+**Una única interfaz para multiples aplicaciones.**
+La estructura esperada de las instrucciones en esta interfaz *aplicación -
+argumento - recurso* (su analogía *verbo - adverbio - sujeto*) persiste para
+cualquier pieza de software. Dicha recurrencia elimina el ejercicio que
+significa un operar distinto para cada aplicación, favoreciendo un accionar
+semejante en contextos y circunstancias diferentes.
 
 **Tradición.**
 Perdura por décadas como estándar durante la historia de la
@@ -171,10 +161,9 @@ que representa la posición del puntero como parámetros de instrucciones,
 permite que sean recopiladas en secuencias de acciones precisas,
 reutilizar estos guiones en diferentes escenarios y agentes diversos.
 
-**Encadenado**
-La posibilidad de componer 
-rutinas complejas de manipulación
-concatenando resultados con procesos. [^ver_raymond]
+**Encadenado y Automatización.**
+La posibilidad de componer rutinas complejas de manipulación concatenando
+resultados con procesos. [^ver_raymond]
 
 **Gestión remota.**
 Mas allá del protocolo en el que se base la negociación local/remoto la
@@ -197,7 +186,7 @@ Siendo estas razones de carácter general,
 las mismas aplican al propósito particular
 que implica este estudio.
 
-### Interface Digital para Instrumentos Musicales (MIDI)
+### Interfaz Digital para Instrumentos Musicales (MIDI)
 \label{sec:porque_midi}
 
 De carácter especifico a la producción musical, en relación directa a este
@@ -269,7 +258,7 @@ comunes de información. La mayoría de las codificaciones derivadas definen
 sólo algunas de las las características incluidas en el master MuseData de
 codificaciones. El archivo MuseData está diseñado para soportar aplicaciones de
 sonido, gráficos y análisis. Los formatos derivados de las codificaciones
-musicales de MuseData que se distribución son: MIDI1, MIDI+ y Humdrum.
+musicales de MuseData que se distribuyen son: MIDI1, MIDI+ y Humdrum.
 
 [^ver_selfridge]: @selfridge Capitulo 27: MuseData: Multipurpose Representation
 
@@ -286,12 +275,11 @@ agrupados en un directorio para ese movimiento.
 #### La representación MuseData de información musical
 
 El propósito de la sintaxis MuseData es representar el contenido lógico de una
-pieza musical de una modo neutral. El código se utiliza actualmente en la
-construcción de bases de datos de texto completo de música de varios
-compositores, J.S. Bach, Beethoven, Corelli, Handel, Haydn, Mozart, Telemann y
-Vivaldi. Se pretende que estas bases de datos de texto completo se utilicen
-para la impresión de música, análisis musical y producción de archivos de sonido 
-digitales.
+pieza musical de un modo neutral. El código se utilizó en la construcción de
+bases de datos de texto completo de música de varios compositores, J.S. Bach,
+Beethoven, Corelli, Handel, Haydn, Mozart, Telemann y Vivaldi. Se pretende que
+estas bases de datos de texto completo se utilicen para la impresión de
+partituras, análisis musical y producción de archivos de sonido digitales.
 
 Aunque el código MuseData está destinado a ser genérico, se han desarrollado
 piezas de software de diversos tipos con el fin de probar su eficacia. Las
@@ -313,11 +301,11 @@ codificar la posición exacta de cada nota en la página; pero nuestra opinión 
 que tal codificación realmente contendría más información que la que el
 compositor pretende transmitir.
 
-* No se puede anticipar todos los usos a los cuales podrían darse estos datos,
-pero se pude estar bastante seguro de que cada usuario tendrá sus propias
-necesidades especiales y preferencias. Por lo tanto, no tiene sentido tratar de
-codificar información acerca de cómo debe verse una realización gráfica de los
-datos o cómo sonido que estos datos representan debe sonar.
+* No se puede anticipar todos los usos que podrían darse a estos datos, pero si
+  asegurar que cada usuario tendrá sus propias necesidades especiales y
+preferencias. Por lo tanto, no tiene sentido tratar de codificar información
+acerca de cómo debe verse una representación gráfica de los datos o cómo 
+estos datos deben sonar.
 
 Por otro lado, a veces puede ser útil hacer sugerencias sobre cómo los gráficos
 y el sonido deben ser realizados. Lo importante es identificar las sugerencias
@@ -332,7 +320,7 @@ David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado
 constantemente por décadas. Humdrum es un conjunto de herramientas de línea de
 comandos que facilita el análisis, así como una sintaxis generalizada para
 representar secuencias de datos.
-Debido a que el conjunto de herramientas es de lenguaje de agnóstico.
+Debido a que el conjunto de herramientas es de lenguaje agnóstico.
 Muchos han empleado herramientas de Humdrum en secuencias de comandos
 más grandes que utilizan PERL, Ruby, Python, Bash, LISP y C++.
 
@@ -360,7 +348,7 @@ El énfasis está en **asistido**:
 * Humdrum no posee facultades analíticas de nivel superior per se.
 
 * Más bien, *su poder deriva de la flexibilidad de su kit de elementos,
-  utilizados en combinacióin* para explotar plenamente el potencial del
+  utilizados en combinacióin* para aprovechar plenamente el potencial del
   sistema.
 
 #### De la experiencia a la apreciación 
@@ -371,7 +359,7 @@ experiencia. En palabras de David Huron:
 \hypertarget{experiencia}{}
 > Cualquier conjunto de herramientas requiere el desarrollo de una experiencia
 > concomitante, y Humdrum Toolkit no es una excepción. Espero que la inversión
-> de el tiempo requerido para aprender a usar Humdrum será más que compensado
+> del tiempo requerido para aprender a usar Humdrum sea más que compensado
 > por ganancias académicas posteriores.
 
 Los usuarios de Humdrum hasta ahora han tendido a trabajar en la percepción de
@@ -382,7 +370,7 @@ histioriadores han sido mas lentos para reconocer el potencial del sistema.
 #### CLI vs GUI
 \label{sec:CLIvsGUI}
 
-Humdrum u otros sistemas como él ofrecen los recursos para una marcar un
+Humdrum u otros sistemas como él ofrecen los recursos para marcar un
 paradigma para la investigación musical.  
 
 El tedio de recopilar pruebas sólidas que apoyen las propias teorías pueden ser
@@ -406,14 +394,13 @@ un factor en la evolución de nuestra disciplina.
 
 ### MusicXML
 
-MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música
-entre aplicaciones y archivar registros de música para uso en el futuro.
-Se puede contar con archivos de MusicXML que son legibles y utilizables por una
-amplia gama de notaciones musicales, ahora y en el futuro.
-MusicXML complementa al los formatos de archivo utilizados por Finale y otros
-programas.
+MusicXML[^ver_good] fue diseñado desde cero para compartir archivos de música
+entre aplicaciones y archivar registros de música para uso en el futuro.  Se
+puede contar con archivos de MusicXML que son legibles y utilizables por una
+amplia gama de notaciones musicales, ahora y en el futuro. MusicXML complementa
+formatos de archivo utilizados por Finale y otros programas.
 
-MusicXML se pretende un el estándar para compartir partituras interactivas,
+MusicXML pretende ser un estándar para compartir partituras interactivas,
 dado que facilita crear música en un programa y exportar sus resultados a otros
 programas. Al momento más de 220 aplicaciones incluyen compatibilidad con
 MusicXML.
@@ -424,8 +411,8 @@ MusicXML.
 
 El Lenguaje de Marcado de Música (MML)[^ver_mml] es un intento de marcar
 objetos y eventos de música con un lenguaje basado en XML. La marcación de
-estos objetos debería permitir gestionar la música documentos para diversos
-fines, desde la teoría musical y la notación hasta rendimiento práctico. Este
+estos objetos debería permitir gestionar música en documentos para diversos
+fines, desde la teoría musical y la notación hasta el rendimiento práctico. Este
 proyecto no está completo y está en progreso. El primer borrador de una posible
 DTD está disponible y se ofrecen algunos ejemplos de piezas de música marcadas
 con MML.
@@ -497,23 +484,22 @@ declarativa de Lisp, expresando que "no tiene sintaxis. Escribes programas en
 árboles de análisis... [que] son totalmente accesibles a tus programas. Puedes
 escribir programas que los manipulen...  programas que escriben
 programas".[^ver_graham2] Aunque Flocking está escrito en JavaScript, comparte
-con Lisp el enfoque expresar programas dentro de estructuras de datos que estén
-disponibles para su manipulación por otros programas.
+con Lisp el enfoque para expresar programas dentro de estructuras de datos que
+estén disponibles para su manipulación por otros programas.
 
 [^ver_graham2]: @graham2
 
 \bigskip
 
 Si bien la recopilación expuesta no agota la lista de referentes
-pertinentes y surgirán otros que cobraran relevancia,
-provee un criterio para proceder.
+pertinentes y que surgirán otros que cobraran relevancia,
+provee un criterio inicial para proceder.
 
 # Metodología
 
 En este capitulo se introduce el procedimiento de ejecución en el que
-se pueden distinguir tres etapas, una preparatoria, dedicada a investigación,
-experimentación y pruebas, deviene la fase de producción en si que culmina en 
-una etapa de retoques, depuración de errores y defectos.
+se pueden distinguir dos etapas, una preparatoria, dedicada a investigación,
+experimentación y pruebas que deviene consecuentemente en la fase de producción.
 
 Se aprovecha para reseñar herramientas preexistentes elegidas, se mencionan
 aquellas que fueron consideradas pero descartadas luego de algunos ensayos y
@@ -532,9 +518,9 @@ elementales (altura, duración, intensidad, etc) necesarias para definir el
 conjunto articulaciones constituyentes de un discurso musical, en determinado
 sentido rudimental, austero y moderado.
 
-Acorde a esto se hilvanó una rutina de procesos, compuesta por un interprete ,
-un analizador sintáctico [^ver_parser] y un codificador digital [^ver_coder]
-entre otras herramientas, que a partir de valores emita un flujo de mensajes.
+Acorde a esto se hilvanó una rutina de procesos, compuesta por un analizador
+sintáctico [^ver_parser] y un codificador digital [^ver_coder] entre otras
+herramientas, que a partir de valores emita un flujo de mensajes.
 
 [^ver_parser]: @parser
 [^ver_coder]: @coder
@@ -587,24 +573,22 @@ articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
 
 ### Lenguaje
 
-Al establecer este lenguaje formal, el primer esfuerzo se concentró
-en definir la organización de las propiedades de cada parte musical,
-conseguir una estructura lógica que ordene un discurso multi-parte.
+Al establecer este lenguaje formal, el primer esfuerzo se concentró en definir
+la organización de las propiedades de cada parte musical, conseguir una
+estructura lógica que ordene un discurso multi-parte.
 
-La discriminación de los datos comienza a nivel de archivo,
-cada fichero contiene los datos relativos a estratos individuales en la pieza.
-Obteniendo así recursos que canalizan la información de cada parte
-junto con determinadas propiedades globales
-(tempo, armadura de clave, metro, letras, etc),
-que si bien pueden alojarse en una definición de canal,
-son meta eventos [^ver_selfridge2] que afectaran a total de la pieza.
-[^ver_imposiciones]
+La discriminación de los datos comienza a nivel de archivo, cada fichero
+contiene los datos relativos a estratos individuales en la pieza.  Obteniendo
+así recursos que canalizan la información de cada parte junto con determinadas
+propiedades globales (tempo, armadura de clave, metro, letras, etc), que si
+bien pueden alojarse en una definición de canal, son meta eventos
+[^ver_selfridge2] que afectaran al total de la pieza[^ver_imposiciones].
 
-Dicho esto se continua con la organización interna de los documentos
-y algunas consideraciones acerca de el léxico acuñado.
+Dicho esto se continua con la organización interna de los documentos y algunas
+consideraciones acerca del léxico acuñado.
 
-[^ver_imposiciones]: La limitación en cantidad de canales y el carácter global de
-  algunas propiedades son algunas de las imposiciones del el estándar MIDI.
+[^ver_imposiciones]: La limitación en cantidad de canales y el carácter global
+  de algunas propiedades son algunas de las imposiciones del el estándar MIDI.
 
 [^ver_selfridge2]: @selfridge Capitulo 3: MIDI Extensions for Musical Notation
   (1): NoTAMIDI Meta-Events
@@ -612,10 +596,10 @@ y algunas consideraciones acerca de el léxico acuñado.
 #### Formato YAML
 \label{sec:sintaxis}
 
-Las definiciones de pista son regidas por YAML. Si bien el vocabulario
-aceptado es propio de este proyecto, todas las interpretaciones son gestionadas
-por dicho lenguaje. Se reseñan los principales indicadores reservados y
-estructuras básicas.
+Las definiciones de pista son regidas por YAML. Si bien el vocabulario aceptado
+es propio de este proyecto, todas las interpretaciones son gestionadas por
+dicho lenguaje. Se reseñan los principales indicadores reservados y estructuras
+básicas.
 
 En el estilo de bloques de YAML, similar al de Python, la estructura esta
 determinada por la indentación. En términos generales indentación se define
@@ -623,47 +607,47 @@ como los espacios en blanco al comienzo de la linea. Por fuera de la
 indentación y del contexto escalar, YAML destina los espacios en blanco para
 separar entre símbolos.
 
-Los indicadores reservados pertinentes señalar son: los dos puntos ":" denotan
-la proyección de un valor, el guión "-" que indica un bloque de secuencia,
-*Ancla* el nodo para referencia futura el símbolo "&" ampersand, habilitado así
-subsecuentes como *alias* son invocados con el simbolo "\*" asterisco.
+Los indicadores reservados pertinentes a señalar son: los dos puntos ":" denotan
+la proyección de un valor, el guión "-" indica un bloque de secuencia,
+*ancla* el nodo para referencia futura el símbolo "&" ampersand, habilitado así
+inclusiones adicionales del mismo cuyos *alias*, apariciones
+subsecuentes, son invocados con el simbolo "\*" asterisco.
 
 Quizás esta presentación austera suscite una intimidación aparente, como se
 aprecia en los ejemplos desplegados en el capitulo siguiente, con algunas
 reglas sencillas este lenguaje de marcado consigue plena legibilidad, sin dejar
 de ser flexible ni expresivo. Para mas información acerca de otras estructuras
-y el tratamiento especial caracteres reservados, referirse a la especificación
+y el tratamiento especial de caracteres reservados, referirse a la especificación
 del formato[^ver_yaml2].
  
-[^ver_yaml2]:@yaml Apartado 5.3: Indicator Characters
-y Capitulo 6: Basic Structures.
+[^ver_yaml2]:@yaml Apartado 5.3: Indicator Characters y Capitulo 6: Basic
+  Structures.
 
 #### Vocabulario 
 
 Con intensión de favorecer a la comunidad hispanoparlante el léxico que integra
 este lenguaje específico de dominio[^ver_dsl] esta compuesto, salvo contadas
-excepciones, por vocablos del diccionario español.
-De todos modos, son sencillas las modificaciones requeridas
-para habilitar la comprensión de términos equivalentes (en diferentes idiomas).
-\label{sec:espaniol}
+excepciones, por vocablos del diccionario español.  De todos modos, son
+sencillas las modificaciones requeridas para habilitar la comprensión de
+términos equivalentes (en diferentes idiomas).  \label{sec:espaniol}
 
-Para negociar con la noción inabarcable que significa dar soporte a cada aspecto
-musical esperado, siendo imposible anticipar todos las aplicaciones estipuladas
-en determinado sentido arbitrarias y/o circunstanciales, se propone un sistema
-de complementos de usuarios que habilita la salida y entrada de valores, para su
-manipulación externa a la rutina provista. Si bien en el uso este sistema se
-mostró prometedor, su naturaleza no excede el carácter experimental y es
-menesteroso promover mejoras y consideraciones adicionales.
+Para negociar con la noción inabarcable que significa dar soporte a cada
+aspecto musical esperado, siendo imposible anticipar todos las aplicaciones
+estipuladas en determinado sentido arbitrarias y/o circunstanciales, se propone
+un sistema de complementos de usuarios que habilita la salida y entrada de
+valores, para su manipulación externa a la rutina provista. Si bien en el uso
+este sistema se mostró prometedor, su naturaleza no excede el carácter
+experimental y es menesteroso promover mejoras y consideraciones adicionales.
 
-Los componentes del léxico y el sistema de complementos
-son detallados en el primer apartado del capitulo siguiente.
+Los componentes del léxico y el sistema de complementos son detallados en el
+primer apartado del capitulo siguiente.
 
 [^ver_dsl]: @dsl
 
 ### Entorno 
 
 Tanto las abstracciones desarrolladas, así como también la rutina de
-instrucciones principales, esta escritas para el interprete _Python
+instrucciones principales, están destinadas al intérprete _Python
 3_[^ver_python2]. Ademas de incorporar al entorno varios módulos de la
 "Librería Estándar" [^ver_standarlib] esta pieza de software está apoyada en
 otros dos complementos, el marco de trabajo "PyYAML" [^ver_pyyaml] para asistir
@@ -713,9 +697,9 @@ crear y escribir estos archivos con mínimo esfuerzo.
 
 El autor escusa implementar selectivamente algunos de los aspectos más útiles y
 comunes de la especificación MIDI, argumentando tratarse de un gran documento
-en expansión a lo largo de décadas. A pesar de ser incompleta, las propiedades
+en expansión a lo largo de décadas. A pesar de ser en parte incompleta, las propiedades
 cubiertas fueron suficientes para este proyecto y sirvió como marco
-el objetivo de dar soporte a todo aspecto comprendido por la librería[^ver_midiutil2].
+el objetivo de dar soporte a cada aspecto comprendido por la librería[^ver_midiutil2].
 
 
 [^ver_midiutil2]: @midiutil
@@ -733,9 +717,9 @@ contexto, manipular bloques, disponer de macros sencillos y configurables.
 Para estos asuntos se confió en Vim[^ver_vim].
 
 El progreso y el respaldo en linea, fue agilizado por el sistema de control de
-versiones GIT [^ver_git]. Es con esta herramienta, que desde [este
-repositorio](https://github.com/lifofernandez/testesis) se puede _clonar_ el
-desarrollo, junto con las instrucciones para su instalación y uso.
+versiones GIT [^ver_git]. Es esta la herramienta que se permite _clonar_ el
+repositorio contenedor del desarrollo junto con instrucciones de instalación e
+indicaciones de uso[^ver_repo].
 
 Pese a que se comprenden estos temas en el dominio de usuario,
 se reconoce la ventaja y se sugiere el empleo de este tipo de herramientas.
@@ -743,6 +727,7 @@ se reconoce la ventaja y se sugiere el empleo de este tipo de herramientas.
 [^ver_texto]: @moolenaar
 [^ver_vim]: @oualline
 [^ver_git]: @torvalds
+[^ver_repo]: Enlace al repositorio en linea: [https://github.com/lifofernandez/testesis](https://github.com/lifofernandez/testesis).
 
 
 # Resultados
@@ -757,7 +742,7 @@ multiples partes y una discurso cuyos patrones son de duración no equivalente.
 
 ## Gramática
 
-Sobre \hyperref[sec:sintaxis]{la estructura sentada por el protocolo optado}
+Sobre \hyperref[sec:sintaxis]{la estructura sentada por el formato YAML}
 opera otro juego de reglas propio a este desarrollo que gobierna la
 combinatoria entre constituyentes. Luego de exponer estos principios se
 presenta el vocabulario concebido, que junto con la sintaxis completa esta
@@ -773,7 +758,7 @@ musical[^ver_grela].
 De la lista dispuesta en el próximo apartado, en cuestiones constitutivas se
 destaca el término \texttt{forma}[^ver_mono]. Este indica la organización de unidades y
 recibe el mismo tratamiento a nivel macro que a nivel micro, en ambos casos
-\texttt{forma} representa una lista ordenada de elementos declarados
+\texttt{forma} representa una lista ordenada de referencias declaradas y
 disponibles en la paleta de \texttt{unidades}.
 
 Si el elemento carece de este atributo ninguna otra unidad es invocada, por lo
@@ -998,7 +983,7 @@ Capturas
 
 
 
-# Concluciones
+# Conclusiones
 
 
 

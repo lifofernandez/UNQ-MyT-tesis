@@ -31,7 +31,7 @@ BPMs:
 duraciones:
   tipo: 'lista de números decimales'
   defacto: '[ 1 ]'
-  descripcion: 'Largo de articulaciones, lista de factores relativos al de pulso.'
+  descripcion: 'Lapso temporal de las articulaciones, lista de factores relativos al pulso.'
   ejemplo: 'duraciones: [ 1, .5, .5, 1, 1 ]'
 
 dinamicas:
