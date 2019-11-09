@@ -23,8 +23,8 @@
   # para interfaz de linea de comandos
 ---
 
+
 # Resumen 
-\nopagebreak[4]
 
 El presente trabajo propone un contexto de producción musical puramente
 textual.
@@ -60,7 +60,7 @@ vivo) y varias disciplinas (Inteligencia artificial, modelo condicional
 restringido archivología).
 
 
-Completando el aspecto técnico de este trabajo se incluyen el código
+Completa el aspecto técnico de este trabajo la inclusión el código
 de los módulos desarrollados para la implementación.
 
 [^ver_combs]: @coombs 
@@ -68,7 +68,6 @@ de los módulos desarrollados para la implementación.
 
 
 # Introducción
-\nopagebreak[4]
 
 En esta sección inaugural se enmarca la investigación,
 argumentando la constricción principal,
@@ -83,14 +82,12 @@ Para concluir esta introducción
 se tratan trabajos semejantes de cierta relevancia a este proyecto.
 
 ## Justificación 
-\nopagebreak[4]
 
 En este apartado se repasan las ventajas principales del registro de
 información con enunciados textuales y del empleo del lenguaje como medio
 de entrada de instrucciones en escenarios generales.
 
 ### Texto Llano
-\nopagebreak[4]
 \label{sec:porque_texto_plano}
 
 > "...our base material isn't wood or iron, it's knowledge. [...].
@@ -140,7 +137,6 @@ creados.[^ver_leek]
 [^ver_leek]: @leek
 
 ### Interprete de Comandos
-\nopagebreak[4]
 
 Se argumenta la conveniencia
 de prescindir de representaciones gráficas
@@ -202,7 +198,6 @@ las mismas aplican al propósito particular
 que implica este estudio.
 
 ### Interface Digital para Instrumentos Musicales (MIDI)
-\nopagebreak[4]
 \label{sec:porque_midi}
 
 De carácter especifico a la producción musical, en relación directa a este
@@ -233,7 +228,6 @@ dependencia de herramientas especificas para cualquier manipulación.
 
 
 ## Motivación 
-\nopagebreak[4]
 
 
 Este proyecto plantea la necesidad de establecer un contexto y proveer recursos
@@ -256,7 +250,6 @@ Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
 [^ver_yzaguirre]: @yzaguirre
 
 ## Antecedentes 
-\nopagebreak[4]
 
 A continuación se describen algunos desarrollos que vinculan representación y
 manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como
@@ -265,7 +258,6 @@ cosideró Flocking.
 
 
 ### MuseData
-\nopagebreak[4]
 
 La base de datos MuseData [^ver_selfridge] es el sistema
 de codificación principal del Centro de Investigación Asistida por Computador
@@ -282,7 +274,6 @@ musicales de MuseData que se distribución son: MIDI1, MIDI+ y Humdrum.
 [^ver_selfridge]: @selfridge Capitulo 27: MuseData: Multipurpose Representation
 
 #### Organización de archivos MuseData 
-\nopagebreak[4]
 
 Los archivos MuseData están basados en ASCII y se pueden ver en cualquier
 editor de texto. Dentro del formato MuseData el número de archivos por
@@ -293,7 +284,6 @@ agrupados en un directorio para ese movimiento.
 
 
 #### La representación MuseData de información musical
-\nopagebreak[4]
 
 El propósito de la sintaxis MuseData es representar el contenido lógico de una
 pieza musical de una modo neutral. El código se utiliza actualmente en la
@@ -337,7 +327,6 @@ usa estas sugerencias de impresión y sonido en el proceso de generación de
 documentos de partitura y archivos MIDI.
 
 ### Humdrum
-\nopagebreak[4]
 
 David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado
 constantemente por décadas. Humdrum es un conjunto de herramientas de línea de
@@ -350,7 +339,6 @@ más grandes que utilizan PERL, Ruby, Python, Bash, LISP y C++.
 [^ver_wild]: @wild
 
 #### Representación 
-\nopagebreak[4]
 
 En primer lugar, Humdrum define una sintaxis para representar información
 discreta como una serie de registros en un archivo de computadora.
@@ -362,7 +350,6 @@ Algunos otros esquemas pueden ser aumentados por gramáticas definidas por el
 usuario para tareas de investigación.
 
 #### Manipulación
-\nopagebreak[4]
 
 Segundo, está el conjunto de comandos, el Humdrum Toolkit, diseñado para
 manipular archivos que se ajusten a la sintaxis Humdrum en el campo de la
@@ -377,7 +364,6 @@ El énfasis está en **asistido**:
   sistema.
 
 #### De la experiencia a la apreciación 
-\nopagebreak[4]
 
 Apreciación de todo el potencial de Humdrum es definitivamente a partir de la
 experiencia. En palabras de David Huron:
@@ -395,7 +381,6 @@ histioriadores han sido mas lentos para reconocer el potencial del sistema.
 
 #### CLI vs GUI
 \label{sec:CLIvsGUI}
-\nopagebreak[4]
 
 Humdrum u otros sistemas como él ofrecen los recursos para una marcar un
 paradigma para la investigación musical.  
@@ -420,7 +405,6 @@ basados en las cantidades máximas de datos pertinentes será
 un factor en la evolución de nuestra disciplina.
 
 ### MusicXML
-\nopagebreak[4]
 
 MusicXML [^ver_good] fue diseñado desde cero para compartir archivos de música
 entre aplicaciones y archivar registros de música para uso en el futuro.
@@ -437,7 +421,6 @@ MusicXML.
 [^ver_good]: @good
 
 ### Music Markup Language 
-\nopagebreak[4]
 
 El Lenguaje de Marcado de Música (MML)[^ver_mml] es un intento de marcar
 objetos y eventos de música con un lenguaje basado en XML. La marcación de
@@ -464,7 +447,6 @@ ser capaz de secuenciar la música de esta manera.
 [^ver_mml]: @mml
 
 ### Flocking 
-\nopagebreak[4]
 
 Flocking[^ver_clark] es un framework, escrito en JavaScript, para la
 composición de música por computadora que aprovecha las tecnologías e ideas
@@ -488,7 +470,6 @@ existentes.
 
 
 #### Programación declarativa
-\nopagebreak[4]
 
 Arriba, se describió Flocking como un marco **declarativo**. Esta
 característica es esencial para comprender su diseño. La programación
@@ -528,7 +509,6 @@ pertinentes y surgirán otros que cobraran relevancia,
 provee un criterio para proceder.
 
 # Metodología
-\nopagebreak[4]
 
 En este capitulo se introduce el procedimiento de ejecución en el que
 se pueden distinguir tres etapas, una preparatoria, dedicada a investigación,
@@ -541,7 +521,6 @@ otras periféricas vinculadas a la tarea accesoria.
 
 
 ## Preliminares 
-\nopagebreak[4]
 
 Se explican experiencias tempranas necesarias para evidenciar y
 comprobar que la hipótesis formulada fuese al menos abarcable y
@@ -561,7 +540,6 @@ entre otras herramientas, que a partir de valores emita un flujo de mensajes.
 [^ver_coder]: @coder
 
 ### Boceto de Gramática
-\nopagebreak[4]
 
 El método para discretizar información, jerarquizar y distinguir propiedades de
 valores, se basa en el formato YAML [^ver_yaml].  Luego de considerar este
@@ -581,7 +559,6 @@ Goza de cierta madurez, por lo que fue sujeto de ajustes y mejoras[^ver_yaml1.2]
 
 
 ### Prototipo
-\nopagebreak[4]
 Se esbozó un guión de instrucciones acotado a componer cadenas de eventos a
 partir de la interpretación, análisis sintáctico, proyección (mapeo) y
 asignación de valores.
@@ -595,7 +572,6 @@ a mayor adopción en la producción académica.
 [^ver_python]: @python
 
 ## Desarrollo
-\nopagebreak[4]
 
 En las actividades posteriores a las comprobaciones, aunque influenciados entre
 si, se pueden distinguir dos agrupamientos:
@@ -610,7 +586,6 @@ cantidad mayor de propiedades musicales.
 articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
 
 ### Lenguaje
-\nopagebreak[4]
 
 Al establecer este lenguaje formal, el primer esfuerzo se concentró
 en definir la organización de las propiedades de cada parte musical,
@@ -636,7 +611,6 @@ y algunas consideraciones acerca de el léxico acuñado.
 
 #### Formato YAML
 \label{sec:sintaxis}
-\nopagebreak[4]
 
 Las definiciones de pista son regidas por YAML. Si bien el vocabulario
 aceptado es propio de este proyecto, todas las interpretaciones son gestionadas
@@ -665,7 +639,6 @@ del formato[^ver_yaml2].
 y Capitulo 6: Basic Structures.
 
 #### Vocabulario 
-\nopagebreak[4]
 
 Con intensión de favorecer a la comunidad hispanoparlante el léxico que integra
 este lenguaje específico de dominio[^ver_dsl] esta compuesto, salvo contadas
@@ -688,7 +661,6 @@ son detallados en el primer apartado del capitulo siguiente.
 [^ver_dsl]: @dsl
 
 ### Entorno 
-\nopagebreak[4]
 
 Tanto las abstracciones desarrolladas, así como también la rutina de
 instrucciones principales, esta escritas para el interprete _Python
@@ -709,7 +681,6 @@ predefinidas en ingles impuestas por el entorno.
 [^ver_standarlib]: @standarlib
 
 #### Analizador Sintáctico 
-\nopagebreak[4]
 
 El primer proceso en la rutina es el de consumir información subscrita,
 interpretarla y habilitarla para su manipulación posterior. Se confía esta
@@ -731,7 +702,6 @@ En la presentación oficial del entorno dice:
   Python. Con soporte para todos los tipos de datos de la especificación.
 
 #### Codificación de Salida 
-\nopagebreak[4]
 
 La cadena de procesos finaliza cuando la lista articulaciones resultante,
 hasta esta instancia abstracciones en memoria, es secuenciada en eventos,
@@ -748,10 +718,9 @@ cubiertas fueron suficientes para este proyecto y sirvió como marco
 el objetivo de dar soporte a todo aspecto comprendido por la librería[^ver_midiutil2].
 
 
-[^ver_midiutil2]: @midiutil.
+[^ver_midiutil2]: @midiutil
 
 #### Otras herramientas
-\nopagebreak[4]
 
 Para concluir el relato de método se mencionan dos herramientas
 accesorias de las cuales se hizo uso intensivo, tanto en el desarrollo de la
@@ -777,7 +746,6 @@ se reconoce la ventaja y se sugiere el empleo de este tipo de herramientas.
 
 
 # Resultados
-\nopagebreak[4]
 
 Se dedicada esta sección a detallar en profundidad el sistema propuesto.
 Comenzando por los constituyentes y preceptos, seguido los procesos de los
@@ -788,7 +756,6 @@ formato de partitura, de tres ejemplos: una melodía sencilla, un pieza con
 multiples partes y una discurso cuyos patrones son de duración no equivalente.
 
 ## Gramática
-\nopagebreak[4]
 
 Sobre \hyperref[sec:sintaxis]{la estructura sentada por el protocolo optado}
 opera otro juego de reglas propio a este desarrollo que gobierna la
@@ -797,7 +764,6 @@ presenta el vocabulario concebido, que junto con la sintaxis completa esta
 gramática.
 
 ### Sintaxis
-\nopagebreak[4]
 
 El discurso musical de cada parte se organiza en dos niveles. Se distinguen
 las propiedades globales que afectan a la totalidad de la pista de las que en
@@ -831,8 +797,7 @@ sobrescribe propiedades en los referidos.
 [^ver_mono]: Se utiliza fuente tipográfica \texttt{monoespaciada} para resaltar
   el vocabulario propio de este proyecto.
 
-### Léxico
-\nopagebreak[4]
+### Léxico 
 
 A modo de referencia, se describe el léxico acuñado aprovechando la distinción
 expuesta anteriormente entre propiedades generales a la pista y particulares a
@@ -844,8 +809,7 @@ Se presentan en linea: el término que identifica la propiedad, el tipo de dato 
 el valor asignado por defecto, luego una breve descripción y por ultimo un
 ejemplo.
 
-#### Propiedades de Pista 
-\nopagebreak[4]
+#### Propiedades de Pista
 
 Los parámetros generales de cada pista son cuatro:
 El \texttt{nombre} de la pista
@@ -858,7 +822,6 @@ y los \texttt{complementos} de usuario.
 \input{props_pista}
 
 #### Propiedades de Unidad
-\nopagebreak[4]
 
 En el diccionario de unidades de la pista
 cada entrada representa una unidad disponible,
@@ -869,7 +832,6 @@ para cada unidad.
 \input{props_unidad}
 
 #### Articulaciones
-\nopagebreak[4]
 
 Si bien estructuralmente no se distingue otra jerarquía, las siguientes
 propiedades actúan a nivel de articulación, se subscriben a unidades pero en
@@ -894,7 +856,6 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 
 [^ver_variego]:@variego 
 
-\newpage
 ## Implementación
 
 En esta apartado se diagrama el flujo de procesos, se expone la estructura de
@@ -1090,6 +1051,7 @@ puediendo generar variaciones de una misma estructura
 
 * IA / Machine Lerning
 
+
 * LiveCoding
 
 * online secuencing / trabajo colaborativo en tiempo real y a distancia 
@@ -1101,6 +1063,7 @@ Extensiones, agregados y mejoras
 * Atajos de patrones
 
 * Mejoras en la interfaz de complementos de usuarios
+
 
 
 

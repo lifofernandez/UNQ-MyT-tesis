@@ -16,7 +16,9 @@ tex:
        	--template=seminario \
 	-s --csl=vendor/iso690-author-date-es.csl \
 	--filter=pandoc-citeproc \
-	--toc --toc-depth=4 --number-sections \
+	--toc --toc-depth=3 --number-sections \
+	--columns=80 \
+        --from markdown+header_attributes \
 	-o output.tex
 	
 # -V colorlinks \ #revisar por que no anda
@@ -25,6 +27,10 @@ pdf:
 	@xelatex \
 	-interaction=batchmode \
 	-shell-escape output.tex
+
+incontables:
+	@sed -i 's/^\\paragraph/\\subsubsection*/g' output.tex
+
 verb:
 	xelatex \
 	-shell-escape output.tex
@@ -38,6 +44,7 @@ render:
 	@make props
 	@make comentarios
 	@make tex 
+	@make incontables
 	@make pdf # quick fix: table of contents.
 	@make pdf
 
