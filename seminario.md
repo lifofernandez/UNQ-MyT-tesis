@@ -1135,11 +1135,11 @@ Potenciales aplicaciones y desarrollos derivados pueden ser:
   y a distancia mediante, el acceso en linea a una instalación publica.
 
 * Es fácil proyectar un entorno de improvisación musical enviando la salida a
-  registros en memoria para leer/escribir cíclicamente actualizaciones en
+  registros en memoria para reiterar la lectura/escritura de actualizaciones en
 tiempo real.
 
 * Con las consideraciones necesarias es factible la confección de modelos con
-  precision necesaria constringir el entrenamiento de agentes
+  precisión necesaria constringir el entrenamiento de agentes
 informáticos autónomos basados en redes neuronales.
 
 % #### Extensiones, agregados y mejoras
