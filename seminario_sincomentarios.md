@@ -735,9 +735,10 @@ Se dedicada esta sección a detallar en profundidad el sistema propuesto.
 Comenzando por los constituyentes y preceptos, seguido los procesos de los
 cuales estos son objeto.
 
-Concluyendo se expone la entrada, en formato YAML y la salida, representada en
-formato de partitura, de dos ejemplos: una melodía sencilla, una pieza con
-multiples partes.
+Concluyendo se exponen, definiciones de pista en sintaxis YAML como entrada
+y la representación gráfica de la salida en formato de partitura para dos ejemplos:
+una melodía sencilla y una extracto musical con multiples partes instrumentales.
+
 
 ## Gramática
 
@@ -836,7 +837,6 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 \texttt{registración} fija.
 
 
-\input{props_articulaciones}
 
 [^ver_variego]:@variego 
 
@@ -853,7 +853,7 @@ de la rutina superior y relaciones internas.
 
 \bigskip
 
-\begin{verbatim}
+\begin{Verbatim}
    YAML     \ parser       | Secuencia      | codificador / MIDI 
    archivos > definiciones > Pistas         > tracks      /
    -------- \ ------------ | -------------- | ----------- / 
@@ -861,7 +861,7 @@ de la rutina superior y relaciones internas.
             \     Unidades = Segmentos      = llamadas    /      
             \              | Articulaciones = llamadas    /      
    ........ \ ............ | .............. | ........... / 
-\end{verbatim}
+\end{Verbatim}
 
 \bigskip
 
@@ -963,7 +963,10 @@ Explicación de que ejemplo o demostración se va a discutir en cada sección.
 Descripcion
 
 #### YAML
-Código
+\inputminted{yaml}{ejemplo1.yml}
+
+#### Salida detallada
+\input{ejemplo1}
 
 #### Partitura
 Captura
@@ -972,11 +975,18 @@ Captura
 ### Multiples Pistas
 Descripcion
 
+
 #### YAML
-Códigos
+
+\inputminted{yaml}{ejemplo21.yml}
+\inputminted{yaml}{ejemplo22.yml}
+\inputminted{yaml}{ejemplo23.yml}
+
+#### Salida detallada
+\input{ejemplo2}
+
 
 #### Partitura
-Capturas
 
 
 
@@ -1000,8 +1010,10 @@ agilizando al proceso compositivo desde la planificación de obra.
 La secuenciación alcanza considerable nivel de detalle en el control y
 sincronía entre eventos mediante procedimientos relativamente sencillos. El
 registro aislado de partes habilita su convivencia en diferentes piezas.
-Promueve el desarrollo de un corpus de información analítica con incidencia en
-el campo de la musicología y trabajo teórico.
+
+La adopción de un proceder similar al propuesto promueve el desarrollo de un
+corpus de información analítica preparada para tareas de musicología y
+trabajo teórico.
 
 Ventajas justificantes que no se atribuye fomentar a entornos basados en
 interfaces gráficas de usuario.
@@ -1009,10 +1021,10 @@ interfaces gráficas de usuario.
 Potenciales aplicaciones y desarrollos derivados pueden ser:
 
 * La construcción de un espacio virtual de trabajo colaborativo en tiempo real
-  y a distancia mediante, el acceso en linea a una instalación publica.
+  y a distancia, mediante el acceso en linea a una instalación publica.
 
 * Es fácil proyectar un entorno de improvisación musical enviando la salida a
-  registros en memoria para reiterar la lectura/escritura de actualizaciones en
+  registros para reiterar la lectura/escritura de actualizaciones en
 tiempo real.
 
 * Con las consideraciones necesarias es factible la confección de modelos con

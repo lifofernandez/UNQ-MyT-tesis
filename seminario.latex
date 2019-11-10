@@ -263,6 +263,7 @@ $endif$
 
 \usepackage{minted}
 
+\usepackage{fancyvrb}
 
 \setminted[yaml]{
 	framesep=2mm,
