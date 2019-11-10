@@ -518,11 +518,11 @@ conjunto articulaciones constituyentes de un discurso musical, en determinado
 sentido rudimental, austero y moderado.
 
 Acorde a esto se hilvanó una rutina de procesos, compuesta por un analizador
-sintáctico [^ver_parser] y un codificador digital [^ver_coder] entre otras
+sintáctico
+y un codificador digital
+entre otras
 herramientas, que a partir de valores emita un flujo de mensajes.
 
-[^ver_parser]: @parser
-[^ver_coder]: @coder
 
 ### Boceto de Gramática
 
@@ -736,8 +736,8 @@ Comenzando por los constituyentes y preceptos, seguido los procesos de los
 cuales estos son objeto.
 
 Concluyendo se expone la entrada, en formato YAML y la salida, representada en
-formato de partitura, de tres ejemplos: una melodía sencilla, un pieza con
-multiples partes y una discurso cuyos patrones son de duración no equivalente.
+formato de partitura, de dos ejemplos: una melodía sencilla, una pieza con
+multiples partes.
 
 ## Gramática
 
@@ -842,9 +842,9 @@ serie de \texttt{alturas} como punteros en el conjunto intervalos de
 
 ## Implementación
 
-En esta apartado se diagrama el flujo de procesos, se expone la estructura de
-la aplicación, detallando las funciones principales de cada componente y como
-están conectados entre ellos.
+En este apartado se expone la estructura de la aplicación, se dispone un
+esquema, de carácter introductorio, del flujo de procesos y seguido se detallan
+las funciones principales y conexiones de cada componente.
 
 Antes de la descripción de cada capa de abstracción,
 con intensión de facilitar la comprensión,
@@ -884,11 +884,10 @@ como la mas profunda.
 
 ### Secuencia
 
-Después que la información es recibida y consolidada como objetos de clase
-_Pista_, el programa recorre articulaciones y cambios de parámetros entre los
-elementos cada nodo, reuniendo cada pronunciamientos en un único flujo de
-instrucciones[^ver_codigo].
-
+Después que cada nodo en los datos recibidos es consolidado como objeto de
+clase _Pista_, esta instancia finaliza recorriendo articulaciones y cambios de
+parámetros entre los elementos, reuniendo todos los pronunciamientos en
+un único flujo de instrucciones[^ver_codigo].
 
 [^ver_codigo]: El extracto de código correspondiente a cada constructor
 se encuentran en 
@@ -942,12 +941,12 @@ En contra partida, esta clase reúne los mecanismos para preparar y producir
 _Articulaciones_.
 
 Es responsable de administrar \texttt{complementos}, distinguir actualizaciones
-de valor entre instancias y la gestiona alturas, trasponiendo el puntero dentro
+de valor entre instancias y gestiona alturas, trasponiendo el puntero dentro
 el set de registración y trasportando la nota resultante.
 
-Completa secuencialmente patrones dispares alineándolos en relación a lista con
-mayor a la cantidad de miembros. Invoca una instancia de _Articulacion_ por
-cada resultante de esta combinatoria.
+Completa secuencialmente patrones dispares alineándolos en relación a la lista
+de mayor extension. Invoca una instancia de _Articulacion_ para cada miembro
+del conjunto resultante de esta combinatoria.
 
 
 #### Articulación
@@ -1016,25 +1015,21 @@ Potenciales aplicaciones y desarrollos derivados pueden ser:
   registros en memoria para leer/escribir cíclicamente actualizaciones en
 tiempo real.
 
-* Con las consideraciones necesarias es factible la confección de un modelo con
-  la precision adecuada para referencia y entrenamiento de agentes
+* Con las consideraciones necesarias es factible la confección de modelos con
+  precision necesaria constringir el entrenamiento de agentes
 informáticos autónomos basados en redes neuronales.
-
-
 
 
 
 # Apéndice
 
-## Secuencia {-}
+## Secuencia
 \label{sec:codigo_secuencia}
 \inputminted{python}{secuencia/__init__.py}
-\newpage
 
 ## Pista
 \label{sec:codigo_pista}
 \inputminted{python}{secuencia/pista.py}
-\newpage
 
 ## Complemento
 \label{sec:codigo_complemento}
@@ -1043,23 +1038,18 @@ informáticos autónomos basados en redes neuronales.
 ## Unidad
 \label{sec:codigo_elemento}
 \inputminted{python}{secuencia/elemento.py}
-\newpage
 
 ## Sección
 \label{sec:codigo_seccion}
 \inputminted{python}{secuencia/seccion.py}
-\newpage
 
 ## Segmento
 \label{sec:codigo_segmento}
 \inputminted{python}{secuencia/segmento.py}
-\newpage
 
 ## Articulación
 \label{sec:codigo_articulacion}
 \inputminted{python}{secuencia/articulacion.py}
-\newpage
-
 
 # Bibliografía
 
