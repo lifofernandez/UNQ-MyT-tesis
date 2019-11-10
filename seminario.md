@@ -8,7 +8,7 @@
   author: 'Lisandro Fernández'
   tutor: 'Pablo Riera'
   programa: 'Cartografías Espacio-Temporales y Arte Sonoro'
-  date:  'Mayo 2019'
+  date:  'Noviembre 2019'
   place: 'Buenos Aires, Argentina'
   tags: ['representación', 'texto plano', 'CLI', 'MIDI']
   bibliography: referencias.bib
@@ -34,11 +34,12 @@ significado musical; un léxico y una sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
 Acompaña esta propuesta un entorno de herramientas para Intérprete de
-Comandos[^ver_interprete]. Es otro aporte importante del actual desarrollo
-esta cadena de procesos que consume información suscrita a dicha
-representación; derivando esta manipulación en la producción de secuencias de
-mensajes en el formato MIDI estándar. 
+Comandos[^ver_interprete] otro aporte importante del actual desarrollo es esta
+cadena de procesos que consume información suscrita a dicha representación;
+derivando esta manipulación en la producción de secuencias de mensajes de
+control.
 
+% en el formato MIDI estándar. 
 %\hyperref[sec:porque_midi]{formato MIDI estándar}.
 
 La primera parte de este escrito esta dedicada a justificar el objeto de
@@ -81,7 +82,7 @@ relevancia a este proyecto.
 ## Justificación 
 \label{sec:justi}
 
-En este apartado se repasan las ventajas principales del registro de
+Se repasan las ventajas principales del registro de
 información con enunciados textuales y del empleo del lenguaje como medio
 de entrada de instrucciones en escenarios generales.
 
@@ -148,11 +149,11 @@ No depender de un agente de ventanas interviniendo entre el usuario y el
 sistema libra una cantidad considerable de recursos.  
 
 **Una única interfaz para multiples aplicaciones.**
-La estructura esperada de las instrucciones en esta interfaz *aplicación -
-argumento - recurso* (su analogía *verbo - adverbio - sujeto*) persiste para
+La estructura de instrucciones esperada en esta interfaz, *aplicación -
+argumento - recurso* (su analogía *verbo - adverbio - sujeto*), persiste para
 cualquier pieza de software. Dicha recurrencia elimina el ejercicio que
-significa un operar distinto para cada aplicación, favoreciendo un accionar
-semejante en contextos y circunstancias diferentes.
+significa un operar distinto para cada aplicación, fomentando un accionar
+similar en contextos y circunstancias diferentes.
 
 **Tradición.**
 Perdura por décadas como estándar durante la historia de la
@@ -196,12 +197,12 @@ que implica este estudio.
 \label{sec:porque_midi}
 
 De carácter especifico a la producción musical, en relación directa a este
-proyecto es menester acreditar la adopción de un formato en particular para
+proyecto es menester acreditar la adopción de un protocolo en particular para
 codificar la capa que describe y gestiona la performance entre dispositivos
 [^ver_haus].
 
 El animo por que las secuencias de control a producir satisfagan las
-condiciones requeridas para alcanzar compatibilidad con el formato MIDI
+condiciones requeridas para alcanzar compatibilidad con el protocolo MIDI
 estándar[^ver_midi], está fundamentado por sus virtudes de ser y proyectarse
 ampliamente adoptado, soportado en la mayoría de los entornos y apoyado por la
 industria.[^ver_penfold]
@@ -213,17 +214,10 @@ codificación[^ver_transporte], intrínseca a la dificultad que impone para
 interpretar a simple vista la información cifrada, ofuscación que resulta en la
 dependencia de herramientas especificas para cualquier manipulación.
 
-% el resultado de la cadena procesos.
+% El resultado de la cadena procesos.
 % Describe una
 % performance: Computer-based descriptions and executions of music
-% Descripción y ejecución musical basada en computadora
-
-% MIDI (Musical Instrument Digital Interface) is a standard communication
-% protocol thats connects a wide variety of electronic musical instruments,
-% computers, and related Sound devices for playing, editing and recording music.
-% A single MIDI link through a MIDI cable can carry up to sixteen channels of
-% information, each of which can be routed to a separate device or instrument.
-% This could be sixteen different digital instruments, for example. 
+% Descripción ejecución musical basada en computadora
 
 [^ver_penfold]: @penfold
 [^ver_midi]: @midi
@@ -233,9 +227,6 @@ dependencia de herramientas especificas para cualquier manipulación.
 
 
 ## Motivación 
-
-% Necesidades
-% Requerimientos
 
 Este proyecto plantea la necesidad de establecer un contexto y proveer recursos
 para un procedimiento rudimental pero a la vez ágil y flexible de elaboración
@@ -962,12 +953,12 @@ de la rutina superior y relaciones internas.
 
 \begin{verbatim}
    YAML     \ parser       | Secuencia      | codificador / MIDI 
-   archivos \ definiciones | Pistas         | tracks      /
+   archivos > definiciones > Pistas         > tracks      /
    -------- \ ------------ | -------------- | ----------- / 
             \     Unidades = Secciones      |             /      
             \     Unidades = Segmentos      = llamadas    /      
             \              | Articulaciones = llamadas    /      
-   -------- \ ------------ | -------------- | ----------- / 
+   ........ \ ............ | .............. | ........... / 
 \end{verbatim}
 
 \bigskip
@@ -1114,92 +1105,56 @@ Capturas
 
 # Conclusiones
 
-
-% Apreciación de todo el potencial de Humdrum es definitivamente a partir de la
-% experiencia. En palabras de David Huron:
-% 
-% > Cualquier conjunto de herramientas requiere el desarrollo de una experiencia
-% > concomitante, y Humdrum Toolkit no es una excepción. Espero que la inversión
-% > de el tiempo requerido para aprender a usar Humdrum será más que compensado
-% > por ganancias académicas posteriores.
-% 
-% Los usuarios de Humdrum hasta ahora han tendido a trabajar en la percepción de
-% la música o etnomusicología, mientras que los teóricos y los musicólogos
-% histioriadores han sido mas lentos para reconocer el potencial del sistema. 
-
-
-%Entender y sacar provecho de un sistema,
-%El vinculo entre un sistema y el usuario 
-%es radicalmente definido por su interfaz,
-
-%cualquiera, ya sea gráfica,
-%Aunque de aparenta ser mas intuitivo
-%no escapa al requerimiento 
-%necesita de un ejercicio, 
-
-%  \hyperref[sec:CLIvsGUI]{
-% a esta defininicion
-% } 
-
 Lidiar con un sistema de producción musical carente de una representación
-gráfica del discurso, sumando a la incapacidad de manipulaciones mediante
-interfaces de entrada espaciales aportan un grado de abstracción al proceso que
-puede provocar cierta reticencia, valida y \hyperlink{experiencia}{reconocida
-previamente en el estudio del marco referencial}, a la cual la aplicación de
-este proyecto no está exento.
+gráfica, sumando a la incapacidad de manipulaciones mediante
+interfaces de entrada espaciales aportan un grado de abstracción que
+puede provocar cierta reticencia, válida y \hyperlink{experiencia}{reconocida
+previamente en el estudio del marco referencial}, a que la aplicación de
+este proyecto tampoco está exento.
 
-Pero esta oposición se ve compensada por la promesa de ventajas
-significantes, \hyperref[sec:justi]{que de carácter general fueron repasadas
-anteriormente}, en un escenario especifico a la producción, manipulación y
-archivo de información musical, se destacan:
+Compensa esta oposición la promesa de ventajas que, \hyperref[sec:justi]{si
+bien de carácter general fueron reseñadas anteriormente}, en un escenario
+especifico a la producción, manipulación y archivo de información musical se
+destaca la capacidad de acceso a elementos a través de la estructura de
+relaciones de referencia, que propaga actualizaciones en todo el discurso,
+agilizando al proceso compositivo, desde la planificación de obra.
 
-% comparación A/B maleable
+La secuenciación alcanza considerable nivel de detalle en el control y
+sincronía entre eventos con procedimientos relativamente sencillos. El
+registro aislado de partes habilita su convivencia en diferentes piezas. Un
+corpus de información analítica incidiría en el campo de la musicología y
+trabajo teórico.
 
-Agiliza el proceso compositivo, desde la planificación de obra.  El ejercicio
-de registrar el discurso del modo propuesto facilita la propagación de
-actualizaciones, agregados Y variaciones a lo largo de toda la estructura, así
-como también es provechosa partes aisladas la capacidad de mezclar entre
-diferentes piezas.
+Ventajas justificantes que no se atribuye fomentar a entornos basados en
+interfaces gráficas de usuario.
 
-% describir musicales preexistentes
-% presupone un análisis y estudio discursivo 
-% bases de datos
+Potenciales aplicaciones y desarrollos derivados pueden ser:
 
-La secuenciación avanzada, consiguiendo considerable nivel de
-detalle en el control y sincronía entre eventos.
+* La construcción de un espacio virtual de trabajo colaborativo en tiempo real
+  y a distancia mediante, el acceso en linea a una instalación publica.
 
-En el campo de la musicología y trabajo teórico Corpus de definiciones de
-pieza, de información analítica de obras.
+* Es fácil proyectar un entorno de improvisación musical enviando la salida a
+  registros en memoria para leer/escribir cíclicamente actualizaciones en
+tiempo real.
 
-Ventajas justificantes que no fomentan la mayoría de las interfaces gráficas de
-usuario.
+* Con las consideraciones necesarias es factible la confección de un modelo con
+  la precision adecuada para referencia y entrenamiento de agentes
+informáticos autónomos basados en redes neuronales.
 
-% #### Potenciales aplicaciones
-
-* IA / Machine Lerning
-
-%https://en.wikipedia.org/wiki/Constrained_conditional_model
-%Constrained conditional model,
-%de animo ambicioso 
-
-* LiveCoding
-
-* online secuencing / trabajo colaborativo en tiempo real y a distancia 
-
-Extensiones, agregados y mejoras
-
-* Atajos de registraciones
-
-* Atajos de patrones
-
-* Mejoras en la interfaz de complementos de usuarios
+%#### Extensiones, agregados y mejoras
+%
+%* Atajos de registraciones
+%
+%* Atajos de patrones
+%
+%* Mejoras en la interfaz de complementos de usuarios
 
 
 
 
 # Apéndice
 
-## Secuencia
+## Secuencia {-}
 \label{sec:codigo_secuencia}
 \inputminted{python}{secuencia/__init__.py}
 \newpage
@@ -1234,7 +1189,6 @@ Extensiones, agregados y mejoras
 \newpage
 
 
-\newpage
 # Bibliografía
 
 % Reserva de referencias: 
