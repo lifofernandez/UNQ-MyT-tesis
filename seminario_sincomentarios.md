@@ -987,21 +987,21 @@ Lidiar con un sistema de producción musical carente de una representación
 gráfica, sumando a la incapacidad de manipulaciones mediante
 interfaces de entrada espaciales aportan un grado de abstracción que
 puede provocar cierta reticencia, válida y \hyperlink{experiencia}{reconocida
-previamente en el estudio del marco referencial}, a que la aplicación de
-este proyecto tampoco está exento.
+previamente en el estudio del marco referencial}, a la cual la aplicación de
+este proyecto tampoco está exenta.
 
 Compensa esta oposición la promesa de ventajas que, \hyperref[sec:justi]{si
 bien de carácter general fueron reseñadas anteriormente}, en un escenario
 especifico a la producción, manipulación y archivo de información musical se
 destaca la capacidad de acceso a elementos a través de la estructura de
 relaciones de referencia, que propaga actualizaciones en todo el discurso,
-agilizando al proceso compositivo, desde la planificación de obra.
+agilizando al proceso compositivo desde la planificación de obra.
 
 La secuenciación alcanza considerable nivel de detalle en el control y
-sincronía entre eventos con procedimientos relativamente sencillos. El
-registro aislado de partes habilita su convivencia en diferentes piezas. Un
-corpus de información analítica incidiría en el campo de la musicología y
-trabajo teórico.
+sincronía entre eventos mediante procedimientos relativamente sencillos. El
+registro aislado de partes habilita su convivencia en diferentes piezas.
+Promueve el desarrollo de un corpus de información analítica con incidencia en
+el campo de la musicología y trabajo teórico.
 
 Ventajas justificantes que no se atribuye fomentar a entornos basados en
 interfaces gráficas de usuario.
@@ -1012,11 +1012,11 @@ Potenciales aplicaciones y desarrollos derivados pueden ser:
   y a distancia mediante, el acceso en linea a una instalación publica.
 
 * Es fácil proyectar un entorno de improvisación musical enviando la salida a
-  registros en memoria para leer/escribir cíclicamente actualizaciones en
+  registros en memoria para reiterar la lectura/escritura de actualizaciones en
 tiempo real.
 
 * Con las consideraciones necesarias es factible la confección de modelos con
-  precision necesaria constringir el entrenamiento de agentes
+  precisión necesaria constringir el entrenamiento de agentes
 informáticos autónomos basados en redes neuronales.
 
 
