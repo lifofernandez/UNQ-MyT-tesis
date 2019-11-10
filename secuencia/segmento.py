@@ -1,14 +1,13 @@
 import math
-from .elemento import Elemento
+from .unidad import Unidad
 from .articulacion import Articulacion
 from .complemento import Complemento
 
 
-class Segmento( Elemento ):
-  """
-  Secuencia > Pista > Secciones > SEGMENTOS > Articulaciones
-  Conjunto de Articulaciones
-  """
+class Segmento( Unidad ):
+
+  """ Mecanismos para preparar y producir Articulaciones. """
+
   cantidad = 0
 
   defactos = {
@@ -50,9 +49,11 @@ class Segmento( Elemento ):
 
   def verbose( self, vebosidad = 0 ):
     o = self.tipo + ''
-    o += str( self.numero_segmento) + '\t' 
+    o += str( self.numero_segmento) + ' ' 
+    if(self.numero_segmento < 10 ):
+      o += ' ' 
     o += str( self ) + ' '
-    o += '-' * ( 28 - (len( self.nombre ) + self.nivel))
+    o += '-' * (8 - (len( self.nombre ) + self.nivel))
     if vebosidad > 2:
       o +=  '\n' + ('.' * 70 )  
       o += '\n\tORD\tBPM\tDUR\tDIN\tALT\tLTR\tTON\tCTR\n' 
@@ -71,7 +72,7 @@ class Segmento( Elemento ):
     referente,
     propiedades
   ):
-    Elemento.__init__( 
+    Unidad.__init__( 
       self,
       pista, 
       nombre,
@@ -89,18 +90,19 @@ class Segmento( Elemento ):
       **propiedades 
     }
 
-    """ PRE PROCESO DE SEGMENTO """
-    """ Cambia el sentido de los parametros de
-    articulacion """
-    self.revertir = self.props[ 'revertir' ]
-    if self.revertir:
-      if isinstance( self.revertir , list ): 
-        for r in self.revertir:
-          if r in self.props:
-            self.props[ r ].reverse() 
-      elif isinstance( self.revertir , str ):
-        if revertir in self.props:
-          self.props[ self.revertir ].reverse() 
+    """ Preparar Segmento """
+
+    # """ Cambia el sentido de los parámetros de
+    # articulación """
+    # self.revertir = self.props[ 'revertir' ]
+    # if self.revertir:
+    #   if isinstance( self.revertir , list ): 
+    #     for r in self.revertir:
+    #       if r in self.props:
+    #         self.props[ r ].reverse() 
+    #   elif isinstance( self.revertir , str ):
+    #     if revertir in self.props:
+    #       self.props[ self.revertir ].reverse() 
 
     self.canal             = self.props[ 'canal' ]
     self.reiterar          = self.props[ 'reiterar' ]
@@ -130,11 +132,9 @@ class Segmento( Elemento ):
     self.bpm = self.BPMs[0]
     self.programa = self.programas[0]
 
-
     """ COMPLEMENTOS
-        Pasar propiedades por metodos de usuario
+        Pasar propiedades por método de usuario
     """
-    #for complemento in self.pista.complemento:
     if self.pista.complemento:
       for metodo in dir( self.pista.complemento.modulo ):
         if metodo in self.props:
@@ -147,7 +147,6 @@ class Segmento( Elemento ):
                metodo,
             )( original, argumentos )
             setattr( self, clave, modificado )
-
 
   @property
   def precedente( self ):
@@ -177,7 +176,7 @@ class Segmento( Elemento ):
 
   @property
   def tiempo( self ):
-    # duracion en segundos
+    # duración en segundos
     return sum( [ a.tiempo for a in self.articulaciones ] ) 
 
   @property
@@ -229,18 +228,17 @@ class Segmento( Elemento ):
 
   @property
   def articulaciones( self ):
-
-    """ Consolidar "articulacion" 
-    combinar parametros: altura, duracion, dinamica, etc. """
+    """ Consolidar "Articulaciones" 
+    combinar parámetros: altura, duración, dinámica, etc. """
     o = []
     for paso in range( self.cantidad_pasos ):
       """ Alturas, voz y superposición voces. """
       altura = self.alturas[ paso % len( self.alturas ) ]
       acorde = []
-      nota   = altura 
-      """ Relacion: altura > puntero en el set de registracion;
-      Trasponer dentro del set de registracion, luego Transportar,
-      sumar a la nota resultante. """
+      #nota   = altura 
+      """ Trasponer puntero dentro el set de registración.
+        transportar la nota resultante.
+      """
       n = self.registracion[
         ( ( altura - 1 ) + self.transponer ) % len( self.registracion )
       ] 
@@ -249,11 +247,11 @@ class Segmento( Elemento ):
       if self.voces:
         for v in self.voces:
           voz = ( 
-            altura + ( v[ paso % len( v ) ] )  
+            altura  + ( v[ paso % len( v ) ] )  
           ) + self.transponer
           acorde += [ 
             self.transportar + 
-            self.registracion[ voz % len( self.registracion ) ] 
+            self.registracion[ (voz - 1) % len( self.registracion ) ] 
           ]
       """ Cambios de control. """
       controles = []

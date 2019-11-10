@@ -5,10 +5,16 @@ from .seccion  import Seccion
 from .segmento import Segmento
 
 class Pista:
+
+  """ Organiza la estructura de cada instancia desde el nivel macro.
+  Clasifica:
+    Secciones (elementos que refieren a otros)
+    Segmento (no refieren a ningún otro elemento)
+  Gestiona la sucesión de propiedades entre referente y referido.  
+  Resuelve el conjunto de propiedades resultantes de cada elemento y los dispone
+  consecutivamente para ser consumidos en el nivel de abstracción superior.
   """
-  Clase para cada definicion de a partir de archivos .yml
-  Secuencia > PISTA > Secciones > Segmentos > Articulaciones
-  """
+
   cantidad = 0 
 
   defactos = {
@@ -26,9 +32,8 @@ class Pista:
     if verbosidad > 0:
       o = str( self ) + ' '
       o = str( self ) + ' '
-      o +=  '#' * ( 70 - len( o ) )
       if verbosidad > 1:
-        o += '\nELEM\tid\t#\tNIVEL\tRECUR\tNOMBRE\n'
+        o += '\n       id #  LVL RCR\n'
         for e in self.elementos:
           o += e.verbose( verbosidad ) 
           o += '\n'
@@ -56,13 +61,13 @@ class Pista:
 
   @property
   def complemento( self ):
-    ubicacion = self.plugin
+    ruta = self.plugin
     c = None 
-    if ubicacion and os.path.exists( ubicacion ):
+    if ruta and os.path.exists( ruta ):
       # TODO Tirar excepción
       # and p not in Complemento.registro:
-      Complemento.registro.append( ubicacion )
-      c = Complemento( ubicacion )
+      Complemento.registro.append( ruta )
+      c = Complemento( ruta )
     return c
 
   @property

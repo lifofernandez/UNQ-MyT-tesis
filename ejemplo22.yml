@@ -1,24 +1,30 @@
-nombre: 'Billie Jean: Bass'
+nombre: 'Billie Jean: Drum'
 base: &base 
-  registracion: [ 
-    -12, -10, -9, -7, -5, -3, -2,
-      0,   2,  3,  5,  7,  9, 10,
-     12,  14, 15, 17, 19, 21, 22,
-     24
-  ]
-  transportar: 35 #B
+  registracion: [ 36,38,44 ]
+  transportar: 0 
   duraciones: [ .5 ]
-  metro: 4/4
-  dinamicas: [ 0.5 ]
-  canal:  1 
+  dinamicas: [ .5 ]
+  BPMs: [ 100 ]
+  canal: 9 
 unidades: 
   a:
     <<: *base
-    alturas: [ 8, 5, 7, 8 ] 
+    #alturas: [ 1,2,3 ]
+    alturas: [ 3 ]
+    voces:
+      - [ 0 ]
+      - [ -2 ]
   b:
     <<: *base
-    alturas: [ 7, 5, 4, 5 ] 
+    alturas: [ 3 ]
+  c:
+    <<: *base
+    alturas: [ 3 ]
+    voces:
+      - [ 0 ]
+      - [ -2 ]
+      - [ -1 ]
   vuelta:
-    forma: [ 'a', 'b' ]
-    reiterar: 2 
-forma: [ 'vuelta' ] 
+    forma: [ 'a', 'b', 'c','b' ]
+    reiterar: 4
+forma: [ 'vuelta' ]
