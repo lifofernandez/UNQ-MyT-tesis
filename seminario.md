@@ -33,8 +33,8 @@ gramaticales que posibilitan la representación sintáctica de información con
 significado musical; un léxico y una sintaxis que definen estructuras musicales
 contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
-Acompaña esta propuesta un entorno de herramientas para Intérprete de
-Comandos[^ver_interprete] otro aporte importante del actual desarrollo es esta
+Acompaña esta propuesta, un entorno de herramientas para intérprete línea de
+comandos[^ver_interprete]. Es otro aporte importante del actual desarrollo una
 cadena de procesos que consume información suscrita a dicha representación;
 derivando esta manipulación en la producción de secuencias de mensajes de
 control.
@@ -42,10 +42,12 @@ control.
 % en el formato MIDI estándar. 
 %\hyperref[sec:porque_midi]{formato MIDI estándar}.
 
-La primera parte de este escrito esta dedicada a justificar el objeto de
+La primera parte de este escrito está dedicada a justificar el objeto de
 estudio, presentar los motivos de las interrogantes, plantear la necesidad
 alternativas, también se discuten antecedentes en codificación textual de
 información musical.
+
+
 
 En la segunda sección se describe el método de ejecución, detallando el
 procedimiento de desarrollo.
@@ -417,10 +419,10 @@ histioriadores han sido mas lentos para reconocer el potencial del sistema.
 \label{sec:CLIvsGUI}
 
 Humdrum u otros sistemas como él ofrecen los recursos para marcar un
-paradigma para la investigación musical.  
+paradigma en la investigación musical.  
 
 El tedio de recopilar pruebas sólidas que apoyen las propias teorías pueden ser
-aliviadas por la automatización, y cuanto mayor sea la cantidad de música
+aliviadas por la automatización y cuanto mayor sea la cantidad de música
 examinada mayor será el rigor de la prueba de las hipótesis.  
 
 Sin embargo, la desafortunada posibilidad es que muchos de los musicólogos y
@@ -492,7 +494,7 @@ declarativo de programación.
 El objetivo de Flocking es permitir el crecimiento de un ecosistema de
 herramientas que puedan analizar y entender fácilmente la lógica y la semántica
 de los instrumentos digitales representando de forma declarativa los pilares
-básicos de síntesis de audio.  Esto es particularmente útil para soportar la
+básicos de síntesis de audio. Esto es particularmente útil para soportar la
 composición generativa donde los programas generan nuevos instrumentos
 de forma algorítmica, herramientas gráficas para que programadores y
 no programadores colaboren, y nuevos modos de programación social que permiten
@@ -826,7 +828,7 @@ se reconoce la ventaja y se sugiere el empleo de este tipo de herramientas.
 [^ver_texto]: @moolenaar
 [^ver_vim]: @oualline
 [^ver_git]: @torvalds
-[^ver_repo]: Enlace al repositorio en linea: [https://github.com/lifofernandez/testesis](https://github.com/lifofernandez/testesis).
+[^ver_repo]: Enlace al repositorio en linea: [https://gitlab.com/lf3/yml2mid] (https://gitlab.com/lf3/yml2mid)
 
 
 # Resultados
@@ -1117,7 +1119,7 @@ puede provocar cierta reticencia, válida y \hyperlink{experiencia}{reconocida
 previamente en el estudio del marco referencial}, a la cual la aplicación de
 este proyecto tampoco está exenta.
 
-Compensa esta oposición la promesa de ventajas que, \hyperref[sec:justi]{si
+Esta oposición se ve compensada por la promesa de ventajas que, \hyperref[sec:justi]{si
 bien de carácter general fueron reseñadas anteriormente}, en un escenario
 especifico a la producción, manipulación y archivo de información musical se
 destaca la capacidad de acceso a elementos a través de la estructura de
