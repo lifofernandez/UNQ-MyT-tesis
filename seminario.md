@@ -44,12 +44,14 @@ estructuras.
 % del actual desarrollo
 % derivando esta manipulación en la
 % para intérprete línea de comandos
+% subscrita a dicha definición y
+% autodescriptivo 
 
-Por otro lado este estudio produjo un entorno de piezas de software para
-acompañar la propuesta. Se escribió un encadenado de procesos y manipulaciones
+Por otro lado este estudio produjo un entorno de piezas de software que
+acompaña la propuesta. Se escribió un encadenado de procesos y manipulaciones
 que consume información contenida en archivos de texto serializado [^ver_combs]
-y autodescriptivo subscrita a dicha definición y produce secuencias de mensajes
-con el fin de controlar dispositivos sonoros, tanto virtuales como físicos.
+y produce secuencias de mensajes capaces de controlar dispositivos sonoros,
+tanto virtuales como físicos.
 
 \bigskip
 
