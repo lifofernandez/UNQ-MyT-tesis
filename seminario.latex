@@ -401,9 +401,9 @@ $endif$
 %\usepackage{sectsty}
 \hypersetup{
   colorlinks = true,
-  linkcolor  = blue,
-  citecolor  = red,
-  urlcolor   = green,
+  linkcolor  = red,
+  citecolor  = blue,
+  %urlcolor   = pink,
   breaklinks = true
 }
 

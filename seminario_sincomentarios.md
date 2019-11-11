@@ -42,10 +42,8 @@ control.
 
 La primera parte de este escrito está dedicada a justificar el objeto de
 estudio, presentar los motivos de las interrogantes, plantear la necesidad
-alternativas, también se discuten antecedentes en codificación textual de
+de alternativas, también se discuten antecedentes en codificación textual de
 información musical.
-
-
 
 En la segunda sección se describe el método de ejecución, detallando el
 procedimiento de desarrollo.
@@ -60,8 +58,7 @@ escenarios (trabajo colaborativo en simultaneo y a distancia, programación en
 vivo) y varias disciplinas (Inteligencia artificial, modelo condicional
 restringido archivología).
 
-
-Completa el aspecto técnico de este trabajo la inclusión el código
+Completa el aspecto técnico de este trabajo la inclusión del código
 de los módulos desarrollados para la implementación.
 
 [^ver_combs]: @coombs 
@@ -82,9 +79,9 @@ relevancia a este proyecto.
 ## Justificación 
 \label{sec:justi}
 
-Se repasan las ventajas principales del registro de
-información con enunciados textuales y del empleo del lenguaje como medio
-de entrada de instrucciones en escenarios generales.
+Se repasan las ventajas principales del registro de información con enunciados
+textuales y del empleo del lenguaje como medio de entrada de instrucciones en
+escenarios generales.
 
 ### Texto Llano
 \label{sec:porque_texto_plano}
@@ -103,12 +100,12 @@ relación con lo representado
 
 **Mínimo Común Denominador.**
 Potencialmente cualquier herramienta de computo puede operar información
-almacenada en texto plano.  Es soportado en múltiples plataformas, cada sistema
+almacenada en texto plano. Es soportado en múltiples plataformas, cada sistema
 operativo cuenta con al menos un editor de texto todos compatibles hasta la
-codificación de caracteres. 
+codificación. 
 
 **Fácil de manipular.** 
-Procesar cadenas de caracteres es de los trabajos mas rudimentales que pueden
+Procesar cadenas de caracteres es de los trabajos mas rudimentarios que pueden
 ser realizados por un sistema informático. 
 
 **Fácil de mantener.** 
@@ -158,11 +155,11 @@ Perdura por décadas como estándar durante la historia de la
 informática remitiendo a los orígenes de los ordenadores basados en teletipo.
 
 **Resultados reproducibles.**
-Si bien la operación de sistemas sin mas que la entrada de caracteres requiere
+Si bien la operación de sistemas sin más que la entrada de caracteres requiere
 conocimiento y entrenamiento específico, no considerar la capa
 que representa la posición del puntero como parámetros de instrucciones,
-permite que sean recopiladas en secuencias de acciones precisas,
-reutilizar estos guiones en diferentes escenarios y agentes diversos.
+permite que sean recopiladas en secuencias de acciones precisas
+y reutilizar estos guiones en diferentes escenarios, con diferentes agentes.
 
 **Encadenado y Automatización.**
 La posibilidad de componer rutinas complejas de manipulación concatenando
@@ -206,7 +203,7 @@ industria.[^ver_penfold]
 Si bien es ágil y se planea compatible a futuro, cualidades que comparte
 \hyperref[sec:porque_texto_plano]{con el formato de texto llano}, es ineludible
 la desventaja que significa el empleo de cualquier sistema de
-codificación[^ver_transporte], intrínseca a la dificultad que impone para
+codificación[^ver_transporte], intrínseco a la dificultad que impone para
 interpretar a simple vista la información cifrada, ofuscación que resulta en la
 dependencia de herramientas especificas para cualquier manipulación.
 
@@ -221,8 +218,8 @@ dependencia de herramientas especificas para cualquier manipulación.
 ## Motivación 
 
 Este proyecto plantea la necesidad de establecer un contexto y proveer recursos
-para un procedimiento rudimental pero a la vez ágil y flexible de elaboración
-discursos musicales unificando la planificación de obra con la secuenciación
+para un procedimiento sencillo pero a la vez ágil y flexible de elaboración
+discursos musicales acercando la planificación de obra a la secuenciación
 MIDI.
 
 Ademas pretende exponer las ventajas de la Interfaz de Linea de Comandos para
@@ -244,7 +241,7 @@ Fomentar el trabajo colaborativo generando vínculos con y entre usuarios.
 A continuación se describen algunos desarrollos que vinculan representación y
 manipulación de información musical: MuseData, Humdrum, MusicXML y MML; como
 ejemplo de un marco de programación basada en una sintaxis declarativa se
-cosideró Flocking.
+consideró Flocking.
 
 
 ### MuseData
@@ -252,7 +249,7 @@ cosideró Flocking.
 La base de datos MuseData [^ver_selfridge] es el sistema
 de codificación principal del Centro de Investigación Asistida por Computador
 en Humanidades (CCARH) de la Universidad de Stanford.
-La base de datos fue creado por Walter Hewlett. 
+La base de datos fue creada por Walter Hewlett. 
 
 Los archivos MuseData tienen el potencial de existir en múltiples formatos
 comunes de información. La mayoría de las codificaciones derivadas definen
@@ -298,8 +295,8 @@ lo crea conveniente. Las razones de esta postura son dos:
 
 * Cuando se codifica una obra musical, no es la partitura sino el contenido
 lógico de la partitura lo que codifica. Codificar la puntuación significaría
-codificar la posición exacta de cada nota en la página; pero nuestra opinión es
-que tal codificación realmente contendría más información que la que el
+codificar la posición exacta de cada nota en la página; pero es probable
+que tal codificación realmente contenga más información que la que el
 compositor pretende transmitir.
 
 * No se puede anticipar todos los usos que podrían darse a estos datos, pero si
@@ -310,7 +307,7 @@ estos datos deben sonar.
 
 Por otro lado, a veces puede ser útil hacer sugerencias sobre cómo los gráficos
 y el sonido deben ser realizados. Lo importante es identificar las sugerencias
-como un tipo de datos independiente, que puede ser fácilmente ignorado por
+como un tipo de dato independiente, que puede ser fácilmente ignorado por
 software de aplicación o despojado enteramente de los datos. MuseData 
 usa estas sugerencias de impresión y sonido en el proceso de generación de
 documentos de partitura y archivos MIDI.
@@ -321,8 +318,8 @@ David Huron creó Humdrum[^ver_wild] en los años 80, y se ha utilizado
 constantemente por décadas. Humdrum es un conjunto de herramientas de línea de
 comandos que facilita el análisis, así como una sintaxis generalizada para
 representar secuencias de datos.
-Debido a que el conjunto de herramientas es de lenguaje agnóstico.
-Muchos han empleado herramientas de Humdrum en secuencias de comandos
+Debido a que el conjunto de herramientas es de lenguaje agnóstico,
+se han empleado herramientas de Humdrum en secuencias de comandos
 más grandes que utilizan PERL, Ruby, Python, Bash, LISP y C++.
 
 [^ver_wild]: @wild
@@ -379,9 +376,8 @@ aliviadas por la automatización y cuanto mayor sea la cantidad de música
 examinada mayor será el rigor de la prueba de las hipótesis.  
 
 Sin embargo, la desafortunada posibilidad es que muchos de los musicólogos y
-teóricos que se benefician de una pequeña intuición asistida por la máquina es
-probable que sean repelidos por la interfaz totalmente basada en texto de
-Humdrum.  
+teóricos que se beneficiarían de una pequeña intuición asistida por la máquina,
+sean repelidos por la interfaz totalmente basada en texto de Humdrum.  
 
 Aunque en el análisis final los comandos estilo UNIX son seguramente más
 flexibles y eficientes que una interfaz gráfica "amigable", pueden
@@ -448,7 +444,7 @@ El objetivo de Flocking es permitir el crecimiento de un ecosistema de
 herramientas que puedan analizar y entender fácilmente la lógica y la semántica
 de los instrumentos digitales representando de forma declarativa los pilares
 básicos de síntesis de audio. Esto es particularmente útil para soportar la
-composición generativa donde los programas generan nuevos instrumentos
+composición generativa donde los programas producen nuevos instrumentos
 de forma algorítmica, herramientas gráficas para que programadores y
 no programadores colaboren, y nuevos modos de programación social que permiten
 a los músicos adaptar, ampliar y volver a trabajar fácilmente en instrumentos
@@ -493,19 +489,18 @@ estén disponibles para su manipulación por otros programas.
 \bigskip
 
 Si bien la recopilación expuesta no agota la lista de referentes
-pertinentes y que surgirán otros que cobraran relevancia,
+pertinentes y otros que cobraran relevancia,
 provee un criterio inicial para proceder.
 
 # Metodología
 
 En este capitulo se introduce el procedimiento de ejecución en el que
-se pueden distinguir dos etapas, una preparatoria, dedicada a investigación,
-experimentación y pruebas que deviene consecuentemente en la fase de producción.
+se pueden distinguir dos etapas, una preparatoria dedicada a investigación,
+experimentación y pruebas, seguida consecuentemente por la fase de producción.
 
 Se aprovecha para reseñar herramientas preexistentes elegidas, se mencionan
 aquellas que fueron consideradas pero descartadas luego de algunos ensayos y
 otras periféricas vinculadas a la tarea accesoria.
-
 
 ## Preliminares 
 
@@ -516,7 +511,7 @@ fundamentar los pasos siguientes.
 A partir de las inquietudes presentadas, se propuso como objetivo inicial
 establecer una lista de parámetros que asocien valores a propiedades musicales
 elementales (altura, duración, intensidad, etc) necesarias para definir el
-conjunto articulaciones constituyentes de un discurso musical, en determinado
+conjunto de articulaciones constituyentes de un discurso musical, en determinado
 sentido rudimental, austero y moderado.
 
 Acorde a esto se hilvanó una rutina de procesos, compuesta por un analizador
@@ -568,9 +563,9 @@ si, se pueden distinguir dos agrupamientos:
 consecutivos y extender el léxico admitido con el propósito de cubrir una
 cantidad mayor de propiedades musicales.
 
-* Escalar el prototipo a una herramienta informática que: sea capaz de consumir
-  recursos informáticos, interpretar series de registros, manipular valores, derivarlos en
-articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
+* Escalar el prototipo a una herramienta que capaz de consumir recursos
+  informáticos, interpretar series de registros, manipular valores, derivarlos
+en articulaciones, empaquetar y registrar secuencias, entre otras propiedades.
 
 ### Lenguaje
 
@@ -608,11 +603,11 @@ como los espacios en blanco al comienzo de la linea. Por fuera de la
 indentación y del contexto escalar, YAML destina los espacios en blanco para
 separar entre símbolos.
 
-Los indicadores reservados pertinentes a señalar son: los dos puntos ":" denotan
-la proyección de un valor, el guión "-" indica un bloque de secuencia,
-*ancla* el nodo para referencia futura el símbolo "&" ampersand, habilitado así
-inclusiones adicionales del mismo cuyos *alias*, apariciones
-subsecuentes, son invocados con el simbolo "\*" asterisco.
+Los indicadores reservados pertinentes a señalar son: los dos puntos ":"
+denotan la proyección de un valor, el guión "-" indica un bloque de secuencia,
+*ancla* el nodo para referencia futura el símbolo "&" ampersand, habilitando
+así inclusiones adicionales del mismo cuyos *alias*, apariciones subsecuentes,
+son invocados con el simbolo "\*" asterisco.
 
 Quizás esta presentación austera suscite una intimidación aparente, como se
 aprecia en los ejemplos desplegados en el capitulo siguiente, con algunas
@@ -626,7 +621,7 @@ del formato[^ver_yaml2].
 
 #### Vocabulario 
 
-Con intensión de favorecer a la comunidad hispanoparlante el léxico que integra
+Con intención de favorecer a la comunidad hispanoparlante el léxico que integra
 este lenguaje específico de dominio[^ver_dsl] esta compuesto, salvo contadas
 excepciones, por vocablos del diccionario español.  De todos modos, son
 sencillas las modificaciones requeridas para habilitar la comprensión de
@@ -638,7 +633,7 @@ estipuladas en determinado sentido arbitrarias y/o circunstanciales, se propone
 un sistema de complementos de usuarios que habilita la salida y entrada de
 valores, para su manipulación externa a la rutina provista. Si bien en el uso
 este sistema se mostró prometedor, su naturaleza no excede el carácter
-experimental y es menesteroso promover mejoras y consideraciones adicionales.
+experimental y es menester promover mejoras y consideraciones adicionales.
 
 Los componentes del léxico y el sistema de complementos son detallados en el
 primer apartado del capitulo siguiente.
@@ -656,7 +651,7 @@ con el análisis sintáctico, en combinación con la librería "MIDIutil"
 [^ver_midiutil] encargada de la codificación.
 
 En el mismo ánimo \hyperref[sec:espaniol]{con el que se compuso el
-vocabulario}, el guion de acciones hace uso intensivo de idioma español. Esta
+vocabulario}, el guion de acciones hace uso intensivo del idioma español. Esta
 decision es en cierto aspecto cuestionable siendo mayoritarias las sentencias
 predefinidas en ingles impuestas por el entorno.
 
@@ -718,7 +713,7 @@ contexto, manipular bloques, disponer de macros sencillos y configurables.
 Para estos asuntos se confió en Vim[^ver_vim].
 
 El progreso y el respaldo en linea, fue agilizado por el sistema de control de
-versiones GIT [^ver_git]. Es esta la herramienta que se permite _clonar_ el
+versiones GIT [^ver_git]. Es esta la herramienta que permite conseguir el
 repositorio contenedor del desarrollo junto con instrucciones de instalación e
 indicaciones de uso[^ver_repo].
 
@@ -728,7 +723,7 @@ se reconoce la ventaja y se sugiere el empleo de este tipo de herramientas.
 [^ver_texto]: @moolenaar
 [^ver_vim]: @oualline
 [^ver_git]: @torvalds
-[^ver_repo]: Enlace al repositorio en linea: [https://gitlab.com/lf3/yml2mid] (https://gitlab.com/lf3/yml2mid)
+[^ver_repo]: Enlace al repositorio en linea: [https://gitlab.com/lf3/yml2mid](https://gitlab.com/lf3/yml2mid)
 
 
 # Resultados
@@ -754,13 +749,13 @@ gramática.
 
 El discurso musical de cada parte se organiza en dos niveles. Se distinguen
 las propiedades globales que afectan a la totalidad de la pista de las que en
-un siguiente domino, definen cualidades particulares a cada unidad
+un siguiente dominio, definen cualidades particulares a cada unidad
 musical[^ver_grela].
 
 De la lista dispuesta en el próximo apartado, en cuestiones constitutivas se
-destaca el término \texttt{forma}[^ver_mono]. Este indica la organización de unidades y
-recibe el mismo tratamiento a nivel macro que a nivel micro, en ambos casos
-\texttt{forma} representa una lista ordenada de referencias declaradas y
+destaca el término \texttt{forma}[^ver_mono]. Este indica la organización de
+unidades y recibe el mismo tratamiento a nivel macro que a nivel micro, en
+ambos casos representa una lista ordenada de referencias declaradas y
 disponibles en la paleta de \texttt{unidades}.
 
 Si el elemento carece de este atributo ninguna otra unidad es invocada, por lo
@@ -825,7 +820,7 @@ propiedades actúan a nivel de articulación, se subscriben a unidades pero en
 vez de modificar al segmento como conjunto, resultan en un valor por cada
 articulación.  
 
-Comparten la cualidad de esperar listas de valores y proceso combinatorio al
+Comparten la cualidad de esperar listas de valores y el proceso combinatorio al
 cual son sujetas es similar al empleado en la técnica compositiva del motete
 isorrítmico[^ver_variego], difiriendo en que el procedimiento no se limita a
 duraciones y alturas, abarca otras propiedades.
@@ -848,10 +843,9 @@ En este apartado se expone la estructura de la aplicación, se dispone un
 esquema, de carácter introductorio, del flujo de procesos y seguido se detallan
 las funciones principales y conexiones de cada componente.
 
-Antes de la descripción de cada capa de abstracción,
-con intensión de facilitar la comprensión,
-se presenta un esquema de la cadena de procesos
-de la rutina superior y relaciones internas. 
+Antes de la descripción de cada capa de abstracción, con intención de facilitar
+la comprensión, se presenta un esquema de la cadena de procesos de la rutina
+superior y relaciones internas. 
 
 \bigskip
 
@@ -868,10 +862,9 @@ de la rutina superior y relaciones internas.
 \bigskip
 
 
-La rutina principal comienza leyendo, desde argumentos
-posicionales, definiciones de pista. Después de analizadas
-sintacticamente se entregan como diccionarios reunidos en un
-lista al modulo _Secuencia_ [^ver_rossum].
+La rutina principal comienza leyendo, desde argumentos posicionales,
+definiciones de pista. Después de analizadas sintacticamente se entregan como
+diccionarios reunidos en un lista al modulo _Secuencia_ [^ver_rossum].
 
 El producto de dicha manipulación es una lista ordenada de llamadas a diversas
 funciones que operan el codificador, el cual concluye el programa emitiendo una
@@ -919,7 +912,7 @@ Importa rutinas en el módulo usuario (declarado en
 \hyperlink{complementos}{\texttt{complementos} de la pista}) como procesos
 capaces de manipular propiedades de cualquier elemento de la _Pista_.
 
-En concordancia cada _Segmento_ busca coincidencia entre 
+Cada _Segmento_ busca coincidencia entre 
 cada \hyperlink{metodos_usuario}{método de usuario} y clave en sus propiedades,
 delegando a la rutina de usuario la manipulación de los valores
 de la propiedad subordinada.
@@ -1001,7 +994,7 @@ _Secuencia_ final asignando una llamada al codificador por cada instancia.
 # Conclusiones
 
 Lidiar con un sistema de producción musical carente de una representación
-gráfica, sumando a la incapacidad de manipulaciones mediante
+gráfica, sumando a la incapacidad de manipulación mediante
 interfaces de entrada espaciales aportan un grado de abstracción que
 puede provocar cierta reticencia, válida y \hyperlink{experiencia}{reconocida
 previamente en el estudio del marco referencial}, a la cual la aplicación de
@@ -1009,7 +1002,7 @@ este proyecto tampoco está exenta.
 
 Esta oposición se ve compensada por la promesa de ventajas que, \hyperref[sec:justi]{si
 bien de carácter general fueron reseñadas anteriormente}, en un escenario
-especifico a la producción, manipulación y archivo de información musical se
+especifico a la producción, manipulación y archivo de información musical, se
 destaca la capacidad de acceso a elementos a través de la estructura de
 relaciones de referencia, que propaga actualizaciones en todo el discurso,
 agilizando al proceso compositivo desde la planificación de obra.
@@ -1022,7 +1015,7 @@ La adopción de un proceder similar al propuesto promueve el desarrollo de un
 corpus de información analítica preparada para tareas de musicología y
 trabajo teórico.
 
-Ventajas justificantes que no se atribuye fomentar a entornos basados en
+Virtudes que no se atribuye fomentar a entornos basados en
 interfaces gráficas de usuario.
 
 Potenciales aplicaciones y desarrollos derivados pueden ser:
@@ -1034,9 +1027,10 @@ Potenciales aplicaciones y desarrollos derivados pueden ser:
   registros para reiterar la lectura/escritura de actualizaciones en
 tiempo real.
 
-* Con las consideraciones necesarias es factible la confección de modelos con
-  precisión necesaria constringir el entrenamiento de agentes
-informáticos autónomos basados en redes neuronales.
+* Con ciertas consideraciones es factible la confección de modelos constringir
+  precisión necesaria para constringir el entrenamiento de agentes informáticos
+autónomos basados en redes neuronales.
+
 
 
 
