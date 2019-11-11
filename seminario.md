@@ -1063,28 +1063,30 @@ Esta capa corresponde a pronunciamientos en el discurso.
 Es el producto de mecanismos superiores y la materia prima interpretada en la
 _Secuencia_ final asignando una llamada al codificador por cada instancia.
 
+\newpage 
 ## Demostraciones
-
-Explicación de que ejemplo o demostración se va a discutir en cada sección.
+% Explicación de que ejemplo o demostración se va a discutir en cada sección.
 
 ### Melodia Simple
-Descripcion
+% Descripcion
 
 #### YAML
 \inputminted{yaml}{ejemplo1.yml}
 
+
+#### Partitura
+
+\begin{figure}
+  \centering
+  \includesvg[width = 300pt]{ejemplo1}
+  \caption{Feliz Cumpleaños}
+\end{figure}
+
 #### Salida detallada
 \input{ejemplo1}
 
-#### Partitura
-Captura
-
-% #### Gráfico
-% ploteo
-
 ### Multiples Pistas
-Descripcion
-
+%Descripcion
 
 #### YAML
 
@@ -1092,26 +1094,18 @@ Descripcion
 \inputminted{yaml}{ejemplo22.yml}
 \inputminted{yaml}{ejemplo23.yml}
 
-#### Salida detallada
-\input{ejemplo2}
-
-
 #### Partitura
 
-% #### Gráfico
-% ploteos
+\begin{figure}
+\centering
+\includesvg[width = 300pt]{ejemplo2}
+\caption{Billie Jean}
+\end{figure}
 
-% ### Polimetría
-% Paterns con duraciones no equivalentes
-% 
-% #### YAML
-% Códigos
-% 
-% #### Partitura
-% Capturas
-% 
-% % #### Gráfico
-% % ploteos
+#### Salida detallada
+
+\input{ejemplo2}
+
 
 
 # Conclusiones
@@ -1221,5 +1215,4 @@ informáticos autónomos basados en redes neuronales.
 % [^ver_penfold]: @penfold 
 % [^ver_kernighan]: @kernighan Capítulo 8: Documentation (p.141-55)
 % [^ver_gnu]: @gnu
-
 

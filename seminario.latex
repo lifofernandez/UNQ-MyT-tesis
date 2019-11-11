@@ -263,7 +263,8 @@ $endif$
 
 \usepackage{minted}
 
-\usepackage{fancyvrb}
+\usepackage{svg}
+\usepackage{amsmath}
 
 \setminted[yaml]{
 	framesep=2mm,
@@ -292,8 +293,7 @@ $endif$
 
 \newenvironment{gris}{\color{gray}}{\ignorespacesafterend}
 
-
-\usepackage{tikz} % insert this line
+\usepackage{tikz}
 \usetikzlibrary{
   fit,
   arrows,
@@ -306,57 +306,58 @@ $endif$
   shapes,
   %shapes.geometric,
   %shapes.symbols,
-  decorations.markings,
-  decorations.pathreplacing,
-  decorations.pathmorphing,
+  %decorations.markings,
+  %decorations.pathreplacing,
+  %decorations.pathmorphing,
 }
+
 %%
 % tabla aplicación
 
-\definecolor{redi}{RGB}{255,38,0}
-\definecolor{redii}{RGB}{200,50,30}
-\definecolor{yellowi}{RGB}{255,251,0}
-\definecolor{bluei}{RGB}{0,150,255}
-\definecolor{blueii}{RGB}{135,247,210}
-\definecolor{blueiii}{RGB}{91,205,250}
-\definecolor{blueiv}{RGB}{115,244,253}
-\definecolor{bluev}{RGB}{1,58,215}
-\definecolor{orangei}{RGB}{240,143,50}
-\definecolor{yellowii}{RGB}{222,247,100}
-\definecolor{greeni}{RGB}{166,247,166}
-
-\tikzset{ 
-table/.style={
-  matrix of nodes,
-  row sep=-\pgflinewidth,
-  column sep=-\pgflinewidth,
-  nodes={rectangle,draw=black,text width=1.25ex,align=center},
-  text depth=0.25ex,
-  text height=1ex,
-  nodes in empty cells
-  },
-texto/.style={font=\footnotesize\sffamily},
-title/.style={font=\small\sffamily}
-}
-
-
-\newcommand\CellText[2]{%
-  \node[texto,left=of mat#1,anchor=east]
-  at (mat#1.west)
-  {#2};
-}
-
-\newcommand\SlText[2]{%
-  \node[texto,left=of mat#1,anchor=west,rotate=75]
-  at ([xshift=3ex]mat#1.north)
-  {#2};
-}
-
-\newcommand\RowTitle[2]{%
-\node[title,left=2.3cm of mat#1,anchor=west]
-  at (mat#1.north west)
-  {#2};
-}
+%\definecolor{redi}{RGB}{255,38,0}
+%\definecolor{redii}{RGB}{200,50,30}
+%\definecolor{yellowi}{RGB}{255,251,0}
+%\definecolor{bluei}{RGB}{0,150,255}
+%\definecolor{blueii}{RGB}{135,247,210}
+%\definecolor{blueiii}{RGB}{91,205,250}
+%\definecolor{blueiv}{RGB}{115,244,253}
+%\definecolor{bluev}{RGB}{1,58,215}
+%\definecolor{orangei}{RGB}{240,143,50}
+%\definecolor{yellowii}{RGB}{222,247,100}
+%\definecolor{greeni}{RGB}{166,247,166}
+%
+%\tikzset{ 
+%table/.style={
+%  matrix of nodes,
+%  row sep=-\pgflinewidth,
+%  column sep=-\pgflinewidth,
+%  nodes={rectangle,draw=black,text width=1.25ex,align=center},
+%  text depth=0.25ex,
+%  text height=1ex,
+%  nodes in empty cells
+%  },
+%texto/.style={font=\footnotesize\sffamily},
+%title/.style={font=\small\sffamily}
+%}
+%
+%
+%\newcommand\CellText[2]{%
+%  \node[texto,left=of mat#1,anchor=east]
+%  at (mat#1.west)
+%  {#2};
+%}
+%
+%\newcommand\SlText[2]{%
+%  \node[texto,left=of mat#1,anchor=west,rotate=75]
+%  at ([xshift=3ex]mat#1.north)
+%  {#2};
+%}
+%
+%\newcommand\RowTitle[2]{%
+%\node[title,left=2.3cm of mat#1,anchor=west]
+%  at (mat#1.north west)
+%  {#2};
+%}
 
 
 
