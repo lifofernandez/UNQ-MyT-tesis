@@ -25,20 +25,24 @@
 
 # Resumen 
 
-El presente trabajo propone un contexto de producción musical puramente
-textual.
+El presente trabajo de investigación propone un contexto de producción musical
+puramente textual mediante la definición de motivos musicales y la descripción
+de sus relaciones en combinación con un conjunto de herramientas informáticas.
 
-Son el producto de esta investigación un marco de patrones y relaciones
-gramaticales que posibilitan la representación sintáctica de información con
-significado musical; un léxico y una sintaxis que definen estructuras musicales
-contenidas en ficheros de texto serializado [^ver_combs] y autodescriptivo.
 
-Acompaña esta propuesta, un entorno de herramientas para intérprete línea de
-comandos[^ver_interprete]. Es otro aporte importante del actual desarrollo una
-cadena de procesos que consume información suscrita a dicha representación;
-derivando esta manipulación en la producción de secuencias de mensajes de
-control.
+En gran parte este proyecto se concentró en definir un marco de patrones y
+relaciones que permitan la representación sintáctica de información con
+significado musical, describiendo textualmente relaciones de referencia entre
+estructuras. 
 
+
+Por otro lado este estudio produjo un entorno de piezas de software para
+acompañar la propuesta. Se escribió un encadenado de procesos y manipulaciones
+que consume información contenida en archivos de texto serializado [^ver_combs]
+y autodescriptivo subscrita a dicha definición y produce secuencias de mensajes
+con el fin de controlar dispositivos sonoros, tanto virtuales como físicos.
+
+\bigskip
 
 La primera parte de este escrito está dedicada a justificar el objeto de
 estudio, presentar los motivos de las interrogantes, plantear la necesidad
@@ -50,13 +54,12 @@ procedimiento de desarrollo.
 
 La parte central de este trabajo versa sobre el vocabulario y relaciones que
 conforman la gramática propuesta, se explica como dicha representación habilita
-que la semántica musical pueda ser materia prima de esta serie de procesos y se
+que la semántica musical pueda ser materia prima de una serie de procesos y se
 despliega el resultado de algunos ejemplos a modo de demostración.
 
 Para concluir se proyectan algunas aplicaciones posibles en diferentes
 escenarios (trabajo colaborativo en simultaneo y a distancia, programación en
-vivo) y varias disciplinas (Inteligencia artificial, modelo condicional
-restringido archivología).
+vivo) y varias disciplinas (inteligencia artificial, archivología).
 
 Completa el aspecto técnico de este trabajo la inclusión del código
 de los módulos desarrollados para la implementación.
