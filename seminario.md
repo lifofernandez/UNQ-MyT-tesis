@@ -1135,7 +1135,7 @@ Potenciales aplicaciones y desarrollos derivados pueden ser:
   registros para reiterar la lectura/escritura de actualizaciones en
 tiempo real.
 
-* Con ciertas consideraciones es factible la confección de modelos constringir
+* Con ciertas consideraciones es factible la confección de modelos con 
   precisión necesaria para constringir el entrenamiento de agentes informáticos
 autónomos basados en redes neuronales.
 
