@@ -65,11 +65,10 @@ Completa el aspecto técnico de este trabajo la inclusión del código
 de los módulos desarrollados para la implementación.
 
 [^ver_combs]: @coombs 
-[^ver_interprete]: @interprete
 
 # Introducción
 
-En esta sección inaugural se enmarca la investigación, argumentando la
+En esta sección inaugural se enmarca la investigación argumentando la
 constricción principal, la adopción de un sistema de escritura como contenedor
 de instrucciones y medio de interacción.
 
