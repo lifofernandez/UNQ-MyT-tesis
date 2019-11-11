@@ -1065,6 +1065,9 @@ _Secuencia_ final asignando una llamada al codificador por cada instancia.
 \inputminted{yaml}{ejemplo1.yml}
 
 
+#### Salida detallada
+\input{ejemplo1}
+
 #### Partitura
 
 \begin{figure}
@@ -1072,9 +1075,6 @@ _Secuencia_ final asignando una llamada al codificador por cada instancia.
   \includesvg[width = 300pt]{ejemplo1}
   \caption{Feliz Cumpleaños}
 \end{figure}
-
-#### Salida detallada
-\input{ejemplo1}
 
 ### Multiples Pistas
 %Descripcion
@@ -1085,6 +1085,12 @@ _Secuencia_ final asignando una llamada al codificador por cada instancia.
 \inputminted{yaml}{ejemplo22.yml}
 \inputminted{yaml}{ejemplo23.yml}
 
+
+#### Salida detallada
+
+\input{ejemplo2}
+
+
 #### Partitura
 
 \begin{figure}
@@ -1092,12 +1098,6 @@ _Secuencia_ final asignando una llamada al codificador por cada instancia.
 \includesvg[width = 300pt]{ejemplo2}
 \caption{Billie Jean}
 \end{figure}
-
-#### Salida detallada
-
-\input{ejemplo2}
-
-
 
 # Conclusiones
 
