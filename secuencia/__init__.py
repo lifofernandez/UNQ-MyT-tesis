@@ -67,8 +67,8 @@ class Secuencia:
       Genera una secuencia de eventos MIDI lista de articulaciones.  """
     
       for segmento in pista.segmentos:
+
         canal = segmento.canal
-        #delta += segmento.desplazar
     
         if delta < 0:
          raise ValueError( 'No se puede desplazar antes q el inicio' ) 
@@ -238,8 +238,6 @@ class Secuencia:
                 articulacion.duracion, 
                 articulacion.dinamica
               ])
-            #else:
-            #  print('eo')
     
           if articulacion.controles:
             """ Agregar cambios de control """
