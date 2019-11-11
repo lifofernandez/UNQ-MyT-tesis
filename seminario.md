@@ -1043,7 +1043,7 @@ de valor entre instancias y gestiona alturas, trasponiendo el puntero dentro
 el set de registración y trasportando la nota resultante.
 
 Completa secuencialmente patrones dispares alineándolos en relación a la lista
-de mayor extension. Invoca una instancia de _Articulacion_ para cada miembro
+de mayor extensión. Invoca una instancia de _Articulacion_ para cada miembro
 del conjunto resultante de esta combinatoria.
 
 % http://www.texample.net/tikz/examples/timing-diagram/
