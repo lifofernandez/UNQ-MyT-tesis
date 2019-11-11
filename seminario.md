@@ -15,7 +15,7 @@
   abstract: |
     Se propone un lenguaje formal
     basado en texto plano, descriptivo y serializado,
-    capaz de representar informacion musical.
+    capaz de representar información musical.
     Contextualiza, un conjunto de utilidades
     cuyo fin es producir
     secuencias musicales en el estándar MIDI.
@@ -746,7 +746,7 @@ con el análisis sintáctico, en combinación con la librería "MIDIutil"
 
 En el mismo ánimo \hyperref[sec:espaniol]{con el que se compuso el
 vocabulario}, el guion de acciones hace uso intensivo del idioma español. Esta
-decision es en cierto aspecto cuestionable siendo mayoritarias las sentencias
+decisión es en cierto aspecto cuestionable siendo mayoritarias las sentencias
 predefinidas en ingles impuestas por el entorno.
 
 [^ver_python2]: @python
@@ -762,7 +762,7 @@ tarea al analizador sintáctico _PyYAML_.
 
 En la presentación oficial del entorno dice:
 
-* Ser completamente capaz de analizar YAML en su version 1.1, comprendiendo
+* Ser completamente capaz de analizar YAML en su versión 1.1, comprendiendo
   todos los ejemplos de dicha especificación.
 
 * Implementar un algoritmo referente gracias a su sencillez.
