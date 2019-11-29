@@ -40,12 +40,12 @@ modo:
     El número 0 indica que se trata de una escala mayor, mientras que el 1 representa tonalidad menor.
   ejemplo: 'modo: 1 # menor'
 
-registracion:
+registro:
   tipo: 'lista de enteros'
   defacto: '[ 1 ]'
   descripcion: 'Conjunto de intervalos a ser indexados por el puntero de \texttt{alturas}.'
   ejemplo: | 
-    registracion: [ 
+    registro: [ 
       -12,-10, -9, -7, -5, -3, -2,
         0,  2,  3,  5,  7,  9, 10,
        12, 14, 15, 17, 19, 21, 22,
@@ -64,7 +64,7 @@ transponer:
   descripcion: |
     Transponer puntero de intervalo.
 
-    Ajuste de alturas, pero dentro de la \texttt{registracion} fija.
+    Ajuste de alturas, pero dentro del \texttt{registro} de intervalos.
   ejemplo: 'transponer: 3'
 
 metro:

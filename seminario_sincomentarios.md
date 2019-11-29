@@ -833,7 +833,7 @@ alineandose, hasta completar el total de articulaciones.
 
 Es pertinente señalar la combinatoria que resulta indexando los valores de la
 serie de \texttt{alturas} como punteros en el conjunto intervalos de
-\texttt{registración} fija.
+\texttt{registro} fija.
 
 
 
@@ -938,8 +938,8 @@ En contra partida, esta clase reúne los mecanismos para preparar y producir
 _Articulaciones_.
 
 Es responsable de administrar \texttt{complementos}, distinguir actualizaciones
-de valor entre instancias y gestiona alturas, trasponiendo el puntero dentro
-el set de registración y trasportando la nota resultante.
+de valor entre instancias y gestionar alturas (transponer puntero dentro
+del registro, trasportar nota resultante y superposiciones de voces).
 
 Completa secuencialmente patrones dispares alineándolos en relación a la lista
 de mayor extensión. Invoca una instancia de _Articulacion_ para cada miembro
@@ -1009,9 +1009,9 @@ destaca la capacidad de acceso a elementos a través de la estructura de
 relaciones de referencia, que propaga actualizaciones en todo el discurso,
 agilizando al proceso compositivo desde la planificación de obra.
 
-La secuenciación alcanza considerable nivel de detalle en el control y
+El control de secuencia alcanza considerable nivel de detalle de
 sincronía entre eventos mediante procedimientos relativamente sencillos. El
-registro aislado de partes habilita su convivencia en diferentes piezas.
+registro aislado de partes habilita que puedan convivir en diferentes piezas.
 
 La adopción de un proceder similar al propuesto promueve el desarrollo de un
 corpus de información analítica preparada para tareas de musicología y

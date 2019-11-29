@@ -1,6 +1,6 @@
 nombre: 'Billie Jean: Drum'
 base: &base 
-  registracion: [ 36,38,44 ]
+  registro: [ 36,38,44 ]
   transportar: 0 
   duraciones: [ .5 ]
   dinamicas: [ .5 ]

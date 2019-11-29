@@ -62,7 +62,7 @@ El número 0 indica que se trata de una escala mayor, mientras que el 1 represen
 modo: 1 # menor
 \end{minted}
   \vbox{
-  \item [\texttt{registracion}] 
+  \item [\texttt{registro}] 
     \begin{minipage}[t]{6cm}\flushleft
 	    \textsf{(lista de enteros)}
     \end{minipage}
@@ -74,7 +74,7 @@ modo: 1 # menor
     \small{ Conjunto de intervalos a ser indexados por el puntero de \texttt{alturas}. }
 }
 \begin{minted}{yaml}
-registracion: [ 
+registro: [ 
   -12,-10, -9, -7, -5, -3, -2,
     0,  2,  3,  5,  7,  9, 10,
    12, 14, 15, 17, 19, 21, 22,
@@ -109,7 +109,7 @@ transportar: 60 # C
     \vskip.2\baselineskip
     \small{ Transponer puntero de intervalo.
 
-Ajuste de alturas, pero dentro de la \texttt{registracion} fija.
+Ajuste de alturas, pero dentro del \texttt{registro} de intervalos.
  }
 }
 \begin{minted}{yaml}
