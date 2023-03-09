@@ -1,8 +1,10 @@
-# Plan de Tesis y Tesis de Grado
+# Grade Thesis: Textual Representation of Musical Structures and CLI Sequencing EnvTextual Representation of Musical Structures and CLI Sequencing Environmentironment
 
-Repositorio de mi Plan de Tesis y mi Tesis de Grado.
+## Code 
+https://gitlab.com/lf3/yml2mid
 
-Instalar Pandoc y Latex y filtror
+## PDF Document
+Instalar Pandoc y Latex 
 
 ```bash
 make install
